@@ -1041,13 +1041,69 @@ def resolve_regions(args) -> List[Tuple[str, str]]:
 
 def main():
     parser = argparse.ArgumentParser()
+
     parser.add_argument("--region", help='특정 지역만 생성. 예: "경기도|성남시"')
     parser.add_argument("--sido", help='시도 전체 생성. 예: "경기도"')
     parser.add_argument("--all", action="store_true", help="전국 전체 생성")
-    parser.add_argument("--skip-web-phone", action="store_true", help="네이버 웹/블로그/카페 전화번호 추출 생략")
-    parser.add_argument("--force", action="store_true", help="기존 JSON이 있어도 강제로 다시 생성")
-    parser.add_argument("--min-count", type=int, default=1, help="이 개수 이상 들어있는 지역 JSON은 정상으로 보고 건너뜀")
-    parser.add_argument("--audit", action="store_true", help="생성하지 않고 현재 output/data 누락 상태만 점검")
+
+    parser.add_argument(
+        "--skip-web-phone",
+        action="store_true",
+        help="네이버 웹/블로그/카페 전화번호 추출 생략"
+    )
+
+    parser.add_argument(
+        "--force",
+        action="store_true",
+        help="기존 JSON이 있어도 강제로 다시 생성"
+    )
+
+    parser.add_argument(
+        "--min-count",
+        type=int,
+        default=1,
+        help="이 개수 이상 들어있는 지역 JSON은 정상으로 보고 건너뜀"
+    )
+
+    parser.add_argument(
+        "--audit",
+        action="store_true",
+        help="생성하지 않고 현재 output/data 누락 상태만 점검"
+    )
+
+    # GitHub Actions 자동화용 옵션
+    parser.add_argument(
+        "--region-group",
+        help="권역 자동 생성. 예: today, 0, 1, 2, 3, 4, 5, missing"
+    )
+
+    parser.add_argument(
+        "--resume",
+        action="store_true",
+        help="이전 중단 지점부터 이어서 실행"
+    )
+
+    parser.add_argument(
+        "--max-kakao",
+        type=int,
+        default=7000,
+        help="카카오 호출 보호 상한"
+    )
+
+    parser.add_argument(
+        "--max-naver",
+        type=int,
+        default=20000,
+        help="네이버 호출 보호 상한"
+    )
+
+    parser.add_argument(
+        "--max-kapt",
+        type=int,
+        default=50000,
+        help="K-apt 호출 보호 상한"
+    )
+
     args = parser.parse_args()
 
     config = load_config()
@@ -1058,6 +1114,7 @@ def main():
         max_naver=args.max_naver,
         max_kapt=args.max_kapt,
     )
+
     gen = AptFinderGenerator(config, limiter=limiter)
 
     if args.audit:
