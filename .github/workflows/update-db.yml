@@ -1,0 +1,50 @@
+name: Update AptFinder DB
+
+on:
+  schedule:
+    - cron: "0 19 * * *"   # 매일 한국시간 새벽 4시
+  workflow_dispatch:
+    inputs:
+      region_group:
+        description: "today, 0, 1, 2, 3, 4, 5, missing"
+        required: false
+        default: "today"
+
+permissions:
+  contents: write
+
+jobs:
+  update-db:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install requests
+
+      - name: Run AptFinder DB updater
+        env:
+          PUBLIC_DATA_SERVICE_KEY: ${{ secrets.PUBLIC_DATA_SERVICE_KEY }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: |
+          REGION_GROUP="${{ github.event.inputs.region_group }}"
+          if [ -z "$REGION_GROUP" ]; then REGION_GROUP="today"; fi
+          python scripts/generate_aptfinder_db.py --region-group "$REGION_GROUP" --skip-web-phone --min-count 1
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "aptfinder-bot"
+          git config user.email "aptfinder-bot@users.noreply.github.com"
+          git add output/
+          git diff --cached --quiet || git commit -m "Auto update AptFinder DB"
+          git push
