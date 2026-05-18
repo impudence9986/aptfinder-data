@@ -488,8 +488,6 @@ class AptFinderGenerator:
             print(f"남은 지역: {len(remaining)}개")
 
 
-    def build_region
-
     def build_region(self, sido: str, sigungu: str, skip_web_phone: bool = False) -> List[ComplexItem]:
         apt_items = self.fetch_kapt_region(sido, sigungu)
         officetel_items = self.collect_officetels(sido, sigungu)
