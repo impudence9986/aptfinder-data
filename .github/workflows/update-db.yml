@@ -9,6 +9,14 @@ on:
         description: "today, 0, 1, 2, 3, 4, 5, missing"
         required: false
         default: "today"
+      max_kakao:
+        description: "카카오 호출 보호 상한"
+        required: false
+        default: "7000"
+      max_naver:
+        description: "네이버 호출 보호 상한"
+        required: false
+        default: "20000"
 
 permissions:
   contents: write
@@ -30,7 +38,7 @@ jobs:
         run: |
           pip install requests
 
-      - name: Run AptFinder DB updater
+      - name: Run AptFinder DB updater with resume and quota guard
         env:
           PUBLIC_DATA_SERVICE_KEY: ${{ secrets.PUBLIC_DATA_SERVICE_KEY }}
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
@@ -38,8 +46,21 @@ jobs:
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: |
           REGION_GROUP="${{ github.event.inputs.region_group }}"
+          MAX_KAKAO="${{ github.event.inputs.max_kakao }}"
+          MAX_NAVER="${{ github.event.inputs.max_naver }}"
+
           if [ -z "$REGION_GROUP" ]; then REGION_GROUP="today"; fi
-          python scripts/generate_aptfinder_db.py --region-group "$REGION_GROUP" --skip-web-phone --min-count 1
+          if [ -z "$MAX_KAKAO" ]; then MAX_KAKAO="7000"; fi
+          if [ -z "$MAX_NAVER" ]; then MAX_NAVER="20000"; fi
+
+          python scripts/generate_aptfinder_db.py \
+            --region-group "$REGION_GROUP" \
+            --resume \
+            --force \
+            --skip-web-phone \
+            --max-kakao "$MAX_KAKAO" \
+            --max-naver "$MAX_NAVER" \
+            --max-kapt 50000
 
       - name: Commit and push changes
         run: |
