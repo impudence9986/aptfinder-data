@@ -34,6 +34,7 @@ import requests
 CONFIG_PATH = Path("config.json")
 OUTPUT_DIR = Path("output")
 DATA_DIR = OUTPUT_DIR / "data"
+STATE_PATH = OUTPUT_DIR / "update_state.json"
 
 KAPT_LIST_URL = "https://apis.data.go.kr/1613000/AptListService3/getTotalAptList3"
 KAPT_DETAIL_URL = "https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4"
@@ -198,8 +199,49 @@ def parse_region_arg(arg: str) -> Tuple[str, str]:
     return sido.strip(), sigungu.strip()
 
 
+
+class QuotaStop(Exception):
+    """API 호출량 보호를 위해 정상 중단할 때 사용"""
+    pass
+
+
+class ApiCallLimiter:
+    def __init__(self, max_kakao: int = 7000, max_naver: int = 20000, max_kapt: int = 50000):
+        self.max_kakao = max_kakao
+        self.max_naver = max_naver
+        self.max_kapt = max_kapt
+        self.kakao_used = 0
+        self.naver_used = 0
+        self.kapt_used = 0
+
+    def check_kakao(self):
+        if self.kakao_used >= self.max_kakao:
+            raise QuotaStop(f"카카오 호출량 보호 중단: {self.kakao_used}/{self.max_kakao}")
+        self.kakao_used += 1
+
+    def check_naver(self):
+        if self.naver_used >= self.max_naver:
+            raise QuotaStop(f"네이버 호출량 보호 중단: {self.naver_used}/{self.max_naver}")
+        self.naver_used += 1
+
+    def check_kapt(self):
+        if self.kapt_used >= self.max_kapt:
+            raise QuotaStop(f"K-apt 호출량 보호 중단: {self.kapt_used}/{self.max_kapt}")
+        self.kapt_used += 1
+
+    def snapshot(self) -> dict:
+        return {
+            "kakaoUsed": self.kakao_used,
+            "kakaoMax": self.max_kakao,
+            "naverUsed": self.naver_used,
+            "naverMax": self.max_naver,
+            "kaptUsed": self.kapt_used,
+            "kaptMax": self.max_kapt,
+        }
+
+
 class AptFinderGenerator:
-    def __init__(self, config: dict):
+    def __init__(self, config: dict, limiter: Optional[ApiCallLimiter] = None):
         self.config = config
         self.session = requests.Session()
         self.kakao_headers = {"Authorization": f"KakaoAK {config['kakao_rest_key']}"}
@@ -208,6 +250,7 @@ class AptFinderGenerator:
             "X-Naver-Client-Secret": config["naver_client_secret"],
         }
         self.kapt_key = config["kapt_service_key"]
+        self.limiter = limiter or ApiCallLimiter()
 
     def region_output_path(self, sido: str, sigungu: str) -> Path:
         slug = region_slug(sido, sigungu)
@@ -319,41 +362,133 @@ class AptFinderGenerator:
             print("누락 의심 지역 없음")
 
 
-    def run_regions(self, regions: List[Tuple[str, str]], skip_web_phone: bool = False, force: bool = False, min_count: int = 1):
+    def load_state(self) -> dict:
+        if not STATE_PATH.exists():
+            return {}
+        try:
+            with STATE_PATH.open("r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return {}
+
+    def save_state(
+        self,
+        group_key: str,
+        completed: List[str],
+        remaining: List[Tuple[str, str]],
+        status: str,
+        reason: str = ""
+    ):
+        OUTPUT_DIR.mkdir(exist_ok=True)
+        state = {
+            "group": group_key,
+            "updatedAt": now_text(),
+            "status": status,
+            "reason": reason,
+            "completed": completed,
+            "remaining": [f"{sido}|{sigungu}" for sido, sigungu in remaining],
+            "limits": self.limiter.snapshot(),
+        }
+        with STATE_PATH.open("w", encoding="utf-8") as f:
+            json.dump(state, f, ensure_ascii=False, indent=2)
+
+    def clear_state_if_done(self):
+        if STATE_PATH.exists():
+            try:
+                STATE_PATH.unlink()
+            except Exception:
+                pass
+
+    def run_regions(
+        self,
+        regions: List[Tuple[str, str]],
+        skip_web_phone: bool = False,
+        force: bool = False,
+        min_count: int = 1,
+        resume: bool = False,
+        group_key: str = ""
+    ):
         OUTPUT_DIR.mkdir(exist_ok=True)
         DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+        group_key = group_key or "manual"
+        completed = []
+
+        if resume:
+            state = self.load_state()
+            if state.get("group") == group_key and state.get("remaining"):
+                parsed_remaining = []
+                for raw in state.get("remaining", []):
+                    if "|" in raw:
+                        parsed_remaining.append(parse_region_arg(raw))
+                if parsed_remaining:
+                    print(f"이전 중단 지점부터 이어서 실행: {len(parsed_remaining)}개 남음")
+                    regions = parsed_remaining
+                    completed = list(state.get("completed", []))
 
         processed = 0
         skipped = 0
         failed = 0
 
-        for idx, (sido, sigungu) in enumerate(regions, start=1):
-            path = self.region_output_path(sido, sigungu)
+        try:
+            for idx, (sido, sigungu) in enumerate(regions, start=1):
+                path = self.region_output_path(sido, sigungu)
+                current_key = f"{sido}|{sigungu}"
+                remaining_after_current = regions[idx:]
 
-            if self.should_skip_region(sido, sigungu, force=force, min_count=min_count):
-                count = self.region_file_count(path)
-                skipped += 1
-                print(f"\n[{idx}/{len(regions)}] {sido} {sigungu} 건너뜀 · 기존 {count}개")
-                continue
+                # resume/자동 업데이트에서는 force=True가 기본 권장.
+                # 단, 수동으로 force=False를 쓰면 기존 정상 파일은 스킵 가능.
+                if self.should_skip_region(sido, sigungu, force=force, min_count=min_count):
+                    count = self.region_file_count(path)
+                    skipped += 1
+                    completed.append(current_key)
+                    self.save_state(group_key, completed, remaining_after_current, "running")
+                    print(f"\n[{idx}/{len(regions)}] {sido} {sigungu} 건너뜀 · 기존 {count}개")
+                    continue
 
-            print(f"\n[{idx}/{len(regions)}] {sido} {sigungu} 생성 시작")
+                print(f"\n[{idx}/{len(regions)}] {sido} {sigungu} 생성 시작")
 
-            try:
-                items = self.build_region(sido, sigungu, skip_web_phone=skip_web_phone)
-                file_path = self.write_region_file(sido, sigungu, items)
-                processed += 1
-                print(f"완료: {sido} {sigungu} {len(items)}개 → {file_path}")
+                try:
+                    items = self.build_region(sido, sigungu, skip_web_phone=skip_web_phone)
+                    file_path = self.write_region_file(sido, sigungu, items)
+                    processed += 1
+                    completed.append(current_key)
+                    self.save_state(group_key, completed, remaining_after_current, "running")
+                    print(f"완료: {sido} {sigungu} {len(items)}개 → {file_path}")
 
-            except Exception as e:
-                failed += 1
-                print(f"실패: {sido} {sigungu} / {e}")
+                except QuotaStop:
+                    raise
 
-        self.rebuild_metadata_from_output()
+                except Exception as e:
+                    failed += 1
+                    print(f"실패: {sido} {sigungu} / {e}")
+                    # 실패 지역은 remaining에 다시 넣어서 다음 실행 때 재시도
+                    self.save_state(
+                        group_key,
+                        completed,
+                        [(sido, sigungu)] + remaining_after_current,
+                        "stopped",
+                        reason=f"지역 처리 실패: {sido}|{sigungu} / {e}"
+                    )
 
-        print("\n전체 완료")
-        print(f"처리: {processed}개 / 건너뜀: {skipped}개 / 실패: {failed}개")
-        print(f"GitHub 업로드 대상 폴더: {OUTPUT_DIR.resolve()}")
+            self.rebuild_metadata_from_output()
+            self.clear_state_if_done()
 
+            print("\n전체 완료")
+            print(f"처리: {processed}개 / 건너뜀: {skipped}개 / 실패: {failed}개")
+            print(f"GitHub 업로드 대상 폴더: {OUTPUT_DIR.resolve()}")
+
+        except QuotaStop as e:
+            current_index = processed + skipped + failed
+            remaining = regions[current_index:]
+            self.save_state(group_key, completed, remaining, "stopped", reason=str(e))
+            self.rebuild_metadata_from_output()
+            print(f"\n호출량 보호로 정상 중단: {e}")
+            print(f"다음 실행 때 --resume 옵션으로 이어서 처리됩니다.")
+            print(f"남은 지역: {len(remaining)}개")
+
+
+    def build_region
 
     def build_region(self, sido: str, sigungu: str, skip_web_phone: bool = False) -> List[ComplexItem]:
         apt_items = self.fetch_kapt_region(sido, sigungu)
@@ -389,6 +524,7 @@ class AptFinderGenerator:
             }
 
             try:
+                self.limiter.check_kapt()
                 r = self.session.get(KAPT_LIST_URL, params=params, timeout=60)
                 r.raise_for_status()
                 root = r.json()
@@ -454,6 +590,7 @@ class AptFinderGenerator:
                 "kaptCode": kapt_code,
                 "_type": "json",
             }
+            self.limiter.check_kapt()
             r = self.session.get(KAPT_DETAIL_URL, params=params, timeout=40)
             r.raise_for_status()
             root = r.json()
@@ -525,6 +662,7 @@ class AptFinderGenerator:
         out = []
         for page in range(1, 4):
             try:
+                self.limiter.check_kakao()
                 r = self.session.get(
                     KAKAO_KEYWORD_URL,
                     headers=self.kakao_headers,
@@ -569,6 +707,7 @@ class AptFinderGenerator:
     def naver_local_places(self, keyword: str, sido: str, sigungu: str) -> List[ComplexItem]:
         out = []
         try:
+            self.limiter.check_naver()
             r = self.session.get(
                 NAVER_LOCAL_URL,
                 headers=self.naver_headers,
@@ -642,6 +781,7 @@ class AptFinderGenerator:
 
     def find_phone_kakao(self, keyword: str) -> str:
         try:
+            self.limiter.check_kakao()
             r = self.session.get(KAKAO_KEYWORD_URL, headers=self.kakao_headers, params={"query": keyword, "page": 1, "size": 15}, timeout=20)
             r.raise_for_status()
             for p in r.json().get("documents", []):
@@ -654,6 +794,7 @@ class AptFinderGenerator:
 
     def find_phone_naver_local(self, keyword: str) -> str:
         try:
+            self.limiter.check_naver()
             r = self.session.get(NAVER_LOCAL_URL, headers=self.naver_headers, params={"query": keyword, "display": 5, "start": 1}, timeout=20)
             r.raise_for_status()
             for p in r.json().get("items", []):
@@ -667,6 +808,7 @@ class AptFinderGenerator:
     def find_phone_naver_web_sources(self, keyword: str) -> str:
         for url in [NAVER_WEB_URL, NAVER_BLOG_URL, NAVER_CAFE_URL]:
             try:
+                self.limiter.check_naver()
                 r = self.session.get(url, headers=self.naver_headers, params={"query": keyword, "display": 10, "start": 1}, timeout=20)
                 r.raise_for_status()
                 for p in r.json().get("items", []):
@@ -809,7 +951,12 @@ class AptFinderGenerator:
         return any(x in text for x in trash)
 
     def address_from_list(self, obj: dict) -> str:
-        return " ".join(str(obj.get(k, "")).strip() for k in ["as1", "as2", "as3", "as4"] if str(obj.get(k, "")).strip())
+        values = []
+        for k in ["as1", "as2", "as3", "as4"]:
+            value = str(obj.get(k, "")).strip()
+            if value and value.lower() not in ("none", "null"):
+                values.append(value)
+        return " ".join(values)
 
     def infer_type(self, type_text: str) -> str:
         if "오피스텔" in type_text:
@@ -851,7 +998,6 @@ def resolve_region_group(group_name: str) -> List[Tuple[str, str]]:
     group_name = group_name.strip().lower()
 
     if group_name == "today":
-        # 한국시간 기준 요일 계산
         import datetime
         kst = datetime.timezone(datetime.timedelta(hours=9))
         idx = datetime.datetime.now(kst).weekday()
@@ -863,7 +1009,6 @@ def resolve_region_group(group_name: str) -> List[Tuple[str, str]]:
     targets = REGION_GROUPS.get(idx, [])
 
     if targets == ["MISSING_RETRY"]:
-        # 전체 지역 중 파일 없거나 count 1 미만인 지역만 재생성
         all_regions = [(sido, city) for sido, cities in REGION_MAP.items() for city in cities]
         missing = []
         dummy_config = load_config()
@@ -901,7 +1046,6 @@ def main():
     parser.add_argument("--region", help='특정 지역만 생성. 예: "경기도|성남시"')
     parser.add_argument("--sido", help='시도 전체 생성. 예: "경기도"')
     parser.add_argument("--all", action="store_true", help="전국 전체 생성")
-    parser.add_argument("--region-group", help='자동 권역 실행. 예: today, 0, 1, 2, missing')
     parser.add_argument("--skip-web-phone", action="store_true", help="네이버 웹/블로그/카페 전화번호 추출 생략")
     parser.add_argument("--force", action="store_true", help="기존 JSON이 있어도 강제로 다시 생성")
     parser.add_argument("--min-count", type=int, default=1, help="이 개수 이상 들어있는 지역 JSON은 정상으로 보고 건너뜀")
@@ -911,7 +1055,12 @@ def main():
     config = load_config()
     regions = resolve_regions(args)
 
-    gen = AptFinderGenerator(config)
+    limiter = ApiCallLimiter(
+        max_kakao=args.max_kakao,
+        max_naver=args.max_naver,
+        max_kapt=args.max_kapt,
+    )
+    gen = AptFinderGenerator(config, limiter=limiter)
 
     if args.audit:
         gen.audit_output(regions, min_count=args.min_count)
@@ -922,7 +1071,9 @@ def main():
         regions,
         skip_web_phone=args.skip_web_phone,
         force=args.force,
-        min_count=args.min_count
+        min_count=args.min_count,
+        resume=args.resume,
+        group_key=args.region_group or args.sido or args.region or ("all" if args.all else "manual")
     )
 
 
