@@ -40,6 +40,7 @@ KAPT_LIST_URL = "https://apis.data.go.kr/1613000/AptListService3/getTotalAptList
 KAPT_DETAIL_URL = "https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4"
 
 KAKAO_KEYWORD_URL = "https://dapi.kakao.com/v2/local/search/keyword.json"
+KAKAO_ADDRESS_URL = "https://dapi.kakao.com/v2/local/search/address.json"
 NAVER_LOCAL_URL = "https://openapi.naver.com/v1/search/local.json"
 NAVER_WEB_URL = "https://openapi.naver.com/v1/search/webkr.json"
 NAVER_BLOG_URL = "https://openapi.naver.com/v1/search/blog.json"
@@ -122,9 +123,12 @@ class ComplexItem:
     name: str = ""
     type: str = "아파트"
     city: str = ""
+    sido: str = ""
     district: str = ""
     dong: str = ""
     address: str = ""
+    roadAddress: str = ""
+    jibunAddress: str = ""
     phone: str = ""
     households: str = ""
     source: str = ""
@@ -135,6 +139,8 @@ class ComplexItem:
     reportCount: int = 0
     confidenceScore: int = 0
     lastReportedAt: int = 0
+    addressQuality: str = ""
+    sharedKey: str = ""
 
 
 def load_config() -> dict:
@@ -251,6 +257,7 @@ class AptFinderGenerator:
         }
         self.kapt_key = config["kapt_service_key"]
         self.limiter = limiter or ApiCallLimiter()
+        self.address_cache: Dict[str, dict] = {}
 
     def region_output_path(self, sido: str, sigungu: str) -> Path:
         slug = region_slug(sido, sigungu)
@@ -272,6 +279,203 @@ class AptFinderGenerator:
 
         except Exception:
             return -1
+
+    def normalize_sido_name(self, value: str) -> str:
+        """카카오/검색 결과의 축약 시도명을 앱에서 쓰는 정식 시도명으로 맞춘다."""
+        value = (value or "").strip()
+        mapping = {
+            "서울": "서울특별시",
+            "부산": "부산광역시",
+            "대구": "대구광역시",
+            "인천": "인천광역시",
+            "광주": "광주광역시",
+            "대전": "대전광역시",
+            "울산": "울산광역시",
+            "세종": "세종특별자치시",
+            "경기": "경기도",
+            "강원": "강원특별자치도",
+            "충북": "충청북도",
+            "충남": "충청남도",
+            "전북": "전북특별자치도",
+            "전남": "전라남도",
+            "경북": "경상북도",
+            "경남": "경상남도",
+            "제주": "제주특별자치도",
+        }
+        return mapping.get(value, value)
+
+    def normalize_for_key(self, value: str) -> str:
+        value = (value or "").lower().strip()
+        value = re.sub(r"\s+", "", value)
+        value = re.sub(r"[\-_.·,()\[\]/]", "", value)
+        value = value.replace("대한민국", "")
+        value = value.replace("번지", "")
+        value = value.replace("도로명", "")
+        value = value.replace("지번", "")
+        return value
+
+    def make_shared_key(self, item: ComplexItem) -> str:
+        """앱의 Firestore sharedKey 전략과 맞춘 안정 키. 주소는 일부러 빼서 주소 수정에 흔들리지 않게 한다."""
+        parts = [item.sido, item.city, item.name]
+        return "_".join([self.normalize_for_key(x) for x in parts if self.normalize_for_key(x)])[:180]
+
+    def make_merge_key(self, item: ComplexItem) -> str:
+        """생성기 내부 중복 병합용 키. K-apt 코드는 최우선, 그 외는 이름+지역+주소 정규화."""
+        code = (item.kaptCode or "").strip()
+        if code:
+            return f"kapt:{code}"
+
+        name_key = self.normalize_for_key(item.name)
+        sido_key = self.normalize_for_key(item.sido)
+        city_key = self.normalize_for_key(item.city)
+        type_key = self.normalize_for_key(item.type)
+        address_key = self.normalize_for_key(
+            item.jibunAddress or item.roadAddress or item.address
+        )
+
+        # 주소가 있으면 같은 이름이라도 다른 단지를 과병합하지 않도록 주소를 포함한다.
+        # 주소가 없으면 기존처럼 이름/지역/유형 기준으로만 합친다.
+        if address_key:
+            return f"{sido_key}_{city_key}_{name_key}_{address_key}_{type_key}"
+        return f"{sido_key}_{city_key}_{name_key}_{type_key}"
+
+    def build_dual_address(self, road: str, jibun: str, fallback: str = "") -> str:
+        road = (road or "").strip()
+        jibun = (jibun or "").strip()
+        fallback = (fallback or "").strip()
+
+        if road and jibun and self.normalize_for_key(road) != self.normalize_for_key(jibun):
+            return f"{road}\n{jibun}"
+        if road:
+            return road
+        if jibun:
+            return jibun
+        return fallback
+
+    def optional_kakao_call_allowed(self) -> bool:
+        """주소 보강은 품질 보강용이므로 카카오 한도에 닿으면 전체 중단 대신 보강만 생략한다."""
+        if self.limiter.kakao_used >= self.limiter.max_kakao:
+            return False
+        self.limiter.kakao_used += 1
+        return True
+
+    def kakao_address_search(self, query: str) -> dict:
+        query = (query or "").strip()
+        if not query:
+            return {}
+
+        cache_key = self.normalize_for_key(query)
+        if cache_key in self.address_cache:
+            return self.address_cache[cache_key]
+
+        if not self.optional_kakao_call_allowed():
+            return {}
+
+        try:
+            r = self.session.get(
+                KAKAO_ADDRESS_URL,
+                headers=self.kakao_headers,
+                params={"query": query},
+                timeout=20,
+            )
+            r.raise_for_status()
+            docs = r.json().get("documents", [])
+            if not docs:
+                self.address_cache[cache_key] = {}
+                return {}
+
+            first = docs[0]
+            road_obj = first.get("road_address") or {}
+            addr_obj = first.get("address") or {}
+
+            result = {
+                "roadAddress": (road_obj.get("address_name") or "").strip(),
+                "jibunAddress": (addr_obj.get("address_name") or "").strip(),
+                "sido": self.normalize_sido_name(addr_obj.get("region_1depth_name") or road_obj.get("region_1depth_name") or ""),
+                "cityRaw": (addr_obj.get("region_2depth_name") or road_obj.get("region_2depth_name") or "").strip(),
+                "dong": (addr_obj.get("region_3depth_h_name") or addr_obj.get("region_3depth_name") or road_obj.get("region_3depth_name") or "").strip(),
+            }
+            self.address_cache[cache_key] = result
+            return result
+
+        except Exception:
+            self.address_cache[cache_key] = {}
+            return {}
+
+    def resolve_dual_address(self, raw_address: str, name: str, sido: str, sigungu: str) -> Tuple[str, str, str, str, str, str]:
+        """
+        주소를 카카오 주소 API로 도로명/지번 2줄 구조로 보강한다.
+        반환: displayAddress, roadAddress, jibunAddress, sido, district, dong
+        """
+        raw_address = (raw_address or "").strip()
+        name = (name or "").strip()
+
+        queries = []
+        if raw_address:
+            queries.append(raw_address)
+            if sido and sigungu and not self.is_target_address(raw_address, sido, sigungu):
+                queries.append(f"{sido} {sigungu} {raw_address}")
+        if name:
+            queries.append(f"{sido} {sigungu} {name}")
+
+        result = {}
+        for q in list(dict.fromkeys([x for x in queries if x.strip()])):
+            result = self.kakao_address_search(q)
+            road = result.get("roadAddress", "")
+            jibun = result.get("jibunAddress", "")
+            display = self.build_dual_address(road, jibun, raw_address)
+            if display and self.is_target_address(display, sido, sigungu):
+                break
+            result = {}
+
+        if not result:
+            return raw_address, "", "", sido, self.extract_district(raw_address), self.extract_dong(raw_address)
+
+        road = result.get("roadAddress", "")
+        jibun = result.get("jibunAddress", "")
+        display = self.build_dual_address(road, jibun, raw_address)
+        fixed_sido = result.get("sido") or sido
+        city_raw = result.get("cityRaw", "")
+        district = ""
+        if " " in city_raw:
+            # 예: 수원시 영통구
+            district = city_raw.split(" ", 1)[1].strip()
+        if not district:
+            district = self.extract_district(display)
+        dong = result.get("dong") or self.extract_dong(display)
+        return display, road, jibun, fixed_sido, district, dong
+
+    def normalize_item_address(self, item: ComplexItem, sido: str, sigungu: str) -> ComplexItem:
+        """ComplexItem 하나에 시도/도로명/지번/검색용 키를 채운다."""
+        display, road, jibun, fixed_sido, district, dong = self.resolve_dual_address(
+            item.address,
+            item.name,
+            sido,
+            sigungu,
+        )
+
+        item.sido = fixed_sido or sido
+        item.city = sigungu
+        item.address = display or item.address
+        item.roadAddress = road
+        item.jibunAddress = jibun
+
+        if not item.district:
+            item.district = district
+        if not item.dong:
+            item.dong = dong
+
+        if road and jibun:
+            item.addressQuality = "ROAD_AND_JIBUN"
+        elif road:
+            item.addressQuality = "ROAD_ONLY"
+        elif jibun:
+            item.addressQuality = "JIBUN_ONLY"
+        else:
+            item.addressQuality = "RAW"
+
+        item.sharedKey = self.make_shared_key(item)
+        return item
 
     def should_skip_region(
         self,
@@ -494,6 +698,16 @@ class AptFinderGenerator:
 
         merged = self.merge_items(apt_items + officetel_items)
 
+        print(f"주소 보강 시작: {len(merged)}개")
+        addressed = []
+        for i, item in enumerate(merged, start=1):
+            item = self.normalize_item_address(item, sido, sigungu)
+            addressed.append(item)
+            if i % 20 == 0 or i == len(merged):
+                print(f"  주소 보강 {i}/{len(merged)}")
+
+        merged = self.merge_items(addressed)
+
         print(f"전화번호 보강 시작: {len(merged)}개")
         enriched = []
         for i, item in enumerate(merged, start=1):
@@ -501,7 +715,7 @@ class AptFinderGenerator:
                 item = self.enrich_phone(item, skip_web_phone=skip_web_phone)
             enriched.append(item)
             if i % 20 == 0 or i == len(merged):
-                print(f"  보강 {i}/{len(merged)}")
+                print(f"  전화번호 보강 {i}/{len(merged)}")
 
         return self.merge_items(enriched)
 
@@ -643,8 +857,11 @@ class AptFinderGenerator:
             f"{sigungu} 오피스텔",
             f"{sigungu} 주상복합",
             f"{sigungu} 오피스텔 관리사무소",
+            f"{sigungu} 주상복합 관리사무소",
             f"{sigungu} 관리사무소",
             f"{sido} {sigungu} 오피스텔",
+            f"{sido} {sigungu} 주상복합",
+            f"{sido} {sigungu} 생활형숙박시설",
         ]
         results = []
         for kw in keywords:
@@ -836,15 +1053,24 @@ class AptFinderGenerator:
             base.append(f"{item.city} {item.district} {clean_name} 관리사무소")
         if item.dong:
             base.append(f"{item.dong} {clean_name} 관리사무소")
+        address_candidates = []
+        if item.roadAddress:
+            address_candidates.append(item.roadAddress)
+        if item.jibunAddress:
+            address_candidates.append(item.jibunAddress)
         if item.address:
-            base.append(f"{item.address} 관리사무소")
-            base.append(f"{item.address} 전화번호")
+            address_candidates.extend([x.strip() for x in item.address.splitlines() if x.strip()])
+
+        for addr in list(dict.fromkeys(address_candidates)):
+            base.append(f"{addr} 관리사무소")
+            base.append(f"{addr} 전화번호")
+
         return list(dict.fromkeys([x.strip() for x in base if x.strip()]))
 
     def merge_items(self, items: List[ComplexItem]) -> List[ComplexItem]:
         by_key = {}
         for item in items:
-            key = item.kaptCode or f"{item.name}_{item.address}_{item.city}_{item.type}"
+            key = self.make_merge_key(item)
             old = by_key.get(key)
             if not old:
                 by_key[key] = item
@@ -857,8 +1083,25 @@ class AptFinderGenerator:
                     old.confidenceScore = item.confidenceScore
                 if not old.address and item.address:
                     old.address = item.address
+                if not old.roadAddress and item.roadAddress:
+                    old.roadAddress = item.roadAddress
+                if not old.jibunAddress and item.jibunAddress:
+                    old.jibunAddress = item.jibunAddress
+                if old.addressQuality != "ROAD_AND_JIBUN" and item.addressQuality == "ROAD_AND_JIBUN":
+                    old.address = item.address
+                    old.roadAddress = item.roadAddress
+                    old.jibunAddress = item.jibunAddress
+                    old.addressQuality = item.addressQuality
                 if not old.households and item.households:
                     old.households = item.households
+                if not old.sido and item.sido:
+                    old.sido = item.sido
+                if not old.district and item.district:
+                    old.district = item.district
+                if not old.dong and item.dong:
+                    old.dong = item.dong
+                if not old.sharedKey and item.sharedKey:
+                    old.sharedKey = item.sharedKey
         return list(by_key.values())
 
     def write_region_file(self, sido: str, sigungu: str, items: List[ComplexItem]) -> Path:
