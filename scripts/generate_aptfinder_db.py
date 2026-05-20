@@ -271,24 +271,46 @@ class AptFinderGenerator:
             )
 
     def looks_like_api_quota_limit(self, status_code: int, body: str) -> bool:
+        """
+        실제 API 사용량 제한/쿼터 초과만 감지한다.
+        정상 JSON 필드명(kaptTarea 등)에 포함된 rate 같은 문자열 때문에
+        HTTP 200 정상 응답을 오탐지하지 않도록 200 응답은 제한 감지 대상에서 제외한다.
+        """
         text = (body or "").lower()
-
-        quota_words = [
-            "quota", "limit", "limited", "too many", "rate", "exceed", "exceeded",
-            "daily", "per day", "qps", "429", "throttle", "throttled",
-            "쿼터", "한도", "제한", "초과", "사용량", "일일", "호출", "트래픽",
-        ]
 
         if status_code == 429:
             return True
 
-        if status_code in (401, 403, 503) and any(w in text for w in quota_words):
-            return True
+        # 정상 응답은 절대 quota stop 처리하지 않는다.
+        if 200 <= status_code < 300:
+            return False
 
-        if any(w in text for w in quota_words) and any(x in text for x in ["exceed", "초과", "한도", "limit", "quota", "429"]):
-            return True
+        quota_words = [
+            "quota",
+            "too many requests",
+            "rate limit",
+            "rate_limit",
+            "ratelimit",
+            "exceed",
+            "exceeded",
+            "daily limit",
+            "per day",
+            "qps",
+            "throttle",
+            "throttled",
+            "쿼터",
+            "한도",
+            "제한 초과",
+            "사용량 초과",
+            "일일 호출",
+            "호출 초과",
+            "트래픽 초과",
+        ]
 
-        return False
+        if status_code in (401, 403, 429, 503):
+            return any(w in text for w in quota_words)
+
+        return any(w in text for w in quota_words)
 
     def api_get(self, url: str, provider: str = "API", **kwargs):
         self.check_runtime_budget()
