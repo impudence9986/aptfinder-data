@@ -250,7 +250,7 @@ class ApiCallLimiter:
 
 
 class AptFinderGenerator:
-    def __init__(self, config: dict, limiter: Optional[ApiCallLimiter] = None):
+    def __init__(self, config: dict, limiter: Optional[ApiCallLimiter] = None, max_runtime_minutes: int = 330):
         self.config = config
         self.session = requests.Session()
         self.kakao_headers = {"Authorization": f"KakaoAK {config['kakao_rest_key']}"}
@@ -261,6 +261,61 @@ class AptFinderGenerator:
         self.kapt_key = config["kapt_service_key"]
         self.limiter = limiter or ApiCallLimiter()
         self.address_cache: Dict[str, dict] = {}
+        self.started_at = time.monotonic()
+        self.max_runtime_seconds = max(1, int(max_runtime_minutes)) * 60
+
+
+    def check_runtime_budget(self):
+        """GitHub Actions 6시간 강제 종료 전에 스스로 안전 중단한다."""
+        elapsed = time.monotonic() - self.started_at
+        if elapsed >= self.max_runtime_seconds:
+            raise QuotaStop(
+                f"GitHub Actions 안전정지: {int(elapsed / 60)}분 경과 / "
+                f"제한 {int(self.max_runtime_seconds / 60)}분"
+            )
+
+    def looks_like_api_quota_limit(self, status_code: int, body: str) -> bool:
+        """API 서버가 실제 사용량 제한/쿼터 초과를 알리는 응답인지 감지한다."""
+        text = (body or "").lower()
+
+        quota_words = [
+            "quota", "limit", "limited", "too many", "rate", "exceed", "exceeded",
+            "daily", "per day", "qps", "429", "throttle", "throttled",
+            "쿼터", "한도", "제한", "초과", "사용량", "일일", "호출", "트래픽",
+        ]
+
+        if status_code == 429:
+            return True
+
+        if status_code in (401, 403, 503) and any(w in text for w in quota_words):
+            return True
+
+        if any(w in text for w in quota_words) and any(x in text for x in ["exceed", "초과", "한도", "limit", "quota", "429"]):
+            return True
+
+        return False
+
+    def api_get(self, url: str, provider: str = "API", **kwargs):
+        """
+        모든 외부 API GET 공통 래퍼.
+        - 호출 전 GitHub Actions 안전시간 확인
+        - 실제 API 한도/쿼터 응답 감지 시 QuotaStop
+        """
+        self.check_runtime_budget()
+        response = self.api_get(url, **kwargs)
+
+        body_preview = ""
+        try:
+            body_preview = response.text[:1000]
+        except Exception:
+            body_preview = ""
+
+        if self.looks_like_api_quota_limit(response.status_code, body_preview):
+            raise QuotaStop(
+                f"{provider} 실제 API 사용 제한 감지: HTTP {response.status_code} / {body_preview[:300]}"
+            )
+
+        return response
 
     def region_output_path(self, sido: str, sigungu: str) -> Path:
         slug = region_slug(sido, sigungu)
@@ -378,7 +433,7 @@ class AptFinderGenerator:
             return {}
 
         try:
-            r = self.session.get(
+            r = self.api_get(
                 KAKAO_ADDRESS_URL,
                 headers=self.kakao_headers,
                 params={"query": query},
@@ -510,7 +565,7 @@ class AptFinderGenerator:
             return {}
 
         try:
-            r = self.session.get(
+            r = self.api_get(
                 KAKAO_KEYWORD_URL,
                 headers=self.kakao_headers,
                 params={"query": query, "page": 1, "size": 15},
@@ -577,7 +632,7 @@ class AptFinderGenerator:
             return {}
 
         try:
-            r = self.session.get(
+            r = self.api_get(
                 NAVER_LOCAL_URL,
                 headers=self.naver_headers,
                 params={"query": query, "display": 10, "start": 1},
@@ -1204,7 +1259,7 @@ class AptFinderGenerator:
 
             try:
                 self.limiter.check_kapt()
-                r = self.session.get(KAPT_LIST_URL, params=params, timeout=60)
+                r = self.api_get(KAPT_LIST_URL, params=params, timeout=60)
                 r.raise_for_status()
                 root = r.json()
 
@@ -1272,7 +1327,7 @@ class AptFinderGenerator:
                 "_type": "json",
             }
             self.limiter.check_kapt()
-            r = self.session.get(KAPT_DETAIL_URL, params=params, timeout=40)
+            r = self.api_get(KAPT_DETAIL_URL, params=params, timeout=40)
             r.raise_for_status()
             root = r.json()
             body = root.get("response", {}).get("body", {})
@@ -1349,7 +1404,7 @@ class AptFinderGenerator:
         for page in range(1, 4):
             try:
                 self.limiter.check_kakao()
-                r = self.session.get(
+                r = self.api_get(
                     KAKAO_KEYWORD_URL,
                     headers=self.kakao_headers,
                     params={"query": keyword, "page": page, "size": 15},
@@ -1396,7 +1451,7 @@ class AptFinderGenerator:
         out = []
         try:
             self.limiter.check_naver()
-            r = self.session.get(
+            r = self.api_get(
                 NAVER_LOCAL_URL,
                 headers=self.naver_headers,
                 params={"query": keyword, "display": 5, "start": 1},
@@ -1472,7 +1527,7 @@ class AptFinderGenerator:
     def find_phone_kakao(self, keyword: str) -> str:
         try:
             self.limiter.check_kakao()
-            r = self.session.get(KAKAO_KEYWORD_URL, headers=self.kakao_headers, params={"query": keyword, "page": 1, "size": 15}, timeout=20)
+            r = self.api_get(KAKAO_KEYWORD_URL, headers=self.kakao_headers, params={"query": keyword, "page": 1, "size": 15}, timeout=20)
             r.raise_for_status()
             for p in r.json().get("documents", []):
                 phone = normalize_phone(p.get("phone") or "")
@@ -1487,7 +1542,7 @@ class AptFinderGenerator:
     def find_phone_naver_local(self, keyword: str) -> str:
         try:
             self.limiter.check_naver()
-            r = self.session.get(NAVER_LOCAL_URL, headers=self.naver_headers, params={"query": keyword, "display": 5, "start": 1}, timeout=20)
+            r = self.api_get(NAVER_LOCAL_URL, headers=self.naver_headers, params={"query": keyword, "display": 5, "start": 1}, timeout=20)
             r.raise_for_status()
             for p in r.json().get("items", []):
                 phone = normalize_phone(p.get("telephone") or "")
@@ -1503,7 +1558,7 @@ class AptFinderGenerator:
         for url in [NAVER_WEB_URL, NAVER_BLOG_URL, NAVER_CAFE_URL]:
             try:
                 self.limiter.check_naver()
-                r = self.session.get(url, headers=self.naver_headers, params={"query": keyword, "display": 10, "start": 1}, timeout=20)
+                r = self.api_get(url, headers=self.naver_headers, params={"query": keyword, "display": 10, "start": 1}, timeout=20)
                 r.raise_for_status()
                 for p in r.json().get("items", []):
                     text = clean_html(f"{p.get('title','')} {p.get('description','')}")
@@ -1849,6 +1904,13 @@ def main():
         help="K-apt 호출 보호 상한"
     )
 
+    parser.add_argument(
+        "--max-runtime-minutes",
+        type=int,
+        default=330,
+        help="GitHub Actions 강제 종료 전 안전정지 시간(분). 기본 330분"
+    )
+
     args = parser.parse_args()
 
     config = load_config()
@@ -1860,7 +1922,7 @@ def main():
         max_kapt=args.max_kapt,
     )
 
-    gen = AptFinderGenerator(config, limiter=limiter)
+    gen = AptFinderGenerator(config, limiter=limiter, max_runtime_minutes=args.max_runtime_minutes)
 
     if args.audit:
         gen.audit_output(regions, min_count=args.min_count)
