@@ -3,16 +3,19 @@ name: Update AptFinder DB
 on:
   schedule:
     - cron: "0 16 * * *"   # 매일 한국시간 새벽 1시
+
   workflow_dispatch:
     inputs:
       region_group:
         description: "today, 0, 1, 2, 3, 4, 5, missing"
         required: false
         default: "today"
+
       max_kakao:
         description: "카카오 호출 보호 상한"
         required: false
         default: "7000"
+
       max_naver:
         description: "네이버 호출 보호 상한"
         required: false
@@ -44,6 +47,7 @@ jobs:
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+
         run: |
           REGION_GROUP="${{ github.event.inputs.region_group }}"
           MAX_KAKAO="${{ github.event.inputs.max_kakao }}"
@@ -62,15 +66,13 @@ jobs:
             --max-naver "$MAX_NAVER" \
             --max-kapt 50000
 
-      - name: Copy output data to app data path
-        run: |
-          mkdir -p data
-          cp -f output/data/*.json data/
-
       - name: Commit and push changes
         run: |
           git config user.name "aptfinder-bot"
           git config user.email "aptfinder-bot@users.noreply.github.com"
-          git add output/ data/
+
+          git add data/ metadata.json update_state.json
+
           git diff --cached --quiet || git commit -m "Auto update AptFinder DB"
+
           git push
