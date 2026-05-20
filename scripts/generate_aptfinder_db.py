@@ -405,47 +405,371 @@ class AptFinderGenerator:
             self.address_cache[cache_key] = {}
             return {}
 
+
+    def optional_naver_call_allowed(self) -> bool:
+        """주소 보강용 네이버 호출은 한도 도달 시 전체 중단 대신 생략한다."""
+        if self.limiter.naver_used >= self.limiter.max_naver:
+            return False
+        self.limiter.naver_used += 1
+        return True
+
+    def is_weak_address(self, address: str) -> bool:
+        """
+        '부산 강서구 강동동'처럼 동/읍/면에서 끝나는 주소는 약한 주소로 본다.
+        이런 주소는 단지 상세주소가 아니므로 단지명 기반 재탐색을 우선한다.
+        """
+        text = (address or "").strip()
+        if not text:
+            return True
+
+        one_line = re.sub(r"\s+", " ", text).strip()
+
+        # 도로명 + 건물번호
+        if re.search(r"(로|길)\s*\d", one_line):
+            return False
+
+        # 지번 주소
+        if re.search(r"(동|읍|면)\s*\d", one_line):
+            return False
+
+        # 산 번지
+        if re.search(r"(동|읍|면)\s*산\s*\d", one_line):
+            return False
+
+        # 동/읍/면에서 끝나면 약한 주소
+        if re.search(r"(동|읍|면)$", one_line):
+            return True
+
+        parts = one_line.split()
+        if len(parts) <= 3 and re.search(r"(동|읍|면)$", one_line):
+            return True
+
+        return False
+
+    def clean_complex_name_for_query(self, name: str) -> str:
+        text = (name or "").strip()
+        text = re.sub(r"\s+", " ", text)
+        for token in ["아파트", "오피스텔", "주상복합", "관리사무소", "관리실"]:
+            text = text.replace(token, "")
+        return text.strip()
+
+    def address_score(self, road: str, jibun: str, sido: str, sigungu: str, name: str = "") -> int:
+        """주소 후보 품질 점수. 높을수록 정확한 단지 주소로 판단한다."""
+        road = (road or "").strip()
+        jibun = (jibun or "").strip()
+        display = self.build_dual_address(road, jibun, "")
+
+        if not display:
+            return 0
+
+        if not self.is_target_address(display, sido, sigungu):
+            return 0
+
+        score = 10
+
+        if road:
+            score += 30
+        if jibun:
+            score += 30
+
+        if road and re.search(r"(로|길)\s*\d", road):
+            score += 25
+
+        if jibun and re.search(r"(동|읍|면)\s*(산\s*)?\d", jibun):
+            score += 25
+
+        if not self.is_weak_address(display):
+            score += 25
+        else:
+            score -= 35
+
+        name_key = self.normalize_for_key(name)
+        display_key = self.normalize_for_key(display)
+
+        if name_key and name_key in display_key:
+            score += 10
+
+        return score
+
+    def kakao_keyword_address_search(self, query: str, sido: str, sigungu: str, name: str = "") -> dict:
+        """
+        카카오 장소검색으로 단지명 기반 도로명/지번 주소를 찾는다.
+        K-apt 원본 주소가 동까지만 있을 때 주소 API보다 이쪽이 훨씬 잘 잡힌다.
+        """
+        query = (query or "").strip()
+        if not query:
+            return {}
+
+        if not self.optional_kakao_call_allowed():
+            return {}
+
+        try:
+            r = self.session.get(
+                KAKAO_KEYWORD_URL,
+                headers=self.kakao_headers,
+                params={"query": query, "page": 1, "size": 15},
+                timeout=20,
+            )
+            r.raise_for_status()
+
+            docs = r.json().get("documents", [])
+            best = {}
+            best_score = 0
+
+            for p in docs:
+                road = (p.get("road_address_name") or "").strip()
+                jibun = (p.get("address_name") or "").strip()
+                place_name = (p.get("place_name") or "").strip()
+                category = (p.get("category_name") or "").strip()
+
+                text = f"{place_name} {category} {road} {jibun}"
+
+                if self.is_trash_place(text):
+                    continue
+
+                display = self.build_dual_address(road, jibun, "")
+                if not self.is_target_address(display, sido, sigungu):
+                    continue
+
+                score = self.address_score(road, jibun, sido, sigungu, name)
+
+                name_key = self.normalize_for_key(name)
+                place_key = self.normalize_for_key(place_name)
+
+                if name_key and place_key:
+                    if name_key == place_key:
+                        score += 30
+                    elif name_key in place_key or place_key in name_key:
+                        score += 20
+
+                if "아파트" in text or "오피스텔" in text or "주상복합" in text:
+                    score += 10
+
+                if score > best_score:
+                    best_score = score
+                    best = {
+                        "roadAddress": road,
+                        "jibunAddress": jibun,
+                        "sido": sido,
+                        "cityRaw": sigungu,
+                        "dong": self.extract_dong(jibun or road),
+                        "score": score,
+                    }
+
+            return best if best_score >= 45 else {}
+
+        except Exception:
+            return {}
+
+    def naver_local_address_search(self, query: str, sido: str, sigungu: str, name: str = "") -> dict:
+        """네이버 Local로 카카오 보강 실패분을 백업 보강한다."""
+        query = (query or "").strip()
+        if not query:
+            return {}
+
+        if not self.optional_naver_call_allowed():
+            return {}
+
+        try:
+            r = self.session.get(
+                NAVER_LOCAL_URL,
+                headers=self.naver_headers,
+                params={"query": query, "display": 10, "start": 1},
+                timeout=20,
+            )
+            r.raise_for_status()
+
+            items = r.json().get("items", [])
+            best = {}
+            best_score = 0
+
+            for p in items:
+                place_name = clean_html(p.get("title", ""))
+                road = (p.get("roadAddress") or "").strip()
+                jibun = (p.get("address") or "").strip()
+                category = (p.get("category") or "").strip()
+
+                text = f"{place_name} {category} {road} {jibun}"
+
+                if self.is_trash_place(text):
+                    continue
+
+                display = self.build_dual_address(road, jibun, "")
+                if not self.is_target_address(display, sido, sigungu):
+                    continue
+
+                score = self.address_score(road, jibun, sido, sigungu, name)
+
+                name_key = self.normalize_for_key(name)
+                place_key = self.normalize_for_key(place_name)
+
+                if name_key and place_key:
+                    if name_key == place_key:
+                        score += 30
+                    elif name_key in place_key or place_key in name_key:
+                        score += 20
+
+                if "아파트" in text or "오피스텔" in text or "주상복합" in text:
+                    score += 10
+
+                if score > best_score:
+                    best_score = score
+                    best = {
+                        "roadAddress": road,
+                        "jibunAddress": jibun,
+                        "sido": sido,
+                        "cityRaw": sigungu,
+                        "dong": self.extract_dong(jibun or road),
+                        "score": score,
+                    }
+
+            return best if best_score >= 45 else {}
+
+        except Exception:
+            return {}
+
+    def build_address_queries(self, raw_address: str, name: str, sido: str, sigungu: str) -> List[str]:
+        """
+        주소 보강 쿼리 우선순위.
+        약한 주소면 raw_address보다 단지명을 먼저 검색한다.
+        """
+        raw_address = (raw_address or "").strip()
+        name = (name or "").strip()
+        clean_name = self.clean_complex_name_for_query(name)
+
+        queries = []
+        weak = self.is_weak_address(raw_address)
+
+        if name:
+            queries.extend([
+                f"{sido} {sigungu} {name}",
+                f"{sido} {sigungu} {name} 아파트",
+                f"{sido} {sigungu} {name} 관리사무소",
+            ])
+
+        if clean_name and clean_name != name:
+            queries.extend([
+                f"{sido} {sigungu} {clean_name}",
+                f"{sido} {sigungu} {clean_name} 아파트",
+                f"{sido} {sigungu} {clean_name} 관리사무소",
+            ])
+
+        if raw_address and not weak:
+            queries.insert(0, raw_address)
+            if name:
+                queries.append(f"{raw_address} {name}".strip())
+        elif raw_address:
+            if name:
+                queries.append(f"{sido} {sigungu} {name} {raw_address}")
+            queries.append(raw_address)
+
+        return list(dict.fromkeys([q.strip() for q in queries if q.strip()]))
+
     def resolve_dual_address(self, raw_address: str, name: str, sido: str, sigungu: str) -> Tuple[str, str, str, str, str, str]:
         """
-        주소를 카카오 주소 API로 도로명/지번 2줄 구조로 보강한다.
-        반환: displayAddress, roadAddress, jibunAddress, sido, district, dong
+        주소를 도로명/지번 2줄 구조로 고도화 보강한다.
+
+        우선순위:
+        1) 단지명 기반 카카오 장소검색
+        2) 단지명 기반 네이버 Local
+        3) 카카오 주소검색
+        4) 기존 raw 주소 fallback
+
+        핵심:
+        K-apt 원본 주소가 '부산 강서구 강동동'처럼 동까지만 있으면
+        raw 주소를 믿지 않고 단지명 기반으로 먼저 재탐색한다.
         """
         raw_address = (raw_address or "").strip()
         name = (name or "").strip()
 
-        queries = []
-        if raw_address:
-            queries.append(raw_address)
-            if sido and sigungu and not self.is_target_address(raw_address, sido, sigungu):
-                queries.append(f"{sido} {sigungu} {raw_address}")
-        if name:
-            queries.append(f"{sido} {sigungu} {name}")
+        queries = self.build_address_queries(raw_address, name, sido, sigungu)
 
-        result = {}
-        for q in list(dict.fromkeys([x for x in queries if x.strip()])):
-            result = self.kakao_address_search(q)
-            road = result.get("roadAddress", "")
-            jibun = result.get("jibunAddress", "")
-            display = self.build_dual_address(road, jibun, raw_address)
-            if display and self.is_target_address(display, sido, sigungu):
-                break
-            result = {}
+        best_result = {}
+        best_score = 0
 
-        if not result:
-            return raw_address, "", "", sido, self.extract_district(raw_address), self.extract_dong(raw_address)
+        # 1차: 카카오 장소검색
+        for q in queries:
+            result = self.kakao_keyword_address_search(q, sido, sigungu, name)
+            if result:
+                score = int(result.get("score") or 0)
+                if score > best_score:
+                    best_result = result
+                    best_score = score
 
-        road = result.get("roadAddress", "")
-        jibun = result.get("jibunAddress", "")
+                if score >= 90:
+                    break
+
+            time.sleep(0.08)
+
+        # 2차: 네이버 Local 백업
+        if best_score < 80:
+            for q in queries:
+                result = self.naver_local_address_search(q, sido, sigungu, name)
+                if result:
+                    score = int(result.get("score") or 0)
+                    if score > best_score:
+                        best_result = result
+                        best_score = score
+
+                    if score >= 90:
+                        break
+
+                time.sleep(0.08)
+
+        # 3차: 카카오 주소검색
+        if best_score < 70:
+            for q in queries:
+                result = self.kakao_address_search(q)
+                road = result.get("roadAddress", "")
+                jibun = result.get("jibunAddress", "")
+
+                score = self.address_score(road, jibun, sido, sigungu, name)
+
+                if score > best_score:
+                    best_result = {
+                        **result,
+                        "score": score,
+                    }
+                    best_score = score
+
+                if score >= 85:
+                    break
+
+                time.sleep(0.08)
+
+        if not best_result:
+            return (
+                raw_address,
+                "",
+                "",
+                sido,
+                self.extract_district(raw_address),
+                self.extract_dong(raw_address),
+            )
+
+        road = (best_result.get("roadAddress") or "").strip()
+        jibun = (best_result.get("jibunAddress") or "").strip()
+
         display = self.build_dual_address(road, jibun, raw_address)
-        fixed_sido = result.get("sido") or sido
-        city_raw = result.get("cityRaw", "")
+
+        # 마지막 방어: 보강 결과가 여전히 동까지만이면 raw보다 나을 게 없으므로 raw가 더 구체적일 때만 raw를 우선한다.
+        if self.is_weak_address(display) and raw_address and not self.is_weak_address(raw_address):
+            display = raw_address
+            road = ""
+            jibun = raw_address
+
+        fixed_sido = best_result.get("sido") or sido
+        city_raw = best_result.get("cityRaw", "")
+
         district = ""
         if " " in city_raw:
-            # 예: 수원시 영통구
             district = city_raw.split(" ", 1)[1].strip()
+
         if not district:
             district = self.extract_district(display)
-        dong = result.get("dong") or self.extract_dong(display)
+
+        dong = best_result.get("dong") or self.extract_dong(display)
+
         return display, road, jibun, fixed_sido, district, dong
 
     def normalize_item_address(self, item: ComplexItem, sido: str, sigungu: str) -> ComplexItem:
