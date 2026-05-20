@@ -6,20 +6,15 @@ on:
 
   workflow_dispatch:
     inputs:
-      region_group:
-        description: "today, 0, 1, 2, 3, 4, 5, missing"
+      run_mode:
+        description: "all, missing"
         required: false
-        default: "today"
+        default: "all"
 
-      max_kakao:
-        description: "카카오 호출 보호 상한"
+      max_runtime_minutes:
+        description: "GitHub Actions 안전 정지 시간(분)"
         required: false
-        default: "7000"
-
-      max_naver:
-        description: "네이버 호출 보호 상한"
-        required: false
-        default: "20000"
+        default: "330"
 
 permissions:
   contents: write
@@ -31,6 +26,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -41,7 +38,7 @@ jobs:
         run: |
           pip install requests
 
-      - name: Run AptFinder DB updater with resume and quota guard
+      - name: Run AptFinder DB updater with resume, API quota guard, and runtime guard
         env:
           PUBLIC_DATA_SERVICE_KEY: ${{ secrets.PUBLIC_DATA_SERVICE_KEY }}
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
@@ -49,22 +46,33 @@ jobs:
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
 
         run: |
-          REGION_GROUP="${{ github.event.inputs.region_group }}"
-          MAX_KAKAO="${{ github.event.inputs.max_kakao }}"
-          MAX_NAVER="${{ github.event.inputs.max_naver }}"
+          RUN_MODE="${{ github.event.inputs.run_mode }}"
+          MAX_RUNTIME_MINUTES="${{ github.event.inputs.max_runtime_minutes }}"
 
-          if [ -z "$REGION_GROUP" ]; then REGION_GROUP="today"; fi
-          if [ -z "$MAX_KAKAO" ]; then MAX_KAKAO="7000"; fi
-          if [ -z "$MAX_NAVER" ]; then MAX_NAVER="20000"; fi
+          if [ -z "$RUN_MODE" ]; then RUN_MODE="all"; fi
+          if [ -z "$MAX_RUNTIME_MINUTES" ]; then MAX_RUNTIME_MINUTES="330"; fi
 
-          python scripts/generate_aptfinder_db.py \
-            --region-group "$REGION_GROUP" \
-            --resume \
-            --force \
-            --skip-web-phone \
-            --max-kakao "$MAX_KAKAO" \
-            --max-naver "$MAX_NAVER" \
-            --max-kapt 50000
+          if [ "$RUN_MODE" = "missing" ]; then
+            python scripts/generate_aptfinder_db.py \
+              --region-group missing \
+              --resume \
+              --force \
+              --skip-web-phone \
+              --max-kakao 999999999 \
+              --max-naver 999999999 \
+              --max-kapt 999999999 \
+              --max-runtime-minutes "$MAX_RUNTIME_MINUTES"
+          else
+            python scripts/generate_aptfinder_db.py \
+              --all \
+              --resume \
+              --force \
+              --skip-web-phone \
+              --max-kakao 999999999 \
+              --max-naver 999999999 \
+              --max-kapt 999999999 \
+              --max-runtime-minutes "$MAX_RUNTIME_MINUTES"
+          fi
 
       - name: Commit and push changes
         run: |
@@ -76,4 +84,5 @@ jobs:
 
           git diff --cached --quiet || git commit -m "Auto update AptFinder DB"
 
+          git pull --rebase origin main
           git push
