@@ -302,7 +302,7 @@ class AptFinderGenerator:
         - 실제 API 한도/쿼터 응답 감지 시 QuotaStop
         """
         self.check_runtime_budget()
-        response = self.api_get(url, **kwargs)
+        response = self.session.get(url, **kwargs)
 
         body_preview = ""
         try:
