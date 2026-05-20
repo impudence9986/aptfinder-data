@@ -32,9 +32,9 @@ import requests
 
 
 CONFIG_PATH = Path("config.json")
-OUTPUT_DIR = Path("output")
-DATA_DIR = OUTPUT_DIR / "data"
-STATE_PATH = OUTPUT_DIR / "update_state.json"
+OUTPUT_DIR = Path(".")
+DATA_DIR = Path("data")
+STATE_PATH = Path("update_state.json")
 
 KAPT_LIST_URL = "https://apis.data.go.kr/1613000/AptListService3/getTotalAptList3"
 KAPT_DETAIL_URL = "https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4"
