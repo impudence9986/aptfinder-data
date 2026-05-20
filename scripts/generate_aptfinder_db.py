@@ -665,6 +665,132 @@ class AptFinderGenerator:
 
         return list(dict.fromkeys([q.strip() for q in queries if q.strip()]))
 
+    def complete_dual_address(
+        self,
+        road: str,
+        jibun: str,
+        raw_address: str,
+        name: str,
+        sido: str,
+        sigungu: str
+    ) -> Tuple[str, str]:
+        """
+        최종 주소 역보강.
+
+        카카오가 도로명만 주거나 지번만 주는 경우가 꽤 있음.
+        이때 네이버 Local / 카카오 장소검색 / 카카오 주소검색을 한 번 더 태워서
+        비어있는 한쪽 주소를 최대한 채운다.
+
+        예:
+        road = 경상북도 문경시 흥덕로 17
+        jibun = ""
+        → 네이버 Local 보강
+        → jibun = 경상북도 문경시 흥덕동 790
+        """
+        road = (road or "").strip()
+        jibun = (jibun or "").strip()
+        raw_address = (raw_address or "").strip()
+        name = (name or "").strip()
+
+        if road and jibun:
+            return road, jibun
+
+        queries = []
+
+        if road:
+            queries.extend([
+                road,
+                f"{road} {name}".strip(),
+                f"{sido} {sigungu} {road}".strip(),
+            ])
+
+        if jibun:
+            queries.extend([
+                jibun,
+                f"{jibun} {name}".strip(),
+                f"{sido} {sigungu} {jibun}".strip(),
+            ])
+
+        if raw_address:
+            queries.extend([
+                raw_address,
+                f"{raw_address} {name}".strip(),
+            ])
+
+        if name:
+            clean_name = self.clean_complex_name_for_query(name)
+            queries.extend([
+                f"{sido} {sigungu} {name}".strip(),
+                f"{sido} {sigungu} {name} 아파트".strip(),
+                f"{sido} {sigungu} {name} 관리사무소".strip(),
+            ])
+            if clean_name and clean_name != name:
+                queries.extend([
+                    f"{sido} {sigungu} {clean_name}".strip(),
+                    f"{sido} {sigungu} {clean_name} 아파트".strip(),
+                    f"{sido} {sigungu} {clean_name} 관리사무소".strip(),
+                ])
+
+        queries = list(dict.fromkeys([q for q in queries if q]))
+
+        def accept_candidate(candidate_road: str, candidate_jibun: str) -> bool:
+            display = self.build_dual_address(candidate_road, candidate_jibun, "")
+            if not display:
+                return False
+            if not self.is_target_address(display, sido, sigungu):
+                return False
+            return True
+
+        def merge_candidate(candidate: dict) -> bool:
+            nonlocal road, jibun
+
+            candidate_road = (candidate.get("roadAddress") or "").strip()
+            candidate_jibun = (candidate.get("jibunAddress") or "").strip()
+
+            if not accept_candidate(candidate_road, candidate_jibun):
+                return False
+
+            changed = False
+
+            if not road and candidate_road:
+                road = candidate_road
+                changed = True
+
+            if not jibun and candidate_jibun:
+                jibun = candidate_jibun
+                changed = True
+
+            return changed
+
+        # 1차: 네이버 Local. 도로명 → 지번 역보강에 특히 강함.
+        for q in queries:
+            if road and jibun:
+                break
+            candidate = self.naver_local_address_search(q, sido, sigungu, name)
+            if merge_candidate(candidate) and road and jibun:
+                break
+            time.sleep(0.05)
+
+        # 2차: 카카오 장소검색 백업.
+        for q in queries:
+            if road and jibun:
+                break
+            candidate = self.kakao_keyword_address_search(q, sido, sigungu, name)
+            if merge_candidate(candidate) and road and jibun:
+                break
+            time.sleep(0.05)
+
+        # 3차: 카카오 주소검색 백업.
+        for q in queries:
+            if road and jibun:
+                break
+            candidate = self.kakao_address_search(q)
+            if merge_candidate(candidate) and road and jibun:
+                break
+            time.sleep(0.05)
+
+        return road, jibun
+
     def resolve_dual_address(self, raw_address: str, name: str, sido: str, sigungu: str) -> Tuple[str, str, str, str, str, str]:
         """
         주소를 도로명/지번 2줄 구조로 고도화 보강한다.
@@ -673,11 +799,8 @@ class AptFinderGenerator:
         1) 단지명 기반 카카오 장소검색
         2) 단지명 기반 네이버 Local
         3) 카카오 주소검색
-        4) 기존 raw 주소 fallback
-
-        핵심:
-        K-apt 원본 주소가 '부산 강서구 강동동'처럼 동까지만 있으면
-        raw 주소를 믿지 않고 단지명 기반으로 먼저 재탐색한다.
+        4) 네이버/카카오 역보강으로 빠진 도로명 또는 지번 채우기
+        5) 기존 raw 주소 fallback
         """
         raw_address = (raw_address or "").strip()
         name = (name or "").strip()
@@ -696,13 +819,14 @@ class AptFinderGenerator:
                     best_result = result
                     best_score = score
 
-                if score >= 90:
+                # 둘 다 있으면 바로 충분. 한쪽만 있으면 네이버 역보강까지 태우기 위해 완전 종료하지 않는다.
+                if score >= 95 and result.get("roadAddress") and result.get("jibunAddress"):
                     break
 
             time.sleep(0.08)
 
         # 2차: 네이버 Local 백업
-        if best_score < 80:
+        if best_score < 95 or not best_result.get("roadAddress") or not best_result.get("jibunAddress"):
             for q in queries:
                 result = self.naver_local_address_search(q, sido, sigungu, name)
                 if result:
@@ -711,13 +835,13 @@ class AptFinderGenerator:
                         best_result = result
                         best_score = score
 
-                    if score >= 90:
+                    if score >= 95 and result.get("roadAddress") and result.get("jibunAddress"):
                         break
 
                 time.sleep(0.08)
 
         # 3차: 카카오 주소검색
-        if best_score < 70:
+        if best_score < 80 or not best_result.get("roadAddress") or not best_result.get("jibunAddress"):
             for q in queries:
                 result = self.kakao_address_search(q)
                 road = result.get("roadAddress", "")
@@ -732,7 +856,7 @@ class AptFinderGenerator:
                     }
                     best_score = score
 
-                if score >= 85:
+                if score >= 90 and road and jibun:
                     break
 
                 time.sleep(0.08)
@@ -750,13 +874,23 @@ class AptFinderGenerator:
         road = (best_result.get("roadAddress") or "").strip()
         jibun = (best_result.get("jibunAddress") or "").strip()
 
+        # 핵심 추가: 한쪽만 있으면 네이버/카카오로 반드시 역보강 시도.
+        road, jibun = self.complete_dual_address(
+            road=road,
+            jibun=jibun,
+            raw_address=raw_address,
+            name=name,
+            sido=sido,
+            sigungu=sigungu,
+        )
+
         display = self.build_dual_address(road, jibun, raw_address)
 
-        # 마지막 방어: 보강 결과가 여전히 동까지만이면 raw보다 나을 게 없으므로 raw가 더 구체적일 때만 raw를 우선한다.
+        # 마지막 방어: 보강 결과가 여전히 동까지만이면 raw가 더 구체적일 때만 raw를 우선한다.
         if self.is_weak_address(display) and raw_address and not self.is_weak_address(raw_address):
             display = raw_address
-            road = ""
-            jibun = raw_address
+            road = raw_address if re.search(r"(로|길)\s*\d", raw_address) else ""
+            jibun = raw_address if re.search(r"(동|읍|면)\s*(산\s*)?\d", raw_address) else ""
 
         fixed_sido = best_result.get("sido") or sido
         city_raw = best_result.get("cityRaw", "")
