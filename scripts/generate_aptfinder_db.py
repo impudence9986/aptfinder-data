@@ -1869,21 +1869,21 @@ def main():
     parser.add_argument(
         "--max-kakao",
         type=int,
-        default=7000,
+        default=999999999,
         help="카카오 호출 보호 상한"
     )
 
     parser.add_argument(
         "--max-naver",
         type=int,
-        default=20000,
+        default=999999999,
         help="네이버 호출 보호 상한"
     )
 
     parser.add_argument(
         "--max-kapt",
         type=int,
-        default=50000,
+        default=999999999,
         help="K-apt 호출 보호 상한"
     )
 
