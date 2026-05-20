@@ -2,7 +2,7 @@ name: Update AptFinder DB
 
 on:
   schedule:
-    - cron: "0 19 * * *"   # 매일 한국시간 새벽 4시
+    - cron: "0 16 * * *"   # 매일 한국시간 새벽 1시
   workflow_dispatch:
     inputs:
       region_group:
@@ -62,10 +62,15 @@ jobs:
             --max-naver "$MAX_NAVER" \
             --max-kapt 50000
 
+      - name: Copy output data to app data path
+        run: |
+          mkdir -p data
+          cp -f output/data/*.json data/
+
       - name: Commit and push changes
         run: |
           git config user.name "aptfinder-bot"
           git config user.email "aptfinder-bot@users.noreply.github.com"
-          git add output/
+          git add output/ data/
           git diff --cached --quiet || git commit -m "Auto update AptFinder DB"
           git push
