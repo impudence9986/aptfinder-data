@@ -213,7 +213,12 @@ class QuotaStop(Exception):
 
 
 class ApiCallLimiter:
-    def __init__(self, max_kakao: int = 7000, max_naver: int = 20000, max_kapt: int = 50000):
+    def __init__(
+        self,
+        max_kakao: int = 999999999,
+        max_naver: int = 999999999,
+        max_kapt: int = 999999999
+    ):
         self.max_kakao = max_kakao
         self.max_naver = max_naver
         self.max_kapt = max_kapt
@@ -222,18 +227,12 @@ class ApiCallLimiter:
         self.kapt_used = 0
 
     def check_kakao(self):
-        if self.kakao_used >= self.max_kakao:
-            raise QuotaStop(f"카카오 호출량 보호 중단: {self.kakao_used}/{self.max_kakao}")
         self.kakao_used += 1
 
     def check_naver(self):
-        if self.naver_used >= self.max_naver:
-            raise QuotaStop(f"네이버 호출량 보호 중단: {self.naver_used}/{self.max_naver}")
         self.naver_used += 1
 
     def check_kapt(self):
-        if self.kapt_used >= self.max_kapt:
-            raise QuotaStop(f"K-apt 호출량 보호 중단: {self.kapt_used}/{self.max_kapt}")
         self.kapt_used += 1
 
     def snapshot(self) -> dict:
