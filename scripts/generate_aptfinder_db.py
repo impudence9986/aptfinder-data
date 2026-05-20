@@ -356,9 +356,12 @@ class AptFinderGenerator:
         return fallback
 
     def optional_kakao_call_allowed(self) -> bool:
-        """주소 보강은 품질 보강용이므로 카카오 한도에 닿으면 전체 중단 대신 보강만 생략한다."""
+        """
+        카카오 호출 한도 도달 시 보강만 생략하지 않고 전체 실행을 안전 중단한다.
+        다음 실행에서 update_state.json 기준으로 이어서 처리한다.
+        """
         if self.limiter.kakao_used >= self.limiter.max_kakao:
-            return False
+            raise QuotaStop(f"카카오 호출량 보호 중단: {self.limiter.kakao_used}/{self.limiter.max_kakao}")
         self.limiter.kakao_used += 1
         return True
 
@@ -407,9 +410,12 @@ class AptFinderGenerator:
 
 
     def optional_naver_call_allowed(self) -> bool:
-        """주소 보강용 네이버 호출은 한도 도달 시 전체 중단 대신 생략한다."""
+        """
+        네이버 호출 한도 도달 시 보강만 생략하지 않고 전체 실행을 안전 중단한다.
+        다음 실행에서 update_state.json 기준으로 이어서 처리한다.
+        """
         if self.limiter.naver_used >= self.limiter.max_naver:
-            return False
+            raise QuotaStop(f"네이버 호출량 보호 중단: {self.limiter.naver_used}/{self.limiter.max_naver}")
         self.limiter.naver_used += 1
         return True
 
@@ -1246,6 +1252,8 @@ class AptFinderGenerator:
                 page += 1
                 time.sleep(0.2)
 
+            except QuotaStop:
+                raise
             except Exception as e:
                 print(f"  K-apt 수집 실패 page={page}: {e}")
                 break
@@ -1294,6 +1302,8 @@ class AptFinderGenerator:
                 phoneStatus="CONFIRMED" if phone else "UNKNOWN",
                 confidenceScore=100 if phone else 0,
             )
+        except QuotaStop:
+            raise
         except Exception:
             return self.item_from_kapt_list(fallback, now, sido, sigungu)
 
@@ -1375,6 +1385,8 @@ class AptFinderGenerator:
                         confidenceScore=90 if phone else 0,
                     ))
                 time.sleep(0.15)
+            except QuotaStop:
+                raise
             except Exception as e:
                 print(f"  카카오 실패 {keyword}: {e}")
                 break
@@ -1416,6 +1428,8 @@ class AptFinderGenerator:
                     phoneStatus="CONFIRMED" if phone else "UNKNOWN",
                     confidenceScore=90 if phone else 0,
                 ))
+        except QuotaStop:
+            raise
         except Exception as e:
             print(f"  네이버 Local 실패 {keyword}: {e}")
         return out
@@ -1464,6 +1478,8 @@ class AptFinderGenerator:
                 phone = normalize_phone(p.get("phone") or "")
                 if phone:
                     return phone
+        except QuotaStop:
+            raise
         except Exception:
             pass
         return ""
@@ -1477,6 +1493,8 @@ class AptFinderGenerator:
                 phone = normalize_phone(p.get("telephone") or "")
                 if phone:
                     return phone
+        except QuotaStop:
+            raise
         except Exception:
             pass
         return ""
@@ -1688,34 +1706,57 @@ def now_text() -> str:
 
 
 
+def all_regions_ordered() -> List[Tuple[str, str]]:
+    """
+    전국 생성 순서.
+    수원/화성/오산을 가장 먼저 처리하기 위해 경기도를 최우선으로 둔다.
+    이후 나머지 시도를 기존 REGION_MAP 순서대로 처리한다.
+    """
+    ordered_sidos = ["경기도"] + [sido for sido in REGION_MAP.keys() if sido != "경기도"]
+    return [
+        (sido, city)
+        for sido in ordered_sidos
+        for city in REGION_MAP.get(sido, [])
+    ]
+
+
 def resolve_region_group(group_name: str) -> List[Tuple[str, str]]:
     """
-    --region-group today
-    --region-group 0
-    --region-group missing
+    GitHub Actions 자동화용 지역 선택.
+
+    변경된 운영 방식:
+    - today / all / 빈값: 요일별 그룹이 아니라 전국 전체를 고정 순서로 처리
+    - 한도 도달 시 QuotaStop으로 안전 중단
+    - 다음날 --resume 으로 중단 지점부터 이어서 처리
+
+    기존 숫자 그룹(0~6)은 수동 테스트 호환용으로만 남긴다.
+    자동 운영에서는 today 또는 all만 쓰면 된다.
     """
-    if not group_name:
-        return []
+    group_name = (group_name or "all").strip().lower()
 
-    group_name = group_name.strip().lower()
+    if group_name in ("today", "all", "full", "전국"):
+        return all_regions_ordered()
 
-    if group_name == "today":
-        import datetime
-        kst = datetime.timezone(datetime.timedelta(hours=9))
-        idx = datetime.datetime.now(kst).weekday()
-    elif group_name in ("missing", "retry", "missing_retry"):
-        idx = 6
-    else:
-        idx = int(group_name)
-
-    targets = REGION_GROUPS.get(idx, [])
-
-    if targets == ["MISSING_RETRY"]:
-        all_regions = [(sido, city) for sido, cities in REGION_MAP.items() for city in cities]
+    if group_name in ("missing", "retry", "missing_retry"):
         missing = []
         dummy_config = load_config()
         gen = AptFinderGenerator(dummy_config)
-        for sido, sigungu in all_regions:
+        for sido, sigungu in all_regions_ordered():
+            count = gen.region_file_count(gen.region_output_path(sido, sigungu))
+            if count < 1:
+                missing.append((sido, sigungu))
+        return missing
+
+    # 과거 0~6 그룹 수동 실행 호환용.
+    # 자동 운영에서는 사용하지 않는다.
+    idx = int(group_name)
+    targets = REGION_GROUPS.get(idx, [])
+
+    if targets == ["MISSING_RETRY"]:
+        missing = []
+        dummy_config = load_config()
+        gen = AptFinderGenerator(dummy_config)
+        for sido, sigungu in all_regions_ordered():
             count = gen.region_file_count(gen.region_output_path(sido, sigungu))
             if count < 1:
                 missing.append((sido, sigungu))
@@ -1732,7 +1773,7 @@ def resolve_regions(args) -> List[Tuple[str, str]]:
     if getattr(args, "region_group", None):
         return resolve_region_group(args.region_group)
     if args.all:
-        return [(sido, city) for sido, cities in REGION_MAP.items() for city in cities]
+        return all_regions_ordered()
     if args.region:
         return [parse_region_arg(args.region)]
     if args.sido:
@@ -1778,7 +1819,7 @@ def main():
     # GitHub Actions 자동화용 옵션
     parser.add_argument(
         "--region-group",
-        help="권역 자동 생성. 예: today, 0, 1, 2, 3, 4, 5, missing"
+        help="자동 생성. today/all은 전국 전체를 순서대로 처리하고, 한도 도달 시 다음 실행에서 이어서 처리"
     )
 
     parser.add_argument(
