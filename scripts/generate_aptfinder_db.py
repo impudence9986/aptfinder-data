@@ -1,21 +1,25 @@
 # -*- coding: utf-8 -*-
 """
-AptFinder 전국/지역별 DB 생성기 - 시도/시군구 엄격 분리 버전
+AptFinder 전국/지역별 DB 생성기 - 시도/시군구 엄격 분리 + 중단복구 안정화 버전
 
 실행 전:
 1) config.json에 카카오/네이버/K-apt 키 입력
 2) 터미널에서:
    pip install -r requirements.txt
-   python generate_aptfinder_db.py --region "경기도|성남시"
+   python generate_aptfinder_db.py --region "경기도|성남시" --force
 
 전체 실행:
-   python generate_aptfinder_db.py --all
+   python generate_aptfinder_db.py --all --force
+
+GitHub Actions 자동 실행:
+   python generate_aptfinder_db.py --region-group today --resume --force
 
 결과:
 output/
  ├ metadata.json
+ ├ update_state.json
  └ data/
-    ├ gyeonggi_seongnam.json
+    ├ gyeonggi_suwon시.json
     └ ...
 """
 
@@ -46,9 +50,10 @@ NAVER_WEB_URL = "https://openapi.naver.com/v1/search/webkr.json"
 NAVER_BLOG_URL = "https://openapi.naver.com/v1/search/blog.json"
 NAVER_CAFE_URL = "https://openapi.naver.com/v1/search/cafearticle.json"
 
-PHONE_RE = re.compile(r"(0\d{1,2})[-\s)]?(\d{3,4})[-\s]?(\d{4})")
+# 031)123-4567 / 031.123.4567 / 031 123 4567 / 02-1234-5678 대응
+PHONE_RE = re.compile(r"(0\d{1,2})[\s\-.)]*(\d{3,4})[\s\-.(]*(\d{4})")
 
-# 1차는 전국 핵심 시군구. 필요하면 계속 추가 가능.
+
 REGION_MAP: Dict[str, List[str]] = {
     "서울특별시": [
         "강남구","강동구","강북구","강서구","관악구","광진구","구로구","금천구",
@@ -107,8 +112,6 @@ REGION_MAP: Dict[str, List[str]] = {
 }
 
 
-# GitHub Actions 자동 업데이트용 권역 로테이션
-# 월~일 순서. 호출량 보호를 위해 하루에 일부 권역만 갱신.
 REGION_GROUPS: Dict[int, List[str]] = {
     0: ["경기도", "서울특별시", "인천광역시"],
     1: ["부산광역시", "울산광역시", "경상남도"],
@@ -147,10 +150,6 @@ class ComplexItem:
 
 
 def load_config() -> dict:
-    """
-    PC 로컬에서는 config.json 사용.
-    GitHub Actions에서는 Repository Secrets 환경변수 사용.
-    """
     env_config = {
         "kakao_rest_key": os.getenv("KAKAO_REST_API_KEY", "").strip(),
         "naver_client_id": os.getenv("NAVER_CLIENT_ID", "").strip(),
@@ -173,7 +172,8 @@ def load_config() -> dict:
 
 def clean_html(text: str) -> str:
     return (
-        text.replace("<b>", "")
+        (text or "")
+        .replace("<b>", "")
         .replace("</b>", "")
         .replace("&amp;", "&")
         .replace("&lt;", "<")
@@ -208,9 +208,7 @@ def parse_region_arg(arg: str) -> Tuple[str, str]:
     return sido.strip(), sigungu.strip()
 
 
-
 class QuotaStop(Exception):
-    """API 호출량 보호를 위해 정상 중단할 때 사용"""
     pass
 
 
@@ -264,9 +262,7 @@ class AptFinderGenerator:
         self.started_at = time.monotonic()
         self.max_runtime_seconds = max(1, int(max_runtime_minutes)) * 60
 
-
     def check_runtime_budget(self):
-        """GitHub Actions 6시간 강제 종료 전에 스스로 안전 중단한다."""
         elapsed = time.monotonic() - self.started_at
         if elapsed >= self.max_runtime_seconds:
             raise QuotaStop(
@@ -275,7 +271,6 @@ class AptFinderGenerator:
             )
 
     def looks_like_api_quota_limit(self, status_code: int, body: str) -> bool:
-        """API 서버가 실제 사용량 제한/쿼터 초과를 알리는 응답인지 감지한다."""
         text = (body or "").lower()
 
         quota_words = [
@@ -296,15 +291,9 @@ class AptFinderGenerator:
         return False
 
     def api_get(self, url: str, provider: str = "API", **kwargs):
-        """
-        모든 외부 API GET 공통 래퍼.
-        - 호출 전 GitHub Actions 안전시간 확인
-        - 실제 API 한도/쿼터 응답 감지 시 QuotaStop
-        """
         self.check_runtime_budget()
         response = self.session.get(url, **kwargs)
 
-        body_preview = ""
         try:
             body_preview = response.text[:1000]
         except Exception:
@@ -316,6 +305,18 @@ class AptFinderGenerator:
             )
 
         return response
+
+    def kakao_get(self, url: str, **kwargs):
+        self.limiter.check_kakao()
+        return self.api_get(url, provider="카카오", **kwargs)
+
+    def naver_get(self, url: str, **kwargs):
+        self.limiter.check_naver()
+        return self.api_get(url, provider="네이버", **kwargs)
+
+    def kapt_get(self, url: str, **kwargs):
+        self.limiter.check_kapt()
+        return self.api_get(url, provider="K-apt", **kwargs)
 
     def region_output_path(self, sido: str, sigungu: str) -> Path:
         slug = region_slug(sido, sigungu)
@@ -339,7 +340,6 @@ class AptFinderGenerator:
             return -1
 
     def normalize_sido_name(self, value: str) -> str:
-        """카카오/검색 결과의 축약 시도명을 앱에서 쓰는 정식 시도명으로 맞춘다."""
         value = (value or "").strip()
         mapping = {
             "서울": "서울특별시",
@@ -370,15 +370,18 @@ class AptFinderGenerator:
         value = value.replace("번지", "")
         value = value.replace("도로명", "")
         value = value.replace("지번", "")
+        value = value.replace("아파트", "")
+        value = value.replace("오피스텔", "")
+        value = value.replace("주상복합", "")
+        value = value.replace("관리사무소", "")
+        value = value.replace("관리실", "")
         return value
 
     def make_shared_key(self, item: ComplexItem) -> str:
-        """앱의 Firestore sharedKey 전략과 맞춘 안정 키. 주소는 일부러 빼서 주소 수정에 흔들리지 않게 한다."""
         parts = [item.sido, item.city, item.name]
         return "_".join([self.normalize_for_key(x) for x in parts if self.normalize_for_key(x)])[:180]
 
     def make_merge_key(self, item: ComplexItem) -> str:
-        """생성기 내부 중복 병합용 키. K-apt 코드는 최우선, 그 외는 이름+지역+주소 정규화."""
         code = (item.kaptCode or "").strip()
         if code:
             return f"kapt:{code}"
@@ -391,8 +394,6 @@ class AptFinderGenerator:
             item.jibunAddress or item.roadAddress or item.address
         )
 
-        # 주소가 있으면 같은 이름이라도 다른 단지를 과병합하지 않도록 주소를 포함한다.
-        # 주소가 없으면 기존처럼 이름/지역/유형 기준으로만 합친다.
         if address_key:
             return f"{sido_key}_{city_key}_{name_key}_{address_key}_{type_key}"
         return f"{sido_key}_{city_key}_{name_key}_{type_key}"
@@ -410,16 +411,6 @@ class AptFinderGenerator:
             return jibun
         return fallback
 
-    def optional_kakao_call_allowed(self) -> bool:
-        """
-        카카오 호출 한도 도달 시 보강만 생략하지 않고 전체 실행을 안전 중단한다.
-        다음 실행에서 update_state.json 기준으로 이어서 처리한다.
-        """
-        if self.limiter.kakao_used >= self.limiter.max_kakao:
-            raise QuotaStop(f"카카오 호출량 보호 중단: {self.limiter.kakao_used}/{self.limiter.max_kakao}")
-        self.limiter.kakao_used += 1
-        return True
-
     def kakao_address_search(self, query: str) -> dict:
         query = (query or "").strip()
         if not query:
@@ -429,11 +420,8 @@ class AptFinderGenerator:
         if cache_key in self.address_cache:
             return self.address_cache[cache_key]
 
-        if not self.optional_kakao_call_allowed():
-            return {}
-
         try:
-            r = self.api_get(
+            r = self.kakao_get(
                 KAKAO_ADDRESS_URL,
                 headers=self.kakao_headers,
                 params={"query": query},
@@ -459,45 +447,29 @@ class AptFinderGenerator:
             self.address_cache[cache_key] = result
             return result
 
-        except Exception:
+        except QuotaStop:
+            raise
+        except Exception as e:
+            print(f"  카카오 주소검색 실패: {query} / {e}")
             self.address_cache[cache_key] = {}
             return {}
 
-
-    def optional_naver_call_allowed(self) -> bool:
-        """
-        네이버 호출 한도 도달 시 보강만 생략하지 않고 전체 실행을 안전 중단한다.
-        다음 실행에서 update_state.json 기준으로 이어서 처리한다.
-        """
-        if self.limiter.naver_used >= self.limiter.max_naver:
-            raise QuotaStop(f"네이버 호출량 보호 중단: {self.limiter.naver_used}/{self.limiter.max_naver}")
-        self.limiter.naver_used += 1
-        return True
-
     def is_weak_address(self, address: str) -> bool:
-        """
-        '부산 강서구 강동동'처럼 동/읍/면에서 끝나는 주소는 약한 주소로 본다.
-        이런 주소는 단지 상세주소가 아니므로 단지명 기반 재탐색을 우선한다.
-        """
         text = (address or "").strip()
         if not text:
             return True
 
         one_line = re.sub(r"\s+", " ", text).strip()
 
-        # 도로명 + 건물번호
         if re.search(r"(로|길)\s*\d", one_line):
             return False
 
-        # 지번 주소
         if re.search(r"(동|읍|면)\s*\d", one_line):
             return False
 
-        # 산 번지
         if re.search(r"(동|읍|면)\s*산\s*\d", one_line):
             return False
 
-        # 동/읍/면에서 끝나면 약한 주소
         if re.search(r"(동|읍|면)$", one_line):
             return True
 
@@ -515,7 +487,6 @@ class AptFinderGenerator:
         return text.strip()
 
     def address_score(self, road: str, jibun: str, sido: str, sigungu: str, name: str = "") -> int:
-        """주소 후보 품질 점수. 높을수록 정확한 단지 주소로 판단한다."""
         road = (road or "").strip()
         jibun = (jibun or "").strip()
         display = self.build_dual_address(road, jibun, "")
@@ -553,19 +524,12 @@ class AptFinderGenerator:
         return score
 
     def kakao_keyword_address_search(self, query: str, sido: str, sigungu: str, name: str = "") -> dict:
-        """
-        카카오 장소검색으로 단지명 기반 도로명/지번 주소를 찾는다.
-        K-apt 원본 주소가 동까지만 있을 때 주소 API보다 이쪽이 훨씬 잘 잡힌다.
-        """
         query = (query or "").strip()
         if not query:
             return {}
 
-        if not self.optional_kakao_call_allowed():
-            return {}
-
         try:
-            r = self.api_get(
+            r = self.kakao_get(
                 KAKAO_KEYWORD_URL,
                 headers=self.kakao_headers,
                 params={"query": query, "page": 1, "size": 15},
@@ -619,20 +583,19 @@ class AptFinderGenerator:
 
             return best if best_score >= 45 else {}
 
-        except Exception:
+        except QuotaStop:
+            raise
+        except Exception as e:
+            print(f"  카카오 장소주소검색 실패: {query} / {e}")
             return {}
 
     def naver_local_address_search(self, query: str, sido: str, sigungu: str, name: str = "") -> dict:
-        """네이버 Local로 카카오 보강 실패분을 백업 보강한다."""
         query = (query or "").strip()
         if not query:
             return {}
 
-        if not self.optional_naver_call_allowed():
-            return {}
-
         try:
-            r = self.api_get(
+            r = self.naver_get(
                 NAVER_LOCAL_URL,
                 headers=self.naver_headers,
                 params={"query": query, "display": 10, "start": 1},
@@ -686,14 +649,13 @@ class AptFinderGenerator:
 
             return best if best_score >= 45 else {}
 
-        except Exception:
+        except QuotaStop:
+            raise
+        except Exception as e:
+            print(f"  네이버 Local 주소검색 실패: {query} / {e}")
             return {}
 
     def build_address_queries(self, raw_address: str, name: str, sido: str, sigungu: str) -> List[str]:
-        """
-        주소 보강 쿼리 우선순위.
-        약한 주소면 raw_address보다 단지명을 먼저 검색한다.
-        """
         raw_address = (raw_address or "").strip()
         name = (name or "").strip()
         clean_name = self.clean_complex_name_for_query(name)
@@ -735,19 +697,6 @@ class AptFinderGenerator:
         sido: str,
         sigungu: str
     ) -> Tuple[str, str]:
-        """
-        최종 주소 역보강.
-
-        카카오가 도로명만 주거나 지번만 주는 경우가 꽤 있음.
-        이때 네이버 Local / 카카오 장소검색 / 카카오 주소검색을 한 번 더 태워서
-        비어있는 한쪽 주소를 최대한 채운다.
-
-        예:
-        road = 경상북도 문경시 흥덕로 17
-        jibun = ""
-        → 네이버 Local 보강
-        → jibun = 경상북도 문경시 흥덕동 790
-        """
         road = (road or "").strip()
         jibun = (jibun or "").strip()
         raw_address = (raw_address or "").strip()
@@ -823,7 +772,6 @@ class AptFinderGenerator:
 
             return changed
 
-        # 1차: 네이버 Local. 도로명 → 지번 역보강에 특히 강함.
         for q in queries:
             if road and jibun:
                 break
@@ -832,7 +780,6 @@ class AptFinderGenerator:
                 break
             time.sleep(0.05)
 
-        # 2차: 카카오 장소검색 백업.
         for q in queries:
             if road and jibun:
                 break
@@ -841,7 +788,6 @@ class AptFinderGenerator:
                 break
             time.sleep(0.05)
 
-        # 3차: 카카오 주소검색 백업.
         for q in queries:
             if road and jibun:
                 break
@@ -853,16 +799,6 @@ class AptFinderGenerator:
         return road, jibun
 
     def resolve_dual_address(self, raw_address: str, name: str, sido: str, sigungu: str) -> Tuple[str, str, str, str, str, str]:
-        """
-        주소를 도로명/지번 2줄 구조로 고도화 보강한다.
-
-        우선순위:
-        1) 단지명 기반 카카오 장소검색
-        2) 단지명 기반 네이버 Local
-        3) 카카오 주소검색
-        4) 네이버/카카오 역보강으로 빠진 도로명 또는 지번 채우기
-        5) 기존 raw 주소 fallback
-        """
         raw_address = (raw_address or "").strip()
         name = (name or "").strip()
 
@@ -871,7 +807,6 @@ class AptFinderGenerator:
         best_result = {}
         best_score = 0
 
-        # 1차: 카카오 장소검색
         for q in queries:
             result = self.kakao_keyword_address_search(q, sido, sigungu, name)
             if result:
@@ -880,13 +815,11 @@ class AptFinderGenerator:
                     best_result = result
                     best_score = score
 
-                # 둘 다 있으면 바로 충분. 한쪽만 있으면 네이버 역보강까지 태우기 위해 완전 종료하지 않는다.
                 if score >= 95 and result.get("roadAddress") and result.get("jibunAddress"):
                     break
 
             time.sleep(0.08)
 
-        # 2차: 네이버 Local 백업
         if best_score < 95 or not best_result.get("roadAddress") or not best_result.get("jibunAddress"):
             for q in queries:
                 result = self.naver_local_address_search(q, sido, sigungu, name)
@@ -901,7 +834,6 @@ class AptFinderGenerator:
 
                 time.sleep(0.08)
 
-        # 3차: 카카오 주소검색
         if best_score < 80 or not best_result.get("roadAddress") or not best_result.get("jibunAddress"):
             for q in queries:
                 result = self.kakao_address_search(q)
@@ -935,7 +867,6 @@ class AptFinderGenerator:
         road = (best_result.get("roadAddress") or "").strip()
         jibun = (best_result.get("jibunAddress") or "").strip()
 
-        # 핵심 추가: 한쪽만 있으면 네이버/카카오로 반드시 역보강 시도.
         road, jibun = self.complete_dual_address(
             road=road,
             jibun=jibun,
@@ -947,7 +878,6 @@ class AptFinderGenerator:
 
         display = self.build_dual_address(road, jibun, raw_address)
 
-        # 마지막 방어: 보강 결과가 여전히 동까지만이면 raw가 더 구체적일 때만 raw를 우선한다.
         if self.is_weak_address(display) and raw_address and not self.is_weak_address(raw_address):
             display = raw_address
             road = raw_address if re.search(r"(로|길)\s*\d", raw_address) else ""
@@ -968,7 +898,6 @@ class AptFinderGenerator:
         return display, road, jibun, fixed_sido, district, dong
 
     def normalize_item_address(self, item: ComplexItem, sido: str, sigungu: str) -> ComplexItem:
-        """ComplexItem 하나에 시도/도로명/지번/검색용 키를 채운다."""
         display, road, jibun, fixed_sido, district, dong = self.resolve_dual_address(
             item.address,
             item.name,
@@ -999,13 +928,7 @@ class AptFinderGenerator:
         item.sharedKey = self.make_shared_key(item)
         return item
 
-    def should_skip_region(
-        self,
-        sido: str,
-        sigungu: str,
-        force: bool,
-        min_count: int
-    ) -> bool:
+    def should_skip_region(self, sido: str, sigungu: str, force: bool, min_count: int) -> bool:
         if force:
             return False
 
@@ -1087,7 +1010,6 @@ class AptFinderGenerator:
         if not missing and not weak:
             print("누락 의심 지역 없음")
 
-
     def load_state(self) -> dict:
         if not STATE_PATH.exists():
             return {}
@@ -1162,8 +1084,6 @@ class AptFinderGenerator:
                 current_key = f"{sido}|{sigungu}"
                 remaining_after_current = regions[idx:]
 
-                # resume/자동 업데이트에서는 force=True가 기본 권장.
-                # 단, 수동으로 force=False를 쓰면 기존 정상 파일은 스킵 가능.
                 if self.should_skip_region(sido, sigungu, force=force, min_count=min_count):
                     count = self.region_file_count(path)
                     skipped += 1
@@ -1188,7 +1108,7 @@ class AptFinderGenerator:
                 except Exception as e:
                     failed += 1
                     print(f"실패: {sido} {sigungu} / {e}")
-                    # 실패 지역은 remaining에 다시 넣어서 다음 실행 때 재시도
+
                     self.save_state(
                         group_key,
                         completed,
@@ -1196,6 +1116,12 @@ class AptFinderGenerator:
                         "stopped",
                         reason=f"지역 처리 실패: {sido}|{sigungu} / {e}"
                     )
+
+                    self.rebuild_metadata_from_output()
+                    print("\n지역 처리 실패로 중단했습니다.")
+                    print("다음 실행 때 --resume 옵션으로 이어서 처리됩니다.")
+                    print(f"남은 지역: {1 + len(remaining_after_current)}개")
+                    return
 
             self.rebuild_metadata_from_output()
             self.clear_state_if_done()
@@ -1205,14 +1131,13 @@ class AptFinderGenerator:
             print(f"GitHub 업로드 대상 폴더: {OUTPUT_DIR.resolve()}")
 
         except QuotaStop as e:
-            current_index = processed + skipped + failed
+            current_index = processed + skipped
             remaining = regions[current_index:]
             self.save_state(group_key, completed, remaining, "stopped", reason=str(e))
             self.rebuild_metadata_from_output()
             print(f"\n호출량 보호로 정상 중단: {e}")
-            print(f"다음 실행 때 --resume 옵션으로 이어서 처리됩니다.")
+            print("다음 실행 때 --resume 옵션으로 이어서 처리됩니다.")
             print(f"남은 지역: {len(remaining)}개")
-
 
     def build_region(self, sido: str, sigungu: str, skip_web_phone: bool = False) -> List[ComplexItem]:
         apt_items = self.fetch_kapt_region(sido, sigungu)
@@ -1258,8 +1183,7 @@ class AptFinderGenerator:
             }
 
             try:
-                self.limiter.check_kapt()
-                r = self.api_get(KAPT_LIST_URL, params=params, timeout=60)
+                r = self.kapt_get(KAPT_LIST_URL, params=params, timeout=60)
                 r.raise_for_status()
                 root = r.json()
 
@@ -1326,8 +1250,7 @@ class AptFinderGenerator:
                 "kaptCode": kapt_code,
                 "_type": "json",
             }
-            self.limiter.check_kapt()
-            r = self.api_get(KAPT_DETAIL_URL, params=params, timeout=40)
+            r = self.kapt_get(KAPT_DETAIL_URL, params=params, timeout=40)
             r.raise_for_status()
             root = r.json()
             body = root.get("response", {}).get("body", {})
@@ -1359,7 +1282,8 @@ class AptFinderGenerator:
             )
         except QuotaStop:
             raise
-        except Exception:
+        except Exception as e:
+            print(f"  K-apt 상세 실패: {kapt_code} / {e}")
             return self.item_from_kapt_list(fallback, now, sido, sigungu)
 
     def item_from_kapt_list(self, obj: dict, now: int, sido: str, sigungu: str) -> ComplexItem:
@@ -1403,8 +1327,7 @@ class AptFinderGenerator:
         out = []
         for page in range(1, 4):
             try:
-                self.limiter.check_kakao()
-                r = self.api_get(
+                r = self.kakao_get(
                     KAKAO_KEYWORD_URL,
                     headers=self.kakao_headers,
                     params={"query": keyword, "page": page, "size": 15},
@@ -1414,25 +1337,33 @@ class AptFinderGenerator:
                 docs = r.json().get("documents", [])
                 if not docs:
                     break
+
                 for p in docs:
                     name = p.get("place_name", "").strip()
-                    address = p.get("road_address_name") or p.get("address_name") or ""
+                    road = p.get("road_address_name") or ""
+                    jibun = p.get("address_name") or ""
+                    address = road or jibun
                     category = p.get("category_name") or ""
                     text = f"{keyword} {name} {category} {address}"
+
                     if not self.is_target_address(address, sido, sigungu):
                         continue
                     if self.is_trash_place(text):
                         continue
                     if not ("오피스텔" in text or "주상복합" in text or "관리사무소" in text or "관리실" in text):
                         continue
+
                     phone = normalize_phone(p.get("phone") or "")
                     out.append(ComplexItem(
                         name=name,
                         type="주상복합" if "주상복합" in text else "오피스텔",
                         city=sigungu,
+                        sido=sido,
                         district=self.extract_district(address),
                         dong=self.extract_dong(address),
-                        address=address,
+                        address=self.build_dual_address(road, jibun, address),
+                        roadAddress=road,
+                        jibunAddress=jibun,
                         phone=phone,
                         source="카카오 장소검색",
                         verifiedAt="카카오 자동수집",
@@ -1450,8 +1381,7 @@ class AptFinderGenerator:
     def naver_local_places(self, keyword: str, sido: str, sigungu: str) -> List[ComplexItem]:
         out = []
         try:
-            self.limiter.check_naver()
-            r = self.api_get(
+            r = self.naver_get(
                 NAVER_LOCAL_URL,
                 headers=self.naver_headers,
                 params={"query": keyword, "display": 5, "start": 1},
@@ -1460,23 +1390,30 @@ class AptFinderGenerator:
             r.raise_for_status()
             for p in r.json().get("items", []):
                 name = clean_html(p.get("title", ""))
-                address = p.get("roadAddress") or p.get("address") or ""
+                road = (p.get("roadAddress") or "").strip()
+                jibun = (p.get("address") or "").strip()
+                address = road or jibun
                 category = p.get("category") or ""
                 text = f"{keyword} {name} {category} {address}"
+
                 if not self.is_target_address(address, sido, sigungu):
                     continue
                 if self.is_trash_place(text):
                     continue
                 if not ("오피스텔" in text or "주상복합" in text or "관리사무소" in text or "관리실" in text):
                     continue
+
                 phone = normalize_phone(p.get("telephone") or "")
                 out.append(ComplexItem(
                     name=name,
                     type="주상복합" if "주상복합" in text else "오피스텔",
                     city=sigungu,
+                    sido=sido,
                     district=self.extract_district(address),
                     dong=self.extract_dong(address),
-                    address=address,
+                    address=self.build_dual_address(road, jibun, address),
+                    roadAddress=road,
+                    jibunAddress=jibun,
                     phone=phone,
                     source="네이버 장소검색",
                     verifiedAt="네이버 자동수집",
@@ -1491,6 +1428,7 @@ class AptFinderGenerator:
 
     def enrich_phone(self, item: ComplexItem, skip_web_phone: bool = False) -> ComplexItem:
         keywords = self.phone_keywords(item)
+
         for kw in keywords:
             phone = self.find_phone_kakao(kw)
             if phone:
@@ -1526,8 +1464,12 @@ class AptFinderGenerator:
 
     def find_phone_kakao(self, keyword: str) -> str:
         try:
-            self.limiter.check_kakao()
-            r = self.api_get(KAKAO_KEYWORD_URL, headers=self.kakao_headers, params={"query": keyword, "page": 1, "size": 15}, timeout=20)
+            r = self.kakao_get(
+                KAKAO_KEYWORD_URL,
+                headers=self.kakao_headers,
+                params={"query": keyword, "page": 1, "size": 15},
+                timeout=20
+            )
             r.raise_for_status()
             for p in r.json().get("documents", []):
                 phone = normalize_phone(p.get("phone") or "")
@@ -1535,14 +1477,18 @@ class AptFinderGenerator:
                     return phone
         except QuotaStop:
             raise
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"  카카오 전화검색 실패: {keyword} / {e}")
         return ""
 
     def find_phone_naver_local(self, keyword: str) -> str:
         try:
-            self.limiter.check_naver()
-            r = self.api_get(NAVER_LOCAL_URL, headers=self.naver_headers, params={"query": keyword, "display": 5, "start": 1}, timeout=20)
+            r = self.naver_get(
+                NAVER_LOCAL_URL,
+                headers=self.naver_headers,
+                params={"query": keyword, "display": 5, "start": 1},
+                timeout=20
+            )
             r.raise_for_status()
             for p in r.json().get("items", []):
                 phone = normalize_phone(p.get("telephone") or "")
@@ -1550,28 +1496,42 @@ class AptFinderGenerator:
                     return phone
         except QuotaStop:
             raise
-        except Exception:
-            pass
+        except Exception as e:
+            print(f"  네이버 전화검색 실패: {keyword} / {e}")
         return ""
 
     def find_phone_naver_web_sources(self, keyword: str) -> str:
         for url in [NAVER_WEB_URL, NAVER_BLOG_URL, NAVER_CAFE_URL]:
             try:
-                self.limiter.check_naver()
-                r = self.api_get(url, headers=self.naver_headers, params={"query": keyword, "display": 10, "start": 1}, timeout=20)
+                r = self.naver_get(
+                    url,
+                    headers=self.naver_headers,
+                    params={"query": keyword, "display": 10, "start": 1},
+                    timeout=20
+                )
                 r.raise_for_status()
                 for p in r.json().get("items", []):
                     text = clean_html(f"{p.get('title','')} {p.get('description','')}")
                     phone = normalize_phone(text)
                     if phone:
                         return phone
-            except Exception:
-                pass
+            except QuotaStop:
+                raise
+            except Exception as e:
+                print(f"  네이버 웹 전화검색 실패: {keyword} / {e}")
             time.sleep(0.12)
         return ""
 
     def phone_keywords(self, item: ComplexItem) -> List[str]:
-        clean_name = item.name.replace("오피스텔", "").replace("주상복합", "").replace("관리사무소", "").replace("관리실", "").strip()
+        clean_name = (
+            item.name
+            .replace("오피스텔", "")
+            .replace("주상복합", "")
+            .replace("관리사무소", "")
+            .replace("관리실", "")
+            .strip()
+        )
+
         base = [
             f"{item.name} 관리사무소",
             f"{item.name} 관리실",
@@ -1583,10 +1543,12 @@ class AptFinderGenerator:
             f"{item.city} {clean_name} 관리사무소",
             f"{item.city} {clean_name} 관리실",
         ]
+
         if item.district:
             base.append(f"{item.city} {item.district} {clean_name} 관리사무소")
         if item.dong:
             base.append(f"{item.dong} {clean_name} 관리사무소")
+
         address_candidates = []
         if item.roadAddress:
             address_candidates.append(item.roadAddress)
@@ -1603,39 +1565,56 @@ class AptFinderGenerator:
 
     def merge_items(self, items: List[ComplexItem]) -> List[ComplexItem]:
         by_key = {}
+
         for item in items:
+            if not item:
+                continue
+
             key = self.make_merge_key(item)
             old = by_key.get(key)
+
             if not old:
                 by_key[key] = item
-            else:
-                # 기존보다 정보가 많은 쪽 우선
-                if not old.phone and item.phone:
+                continue
+
+            # 전화번호는 더 높은 confidenceScore 우선
+            if item.phone:
+                if not old.phone or item.confidenceScore > old.confidenceScore:
                     old.phone = item.phone
                     old.verifiedAt = item.verifiedAt
                     old.phoneStatus = item.phoneStatus
                     old.confidenceScore = item.confidenceScore
-                if not old.address and item.address:
-                    old.address = item.address
-                if not old.roadAddress and item.roadAddress:
-                    old.roadAddress = item.roadAddress
-                if not old.jibunAddress and item.jibunAddress:
-                    old.jibunAddress = item.jibunAddress
-                if old.addressQuality != "ROAD_AND_JIBUN" and item.addressQuality == "ROAD_AND_JIBUN":
-                    old.address = item.address
-                    old.roadAddress = item.roadAddress
-                    old.jibunAddress = item.jibunAddress
-                    old.addressQuality = item.addressQuality
-                if not old.households and item.households:
-                    old.households = item.households
-                if not old.sido and item.sido:
-                    old.sido = item.sido
-                if not old.district and item.district:
-                    old.district = item.district
-                if not old.dong and item.dong:
-                    old.dong = item.dong
-                if not old.sharedKey and item.sharedKey:
-                    old.sharedKey = item.sharedKey
+
+            # 주소는 도로명+지번 둘 다 있는 데이터 우선
+            if not old.address and item.address:
+                old.address = item.address
+            if not old.roadAddress and item.roadAddress:
+                old.roadAddress = item.roadAddress
+            if not old.jibunAddress and item.jibunAddress:
+                old.jibunAddress = item.jibunAddress
+
+            if old.addressQuality != "ROAD_AND_JIBUN" and item.addressQuality == "ROAD_AND_JIBUN":
+                old.address = item.address
+                old.roadAddress = item.roadAddress
+                old.jibunAddress = item.jibunAddress
+                old.addressQuality = item.addressQuality
+
+            if not old.households and item.households:
+                old.households = item.households
+            if not old.sido and item.sido:
+                old.sido = item.sido
+            if not old.city and item.city:
+                old.city = item.city
+            if not old.district and item.district:
+                old.district = item.district
+            if not old.dong and item.dong:
+                old.dong = item.dong
+            if not old.sharedKey and item.sharedKey:
+                old.sharedKey = item.sharedKey
+
+            if item.source and item.source not in old.source:
+                old.source = old.source or item.source
+
         return list(by_key.values())
 
     def write_region_file(self, sido: str, sigungu: str, items: List[ComplexItem]) -> Path:
@@ -1643,11 +1622,17 @@ class AptFinderGenerator:
         slug = region_slug(sido, sigungu)
         path = DATA_DIR / f"{slug}.json"
 
-        # 마지막 안전장치: 저장 직전에도 타 시군구 데이터는 절대 저장하지 않음
         safe_items = [x for x in items if self.item_belongs_to_region(x, sido, sigungu)]
         removed = len(items) - len(safe_items)
         if removed > 0:
             print(f"  지역 불일치 항목 제거: {removed}개")
+
+        for item in safe_items:
+            item.sido = item.sido or sido
+            item.city = item.city or sigungu
+            item.sharedKey = item.sharedKey or self.make_shared_key(item)
+
+        safe_items.sort(key=lambda x: (self.normalize_for_key(x.dong), self.normalize_for_key(x.name)))
 
         root = {
             "version": int(time.time()),
@@ -1657,8 +1642,10 @@ class AptFinderGenerator:
             "count": len(safe_items),
             "items": [asdict(x) for x in safe_items],
         }
+
         with path.open("w", encoding="utf-8") as f:
             json.dump(root, f, ensure_ascii=False, indent=2)
+
         return path
 
     def _compact(self, text: str) -> str:
@@ -1681,13 +1668,10 @@ class AptFinderGenerator:
     def _sigungu_aliases(self, sigungu: str) -> List[str]:
         aliases = [sigungu]
 
-        # 세종은 실제 주소에 세종시/세종특별자치시/세종 형태로 섞여 나올 수 있음
         if sigungu == "세종시":
             aliases.append("세종")
             return list(dict.fromkeys(aliases))
 
-        # '중구' -> '중' 같은 1글자 축약은 절대 쓰지 않음
-        # '남구/동구/서구/북구/중구'는 전국에 많으므로 반드시 정확한 구 이름만 사용
         if sigungu.endswith("구"):
             return list(dict.fromkeys(aliases))
 
@@ -1709,21 +1693,20 @@ class AptFinderGenerator:
         sido_ok = any(self._compact(x) in text for x in self._sido_aliases(sido))
         sigungu_ok = any(self._compact(x) in text for x in self._sigungu_aliases(sigungu))
 
-        # 핵심: 시도와 시군구가 둘 다 맞아야만 통과
-        # 예: 경기도 가평군 생성 중 '경기도 수원시 ...'는 sigungu_ok=False라서 탈락
         return sido_ok and sigungu_ok
 
     def item_belongs_to_region(self, item: ComplexItem, sido: str, sigungu: str) -> bool:
-        # 주소가 있으면 주소 기준으로 엄격 판정
         if item.address:
             return self.is_target_address(item.address, sido, sigungu)
 
-        # 주소가 없을 때만 city 필드 보조 사용
         return (item.city or "") == sigungu
 
     def is_trash_place(self, text: str) -> bool:
-        trash = ["공인중개사", "부동산", "분양", "모델하우스", "홍보관", "숙박", "호텔", "모텔", "고시원", "원룸텔", "리빙텔"]
-        return any(x in text for x in trash)
+        trash = [
+            "공인중개사", "부동산", "분양", "모델하우스", "홍보관",
+            "숙박", "호텔", "모텔", "고시원", "원룸텔", "리빙텔"
+        ]
+        return any(x in (text or "") for x in trash)
 
     def address_from_list(self, obj: dict) -> str:
         values = []
@@ -1734,9 +1717,9 @@ class AptFinderGenerator:
         return " ".join(values)
 
     def infer_type(self, type_text: str) -> str:
-        if "오피스텔" in type_text:
+        if "오피스텔" in (type_text or ""):
             return "오피스텔"
-        if "주상복합" in type_text:
+        if "주상복합" in (type_text or ""):
             return "주상복합"
         return "아파트"
 
@@ -1760,13 +1743,7 @@ def now_text() -> str:
     return time.strftime("%Y-%m-%d %H:%M:%S")
 
 
-
 def all_regions_ordered() -> List[Tuple[str, str]]:
-    """
-    전국 생성 순서.
-    수원/화성/오산을 가장 먼저 처리하기 위해 경기도를 최우선으로 둔다.
-    이후 나머지 시도를 기존 REGION_MAP 순서대로 처리한다.
-    """
     ordered_sidos = ["경기도"] + [sido for sido in REGION_MAP.keys() if sido != "경기도"]
     return [
         (sido, city)
@@ -1776,17 +1753,6 @@ def all_regions_ordered() -> List[Tuple[str, str]]:
 
 
 def resolve_region_group(group_name: str) -> List[Tuple[str, str]]:
-    """
-    GitHub Actions 자동화용 지역 선택.
-
-    변경된 운영 방식:
-    - today / all / 빈값: 요일별 그룹이 아니라 전국 전체를 고정 순서로 처리
-    - 한도 도달 시 QuotaStop으로 안전 중단
-    - 다음날 --resume 으로 중단 지점부터 이어서 처리
-
-    기존 숫자 그룹(0~6)은 수동 테스트 호환용으로만 남긴다.
-    자동 운영에서는 today 또는 all만 쓰면 된다.
-    """
     group_name = (group_name or "all").strip().lower()
 
     if group_name in ("today", "all", "full", "전국"):
@@ -1802,8 +1768,6 @@ def resolve_region_group(group_name: str) -> List[Tuple[str, str]]:
                 missing.append((sido, sigungu))
         return missing
 
-    # 과거 0~6 그룹 수동 실행 호환용.
-    # 자동 운영에서는 사용하지 않는다.
     idx = int(group_name)
     targets = REGION_GROUPS.get(idx, [])
 
@@ -1835,7 +1799,6 @@ def resolve_regions(args) -> List[Tuple[str, str]]:
         if args.sido not in REGION_MAP:
             raise SystemExit(f"알 수 없는 시도: {args.sido}")
         return [(args.sido, city) for city in REGION_MAP[args.sido]]
-    # 기본 테스트는 성남시 하나만
     return [("경기도", "성남시")]
 
 
@@ -1871,7 +1834,6 @@ def main():
         help="생성하지 않고 현재 output/data 누락 상태만 점검"
     )
 
-    # GitHub Actions 자동화용 옵션
     parser.add_argument(
         "--region-group",
         help="자동 생성. today/all은 전국 전체를 순서대로 처리하고, 한도 도달 시 다음 실행에서 이어서 처리"
