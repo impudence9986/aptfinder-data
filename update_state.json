@@ -1,10 +1,9 @@
 {
   "group": "today",
-  "updatedAt": "2026-05-20 16:22:06",
+  "updatedAt": "2026-05-21 02:11:50",
   "status": "stopped",
-  "reason": "K-apt 실제 API 사용 제한 감지: HTTP 200 / {\"response\":{\"body\":{\"item\":{\"kaptCode\":\"A44072806\",\"kaptName\":\"북수원 리버파크아파트\",\"kaptAddr\":\"경기도 수원장안구 정자동 913 북수원 리버파크아파트\",\"codeSaleNm\":\"분양\",\"codeHeatNm\":\"지역난방\",\"kaptTarea\":66053.805,\"kaptDongCnt\":\"8\",\"kaptdaCnt\":805.0,\"kaptBcompany\":\"대한주택공사\",\"kaptAcompany\":\"삼호\",\"kaptTel\":\"0312429082\",\"kaptUrl\":\"대월주공8단",
-  "completed": [],
-  "remaining": [
+  "reason": "K-apt 실제 API 사용 제한 감지: HTTP 429 / API token quota exceeded\n",
+  "completed": [
     "경기도|수원시",
     "경기도|화성시",
     "경기도|오산시",
@@ -35,7 +34,9 @@
     "경기도|파주시",
     "경기도|평택시",
     "경기도|포천시",
-    "경기도|하남시",
+    "경기도|하남시"
+  ],
+  "remaining": [
     "서울특별시|강남구",
     "서울특별시|강동구",
     "서울특별시|강북구",
@@ -236,11 +237,11 @@
     "제주특별자치도|제주시"
   ],
   "limits": {
-    "kakaoUsed": 0,
-    "kakaoMax": 7000,
-    "naverUsed": 0,
-    "naverMax": 20000,
-    "kaptUsed": 36,
-    "kaptMax": 50000
+    "kakaoUsed": 17104,
+    "kakaoMax": 999999999,
+    "naverUsed": 1426,
+    "naverMax": 999999999,
+    "kaptUsed": 6124,
+    "kaptMax": 999999999
   }
 }
