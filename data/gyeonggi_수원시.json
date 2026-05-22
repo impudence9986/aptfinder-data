@@ -5,6 +5,270 @@
   "sigungu": "수원시",
   "count": 509,
   "items": [
+
+    {
+    "kaptCode": "TEST00001",
+    "name": "테스트 K-apt 카카오 네이버 복합",
+    "type": "아파트",
+    "city": "수원시",
+    "sido": "경기도",
+    "district": "팔달구",
+    "dong": "인계동",
+    "address": "경기 수원시 팔달구 권광로 100\n경기 수원시 팔달구 인계동 100-1",
+    "roadAddress": "경기 수원시 팔달구 권광로 100",
+    "jibunAddress": "경기 수원시 팔달구 인계동 100-1",
+    "phone": "031-111-1111",
+    "phones": ["031-111-1111", "031-111-1112", "031-111-1113"],
+    "phoneCandidates": [
+      {
+        "number": "031-111-1111",
+        "score": 100,
+        "source": "K-apt, 카카오, 네이버, 114On",
+        "keyword": "테스트 K-apt 카카오 네이버 복합 관리사무소",
+        "hitCount": 7,
+        "sourceCounts": {
+          "K-apt": 1,
+          "카카오": 2,
+          "네이버": 3,
+          "114On": 1
+        },
+        "sourceDetails": {
+          "공공데이터 K-apt": 1,
+          "카카오 장소검색": 1,
+          "카카오 전화번호 보강": 1,
+          "네이버 Local": 2,
+          "네이버 웹검색": 1,
+          "114On/네이버 스니펫": 1
+        },
+        "sourceSummary": "K-apt 1회 · 카카오 2회 · 네이버 3회 · 114On 1회"
+      },
+      {
+        "number": "031-111-1112",
+        "score": 90,
+        "source": "카카오, 네이버, 114On",
+        "keyword": "테스트 K-apt 카카오 네이버 복합 대표전화",
+        "hitCount": 3,
+        "sourceCounts": {
+          "카카오": 1,
+          "네이버": 1,
+          "114On": 1
+        },
+        "sourceDetails": {
+          "카카오 전화번호 보강": 1,
+          "네이버 웹검색": 1,
+          "114On/네이버 스니펫": 1
+        },
+        "sourceSummary": "카카오 1회 · 네이버 1회 · 114On 1회"
+      },
+      {
+        "number": "031-111-1113",
+        "score": 70,
+        "source": "네이버",
+        "keyword": "테스트 K-apt 카카오 네이버 복합 연락처",
+        "hitCount": 1,
+        "sourceCounts": {
+          "네이버": 1
+        },
+        "sourceDetails": {
+          "네이버 블로그검색": 1
+        },
+        "sourceSummary": "네이버 1회"
+      }
+    ],
+    "households": "500",
+    "source": "공공데이터 K-apt",
+    "verifiedAt": "K-apt 1회 · 카카오 2회 · 네이버 3회 · 114On 1회",
+    "detailUpdatedAt": 1779317051089,
+    "listUpdatedAt": 1779317051089,
+    "phoneStatus": "CONFIRMED",
+    "reportCount": 0,
+    "confidenceScore": 100,
+    "lastReportedAt": 0,
+    "addressQuality": "ROAD_AND_JIBUN",
+    "sharedKey": "경기도_수원시_테스트kapt카카오네이버복합"
+  },
+  {
+    "kaptCode": "TEST00002",
+    "name": "테스트 카카오 우세 단지",
+    "type": "오피스텔",
+    "city": "수원시",
+    "sido": "경기도",
+    "district": "영통구",
+    "dong": "매탄동",
+    "address": "경기 수원시 영통구 매탄로 200\n경기 수원시 영통구 매탄동 200-2",
+    "roadAddress": "경기 수원시 영통구 매탄로 200",
+    "jibunAddress": "경기 수원시 영통구 매탄동 200-2",
+    "phone": "031-222-2222",
+    "phones": ["031-222-2222", "031-222-2299"],
+    "phoneCandidates": [
+      {
+        "number": "031-222-2222",
+        "score": 96,
+        "source": "카카오, 네이버",
+        "keyword": "테스트 카카오 우세 단지 관리실",
+        "hitCount": 5,
+        "sourceCounts": {
+          "카카오": 4,
+          "네이버": 1
+        },
+        "sourceDetails": {
+          "카카오 장소검색": 2,
+          "카카오 전화번호 보강": 2,
+          "네이버 Local": 1
+        },
+        "sourceSummary": "카카오 4회 · 네이버 1회"
+      },
+      {
+        "number": "031-222-2299",
+        "score": 62,
+        "source": "네이버",
+        "keyword": "테스트 카카오 우세 단지 전화번호",
+        "hitCount": 1,
+        "sourceCounts": {
+          "네이버": 1
+        },
+        "sourceDetails": {
+          "네이버 웹검색": 1
+        },
+        "sourceSummary": "네이버 1회"
+      }
+    ],
+    "households": "180",
+    "source": "카카오 장소검색",
+    "verifiedAt": "카카오 4회 · 네이버 1회",
+    "detailUpdatedAt": 1779317051089,
+    "listUpdatedAt": 1779317051089,
+    "phoneStatus": "CONFIRMED",
+    "reportCount": 0,
+    "confidenceScore": 96,
+    "lastReportedAt": 0,
+    "addressQuality": "ROAD_AND_JIBUN",
+    "sharedKey": "경기도_수원시_테스트카카오우세단지"
+  },
+  {
+    "kaptCode": "TEST00003",
+    "name": "테스트 114On 후보 단지",
+    "type": "주상복합",
+    "city": "수원시",
+    "sido": "경기도",
+    "district": "권선구",
+    "dong": "권선동",
+    "address": "경기 수원시 권선구 권선로 300\n경기 수원시 권선구 권선동 300-3",
+    "roadAddress": "경기 수원시 권선구 권선로 300",
+    "jibunAddress": "경기 수원시 권선구 권선동 300-3",
+    "phone": "031-333-3333",
+    "phones": ["031-333-3333", "031-333-3300"],
+    "phoneCandidates": [
+      {
+        "number": "031-333-3333",
+        "score": 88,
+        "source": "114On, 네이버",
+        "keyword": "테스트 114On 후보 단지 대표번호",
+        "hitCount": 3,
+        "sourceCounts": {
+          "114On": 2,
+          "네이버": 1
+        },
+        "sourceDetails": {
+          "114On/네이버 스니펫": 2,
+          "네이버 웹검색": 1
+        },
+        "sourceSummary": "네이버 1회 · 114On 2회"
+      },
+      {
+        "number": "031-333-3300",
+        "score": 75,
+        "source": "카카오",
+        "keyword": "테스트 114On 후보 단지 관리사무소",
+        "hitCount": 1,
+        "sourceCounts": {
+          "카카오": 1
+        },
+        "sourceDetails": {
+          "카카오 전화번호 보강": 1
+        },
+        "sourceSummary": "카카오 1회"
+      }
+    ],
+    "households": "260",
+    "source": "네이버 웹검색",
+    "verifiedAt": "네이버 1회 · 114On 2회",
+    "detailUpdatedAt": 1779317051089,
+    "listUpdatedAt": 1779317051089,
+    "phoneStatus": "CONFIRMED",
+    "reportCount": 0,
+    "confidenceScore": 88,
+    "lastReportedAt": 0,
+    "addressQuality": "ROAD_AND_JIBUN",
+    "sharedKey": "경기도_수원시_테스트114on후보단지"
+  },
+  {
+    "kaptCode": "TEST00004",
+    "name": "테스트 단일번호 단지",
+    "type": "아파트",
+    "city": "수원시",
+    "sido": "경기도",
+    "district": "장안구",
+    "dong": "정자동",
+    "address": "경기 수원시 장안구 정자천로 400\n경기 수원시 장안구 정자동 400-4",
+    "roadAddress": "경기 수원시 장안구 정자천로 400",
+    "jibunAddress": "경기 수원시 장안구 정자동 400-4",
+    "phone": "031-444-4444",
+    "phones": ["031-444-4444"],
+    "phoneCandidates": [
+      {
+        "number": "031-444-4444",
+        "score": 85,
+        "source": "네이버",
+        "keyword": "테스트 단일번호 단지 관리사무소",
+        "hitCount": 1,
+        "sourceCounts": {
+          "네이버": 1
+        },
+        "sourceDetails": {
+          "네이버 Local": 1
+        },
+        "sourceSummary": "네이버 1회"
+      }
+    ],
+    "households": "120",
+    "source": "네이버 장소검색",
+    "verifiedAt": "네이버 1회",
+    "detailUpdatedAt": 1779317051089,
+    "listUpdatedAt": 1779317051089,
+    "phoneStatus": "CONFIRMED",
+    "reportCount": 0,
+    "confidenceScore": 85,
+    "lastReportedAt": 0,
+    "addressQuality": "ROAD_AND_JIBUN",
+    "sharedKey": "경기도_수원시_테스트단일번호단지"
+  },
+  {
+    "kaptCode": "TEST00005",
+    "name": "테스트 번호없음 단지",
+    "type": "아파트",
+    "city": "수원시",
+    "sido": "경기도",
+    "district": "영통구",
+    "dong": "망포동",
+    "address": "경기 수원시 영통구 망포로 500\n경기 수원시 영통구 망포동 500-5",
+    "roadAddress": "경기 수원시 영통구 망포로 500",
+    "jibunAddress": "경기 수원시 영통구 망포동 500-5",
+    "phone": "",
+    "phones": [],
+    "phoneCandidates": [],
+    "households": "90",
+    "source": "카카오 장소검색",
+    "verifiedAt": "번호 후보 없음",
+    "detailUpdatedAt": 1779317051089,
+    "listUpdatedAt": 1779317051089,
+    "phoneStatus": "UNKNOWN",
+    "reportCount": 0,
+    "confidenceScore": 0,
+    "lastReportedAt": 0,
+    "addressQuality": "ROAD_AND_JIBUN",
+    "sharedKey": "경기도_수원시_테스트번호없음단지"
+  },
     {
       "kaptCode": "A10022094",
       "name": "kcc파크타운",
