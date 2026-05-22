@@ -414,38 +414,102 @@ class AptFinderGenerator:
             return jibun
         return fallback
 
+    def normalize_source_label(self, source: str) -> str:
+        text = source or ""
+
+        if "K-apt" in text or "공공데이터" in text:
+            return "K-apt"
+        if "카카오" in text:
+            return "카카오"
+        if "네이버 Local" in text or "네이버 장소" in text or "네이버 전화" in text:
+            return "네이버"
+        if "네이버 웹" in text or "네이버 블로그" in text or "네이버 카페" in text:
+            return "네이버"
+        if "114On" in text or "114" in text:
+            return "114On"
+        if "사용자" in text or "제보" in text:
+            return "사용자제보"
+        if "기존" in text:
+            return "기존"
+
+        return text.strip() or "기타"
+
     def add_phone_candidate(self, item: ComplexItem, phone: str, source: str, score: int, keyword: str = "") -> bool:
         phone = normalize_phone(phone)
         if not phone:
             return False
+
+        source_label = self.normalize_source_label(source)
 
         if not isinstance(item.phoneCandidates, list):
             item.phoneCandidates = []
         if not isinstance(item.phones, list):
             item.phones = []
 
-        existed = False
+        target = None
+
         for c in item.phoneCandidates:
             if c.get("number") == phone:
-                existed = True
-                old_score = int(c.get("score") or 0)
-                if score > old_score:
-                    c["score"] = score
-                    c["source"] = source
-                    c["keyword"] = keyword
-                else:
-                    sources = c.get("source", "")
-                    if source and source not in sources:
-                        c["source"] = f"{sources}, {source}".strip(", ")
+                target = c
                 break
 
-        if not existed:
-            item.phoneCandidates.append({
+        if target is None:
+            target = {
                 "number": phone,
-                "source": source,
                 "score": int(score),
+                "source": source_label,
                 "keyword": keyword[:120],
-            })
+                "sourceCounts": {},
+                "sourceDetails": {},
+            }
+            item.phoneCandidates.append(target)
+
+        source_counts = target.get("sourceCounts")
+        if not isinstance(source_counts, dict):
+            source_counts = {}
+
+        source_details = target.get("sourceDetails")
+        if not isinstance(source_details, dict):
+            source_details = {}
+
+        source_counts[source_label] = int(source_counts.get(source_label) or 0) + 1
+
+        detail_key = source.strip() or source_label
+        source_details[detail_key] = int(source_details.get(detail_key) or 0) + 1
+
+        target["sourceCounts"] = source_counts
+        target["sourceDetails"] = source_details
+
+        existing_source = target.get("source", "")
+        if source_label and source_label not in existing_source:
+            target["source"] = f"{existing_source}, {source_label}".strip(", ")
+        elif not existing_source:
+            target["source"] = source_label
+
+        old_keyword = target.get("keyword", "")
+        if keyword and keyword not in old_keyword:
+            joined_keyword = f"{old_keyword}, {keyword}".strip(", ")
+            target["keyword"] = joined_keyword[:180]
+
+        base_score = max(int(target.get("score") or 0), int(score))
+
+        source_bonus = 0
+        if source_counts.get("K-apt", 0) > 0:
+            source_bonus += 8
+        if source_counts.get("카카오", 0) > 0:
+            source_bonus += 5
+        if source_counts.get("네이버", 0) > 0:
+            source_bonus += 5
+        if source_counts.get("114On", 0) > 0:
+            source_bonus += 3
+        if source_counts.get("사용자제보", 0) > 0:
+            source_bonus += 10
+
+        repeat_bonus = min(15, max(0, sum(int(v) for v in source_counts.values()) - 1) * 3)
+        diversity_bonus = min(12, max(0, len([k for k, v in source_counts.items() if int(v) > 0]) - 1) * 4)
+
+        final_score = min(100, base_score + source_bonus + repeat_bonus + diversity_bonus)
+        target["score"] = final_score
 
         if phone not in item.phones:
             item.phones.append(phone)
@@ -454,62 +518,168 @@ class AptFinderGenerator:
         return True
 
     def finalize_phone_fields(self, item: ComplexItem) -> ComplexItem:
-        candidates = []
-        seen = set()
+        by_number = {}
 
         if item.phone:
             p = normalize_phone(item.phone)
             if p:
-                candidates.append({"number": p, "source": item.verifiedAt or item.source or "기존", "score": int(item.confidenceScore or 50), "keyword": ""})
-                seen.add(p)
+                source_text = item.verifiedAt or item.source or "기존"
+                by_number[p] = {
+                    "number": p,
+                    "score": int(item.confidenceScore or 50),
+                    "source": source_text,
+                    "keyword": "",
+                    "sourceCounts": {
+                        self.normalize_source_label(source_text): 1
+                    },
+                    "sourceDetails": {
+                        source_text: 1
+                    },
+                }
 
         for c in item.phoneCandidates or []:
             p = normalize_phone(c.get("number", ""))
             if not p:
                 continue
-            if p in seen:
-                # 같은 번호면 점수/출처 보강
-                for old in candidates:
-                    if old["number"] == p:
-                        if int(c.get("score") or 0) > int(old.get("score") or 0):
-                            old["score"] = int(c.get("score") or 0)
-                            old["source"] = c.get("source", old.get("source", ""))
-                            old["keyword"] = c.get("keyword", old.get("keyword", ""))
-                        elif c.get("source") and c.get("source") not in old.get("source", ""):
-                            old["source"] = f"{old.get('source','')}, {c.get('source')}".strip(", ")
-                        break
-                continue
-            candidates.append({
-                "number": p,
-                "source": c.get("source", ""),
-                "score": int(c.get("score") or 0),
-                "keyword": c.get("keyword", "")[:120],
-            })
-            seen.add(p)
 
-        # 같은 점수면 K-apt/카카오/네이버Local/114On 스니펫 순으로 안정적 선정
-        def source_bonus(src: str) -> int:
-            src = src or ""
-            if "K-apt" in src or "공공데이터" in src:
-                return 5
-            if "카카오" in src:
-                return 4
-            if "네이버 Local" in src or "네이버 장소" in src:
-                return 3
-            if "114On" in src or "114" in src:
-                return 2
+            source_counts = c.get("sourceCounts")
+            if not isinstance(source_counts, dict):
+                source_counts = {}
+
+            source_details = c.get("sourceDetails")
+            if not isinstance(source_details, dict):
+                source_details = {}
+
+            source_text = c.get("source", "")
+            if not source_counts and source_text:
+                for part in source_text.split(","):
+                    label = self.normalize_source_label(part.strip())
+                    source_counts[label] = int(source_counts.get(label) or 0) + 1
+
+            if not source_details and source_text:
+                source_details[source_text] = 1
+
+            incoming = {
+                "number": p,
+                "score": int(c.get("score") or 0),
+                "source": c.get("source", ""),
+                "keyword": c.get("keyword", "")[:180],
+                "sourceCounts": source_counts,
+                "sourceDetails": source_details,
+            }
+
+            old = by_number.get(p)
+
+            if old is None:
+                by_number[p] = incoming
+                continue
+
+            old["score"] = max(int(old.get("score") or 0), int(incoming.get("score") or 0))
+
+            old_source = old.get("source", "")
+            new_source = incoming.get("source", "")
+            for part in new_source.split(","):
+                part = part.strip()
+                if part and part not in old_source:
+                    old_source = f"{old_source}, {part}".strip(", ")
+            old["source"] = old_source
+
+            old_keyword = old.get("keyword", "")
+            new_keyword = incoming.get("keyword", "")
+            if new_keyword and new_keyword not in old_keyword:
+                old["keyword"] = f"{old_keyword}, {new_keyword}".strip(", ")[:180]
+
+            old_counts = old.get("sourceCounts") if isinstance(old.get("sourceCounts"), dict) else {}
+            for k, v in source_counts.items():
+                old_counts[k] = int(old_counts.get(k) or 0) + int(v or 0)
+            old["sourceCounts"] = old_counts
+
+            old_details = old.get("sourceDetails") if isinstance(old.get("sourceDetails"), dict) else {}
+            for k, v in source_details.items():
+                old_details[k] = int(old_details.get(k) or 0) + int(v or 0)
+            old["sourceDetails"] = old_details
+
+        def recalc_score(c: dict) -> int:
+            counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
+
+            base = int(c.get("score") or 0)
+
+            source_bonus = 0
+            if counts.get("K-apt", 0) > 0:
+                source_bonus += 8
+            if counts.get("카카오", 0) > 0:
+                source_bonus += 5
+            if counts.get("네이버", 0) > 0:
+                source_bonus += 5
+            if counts.get("114On", 0) > 0:
+                source_bonus += 3
+            if counts.get("사용자제보", 0) > 0:
+                source_bonus += 10
+
+            total_hits = sum(int(v) for v in counts.values())
+            repeat_bonus = min(15, max(0, total_hits - 1) * 3)
+            diversity_bonus = min(12, max(0, len([k for k, v in counts.items() if int(v) > 0]) - 1) * 4)
+
+            return min(100, base + source_bonus + repeat_bonus + diversity_bonus)
+
+        def source_priority(c: dict) -> int:
+            counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
+
+            if counts.get("K-apt", 0) > 0:
+                return 50
+            if counts.get("사용자제보", 0) > 0:
+                return 45
+            if counts.get("카카오", 0) > 0 and counts.get("네이버", 0) > 0:
+                return 40
+            if counts.get("카카오", 0) > 0:
+                return 30
+            if counts.get("네이버", 0) > 0:
+                return 25
+            if counts.get("114On", 0) > 0:
+                return 15
             return 0
 
-        candidates.sort(key=lambda c: (int(c.get("score") or 0), source_bonus(c.get("source", ""))), reverse=True)
+        candidates = list(by_number.values())
+
+        for c in candidates:
+            c["score"] = recalc_score(c)
+
+            counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
+            order = ["K-apt", "카카오", "네이버", "114On", "사용자제보", "기존", "기타"]
+            summary_parts = []
+
+            for label in order:
+                count = int(counts.get(label) or 0)
+                if count > 0:
+                    summary_parts.append(f"{label} {count}회")
+
+            for label, count_raw in counts.items():
+                if label in order:
+                    continue
+                count = int(count_raw or 0)
+                if count > 0:
+                    summary_parts.append(f"{label} {count}회")
+
+            c["sourceSummary"] = " · ".join(summary_parts)
+
+        candidates.sort(
+            key=lambda c: (
+                int(c.get("score") or 0),
+                source_priority(c),
+                sum(int(v) for v in (c.get("sourceCounts") or {}).values()) if isinstance(c.get("sourceCounts"), dict) else 0
+            ),
+            reverse=True
+        )
 
         item.phoneCandidates = candidates
         item.phones = [c["number"] for c in candidates]
 
         if candidates:
-            item.phone = candidates[0]["number"]
-            item.phoneStatus = "CONFIRMED" if int(candidates[0].get("score") or 0) >= 85 else "CANDIDATE"
-            item.confidenceScore = max(int(item.confidenceScore or 0), int(candidates[0].get("score") or 0))
-            item.verifiedAt = candidates[0].get("source") or item.verifiedAt
+            best = candidates[0]
+            item.phone = best["number"]
+            item.phoneStatus = "CONFIRMED" if int(best.get("score") or 0) >= 85 else "CANDIDATE"
+            item.confidenceScore = max(int(item.confidenceScore or 0), int(best.get("score") or 0))
+            item.verifiedAt = best.get("sourceSummary") or best.get("source") or item.verifiedAt
         else:
             item.phone = ""
             item.phones = []
