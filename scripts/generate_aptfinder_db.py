@@ -1,26 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-AptFinder 전국/지역별 DB 생성기 - 시도/시군구 엄격 분리 + 중단복구 안정화 버전
+AptFinder 전국/지역별 DB 생성기 - 후보확장 + 복수 전화번호 저장 안정화 버전
 
-실행 전:
-1) config.json에 카카오/네이버/K-apt 키 입력
-2) 터미널에서:
-   pip install -r requirements.txt
-   python generate_aptfinder_db.py --region "경기도|성남시" --force
-
-전체 실행:
-   python generate_aptfinder_db.py --all --force
-
-GitHub Actions 자동 실행:
-   python generate_aptfinder_db.py --region-group today --resume --force
-
-결과:
-output/
- ├ metadata.json
- ├ update_state.json
- └ data/
-    ├ gyeonggi_suwon시.json
-    └ ...
+핵심 변경:
+1) K-apt 밖의 일반 아파트 후보도 카카오/네이버 장소검색으로 추가 수집
+2) 오피스텔/주상복합/생활형숙박시설/관리사무소 후보 유지
+3) K-apt 번호가 있어도 카카오/네이버/네이버웹 번호를 추가 후보로 계속 수집
+4) phoneCandidates 배열 저장 + 기존 phone 필드는 대표번호로 유지
+5) 네이버 웹검색 스니펫에서 114On 등 전화번호 후보 추출
 """
 
 import argparse
@@ -28,7 +15,7 @@ import os
 import json
 import re
 import time
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
@@ -50,7 +37,6 @@ NAVER_WEB_URL = "https://openapi.naver.com/v1/search/webkr.json"
 NAVER_BLOG_URL = "https://openapi.naver.com/v1/search/blog.json"
 NAVER_CAFE_URL = "https://openapi.naver.com/v1/search/cafearticle.json"
 
-# 031)123-4567 / 031.123.4567 / 031 123 4567 / 02-1234-5678 대응
 PHONE_RE = re.compile(r"(0\d{1,2})[\s\-.)]*(\d{3,4})[\s\-.(]*(\d{4})")
 
 
@@ -70,7 +56,6 @@ REGION_MAP: Dict[str, List[str]] = {
     "대전광역시": ["대덕구","동구","서구","유성구","중구"],
     "울산광역시": ["남구","동구","북구","울주군","중구"],
     "세종특별자치시": ["세종시"],
-
     "경기도": [
         "수원시","화성시","오산시",
         "가평군","고양시","과천시","광명시","광주시","구리시","군포시","김포시",
@@ -78,7 +63,6 @@ REGION_MAP: Dict[str, List[str]] = {
         "안양시","양주시","양평군","여주시","연천군","용인시","의왕시",
         "의정부시","이천시","파주시","평택시","포천시","하남시"
     ],
-
     "강원특별자치도": [
         "강릉시","고성군","동해시","삼척시","속초시","양구군","양양군","영월군",
         "원주시","인제군","정선군","철원군","춘천시","태백시","평창군","홍천군",
@@ -136,6 +120,8 @@ class ComplexItem:
     roadAddress: str = ""
     jibunAddress: str = ""
     phone: str = ""
+    phones: List[str] = field(default_factory=list)
+    phoneCandidates: List[dict] = field(default_factory=list)
     households: str = ""
     source: str = ""
     verifiedAt: str = ""
@@ -178,6 +164,8 @@ def clean_html(text: str) -> str:
         .replace("&amp;", "&")
         .replace("&lt;", "<")
         .replace("&gt;", ">")
+        .replace("&quot;", '"')
+        .replace("&#39;", "'")
         .strip()
     )
 
@@ -187,6 +175,13 @@ def normalize_phone(value: str) -> str:
     if not m:
         return ""
     return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+
+
+def extract_all_phones(value: str) -> List[str]:
+    out = []
+    for m in PHONE_RE.finditer(value or ""):
+        out.append(f"{m.group(1)}-{m.group(2)}-{m.group(3)}")
+    return list(dict.fromkeys(out))
 
 
 def region_slug(sido: str, sigungu: str) -> str:
@@ -228,12 +223,18 @@ class ApiCallLimiter:
 
     def check_kakao(self):
         self.kakao_used += 1
+        if self.kakao_used > self.max_kakao:
+            raise QuotaStop(f"카카오 호출 보호 상한 도달: {self.kakao_used}/{self.max_kakao}")
 
     def check_naver(self):
         self.naver_used += 1
+        if self.naver_used > self.max_naver:
+            raise QuotaStop(f"네이버 호출 보호 상한 도달: {self.naver_used}/{self.max_naver}")
 
     def check_kapt(self):
         self.kapt_used += 1
+        if self.kapt_used > self.max_kapt:
+            raise QuotaStop(f"K-apt 호출 보호 상한 도달: {self.kapt_used}/{self.max_kapt}")
 
     def snapshot(self) -> dict:
         return {
@@ -270,45 +271,21 @@ class AptFinderGenerator:
             )
 
     def looks_like_api_quota_limit(self, status_code: int, body: str) -> bool:
-        """
-        실제 API 사용량 제한/쿼터 초과만 감지한다.
-        정상 JSON 필드명(kaptTarea 등)에 포함된 rate 같은 문자열 때문에
-        HTTP 200 정상 응답을 오탐지하지 않도록 200 응답은 제한 감지 대상에서 제외한다.
-        """
         text = (body or "").lower()
-
         if status_code == 429:
             return True
-
-        # 정상 응답은 절대 quota stop 처리하지 않는다.
         if 200 <= status_code < 300:
             return False
 
         quota_words = [
-            "quota",
-            "too many requests",
-            "rate limit",
-            "rate_limit",
-            "ratelimit",
-            "exceed",
-            "exceeded",
-            "daily limit",
-            "per day",
-            "qps",
-            "throttle",
-            "throttled",
-            "쿼터",
-            "한도",
-            "제한 초과",
-            "사용량 초과",
-            "일일 호출",
-            "호출 초과",
-            "트래픽 초과",
+            "quota", "too many requests", "rate limit", "rate_limit", "ratelimit",
+            "exceed", "exceeded", "daily limit", "per day", "qps",
+            "throttle", "throttled", "쿼터", "한도", "제한 초과",
+            "사용량 초과", "일일 호출", "호출 초과", "트래픽 초과",
         ]
 
         if status_code in (401, 403, 429, 503):
             return any(w in text for w in quota_words)
-
         return any(w in text for w in quota_words)
 
     def api_get(self, url: str, provider: str = "API", **kwargs):
@@ -394,8 +371,10 @@ class AptFinderGenerator:
         value = value.replace("아파트", "")
         value = value.replace("오피스텔", "")
         value = value.replace("주상복합", "")
+        value = value.replace("생활형숙박시설", "")
         value = value.replace("관리사무소", "")
         value = value.replace("관리실", "")
+        value = value.replace("관리단", "")
         return value
 
     def make_shared_key(self, item: ComplexItem) -> str:
@@ -410,13 +389,16 @@ class AptFinderGenerator:
         name_key = self.normalize_for_key(item.name)
         sido_key = self.normalize_for_key(item.sido)
         city_key = self.normalize_for_key(item.city)
-        type_key = self.normalize_for_key(item.type)
         address_key = self.normalize_for_key(
             item.jibunAddress or item.roadAddress or item.address
         )
 
+        # K-apt 밖 장소검색 후보는 이름이 약간 달라도 같은 지번이면 같은 단지로 합치기 위해
+        # 주소가 있으면 type은 키에서 제외한다.
         if address_key:
-            return f"{sido_key}_{city_key}_{name_key}_{address_key}_{type_key}"
+            return f"{sido_key}_{city_key}_{address_key}"
+
+        type_key = self.normalize_for_key(item.type)
         return f"{sido_key}_{city_key}_{name_key}_{type_key}"
 
     def build_dual_address(self, road: str, jibun: str, fallback: str = "") -> str:
@@ -431,6 +413,110 @@ class AptFinderGenerator:
         if jibun:
             return jibun
         return fallback
+
+    def add_phone_candidate(self, item: ComplexItem, phone: str, source: str, score: int, keyword: str = "") -> bool:
+        phone = normalize_phone(phone)
+        if not phone:
+            return False
+
+        if not isinstance(item.phoneCandidates, list):
+            item.phoneCandidates = []
+        if not isinstance(item.phones, list):
+            item.phones = []
+
+        existed = False
+        for c in item.phoneCandidates:
+            if c.get("number") == phone:
+                existed = True
+                old_score = int(c.get("score") or 0)
+                if score > old_score:
+                    c["score"] = score
+                    c["source"] = source
+                    c["keyword"] = keyword
+                else:
+                    sources = c.get("source", "")
+                    if source and source not in sources:
+                        c["source"] = f"{sources}, {source}".strip(", ")
+                break
+
+        if not existed:
+            item.phoneCandidates.append({
+                "number": phone,
+                "source": source,
+                "score": int(score),
+                "keyword": keyword[:120],
+            })
+
+        if phone not in item.phones:
+            item.phones.append(phone)
+
+        self.finalize_phone_fields(item)
+        return True
+
+    def finalize_phone_fields(self, item: ComplexItem) -> ComplexItem:
+        candidates = []
+        seen = set()
+
+        if item.phone:
+            p = normalize_phone(item.phone)
+            if p:
+                candidates.append({"number": p, "source": item.verifiedAt or item.source or "기존", "score": int(item.confidenceScore or 50), "keyword": ""})
+                seen.add(p)
+
+        for c in item.phoneCandidates or []:
+            p = normalize_phone(c.get("number", ""))
+            if not p:
+                continue
+            if p in seen:
+                # 같은 번호면 점수/출처 보강
+                for old in candidates:
+                    if old["number"] == p:
+                        if int(c.get("score") or 0) > int(old.get("score") or 0):
+                            old["score"] = int(c.get("score") or 0)
+                            old["source"] = c.get("source", old.get("source", ""))
+                            old["keyword"] = c.get("keyword", old.get("keyword", ""))
+                        elif c.get("source") and c.get("source") not in old.get("source", ""):
+                            old["source"] = f"{old.get('source','')}, {c.get('source')}".strip(", ")
+                        break
+                continue
+            candidates.append({
+                "number": p,
+                "source": c.get("source", ""),
+                "score": int(c.get("score") or 0),
+                "keyword": c.get("keyword", "")[:120],
+            })
+            seen.add(p)
+
+        # 같은 점수면 K-apt/카카오/네이버Local/114On 스니펫 순으로 안정적 선정
+        def source_bonus(src: str) -> int:
+            src = src or ""
+            if "K-apt" in src or "공공데이터" in src:
+                return 5
+            if "카카오" in src:
+                return 4
+            if "네이버 Local" in src or "네이버 장소" in src:
+                return 3
+            if "114On" in src or "114" in src:
+                return 2
+            return 0
+
+        candidates.sort(key=lambda c: (int(c.get("score") or 0), source_bonus(c.get("source", ""))), reverse=True)
+
+        item.phoneCandidates = candidates
+        item.phones = [c["number"] for c in candidates]
+
+        if candidates:
+            item.phone = candidates[0]["number"]
+            item.phoneStatus = "CONFIRMED" if int(candidates[0].get("score") or 0) >= 85 else "CANDIDATE"
+            item.confidenceScore = max(int(item.confidenceScore or 0), int(candidates[0].get("score") or 0))
+            item.verifiedAt = candidates[0].get("source") or item.verifiedAt
+        else:
+            item.phone = ""
+            item.phones = []
+            item.phoneCandidates = []
+            item.phoneStatus = "UNKNOWN"
+
+        return item
 
     def kakao_address_search(self, query: str) -> dict:
         query = (query or "").strip()
@@ -503,7 +589,7 @@ class AptFinderGenerator:
     def clean_complex_name_for_query(self, name: str) -> str:
         text = (name or "").strip()
         text = re.sub(r"\s+", " ", text)
-        for token in ["아파트", "오피스텔", "주상복합", "관리사무소", "관리실"]:
+        for token in ["아파트", "오피스텔", "주상복합", "생활형숙박시설", "관리사무소", "관리실", "관리단"]:
             text = text.replace(token, "")
         return text.strip()
 
@@ -588,7 +674,7 @@ class AptFinderGenerator:
                     elif name_key in place_key or place_key in name_key:
                         score += 20
 
-                if "아파트" in text or "오피스텔" in text or "주상복합" in text:
+                if any(x in text for x in ["아파트", "오피스텔", "주상복합", "생활형숙박시설", "관리사무소", "관리실"]):
                     score += 10
 
                 if score > best_score:
@@ -654,7 +740,7 @@ class AptFinderGenerator:
                     elif name_key in place_key or place_key in name_key:
                         score += 20
 
-                if "아파트" in text or "오피스텔" in text or "주상복합" in text:
+                if any(x in text for x in ["아파트", "오피스텔", "주상복합", "생활형숙박시설", "관리사무소", "관리실"]):
                     score += 10
 
                 if score > best_score:
@@ -729,24 +815,13 @@ class AptFinderGenerator:
         queries = []
 
         if road:
-            queries.extend([
-                road,
-                f"{road} {name}".strip(),
-                f"{sido} {sigungu} {road}".strip(),
-            ])
+            queries.extend([road, f"{road} {name}".strip(), f"{sido} {sigungu} {road}".strip()])
 
         if jibun:
-            queries.extend([
-                jibun,
-                f"{jibun} {name}".strip(),
-                f"{sido} {sigungu} {jibun}".strip(),
-            ])
+            queries.extend([jibun, f"{jibun} {name}".strip(), f"{sido} {sigungu} {jibun}".strip()])
 
         if raw_address:
-            queries.extend([
-                raw_address,
-                f"{raw_address} {name}".strip(),
-            ])
+            queries.extend([raw_address, f"{raw_address} {name}".strip()])
 
         if name:
             clean_name = self.clean_complex_name_for_query(name)
@@ -864,10 +939,7 @@ class AptFinderGenerator:
                 score = self.address_score(road, jibun, sido, sigungu, name)
 
                 if score > best_score:
-                    best_result = {
-                        **result,
-                        "score": score,
-                    }
+                    best_result = {**result, "score": score}
                     best_score = score
 
                 if score >= 90 and road and jibun:
@@ -877,10 +949,7 @@ class AptFinderGenerator:
 
         if not best_result:
             return (
-                raw_address,
-                "",
-                "",
-                sido,
+                raw_address, "", "", sido,
                 self.extract_district(raw_address),
                 self.extract_dong(raw_address),
             )
@@ -1162,9 +1231,9 @@ class AptFinderGenerator:
 
     def build_region(self, sido: str, sigungu: str, skip_web_phone: bool = False) -> List[ComplexItem]:
         apt_items = self.fetch_kapt_region(sido, sigungu)
-        officetel_items = self.collect_officetels(sido, sigungu)
+        extra_items = self.collect_extra_complexes(sido, sigungu)
 
-        merged = self.merge_items(apt_items + officetel_items)
+        merged = self.merge_items(apt_items + extra_items)
 
         print(f"주소 보강 시작: {len(merged)}개")
         addressed = []
@@ -1176,14 +1245,15 @@ class AptFinderGenerator:
 
         merged = self.merge_items(addressed)
 
-        print(f"전화번호 보강 시작: {len(merged)}개")
+        print(f"전화번호 후보 수집 시작: {len(merged)}개")
         enriched = []
         for i, item in enumerate(merged, start=1):
-            if not item.phone:
-                item = self.enrich_phone(item, skip_web_phone=skip_web_phone)
+            # 기존 phone이 있어도 반드시 후보 수집한다.
+            item = self.enrich_phone(item, skip_web_phone=skip_web_phone)
+            item = self.finalize_phone_fields(item)
             enriched.append(item)
             if i % 20 == 0 or i == len(merged):
-                print(f"  전화번호 보강 {i}/{len(merged)}")
+                print(f"  전화번호 후보 수집 {i}/{len(merged)}")
 
         return self.merge_items(enriched)
 
@@ -1284,23 +1354,28 @@ class AptFinderGenerator:
             phone = normalize_phone(item.get("kaptTel") or item.get("kaptTelNo") or "")
             households = str(item.get("kaptdaCnt") or item.get("hoCnt") or "").split(".")[0]
 
-            return ComplexItem(
+            out = ComplexItem(
                 kaptCode=kapt_code,
                 name=name,
                 type=self.infer_type(item.get("codeAptNm", "")),
                 city=sigungu,
+                sido=sido,
                 district=self.extract_district(address),
                 dong=self.extract_dong(address),
                 address=address,
                 phone=phone,
                 households=households if households.isdigit() else "",
                 source="공공데이터 K-apt",
-                verifiedAt="자동업데이트",
+                verifiedAt="공공데이터 K-apt",
                 detailUpdatedAt=now,
                 listUpdatedAt=now,
                 phoneStatus="CONFIRMED" if phone else "UNKNOWN",
                 confidenceScore=100 if phone else 0,
             )
+            if phone:
+                self.add_phone_candidate(out, phone, "공공데이터 K-apt", 100, "kaptTel")
+            return out
+
         except QuotaStop:
             raise
         except Exception as e:
@@ -1314,6 +1389,7 @@ class AptFinderGenerator:
             name=obj.get("kaptName") or obj.get("kaptNm") or "",
             type="아파트",
             city=sigungu,
+            sido=sido,
             district=self.extract_district(address),
             dong=self.extract_dong(address),
             address=address,
@@ -1322,27 +1398,58 @@ class AptFinderGenerator:
             listUpdatedAt=now,
         )
 
-    def collect_officetels(self, sido: str, sigungu: str) -> List[ComplexItem]:
-        print("오피스텔/주상복합 수집 중...")
+    def collect_extra_complexes(self, sido: str, sigungu: str) -> List[ComplexItem]:
+        print("지도/검색 기반 추가 후보 수집 중...")
+
+        # 너무 넓은 일반 아파트 검색은 많아질 수 있지만,
+        # K-apt 밖의 소규모 아파트/빌라형 단지 누락을 줄이기 위해 포함한다.
         keywords = [
+            f"{sigungu} 아파트",
+            f"{sigungu} 아파트 관리사무소",
+            f"{sigungu} 관리사무소",
             f"{sigungu} 오피스텔",
             f"{sigungu} 주상복합",
             f"{sigungu} 오피스텔 관리사무소",
             f"{sigungu} 주상복합 관리사무소",
-            f"{sigungu} 관리사무소",
+            f"{sigungu} 생활형숙박시설",
+            f"{sido} {sigungu} 아파트",
+            f"{sido} {sigungu} 아파트 관리사무소",
             f"{sido} {sigungu} 오피스텔",
             f"{sido} {sigungu} 주상복합",
             f"{sido} {sigungu} 생활형숙박시설",
         ]
+
         results = []
-        for kw in keywords:
+        for kw in list(dict.fromkeys(keywords)):
             results.extend(self.kakao_places(kw, sido, sigungu))
             time.sleep(0.25)
             results.extend(self.naver_local_places(kw, sido, sigungu))
             time.sleep(0.25)
+
         results = self.merge_items(results)
-        print(f"오피스텔/주상복합 결과: {len(results)}개")
+        print(f"추가 후보 결과: {len(results)}개")
         return results
+
+    # 기존 이름으로 호출해도 동작하도록 별칭 유지
+    def collect_officetels(self, sido: str, sigungu: str) -> List[ComplexItem]:
+        return self.collect_extra_complexes(sido, sigungu)
+
+    def infer_place_type(self, text: str) -> str:
+        if "생활형숙박시설" in text:
+            return "생활형숙박시설"
+        if "오피스텔" in text:
+            return "오피스텔"
+        if "주상복합" in text:
+            return "주상복합"
+        return "아파트"
+
+    def is_complex_candidate_text(self, text: str) -> bool:
+        text = text or ""
+        include_words = [
+            "아파트", "오피스텔", "주상복합", "생활형숙박시설",
+            "관리사무소", "관리실", "관리단",
+        ]
+        return any(x in text for x in include_words)
 
     def kakao_places(self, keyword: str, sido: str, sigungu: str) -> List[ComplexItem]:
         out = []
@@ -1371,13 +1478,13 @@ class AptFinderGenerator:
                         continue
                     if self.is_trash_place(text):
                         continue
-                    if not ("오피스텔" in text or "주상복합" in text or "관리사무소" in text or "관리실" in text):
+                    if not self.is_complex_candidate_text(text):
                         continue
 
                     phone = normalize_phone(p.get("phone") or "")
-                    out.append(ComplexItem(
+                    item = ComplexItem(
                         name=name,
-                        type="주상복합" if "주상복합" in text else "오피스텔",
+                        type=self.infer_place_type(text),
                         city=sigungu,
                         sido=sido,
                         district=self.extract_district(address),
@@ -1387,10 +1494,14 @@ class AptFinderGenerator:
                         jibunAddress=jibun,
                         phone=phone,
                         source="카카오 장소검색",
-                        verifiedAt="카카오 자동수집",
+                        verifiedAt="카카오 장소검색",
                         phoneStatus="CONFIRMED" if phone else "UNKNOWN",
                         confidenceScore=90 if phone else 0,
-                    ))
+                        addressQuality="ROAD_AND_JIBUN" if road and jibun else ("ROAD_ONLY" if road else ("JIBUN_ONLY" if jibun else "RAW")),
+                    )
+                    if phone:
+                        self.add_phone_candidate(item, phone, "카카오 장소검색", 90, keyword)
+                    out.append(item)
                 time.sleep(0.15)
             except QuotaStop:
                 raise
@@ -1405,7 +1516,7 @@ class AptFinderGenerator:
             r = self.naver_get(
                 NAVER_LOCAL_URL,
                 headers=self.naver_headers,
-                params={"query": keyword, "display": 5, "start": 1},
+                params={"query": keyword, "display": 10, "start": 1},
                 timeout=20,
             )
             r.raise_for_status()
@@ -1421,13 +1532,13 @@ class AptFinderGenerator:
                     continue
                 if self.is_trash_place(text):
                     continue
-                if not ("오피스텔" in text or "주상복합" in text or "관리사무소" in text or "관리실" in text):
+                if not self.is_complex_candidate_text(text):
                     continue
 
                 phone = normalize_phone(p.get("telephone") or "")
-                out.append(ComplexItem(
+                item = ComplexItem(
                     name=name,
-                    type="주상복합" if "주상복합" in text else "오피스텔",
+                    type=self.infer_place_type(text),
                     city=sigungu,
                     sido=sido,
                     district=self.extract_district(address),
@@ -1437,10 +1548,14 @@ class AptFinderGenerator:
                     jibunAddress=jibun,
                     phone=phone,
                     source="네이버 장소검색",
-                    verifiedAt="네이버 자동수집",
+                    verifiedAt="네이버 장소검색",
                     phoneStatus="CONFIRMED" if phone else "UNKNOWN",
                     confidenceScore=90 if phone else 0,
-                ))
+                    addressQuality="ROAD_AND_JIBUN" if road and jibun else ("ROAD_ONLY" if road else ("JIBUN_ONLY" if jibun else "RAW")),
+                )
+                if phone:
+                    self.add_phone_candidate(item, phone, "네이버 Local", 90, keyword)
+                out.append(item)
         except QuotaStop:
             raise
         except Exception as e:
@@ -1448,42 +1563,35 @@ class AptFinderGenerator:
         return out
 
     def enrich_phone(self, item: ComplexItem, skip_web_phone: bool = False) -> ComplexItem:
+        # 기존 대표번호도 후보에 포함
+        if item.phone:
+            self.add_phone_candidate(item, item.phone, item.verifiedAt or item.source or "기존번호", item.confidenceScore or 70, "existing")
+
         keywords = self.phone_keywords(item)
 
         for kw in keywords:
-            phone = self.find_phone_kakao(kw)
-            if phone:
-                item.phone = phone
-                item.verifiedAt = "카카오 전화번호 보강"
-                item.phoneStatus = "CONFIRMED"
-                item.confidenceScore = max(item.confidenceScore, 90)
-                return item
+            found = self.find_phone_kakao_all(kw)
+            for phone in found:
+                self.add_phone_candidate(item, phone, "카카오 전화번호 보강", 90, kw)
             time.sleep(0.12)
 
         for kw in keywords:
-            phone = self.find_phone_naver_local(kw)
-            if phone:
-                item.phone = phone
-                item.verifiedAt = "네이버 전화번호 보강"
-                item.phoneStatus = "CONFIRMED"
-                item.confidenceScore = max(item.confidenceScore, 90)
-                return item
+            found = self.find_phone_naver_local_all(kw)
+            for phone in found:
+                self.add_phone_candidate(item, phone, "네이버 Local 전화번호 보강", 90, kw)
             time.sleep(0.12)
 
         if not skip_web_phone:
             for kw in keywords:
-                phone = self.find_phone_naver_web_sources(kw)
-                if phone:
-                    item.phone = phone
-                    item.verifiedAt = "웹검색 전화번호 추출"
-                    item.phoneStatus = "CANDIDATE"
-                    item.confidenceScore = max(item.confidenceScore, 65)
-                    return item
+                found = self.find_phone_naver_web_sources_all(kw)
+                for phone, source in found:
+                    self.add_phone_candidate(item, phone, source, 75 if "114" in source else 65, kw)
                 time.sleep(0.12)
 
-        return item
+        return self.finalize_phone_fields(item)
 
-    def find_phone_kakao(self, keyword: str) -> str:
+    def find_phone_kakao_all(self, keyword: str) -> List[str]:
+        out = []
         try:
             r = self.kakao_get(
                 KAKAO_KEYWORD_URL,
@@ -1495,34 +1603,40 @@ class AptFinderGenerator:
             for p in r.json().get("documents", []):
                 phone = normalize_phone(p.get("phone") or "")
                 if phone:
-                    return phone
+                    out.append(phone)
         except QuotaStop:
             raise
         except Exception as e:
             print(f"  카카오 전화검색 실패: {keyword} / {e}")
-        return ""
+        return list(dict.fromkeys(out))
 
-    def find_phone_naver_local(self, keyword: str) -> str:
+    def find_phone_naver_local_all(self, keyword: str) -> List[str]:
+        out = []
         try:
             r = self.naver_get(
                 NAVER_LOCAL_URL,
                 headers=self.naver_headers,
-                params={"query": keyword, "display": 5, "start": 1},
+                params={"query": keyword, "display": 10, "start": 1},
                 timeout=20
             )
             r.raise_for_status()
             for p in r.json().get("items", []):
                 phone = normalize_phone(p.get("telephone") or "")
                 if phone:
-                    return phone
+                    out.append(phone)
         except QuotaStop:
             raise
         except Exception as e:
             print(f"  네이버 전화검색 실패: {keyword} / {e}")
-        return ""
+        return list(dict.fromkeys(out))
 
-    def find_phone_naver_web_sources(self, keyword: str) -> str:
-        for url in [NAVER_WEB_URL, NAVER_BLOG_URL, NAVER_CAFE_URL]:
+    def find_phone_naver_web_sources_all(self, keyword: str) -> List[Tuple[str, str]]:
+        out: List[Tuple[str, str]] = []
+        for url, api_name in [
+            (NAVER_WEB_URL, "네이버 웹검색"),
+            (NAVER_BLOG_URL, "네이버 블로그검색"),
+            (NAVER_CAFE_URL, "네이버 카페검색"),
+        ]:
             try:
                 r = self.naver_get(
                     url,
@@ -1532,24 +1646,58 @@ class AptFinderGenerator:
                 )
                 r.raise_for_status()
                 for p in r.json().get("items", []):
-                    text = clean_html(f"{p.get('title','')} {p.get('description','')}")
-                    phone = normalize_phone(text)
-                    if phone:
-                        return phone
+                    title = clean_html(p.get("title", ""))
+                    desc = clean_html(p.get("description", ""))
+                    link = p.get("link", "") or ""
+                    text = f"{title} {desc}"
+
+                    source = api_name
+                    if "114" in title or "114" in desc or "114.co.kr" in link:
+                        source = "114On/네이버 스니펫"
+
+                    for phone in extract_all_phones(text):
+                        out.append((phone, source))
+
             except QuotaStop:
                 raise
             except Exception as e:
                 print(f"  네이버 웹 전화검색 실패: {keyword} / {e}")
             time.sleep(0.12)
-        return ""
+
+        # 번호+출처 기준 중복 제거
+        seen = set()
+        dedup = []
+        for phone, source in out:
+            key = (phone, source)
+            if key in seen:
+                continue
+            seen.add(key)
+            dedup.append((phone, source))
+        return dedup
+
+    # 구버전 함수명 호환
+    def find_phone_kakao(self, keyword: str) -> str:
+        phones = self.find_phone_kakao_all(keyword)
+        return phones[0] if phones else ""
+
+    def find_phone_naver_local(self, keyword: str) -> str:
+        phones = self.find_phone_naver_local_all(keyword)
+        return phones[0] if phones else ""
+
+    def find_phone_naver_web_sources(self, keyword: str) -> str:
+        found = self.find_phone_naver_web_sources_all(keyword)
+        return found[0][0] if found else ""
 
     def phone_keywords(self, item: ComplexItem) -> List[str]:
         clean_name = (
             item.name
+            .replace("아파트", "")
             .replace("오피스텔", "")
             .replace("주상복합", "")
+            .replace("생활형숙박시설", "")
             .replace("관리사무소", "")
             .replace("관리실", "")
+            .replace("관리단", "")
             .strip()
         )
 
@@ -1560,6 +1708,7 @@ class AptFinderGenerator:
             f"{item.name} 전화번호",
             f"{clean_name} 관리사무소",
             f"{clean_name} 관리실",
+            f"{clean_name} 관리단",
             f"{clean_name} 전화번호",
             f"{item.city} {clean_name} 관리사무소",
             f"{item.city} {clean_name} 관리실",
@@ -1580,6 +1729,7 @@ class AptFinderGenerator:
 
         for addr in list(dict.fromkeys(address_candidates)):
             base.append(f"{addr} 관리사무소")
+            base.append(f"{addr} 관리실")
             base.append(f"{addr} 전화번호")
 
         return list(dict.fromkeys([x.strip() for x in base if x.strip()]))
@@ -1591,6 +1741,8 @@ class AptFinderGenerator:
             if not item:
                 continue
 
+            self.finalize_phone_fields(item)
+
             key = self.make_merge_key(item)
             old = by_key.get(key)
 
@@ -1598,13 +1750,26 @@ class AptFinderGenerator:
                 by_key[key] = item
                 continue
 
-            # 전화번호는 더 높은 confidenceScore 우선
-            if item.phone:
-                if not old.phone or item.confidenceScore > old.confidenceScore:
-                    old.phone = item.phone
-                    old.verifiedAt = item.verifiedAt
-                    old.phoneStatus = item.phoneStatus
-                    old.confidenceScore = item.confidenceScore
+            # 후보 번호 전부 합치기
+            for c in item.phoneCandidates or []:
+                self.add_phone_candidate(
+                    old,
+                    c.get("number", ""),
+                    c.get("source", ""),
+                    int(c.get("score") or 0),
+                    c.get("keyword", "")
+                )
+
+            # 대표번호/점수 갱신은 finalize에서 처리
+            self.finalize_phone_fields(old)
+
+            # 이름은 더 짧고 일반적인 이름보다 관리사무소가 붙지 않은 이름 우선
+            if item.name and (not old.name or ("관리" in old.name and "관리" not in item.name)):
+                old.name = item.name
+
+            # type은 아파트보다 구체 타입 우선
+            if old.type == "아파트" and item.type in ("오피스텔", "주상복합", "생활형숙박시설"):
+                old.type = item.type
 
             # 주소는 도로명+지번 둘 다 있는 데이터 우선
             if not old.address and item.address:
@@ -1634,7 +1799,9 @@ class AptFinderGenerator:
                 old.sharedKey = item.sharedKey
 
             if item.source and item.source not in old.source:
-                old.source = old.source or item.source
+                old.source = f"{old.source}, {item.source}".strip(", ") if old.source else item.source
+
+            self.finalize_phone_fields(old)
 
         return list(by_key.values())
 
@@ -1652,6 +1819,7 @@ class AptFinderGenerator:
             item.sido = item.sido or sido
             item.city = item.city or sigungu
             item.sharedKey = item.sharedKey or self.make_shared_key(item)
+            self.finalize_phone_fields(item)
 
         safe_items.sort(key=lambda x: (self.normalize_for_key(x.dong), self.normalize_for_key(x.name)))
 
@@ -1719,13 +1887,13 @@ class AptFinderGenerator:
     def item_belongs_to_region(self, item: ComplexItem, sido: str, sigungu: str) -> bool:
         if item.address:
             return self.is_target_address(item.address, sido, sigungu)
-
         return (item.city or "") == sigungu
 
     def is_trash_place(self, text: str) -> bool:
         trash = [
             "공인중개사", "부동산", "분양", "모델하우스", "홍보관",
-            "숙박", "호텔", "모텔", "고시원", "원룸텔", "리빙텔"
+            "숙박", "호텔", "모텔", "고시원", "원룸텔", "리빙텔",
+            "인테리어", "청소", "이사", "도배", "장판", "누수", "설비",
         ]
         return any(x in (text or "") for x in trash)
 
@@ -1738,6 +1906,8 @@ class AptFinderGenerator:
         return " ".join(values)
 
     def infer_type(self, type_text: str) -> str:
+        if "생활형숙박시설" in (type_text or ""):
+            return "생활형숙박시설"
         if "오피스텔" in (type_text or ""):
             return "오피스텔"
         if "주상복합" in (type_text or ""):
