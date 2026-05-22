@@ -1,8 +1,8 @@
 {
   "group": "today",
-  "updatedAt": "2026-05-22 02:49:41",
+  "updatedAt": "2026-05-22 09:07:33",
   "status": "stopped",
-  "reason": "GitHub Actions 안전정지: 330분 경과 / 제한 330분",
+  "reason": "네이버 실제 API 사용 제한 감지: HTTP 429 / {\"errorMessage\":\"{count/quota=25000/25000} : Query limit exceeded. (쿼리 한도를 초과했습니다.)\",\"errorCode\":\"010\"}",
   "completed": [
     "경기도|수원시",
     "경기도|화성시",
@@ -237,11 +237,11 @@
     "제주특별자치도|제주시"
   ],
   "limits": {
-    "kakaoUsed": 29308,
+    "kakaoUsed": 4312,
     "kakaoMax": 999999999,
-    "naverUsed": 1700,
+    "naverUsed": 15668,
     "naverMax": 999999999,
-    "kaptUsed": 8639,
+    "kaptUsed": 185,
     "kaptMax": 999999999
   }
 }
