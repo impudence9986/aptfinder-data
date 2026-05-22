@@ -8,6 +8,8 @@ AptFinder 전국/지역별 DB 생성기 - 후보확장 + 복수 전화번호 저
 3) K-apt 번호가 있어도 카카오/네이버/네이버웹 번호를 추가 후보로 계속 수집
 4) phoneCandidates 배열 저장 + 기존 phone 필드는 대표번호로 유지
 5) 네이버 웹검색 스니펫에서 114On 등 전화번호 후보 추출
+6) 전화번호/연락처/대표번호/대표전화/관리사무소 번호/관리실 번호 키워드 확장
+7) 같은 번호가 여러 출처·검색어에서 반복 검출되면 신뢰도 점수 가산
 """
 
 import argparse
@@ -424,27 +426,56 @@ class AptFinderGenerator:
         if not isinstance(item.phones, list):
             item.phones = []
 
+        source = (source or "").strip()
+        keyword = (keyword or "").strip()[:120]
+        base_score = max(0, min(100, int(score or 0)))
+
         existed = False
         for c in item.phoneCandidates:
             if c.get("number") == phone:
                 existed = True
+
                 old_score = int(c.get("score") or 0)
-                if score > old_score:
-                    c["score"] = score
-                    c["source"] = source
-                    c["keyword"] = keyword
+                old_source = c.get("source", "") or ""
+                old_keyword = c.get("keyword", "") or ""
+                old_hit_count = int(c.get("hitCount") or 1)
+
+                # 같은 번호가 여러 출처/검색어에서 반복 검출되면 신뢰도 상승
+                source_is_new = bool(source and source not in old_source)
+                keyword_is_new = bool(keyword and keyword not in old_keyword)
+
+                bonus = 0
+                if source_is_new:
+                    bonus += 8
+                elif keyword_is_new:
+                    bonus += 3
                 else:
-                    sources = c.get("source", "")
-                    if source and source not in sources:
-                        c["source"] = f"{sources}, {source}".strip(", ")
+                    bonus += 1
+
+                new_score = min(100, max(old_score, base_score) + bonus)
+                c["score"] = new_score
+                c["hitCount"] = old_hit_count + 1
+
+                if source_is_new:
+                    c["source"] = f"{old_source}, {source}".strip(", ")
+                elif source and not old_source:
+                    c["source"] = source
+
+                if keyword_is_new:
+                    if old_keyword:
+                        c["keyword"] = f"{old_keyword} | {keyword}"[:120]
+                    else:
+                        c["keyword"] = keyword
+
                 break
 
         if not existed:
             item.phoneCandidates.append({
                 "number": phone,
                 "source": source,
-                "score": int(score),
-                "keyword": keyword[:120],
+                "score": base_score,
+                "keyword": keyword,
+                "hitCount": 1,
             })
 
         if phone not in item.phones:
@@ -453,6 +484,7 @@ class AptFinderGenerator:
         self.finalize_phone_fields(item)
         return True
 
+
     def finalize_phone_fields(self, item: ComplexItem) -> ComplexItem:
         candidates = []
         seen = set()
@@ -460,30 +492,45 @@ class AptFinderGenerator:
         if item.phone:
             p = normalize_phone(item.phone)
             if p:
-                candidates.append({"number": p, "source": item.verifiedAt or item.source or "기존", "score": int(item.confidenceScore or 50), "keyword": ""})
+                candidates.append({
+                    "number": p,
+                    "source": item.verifiedAt or item.source or "기존",
+                    "score": int(item.confidenceScore or 50),
+                    "keyword": "",
+                    "hitCount": 1,
+                })
                 seen.add(p)
 
         for c in item.phoneCandidates or []:
             p = normalize_phone(c.get("number", ""))
             if not p:
                 continue
+
+            incoming_score = int(c.get("score") or 0)
+            incoming_source = c.get("source", "") or ""
+            incoming_keyword = (c.get("keyword", "") or "")[:120]
+            incoming_hit_count = int(c.get("hitCount") or 1)
+
             if p in seen:
-                # 같은 번호면 점수/출처 보강
+                # 같은 번호면 점수/출처/검출횟수 보강
                 for old in candidates:
                     if old["number"] == p:
-                        if int(c.get("score") or 0) > int(old.get("score") or 0):
-                            old["score"] = int(c.get("score") or 0)
-                            old["source"] = c.get("source", old.get("source", ""))
-                            old["keyword"] = c.get("keyword", old.get("keyword", ""))
-                        elif c.get("source") and c.get("source") not in old.get("source", ""):
-                            old["source"] = f"{old.get('source','')}, {c.get('source')}".strip(", ")
+                        old["hitCount"] = max(int(old.get("hitCount") or 1), incoming_hit_count)
+                        if incoming_score > int(old.get("score") or 0):
+                            old["score"] = incoming_score
+                            old["source"] = incoming_source or old.get("source", "")
+                            old["keyword"] = incoming_keyword or old.get("keyword", "")
+                        elif incoming_source and incoming_source not in old.get("source", ""):
+                            old["source"] = f"{old.get('source','')}, {incoming_source}".strip(", ")
                         break
                 continue
+
             candidates.append({
                 "number": p,
-                "source": c.get("source", ""),
-                "score": int(c.get("score") or 0),
-                "keyword": c.get("keyword", "")[:120],
+                "source": incoming_source,
+                "score": incoming_score,
+                "keyword": incoming_keyword,
+                "hitCount": incoming_hit_count,
             })
             seen.add(p)
 
@@ -500,7 +547,14 @@ class AptFinderGenerator:
                 return 2
             return 0
 
-        candidates.sort(key=lambda c: (int(c.get("score") or 0), source_bonus(c.get("source", ""))), reverse=True)
+        candidates.sort(
+            key=lambda c: (
+                int(c.get("score") or 0),
+                int(c.get("hitCount") or 1),
+                source_bonus(c.get("source", "")),
+            ),
+            reverse=True
+        )
 
         item.phoneCandidates = candidates
         item.phones = [c["number"] for c in candidates]
@@ -517,6 +571,7 @@ class AptFinderGenerator:
             item.phoneStatus = "UNKNOWN"
 
         return item
+
 
     def kakao_address_search(self, query: str) -> dict:
         query = (query or "").strip()
@@ -1706,18 +1761,41 @@ class AptFinderGenerator:
             f"{item.name} 관리실",
             f"{item.name} 관리단",
             f"{item.name} 전화번호",
+            f"{item.name} 연락처",
+            f"{item.name} 대표번호",
+            f"{item.name} 대표전화",
+            f"{item.name} 관리사무소 번호",
+            f"{item.name} 관리실 번호",
+
             f"{clean_name} 관리사무소",
             f"{clean_name} 관리실",
             f"{clean_name} 관리단",
             f"{clean_name} 전화번호",
+            f"{clean_name} 연락처",
+            f"{clean_name} 대표번호",
+            f"{clean_name} 대표전화",
+            f"{clean_name} 관리사무소 번호",
+            f"{clean_name} 관리실 번호",
+
             f"{item.city} {clean_name} 관리사무소",
             f"{item.city} {clean_name} 관리실",
+            f"{item.city} {clean_name} 연락처",
+            f"{item.city} {clean_name} 대표번호",
+            f"{item.city} {clean_name} 대표전화",
         ]
 
         if item.district:
-            base.append(f"{item.city} {item.district} {clean_name} 관리사무소")
+            base.extend([
+                f"{item.city} {item.district} {clean_name} 관리사무소",
+                f"{item.city} {item.district} {clean_name} 연락처",
+                f"{item.city} {item.district} {clean_name} 대표번호",
+            ])
         if item.dong:
-            base.append(f"{item.dong} {clean_name} 관리사무소")
+            base.extend([
+                f"{item.dong} {clean_name} 관리사무소",
+                f"{item.dong} {clean_name} 연락처",
+                f"{item.dong} {clean_name} 대표번호",
+            ])
 
         address_candidates = []
         if item.roadAddress:
@@ -1731,8 +1809,14 @@ class AptFinderGenerator:
             base.append(f"{addr} 관리사무소")
             base.append(f"{addr} 관리실")
             base.append(f"{addr} 전화번호")
+            base.append(f"{addr} 연락처")
+            base.append(f"{addr} 대표번호")
+            base.append(f"{addr} 대표전화")
+            base.append(f"{addr} 관리사무소 번호")
+            base.append(f"{addr} 관리실 번호")
 
         return list(dict.fromkeys([x.strip() for x in base if x.strip()]))
+
 
     def merge_items(self, items: List[ComplexItem]) -> List[ComplexItem]:
         by_key = {}
