@@ -68,11 +68,13 @@ jobs:
             python -u scripts/generate_aptfinder_db.py \
               --region-group missing \
               --resume \
+              --force \
               --max-runtime-minutes "$MAX_RUNTIME_MINUTES"
           else
             python -u scripts/generate_aptfinder_db.py \
               --region-group today \
               --resume \
+              --force \
               --max-runtime-minutes "$MAX_RUNTIME_MINUTES"
           fi
 
