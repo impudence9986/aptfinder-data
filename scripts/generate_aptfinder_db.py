@@ -1391,12 +1391,19 @@ class AptFinderGenerator:
             print(f"GitHub 업로드 대상 폴더: {OUTPUT_DIR.resolve()}")
 
         except QuotaStop as e:
-            current_index = processed + skipped
-            remaining = regions[current_index:]
+            # 현재 처리 중이던 지역은 완료된 게 아니므로
+            # 다음 실행 때 같은 시/군/구를 처음부터 다시 처리하게 한다.
+            try:
+                remaining = [(sido, sigungu)] + remaining_after_current
+            except Exception:
+                remaining = regions
+
             self.save_state(group_key, completed, remaining, "stopped", reason=str(e))
             self.rebuild_metadata_from_output()
+
             print(f"\n호출량 보호로 정상 중단: {e}")
-            print("다음 실행 때 --resume 옵션으로 이어서 처리됩니다.")
+            print("현재 지역은 완료 처리하지 않았습니다.")
+            print("다음 실행 때 --resume 옵션으로 현재 지역 처음부터 다시 처리됩니다.")
             print(f"남은 지역: {len(remaining)}개")
 
     def build_region(self, sido: str, sigungu: str, skip_web_phone: bool = False) -> List[ComplexItem]:
