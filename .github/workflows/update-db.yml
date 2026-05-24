@@ -2,7 +2,7 @@ name: Update AptFinder DB
 
 on:
   schedule:
-    - cron: "0 16 * * *"   # 매일 한국시간 새벽 1시
+    - cron: "17 16 * * *"   # 매일 한국시간 새벽 1시 17분
 
   workflow_dispatch:
     inputs:
