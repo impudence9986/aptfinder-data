@@ -1337,6 +1337,8 @@ class AptFinderGenerator:
         processed = 0
         skipped = 0
         failed = 0
+        
+        start_time = time.monotonic()
 
         try:
             for idx, (sido, sigungu) in enumerate(regions, start=1):
@@ -1352,7 +1354,26 @@ class AptFinderGenerator:
                     print(f"\n[{idx}/{len(regions)}] {sido} {sigungu} 건너뜀 · 기존 {count}개")
                     continue
 
-                print(f"\n[{idx}/{len(regions)}] {sido} {sigungu} 생성 시작")
+elapsed = int(time.monotonic() - start_time)
+
+elapsed_h = elapsed // 3600
+elapsed_m = (elapsed % 3600) // 60
+elapsed_s = elapsed % 60
+
+done_count = max(1, processed + skipped)
+avg_sec = elapsed / done_count
+
+remaining_count = len(regions) - (processed + skipped)
+eta_sec = int(avg_sec * remaining_count)
+
+eta_h = eta_sec // 3600
+eta_m = (eta_sec % 3600) // 60
+
+print(
+    f"\n[{idx}/{len(regions)}] {sido} {sigungu} 생성 시작 "
+    f"| 경과 {elapsed_h}시간 {elapsed_m}분 {elapsed_s}초 "
+    f"| 예상남음 {eta_h}시간 {eta_m}분"
+)
 
                 try:
                     items = self.build_region(sido, sigungu, skip_web_phone=skip_web_phone)
