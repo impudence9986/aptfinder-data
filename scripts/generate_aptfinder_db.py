@@ -17,6 +17,7 @@ import re
 import time
 from dataclasses import dataclass, asdict, field
 from pathlib import Path
+from difflib import SequenceMatcher
 from typing import Dict, List, Optional, Tuple
 
 import requests
@@ -2252,77 +2253,240 @@ class AptFinderGenerator:
 
         return list(dict.fromkeys([x.strip() for x in base if x.strip()]))
 
+    def _lot_key_for_merge(self, value: str) -> str:
+        text = self.normalize_for_key(value or "")
+        if not text:
+            return ""
+
+        # 예: 행궁동123, 행궁동123-4, 행궁동산12 같은 지번 단위 키
+        m = re.search(r"([가-힣0-9]+(?:동|읍|면))(산?\d+(?:-\d+)?)", text)
+        if m:
+            return f"{m.group(1)}{m.group(2)}"
+
+        # 도로명 주소는 길/로 + 건물번호 조합으로 보조 키 생성
+        m = re.search(r"([가-힣0-9]+(?:로|길))(\d+(?:-\d+)?)", text)
+        if m:
+            return f"{m.group(1)}{m.group(2)}"
+
+        return ""
+
+    def _name_key_for_merge(self, value: str) -> str:
+        text = self.normalize_for_key(value or "")
+        # 이름 비교에서 너무 일반적인 꼬리표 제거
+        for token in ["1차", "2차", "3차", "4차", "5차", "일차", "이차", "삼차", "관리"]:
+            text = text.replace(token, "")
+        return text
+
+    def _phone_set_for_merge(self, item: ComplexItem) -> set:
+        out = set()
+        if item.phone:
+            p = normalize_phone(item.phone)
+            if p:
+                out.add(p)
+        for p in item.phones or []:
+            pp = normalize_phone(p)
+            if pp:
+                out.add(pp)
+        for c in item.phoneCandidates or []:
+            pp = normalize_phone(c.get("number", ""))
+            if pp:
+                out.add(pp)
+        return out
+
+    def _item_address_text_for_merge(self, item: ComplexItem) -> str:
+        return " ".join([
+            item.jibunAddress or "",
+            item.roadAddress or "",
+            item.address or "",
+        ]).strip()
+
+    def _merge_score(self, old: ComplexItem, item: ComplexItem) -> int:
+        # 서로 다른 광역/시군구가 명확하면 병합 금지
+        if old.sido and item.sido and self.normalize_for_key(old.sido) != self.normalize_for_key(item.sido):
+            return -999
+        if old.city and item.city and self.normalize_for_key(old.city) != self.normalize_for_key(item.city):
+            return -999
+
+        # 서로 다른 K-apt 코드가 명확하면 다른 단지로 본다.
+        if old.kaptCode and item.kaptCode and old.kaptCode != item.kaptCode:
+            return -999
+
+        old_name = self._name_key_for_merge(old.name)
+        new_name = self._name_key_for_merge(item.name)
+
+        old_addr_text = self._item_address_text_for_merge(old)
+        new_addr_text = self._item_address_text_for_merge(item)
+        old_addr = self.normalize_for_key(old_addr_text)
+        new_addr = self.normalize_for_key(new_addr_text)
+
+        old_lot = self._lot_key_for_merge(old_addr_text)
+        new_lot = self._lot_key_for_merge(new_addr_text)
+
+        score = 0
+
+        # 주소가 같으면 가장 강한 병합 근거
+        if old_addr and new_addr and old_addr == new_addr:
+            score += 75
+
+        # 지번/도로명 건물번호가 같으면 강한 병합 근거
+        if old_lot and new_lot and old_lot == new_lot:
+            score += 45
+
+        # 같은 동이면 약한 보조 근거
+        old_dong = self.normalize_for_key(old.dong or self.extract_dong(old_addr_text))
+        new_dong = self.normalize_for_key(item.dong or self.extract_dong(new_addr_text))
+        if old_dong and new_dong and old_dong == new_dong:
+            score += 12
+
+        # 이름 유사도
+        if old_name and new_name:
+            if old_name == new_name:
+                score += 45
+            else:
+                ratio = SequenceMatcher(None, old_name, new_name).ratio()
+                if ratio >= 0.96:
+                    score += 42
+                elif ratio >= 0.90:
+                    score += 34
+                elif ratio >= 0.84:
+                    score += 25
+                elif ratio >= 0.78:
+                    score += 15
+
+                if min(len(old_name), len(new_name)) >= 4 and (old_name in new_name or new_name in old_name):
+                    score += 25
+
+        # 전화번호가 같으면 강한 보조 근거
+        if self._phone_set_for_merge(old) & self._phone_set_for_merge(item):
+            score += 35
+
+        # 주소가 둘 다 있는데 지번/건물번호가 다르면 과병합 방지
+        if old_lot and new_lot and old_lot != new_lot:
+            if not (self._phone_set_for_merge(old) & self._phone_set_for_merge(item)):
+                score -= 45
+
+        return score
+
+    def _should_score_merge(self, old: ComplexItem, item: ComplexItem) -> bool:
+        score = self._merge_score(old, item)
+
+        if score >= 85:
+            return True
+
+        # 주소가 정확히 같고 이름도 어느 정도 겹치면 병합
+        old_addr = self.normalize_for_key(self._item_address_text_for_merge(old))
+        new_addr = self.normalize_for_key(self._item_address_text_for_merge(item))
+        old_name = self._name_key_for_merge(old.name)
+        new_name = self._name_key_for_merge(item.name)
+
+        if old_addr and new_addr and old_addr == new_addr and old_name and new_name:
+            ratio = SequenceMatcher(None, old_name, new_name).ratio()
+            if ratio >= 0.65 or old_name in new_name or new_name in old_name:
+                return True
+
+        return False
+
+    def _merge_item_into(self, old: ComplexItem, item: ComplexItem) -> ComplexItem:
+        # 후보 번호 전부 합치기
+        for c in item.phoneCandidates or []:
+            self.add_phone_candidate(
+                old,
+                c.get("number", ""),
+                c.get("source", ""),
+                int(c.get("score") or 0),
+                c.get("keyword", "")
+            )
+
+        if item.phone:
+            self.add_phone_candidate(
+                old,
+                item.phone,
+                item.verifiedAt or item.source or "기존",
+                int(item.confidenceScore or 50),
+                "merged"
+            )
+
+        # 이름은 관리사무소/관리실 꼬리표가 없는 쪽 우선, 그 다음 짧은 쪽 우선
+        if item.name:
+            old_bad = any(x in (old.name or "") for x in ["관리사무소", "관리실", "관리단"])
+            new_good = not any(x in item.name for x in ["관리사무소", "관리실", "관리단"])
+            if not old.name or (old_bad and new_good) or (new_good and len(item.name) < len(old.name)):
+                old.name = item.name
+
+        # type은 아파트보다 구체 타입 우선
+        if old.type == "아파트" and item.type in ("오피스텔", "주상복합", "생활형숙박시설"):
+            old.type = item.type
+
+        # 주소는 도로명+지번 둘 다 있는 데이터 우선
+        if not old.address and item.address:
+            old.address = item.address
+        if not old.roadAddress and item.roadAddress:
+            old.roadAddress = item.roadAddress
+        if not old.jibunAddress and item.jibunAddress:
+            old.jibunAddress = item.jibunAddress
+
+        if old.addressQuality != "ROAD_AND_JIBUN" and item.addressQuality == "ROAD_AND_JIBUN":
+            old.address = item.address
+            old.roadAddress = item.roadAddress
+            old.jibunAddress = item.jibunAddress
+            old.addressQuality = item.addressQuality
+
+        if not old.households and item.households:
+            old.households = item.households
+        if not old.sido and item.sido:
+            old.sido = item.sido
+        if not old.city and item.city:
+            old.city = item.city
+        if not old.district and item.district:
+            old.district = item.district
+        if not old.dong and item.dong:
+            old.dong = item.dong
+        if not old.sharedKey and item.sharedKey:
+            old.sharedKey = item.sharedKey
+
+        if item.source and item.source not in old.source:
+            old.source = f"{old.source}, {item.source}".strip(", ") if old.source else item.source
+
+        self.finalize_phone_fields(old)
+        old.sharedKey = old.sharedKey or self.make_shared_key(old)
+        return old
+
     def merge_items(self, items: List[ComplexItem]) -> List[ComplexItem]:
-        by_key = {}
+        merged: List[ComplexItem] = []
+        by_key: Dict[str, ComplexItem] = {}
 
         for item in items:
             if not item:
                 continue
 
             self.finalize_phone_fields(item)
+            item.sharedKey = item.sharedKey or self.make_shared_key(item)
 
             key = self.make_merge_key(item)
-            old = by_key.get(key)
 
-            if not old:
-                by_key[key] = item
+            # 1차: K-apt 코드/정규화 주소 기반 정확 병합
+            old = by_key.get(key)
+            if old is not None:
+                self._merge_item_into(old, item)
                 continue
 
-            # 후보 번호 전부 합치기
-            for c in item.phoneCandidates or []:
-                self.add_phone_candidate(
-                    old,
-                    c.get("number", ""),
-                    c.get("source", ""),
-                    int(c.get("score") or 0),
-                    c.get("keyword", "")
-                )
+            # 2차: 같은 지역 안에서 점수 기반 보수적 병합
+            matched = None
+            for candidate in merged:
+                if self._should_score_merge(candidate, item):
+                    matched = candidate
+                    break
 
-            # 대표번호/점수 갱신은 finalize에서 처리
-            self.finalize_phone_fields(old)
+            if matched is not None:
+                self._merge_item_into(matched, item)
+                by_key[self.make_merge_key(matched)] = matched
+                by_key[key] = matched
+                continue
 
-            # 이름은 더 짧고 일반적인 이름보다 관리사무소가 붙지 않은 이름 우선
-            if item.name and (not old.name or ("관리" in old.name and "관리" not in item.name)):
-                old.name = item.name
+            merged.append(item)
+            by_key[key] = item
 
-            # type은 아파트보다 구체 타입 우선
-            if old.type == "아파트" and item.type in ("오피스텔", "주상복합", "생활형숙박시설"):
-                old.type = item.type
-
-            # 주소는 도로명+지번 둘 다 있는 데이터 우선
-            if not old.address and item.address:
-                old.address = item.address
-            if not old.roadAddress and item.roadAddress:
-                old.roadAddress = item.roadAddress
-            if not old.jibunAddress and item.jibunAddress:
-                old.jibunAddress = item.jibunAddress
-
-            if old.addressQuality != "ROAD_AND_JIBUN" and item.addressQuality == "ROAD_AND_JIBUN":
-                old.address = item.address
-                old.roadAddress = item.roadAddress
-                old.jibunAddress = item.jibunAddress
-                old.addressQuality = item.addressQuality
-
-            if not old.households and item.households:
-                old.households = item.households
-            if not old.sido and item.sido:
-                old.sido = item.sido
-            if not old.city and item.city:
-                old.city = item.city
-            if not old.district and item.district:
-                old.district = item.district
-            if not old.dong and item.dong:
-                old.dong = item.dong
-            if not old.sharedKey and item.sharedKey:
-                old.sharedKey = item.sharedKey
-
-            if item.source and item.source not in old.source:
-                old.source = f"{old.source}, {item.source}".strip(", ") if old.source else item.source
-
-            self.finalize_phone_fields(old)
-
-        return list(by_key.values())
-
+        return merged
     def write_region_file(self, sido: str, sigungu: str, items: List[ComplexItem]) -> Path:
         DATA_DIR.mkdir(parents=True, exist_ok=True)
         slug = region_slug(sido, sigungu)
