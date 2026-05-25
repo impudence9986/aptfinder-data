@@ -26,6 +26,7 @@ CONFIG_PATH = Path("config.json")
 OUTPUT_DIR = Path(".")
 DATA_DIR = Path("data")
 STATE_PATH = Path("update_state.json")
+NAVER_QUEUE_PATH = DATA_DIR / "_naver_queue.json"
 
 KAPT_LIST_URL = "https://apis.data.go.kr/1613000/AptListService3/getTotalAptList3"
 KAPT_DETAIL_URL = "https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4"
@@ -248,7 +249,7 @@ class ApiCallLimiter:
 
 
 class AptFinderGenerator:
-    def __init__(self, config: dict, limiter: Optional[ApiCallLimiter] = None, max_runtime_minutes: int = 330):
+    def __init__(self, config: dict, limiter: Optional[ApiCallLimiter] = None, max_runtime_minutes: int = 330, use_naver_during_generation: bool = False):
         self.config = config
         self.session = requests.Session()
         self.kakao_headers = {"Authorization": f"KakaoAK {config['kakao_rest_key']}"}
@@ -261,6 +262,8 @@ class AptFinderGenerator:
         self.address_cache: Dict[str, dict] = {}
         self.started_at = time.monotonic()
         self.max_runtime_seconds = max(1, int(max_runtime_minutes)) * 60
+        self.use_naver_during_generation = use_naver_during_generation
+        self.max_naver_queue_items = 999999999
 
     def check_runtime_budget(self):
         elapsed = time.monotonic() - self.started_at
@@ -1038,13 +1041,14 @@ class AptFinderGenerator:
 
             return changed
 
-        for q in queries:
-            if road and jibun:
-                break
-            candidate = self.naver_local_address_search(q, sido, sigungu, name)
-            if merge_candidate(candidate) and road and jibun:
-                break
-            time.sleep(0.05)
+        if self.use_naver_during_generation:
+            for q in queries:
+                if road and jibun:
+                    break
+                candidate = self.naver_local_address_search(q, sido, sigungu, name)
+                if merge_candidate(candidate) and road and jibun:
+                    break
+                time.sleep(0.05)
 
         for q in queries:
             if road and jibun:
@@ -1086,7 +1090,7 @@ class AptFinderGenerator:
 
             time.sleep(0.08)
 
-        if best_score < 95 or not best_result.get("roadAddress") or not best_result.get("jibunAddress"):
+        if self.use_naver_during_generation and (best_score < 95 or not best_result.get("roadAddress") or not best_result.get("jibunAddress")):
             for q in queries:
                 result = self.naver_local_address_search(q, sido, sigungu, name)
                 if result:
@@ -1427,6 +1431,243 @@ class AptFinderGenerator:
             print("다음 실행 때 --resume 옵션으로 현재 지역 처음부터 다시 처리됩니다.")
             print(f"남은 지역: {len(remaining)}개")
 
+    def load_naver_queue(self) -> dict:
+        if not NAVER_QUEUE_PATH.exists():
+            return {"version": 1, "updatedAt": now_text(), "pending": [], "done": []}
+        try:
+            with NAVER_QUEUE_PATH.open("r", encoding="utf-8") as f:
+                root = json.load(f)
+            if not isinstance(root, dict):
+                root = {}
+            root.setdefault("version", 1)
+            root.setdefault("updatedAt", now_text())
+            root.setdefault("pending", [])
+            root.setdefault("done", [])
+            if not isinstance(root.get("pending"), list):
+                root["pending"] = []
+            if not isinstance(root.get("done"), list):
+                root["done"] = []
+            return root
+        except Exception:
+            return {"version": 1, "updatedAt": now_text(), "pending": [], "done": []}
+
+    def save_naver_queue(self, queue: dict):
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        queue["version"] = 1
+        queue["updatedAt"] = now_text()
+        with NAVER_QUEUE_PATH.open("w", encoding="utf-8") as f:
+            json.dump(queue, f, ensure_ascii=False, indent=2)
+
+    def queue_key_for_item(self, sido: str, sigungu: str, item: ComplexItem) -> str:
+        base = item.sharedKey or self.make_shared_key(item) or self.make_merge_key(item) or item.name
+        return f"{sido}|{sigungu}|{base}"
+
+    def should_queue_naver(self, item: ComplexItem) -> bool:
+        if not item.phone:
+            return True
+        if item.phoneStatus != "CONFIRMED":
+            return True
+        if int(item.confidenceScore or 0) < 85:
+            return True
+        return False
+
+    def enqueue_naver_candidates(self, sido: str, sigungu: str, items: List[ComplexItem]):
+        queue = self.load_naver_queue()
+        pending = queue.get("pending", [])
+        done = queue.get("done", [])
+
+        done_keys = set()
+        for d in done:
+            if isinstance(d, dict) and d.get("key"):
+                done_keys.add(d.get("key"))
+            elif isinstance(d, str):
+                done_keys.add(d)
+
+        pending_by_key = {}
+        for p in pending:
+            if isinstance(p, dict) and p.get("key"):
+                pending_by_key[p["key"]] = p
+
+        added = 0
+        file_name = f"data/{self.region_output_path(sido, sigungu).name}"
+
+        for item in items:
+            if not self.should_queue_naver(item):
+                continue
+
+            key = self.queue_key_for_item(sido, sigungu, item)
+            if key in done_keys:
+                continue
+
+            entry = {
+                "key": key,
+                "region": f"{sido}|{sigungu}",
+                "file": file_name,
+                "sharedKey": item.sharedKey or self.make_shared_key(item),
+                "name": item.name,
+                "address": item.address,
+                "roadAddress": item.roadAddress,
+                "jibunAddress": item.jibunAddress,
+                "phone": item.phone,
+                "confidenceScore": int(item.confidenceScore or 0),
+                "phoneStatus": item.phoneStatus,
+                "tries": int((pending_by_key.get(key) or {}).get("tries") or 0),
+                "lastError": (pending_by_key.get(key) or {}).get("lastError", ""),
+                "updatedAt": now_text(),
+            }
+
+            if key not in pending_by_key:
+                added += 1
+            pending_by_key[key] = entry
+
+        queue["pending"] = list(pending_by_key.values())
+        self.save_naver_queue(queue)
+
+        if added > 0:
+            print(f"네이버 보강 큐 추가: {sido} {sigungu} {added}개 / 전체 대기 {len(queue['pending'])}개")
+        else:
+            print(f"네이버 보강 큐 추가 없음 / 전체 대기 {len(queue['pending'])}개")
+
+    def item_to_dict(self, item: ComplexItem) -> dict:
+        return asdict(item)
+
+    def dict_to_item(self, obj: dict) -> ComplexItem:
+        allowed = {f.name for f in ComplexItem.__dataclass_fields__.values()}
+        clean = {k: v for k, v in (obj or {}).items() if k in allowed}
+        return ComplexItem(**clean)
+
+    def update_item_in_region_file(self, file_path: Path, target_key: str) -> bool:
+        if not file_path.exists():
+            return False
+
+        with file_path.open("r", encoding="utf-8") as f:
+            root = json.load(f)
+
+        items = root.get("items", [])
+        if not isinstance(items, list):
+            return False
+
+        changed = False
+        new_items = []
+
+        for obj in items:
+            item = self.dict_to_item(obj if isinstance(obj, dict) else {})
+            item_key = self.queue_key_for_item(item.sido or root.get("sido", ""), item.city or root.get("sigungu", ""), item)
+            alt_key = item.sharedKey or self.make_shared_key(item)
+
+            if item_key == target_key or alt_key in target_key:
+                before_phone = item.phone
+                before_score = int(item.confidenceScore or 0)
+                item = self.enrich_phone(
+                    item,
+                    skip_web_phone=False,
+                    use_kakao=False,
+                    use_naver_local=True,
+                    use_naver_web=True,
+                )
+                item.sharedKey = item.sharedKey or self.make_shared_key(item)
+                changed = changed or (item.phone != before_phone) or (int(item.confidenceScore or 0) != before_score)
+
+            new_items.append(self.item_to_dict(item))
+
+        if changed:
+            root["items"] = new_items
+            root["count"] = len(new_items)
+            root["version"] = int(time.time())
+            root["updatedAt"] = now_text()
+            with file_path.open("w", encoding="utf-8") as f:
+                json.dump(root, f, ensure_ascii=False, indent=2)
+
+        return changed
+
+    def process_naver_queue(self, max_items: int = 999999999):
+        queue = self.load_naver_queue()
+        pending = queue.get("pending", [])
+        done = queue.get("done", [])
+
+        if not pending:
+            print("네이버 보강 큐 없음")
+            return
+
+        print(f"네이버 보강 큐 처리 시작: 대기 {len(pending)}개")
+
+        new_pending = []
+        processed_count = 0
+        changed_count = 0
+
+        for entry in pending:
+            if processed_count >= max_items:
+                new_pending.append(entry)
+                continue
+
+            if not isinstance(entry, dict):
+                continue
+
+            key = entry.get("key", "")
+            file_raw = entry.get("file", "")
+            file_path = OUTPUT_DIR / file_raw if file_raw else None
+
+            try:
+                if not key or file_path is None or not file_path.exists():
+                    entry["tries"] = int(entry.get("tries") or 0) + 1
+                    entry["lastError"] = "지역 파일 없음"
+                    new_pending.append(entry)
+                    continue
+
+                changed = self.update_item_in_region_file(file_path, key)
+                processed_count += 1
+                if changed:
+                    changed_count += 1
+
+                done.append({
+                    "key": key,
+                    "region": entry.get("region", ""),
+                    "file": entry.get("file", ""),
+                    "name": entry.get("name", ""),
+                    "processedAt": now_text(),
+                    "changed": changed,
+                })
+
+                if processed_count % 20 == 0:
+                    print(f"  네이버 큐 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(pending) - processed_count}개")
+
+            except QuotaStop as e:
+                entry["tries"] = int(entry.get("tries") or 0) + 1
+                entry["lastError"] = str(e)
+                new_pending.append(entry)
+                idx = pending.index(entry)
+                new_pending.extend(pending[idx + 1:])
+                queue["pending"] = new_pending
+                queue["done"] = done
+                self.save_naver_queue(queue)
+                self.rebuild_metadata_from_output()
+                print(f"\n네이버 보강 큐 처리 중단: {e}")
+                print(f"처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(new_pending)}개")
+                return
+
+            except Exception as e:
+                entry["tries"] = int(entry.get("tries") or 0) + 1
+                entry["lastError"] = str(e)
+                entry["updatedAt"] = now_text()
+                if int(entry.get("tries") or 0) < 3:
+                    new_pending.append(entry)
+                else:
+                    done.append({
+                        "key": key,
+                        "region": entry.get("region", ""),
+                        "file": entry.get("file", ""),
+                        "name": entry.get("name", ""),
+                        "processedAt": now_text(),
+                        "changed": False,
+                        "error": str(e),
+                    })
+
+        queue["pending"] = new_pending
+        queue["done"] = done
+        self.save_naver_queue(queue)
+        self.rebuild_metadata_from_output()
+        print(f"네이버 보강 큐 처리 완료: 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(new_pending)}개")
+
     def build_region(self, sido: str, sigungu: str, skip_web_phone: bool = False) -> List[ComplexItem]:
         apt_items = self.fetch_kapt_region(sido, sigungu)
         extra_items = self.collect_extra_complexes(sido, sigungu)
@@ -1447,13 +1688,15 @@ class AptFinderGenerator:
         enriched = []
         for i, item in enumerate(merged, start=1):
             # 기존 phone이 있어도 반드시 후보 수집한다.
-            item = self.enrich_phone(item, skip_web_phone=skip_web_phone)
+            item = self.enrich_phone(item, skip_web_phone=skip_web_phone, use_kakao=True, use_naver_local=False, use_naver_web=False)
             item = self.finalize_phone_fields(item)
             enriched.append(item)
             if i % 20 == 0 or i == len(merged):
                 print(f"  전화번호 후보 수집 {i}/{len(merged)}")
 
-        return self.merge_items(enriched)
+        final_items = self.merge_items(enriched)
+        self.enqueue_naver_candidates(sido, sigungu, final_items)
+        return final_items
 
     def fetch_kapt_region(self, sido: str, sigungu: str) -> List[ComplexItem]:
         print("K-apt 아파트 수집 중...")
@@ -1621,8 +1864,12 @@ class AptFinderGenerator:
         for kw in list(dict.fromkeys(keywords)):
             results.extend(self.kakao_places(kw, sido, sigungu))
             time.sleep(0.25)
-            results.extend(self.naver_local_places(kw, sido, sigungu))
-            time.sleep(0.25)
+
+            # 기본 자동 생성에서는 네이버를 쓰지 않는다.
+            # 네이버는 data/_naver_queue.json 큐에서 번호 없는/신뢰도 낮은 항목만 별도로 보강한다.
+            if self.use_naver_during_generation:
+                results.extend(self.naver_local_places(kw, sido, sigungu))
+                time.sleep(0.25)
 
         results = self.merge_items(results)
         print(f"추가 후보 결과: {len(results)}개")
@@ -1760,26 +2007,28 @@ class AptFinderGenerator:
             print(f"  네이버 Local 실패 {keyword}: {e}")
         return out
 
-    def enrich_phone(self, item: ComplexItem, skip_web_phone: bool = False) -> ComplexItem:
+    def enrich_phone(self, item: ComplexItem, skip_web_phone: bool = False, use_kakao: bool = True, use_naver_local: bool = False, use_naver_web: bool = False) -> ComplexItem:
         # 기존 대표번호도 후보에 포함
         if item.phone:
             self.add_phone_candidate(item, item.phone, item.verifiedAt or item.source or "기존번호", item.confidenceScore or 70, "existing")
 
         keywords = self.phone_keywords(item)
 
-        for kw in keywords:
-            found = self.find_phone_kakao_all(kw)
-            for phone in found:
-                self.add_phone_candidate(item, phone, "카카오 전화번호 보강", 90, kw)
-            time.sleep(0.12)
+        if use_kakao:
+            for kw in keywords:
+                found = self.find_phone_kakao_all(kw)
+                for phone in found:
+                    self.add_phone_candidate(item, phone, "카카오 전화번호 보강", 90, kw)
+                time.sleep(0.12)
 
-        for kw in keywords:
-            found = self.find_phone_naver_local_all(kw)
-            for phone in found:
-                self.add_phone_candidate(item, phone, "네이버 Local 전화번호 보강", 90, kw)
-            time.sleep(0.12)
+        if use_naver_local:
+            for kw in keywords:
+                found = self.find_phone_naver_local_all(kw)
+                for phone in found:
+                    self.add_phone_candidate(item, phone, "네이버 Local 전화번호 보강", 90, kw)
+                time.sleep(0.12)
 
-        if not skip_web_phone:
+        if use_naver_web and not skip_web_phone:
             for kw in keywords:
                 found = self.find_phone_naver_web_sources_all(kw)
                 for phone, source in found:
@@ -2262,6 +2511,25 @@ def main():
         help="GitHub Actions 강제 종료 전 안전정지 시간(분). 기본 330분"
     )
 
+    parser.add_argument(
+        "--use-naver-during-generation",
+        action="store_true",
+        help="기본 생성 중에도 네이버를 사용. 기본값은 사용 안 함. 네이버는 큐 보강에서만 처리 권장"
+    )
+
+    parser.add_argument(
+        "--naver-queue-only",
+        action="store_true",
+        help="지역 생성 없이 data/_naver_queue.json 대기 항목만 네이버로 보강"
+    )
+
+    parser.add_argument(
+        "--max-naver-queue-items",
+        type=int,
+        default=999999999,
+        help="이번 실행에서 네이버 큐를 최대 몇 항목 처리할지 제한"
+    )
+
     args = parser.parse_args()
 
     config = load_config()
@@ -2273,11 +2541,17 @@ def main():
         max_kapt=args.max_kapt,
     )
 
-    gen = AptFinderGenerator(config, limiter=limiter, max_runtime_minutes=args.max_runtime_minutes)
+    gen = AptFinderGenerator(config, limiter=limiter, max_runtime_minutes=args.max_runtime_minutes, use_naver_during_generation=args.use_naver_during_generation)
 
     if args.audit:
         gen.audit_output(regions, min_count=args.min_count)
         gen.rebuild_metadata_from_output()
+        return
+
+    gen.max_naver_queue_items = args.max_naver_queue_items
+
+    if args.naver_queue_only:
+        gen.process_naver_queue(max_items=args.max_naver_queue_items)
         return
 
     gen.run_regions(
