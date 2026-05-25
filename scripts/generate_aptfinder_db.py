@@ -365,19 +365,33 @@ class AptFinderGenerator:
 
     def normalize_for_key(self, value: str) -> str:
         value = (value or "").lower().strip()
+        value = clean_html(value)
+        value = value.replace("㈜", "")
+        value = value.replace("（", "(").replace("）", ")")
+        value = value.replace("－", "-").replace("–", "-").replace("—", "-")
+
+        # 주소 병합 품질을 위해 동/번지 사이 공백 유무, 산 번지, 하이픈 번지를 같은 형태로 정규화한다.
+        value = re.sub(r"([가-힣0-9]+(?:동|읍|면))\s+산\s*(\d+)", r"\1산\2", value)
+        value = re.sub(r"([가-힣0-9]+(?:동|읍|면))\s+(\d+)", r"\1\2", value)
+        value = re.sub(r"(\d+)\s*-\s*(\d+)", r"\1-\2", value)
+
+        remove_tokens = [
+            "대한민국", "도로명주소", "도로명", "지번주소", "지번", "번지",
+            "아파트", "apt", "오피스텔", "주상복합", "생활형숙박시설",
+            "관리사무소", "관리사무실", "관리실", "관리단", "입주자대표회의",
+            "주택관리", "공동주택", "단지", "상가", "상가동",
+            "더", "the",
+        ]
+
+        for token in remove_tokens:
+            value = value.replace(token, "")
+
+        # 브랜드/검색어 변형 때문에 자주 흔들리는 장식 단어는 merge key에서 약화한다.
+        for token in ["마을", "타운", "빌리지", "캐슬", "파크", "시티", "센트럴", "리버", "레이크"]:
+            value = value.replace(token, "")
+
         value = re.sub(r"\s+", "", value)
         value = re.sub(r"[\-_.·,()\[\]/]", "", value)
-        value = value.replace("대한민국", "")
-        value = value.replace("번지", "")
-        value = value.replace("도로명", "")
-        value = value.replace("지번", "")
-        value = value.replace("아파트", "")
-        value = value.replace("오피스텔", "")
-        value = value.replace("주상복합", "")
-        value = value.replace("생활형숙박시설", "")
-        value = value.replace("관리사무소", "")
-        value = value.replace("관리실", "")
-        value = value.replace("관리단", "")
         return value
 
     def make_shared_key(self, item: ComplexItem) -> str:
@@ -1839,26 +1853,77 @@ class AptFinderGenerator:
             listUpdatedAt=now,
         )
 
+    def local_area_keywords(self, sido: str, sigungu: str) -> List[str]:
+        # API 호출량을 통제하면서 실제 누락이 잦은 생활권/신도시/택지지구만 선별한다.
+        # 없는 지역은 빈 리스트로 두고 시군구 광역 키워드만 사용한다.
+        mapping = {
+            ("경기도", "수원시"): ["영통", "광교", "권선", "인계", "정자", "화서", "매탄", "원천", "호매실", "망포"],
+            ("경기도", "화성시"): ["동탄", "봉담", "향남", "병점", "남양", "송산", "능동", "반월", "새솔"],
+            ("경기도", "오산시"): ["세교", "궐동", "원동", "부산동", "금암동"],
+            ("경기도", "용인시"): ["수지", "기흥", "동백", "구성", "죽전", "보정", "흥덕", "역북", "신봉", "성복"],
+            ("경기도", "성남시"): ["분당", "판교", "위례", "정자", "서현", "야탑", "수내", "태평", "금광"],
+            ("경기도", "고양시"): ["일산", "탄현", "주엽", "화정", "행신", "삼송", "원흥", "덕은", "지축"],
+            ("경기도", "남양주시"): ["다산", "별내", "진접", "평내", "호평", "마석", "오남", "화도"],
+            ("경기도", "김포시"): ["한강신도시", "구래", "장기", "운양", "마산", "풍무", "사우"],
+            ("경기도", "파주시"): ["운정", "교하", "금촌", "문산", "야당", "목동동"],
+            ("경기도", "평택시"): ["고덕", "소사벌", "비전", "동삭", "청북", "안중", "서정"],
+            ("경기도", "시흥시"): ["배곧", "정왕", "은계", "장현", "능곡", "월곶"],
+            ("경기도", "안산시"): ["고잔", "초지", "선부", "사동", "월피", "본오", "원곡"],
+            ("경기도", "안양시"): ["평촌", "범계", "관양", "비산", "호계", "박달"],
+            ("경기도", "부천시"): ["중동", "상동", "옥길", "범박", "소사", "역곡"],
+            ("서울특별시", "강남구"): ["개포", "대치", "도곡", "삼성", "역삼", "압구정", "수서"],
+            ("서울특별시", "강동구"): ["고덕", "상일", "명일", "천호", "암사", "둔촌"],
+            ("서울특별시", "송파구"): ["잠실", "문정", "장지", "가락", "방이", "오금", "위례"],
+            ("인천광역시", "연수구"): ["송도", "동춘", "옥련", "청학"],
+            ("인천광역시", "서구"): ["청라", "검단", "검암", "가정", "루원", "마전"],
+            ("부산광역시", "해운대구"): ["센텀", "마린시티", "좌동", "반여", "재송"],
+            ("대구광역시", "수성구"): ["범어", "만촌", "황금", "지산", "시지"],
+            ("세종특별자치시", "세종시"): ["고운동", "아름동", "종촌동", "도담동", "새롬동", "나성동", "다정동", "보람동", "소담동", "반곡동"],
+        }
+        return mapping.get((sido, sigungu), [])
+
+    def build_extra_search_keywords(self, sido: str, sigungu: str) -> List[str]:
+        base_terms = [
+            "아파트", "아파트 관리사무소", "관리사무소", "관리실",
+            "오피스텔", "오피스텔 관리사무소",
+            "주상복합", "주상복합 관리사무소",
+            "생활형숙박시설",
+        ]
+
+        small_complex_terms = [
+            "연립", "연립주택", "빌라형 아파트", "도시형생활주택",
+            "주택관리", "타운", "빌리지", "캐슬",
+        ]
+
+        keywords: List[str] = []
+
+        for term in base_terms + small_complex_terms:
+            keywords.append(f"{sigungu} {term}")
+
+        for term in ["아파트", "아파트 관리사무소", "오피스텔", "주상복합", "생활형숙박시설"]:
+            keywords.append(f"{sido} {sigungu} {term}")
+
+        # 생활권/동 단위 검색은 광역 검색에서 빠지는 소규모 단지를 보강한다.
+        # 호출량 폭증 방지를 위해 지역별 선별 키워드만 사용한다.
+        for area in self.local_area_keywords(sido, sigungu):
+            keywords.extend([
+                f"{sigungu} {area} 아파트",
+                f"{sigungu} {area} 아파트 관리사무소",
+                f"{sigungu} {area} 오피스텔",
+                f"{area} 관리사무소",
+            ])
+
+        return list(dict.fromkeys([kw.strip() for kw in keywords if kw.strip()]))
+
     def collect_extra_complexes(self, sido: str, sigungu: str) -> List[ComplexItem]:
         print("지도/검색 기반 추가 후보 수집 중...")
 
-        # 너무 넓은 일반 아파트 검색은 많아질 수 있지만,
-        # K-apt 밖의 소규모 아파트/빌라형 단지 누락을 줄이기 위해 포함한다.
-        keywords = [
-            f"{sigungu} 아파트",
-            f"{sigungu} 아파트 관리사무소",
-            f"{sigungu} 관리사무소",
-            f"{sigungu} 오피스텔",
-            f"{sigungu} 주상복합",
-            f"{sigungu} 오피스텔 관리사무소",
-            f"{sigungu} 주상복합 관리사무소",
-            f"{sigungu} 생활형숙박시설",
-            f"{sido} {sigungu} 아파트",
-            f"{sido} {sigungu} 아파트 관리사무소",
-            f"{sido} {sigungu} 오피스텔",
-            f"{sido} {sigungu} 주상복합",
-            f"{sido} {sigungu} 생활형숙박시설",
-        ]
+        # 검색량은 폭증시키지 않으면서 누락을 줄이기 위해
+        # 1) 시/군/구 광역 키워드
+        # 2) 주요 생활권/신도시/택지지구 키워드
+        # 3) K-apt 목록에서 뽑은 동 단위 키워드
+        # 순서로 카카오 후보를 확장한다. 네이버는 기본 생성 중 사용하지 않고 큐로 보낸다.
+        keywords = self.build_extra_search_keywords(sido, sigungu)
 
         results = []
         for kw in list(dict.fromkeys(keywords)):
@@ -1886,13 +1951,19 @@ class AptFinderGenerator:
             return "오피스텔"
         if "주상복합" in text:
             return "주상복합"
+        if "도시형생활주택" in text:
+            return "도시형생활주택"
+        if "연립" in text or "빌라형" in text:
+            return "연립/빌라형"
         return "아파트"
 
     def is_complex_candidate_text(self, text: str) -> bool:
         text = text or ""
         include_words = [
             "아파트", "오피스텔", "주상복합", "생활형숙박시설",
-            "관리사무소", "관리실", "관리단",
+            "관리사무소", "관리실", "관리단", "주택관리",
+            "연립", "연립주택", "도시형생활주택", "빌라형",
+            "타운", "빌리지", "캐슬", "파크", "센트럴",
         ]
         return any(x in text for x in include_words)
 
