@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-AptFinder 전국/지역별 DB 생성기 - 후보확장 + 복수 전화번호 저장 안정화 버전
+AptFinder 전국/지역별 DB 생성기 - 주거단지 싹쓸이 후보확장 + 복수 전화번호 저장 버전
 
 핵심 변경:
-1) K-apt 밖의 일반 아파트 후보도 카카오/네이버 장소검색으로 추가 수집
+1) K-apt 밖의 아파트/오피스텔/주상복합/주거단지 후보를 브랜드명까지 확장해 싹쓸이 수집
 2) 오피스텔/주상복합/생활형숙박시설/관리사무소 후보 유지
 3) K-apt 번호가 있어도 카카오/네이버/네이버웹 번호를 추가 후보로 계속 수집
 4) phoneCandidates 배열 저장 + 기존 phone 필드는 대표번호로 유지
@@ -40,6 +40,53 @@ NAVER_BLOG_URL = "https://openapi.naver.com/v1/search/blog.json"
 NAVER_CAFE_URL = "https://openapi.naver.com/v1/search/cafearticle.json"
 
 PHONE_RE = re.compile(r"(0\d{1,2})[\s\-.)]*(\d{3,4})[\s\-.(]*(\d{4})")
+
+
+# 검색 0건 방지를 우선하는 주거단지 강제수집 사전.
+# 이름에 아래 브랜드/패턴이 걸리면 K-apt 원본에 없어도 카카오/네이버 장소 후보로 DB에 넣는다.
+FORCE_HOUSING_BRANDS = [
+    "래미안", "자이", "푸르지오", "힐스테이트", "롯데캐슬", "더샵", "아이파크",
+    "e편한세상", "e-편한세상", "이편한세상", "포레나", "위브", "두산위브",
+    "하늘채", "유보라", "스위첸", "데시앙", "리슈빌", "베르디움", "풍경채",
+    "해링턴", "해링턴플레이스", "파밀리에", "스타힐스", "어울림", "수자인",
+    "호반써밋", "호반베르디움", "우미린", "린", "센트레빌", "굿모닝힐", "코아루",
+    "블루밍", "더플래티넘", "아테라", "에피트", "SK뷰", "SK VIEW", "디에이치",
+    "아크로", "르엘", "트리마제", "시그니엘", "엘시티", "한신더휴", "더휴",
+    "꿈에그린", "한화꿈에그린", "아너스빌", "파라곤", "엠코타운", "리첸시아",
+    "센트레빌아스테리움", "브라운스톤", "라온프라이빗", "리더스뷰", "에일린의뜰",
+    "이지더원", "EG더원", "더원", "노블랜드", "동원로얄듀크", "로얄듀크",
+    "KCC스위첸", "한라비발디", "비발디", "서희스타힐스", "양우내안애", "내안애",
+    "금강펜테리움", "펜테리움", "계룡리슈빌", "일동미라주", "협성휴포레",
+    "휴포레", "대방노블랜드", "중흥S클래스", "S클래스", "제일풍경채",
+    "대광로제비앙", "로제비앙", "서한이다음", "이다음", "반도유보라", "유쉘",
+    "쌍용예가", "예가", "월드메르디앙", "메르디앙", "동일스위트", "삼정그린코아",
+    "그린코아", "한양수자인", "현대홈타운", "홈타운", "현대아이파크", "한화포레나",
+    "포스코더샵", "GS자이", "대우푸르지오", "삼성래미안", "현대힐스테이트",
+    "주공", "LH", "휴먼시아", "뜨란채", "현대", "삼성", "대우", "쌍용", "동아",
+    "신동아", "한신", "한양", "우성", "벽산", "극동", "삼익", "삼환", "동부",
+    "대림", "금호", "코오롱", "태영", "성원", "청구", "우방", "진흥", "남광",
+    "신성", "서광", "건영", "풍림", "동성", "임광", "일성", "동익", "라이프",
+    "미주", "대주", "부영", "효성", "동원", "일신", "한일", "대성", "삼부", "선경",
+    "럭키", "LG", "한라", "고려", "대원", "영무", "우남", "화성파크드림", "파크드림",
+]
+
+HOUSING_NAME_KEYWORDS = [
+    "아파트", "오피스텔", "주상복합", "생활형숙박시설", "도시형생활주택", "공동주택",
+    "연립", "연립주택", "빌라형", "빌라", "맨션", "타운", "빌리지", "마을", "단지",
+    "레지던스", "리빙텔", "하우스", "하임", "홈", "캐슬", "팰리스", "파크", "센트럴",
+    "시티", "스테이트", "클래식", "프라자", "타워", "스카이", "뷰", "리버", "레이크",
+    "포레", "포레스트", "테라스", "가든", "카운티", "스위트", "스위츠", "펠리체",
+    "프레스티지", "시그니처", "헤리티지", "더헤리티지", "엘포레", "에듀포레",
+    "파크뷰", "리버뷰", "리버파크", "메트로", "에비뉴", "노블레스", "아너스",
+    "센텀", "클래스", "그랑", "그랜드", "그린", "그린빌", "그린빌라", "빌라트",
+]
+
+HOUSING_SEARCH_TERMS = list(dict.fromkeys([
+    "아파트", "아파트 관리사무소", "아파트 관리실", "입주자대표회의", "생활지원센터",
+    "오피스텔", "오피스텔 관리사무소", "오피스텔 관리단", "주상복합", "주상복합 관리사무소",
+    "생활형숙박시설", "도시형생활주택", "연립주택", "빌라형 아파트", "공동주택", "주택관리",
+    "타운", "빌리지", "맨션", "하우스", "레지던스", "팰리스", "캐슬", "파크", "센트럴", "시티", "타워",
+]))
 
 
 REGION_MAP: Dict[str, List[str]] = {
@@ -1884,37 +1931,44 @@ class AptFinderGenerator:
         return mapping.get((sido, sigungu), [])
 
     def build_extra_search_keywords(self, sido: str, sigungu: str) -> List[str]:
-        base_terms = [
-            "아파트", "아파트 관리사무소", "관리사무소", "관리실",
-            "오피스텔", "오피스텔 관리사무소",
-            "주상복합", "주상복합 관리사무소",
-            "생활형숙박시설",
-        ]
-
-        small_complex_terms = [
-            "연립", "연립주택", "빌라형 아파트", "도시형생활주택",
-            "주택관리", "타운", "빌리지", "캐슬",
-        ]
-
+        """
+        검색 0건 방지형 후보확장.
+        기존처럼 '아파트'만 찾으면 래미안/자이/더샵처럼 이름에 아파트가 없는 단지가 빠진다.
+        그래서 지역+주거키워드, 지역+브랜드, 생활권+브랜드, 생활권+주거키워드를 모두 만든다.
+        """
         keywords: List[str] = []
 
-        for term in base_terms + small_complex_terms:
-            keywords.append(f"{sigungu} {term}")
+        def add(q: str):
+            q = re.sub(r"\s+", " ", (q or "")).strip()
+            if q:
+                keywords.append(q)
 
-        for term in ["아파트", "아파트 관리사무소", "오피스텔", "주상복합", "생활형숙박시설"]:
-            keywords.append(f"{sido} {sigungu} {term}")
+        region_prefixes = list(dict.fromkeys([
+            f"{sigungu}",
+            f"{sido} {sigungu}",
+        ]))
 
-        # 생활권/동 단위 검색은 광역 검색에서 빠지는 소규모 단지를 보강한다.
-        # 호출량 폭증 방지를 위해 지역별 선별 키워드만 사용한다.
+        for prefix in region_prefixes:
+            for term in HOUSING_SEARCH_TERMS:
+                add(f"{prefix} {term}")
+
+        for brand in FORCE_HOUSING_BRANDS:
+            add(f"{sigungu} {brand}")
+            add(f"{sido} {sigungu} {brand}")
+
         for area in self.local_area_keywords(sido, sigungu):
-            keywords.extend([
-                f"{sigungu} {area} 아파트",
-                f"{sigungu} {area} 아파트 관리사무소",
-                f"{sigungu} {area} 오피스텔",
-                f"{area} 관리사무소",
-            ])
+            add(f"{sigungu} {area} 아파트")
+            add(f"{sigungu} {area} 오피스텔")
+            add(f"{sigungu} {area} 주상복합")
+            add(f"{sigungu} {area} 관리사무소")
+            add(f"{area} 아파트")
+            add(f"{area} 오피스텔")
+            add(f"{area} 주상복합")
+            for brand in FORCE_HOUSING_BRANDS:
+                add(f"{sigungu} {area} {brand}")
+                add(f"{area} {brand}")
 
-        return list(dict.fromkeys([kw.strip() for kw in keywords if kw.strip()]))
+        return list(dict.fromkeys(keywords))
 
     def collect_extra_complexes(self, sido: str, sigungu: str) -> List[ComplexItem]:
         print("지도/검색 기반 추가 후보 수집 중...")
@@ -1945,7 +1999,17 @@ class AptFinderGenerator:
     def collect_officetels(self, sido: str, sigungu: str) -> List[ComplexItem]:
         return self.collect_extra_complexes(sido, sigungu)
 
+    def normalize_housing_name(self, text: str) -> str:
+        text = clean_html(text or "")
+        text = text.upper()
+        text = text.replace("Ｅ", "E")
+        text = text.replace("Ⅱ", "2").replace("Ⅲ", "3").replace("Ⅳ", "4")
+        text = text.replace("（", "(").replace("）", ")")
+        text = re.sub(r"[\s\-_.·,()/\[\]{}'\"+]+", "", text)
+        return text
+
     def infer_place_type(self, text: str) -> str:
+        text = text or ""
         if "생활형숙박시설" in text:
             return "생활형숙박시설"
         if "오피스텔" in text:
@@ -1954,19 +2018,44 @@ class AptFinderGenerator:
             return "주상복합"
         if "도시형생활주택" in text:
             return "도시형생활주택"
-        if "연립" in text or "빌라형" in text:
+        if "연립" in text or "빌라형" in text or "빌라" in text:
             return "연립/빌라형"
+        if "레지던스" in text:
+            return "레지던스"
         return "아파트"
 
+    def housing_name_score(self, text: str) -> int:
+        raw = text or ""
+        n = self.normalize_housing_name(raw)
+        score = 0
+
+        for word in ["아파트", "오피스텔", "주상복합", "생활형숙박시설", "도시형생활주택", "공동주택", "관리사무소", "관리실", "관리단", "입주자대표회의", "생활지원센터"]:
+            if word in raw:
+                score += 80
+
+        for brand in FORCE_HOUSING_BRANDS:
+            b = self.normalize_housing_name(brand)
+            if b and b in n:
+                score += 95
+                break
+
+        suffix_hits = 0
+        for word in HOUSING_NAME_KEYWORDS:
+            w = self.normalize_housing_name(word)
+            if w and w in n:
+                suffix_hits += 1
+        if suffix_hits:
+            score += 45 + min(40, suffix_hits * 8)
+
+        if re.search(r"[가-힣]+(동|읍|면|역|시|구)", raw) and suffix_hits:
+            score += 15
+
+        return min(score, 100)
+
     def is_complex_candidate_text(self, text: str) -> bool:
-        text = text or ""
-        include_words = [
-            "아파트", "오피스텔", "주상복합", "생활형숙박시설",
-            "관리사무소", "관리실", "관리단", "주택관리",
-            "연립", "연립주택", "도시형생활주택", "빌라형",
-            "타운", "빌리지", "캐슬", "파크", "센트럴",
-        ]
-        return any(x in text for x in include_words)
+        if not text:
+            return False
+        return self.housing_name_score(text) >= 35
 
     def kakao_places(self, keyword: str, sido: str, sigungu: str) -> List[ComplexItem]:
         out = []
@@ -2033,7 +2122,7 @@ class AptFinderGenerator:
             r = self.naver_get(
                 NAVER_LOCAL_URL,
                 headers=self.naver_headers,
-                params={"query": keyword, "display": 10, "start": 1},
+                params={"query": keyword, "display": 20, "start": 1},
                 timeout=20,
             )
             r.raise_for_status()
@@ -2572,10 +2661,12 @@ class AptFinderGenerator:
         return (item.city or "") == sigungu
 
     def is_trash_place(self, text: str) -> bool:
+        # 누락 방지가 최우선이므로 쓰레기 필터는 정말 주거단지와 거리가 먼 업종만 최소 차단한다.
+        # '분양', '모델하우스', '부동산'은 실제 단지명/관리소 탐색에 섞여 들어올 수 있어 더 이상 차단하지 않는다.
         trash = [
-            "공인중개사", "부동산", "분양", "모델하우스", "홍보관",
-            "숙박", "호텔", "모텔", "고시원", "원룸텔", "리빙텔",
+            "호텔", "모텔", "펜션", "게스트하우스", "고시원", "원룸텔", "리빙텔",
             "인테리어", "청소", "이사", "도배", "장판", "누수", "설비",
+            "철거", "리모델링", "세탁", "방역", "부동산중개", "공인중개사사무소",
         ]
         return any(x in (text or "") for x in trash)
 
