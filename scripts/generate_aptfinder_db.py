@@ -2177,28 +2177,93 @@ class AptFinderGenerator:
 
         if use_kakao:
             for kw in keywords:
-                found = self.find_phone_kakao_all(kw)
+                # 중요:
+                # 카카오 전화번호 보강은 검색결과 상위 15개를 전부 넣지 않는다.
+                # 반드시 현재 item의 도로명/지번 주소와 같은 장소로 확인된 결과만 후보로 추가한다.
+                found = self.find_phone_kakao_all(kw, item=item)
                 for phone in found:
-                    self.add_phone_candidate(item, phone, "카카오 전화번호 보강", 90, kw)
+                    self.add_phone_candidate(item, phone, "카카오 주소일치 전화번호 보강", 92, kw)
                 time.sleep(0.12)
 
         if use_naver_local:
             for kw in keywords:
-                found = self.find_phone_naver_local_all(kw)
+                # 네이버 Local도 같은 주소/같은 지번으로 확인된 번호만 추가한다.
+                found = self.find_phone_naver_local_all(kw, item=item)
                 for phone in found:
-                    self.add_phone_candidate(item, phone, "네이버 Local 전화번호 보강", 90, kw)
+                    self.add_phone_candidate(item, phone, "네이버 Local 주소일치 전화번호 보강", 90, kw)
                 time.sleep(0.12)
 
         if use_naver_web and not skip_web_phone:
             for kw in keywords:
-                found = self.find_phone_naver_web_sources_all(kw)
+                # 웹/블로그/카페/114On 스니펫은 주소가 없을 수 있으므로
+                # 단지명 또는 지번/도로명 일부가 스니펫에 같이 잡힌 경우만 후보로 쓴다.
+                found = self.find_phone_naver_web_sources_all(kw, item=item)
                 for phone, source in found:
-                    self.add_phone_candidate(item, phone, source, 75 if "114" in source else 65, kw)
+                    self.add_phone_candidate(item, phone, source, 78 if "114" in source else 68, kw)
                 time.sleep(0.12)
 
         return self.finalize_phone_fields(item)
 
-    def find_phone_kakao_all(self, keyword: str) -> List[str]:
+    def _same_complex_address_match(self, item: ComplexItem, road: str = "", jibun: str = "", place_name: str = "") -> bool:
+        """
+        전화번호 후보 추가용 강한 매칭.
+        후보 단지 수집은 넓게 하되, 전화번호는 주변 단지 번호가 섞이지 않도록
+        도로명/지번/건물번호가 현재 item과 같을 때만 통과시킨다.
+        """
+        candidate_text = " ".join([road or "", jibun or ""]).strip()
+        item_text = self._item_address_text_for_merge(item)
+
+        if not candidate_text:
+            return False
+
+        item_addr = self.normalize_for_key(item_text)
+        cand_addr = self.normalize_for_key(candidate_text)
+
+        if item_addr and cand_addr and (item_addr == cand_addr or item_addr in cand_addr or cand_addr in item_addr):
+            return True
+
+        item_lot = self._lot_key_for_merge(item_text)
+        cand_lot = self._lot_key_for_merge(candidate_text)
+
+        if item_lot and cand_lot and item_lot == cand_lot:
+            return True
+
+        # 주소가 부족한 일부 장소 결과 보조. 이름이 거의 완전 일치할 때만 허용한다.
+        old_name = self._name_key_for_merge(item.name)
+        new_name = self._name_key_for_merge(place_name)
+        if old_name and new_name:
+            ratio = SequenceMatcher(None, old_name, new_name).ratio()
+            if ratio >= 0.94 or old_name == new_name:
+                return True
+
+        return False
+
+    def _web_snippet_matches_item(self, item: ComplexItem, snippet: str) -> bool:
+        text_key = self.normalize_for_key(snippet or "")
+        if not text_key:
+            return False
+
+        name_key = self._name_key_for_merge(item.name)
+        clean_name = self._name_key_for_merge(self.clean_complex_name_for_query(item.name))
+        lot_key = self._lot_key_for_merge(self._item_address_text_for_merge(item))
+
+        if lot_key and lot_key in text_key:
+            return True
+
+        for addr in [item.jibunAddress, item.roadAddress, item.address]:
+            addr_key = self.normalize_for_key(addr or "")
+            if addr_key and len(addr_key) >= 8 and addr_key in text_key:
+                return True
+
+        if name_key and len(name_key) >= 3 and name_key in text_key:
+            return True
+
+        if clean_name and len(clean_name) >= 3 and clean_name in text_key:
+            return True
+
+        return False
+
+    def find_phone_kakao_all(self, keyword: str, item: Optional[ComplexItem] = None) -> List[str]:
         out = []
         try:
             r = self.kakao_get(
@@ -2210,15 +2275,24 @@ class AptFinderGenerator:
             r.raise_for_status()
             for p in r.json().get("documents", []):
                 phone = normalize_phone(p.get("phone") or "")
-                if phone:
-                    out.append(phone)
+                if not phone:
+                    continue
+
+                if item is not None:
+                    place_name = (p.get("place_name") or "").strip()
+                    road = (p.get("road_address_name") or "").strip()
+                    jibun = (p.get("address_name") or "").strip()
+                    if not self._same_complex_address_match(item, road=road, jibun=jibun, place_name=place_name):
+                        continue
+
+                out.append(phone)
         except QuotaStop:
             raise
         except Exception as e:
             print(f"  카카오 전화검색 실패: {keyword} / {e}")
         return list(dict.fromkeys(out))
 
-    def find_phone_naver_local_all(self, keyword: str) -> List[str]:
+    def find_phone_naver_local_all(self, keyword: str, item: Optional[ComplexItem] = None) -> List[str]:
         out = []
         try:
             r = self.naver_get(
@@ -2230,15 +2304,24 @@ class AptFinderGenerator:
             r.raise_for_status()
             for p in r.json().get("items", []):
                 phone = normalize_phone(p.get("telephone") or "")
-                if phone:
-                    out.append(phone)
+                if not phone:
+                    continue
+
+                if item is not None:
+                    place_name = clean_html(p.get("title", ""))
+                    road = (p.get("roadAddress") or "").strip()
+                    jibun = (p.get("address") or "").strip()
+                    if not self._same_complex_address_match(item, road=road, jibun=jibun, place_name=place_name):
+                        continue
+
+                out.append(phone)
         except QuotaStop:
             raise
         except Exception as e:
             print(f"  네이버 전화검색 실패: {keyword} / {e}")
         return list(dict.fromkeys(out))
 
-    def find_phone_naver_web_sources_all(self, keyword: str) -> List[Tuple[str, str]]:
+    def find_phone_naver_web_sources_all(self, keyword: str, item: Optional[ComplexItem] = None) -> List[Tuple[str, str]]:
         out: List[Tuple[str, str]] = []
         for url, api_name in [
             (NAVER_WEB_URL, "네이버 웹검색"),
@@ -2258,6 +2341,9 @@ class AptFinderGenerator:
                     desc = clean_html(p.get("description", ""))
                     link = p.get("link", "") or ""
                     text = f"{title} {desc}"
+
+                    if item is not None and not self._web_snippet_matches_item(item, text):
+                        continue
 
                     source = api_name
                     if "114" in title or "114" in desc or "114.co.kr" in link:
@@ -2462,15 +2548,29 @@ class AptFinderGenerator:
         if score >= 85:
             return True
 
-        # 주소가 정확히 같고 이름도 어느 정도 겹치면 병합
-        old_addr = self.normalize_for_key(self._item_address_text_for_merge(old))
-        new_addr = self.normalize_for_key(self._item_address_text_for_merge(item))
+        old_addr_text = self._item_address_text_for_merge(old)
+        new_addr_text = self._item_address_text_for_merge(item)
+        old_addr = self.normalize_for_key(old_addr_text)
+        new_addr = self.normalize_for_key(new_addr_text)
+        old_lot = self._lot_key_for_merge(old_addr_text)
+        new_lot = self._lot_key_for_merge(new_addr_text)
         old_name = self._name_key_for_merge(old.name)
         new_name = self._name_key_for_merge(item.name)
 
-        if old_addr and new_addr and old_addr == new_addr and old_name and new_name:
+        # 핵심 수정:
+        # K-apt 단지와 카카오/네이버 후보의 이름이 달라도 주소가 같으면 같은 리스트로 흡수한다.
+        # 예: K-apt명과 카카오맵 장소명이 다르지만 같은 지번/도로명인 경우
+        #     카카오 번호는 기존 K-apt 항목의 phoneCandidates로 합쳐진다.
+        if old_addr and new_addr and (old_addr == new_addr or old_addr in new_addr or new_addr in old_addr):
+            return True
+
+        if old_lot and new_lot and old_lot == new_lot:
+            return True
+
+        # 주소가 약한 경우에만 이름 유사도 병합을 사용한다.
+        if old_name and new_name:
             ratio = SequenceMatcher(None, old_name, new_name).ratio()
-            if ratio >= 0.65 or old_name in new_name or new_name in old_name:
+            if ratio >= 0.92 or old_name in new_name or new_name in old_name:
                 return True
 
         return False
