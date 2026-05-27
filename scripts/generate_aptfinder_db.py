@@ -308,6 +308,7 @@ class AptFinderGenerator:
         self.kapt_key = config["kapt_service_key"]
         self.limiter = limiter or ApiCallLimiter()
         self.address_cache: Dict[str, dict] = {}
+        self.region_center_cache: Dict[str, dict] = {}
         self.started_at = time.monotonic()
         self.max_runtime_seconds = max(1, int(max_runtime_minutes)) * 60
         self.use_naver_during_generation = use_naver_during_generation
@@ -358,6 +359,82 @@ class AptFinderGenerator:
     def kakao_get(self, url: str, **kwargs):
         self.limiter.check_kakao()
         return self.api_get(url, provider="카카오", **kwargs)
+
+    def region_search_radius(self, sigungu: str) -> int:
+        if sigungu.endswith("구"):
+            return 9000
+        if sigungu.endswith("군"):
+            return 30000
+        return 22000
+
+    def get_region_center(self, sido: str, sigungu: str) -> dict:
+        """
+        카카오 키워드 검색은 query에 지역명을 넣어도 결과 정렬이 전국/임의 상위 결과에 치우칠 수 있다.
+        그래서 현재 생성 중인 시군구의 청사 좌표를 한 번 찾아 캐시하고,
+        브랜드 단독검색/일반검색에 x/y/radius를 붙여 해당 지역 근처 결과를 우선 받는다.
+        """
+        cache_key = f"{sido}|{sigungu}"
+        if cache_key in self.region_center_cache:
+            return self.region_center_cache[cache_key]
+
+        queries = []
+        if sido == "세종특별자치시":
+            queries = ["세종특별자치시청", "세종시청"]
+        elif sigungu.endswith("구"):
+            queries = [f"{sido} {sigungu}청", f"{sigungu}청"]
+        elif sigungu.endswith("군"):
+            queries = [f"{sido} {sigungu}청", f"{sigungu}청"]
+        else:
+            queries = [f"{sido} {sigungu}청", f"{sigungu}청", f"{sido} {sigungu} 시청"]
+
+        for q in list(dict.fromkeys(queries)):
+            try:
+                r = self.kakao_get(
+                    KAKAO_KEYWORD_URL,
+                    headers=self.kakao_headers,
+                    params={"query": q, "page": 1, "size": 5},
+                    timeout=20,
+                )
+                r.raise_for_status()
+                for p in r.json().get("documents", []):
+                    x = (p.get("x") or "").strip()
+                    y = (p.get("y") or "").strip()
+                    road = (p.get("road_address_name") or "").strip()
+                    jibun = (p.get("address_name") or "").strip()
+                    place_name = (p.get("place_name") or "").strip()
+                    address = self.build_dual_address(road, jibun, road or jibun)
+
+                    # 청사 검색 결과가 해당 시군구에 있거나, 장소명에 시군구명이 들어가면 채택한다.
+                    if x and y and (self.is_target_address(address, sido, sigungu) or sigungu.replace("시", "").replace("군", "").replace("구", "") in place_name):
+                        center = {
+                            "x": x,
+                            "y": y,
+                            "radius": self.region_search_radius(sigungu),
+                            "query": q,
+                        }
+                        self.region_center_cache[cache_key] = center
+                        print(f"  지역중심 좌표 적용: {sido} {sigungu} x={x} y={y} radius={center['radius']}")
+                        return center
+            except QuotaStop:
+                raise
+            except Exception as e:
+                print(f"  지역중심 좌표 검색 실패: {q} / {e}")
+
+        self.region_center_cache[cache_key] = {}
+        print(f"  지역중심 좌표 없음: {sido} {sigungu} → 주소필터만 사용")
+        return {}
+
+    def kakao_keyword_params(self, keyword: str, sido: str, sigungu: str, page: int = 1, size: int = 15, use_region_center: bool = True) -> dict:
+        params = {"query": keyword, "page": page, "size": size}
+        if use_region_center:
+            center = self.get_region_center(sido, sigungu)
+            if center.get("x") and center.get("y"):
+                params.update({
+                    "x": center["x"],
+                    "y": center["y"],
+                    "radius": center.get("radius") or self.region_search_radius(sigungu),
+                })
+        return params
 
     def naver_get(self, url: str, **kwargs):
         self.limiter.check_naver()
@@ -874,7 +951,7 @@ class AptFinderGenerator:
             r = self.kakao_get(
                 KAKAO_KEYWORD_URL,
                 headers=self.kakao_headers,
-                params={"query": query, "page": 1, "size": 15},
+                params=self.kakao_keyword_params(query, sido, sigungu, page=1, size=15),
                 timeout=20,
             )
             r.raise_for_status()
@@ -1930,11 +2007,30 @@ class AptFinderGenerator:
         }
         return mapping.get((sido, sigungu), [])
 
+    def allow_brand_single_search(self, brand: str) -> bool:
+        """
+        래미안/자이/푸르지오처럼 브랜드 단독 검색이 효과적인 것만 단독 검색한다.
+        현대/삼성/LG/SK 같은 너무 일반적인 단어는 매장/상호가 폭증하므로
+        지역명/생활권과 조합해서만 검색한다.
+        """
+        normalized = self.normalize_housing_name(brand)
+        too_generic = {
+            "현대", "삼성", "대우", "쌍용", "동아", "한신", "한양", "우성", "벽산",
+            "극동", "삼익", "삼환", "동부", "대림", "금호", "코오롱", "태영", "성원",
+            "청구", "우방", "진흥", "남광", "신성", "서광", "건영", "풍림", "동성",
+            "임광", "일성", "동익", "라이프", "미주", "대주", "부영", "효성", "동원",
+            "일신", "한일", "대성", "삼부", "선경", "럭키", "LG", "SK", "LH", "린",
+            "뷰", "파크", "시티", "타워", "홈", "더원", "더휴", "더샵",
+        }
+        too_generic_norm = {self.normalize_housing_name(x) for x in too_generic}
+        return len(normalized) >= 3 and normalized not in too_generic_norm
+
     def build_extra_search_keywords(self, sido: str, sigungu: str) -> List[str]:
         """
         검색 0건 방지형 후보확장.
-        기존처럼 '아파트'만 찾으면 래미안/자이/더샵처럼 이름에 아파트가 없는 단지가 빠진다.
-        그래서 지역+주거키워드, 지역+브랜드, 생활권+브랜드, 생활권+주거키워드를 모두 만든다.
+        핵심은 '현재 지역 중심좌표 + 브랜드 단독검색 + 주소 필터'다.
+        예: 수원시 생성 중이면 '래미안' 단독 검색도 수원 중심 반경으로 돌리고,
+        결과 중 주소가 수원시인 것만 남긴다.
         """
         keywords: List[str] = []
 
@@ -1953,6 +2049,8 @@ class AptFinderGenerator:
                 add(f"{prefix} {term}")
 
         for brand in FORCE_HOUSING_BRANDS:
+            if self.allow_brand_single_search(brand):
+                add(f"{brand}")  # 지역 중심좌표가 붙으므로 수원/성남 등 현재 지역 근처 결과 우선
             add(f"{sigungu} {brand}")
             add(f"{sido} {sigungu} {brand}")
 
@@ -1965,8 +2063,10 @@ class AptFinderGenerator:
             add(f"{area} 오피스텔")
             add(f"{area} 주상복합")
             for brand in FORCE_HOUSING_BRANDS:
+                if self.allow_brand_single_search(brand):
+                    add(f"{area} {brand}")
                 add(f"{sigungu} {area} {brand}")
-                add(f"{area} {brand}")
+                add(f"{sido} {sigungu} {area} {brand}")
 
         return list(dict.fromkeys(keywords))
 
@@ -2029,21 +2129,42 @@ class AptFinderGenerator:
         n = self.normalize_housing_name(raw)
         score = 0
 
-        for word in ["아파트", "오피스텔", "주상복합", "생활형숙박시설", "도시형생활주택", "공동주택", "관리사무소", "관리실", "관리단", "입주자대표회의", "생활지원센터"]:
+        strong_words = [
+            "아파트", "오피스텔", "주상복합", "생활형숙박시설", "도시형생활주택",
+            "공동주택", "관리사무소", "관리사무실", "관리실", "관리단",
+            "입주자대표회의", "생활지원센터",
+        ]
+        for word in strong_words:
             if word in raw:
                 score += 80
-
-        for brand in FORCE_HOUSING_BRANDS:
-            b = self.normalize_housing_name(brand)
-            if b and b in n:
-                score += 95
-                break
 
         suffix_hits = 0
         for word in HOUSING_NAME_KEYWORDS:
             w = self.normalize_housing_name(word)
             if w and w in n:
                 suffix_hits += 1
+
+        # 브랜드명은 강력한 수집 근거다.
+        # 단, LG/SK/현대/삼성 같은 일반 상호는 통신매장/자동차/상가가 폭증하므로
+        # 단독으로는 점수를 주지 않고 주거 꼬리표가 같이 있을 때만 인정한다.
+        generic_brand_norm = {
+            self.normalize_housing_name(x)
+            for x in ["현대", "삼성", "대우", "쌍용", "동아", "한신", "한양", "우성", "벽산",
+                      "극동", "삼익", "삼환", "동부", "대림", "금호", "코오롱", "태영", "성원",
+                      "청구", "우방", "진흥", "남광", "신성", "서광", "건영", "풍림", "동성",
+                      "임광", "일성", "동익", "라이프", "미주", "대주", "부영", "효성", "동원",
+                      "일신", "한일", "대성", "삼부", "선경", "럭키", "LG", "SK", "LH", "린"]
+        }
+
+        for brand in FORCE_HOUSING_BRANDS:
+            b = self.normalize_housing_name(brand)
+            if not b or b not in n:
+                continue
+            if b in generic_brand_norm and suffix_hits == 0 and not any(w in raw for w in strong_words):
+                continue
+            score += 95
+            break
+
         if suffix_hits:
             score += 45 + min(40, suffix_hits * 8)
 
@@ -2055,7 +2176,15 @@ class AptFinderGenerator:
     def is_complex_candidate_text(self, text: str) -> bool:
         if not text:
             return False
-        return self.housing_name_score(text) >= 35
+
+        raw = text or ""
+
+        # 명백한 비주거 업종은 후보 점수 계산 전에 차단.
+        if self.is_trash_place(raw):
+            return False
+
+        return self.housing_name_score(raw) >= 70
+
 
     def kakao_places(self, keyword: str, sido: str, sigungu: str) -> List[ComplexItem]:
         out = []
@@ -2064,7 +2193,7 @@ class AptFinderGenerator:
                 r = self.kakao_get(
                     KAKAO_KEYWORD_URL,
                     headers=self.kakao_headers,
-                    params={"query": keyword, "page": page, "size": 15},
+                    params=self.kakao_keyword_params(keyword, sido, sigungu, page=page, size=15),
                     timeout=20,
                 )
                 r.raise_for_status()
@@ -2078,19 +2207,24 @@ class AptFinderGenerator:
                     jibun = p.get("address_name") or ""
                     address = road or jibun
                     category = p.get("category_name") or ""
-                    text = f"{keyword} {name} {category} {address}"
+
+                    # 매우 중요:
+                    # 후보 판정에는 검색어(keyword)를 절대 섞지 않는다.
+                    # 예전에는 "수원시 주택관리 + 김밥집"처럼 keyword 때문에 식당/매장이 주거단지로 오판됐다.
+                    candidate_text = f"{name} {category} {address}"
+                    debug_text = f"{keyword} {name} {category} {address}"
 
                     if not self.is_target_address(address, sido, sigungu):
                         continue
-                    if self.is_trash_place(text):
+                    if self.is_trash_place(debug_text):
                         continue
-                    if not self.is_complex_candidate_text(text):
+                    if not self.is_complex_candidate_text(candidate_text):
                         continue
 
                     phone = normalize_phone(p.get("phone") or "")
                     item = ComplexItem(
                         name=name,
-                        type=self.infer_place_type(text),
+                        type=self.infer_place_type(candidate_text),
                         city=sigungu,
                         sido=sido,
                         district=self.extract_district(address),
@@ -2132,19 +2266,21 @@ class AptFinderGenerator:
                 jibun = (p.get("address") or "").strip()
                 address = road or jibun
                 category = p.get("category") or ""
-                text = f"{keyword} {name} {category} {address}"
+
+                candidate_text = f"{name} {category} {address}"
+                debug_text = f"{keyword} {name} {category} {address}"
 
                 if not self.is_target_address(address, sido, sigungu):
                     continue
-                if self.is_trash_place(text):
+                if self.is_trash_place(debug_text):
                     continue
-                if not self.is_complex_candidate_text(text):
+                if not self.is_complex_candidate_text(candidate_text):
                     continue
 
                 phone = normalize_phone(p.get("telephone") or "")
                 item = ComplexItem(
                     name=name,
-                    type=self.infer_place_type(text),
+                    type=self.infer_place_type(candidate_text),
                     city=sigungu,
                     sido=sido,
                     district=self.extract_district(address),
@@ -2761,12 +2897,23 @@ class AptFinderGenerator:
         return (item.city or "") == sigungu
 
     def is_trash_place(self, text: str) -> bool:
-        # 누락 방지가 최우선이므로 쓰레기 필터는 정말 주거단지와 거리가 먼 업종만 최소 차단한다.
-        # '분양', '모델하우스', '부동산'은 실제 단지명/관리소 탐색에 섞여 들어올 수 있어 더 이상 차단하지 않는다.
+        # 누락 방지가 중요해도, 일반 매장/음식점/정비소가 반복 검색으로 100점이 되는 건 막아야 한다.
+        # 단지명/관리소 탐색에 섞일 수 있는 '분양', '모델하우스', '부동산' 일반 단어는 여기서 막지 않는다.
         trash = [
             "호텔", "모텔", "펜션", "게스트하우스", "고시원", "원룸텔", "리빙텔",
             "인테리어", "청소", "이사", "도배", "장판", "누수", "설비",
             "철거", "리모델링", "세탁", "방역", "부동산중개", "공인중개사사무소",
+
+            # 실제로 DB에 섞인 유형
+            "김밥", "분식", "치킨", "피자", "중국집", "짜장", "족발", "보쌈",
+            "카페", "커피", "베이커리", "빵집", "편의점", "마트", "슈퍼",
+            "약국", "병원", "의원", "한의원", "미용실", "네일", "피부관리",
+            "노래방", "pc방", "PC방", "당구장", "스크린골프",
+
+            # 통신/매장/정비/자동차
+            "LG유플러스", "유플러스", "SK텔레콤", "T월드", "KT플라자", "KT대리점",
+            "휴대폰", "핸드폰", "대리점", "직영점", "판매점",
+            "자동차공업사", "공업사", "카센터", "정비소", "타이어", "세차", "렌트카",
         ]
         return any(x in (text or "") for x in trash)
 
