@@ -297,7 +297,7 @@ class ApiCallLimiter:
 
 
 class AptFinderGenerator:
-    def __init__(self, config: dict, limiter: Optional[ApiCallLimiter] = None, max_runtime_minutes: int = 330, use_naver_during_generation: bool = False):
+    def __init__(self, config: dict, limiter: Optional[ApiCallLimiter] = None, max_runtime_minutes: int = 330, use_naver_during_generation: bool = False, debug_discovery: bool = False, debug_watch: str = ""):
         self.config = config
         self.session = requests.Session()
         self.kakao_headers = {"Authorization": f"KakaoAK {config['kakao_rest_key']}"}
@@ -313,6 +313,76 @@ class AptFinderGenerator:
         self.max_runtime_seconds = max(1, int(max_runtime_minutes)) * 60
         self.use_naver_during_generation = use_naver_during_generation
         self.max_naver_queue_items = 999999999
+        self.debug_discovery = bool(debug_discovery)
+        default_watch_terms = ["래미안", "화서", "클래식", "330-10", "수성로232"]
+        extra_watch_terms = [x.strip() for x in (debug_watch or "").split(",") if x.strip()]
+        self.debug_watch_terms = list(dict.fromkeys(default_watch_terms + extra_watch_terms))
+
+    def discovery_debug_path(self, sido: str, sigungu: str) -> Path:
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        return DATA_DIR / f"_debug_discovery_{region_slug(sido, sigungu)}.jsonl"
+
+    def should_debug_keyword(self, keyword: str) -> bool:
+        if self.debug_discovery:
+            return True
+        text = keyword or ""
+        return any(term and term in text for term in self.debug_watch_terms)
+
+    def should_debug_candidate(self, keyword: str, name: str, road: str, jibun: str) -> bool:
+        if self.debug_discovery:
+            return True
+        text = " ".join([keyword or "", name or "", road or "", jibun or ""])
+        return any(term and term in text for term in self.debug_watch_terms)
+
+    def log_discovery_event(
+        self,
+        sido: str,
+        sigungu: str,
+        provider: str,
+        keyword: str,
+        page: int,
+        status: str,
+        name: str = "",
+        category: str = "",
+        road: str = "",
+        jibun: str = "",
+        phone: str = "",
+        reason: str = "",
+        score: int = 0,
+        params: Optional[dict] = None,
+    ):
+        if not self.should_debug_candidate(keyword, name, road, jibun):
+            return
+
+        row = {
+            "time": now_text(),
+            "region": f"{sido}|{sigungu}",
+            "provider": provider,
+            "keyword": keyword,
+            "page": page,
+            "status": status,
+            "reason": reason,
+            "score": int(score or 0),
+            "name": name,
+            "category": category,
+            "roadAddress": road,
+            "jibunAddress": jibun,
+            "phone": phone,
+        }
+
+        if params:
+            safe_params = dict(params)
+            if "query" in safe_params:
+                safe_params["query"] = str(safe_params.get("query") or "")[:120]
+            row["params"] = safe_params
+
+        path = self.discovery_debug_path(sido, sigungu)
+        with path.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+    def print_debug_hint(self, sido: str, sigungu: str):
+        if self.debug_discovery:
+            print(f"  진단 로그 저장: {self.discovery_debug_path(sido, sigungu)}")
 
     def check_runtime_budget(self):
         elapsed = time.monotonic() - self.started_at
@@ -1834,8 +1904,28 @@ class AptFinderGenerator:
                 print(f"  전화번호 후보 수집 {i}/{len(merged)}")
 
         final_items = self.merge_items(enriched)
+        self.print_watch_summary(sido, sigungu, final_items)
         self.enqueue_naver_candidates(sido, sigungu, final_items)
         return final_items
+
+    def print_watch_summary(self, sido: str, sigungu: str, items: List[ComplexItem]):
+        watch_terms = [x for x in self.debug_watch_terms if x]
+        if not watch_terms:
+            return
+        hits = []
+        for item in items:
+            text = " ".join([item.name or "", item.address or "", item.roadAddress or "", item.jibunAddress or ""])
+            if any(term in text for term in watch_terms):
+                hits.append(item)
+
+        if hits:
+            print(f"  감시어 매칭 항목: {len(hits)}개")
+            for item in hits[:20]:
+                addr = (item.roadAddress or item.jibunAddress or item.address or "").replace("\n", " / ")
+                print(f"    - {item.name} | {addr} | {item.phone or '번호없음'}")
+        else:
+            print("  감시어 매칭 항목 없음")
+            print("  → data/_debug_discovery_지역.jsonl에서 '래미안/화서/클래식' 검색 결과의 탈락 사유를 확인하세요.")
 
     def fetch_kapt_region(self, sido: str, sigungu: str) -> List[ComplexItem]:
         print("K-apt 아파트 수집 중...")
@@ -2025,6 +2115,21 @@ class AptFinderGenerator:
         too_generic_norm = {self.normalize_housing_name(x) for x in too_generic}
         return len(normalized) >= 3 and normalized not in too_generic_norm
 
+    def build_manual_seed_keywords(self, sido: str, sigungu: str) -> List[str]:
+        # API 검색 결과 정렬이 흔들려도 검증된 누락 케이스는 반드시 직접 찔러본다.
+        # 이건 DB를 수동으로 만들자는 뜻이 아니라, 자동 수집기의 보험장치다.
+        seeds = {
+            ("경기도", "수원시"): [
+                "수원화서래미안클래식",
+                "화서동 래미안 클래식",
+                "수원시 화서동 래미안",
+                "수원시 래미안 클래식",
+                "경기 수원시 팔달구 화서동 330-10",
+                "경기 수원시 팔달구 수성로232번길 7",
+            ],
+        }
+        return seeds.get((sido, sigungu), [])
+
     def build_extra_search_keywords(self, sido: str, sigungu: str) -> List[str]:
         """
         검색 0건 방지형 후보확장.
@@ -2068,6 +2173,9 @@ class AptFinderGenerator:
                 add(f"{sigungu} {area} {brand}")
                 add(f"{sido} {sigungu} {area} {brand}")
 
+        for seed in self.build_manual_seed_keywords(sido, sigungu):
+            add(seed)
+
         return list(dict.fromkeys(keywords))
 
     def collect_extra_complexes(self, sido: str, sigungu: str) -> List[ComplexItem]:
@@ -2079,6 +2187,8 @@ class AptFinderGenerator:
         # 3) K-apt 목록에서 뽑은 동 단위 키워드
         # 순서로 카카오 후보를 확장한다. 네이버는 기본 생성 중 사용하지 않고 큐로 보낸다.
         keywords = self.build_extra_search_keywords(sido, sigungu)
+        self.print_debug_hint(sido, sigungu)
+        print(f"  추가 후보 검색어: {len(keywords)}개")
 
         results = []
         for kw in list(dict.fromkeys(keywords)):
@@ -2188,40 +2298,74 @@ class AptFinderGenerator:
 
     def kakao_places(self, keyword: str, sido: str, sigungu: str) -> List[ComplexItem]:
         out = []
+        total_docs = 0
+        accepted_count = 0
+        debug_keyword = self.should_debug_keyword(keyword)
+
         for page in range(1, 4):
+            params = self.kakao_keyword_params(keyword, sido, sigungu, page=page, size=15)
             try:
                 r = self.kakao_get(
                     KAKAO_KEYWORD_URL,
                     headers=self.kakao_headers,
-                    params=self.kakao_keyword_params(keyword, sido, sigungu, page=page, size=15),
+                    params=params,
                     timeout=20,
                 )
                 r.raise_for_status()
                 docs = r.json().get("documents", [])
                 if not docs:
+                    self.log_discovery_event(
+                        sido, sigungu, "카카오", keyword, page,
+                        status="NO_DOCS", reason="카카오 결과 없음", params=params
+                    )
                     break
 
-                for p in docs:
+                total_docs += len(docs)
+
+                for rank, p in enumerate(docs, start=1):
                     name = p.get("place_name", "").strip()
                     road = p.get("road_address_name") or ""
                     jibun = p.get("address_name") or ""
                     address = road or jibun
                     category = p.get("category_name") or ""
+                    phone = normalize_phone(p.get("phone") or "")
 
-                    # 매우 중요:
-                    # 후보 판정에는 검색어(keyword)를 절대 섞지 않는다.
-                    # 예전에는 "수원시 주택관리 + 김밥집"처럼 keyword 때문에 식당/매장이 주거단지로 오판됐다.
                     candidate_text = f"{name} {category} {address}"
                     debug_text = f"{keyword} {name} {category} {address}"
+                    score = self.housing_name_score(candidate_text)
 
+                    status = "REJECTED"
+                    reason = ""
                     if not self.is_target_address(address, sido, sigungu):
-                        continue
-                    if self.is_trash_place(debug_text):
-                        continue
-                    if not self.is_complex_candidate_text(candidate_text):
+                        reason = "지역불일치"
+                    elif self.is_trash_place(debug_text):
+                        reason = "비주거업종필터"
+                    elif score < 70:
+                        reason = f"주거후보점수부족:{score}"
+                    else:
+                        status = "ACCEPTED"
+                        reason = "주거후보통과"
+
+                    self.log_discovery_event(
+                        sido=sido,
+                        sigungu=sigungu,
+                        provider="카카오",
+                        keyword=keyword,
+                        page=page,
+                        status=status,
+                        name=name,
+                        category=category,
+                        road=road,
+                        jibun=jibun,
+                        phone=phone,
+                        reason=f"rank={rank};{reason}",
+                        score=score,
+                        params=params,
+                    )
+
+                    if status != "ACCEPTED":
                         continue
 
-                    phone = normalize_phone(p.get("phone") or "")
                     item = ComplexItem(
                         name=name,
                         type=self.infer_place_type(candidate_text),
@@ -2242,16 +2386,27 @@ class AptFinderGenerator:
                     if phone:
                         self.add_phone_candidate(item, phone, "카카오 장소검색", 90, keyword)
                     out.append(item)
+                    accepted_count += 1
                 time.sleep(0.15)
             except QuotaStop:
                 raise
             except Exception as e:
                 print(f"  카카오 실패 {keyword}: {e}")
+                self.log_discovery_event(
+                    sido, sigungu, "카카오", keyword, page,
+                    status="ERROR", reason=str(e), params=params
+                )
                 break
+
+        if debug_keyword or accepted_count > 0:
+            print(f"  카카오 후보검색: '{keyword}' 결과 {total_docs}개 / 채택 {accepted_count}개")
         return out
 
     def naver_local_places(self, keyword: str, sido: str, sigungu: str) -> List[ComplexItem]:
         out = []
+        total_docs = 0
+        accepted_count = 0
+        debug_keyword = self.should_debug_keyword(keyword)
         try:
             r = self.naver_get(
                 NAVER_LOCAL_URL,
@@ -2260,24 +2415,51 @@ class AptFinderGenerator:
                 timeout=20,
             )
             r.raise_for_status()
-            for p in r.json().get("items", []):
+            items = r.json().get("items", [])
+            total_docs = len(items)
+            for rank, p in enumerate(items, start=1):
                 name = clean_html(p.get("title", ""))
                 road = (p.get("roadAddress") or "").strip()
                 jibun = (p.get("address") or "").strip()
                 address = road or jibun
                 category = p.get("category") or ""
-
+                phone = normalize_phone(p.get("telephone") or "")
                 candidate_text = f"{name} {category} {address}"
                 debug_text = f"{keyword} {name} {category} {address}"
+                score = self.housing_name_score(candidate_text)
 
+                status = "REJECTED"
+                reason = ""
                 if not self.is_target_address(address, sido, sigungu):
-                    continue
-                if self.is_trash_place(debug_text):
-                    continue
-                if not self.is_complex_candidate_text(candidate_text):
+                    reason = "지역불일치"
+                elif self.is_trash_place(debug_text):
+                    reason = "비주거업종필터"
+                elif score < 70:
+                    reason = f"주거후보점수부족:{score}"
+                else:
+                    status = "ACCEPTED"
+                    reason = "주거후보통과"
+
+                self.log_discovery_event(
+                    sido=sido,
+                    sigungu=sigungu,
+                    provider="네이버Local",
+                    keyword=keyword,
+                    page=1,
+                    status=status,
+                    name=name,
+                    category=category,
+                    road=road,
+                    jibun=jibun,
+                    phone=phone,
+                    reason=f"rank={rank};{reason}",
+                    score=score,
+                    params={"query": keyword, "display": 20, "start": 1},
+                )
+
+                if status != "ACCEPTED":
                     continue
 
-                phone = normalize_phone(p.get("telephone") or "")
                 item = ComplexItem(
                     name=name,
                     type=self.infer_place_type(candidate_text),
@@ -2298,10 +2480,18 @@ class AptFinderGenerator:
                 if phone:
                     self.add_phone_candidate(item, phone, "네이버 Local", 90, keyword)
                 out.append(item)
+                accepted_count += 1
         except QuotaStop:
             raise
         except Exception as e:
             print(f"  네이버 Local 실패 {keyword}: {e}")
+            self.log_discovery_event(
+                sido, sigungu, "네이버Local", keyword, 1,
+                status="ERROR", reason=str(e), params={"query": keyword, "display": 20, "start": 1}
+            )
+
+        if debug_keyword or accepted_count > 0:
+            print(f"  네이버 후보검색: '{keyword}' 결과 {total_docs}개 / 채택 {accepted_count}개")
         return out
 
     def enrich_phone(self, item: ComplexItem, skip_web_phone: bool = False, use_kakao: bool = True, use_naver_local: bool = False, use_naver_web: bool = False) -> ComplexItem:
@@ -3103,6 +3293,18 @@ def main():
         help="이번 실행에서 네이버 큐를 최대 몇 항목 처리할지 제한"
     )
 
+    parser.add_argument(
+        "--debug-discovery",
+        action="store_true",
+        help="카카오/네이버 후보 수집의 채택/탈락 사유를 data/_debug_discovery_지역.jsonl에 저장"
+    )
+
+    parser.add_argument(
+        "--debug-watch",
+        default="",
+        help="진단 로그를 남길 감시어. 쉼표로 구분. 예: 래미안,화서,클래식"
+    )
+
     args = parser.parse_args()
 
     config = load_config()
@@ -3114,7 +3316,14 @@ def main():
         max_kapt=args.max_kapt,
     )
 
-    gen = AptFinderGenerator(config, limiter=limiter, max_runtime_minutes=args.max_runtime_minutes, use_naver_during_generation=args.use_naver_during_generation)
+    gen = AptFinderGenerator(
+        config,
+        limiter=limiter,
+        max_runtime_minutes=args.max_runtime_minutes,
+        use_naver_during_generation=args.use_naver_during_generation,
+        debug_discovery=args.debug_discovery,
+        debug_watch=args.debug_watch,
+    )
 
     if args.audit:
         gen.audit_output(regions, min_count=args.min_count)
