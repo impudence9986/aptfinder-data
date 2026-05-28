@@ -431,23 +431,205 @@ class AptFinderGenerator:
         return self.api_get(url, provider="카카오", **kwargs)
 
     def region_search_radius(self, sigungu: str) -> int:
+        """
+        카카오 Local keyword API의 radius 최대값은 20000m다.
+        20000을 넘기면 400 Bad Request가 발생해서 후보 수집이 통째로 실패한다.
+        """
         if sigungu.endswith("구"):
             return 9000
-        if sigungu.endswith("군"):
-            return 30000
-        return 22000
+        return 20000
+
+    def clamp_kakao_radius(self, radius: int) -> int:
+        try:
+            value = int(radius)
+        except Exception:
+            value = 20000
+        return max(1000, min(20000, value))
+
+    def is_address_like_keyword(self, keyword: str) -> bool:
+        """
+        도로명/지번 전체 주소는 keyword API가 아니라 address API 대상이다.
+        keyword API에 긴 주소를 넣으면 400이 자주 발생하므로 장소 후보검색에서는 스킵한다.
+        """
+        q = re.sub(r"\s+", " ", keyword or "").strip()
+        if not q:
+            return False
+
+        if re.search(r"(로|길)\s*\d+(?:-\d+)?", q):
+            return True
+        if re.search(r"(동|읍|면)\s*(산\s*)?\d+(?:-\d+)?", q):
+            return True
+        return False
+
+    def kakao_keyword_param_variants(self, keyword: str, sido: str, sigungu: str, page: int = 1, size: int = 15) -> List[dict]:
+        """
+        기본은 현재 시군구 중심좌표 1개로 검색한다.
+        단, 래미안처럼 브랜드 단독검색/감시어/수동시드는 구·동 보조 중심도 함께 훑는다.
+        """
+        centers = self.get_region_search_centers(sido, sigungu, keyword)
+        if not centers:
+            return [self.kakao_keyword_params(keyword, sido, sigungu, page=page, size=size, use_region_center=False)]
+
+        variants = []
+        seen = set()
+        for center in centers:
+            params = {"query": keyword, "page": page, "size": size}
+            if center.get("x") and center.get("y"):
+                params.update({
+                    "x": center["x"],
+                    "y": center["y"],
+                    "radius": self.clamp_kakao_radius(center.get("radius") or self.region_search_radius(sigungu)),
+                })
+            key = (params.get("query"), params.get("page"), params.get("x"), params.get("y"), params.get("radius"))
+            if key in seen:
+                continue
+            seen.add(key)
+            variants.append(params)
+        return variants
+
+    def keyword_needs_multi_center(self, keyword: str) -> bool:
+        text = keyword or ""
+        if any(term and term in text for term in self.debug_watch_terms):
+            return True
+
+        key = self.normalize_housing_name(text)
+        for brand in FORCE_HOUSING_BRANDS:
+            b = self.normalize_housing_name(brand)
+            if b and b in key and self.allow_brand_single_search(brand):
+                return True
+
+        return False
+
+    def special_search_center_queries(self, sido: str, sigungu: str) -> List[Tuple[str, int]]:
+        """
+        누락이 잦은 대도시는 시청 1점만으로 부족하므로 구청/핵심 동·역을 보조 중심으로 사용한다.
+        전국 전체에 과도한 호출이 늘지 않도록 우선 검증된 지역부터 확장한다.
+        """
+        mapping = {
+            ("경기도", "수원시"): [
+                ("경기도 수원시청", 20000),
+                ("경기도 수원시 장안구청", 12000),
+                ("경기도 수원시 권선구청", 12000),
+                ("경기도 수원시 팔달구청", 12000),
+                ("경기도 수원시 영통구청", 12000),
+                ("경기도 수원시 화서역", 7000),
+                ("경기도 수원시 팔달구 화서동", 7000),
+            ],
+            ("경기도", "성남시"): [
+                ("경기도 성남시청", 20000),
+                ("경기도 성남시 수정구청", 12000),
+                ("경기도 성남시 중원구청", 12000),
+                ("경기도 성남시 분당구청", 12000),
+                ("경기도 성남시 판교역", 9000),
+            ],
+            ("경기도", "용인시"): [
+                ("경기도 용인시청", 20000),
+                ("경기도 용인시 수지구청", 14000),
+                ("경기도 용인시 기흥구청", 14000),
+                ("경기도 용인시 처인구청", 16000),
+            ],
+            ("경기도", "고양시"): [
+                ("경기도 고양시청", 20000),
+                ("경기도 고양시 덕양구청", 14000),
+                ("경기도 고양시 일산동구청", 14000),
+                ("경기도 고양시 일산서구청", 14000),
+            ],
+            ("경기도", "안산시"): [
+                ("경기도 안산시청", 18000),
+                ("경기도 안산시 상록구청", 12000),
+                ("경기도 안산시 단원구청", 12000),
+            ],
+            ("경기도", "안양시"): [
+                ("경기도 안양시청", 14000),
+                ("경기도 안양시 만안구청", 10000),
+                ("경기도 안양시 동안구청", 10000),
+            ],
+            ("경기도", "부천시"): [
+                ("경기도 부천시청", 14000),
+                ("경기도 부천시 소사구청", 10000),
+                ("경기도 부천시 원미구청", 10000),
+                ("경기도 부천시 오정구청", 10000),
+            ],
+        }
+        return mapping.get((sido, sigungu), [])
+
+    def get_region_search_centers(self, sido: str, sigungu: str, keyword: str = "") -> List[dict]:
+        centers = []
+
+        base = self.get_region_center(sido, sigungu)
+        if base:
+            centers.append(base)
+
+        if not self.keyword_needs_multi_center(keyword):
+            return centers
+
+        for query, radius in self.special_search_center_queries(sido, sigungu):
+            center = self.get_named_center(sido, sigungu, query, radius)
+            if center:
+                centers.append(center)
+
+        seen = set()
+        dedup = []
+        for c in centers:
+            key = (c.get("x"), c.get("y"), c.get("radius"))
+            if key in seen:
+                continue
+            seen.add(key)
+            dedup.append(c)
+        return dedup
+
+    def get_named_center(self, sido: str, sigungu: str, query: str, radius: int) -> dict:
+        cache_key = f"center|{sido}|{sigungu}|{query}"
+        if cache_key in self.region_center_cache:
+            return self.region_center_cache[cache_key]
+
+        try:
+            r = self.kakao_get(
+                KAKAO_KEYWORD_URL,
+                headers=self.kakao_headers,
+                params={"query": query, "page": 1, "size": 5},
+                timeout=20,
+            )
+            r.raise_for_status()
+
+            for p in r.json().get("documents", []):
+                x = (p.get("x") or "").strip()
+                y = (p.get("y") or "").strip()
+                road = (p.get("road_address_name") or "").strip()
+                jibun = (p.get("address_name") or "").strip()
+                name = (p.get("place_name") or "").strip()
+                address = self.build_dual_address(road, jibun, road or jibun)
+
+                if not x or not y:
+                    continue
+                if self.is_target_address(address, sido, sigungu) or sigungu.replace("시", "").replace("군", "").replace("구", "") in name:
+                    center = {
+                        "x": x,
+                        "y": y,
+                        "radius": self.clamp_kakao_radius(radius),
+                        "query": query,
+                    }
+                    self.region_center_cache[cache_key] = center
+                    return center
+
+        except QuotaStop:
+            raise
+        except Exception as e:
+            if self.debug_discovery or self.should_debug_keyword(query):
+                print(f"  보조중심 좌표 검색 실패: {query} / {e}")
+
+        self.region_center_cache[cache_key] = {}
+        return {}
 
     def get_region_center(self, sido: str, sigungu: str) -> dict:
         """
-        카카오 키워드 검색은 query에 지역명을 넣어도 결과 정렬이 전국/임의 상위 결과에 치우칠 수 있다.
-        그래서 현재 생성 중인 시군구의 청사 좌표를 한 번 찾아 캐시하고,
-        브랜드 단독검색/일반검색에 x/y/radius를 붙여 해당 지역 근처 결과를 우선 받는다.
+        현재 생성 중인 시군구의 청사 좌표를 찾아 keyword API의 x/y/radius 기준점으로 사용한다.
+        radius는 카카오 허용 최대값인 20000m 이하로 고정한다.
         """
         cache_key = f"{sido}|{sigungu}"
         if cache_key in self.region_center_cache:
             return self.region_center_cache[cache_key]
 
-        queries = []
         if sido == "세종특별자치시":
             queries = ["세종특별자치시청", "세종시청"]
         elif sigungu.endswith("구"):
@@ -466,6 +648,7 @@ class AptFinderGenerator:
                     timeout=20,
                 )
                 r.raise_for_status()
+
                 for p in r.json().get("documents", []):
                     x = (p.get("x") or "").strip()
                     y = (p.get("y") or "").strip()
@@ -474,17 +657,17 @@ class AptFinderGenerator:
                     place_name = (p.get("place_name") or "").strip()
                     address = self.build_dual_address(road, jibun, road or jibun)
 
-                    # 청사 검색 결과가 해당 시군구에 있거나, 장소명에 시군구명이 들어가면 채택한다.
                     if x and y and (self.is_target_address(address, sido, sigungu) or sigungu.replace("시", "").replace("군", "").replace("구", "") in place_name):
                         center = {
                             "x": x,
                             "y": y,
-                            "radius": self.region_search_radius(sigungu),
+                            "radius": self.clamp_kakao_radius(self.region_search_radius(sigungu)),
                             "query": q,
                         }
                         self.region_center_cache[cache_key] = center
                         print(f"  지역중심 좌표 적용: {sido} {sigungu} x={x} y={y} radius={center['radius']}")
                         return center
+
             except QuotaStop:
                 raise
             except Exception as e:
@@ -502,7 +685,7 @@ class AptFinderGenerator:
                 params.update({
                     "x": center["x"],
                     "y": center["y"],
-                    "radius": center.get("radius") or self.region_search_radius(sigungu),
+                    "radius": self.clamp_kakao_radius(center.get("radius") or self.region_search_radius(sigungu)),
                 })
         return params
 
@@ -1017,6 +1200,15 @@ class AptFinderGenerator:
         if not query:
             return {}
 
+        if self.is_address_like_keyword(query):
+            result = self.kakao_address_search(query)
+            road = result.get("roadAddress", "")
+            jibun = result.get("jibunAddress", "")
+            score = self.address_score(road, jibun, sido, sigungu, name)
+            if score >= 45:
+                return {**result, "score": score}
+            return {}
+
         try:
             r = self.kakao_get(
                 KAKAO_KEYWORD_URL,
@@ -1024,6 +1216,12 @@ class AptFinderGenerator:
                 params=self.kakao_keyword_params(query, sido, sigungu, page=1, size=15),
                 timeout=20,
             )
+
+            if r.status_code == 400:
+                if self.debug_discovery or self.should_debug_keyword(query):
+                    print(f"  카카오 장소주소검색 400 스킵: {query[:80]}")
+                return {}
+
             r.raise_for_status()
 
             docs = r.json().get("documents", [])
@@ -1075,7 +1273,8 @@ class AptFinderGenerator:
         except QuotaStop:
             raise
         except Exception as e:
-            print(f"  카카오 장소주소검색 실패: {query} / {e}")
+            if self.debug_discovery or self.should_debug_keyword(query):
+                print(f"  카카오 장소주소검색 실패: {query} / {e}")
             return {}
 
     def naver_local_address_search(self, query: str, sido: str, sigungu: str, name: str = "") -> dict:
@@ -1896,7 +2095,6 @@ class AptFinderGenerator:
         print(f"전화번호 후보 수집 시작: {len(merged)}개")
         enriched = []
         for i, item in enumerate(merged, start=1):
-            # 기존 phone이 있어도 반드시 후보 수집한다.
             item = self.enrich_phone(item, skip_web_phone=skip_web_phone, use_kakao=True, use_naver_local=False, use_naver_web=False)
             item = self.finalize_phone_fields(item)
             enriched.append(item)
@@ -2301,101 +2499,148 @@ class AptFinderGenerator:
         total_docs = 0
         accepted_count = 0
         debug_keyword = self.should_debug_keyword(keyword)
+        seen_place_keys = set()
+
+        keyword = re.sub(r"\s+", " ", (keyword or "").strip())
+        if not keyword:
+            return out
+
+        if self.is_address_like_keyword(keyword):
+            self.log_discovery_event(
+                sido, sigungu, "카카오", keyword, 0,
+                status="SKIPPED", reason="주소형키워드는 keyword 장소검색 스킵"
+            )
+            return out
 
         for page in range(1, 4):
-            params = self.kakao_keyword_params(keyword, sido, sigungu, page=page, size=15)
-            try:
-                r = self.kakao_get(
-                    KAKAO_KEYWORD_URL,
-                    headers=self.kakao_headers,
-                    params=params,
-                    timeout=20,
-                )
-                r.raise_for_status()
-                docs = r.json().get("documents", [])
-                if not docs:
-                    self.log_discovery_event(
-                        sido, sigungu, "카카오", keyword, page,
-                        status="NO_DOCS", reason="카카오 결과 없음", params=params
-                    )
-                    break
+            param_variants = self.kakao_keyword_param_variants(keyword, sido, sigungu, page=page, size=15)
+            page_had_docs = False
 
-                total_docs += len(docs)
-
-                for rank, p in enumerate(docs, start=1):
-                    name = p.get("place_name", "").strip()
-                    road = p.get("road_address_name") or ""
-                    jibun = p.get("address_name") or ""
-                    address = road or jibun
-                    category = p.get("category_name") or ""
-                    phone = normalize_phone(p.get("phone") or "")
-
-                    candidate_text = f"{name} {category} {address}"
-                    debug_text = f"{keyword} {name} {category} {address}"
-                    score = self.housing_name_score(candidate_text)
-
-                    status = "REJECTED"
-                    reason = ""
-                    if not self.is_target_address(address, sido, sigungu):
-                        reason = "지역불일치"
-                    elif self.is_trash_place(debug_text):
-                        reason = "비주거업종필터"
-                    elif score < 70:
-                        reason = f"주거후보점수부족:{score}"
-                    else:
-                        status = "ACCEPTED"
-                        reason = "주거후보통과"
-
-                    self.log_discovery_event(
-                        sido=sido,
-                        sigungu=sigungu,
-                        provider="카카오",
-                        keyword=keyword,
-                        page=page,
-                        status=status,
-                        name=name,
-                        category=category,
-                        road=road,
-                        jibun=jibun,
-                        phone=phone,
-                        reason=f"rank={rank};{reason}",
-                        score=score,
+            for params in param_variants:
+                try:
+                    r = self.kakao_get(
+                        KAKAO_KEYWORD_URL,
+                        headers=self.kakao_headers,
                         params=params,
+                        timeout=20,
                     )
 
-                    if status != "ACCEPTED":
+                    if r.status_code == 400:
+                        self.log_discovery_event(
+                            sido, sigungu, "카카오", keyword, page,
+                            status="ERROR", reason="400_BAD_REQUEST_SKIPPED", params=params
+                        )
+                        if debug_keyword:
+                            print(f"  카카오 400 스킵: '{keyword}' params={params}")
                         continue
 
-                    item = ComplexItem(
-                        name=name,
-                        type=self.infer_place_type(candidate_text),
-                        city=sigungu,
-                        sido=sido,
-                        district=self.extract_district(address),
-                        dong=self.extract_dong(address),
-                        address=self.build_dual_address(road, jibun, address),
-                        roadAddress=road,
-                        jibunAddress=jibun,
-                        phone=phone,
-                        source="카카오 장소검색",
-                        verifiedAt="카카오 장소검색",
-                        phoneStatus="CONFIRMED" if phone else "UNKNOWN",
-                        confidenceScore=90 if phone else 0,
-                        addressQuality="ROAD_AND_JIBUN" if road and jibun else ("ROAD_ONLY" if road else ("JIBUN_ONLY" if jibun else "RAW")),
+                    r.raise_for_status()
+                    docs = r.json().get("documents", [])
+
+                    if not docs:
+                        self.log_discovery_event(
+                            sido, sigungu, "카카오", keyword, page,
+                            status="NO_DOCS", reason="카카오 결과 없음", params=params
+                        )
+                        continue
+
+                    page_had_docs = True
+                    total_docs += len(docs)
+
+                    for rank, p in enumerate(docs, start=1):
+                        name = p.get("place_name", "").strip()
+                        road = (p.get("road_address_name") or "").strip()
+                        jibun = (p.get("address_name") or "").strip()
+                        address = road or jibun
+                        category = (p.get("category_name") or "").strip()
+                        phone = normalize_phone(p.get("phone") or "")
+
+                        place_key = (
+                            self.normalize_for_key(name),
+                            self.normalize_for_key(road or jibun),
+                        )
+                        if place_key in seen_place_keys:
+                            continue
+                        seen_place_keys.add(place_key)
+
+                        candidate_text = f"{name} {category} {address}"
+                        debug_text = f"{keyword} {name} {category} {address}"
+                        score = self.housing_name_score(candidate_text)
+
+                        strong_kakao_housing = (
+                            ("주거시설" in category or "아파트" in category or "오피스텔" in category or "주상복합" in category)
+                            and self.is_target_address(address, sido, sigungu)
+                        )
+
+                        status = "REJECTED"
+                        reason = ""
+                        if not self.is_target_address(address, sido, sigungu):
+                            reason = "지역불일치"
+                        elif self.is_trash_place(debug_text) and not strong_kakao_housing:
+                            reason = "비주거업종필터"
+                        elif score < 70 and not strong_kakao_housing:
+                            reason = f"주거후보점수부족:{score}"
+                        else:
+                            status = "ACCEPTED"
+                            reason = "카카오주거카테고리강제통과" if strong_kakao_housing else "주거후보통과"
+
+                        self.log_discovery_event(
+                            sido=sido,
+                            sigungu=sigungu,
+                            provider="카카오",
+                            keyword=keyword,
+                            page=page,
+                            status=status,
+                            name=name,
+                            category=category,
+                            road=road,
+                            jibun=jibun,
+                            phone=phone,
+                            reason=f"rank={rank};{reason};x={params.get('x','')};y={params.get('y','')};radius={params.get('radius','')}",
+                            score=score,
+                            params=params,
+                        )
+
+                        if status != "ACCEPTED":
+                            continue
+
+                        item = ComplexItem(
+                            name=name,
+                            type=self.infer_place_type(candidate_text),
+                            city=sigungu,
+                            sido=sido,
+                            district=self.extract_district(address),
+                            dong=self.extract_dong(address),
+                            address=self.build_dual_address(road, jibun, address),
+                            roadAddress=road,
+                            jibunAddress=jibun,
+                            phone=phone,
+                            source="카카오 장소검색",
+                            verifiedAt="카카오 장소검색",
+                            phoneStatus="CONFIRMED" if phone else "UNKNOWN",
+                            confidenceScore=90 if phone else 0,
+                            addressQuality="ROAD_AND_JIBUN" if road and jibun else ("ROAD_ONLY" if road else ("JIBUN_ONLY" if jibun else "RAW")),
+                        )
+                        item.sharedKey = self.make_shared_key(item)
+                        if phone:
+                            self.add_phone_candidate(item, phone, "카카오 장소검색", 90, keyword)
+                        out.append(item)
+                        accepted_count += 1
+
+                    time.sleep(0.08)
+
+                except QuotaStop:
+                    raise
+                except Exception as e:
+                    self.log_discovery_event(
+                        sido, sigungu, "카카오", keyword, page,
+                        status="ERROR", reason=str(e), params=params
                     )
-                    if phone:
-                        self.add_phone_candidate(item, phone, "카카오 장소검색", 90, keyword)
-                    out.append(item)
-                    accepted_count += 1
-                time.sleep(0.15)
-            except QuotaStop:
-                raise
-            except Exception as e:
-                print(f"  카카오 실패 {keyword}: {e}")
-                self.log_discovery_event(
-                    sido, sigungu, "카카오", keyword, page,
-                    status="ERROR", reason=str(e), params=params
-                )
+                    if debug_keyword:
+                        print(f"  카카오 실패 {keyword}: {e}")
+                    continue
+
+            if not page_had_docs:
                 break
 
         if debug_keyword or accepted_count > 0:
@@ -3082,9 +3327,20 @@ class AptFinderGenerator:
         return sido_ok and sigungu_ok
 
     def item_belongs_to_region(self, item: ComplexItem, sido: str, sigungu: str) -> bool:
-        if item.address:
-            return self.is_target_address(item.address, sido, sigungu)
-        return (item.city or "") == sigungu
+        texts = [
+            item.address or "",
+            item.roadAddress or "",
+            item.jibunAddress or "",
+        ]
+        for t in texts:
+            if t and self.is_target_address(t, sido, sigungu):
+                return True
+
+        if (item.sido or "") and self.normalize_sido_name(item.sido) != sido:
+            return False
+        if (item.city or "") == sigungu:
+            return True
+        return False
 
     def is_trash_place(self, text: str) -> bool:
         # 누락 방지가 중요해도, 일반 매장/음식점/정비소가 반복 검색으로 100점이 되는 건 막아야 한다.
