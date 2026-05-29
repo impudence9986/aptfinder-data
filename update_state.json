@@ -1,15 +1,15 @@
 {
   "group": "today",
-  "updatedAt": "2026-05-28 22:04:09",
+  "updatedAt": "2026-05-29 02:20:18",
   "status": "stopped",
-  "reason": "GitHub Actions 안전정지: 330분 경과 / 제한 330분",
+  "reason": "카카오 실제 API 사용 제한 감지: HTTP 400 / {\"errorType\":\"BadRequest\",\"message\":\"API limit has been exceeded.\",\"code\":-10,\"msg\":\"API limit has been exceeded.\"}",
   "completed": [
-    "경기도|수원시"
-  ],
-  "remaining": [
+    "경기도|수원시",
     "경기도|화성시",
     "경기도|오산시",
-    "경기도|가평군",
+    "경기도|가평군"
+  ],
+  "remaining": [
     "경기도|고양시",
     "경기도|과천시",
     "경기도|광명시",
@@ -237,11 +237,11 @@
     "제주특별자치도|제주시"
   ],
   "limits": {
-    "kakaoUsed": 66159,
+    "kakaoUsed": 35869,
     "kakaoMax": 999999999,
     "naverUsed": 0,
     "naverMax": 999999999,
-    "kaptUsed": 848,
+    "kaptUsed": 1036,
     "kaptMax": 999999999
   }
 }
