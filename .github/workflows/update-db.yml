@@ -52,6 +52,14 @@ jobs:
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+
+          # 앱 즉시 온라인검색용 호출량 예비분
+          # Python 기본값도 바꿨지만, 나중에 스크립트에서 환경변수 읽도록 확장할 때 대비해서 명시해둠
+          KAKAO_DAILY_QUOTA: "100000"
+          KAKAO_RESERVED_FOR_APP: "500"
+          NAVER_DAILY_QUOTA: "25000"
+          NAVER_RESERVED_FOR_APP: "1000"
+
         run: |
           set -e
 
@@ -63,6 +71,8 @@ jobs:
 
           echo "RUN_MODE=$RUN_MODE"
           echo "MAX_RUNTIME_MINUTES=$MAX_RUNTIME_MINUTES"
+          echo "KAKAO_RESERVED_FOR_APP=$KAKAO_RESERVED_FOR_APP"
+          echo "NAVER_RESERVED_FOR_APP=$NAVER_RESERVED_FOR_APP"
 
           if [ "$RUN_MODE" = "missing" ]; then
             python -u scripts/generate_aptfinder_db.py \
