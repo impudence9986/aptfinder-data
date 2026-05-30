@@ -259,8 +259,8 @@ class QuotaStop(Exception):
 class ApiCallLimiter:
     def __init__(
         self,
-        max_kakao: int = 999999999,
-        max_naver: int = 999999999,
+        max_kakao: int = 99500,
+        max_naver: int = 24000,
         max_kapt: int = 999999999
     ):
         self.max_kakao = max_kakao
