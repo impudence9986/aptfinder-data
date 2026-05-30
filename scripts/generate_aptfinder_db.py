@@ -314,6 +314,7 @@ class AptFinderGenerator:
         self.use_naver_during_generation = use_naver_during_generation
         self.max_naver_queue_items = 999999999
         self.debug_discovery = bool(debug_discovery)
+        self.kakao_phone_search_cache: Dict[str, List[str]] = {}
         default_watch_terms = ["래미안", "화서", "클래식", "330-10", "수성로232"]
         extra_watch_terms = [x.strip() for x in (debug_watch or "").split(",") if x.strip()]
         self.debug_watch_terms = list(dict.fromkeys(default_watch_terms + extra_watch_terms))
@@ -2093,6 +2094,7 @@ class AptFinderGenerator:
         merged = self.merge_items(addressed)
 
         print(f"전화번호 후보 수집 시작: {len(merged)}개")
+        print("  정책: K-apt 등 신뢰도 높은 번호 보유 단지는 카카오 전화검색 최대 2회만 수행")
         enriched = []
         for i, item in enumerate(merged, start=1):
             item = self.enrich_phone(item, skip_web_phone=skip_web_phone, use_kakao=True, use_naver_local=False, use_naver_web=False)
@@ -2739,21 +2741,89 @@ class AptFinderGenerator:
             print(f"  네이버 후보검색: '{keyword}' 결과 {total_docs}개 / 채택 {accepted_count}개")
         return out
 
+    def has_strong_existing_phone(self, item: ComplexItem) -> bool:
+        """K-apt/기존 수집 번호가 이미 충분히 믿을 만한지 판단한다."""
+        if not item.phone:
+            return False
+
+        if item.phoneStatus == "CONFIRMED" or int(item.confidenceScore or 0) >= 85:
+            return True
+
+        text = f"{item.source or ''} {item.verifiedAt or ''}"
+        if "K-apt" in text or "공공데이터" in text:
+            return True
+
+        for c in item.phoneCandidates or []:
+            if normalize_phone(c.get("number", "")) == normalize_phone(item.phone):
+                counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
+                if int(counts.get("K-apt") or 0) > 0:
+                    return True
+
+        return False
+
+    def smart_phone_keywords(self, item: ComplexItem, strong_existing_phone: bool = False) -> List[str]:
+        """전화번호 보강용 검색어를 호출 효율 순서로 재정렬한다."""
+        keywords = self.phone_keywords(item)
+
+        def priority(kw: str) -> int:
+            score = 0
+            if item.jibunAddress and item.jibunAddress in kw:
+                score += 80
+            if item.roadAddress and item.roadAddress in kw:
+                score += 70
+            if item.dong and item.dong in kw:
+                score += 40
+            if item.city and item.city in kw:
+                score += 30
+            if "관리사무소" in kw:
+                score += 20
+            if "관리실" in kw:
+                score += 12
+            if "전화번호" in kw:
+                score += 8
+            if item.name and item.name in kw:
+                score += 10
+            return score
+
+        ordered = sorted(list(dict.fromkeys(keywords)), key=priority, reverse=True)
+
+        if strong_existing_phone:
+            # 이미 K-apt 등 신뢰도 높은 번호가 있으면 카카오는 상위 2개 검색어만 사용한다.
+            return ordered[:2]
+
+        return ordered
+
     def enrich_phone(self, item: ComplexItem, skip_web_phone: bool = False, use_kakao: bool = True, use_naver_local: bool = False, use_naver_web: bool = False) -> ComplexItem:
         # 기존 대표번호도 후보에 포함
         if item.phone:
             self.add_phone_candidate(item, item.phone, item.verifiedAt or item.source or "기존번호", item.confidenceScore or 70, "existing")
 
-        keywords = self.phone_keywords(item)
+        strong_existing_phone = self.has_strong_existing_phone(item)
+        keywords = self.smart_phone_keywords(item, strong_existing_phone=strong_existing_phone)
 
         if use_kakao:
+            kakao_calls = 0
+            new_kakao_numbers = 0
+            before_numbers = set(self._phone_set_for_merge(item))
+
             for kw in keywords:
                 # 중요:
                 # 카카오 전화번호 보강은 검색결과 상위 15개를 전부 넣지 않는다.
                 # 반드시 현재 item의 도로명/지번 주소와 같은 장소로 확인된 결과만 후보로 추가한다.
+                # K-apt 등 강한 번호가 이미 있으면 카카오 호출은 검색어 2개까지만 사용한다.
                 found = self.find_phone_kakao_all(kw, item=item)
+                kakao_calls += 1
+
                 for phone in found:
-                    self.add_phone_candidate(item, phone, "카카오 주소일치 전화번호 보강", 92, kw)
+                    normalized = normalize_phone(phone)
+                    added = self.add_phone_candidate(item, phone, "카카오 주소일치 전화번호 보강", 92, kw)
+                    if added and normalized and normalized not in before_numbers:
+                        before_numbers.add(normalized)
+                        new_kakao_numbers += 1
+
+                if strong_existing_phone and (kakao_calls >= 2 or new_kakao_numbers >= 2):
+                    break
+
                 time.sleep(0.12)
 
         if use_naver_local:
@@ -2835,12 +2905,16 @@ class AptFinderGenerator:
         return False
 
     def find_phone_kakao_all(self, keyword: str, item: Optional[ComplexItem] = None) -> List[str]:
+        cache_key = f"phone|{self.normalize_for_key(keyword)}"
+        if cache_key in self.kakao_phone_search_cache:
+            return list(self.kakao_phone_search_cache[cache_key])
+
         out = []
         try:
             r = self.kakao_get(
                 KAKAO_KEYWORD_URL,
                 headers=self.kakao_headers,
-                params={"query": keyword, "page": 1, "size": 15},
+                params={"query": keyword, "page": 1, "size": 10},
                 timeout=20
             )
             r.raise_for_status()
@@ -2861,7 +2935,10 @@ class AptFinderGenerator:
             raise
         except Exception as e:
             print(f"  카카오 전화검색 실패: {keyword} / {e}")
-        return list(dict.fromkeys(out))
+
+        result = list(dict.fromkeys(out))
+        self.kakao_phone_search_cache[cache_key] = result
+        return result
 
     def find_phone_naver_local_all(self, keyword: str, item: Optional[ComplexItem] = None) -> List[str]:
         out = []
