@@ -791,7 +791,7 @@ class AptFinderGenerator:
         # K-apt 밖 장소검색 후보는 이름이 약간 달라도 같은 지번이면 같은 단지로 합치기 위해
         # 주소가 있으면 type은 키에서 제외한다.
         if address_key:
-            return f"{sido_key}_{city_key}_{address_key}"
+            return f"{sido_key}_{city_key}_{address_key}_{name_key}"
 
         type_key = self.normalize_for_key(item.type)
         return f"{sido_key}_{city_key}_{name_key}_{type_key}"
@@ -3232,10 +3232,22 @@ class AptFinderGenerator:
 
             # 2차: 같은 지역 안에서 점수 기반 보수적 병합
             matched = None
-            for candidate in merged:
-                if self._should_score_merge(candidate, item):
-                    matched = candidate
-                    break
+
+            # 카카오에서 정확한 도로명+지번을 가진 K-apt 밖 주거 후보는
+            # 신규 단지일 가능성이 있으므로 점수 병합으로 기존 항목에 먹이지 않는다.
+            protect_extra_place = (
+                "카카오" in (item.source or "")
+                and item.name
+                and item.roadAddress
+                and item.jibunAddress
+                and item.kaptCode == ""
+            )
+
+            if not protect_extra_place:
+                for candidate in merged:
+                    if self._should_score_merge(candidate, item):
+                        matched = candidate
+                        break
 
             if matched is not None:
                 self._merge_item_into(matched, item)
@@ -3247,6 +3259,7 @@ class AptFinderGenerator:
             by_key[key] = item
 
         return merged
+
     def write_region_file(self, sido: str, sigungu: str, items: List[ComplexItem]) -> Path:
         DATA_DIR.mkdir(parents=True, exist_ok=True)
         slug = region_slug(sido, sigungu)
