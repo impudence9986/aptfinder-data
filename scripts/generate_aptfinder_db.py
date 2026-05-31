@@ -28,6 +28,7 @@ OUTPUT_DIR = Path(".")
 DATA_DIR = Path("data")
 STATE_PATH = Path("update_state.json")
 NAVER_QUEUE_PATH = DATA_DIR / "_naver_queue.json"
+REPAIR_QUEUE_PATH = DATA_DIR / "_repair_queue.json"
 
 KAPT_LIST_URL = "https://apis.data.go.kr/1613000/AptListService3/getTotalAptList3"
 KAPT_DETAIL_URL = "https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4"
@@ -1976,6 +1977,322 @@ class AptFinderGenerator:
         else:
             print(f"네이버 보강 큐 추가 없음 / 전체 대기 {len(queue['pending'])}개")
 
+
+    def load_repair_queue(self) -> dict:
+        if not REPAIR_QUEUE_PATH.exists():
+            return {"version": 1, "updatedAt": now_text(), "pending": [], "done": [], "giveUp": []}
+        try:
+            with REPAIR_QUEUE_PATH.open("r", encoding="utf-8") as f:
+                root = json.load(f)
+            if not isinstance(root, dict):
+                root = {}
+            root.setdefault("version", 1)
+            root.setdefault("updatedAt", now_text())
+            root.setdefault("pending", [])
+            root.setdefault("done", [])
+            root.setdefault("giveUp", [])
+            if not isinstance(root.get("pending"), list):
+                root["pending"] = []
+            if not isinstance(root.get("done"), list):
+                root["done"] = []
+            if not isinstance(root.get("giveUp"), list):
+                root["giveUp"] = []
+            return root
+        except Exception:
+            return {"version": 1, "updatedAt": now_text(), "pending": [], "done": [], "giveUp": []}
+
+    def save_repair_queue(self, queue: dict):
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        queue["version"] = 1
+        queue["updatedAt"] = now_text()
+        with REPAIR_QUEUE_PATH.open("w", encoding="utf-8") as f:
+            json.dump(queue, f, ensure_ascii=False, indent=2)
+
+    def repair_key_for_item(self, file_name: str, sido: str, sigungu: str, item: ComplexItem, repair_type: str) -> str:
+        base = item.sharedKey or self.make_shared_key(item) or self.make_merge_key(item) or item.name
+        addr = self.normalize_for_key(item.jibunAddress or item.roadAddress or item.address)
+        return f"{repair_type}|{file_name}|{sido}|{sigungu}|{base}|{addr}"[:260]
+
+    def repair_types_for_item(self, item: ComplexItem) -> List[str]:
+        out = []
+        if self.should_normalize_address_item(item):
+            out.append("ADDRESS_WEAK")
+        if not item.phone:
+            out.append("PHONE_MISSING")
+        elif item.phoneStatus != "CONFIRMED" or int(item.confidenceScore or 0) < 85:
+            out.append("PHONE_LOW_CONFIDENCE")
+        return out
+
+    def build_repair_queue_from_files(self, max_items: int = 999999999):
+        queue = self.load_repair_queue()
+        pending = queue.get("pending", [])
+        done = queue.get("done", [])
+        give_up = queue.get("giveUp", [])
+
+        blocked_keys = set()
+        for group in (done, give_up):
+            for x in group:
+                if isinstance(x, dict) and x.get("key"):
+                    blocked_keys.add(x.get("key"))
+                elif isinstance(x, str):
+                    blocked_keys.add(x)
+
+        pending_by_key = {}
+        for p in pending:
+            if isinstance(p, dict) and p.get("key"):
+                pending_by_key[p["key"]] = p
+
+        added = 0
+        scanned_files = 0
+
+        for path in sorted(DATA_DIR.glob("*.json")):
+            if path.name.startswith("_"):
+                continue
+            try:
+                with path.open("r", encoding="utf-8") as f:
+                    root = json.load(f)
+                items = root.get("items", [])
+                if not isinstance(items, list):
+                    continue
+                sido = root.get("sido", "")
+                sigungu = root.get("sigungu", "")
+                file_name = f"data/{path.name}"
+                scanned_files += 1
+
+                for obj in items:
+                    if added >= max_items:
+                        break
+                    item = self.dict_to_item(obj if isinstance(obj, dict) else {})
+                    item.sido = item.sido or sido
+                    item.city = item.city or sigungu
+                    item.sharedKey = item.sharedKey or self.make_shared_key(item)
+                    for repair_type in self.repair_types_for_item(item):
+                        key = self.repair_key_for_item(file_name, sido, sigungu, item, repair_type)
+                        if key in blocked_keys:
+                            continue
+                        old = pending_by_key.get(key) or {}
+                        entry = {
+                            "key": key,
+                            "type": repair_type,
+                            "region": f"{sido}|{sigungu}",
+                            "file": file_name,
+                            "sharedKey": item.sharedKey,
+                            "name": item.name,
+                            "address": item.address,
+                            "roadAddress": item.roadAddress,
+                            "jibunAddress": item.jibunAddress,
+                            "phone": item.phone,
+                            "confidenceScore": int(item.confidenceScore or 0),
+                            "phoneStatus": item.phoneStatus,
+                            "tries": int(old.get("tries") or 0),
+                            "lastError": old.get("lastError", ""),
+                            "updatedAt": now_text(),
+                        }
+                        if key not in pending_by_key:
+                            added += 1
+                        pending_by_key[key] = entry
+                if added >= max_items:
+                    break
+            except Exception as e:
+                print(f"보강 큐 스캔 실패: {path.name} / {e}")
+
+        queue["pending"] = list(pending_by_key.values())
+        self.save_repair_queue(queue)
+        print(f"보강 큐 생성/갱신 완료: 스캔 {scanned_files}개 파일 / 신규 {added}개 / 대기 {len(queue['pending'])}개")
+
+    def update_item_for_repair(self, item: ComplexItem, repair_type: str, sido: str, sigungu: str) -> Tuple[ComplexItem, bool]:
+        before = json.dumps(self.item_to_dict(item), ensure_ascii=False, sort_keys=True)
+
+        if repair_type == "ADDRESS_WEAK":
+            if self.should_normalize_address_item(item):
+                item = self.normalize_item_address(item, sido, sigungu)
+            else:
+                item = self.mark_existing_address_quality(item)
+
+        elif repair_type in ("PHONE_MISSING", "PHONE_LOW_CONFIDENCE"):
+            item = self.enrich_phone(
+                item,
+                skip_web_phone=False,
+                use_kakao=True,
+                use_naver_local=True,
+                use_naver_web=True,
+            )
+
+        else:
+            # 알 수 없는 타입은 안전하게 변경하지 않는다.
+            item = self.finalize_phone_fields(item)
+
+        item.sharedKey = item.sharedKey or self.make_shared_key(item)
+        after = json.dumps(self.item_to_dict(item), ensure_ascii=False, sort_keys=True)
+        return item, before != after
+
+    def update_item_in_region_file_for_repair(self, file_path: Path, entry: dict) -> bool:
+        if not file_path.exists():
+            raise FileNotFoundError(f"지역 파일 없음: {file_path}")
+
+        with file_path.open("r", encoding="utf-8") as f:
+            root = json.load(f)
+
+        items = root.get("items", [])
+        if not isinstance(items, list):
+            raise ValueError("items 배열 없음")
+
+        sido = root.get("sido", "")
+        sigungu = root.get("sigungu", "")
+        target_shared = entry.get("sharedKey", "")
+        target_name = entry.get("name", "")
+        target_key = entry.get("key", "")
+        repair_type = entry.get("type", "")
+
+        changed = False
+        matched = False
+        new_items = []
+
+        for obj in items:
+            item = self.dict_to_item(obj if isinstance(obj, dict) else {})
+            item.sido = item.sido or sido
+            item.city = item.city or sigungu
+            item.sharedKey = item.sharedKey or self.make_shared_key(item)
+
+            item_key = self.repair_key_for_item(f"data/{file_path.name}", sido, sigungu, item, repair_type)
+            same = (
+                item_key == target_key
+                or (target_shared and item.sharedKey == target_shared)
+                or (target_name and item.name == target_name and (entry.get("address", "") in (item.address or "") or (item.address or "") in entry.get("address", "")))
+            )
+
+            if same and not matched:
+                matched = True
+                item, item_changed = self.update_item_for_repair(item, repair_type, sido, sigungu)
+                changed = changed or item_changed
+
+            new_items.append(self.item_to_dict(item))
+
+        if not matched:
+            raise ValueError("대상 항목 매칭 실패")
+
+        if changed:
+            root["items"] = new_items
+            root["count"] = len(new_items)
+            root["version"] = int(time.time())
+            root["updatedAt"] = now_text()
+            with file_path.open("w", encoding="utf-8") as f:
+                json.dump(root, f, ensure_ascii=False, indent=2)
+
+        return changed
+
+    def process_repair_queue(self, max_items: int = 300, max_per_region: int = 80):
+        queue = self.load_repair_queue()
+        pending = queue.get("pending", [])
+        done = queue.get("done", [])
+        give_up = queue.get("giveUp", [])
+
+        if not pending:
+            print("보강 큐 없음")
+            return
+
+        print(f"보강 큐 처리 시작: 대기 {len(pending)}개 / 이번 실행 최대 {max_items}개 / 지역당 최대 {max_per_region}개")
+
+        new_pending = []
+        processed_count = 0
+        changed_count = 0
+        region_counts: Dict[str, int] = {}
+
+        i = 0
+        while i < len(pending):
+            entry = pending[i]
+            i += 1
+
+            if not isinstance(entry, dict):
+                continue
+
+            region = entry.get("region", "")
+            if processed_count >= max_items:
+                new_pending.append(entry)
+                continue
+
+            if max_per_region > 0 and int(region_counts.get(region, 0)) >= max_per_region:
+                new_pending.append(entry)
+                continue
+
+            key = entry.get("key", "")
+            file_raw = entry.get("file", "")
+            file_path = OUTPUT_DIR / file_raw if file_raw else None
+
+            try:
+                if not key or file_path is None:
+                    raise ValueError("큐 key/file 없음")
+
+                changed = self.update_item_in_region_file_for_repair(file_path, entry)
+                processed_count += 1
+                region_counts[region] = int(region_counts.get(region, 0)) + 1
+                if changed:
+                    changed_count += 1
+
+                done.append({
+                    "key": key,
+                    "type": entry.get("type", ""),
+                    "region": region,
+                    "file": entry.get("file", ""),
+                    "name": entry.get("name", ""),
+                    "processedAt": now_text(),
+                    "changed": changed,
+                })
+
+                # 정확한 이어하기를 위해 항목 1개 처리할 때마다 큐 저장
+                queue["pending"] = new_pending + pending[i:]
+                queue["done"] = done
+                queue["giveUp"] = give_up
+                self.save_repair_queue(queue)
+
+                if processed_count % 20 == 0:
+                    print(f"  보강 큐 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(queue['pending'])}개")
+
+            except QuotaStop as e:
+                entry["tries"] = int(entry.get("tries") or 0) + 1
+                entry["lastError"] = str(e)
+                entry["updatedAt"] = now_text()
+                new_pending.append(entry)
+                new_pending.extend(pending[i:])
+                queue["pending"] = new_pending
+                queue["done"] = done
+                queue["giveUp"] = give_up
+                self.save_repair_queue(queue)
+                self.rebuild_metadata_from_output()
+                print(f"\n보강 큐 처리 중단: {e}")
+                print(f"처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(new_pending)}개")
+                return
+
+            except Exception as e:
+                entry["tries"] = int(entry.get("tries") or 0) + 1
+                entry["lastError"] = str(e)
+                entry["updatedAt"] = now_text()
+                if int(entry.get("tries") or 0) < 3:
+                    new_pending.append(entry)
+                else:
+                    give_up.append({
+                        "key": key,
+                        "type": entry.get("type", ""),
+                        "region": region,
+                        "file": entry.get("file", ""),
+                        "name": entry.get("name", ""),
+                        "processedAt": now_text(),
+                        "changed": False,
+                        "error": str(e),
+                    })
+
+                queue["pending"] = new_pending + pending[i:]
+                queue["done"] = done
+                queue["giveUp"] = give_up
+                self.save_repair_queue(queue)
+
+        queue["pending"] = new_pending
+        queue["done"] = done
+        queue["giveUp"] = give_up
+        self.save_repair_queue(queue)
+        self.rebuild_metadata_from_output()
+        print(f"보강 큐 처리 완료: 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(new_pending)}개 / 포기 {len(give_up)}개")
+
     def item_to_dict(self, item: ComplexItem) -> dict:
         return asdict(item)
 
@@ -3813,6 +4130,33 @@ def main():
         help="이번 실행에서 네이버 큐를 최대 몇 항목 처리할지 제한"
     )
 
+
+    parser.add_argument(
+        "--build-repair-queue",
+        action="store_true",
+        help="기존 data/*.json을 스캔해서 주소/전화번호 보강 큐(data/_repair_queue.json)를 생성/갱신"
+    )
+
+    parser.add_argument(
+        "--repair-queue-only",
+        action="store_true",
+        help="지역 생성 없이 data/_repair_queue.json 보강 큐만 처리"
+    )
+
+    parser.add_argument(
+        "--max-repair-items",
+        type=int,
+        default=300,
+        help="이번 실행에서 보강 큐를 최대 몇 항목 처리할지 제한"
+    )
+
+    parser.add_argument(
+        "--max-repair-per-region",
+        type=int,
+        default=80,
+        help="이번 실행에서 한 지역당 보강 큐를 최대 몇 항목 처리할지 제한"
+    )
+
     parser.add_argument(
         "--debug-discovery",
         action="store_true",
@@ -3855,6 +4199,18 @@ def main():
         return
 
     gen.max_naver_queue_items = args.max_naver_queue_items
+
+    if args.build_repair_queue:
+        gen.build_repair_queue_from_files()
+        if not args.repair_queue_only:
+            return
+
+    if args.repair_queue_only:
+        gen.process_repair_queue(
+            max_items=args.max_repair_items,
+            max_per_region=args.max_repair_per_region,
+        )
+        return
 
     if args.naver_queue_only:
         gen.process_naver_queue(max_items=args.max_naver_queue_items)
