@@ -252,6 +252,20 @@ def parse_region_arg(arg: str) -> Tuple[str, str]:
     return sido.strip(), sigungu.strip()
 
 
+def env_int(name: str, default: int) -> int:
+    try:
+        return int(os.getenv(name, str(default)).strip())
+    except Exception:
+        return int(default)
+
+
+def env_bool(name: str, default: bool = False) -> bool:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return value.strip().lower() in ("1", "true", "yes", "y", "on")
+
+
 class QuotaStop(Exception):
     pass
 
@@ -315,6 +329,31 @@ class AptFinderGenerator:
         self.max_naver_queue_items = 999999999
         self.debug_discovery = bool(debug_discovery)
         self.kakao_phone_search_cache: Dict[str, List[str]] = {}
+
+        # 전국 안정 수집 정책
+        # fast/balanced: 전국 1회전 빠른 완주 우선
+        # deep: 특정 지역 정밀 재수집용
+        self.scan_profile = os.getenv("APTFINDER_SCAN_PROFILE", "balanced").strip().lower()
+        self.max_extra_keywords = env_int(
+            "APTFINDER_MAX_EXTRA_KEYWORDS",
+            999999 if self.scan_profile == "deep" else 120
+        )
+        self.max_extra_candidates = env_int(
+            "APTFINDER_MAX_EXTRA_CANDIDATES",
+            999999 if self.scan_profile == "deep" else 900
+        )
+        self.max_kakao_place_pages = env_int(
+            "APTFINDER_KAKAO_PLACE_PAGES",
+            2 if self.scan_profile == "deep" else 1
+        )
+        self.enrich_strong_phone = env_bool(
+            "APTFINDER_ENRICH_STRONG_PHONE",
+            self.scan_profile == "deep"
+        )
+        self.phone_enrich_sleep = 0.04 if self.scan_profile != "deep" else 0.10
+        self.place_search_sleep = 0.06 if self.scan_profile != "deep" else 0.15
+        self.address_search_sleep = 0.02 if self.scan_profile != "deep" else 0.06
+
         default_watch_terms = ["래미안", "화서", "클래식", "330-10", "수성로232"]
         extra_watch_terms = [x.strip() for x in (debug_watch or "").split(",") if x.strip()]
         self.debug_watch_terms = list(dict.fromkeys(default_watch_terms + extra_watch_terms))
@@ -2077,31 +2116,132 @@ class AptFinderGenerator:
         self.rebuild_metadata_from_output()
         print(f"네이버 보강 큐 처리 완료: 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(new_pending)}개")
 
+    def mark_existing_address_quality(self, item: ComplexItem) -> ComplexItem:
+        address = item.address or ""
+        road = item.roadAddress or ""
+        jibun = item.jibunAddress or ""
+
+        if not road and re.search(r"(로|길)\s*\d", address):
+            road = address
+        if not jibun and re.search(r"(동|읍|면)\s*(산\s*)?\d", address):
+            jibun = address
+
+        item.roadAddress = road
+        item.jibunAddress = jibun
+
+        if road and jibun:
+            item.addressQuality = "ROAD_AND_JIBUN"
+        elif road:
+            item.addressQuality = "ROAD_ONLY"
+        elif jibun:
+            item.addressQuality = "JIBUN_ONLY"
+        else:
+            item.addressQuality = "RAW" if address else "UNKNOWN"
+
+        if not item.district:
+            item.district = self.extract_district(address)
+        if not item.dong:
+            item.dong = self.extract_dong(address)
+        item.sharedKey = item.sharedKey or self.make_shared_key(item)
+        return item
+
+    def should_normalize_address_item(self, item: ComplexItem) -> bool:
+        # 딥스캔에서는 기존처럼 최대한 보강한다.
+        if self.scan_profile == "deep":
+            return not (item.roadAddress and item.jibunAddress)
+
+        if item.roadAddress and item.jibunAddress:
+            return False
+
+        address = item.address or ""
+        if not address:
+            return True
+
+        # 카카오 장소검색 후보는 이미 road/jibun이 들어오는 경우가 많다.
+        if "카카오" in (item.source or "") and (item.roadAddress or item.jibunAddress) and not self.is_weak_address(address):
+            return False
+
+        # K-apt에서 온 도로명 주소 + 전화번호 보유 항목은 전국 1회전에서 주소보강을 생략한다.
+        # 도로명/지번 양방향 완성은 딥스캔이나 앱 즉시검색에서 보강한다.
+        if self.has_strong_existing_phone(item) and not self.is_weak_address(address):
+            return False
+
+        # 이미 동/번지 또는 도로명 번호가 있는 주소는 기본 수집에서 충분한 주소로 본다.
+        if not self.is_weak_address(address):
+            return False
+
+        return True
+
+    def should_enrich_phone_item(self, item: ComplexItem) -> bool:
+        # 딥스캔 또는 명시 옵션에서만 K-apt 번호 보유 단지까지 추가 전화검색한다.
+        if self.has_strong_existing_phone(item) and not self.enrich_strong_phone:
+            return False
+
+        # 번호가 아예 없거나 후보 신뢰도가 낮은 항목만 기본 전화 보강한다.
+        if not item.phone:
+            return True
+        if int(item.confidenceScore or 0) < 80:
+            return True
+        return self.enrich_strong_phone
+
     def build_region(self, sido: str, sigungu: str, skip_web_phone: bool = False) -> List[ComplexItem]:
+        print(f"수집 정책: scan_profile={self.scan_profile}")
+        print(
+            "  기본 전략: K-apt 우선 → 제한된 카카오 후보 → "
+            "주소 약한 항목만 보강 → 번호 없는/낮은 신뢰도만 전화 보강"
+        )
+
         apt_items = self.fetch_kapt_region(sido, sigungu)
         extra_items = self.collect_extra_complexes(sido, sigungu)
 
         merged = self.merge_items(apt_items + extra_items)
 
-        print(f"주소 보강 시작: {len(merged)}개")
+        normalize_targets = [x for x in merged if self.should_normalize_address_item(x)]
+        skip_count = len(merged) - len(normalize_targets)
+        print(f"주소 보강 대상: {len(normalize_targets)}개 / 스킵: {skip_count}개 / 전체: {len(merged)}개")
+
         addressed = []
-        for i, item in enumerate(merged, start=1):
-            item = self.normalize_item_address(item, sido, sigungu)
+        target_ids = {id(x) for x in normalize_targets}
+        done_addr = 0
+        for item in merged:
+            if id(item) in target_ids:
+                item = self.normalize_item_address(item, sido, sigungu)
+                done_addr += 1
+                if done_addr % 100 == 0 or done_addr == len(normalize_targets):
+                    print(f"  주소 보강 {done_addr}/{len(normalize_targets)}")
+                time.sleep(self.address_search_sleep)
+            else:
+                item = self.mark_existing_address_quality(item)
             addressed.append(item)
-            if i % 20 == 0 or i == len(merged):
-                print(f"  주소 보강 {i}/{len(merged)}")
 
         merged = self.merge_items(addressed)
 
-        print(f"전화번호 후보 수집 시작: {len(merged)}개")
-        print("  정책: K-apt 등 신뢰도 높은 번호 보유 단지는 카카오 전화검색 최대 2회만 수행")
+        phone_targets = [x for x in merged if self.should_enrich_phone_item(x)]
+        phone_skip_count = len(merged) - len(phone_targets)
+        print(f"전화번호 후보 수집 대상: {len(phone_targets)}개 / 스킵: {phone_skip_count}개 / 전체: {len(merged)}개")
+        if not self.enrich_strong_phone:
+            print("  정책: K-apt 등 강한 번호 보유 단지는 기본 생성에서 추가 전화검색 생략")
+        else:
+            print("  정책: deep 모드/명시 옵션으로 강한 번호 보유 단지도 추가 전화검색")
+
         enriched = []
-        for i, item in enumerate(merged, start=1):
-            item = self.enrich_phone(item, skip_web_phone=skip_web_phone, use_kakao=True, use_naver_local=False, use_naver_web=False)
-            item = self.finalize_phone_fields(item)
+        phone_target_ids = {id(x) for x in phone_targets}
+        done_phone = 0
+        for item in merged:
+            if id(item) in phone_target_ids:
+                item = self.enrich_phone(
+                    item,
+                    skip_web_phone=skip_web_phone,
+                    use_kakao=True,
+                    use_naver_local=False,
+                    use_naver_web=False
+                )
+                done_phone += 1
+                if done_phone % 100 == 0 or done_phone == len(phone_targets):
+                    print(f"  전화번호 후보 수집 {done_phone}/{len(phone_targets)}")
+            else:
+                item = self.finalize_phone_fields(item)
             enriched.append(item)
-            if i % 20 == 0 or i == len(merged):
-                print(f"  전화번호 후보 수집 {i}/{len(merged)}")
 
         final_items = self.merge_items(enriched)
         self.print_watch_summary(sido, sigungu, final_items)
@@ -2332,76 +2472,110 @@ class AptFinderGenerator:
 
     def build_extra_search_keywords(self, sido: str, sigungu: str) -> List[str]:
         """
-        검색 0건 방지형 후보확장.
-        핵심은 '현재 지역 중심좌표 + 브랜드 단독검색 + 주소 필터'다.
-        예: 수원시 생성 중이면 '래미안' 단독 검색도 수원 중심 반경으로 돌리고,
-        결과 중 주소가 수원시인 것만 남긴다.
+        전국 안정형 후보확장.
+
+        예전 방식은 생활권 × 전체 브랜드 조합 때문에 수원시 같은 곳에서
+        검색어가 수백~수천 개로 폭증했다. 이제 기본 생성은 다음만 수행한다.
+
+        1) 지역 대표 주거 키워드
+        2) 주요 생활권 + 주거 키워드
+        3) 강한 브랜드 일부만 지역명과 조합
+        4) 검증된 수동 seed
+
+        부족한 번호/누락 후보는 앱 즉시검색 또는 네이버 큐/딥스캔에서 보강한다.
         """
         keywords: List[str] = []
 
         def add(q: str):
-            q = re.sub(r"\s+", " ", (q or "")).strip()
+            q = re.sub(r"\s+", " ", (q or "").strip())
             if q:
                 keywords.append(q)
 
-        region_prefixes = list(dict.fromkeys([
-            f"{sigungu}",
-            f"{sido} {sigungu}",
-        ]))
+        # 기본 1회전에서 꼭 필요한 대표 키워드만 사용한다.
+        base_terms = [
+            "아파트", "아파트 관리사무소",
+            "오피스텔", "오피스텔 관리사무소",
+            "주상복합", "생활형숙박시설",
+        ]
 
-        for prefix in region_prefixes:
-            for term in HOUSING_SEARCH_TERMS:
+        for prefix in [sigungu, f"{sido} {sigungu}"]:
+            for term in base_terms:
                 add(f"{prefix} {term}")
 
-        for brand in FORCE_HOUSING_BRANDS:
-            if self.allow_brand_single_search(brand):
-                add(f"{brand}")  # 지역 중심좌표가 붙으므로 수원/성남 등 현재 지역 근처 결과 우선
-            add(f"{sigungu} {brand}")
-            add(f"{sido} {sigungu} {brand}")
+        # 단독/조합 검색 효과가 큰 브랜드만 기본 스캔에 포함한다.
+        # 현대/삼성/LG/대우 같은 일반명사는 여기서 제외한다.
+        strong_brands = [
+            "래미안", "자이", "푸르지오", "힐스테이트", "롯데캐슬", "더샵", "아이파크",
+            "e편한세상", "이편한세상", "포레나", "위브", "두산위브", "스위첸", "데시앙",
+            "베르디움", "풍경채", "해링턴", "파밀리에", "수자인", "호반써밋",
+            "호반베르디움", "우미린", "센트레빌", "KCC스위첸", "한라비발디",
+            "금강펜테리움", "서희스타힐스", "중흥S클래스", "반도유보라", "한화포레나",
+        ]
 
+        for brand in strong_brands:
+            add(f"{sigungu} {brand}")
+            # deep 모드에서만 시도까지 붙인 중복성 검색을 추가한다.
+            if self.scan_profile == "deep":
+                add(f"{sido} {sigungu} {brand}")
+                if self.allow_brand_single_search(brand):
+                    add(brand)
+
+        # 생활권은 브랜드와 곱하지 않는다. 생활권 × 브랜드가 전국 수집 폭발의 원인이다.
         for area in self.local_area_keywords(sido, sigungu):
             add(f"{sigungu} {area} 아파트")
             add(f"{sigungu} {area} 오피스텔")
             add(f"{sigungu} {area} 주상복합")
-            add(f"{sigungu} {area} 관리사무소")
-            add(f"{area} 아파트")
-            add(f"{area} 오피스텔")
-            add(f"{area} 주상복합")
-            for brand in FORCE_HOUSING_BRANDS:
-                if self.allow_brand_single_search(brand):
-                    add(f"{area} {brand}")
-                add(f"{sigungu} {area} {brand}")
-                add(f"{sido} {sigungu} {area} {brand}")
+            if self.scan_profile == "deep":
+                add(f"{sigungu} {area} 관리사무소")
 
         for seed in self.build_manual_seed_keywords(sido, sigungu):
             add(seed)
 
-        return list(dict.fromkeys(keywords))
+        deduped = list(dict.fromkeys(keywords))
+        if len(deduped) > self.max_extra_keywords:
+            print(f"  추가 후보 검색어 제한: {len(deduped)}개 → {self.max_extra_keywords}개")
+            deduped = deduped[:self.max_extra_keywords]
+        return deduped
 
     def collect_extra_complexes(self, sido: str, sigungu: str) -> List[ComplexItem]:
         print("지도/검색 기반 추가 후보 수집 중...")
 
-        # 검색량은 폭증시키지 않으면서 누락을 줄이기 위해
-        # 1) 시/군/구 광역 키워드
-        # 2) 주요 생활권/신도시/택지지구 키워드
-        # 3) K-apt 목록에서 뽑은 동 단위 키워드
-        # 순서로 카카오 후보를 확장한다. 네이버는 기본 생성 중 사용하지 않고 큐로 보낸다.
         keywords = self.build_extra_search_keywords(sido, sigungu)
         self.print_debug_hint(sido, sigungu)
-        print(f"  추가 후보 검색어: {len(keywords)}개")
+        print(
+            f"  스캔모드={self.scan_profile} / 추가 후보 검색어={len(keywords)}개 "
+            f"/ 후보상한={self.max_extra_candidates}개"
+        )
 
-        results = []
-        for kw in list(dict.fromkeys(keywords)):
-            results.extend(self.kakao_places(kw, sido, sigungu))
-            time.sleep(0.25)
+        results: List[ComplexItem] = []
+        seen_merge_keys = set()
+
+        for idx, kw in enumerate(list(dict.fromkeys(keywords)), start=1):
+            found = self.kakao_places(kw, sido, sigungu)
+            for item in found:
+                key = self.make_merge_key(item)
+                if key in seen_merge_keys:
+                    continue
+                seen_merge_keys.add(key)
+                results.append(item)
+
+            if idx % 20 == 0 or idx == len(keywords):
+                print(f"  추가 후보 검색 {idx}/{len(keywords)} · 누적 {len(results)}개")
+
+            if self.max_extra_candidates > 0 and len(results) >= self.max_extra_candidates:
+                print(f"  추가 후보 상한 도달: {len(results)}개 → 후보검색 조기 종료")
+                break
+
+            time.sleep(self.place_search_sleep)
 
             # 기본 자동 생성에서는 네이버를 쓰지 않는다.
-            # 네이버는 data/_naver_queue.json 큐에서 번호 없는/신뢰도 낮은 항목만 별도로 보강한다.
-            if self.use_naver_during_generation:
+            if self.use_naver_during_generation and self.scan_profile == "deep":
                 results.extend(self.naver_local_places(kw, sido, sigungu))
-                time.sleep(0.25)
+                time.sleep(self.place_search_sleep)
 
         results = self.merge_items(results)
+        if self.max_extra_candidates > 0 and len(results) > self.max_extra_candidates:
+            results = results[:self.max_extra_candidates]
         print(f"추가 후보 결과: {len(results)}개")
         return results
 
@@ -2514,8 +2688,8 @@ class AptFinderGenerator:
             )
             return out
 
-        for page in range(1, 4):
-            param_variants = self.kakao_keyword_param_variants(keyword, sido, sigungu, page=page, size=15)
+        for page in range(1, max(1, self.max_kakao_place_pages) + 1):
+            param_variants = self.kakao_keyword_param_variants(keyword, sido, sigungu, page=page, size=10)
             page_had_docs = False
 
             for params in param_variants:
@@ -2824,7 +2998,7 @@ class AptFinderGenerator:
                 if strong_existing_phone and (kakao_calls >= 2 or new_kakao_numbers >= 2):
                     break
 
-                time.sleep(0.12)
+                time.sleep(self.phone_enrich_sleep)
 
         if use_naver_local:
             for kw in keywords:
@@ -2832,7 +3006,7 @@ class AptFinderGenerator:
                 found = self.find_phone_naver_local_all(kw, item=item)
                 for phone in found:
                     self.add_phone_candidate(item, phone, "네이버 Local 주소일치 전화번호 보강", 90, kw)
-                time.sleep(0.12)
+                time.sleep(self.phone_enrich_sleep)
 
         if use_naver_web and not skip_web_phone:
             for kw in keywords:
@@ -2841,7 +3015,7 @@ class AptFinderGenerator:
                 found = self.find_phone_naver_web_sources_all(kw, item=item)
                 for phone, source in found:
                     self.add_phone_candidate(item, phone, source, 78 if "114" in source else 68, kw)
-                time.sleep(0.12)
+                time.sleep(self.phone_enrich_sleep)
 
         return self.finalize_phone_fields(item)
 
@@ -3004,7 +3178,7 @@ class AptFinderGenerator:
                 raise
             except Exception as e:
                 print(f"  네이버 웹 전화검색 실패: {keyword} / {e}")
-            time.sleep(0.12)
+            time.sleep(self.phone_enrich_sleep)
 
         # 번호+출처 기준 중복 제거
         seen = set()
@@ -3595,14 +3769,14 @@ def main():
     parser.add_argument(
         "--max-kakao",
         type=int,
-        default=999999999,
+        default=env_int("KAKAO_DAILY_QUOTA", 100000) - env_int("KAKAO_RESERVED_FOR_APP", 500),
         help="카카오 호출 보호 상한"
     )
 
     parser.add_argument(
         "--max-naver",
         type=int,
-        default=999999999,
+        default=max(0, env_int("NAVER_DAILY_QUOTA", 25000) - env_int("NAVER_RESERVED_FOR_APP", 1000)),
         help="네이버 호출 보호 상한"
     )
 
@@ -3670,6 +3844,10 @@ def main():
         debug_discovery=args.debug_discovery,
         debug_watch=args.debug_watch,
     )
+
+    print(f"SCAN_PROFILE={gen.scan_profile}")
+    print(f"KAKAO_LIMIT={args.max_kakao} / NAVER_LIMIT={args.max_naver} / KAPT_LIMIT={args.max_kapt}")
+    print(f"MAX_EXTRA_KEYWORDS={gen.max_extra_keywords} / MAX_EXTRA_CANDIDATES={gen.max_extra_candidates} / KAKAO_PLACE_PAGES={gen.max_kakao_place_pages}")
 
     if args.audit:
         gen.audit_output(regions, min_count=args.min_count)
