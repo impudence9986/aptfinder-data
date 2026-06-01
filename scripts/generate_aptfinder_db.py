@@ -8,6 +8,7 @@ AptFinder 전국/지역별 DB 생성기 - 주거단지 싹쓸이 후보확장 + 
 3) K-apt 번호가 있어도 카카오/네이버/네이버웹 번호를 추가 후보로 계속 수집
 4) phoneCandidates 배열 저장 + 기존 phone 필드는 대표번호로 유지
 5) 네이버 웹검색 스니펫에서 114On 등 전화번호 후보 추출
+6) 네이버부동산 관리사무소 번호는 단지명/주소/지역 맥락 검증 후 대표번호 후보로 반영
 """
 
 import argparse
@@ -3368,7 +3369,168 @@ class AptFinderGenerator:
             return True
         return False
 
-    def collect_naver_land_context_phones(self, text: str) -> List[str]:
+    def naver_land_match_text(self, value: str) -> str:
+        """네이버부동산 검색 결과의 주소/단지명 검증용 정규화."""
+        text = html.unescape(value or "")
+        text = text.replace("\\u003C", "<").replace("\\u003E", ">")
+        text = text.replace("\\\"", "\"")
+        return self.normalize_for_key(clean_html(text))
+
+    def naver_land_address_tokens(self, item: ComplexItem) -> List[str]:
+        """
+        도로명/지번 중 하나만 있어도 비교할 수 있게 핵심 주소 토큰을 만든다.
+        예: 권광로 55, 권광로55, 권선동 1330, 권선동1330 모두 같은 토큰으로 본다.
+        """
+        texts = [
+            item.roadAddress or "",
+            item.jibunAddress or "",
+            item.address or "",
+        ]
+        raw = "\n".join([x for x in texts if x])
+        tokens = []
+
+        for m in re.finditer(r"([가-힣0-9]+(?:로|길))\s*(\d+(?:-\d+)?)", raw):
+            tokens.append(f"{m.group(1)}{m.group(2)}")
+
+        for m in re.finditer(r"([가-힣0-9]+(?:동|읍|면))\s*(산\s*)?(\d+(?:-\d+)?)", raw):
+            san = "산" if m.group(2) else ""
+            tokens.append(f"{m.group(1)}{san}{m.group(3)}")
+
+        if item.dong:
+            tokens.append(item.dong)
+        else:
+            dong = self.extract_dong(raw)
+            if dong:
+                tokens.append(dong)
+
+        # 너무 짧은 토큰은 오탐이 많으므로 제거. 단, 동 이름은 허용한다.
+        out = []
+        for t in tokens:
+            key = self.normalize_for_key(t)
+            if not key:
+                continue
+            if len(key) >= 3 and key not in out:
+                out.append(key)
+        return out
+
+    def is_generic_complex_name_for_naver_land(self, name: str) -> bool:
+        """
+        현대/삼성/주공처럼 전국에 너무 흔한 이름은 주소 증거 없이 네이버부동산 번호를 채택하지 않는다.
+        """
+        key = self.normalize_for_key(self.clean_complex_name_for_query(name or ""))
+        if not key:
+            return True
+        if len(key) <= 4:
+            return True
+
+        generic_words = [
+            "현대", "삼성", "대우", "주공", "한신", "한양", "우성", "벽산", "동부", "대림",
+            "금호", "쌍용", "극동", "삼익", "삼환", "청구", "우방", "풍림", "부영", "럭키",
+            "동아", "신동아", "성원", "일성", "라이프", "미주", "대주", "한라", "대원",
+        ]
+        return key in [self.normalize_for_key(x) for x in generic_words]
+
+    def naver_land_context_score(self, item: ComplexItem, chunk: str, page_text: str, query: str) -> Tuple[int, List[str]]:
+        """
+        네이버부동산 검색 HTML에서 관리사무소 주변 번호를 채택하기 전 검증한다.
+        목적: 이름만 비슷한 다른 단지, 현대자동차공업사 같은 비주거 결과, 광고/샘플 번호 오염 방지.
+        """
+        chunk_key = self.naver_land_match_text(chunk)
+        page_key = self.naver_land_match_text(page_text)
+        query_key = self.naver_land_match_text(query)
+
+        score = 0
+        reasons = []
+
+        name = (item.name or "").strip()
+        clean_name = self.clean_complex_name_for_query(name)
+        name_keys = []
+        for n in [name, clean_name]:
+            k = self.normalize_for_key(n)
+            if k and k not in name_keys:
+                name_keys.append(k)
+
+        # 이름 증거: chunk 안에서 확인되면 강함, page 전체만 있으면 약함.
+        for nk in name_keys:
+            if nk and nk in chunk_key:
+                score += 4
+                reasons.append("name_in_context")
+                break
+        else:
+            for nk in name_keys:
+                if nk and nk in page_key:
+                    score += 1
+                    reasons.append("name_in_page")
+                    break
+
+        # 주소 증거: 도로명/지번 토큰은 강한 증거, 동/시군구는 보조 증거.
+        address_hit = False
+        for token in self.naver_land_address_tokens(item):
+            if token in chunk_key:
+                score += 6
+                address_hit = True
+                reasons.append(f"addr_in_context:{token}")
+                break
+            if token in page_key:
+                score += 4
+                address_hit = True
+                reasons.append(f"addr_in_page:{token}")
+                break
+
+        city_key = self.normalize_for_key(item.city or "")
+        district_key = self.normalize_for_key(item.district or "")
+        dong_key = self.normalize_for_key(item.dong or self.extract_dong(item.address or item.jibunAddress or item.roadAddress or ""))
+
+        if city_key and (city_key in chunk_key or city_key in page_key or city_key in query_key):
+            score += 2
+            reasons.append("city")
+        if district_key and (district_key in chunk_key or district_key in page_key or district_key in query_key):
+            score += 2
+            reasons.append("district")
+        if dong_key and (dong_key in chunk_key or dong_key in page_key or dong_key in query_key):
+            score += 2
+            reasons.append("dong")
+
+        # 주거/부동산/관리사무소 맥락이 있어야 한다.
+        housing_words = [
+            "아파트", "오피스텔", "주상복합", "공동주택", "단지", "네이버부동산", "네이버페이부동산", "부동산", "매물",
+        ]
+        if any(self.normalize_for_key(w) in chunk_key for w in housing_words):
+            score += 3
+            reasons.append("housing_context")
+        if any(self.normalize_for_key(w) in chunk_key for w in NAVER_LAND_MANAGEMENT_KEYWORDS):
+            score += 3
+            reasons.append("management_context")
+
+        # 공업사/자동차/병원/학원 등 비주거 맥락이 섞이면 강하게 거절한다.
+        trash_words = [
+            "자동차", "공업사", "카센터", "정비소", "타이어", "세차", "렌트카", "중고차",
+            "병원", "의원", "약국", "학원", "교습소", "어린이집", "유치원", "음식점", "카페",
+            "편의점", "부동산중개", "공인중개사", "상가", "분양사무소",
+        ]
+        if any(self.normalize_for_key(w) in chunk_key for w in trash_words):
+            score -= 8
+            reasons.append("trash_context")
+
+        generic_name = self.is_generic_complex_name_for_naver_land(name)
+
+        # 현대아파트/주공아파트 같은 흔한 이름은 주소 또는 동/구 증거가 없으면 번호 교체 금지.
+        if generic_name:
+            if address_hit:
+                return score, reasons
+            if score >= 12 and ("city" in reasons or "district" in reasons) and "dong" in reasons and "housing_context" in reasons:
+                return score, reasons
+            return 0, reasons + ["generic_name_requires_address"]
+
+        # 고유성이 있는 단지명은 관리사무소+주거 맥락+지역/주소 중 하나가 있으면 허용.
+        if score >= 8 and "management_context" in reasons and (
+            address_hit or "city" in reasons or "district" in reasons or "dong" in reasons or "name_in_context" in reasons
+        ):
+            return score, reasons
+
+        return 0, reasons + ["weak_context"]
+
+    def collect_naver_land_context_phones(self, text: str, item: Optional[ComplexItem] = None, query: str = "") -> List[str]:
         if not text:
             return []
 
@@ -3377,21 +3539,37 @@ class AptFinderGenerator:
         decoded = decoded.replace("\\\"", "\"")
 
         found = []
+        best_score_by_phone: Dict[str, int] = {}
+
         for kw in NAVER_LAND_MANAGEMENT_KEYWORDS:
             start = 0
             while True:
                 idx = decoded.find(kw, start)
                 if idx == -1:
                     break
-                left = max(0, idx - 450)
-                right = min(len(decoded), idx + 450)
+                left = max(0, idx - 550)
+                right = min(len(decoded), idx + 550)
                 chunk = decoded[left:right]
+
+                context_score = 99
+                reasons = []
+                if item is not None:
+                    context_score, reasons = self.naver_land_context_score(item, chunk, decoded, query)
+                    if context_score <= 0:
+                        if self.debug_discovery:
+                            print(f"  네이버부동산 번호 후보 거절: {item.name} / {kw} / {', '.join(reasons[-3:])}")
+                        start = idx + len(kw)
+                        continue
+
                 for phone in extract_all_phones(chunk):
                     phone = normalize_phone(phone)
                     if phone and not self.is_bad_naver_land_phone(phone):
                         found.append(phone)
+                        best_score_by_phone[phone] = max(int(best_score_by_phone.get(phone) or 0), int(context_score))
+
                 start = idx + len(kw)
 
+        # 같은 번호가 여러 chunk에서 잡히면 순서 유지. 점수는 find 단계에서 반복횟수와 함께 반영한다.
         return list(dict.fromkeys(found))
 
     def naver_land_query_candidates(self, item: ComplexItem) -> List[str]:
@@ -3402,22 +3580,27 @@ class AptFinderGenerator:
         names = list(dict.fromkeys([x for x in [name, clean_name] if x]))
         queries = []
         for n in names:
+            # 가장 정밀한 검색어부터 시도한다. 흔한 이름일수록 주소/지역이 들어간 검색어가 중요하다.
+            if address:
+                queries.append(f"{n} {address} 네이버 부동산 관리사무소")
+                queries.append(f"{n} {address} 관리사무소")
+            if item.city:
+                queries.append(f"{item.city} {n} 네이버 부동산 관리사무소")
+            if item.dong:
+                queries.append(f"{item.city} {item.dong} {n} 관리사무소")
             queries.extend([
                 f"{n} 네이버 부동산 관리사무소",
                 f"{n} 관리사무소",
                 f"{n} 관리사무소 전화번호",
             ])
-            if item.city:
-                queries.append(f"{item.city} {n} 네이버 부동산 관리사무소")
-            if address:
-                queries.append(f"{n} {address} 관리사무소")
 
-        return list(dict.fromkeys([q.strip() for q in queries if q.strip()]))[:5]
+        return list(dict.fromkeys([q.strip() for q in queries if q.strip()]))[:6]
 
     def find_phone_naver_land_management_all(self, item: ComplexItem) -> List[str]:
         """
         네이버 부동산 검색 영역에서 '관리사무소' 주변 번호만 추출한다.
         K-apt가 없는 단지 또는 카카오로 먼저 발견된 단지의 대표번호 보정용이다.
+        단, 검색 HTML 안에서 단지명/주소/지역/주거 맥락이 확인되는 번호만 채택한다.
         """
         cache_key = self.normalize_for_key("|".join([
             item.sido or "", item.city or "", item.name or "", item.roadAddress or "", item.jibunAddress or "", item.address or ""
@@ -3441,7 +3624,7 @@ class AptFinderGenerator:
                 if r.status_code != 200:
                     continue
 
-                phones = self.collect_naver_land_context_phones(r.text)
+                phones = self.collect_naver_land_context_phones(r.text, item=item, query=q)
 
                 # 지역번호가 확실하면 해당 지역번호를 우선 채택한다.
                 if prefixes:
