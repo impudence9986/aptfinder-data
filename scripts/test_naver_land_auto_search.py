@@ -19,6 +19,7 @@ HEADERS = {
 }
 
 PHONE_RE = re.compile(r"0\d{1,2}[-.\s]?\d{3,4}[-.\s]?\d{4}")
+KEYWORDS = ["관리사무소", "관리사무실", "관리소", "대표전화"]
 
 def norm_phone(p):
     nums = re.sub(r"\D", "", p)
@@ -26,10 +27,57 @@ def norm_phone(p):
         return f"{nums[:3]}-{nums[3:6]}-{nums[6:]}"
     if len(nums) == 11:
         return f"{nums[:3]}-{nums[3:7]}-{nums[7:]}"
-    return p
+    return ""
 
-def collect_phones(text):
-    return sorted({norm_phone(x) for x in PHONE_RE.findall(text or "")})
+def is_bad_phone(phone):
+    bads = {
+        "000-0000-0000",
+        "010-0000-1000",
+        "012-345-6789",
+    }
+    if not phone:
+        return True
+    if phone in bads:
+        return True
+    if phone.startswith("000-"):
+        return True
+    if phone.startswith("010-"):
+        return True
+    return False
+
+def collect_all_phones(text):
+    found = set()
+    for raw in PHONE_RE.findall(text or ""):
+        phone = norm_phone(raw)
+        if phone and not is_bad_phone(phone):
+            found.add(phone)
+    return sorted(found)
+
+def collect_context_phones(text):
+    if not text:
+        return []
+
+    found = set()
+
+    for kw in KEYWORDS:
+        start = 0
+        while True:
+            idx = text.find(kw, start)
+            if idx == -1:
+                break
+
+            left = max(0, idx - 500)
+            right = min(len(text), idx + 500)
+            chunk = text[left:right]
+
+            for raw in PHONE_RE.findall(chunk):
+                phone = norm_phone(raw)
+                if phone and not is_bad_phone(phone):
+                    found.add(phone)
+
+            start = idx + len(kw)
+
+    return sorted(found)
 
 def fetch(url):
     r = requests.get(url, headers=HEADERS, timeout=30, allow_redirects=True)
@@ -38,43 +86,47 @@ def fetch(url):
 def main():
     queries = [
         f"{APT_NAME} 관리사무소",
-        f"{APT_NAME} {ADDRESS}",
-        f"{APT_NAME} 네이버 부동산",
-        f"{ADDRESS} 네이버 부동산",
+        f"{APT_NAME} 관리사무소 전화번호",
+        f"{APT_NAME} {ADDRESS} 관리사무소",
+        f"{APT_NAME} 네이버 부동산 관리사무소",
     ]
 
     all_phones = set()
+    context_phones = set()
     pages = []
 
     for q in queries:
         url = "https://search.naver.com/search.naver?where=nexearch&query=" + quote(q)
         print("\n검색:", q)
-        print("URL:", url)
 
         final_url, html, status = fetch(url)
-        phones = collect_phones(html)
+
+        phones_all = collect_all_phones(html)
+        phones_context = collect_context_phones(html)
+
+        all_phones.update(phones_all)
+        context_phones.update(phones_context)
 
         print("HTTP:", status)
-        print("찾은 번호:", phones)
-
-        all_phones.update(phones)
+        print("전체 번호:", phones_all)
+        print("관리사무소 주변 번호:", phones_context)
 
         pages.append({
             "query": q,
-            "url": url,
             "final_url": final_url,
             "status": status,
-            "phones": phones,
-            "contains_expected": EXPECTED_PHONE in phones,
-            "html_sample": html[:1500],
+            "all_phones": phones_all,
+            "context_phones": phones_context,
+            "contains_expected_in_context": EXPECTED_PHONE in phones_context,
         })
 
     result = {
         "apt_name": APT_NAME,
         "address": ADDRESS,
         "expected_phone": EXPECTED_PHONE,
-        "found_phones": sorted(all_phones),
-        "success": EXPECTED_PHONE in all_phones,
+        "all_found_phones": sorted(all_phones),
+        "context_found_phones": sorted(context_phones),
+        "success": EXPECTED_PHONE in context_phones,
         "pages": pages,
     }
 
@@ -84,9 +136,9 @@ def main():
     print(json.dumps(result, ensure_ascii=False, indent=2))
 
     if result["success"]:
-        print("\n성공: 자동검색만으로 번호 찾음:", EXPECTED_PHONE)
+        print("\n성공: 관리사무소 주변 번호로 정답 찾음:", EXPECTED_PHONE)
     else:
-        print("\n실패: 자동검색 결과 HTML에서는 아직 번호 못 찾음.")
+        print("\n실패: 관리사무소 주변 번호에서는 아직 정답 못 찾음.")
 
 if __name__ == "__main__":
     main()
