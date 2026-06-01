@@ -23,7 +23,7 @@ jobs:
 
       - name: Run Naver Land test
         run: |
-          python test_naver_land_api.py
+          python scripts/test_naver_land_api.py
 
       - name: Upload result
         if: always()
