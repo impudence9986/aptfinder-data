@@ -15,9 +15,11 @@ import os
 import json
 import re
 import time
+import html
 from dataclasses import dataclass, asdict, field
 from pathlib import Path
 from difflib import SequenceMatcher
+from urllib.parse import quote
 from typing import Dict, List, Optional, Tuple
 
 import requests
@@ -41,6 +43,32 @@ NAVER_BLOG_URL = "https://openapi.naver.com/v1/search/blog.json"
 NAVER_CAFE_URL = "https://openapi.naver.com/v1/search/cafearticle.json"
 
 PHONE_RE = re.compile(r"(0\d{1,2})[\s\-.)]*(\d{3,4})[\s\-.(]*(\d{4})")
+
+NAVER_LAND_SEARCH_URL = "https://search.naver.com/search.naver"
+
+NAVER_LAND_MANAGEMENT_KEYWORDS = [
+    "관리사무소", "관리사무실", "관리소", "대표전화", "생활지원센터"
+]
+
+REGION_PHONE_PREFIXES = {
+    "서울특별시": ["02"],
+    "부산광역시": ["051"],
+    "대구광역시": ["053"],
+    "인천광역시": ["032"],
+    "광주광역시": ["062"],
+    "대전광역시": ["042"],
+    "울산광역시": ["052"],
+    "세종특별자치시": ["044"],
+    "경기도": ["031"],
+    "강원특별자치도": ["033"],
+    "충청북도": ["043"],
+    "충청남도": ["041"],
+    "전북특별자치도": ["063"],
+    "전라남도": ["061"],
+    "경상북도": ["054"],
+    "경상남도": ["055"],
+    "제주특별자치도": ["064"],
+}
 
 
 # 검색 0건 방지를 우선하는 주거단지 강제수집 사전.
@@ -330,6 +358,13 @@ class AptFinderGenerator:
         self.max_naver_queue_items = 999999999
         self.debug_discovery = bool(debug_discovery)
         self.kakao_phone_search_cache: Dict[str, List[str]] = {}
+        self.naver_land_phone_cache: Dict[str, List[str]] = {}
+        self.naver_land_headers = {
+            "User-Agent": "Mozilla/5.0 (Linux; Android 16; SM-S948N) AppleWebKit/537.36 "
+                          "(KHTML, like Gecko) Chrome/125.0.0.0 Mobile Safari/537.36",
+            "Accept": "text/html,application/json,*/*",
+            "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8",
+        }
 
         # 전국 안정 수집 정책
         # fast/balanced: 전국 1회전 빠른 완주 우선
@@ -855,14 +890,16 @@ class AptFinderGenerator:
 
         if "K-apt" in text or "공공데이터" in text:
             return "K-apt"
+        if "네이버부동산" in text or "네이버 부동산" in text or "NaverLand" in text or "naver_land" in text:
+            return "네이버부동산"
+        if "114On" in text or "114" in text:
+            return "114On"
         if "카카오" in text:
             return "카카오"
         if "네이버 Local" in text or "네이버 장소" in text or "네이버 전화" in text:
             return "네이버"
         if "네이버 웹" in text or "네이버 블로그" in text or "네이버 카페" in text:
             return "네이버"
-        if "114On" in text or "114" in text:
-            return "114On"
         if "사용자" in text or "제보" in text:
             return "사용자제보"
         if "기존" in text:
@@ -932,12 +969,14 @@ class AptFinderGenerator:
         source_bonus = 0
         if source_counts.get("K-apt", 0) > 0:
             source_bonus += 8
-        if source_counts.get("카카오", 0) > 0:
-            source_bonus += 5
-        if source_counts.get("네이버", 0) > 0:
-            source_bonus += 5
+        if source_counts.get("네이버부동산", 0) > 0:
+            source_bonus += 7
         if source_counts.get("114On", 0) > 0:
+            source_bonus += 6
+        if source_counts.get("카카오", 0) > 0:
             source_bonus += 3
+        if source_counts.get("네이버", 0) > 0:
+            source_bonus += 2
         if source_counts.get("사용자제보", 0) > 0:
             source_bonus += 10
 
@@ -1037,42 +1076,47 @@ class AptFinderGenerator:
 
         def recalc_score(c: dict) -> int:
             counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
-
             base = int(c.get("score") or 0)
 
-            source_bonus = 0
+            # 대표번호 최종 우선순위:
+            # K-apt(공식) > 네이버부동산 관리사무소 > 114On > 카카오 > 네이버 일반검색
+            source_base = 0
             if counts.get("K-apt", 0) > 0:
-                source_bonus += 8
-            if counts.get("카카오", 0) > 0:
-                source_bonus += 5
-            if counts.get("네이버", 0) > 0:
-                source_bonus += 5
+                source_base = max(source_base, 100)
+            if counts.get("네이버부동산", 0) > 0:
+                source_base = max(source_base, 95)
             if counts.get("114On", 0) > 0:
-                source_bonus += 3
+                source_base = max(source_base, 85)
+            if counts.get("카카오", 0) > 0:
+                source_base = max(source_base, 60)
+            if counts.get("네이버", 0) > 0:
+                source_base = max(source_base, 40)
             if counts.get("사용자제보", 0) > 0:
-                source_bonus += 10
+                source_base = max(source_base, 98)
+            if counts.get("기존", 0) > 0:
+                source_base = max(source_base, 35)
 
+            score = max(base, source_base)
             total_hits = sum(int(v) for v in counts.values())
-            repeat_bonus = min(15, max(0, total_hits - 1) * 3)
-            diversity_bonus = min(12, max(0, len([k for k, v in counts.items() if int(v) > 0]) - 1) * 4)
-
-            return min(100, base + source_bonus + repeat_bonus + diversity_bonus)
+            repeat_bonus = min(8, max(0, total_hits - 1) * 2)
+            diversity_bonus = min(6, max(0, len([k for k, v in counts.items() if int(v) > 0]) - 1) * 3)
+            return min(100, score + repeat_bonus + diversity_bonus)
 
         def source_priority(c: dict) -> int:
             counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
 
             if counts.get("K-apt", 0) > 0:
-                return 50
+                return 60
             if counts.get("사용자제보", 0) > 0:
-                return 45
-            if counts.get("카카오", 0) > 0 and counts.get("네이버", 0) > 0:
+                return 55
+            if counts.get("네이버부동산", 0) > 0:
+                return 50
+            if counts.get("114On", 0) > 0:
                 return 40
             if counts.get("카카오", 0) > 0:
                 return 30
             if counts.get("네이버", 0) > 0:
-                return 25
-            if counts.get("114On", 0) > 0:
-                return 15
+                return 20
             return 0
 
         candidates = list(by_number.values())
@@ -1081,7 +1125,7 @@ class AptFinderGenerator:
             c["score"] = recalc_score(c)
 
             counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
-            order = ["K-apt", "카카오", "네이버", "114On", "사용자제보", "기존", "기타"]
+            order = ["K-apt", "네이버부동산", "114On", "카카오", "네이버", "사용자제보", "기존", "기타"]
             summary_parts = []
 
             for label in order:
@@ -2489,16 +2533,38 @@ class AptFinderGenerator:
 
         return True
 
+    def has_source_phone(self, item: ComplexItem, label: str) -> bool:
+        for c in item.phoneCandidates or []:
+            counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
+            if int(counts.get(label) or 0) > 0:
+                return True
+            if label in (c.get("source") or ""):
+                return True
+        text = f"{item.source or ''} {item.verifiedAt or ''}"
+        return label in text
+
     def should_enrich_phone_item(self, item: ComplexItem) -> bool:
-        # 딥스캔 또는 명시 옵션에서만 K-apt 번호 보유 단지까지 추가 전화검색한다.
-        if self.has_strong_existing_phone(item) and not self.enrich_strong_phone:
+        # K-apt 상세번호는 공식 대표번호이므로 기본 생성에서는 건드리지 않는다.
+        if self.has_source_phone(item, "K-apt") and not self.enrich_strong_phone:
             return False
 
-        # 번호가 아예 없거나 후보 신뢰도가 낮은 항목만 기본 전화 보강한다.
+        # 이미 네이버부동산 관리사무소 번호가 있으면 추가 전화검색 생략.
+        if self.has_source_phone(item, "네이버부동산") and not self.enrich_strong_phone:
+            return False
+
+        # 번호가 없으면 반드시 보강한다.
         if not item.phone:
             return True
+
+        # 카카오가 먼저 단지를 발견하며 번호를 가져온 경우에도
+        # 네이버부동산 관리사무소 번호가 있으면 대표번호를 갈아치울 수 있도록 보강한다.
+        if self.has_source_phone(item, "카카오"):
+            return True
+
+        # 번호 신뢰도가 낮은 항목은 보강한다.
         if int(item.confidenceScore or 0) < 80:
             return True
+
         return self.enrich_strong_phone
 
     def build_region(self, sido: str, sigungu: str, skip_web_phone: bool = False) -> List[ComplexItem]:
@@ -3111,12 +3177,12 @@ class AptFinderGenerator:
                             source="카카오 장소검색",
                             verifiedAt="카카오 장소검색",
                             phoneStatus="CONFIRMED" if phone else "UNKNOWN",
-                            confidenceScore=90 if phone else 0,
+                            confidenceScore=60 if phone else 0,
                             addressQuality="ROAD_AND_JIBUN" if road and jibun else ("ROAD_ONLY" if road else ("JIBUN_ONLY" if jibun else "RAW")),
                         )
                         item.sharedKey = self.make_shared_key(item)
                         if phone:
-                            self.add_phone_candidate(item, phone, "카카오 장소검색", 90, keyword)
+                            self.add_phone_candidate(item, phone, "카카오 장소검색", 60, keyword)
                         out.append(item)
                         accepted_count += 1
 
@@ -3284,6 +3350,118 @@ class AptFinderGenerator:
 
         return ordered
 
+    def naver_land_area_prefixes(self, item: ComplexItem) -> List[str]:
+        prefixes = REGION_PHONE_PREFIXES.get(item.sido or "", [])
+        if prefixes:
+            return prefixes
+        return []
+
+    def is_bad_naver_land_phone(self, phone: str) -> bool:
+        phone = normalize_phone(phone)
+        if not phone:
+            return True
+        if phone.startswith("000-"):
+            return True
+        if phone.startswith("010-"):
+            return True
+        if phone in {"000-0000-0000", "010-0000-1000", "012-345-6789"}:
+            return True
+        return False
+
+    def collect_naver_land_context_phones(self, text: str) -> List[str]:
+        if not text:
+            return []
+
+        decoded = html.unescape(text or "")
+        decoded = decoded.replace("\\u003C", "<").replace("\\u003E", ">")
+        decoded = decoded.replace("\\\"", "\"")
+
+        found = []
+        for kw in NAVER_LAND_MANAGEMENT_KEYWORDS:
+            start = 0
+            while True:
+                idx = decoded.find(kw, start)
+                if idx == -1:
+                    break
+                left = max(0, idx - 450)
+                right = min(len(decoded), idx + 450)
+                chunk = decoded[left:right]
+                for phone in extract_all_phones(chunk):
+                    phone = normalize_phone(phone)
+                    if phone and not self.is_bad_naver_land_phone(phone):
+                        found.append(phone)
+                start = idx + len(kw)
+
+        return list(dict.fromkeys(found))
+
+    def naver_land_query_candidates(self, item: ComplexItem) -> List[str]:
+        name = (item.name or "").strip()
+        clean_name = self.clean_complex_name_for_query(name)
+        address = (item.roadAddress or item.jibunAddress or item.address or "").replace("\n", " ").strip()
+
+        names = list(dict.fromkeys([x for x in [name, clean_name] if x]))
+        queries = []
+        for n in names:
+            queries.extend([
+                f"{n} 네이버 부동산 관리사무소",
+                f"{n} 관리사무소",
+                f"{n} 관리사무소 전화번호",
+            ])
+            if item.city:
+                queries.append(f"{item.city} {n} 네이버 부동산 관리사무소")
+            if address:
+                queries.append(f"{n} {address} 관리사무소")
+
+        return list(dict.fromkeys([q.strip() for q in queries if q.strip()]))[:5]
+
+    def find_phone_naver_land_management_all(self, item: ComplexItem) -> List[str]:
+        """
+        네이버 부동산 검색 영역에서 '관리사무소' 주변 번호만 추출한다.
+        K-apt가 없는 단지 또는 카카오로 먼저 발견된 단지의 대표번호 보정용이다.
+        """
+        cache_key = self.normalize_for_key("|".join([
+            item.sido or "", item.city or "", item.name or "", item.roadAddress or "", item.jibunAddress or "", item.address or ""
+        ]))
+        if cache_key in self.naver_land_phone_cache:
+            return self.naver_land_phone_cache[cache_key]
+
+        prefixes = self.naver_land_area_prefixes(item)
+        counts: Dict[str, int] = {}
+
+        for q in self.naver_land_query_candidates(item):
+            try:
+                r = self.api_get(
+                    NAVER_LAND_SEARCH_URL,
+                    provider="네이버부동산 검색",
+                    headers=self.naver_land_headers,
+                    params={"where": "nexearch", "query": q},
+                    timeout=25,
+                    allow_redirects=True,
+                )
+                if r.status_code != 200:
+                    continue
+
+                phones = self.collect_naver_land_context_phones(r.text)
+
+                # 지역번호가 확실하면 해당 지역번호를 우선 채택한다.
+                if prefixes:
+                    phones = [p for p in phones if any(p.startswith(prefix + "-") for prefix in prefixes)]
+
+                for phone in phones:
+                    counts[phone] = int(counts.get(phone) or 0) + 1
+
+            except QuotaStop:
+                raise
+            except Exception as e:
+                if self.debug_discovery:
+                    print(f"  네이버부동산 관리사무소 검색 실패: {q} / {e}")
+            time.sleep(self.phone_enrich_sleep)
+
+        # 반복 출현 번호 우선, 그 다음 번호 오름차순.
+        result = sorted(counts.keys(), key=lambda p: (counts[p], p), reverse=True)
+        self.naver_land_phone_cache[cache_key] = result[:3]
+        return result[:3]
+
     def enrich_phone(self, item: ComplexItem, skip_web_phone: bool = False, use_kakao: bool = True, use_naver_local: bool = False, use_naver_web: bool = False) -> ComplexItem:
         # 기존 대표번호도 후보에 포함
         if item.phone:
@@ -3291,6 +3469,23 @@ class AptFinderGenerator:
 
         strong_existing_phone = self.has_strong_existing_phone(item)
         keywords = self.smart_phone_keywords(item, strong_existing_phone=strong_existing_phone)
+
+        # 2순위: 네이버 부동산 관리사무소 번호.
+        # K-apt 번호가 없고, 네이버부동산 번호가 아직 없으면 카카오보다 먼저 확인한다.
+        if not skip_web_phone and not self.has_source_phone(item, "K-apt") and not self.has_source_phone(item, "네이버부동산"):
+            found_land = self.find_phone_naver_land_management_all(item)
+            for idx, phone in enumerate(found_land):
+                self.add_phone_candidate(
+                    item,
+                    phone,
+                    "네이버부동산 관리사무소",
+                    95 if idx == 0 else 90,
+                    "naver_land_management"
+                )
+            if found_land:
+                # 네이버부동산 번호를 찾았으면 카카오 후보는 대표번호 선정에서 밀리므로
+                # 기본 모드에서는 추가 카카오 전화검색을 생략한다.
+                return self.finalize_phone_fields(item)
 
         if use_kakao:
             kakao_calls = 0
@@ -3307,7 +3502,7 @@ class AptFinderGenerator:
 
                 for phone in found:
                     normalized = normalize_phone(phone)
-                    added = self.add_phone_candidate(item, phone, "카카오 주소일치 전화번호 보강", 92, kw)
+                    added = self.add_phone_candidate(item, phone, "카카오 주소일치 전화번호 보강", 60, kw)
                     if added and normalized and normalized not in before_numbers:
                         before_numbers.add(normalized)
                         new_kakao_numbers += 1
@@ -3322,7 +3517,7 @@ class AptFinderGenerator:
                 # 네이버 Local도 같은 주소/같은 지번으로 확인된 번호만 추가한다.
                 found = self.find_phone_naver_local_all(kw, item=item)
                 for phone in found:
-                    self.add_phone_candidate(item, phone, "네이버 Local 주소일치 전화번호 보강", 90, kw)
+                    self.add_phone_candidate(item, phone, "네이버 Local 주소일치 전화번호 보강", 40, kw)
                 time.sleep(self.phone_enrich_sleep)
 
         if use_naver_web and not skip_web_phone:
@@ -3331,7 +3526,7 @@ class AptFinderGenerator:
                 # 단지명 또는 지번/도로명 일부가 스니펫에 같이 잡힌 경우만 후보로 쓴다.
                 found = self.find_phone_naver_web_sources_all(kw, item=item)
                 for phone, source in found:
-                    self.add_phone_candidate(item, phone, source, 78 if "114" in source else 68, kw)
+                    self.add_phone_candidate(item, phone, source, 85 if "114" in source else 40, kw)
                 time.sleep(self.phone_enrich_sleep)
 
         return self.finalize_phone_fields(item)
