@@ -21,13 +21,13 @@ jobs:
         run: |
           pip install requests
 
-      - name: Run Naver Land test
+      - name: Run Naver Land auto search test
         run: |
-          python scripts/test_naver_land_api.py
+          python scripts/test_naver_land_auto_search.py
 
       - name: Upload result
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: naver-land-test-result
-          path: naver_land_test_result.json
+          name: naver-land-auto-search-result
+          path: naver_land_auto_search_result.json
