@@ -1,10 +1,9 @@
 {
   "group": "today",
-  "updatedAt": "2026-06-01 01:55:59",
+  "updatedAt": "2026-06-02 04:42:10",
   "status": "stopped",
-  "reason": "K-apt 실제 API 사용 제한 감지: HTTP 429 / API token quota exceeded\n",
-  "completed": [],
-  "remaining": [
+  "reason": "GitHub Actions 안전정지: 330분 경과 / 제한 330분",
+  "completed": [
     "경기도|수원시",
     "경기도|화성시",
     "경기도|오산시",
@@ -27,7 +26,9 @@
     "경기도|양주시",
     "경기도|양평군",
     "경기도|여주시",
-    "경기도|연천군",
+    "경기도|연천군"
+  ],
+  "remaining": [
     "경기도|용인시",
     "경기도|의왕시",
     "경기도|의정부시",
@@ -236,11 +237,11 @@
     "제주특별자치도|제주시"
   ],
   "limits": {
-    "kakaoUsed": 0,
+    "kakaoUsed": 23089,
     "kakaoMax": 99500,
     "naverUsed": 0,
     "naverMax": 24000,
-    "kaptUsed": 2,
+    "kaptUsed": 3732,
     "kaptMax": 999999999
   }
 }
