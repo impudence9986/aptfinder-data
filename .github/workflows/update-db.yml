@@ -6,10 +6,10 @@ on:
 
   workflow_dispatch:
     inputs:
-      run_mode:
-        description: "all, missing"
+      force_phase:
+        description: "auto, main, repair"
         required: false
-        default: "all"
+        default: "auto"
 
       max_runtime_minutes:
         description: "GitHub Actions 안전 정지 시간(분)"
@@ -46,46 +46,270 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run AptFinder DB updater with resume and runtime guard
+      - name: Decide AptFinder phase
+        id: decide
+        run: |
+          set -e
+
+          FORCE_PHASE="${{ github.event.inputs.force_phase }}"
+          if [ -z "$FORCE_PHASE" ]; then FORCE_PHASE="auto"; fi
+
+          PHASE="main"
+
+          if [ "$FORCE_PHASE" = "main" ]; then
+            PHASE="main"
+          elif [ "$FORCE_PHASE" = "repair" ]; then
+            PHASE="repair"
+          else
+            if [ -f ".aptfinder_phase.json" ]; then
+              SAVED_PHASE=$(python - <<'PY'
+import json
+try:
+    d=json.load(open(".aptfinder_phase.json", encoding="utf-8"))
+    print(d.get("phase","main"))
+except:
+    print("main")
+PY
+)
+              PHASE="$SAVED_PHASE"
+            fi
+
+            # 메인 수집이 중간에 멈춘 상태면 무조건 main 계속
+            if [ -f "update_state.json" ]; then
+              REMAINING=$(python - <<'PY'
+import json
+try:
+    d=json.load(open("update_state.json", encoding="utf-8"))
+    print(len(d.get("remaining", [])))
+except:
+    print(0)
+PY
+)
+              if [ "$REMAINING" -gt 0 ]; then
+                PHASE="main"
+              fi
+            fi
+
+            # phase 파일이 없고, update_state도 없는데 보강 큐가 있으면 보강부터
+            if [ ! -f ".aptfinder_phase.json" ] && [ ! -f "update_state.json" ]; then
+              NAVER_PENDING=0
+              if [ -f "data/_naver_queue.json" ]; then
+                NAVER_PENDING=$(python - <<'PY'
+import json
+try:
+    d=json.load(open("data/_naver_queue.json", encoding="utf-8"))
+    print(len(d.get("pending", [])))
+except:
+    print(0)
+PY
+)
+              fi
+
+              if [ "$NAVER_PENDING" -gt 0 ]; then
+                PHASE="repair"
+              fi
+            fi
+          fi
+
+          echo "Selected phase: $PHASE"
+          echo "phase=$PHASE" >> "$GITHUB_OUTPUT"
+
+      - name: Run main nationwide DB collection
+        if: steps.decide.outputs.phase == 'main'
         env:
           PUBLIC_DATA_SERVICE_KEY: ${{ secrets.PUBLIC_DATA_SERVICE_KEY }}
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
 
-          # 앱 즉시 온라인검색용 호출량 예비분
-          # Python 기본값도 바꿨지만, 나중에 스크립트에서 환경변수 읽도록 확장할 때 대비해서 명시해둠
           KAKAO_DAILY_QUOTA: "100000"
           KAKAO_RESERVED_FOR_APP: "500"
           NAVER_DAILY_QUOTA: "25000"
           NAVER_RESERVED_FOR_APP: "1000"
 
+          APTFINDER_SCAN_PROFILE: "balanced"
+
         run: |
           set -e
 
-          RUN_MODE="${{ github.event.inputs.run_mode }}"
           MAX_RUNTIME_MINUTES="${{ github.event.inputs.max_runtime_minutes }}"
-
-          if [ -z "$RUN_MODE" ]; then RUN_MODE="all"; fi
           if [ -z "$MAX_RUNTIME_MINUTES" ]; then MAX_RUNTIME_MINUTES="330"; fi
 
-          echo "RUN_MODE=$RUN_MODE"
+          echo "PHASE=main"
           echo "MAX_RUNTIME_MINUTES=$MAX_RUNTIME_MINUTES"
-          echo "KAKAO_RESERVED_FOR_APP=$KAKAO_RESERVED_FOR_APP"
-          echo "NAVER_RESERVED_FOR_APP=$NAVER_RESERVED_FOR_APP"
 
-          if [ "$RUN_MODE" = "missing" ]; then
+          python -u scripts/generate_aptfinder_db.py \
+            --region-group today \
+            --resume \
+            --force \
+            --max-runtime-minutes "$MAX_RUNTIME_MINUTES"
+
+          # update_state.json이 없어졌으면 전국 1회전 완료로 판단
+          if [ ! -f "update_state.json" ]; then
+            echo "Main nationwide collection completed. Switching to repair phase."
+            python - <<'PY'
+import json, time
+from datetime import datetime
+
+state = {
+    "phase": "repair",
+    "updatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    "reason": "main_completed"
+}
+with open(".aptfinder_phase.json", "w", encoding="utf-8") as f:
+    json.dump(state, f, ensure_ascii=False, indent=2)
+PY
+          else
+            echo "Main collection not completed yet. Keeping main phase."
+            python - <<'PY'
+import json
+from datetime import datetime
+
+state = {
+    "phase": "main",
+    "updatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    "reason": "main_still_running"
+}
+with open(".aptfinder_phase.json", "w", encoding="utf-8") as f:
+    json.dump(state, f, ensure_ascii=False, indent=2)
+PY
+          fi
+
+      - name: Run repair queues only
+        if: steps.decide.outputs.phase == 'repair'
+        env:
+          PUBLIC_DATA_SERVICE_KEY: ${{ secrets.PUBLIC_DATA_SERVICE_KEY }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+
+          KAKAO_DAILY_QUOTA: "100000"
+          KAKAO_RESERVED_FOR_APP: "500"
+          NAVER_DAILY_QUOTA: "25000"
+          NAVER_RESERVED_FOR_APP: "1000"
+
+          APTFINDER_SCAN_PROFILE: "balanced"
+
+        run: |
+          set -e
+
+          MAX_RUNTIME_MINUTES="${{ github.event.inputs.max_runtime_minutes }}"
+          if [ -z "$MAX_RUNTIME_MINUTES" ]; then MAX_RUNTIME_MINUTES="330"; fi
+
+          echo "PHASE=repair"
+          echo "MAX_RUNTIME_MINUTES=$MAX_RUNTIME_MINUTES"
+
+          NAVER_PENDING=0
+          if [ -f "data/_naver_queue.json" ]; then
+            NAVER_PENDING=$(python - <<'PY'
+import json
+try:
+    d=json.load(open("data/_naver_queue.json", encoding="utf-8"))
+    print(len(d.get("pending", [])))
+except:
+    print(0)
+PY
+)
+          fi
+
+          echo "NAVER_PENDING=$NAVER_PENDING"
+
+          if [ "$NAVER_PENDING" -gt 0 ]; then
             python -u scripts/generate_aptfinder_db.py \
-              --region-group missing \
-              --resume \
-              --force \
+              --naver-queue-only \
+              --max-naver-queue-items 1500 \
               --max-runtime-minutes "$MAX_RUNTIME_MINUTES"
           else
+            echo "No naver queue pending."
+          fi
+
+          echo "Build repair queue from generated DB files."
+          python -u scripts/generate_aptfinder_db.py \
+            --build-repair-queue \
+            --max-runtime-minutes 30
+
+          REPAIR_PENDING=0
+          if [ -f "data/_repair_queue.json" ]; then
+            REPAIR_PENDING=$(python - <<'PY'
+import json
+try:
+    d=json.load(open("data/_repair_queue.json", encoding="utf-8"))
+    print(len(d.get("pending", [])))
+except:
+    print(0)
+PY
+)
+          fi
+
+          echo "REPAIR_PENDING=$REPAIR_PENDING"
+
+          if [ "$REPAIR_PENDING" -gt 0 ]; then
             python -u scripts/generate_aptfinder_db.py \
-              --region-group today \
-              --resume \
-              --force \
+              --repair-queue-only \
+              --max-repair-items 1000 \
+              --max-repair-per-region 80 \
               --max-runtime-minutes "$MAX_RUNTIME_MINUTES"
+          else
+            echo "No repair queue pending."
+          fi
+
+          NAVER_LEFT=0
+          if [ -f "data/_naver_queue.json" ]; then
+            NAVER_LEFT=$(python - <<'PY'
+import json
+try:
+    d=json.load(open("data/_naver_queue.json", encoding="utf-8"))
+    print(len(d.get("pending", [])))
+except:
+    print(0)
+PY
+)
+          fi
+
+          REPAIR_LEFT=0
+          if [ -f "data/_repair_queue.json" ]; then
+            REPAIR_LEFT=$(python - <<'PY'
+import json
+try:
+    d=json.load(open("data/_repair_queue.json", encoding="utf-8"))
+    print(len(d.get("pending", [])))
+except:
+    print(0)
+PY
+)
+          fi
+
+          echo "NAVER_LEFT=$NAVER_LEFT"
+          echo "REPAIR_LEFT=$REPAIR_LEFT"
+
+          if [ "$NAVER_LEFT" -eq 0 ] && [ "$REPAIR_LEFT" -eq 0 ]; then
+            echo "All repair queues completed. Switching to main phase."
+            python - <<'PY'
+import json
+from datetime import datetime
+
+state = {
+    "phase": "main",
+    "updatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    "reason": "repair_completed"
+}
+with open(".aptfinder_phase.json", "w", encoding="utf-8") as f:
+    json.dump(state, f, ensure_ascii=False, indent=2)
+PY
+          else
+            echo "Repair queues still remain. Keeping repair phase."
+            python - <<'PY'
+import json
+from datetime import datetime
+
+state = {
+    "phase": "repair",
+    "updatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    "reason": "repair_still_running"
+}
+with open(".aptfinder_phase.json", "w", encoding="utf-8") as f:
+    json.dump(state, f, ensure_ascii=False, indent=2)
+PY
           fi
 
       - name: Upload generated files as artifact
@@ -97,6 +321,7 @@ jobs:
             data/
             metadata.json
             update_state.json
+            .aptfinder_phase.json
           retention-days: 7
 
       - name: Commit and push changes
@@ -111,7 +336,7 @@ jobs:
           BRANCH="${GITHUB_REF_NAME}"
           echo "Current branch: $BRANCH"
 
-          git add data/ metadata.json update_state.json || true
+          git add data/ metadata.json update_state.json .aptfinder_phase.json || true
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
