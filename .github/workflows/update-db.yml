@@ -62,51 +62,18 @@ jobs:
             PHASE="repair"
           else
             if [ -f ".aptfinder_phase.json" ]; then
-              SAVED_PHASE=$(python - <<'PY'
-import json
-try:
-    d=json.load(open(".aptfinder_phase.json", encoding="utf-8"))
-    print(d.get("phase","main"))
-except:
-    print("main")
-PY
-)
-              PHASE="$SAVED_PHASE"
-            fi
-
-            # 메인 수집이 중간에 멈춘 상태면 무조건 main 계속
-            if [ -f "update_state.json" ]; then
-              REMAINING=$(python - <<'PY'
-import json
-try:
-    d=json.load(open("update_state.json", encoding="utf-8"))
-    print(len(d.get("remaining", [])))
-except:
-    print(0)
-PY
-)
-              if [ "$REMAINING" -gt 0 ]; then
-                PHASE="main"
-              fi
-            fi
-
-            # phase 파일이 없고, update_state도 없는데 보강 큐가 있으면 보강부터
-            if [ ! -f ".aptfinder_phase.json" ] && [ ! -f "update_state.json" ]; then
-              NAVER_PENDING=0
-              if [ -f "data/_naver_queue.json" ]; then
-                NAVER_PENDING=$(python - <<'PY'
-import json
-try:
-    d=json.load(open("data/_naver_queue.json", encoding="utf-8"))
-    print(len(d.get("pending", [])))
-except:
-    print(0)
-PY
-)
-              fi
-
+              PHASE=$(python -c "import json; print(json.load(open('.aptfinder_phase.json', encoding='utf-8')).get('phase','main'))" 2>/dev/null || echo "main")
+            elif [ -f "data/_naver_queue.json" ]; then
+              NAVER_PENDING=$(python -c "import json; print(len(json.load(open('data/_naver_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
               if [ "$NAVER_PENDING" -gt 0 ]; then
                 PHASE="repair"
+              fi
+            fi
+
+            if [ -f "update_state.json" ] && [ "$PHASE" != "repair" ]; then
+              REMAINING=$(python -c "import json; print(len(json.load(open('update_state.json', encoding='utf-8')).get('remaining', [])))" 2>/dev/null || echo "0")
+              if [ "$REMAINING" -gt 0 ]; then
+                PHASE="main"
               fi
             fi
           fi
@@ -121,14 +88,11 @@ PY
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-
           KAKAO_DAILY_QUOTA: "100000"
           KAKAO_RESERVED_FOR_APP: "500"
           NAVER_DAILY_QUOTA: "25000"
           NAVER_RESERVED_FOR_APP: "1000"
-
           APTFINDER_SCAN_PROFILE: "balanced"
-
         run: |
           set -e
 
@@ -144,35 +108,12 @@ PY
             --force \
             --max-runtime-minutes "$MAX_RUNTIME_MINUTES"
 
-          # update_state.json이 없어졌으면 전국 1회전 완료로 판단
           if [ ! -f "update_state.json" ]; then
-            echo "Main nationwide collection completed. Switching to repair phase."
-            python - <<'PY'
-import json, time
-from datetime import datetime
-
-state = {
-    "phase": "repair",
-    "updatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-    "reason": "main_completed"
-}
-with open(".aptfinder_phase.json", "w", encoding="utf-8") as f:
-    json.dump(state, f, ensure_ascii=False, indent=2)
-PY
+            echo "Main completed. Switch to repair."
+            python -c "import json; from datetime import datetime; json.dump({'phase':'repair','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'main_completed'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
           else
-            echo "Main collection not completed yet. Keeping main phase."
-            python - <<'PY'
-import json
-from datetime import datetime
-
-state = {
-    "phase": "main",
-    "updatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-    "reason": "main_still_running"
-}
-with open(".aptfinder_phase.json", "w", encoding="utf-8") as f:
-    json.dump(state, f, ensure_ascii=False, indent=2)
-PY
+            echo "Main still running. Keep main."
+            python -c "import json; from datetime import datetime; json.dump({'phase':'main','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'main_still_running'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
           fi
 
       - name: Run repair queues only
@@ -182,14 +123,11 @@ PY
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
-
           KAKAO_DAILY_QUOTA: "100000"
           KAKAO_RESERVED_FOR_APP: "500"
           NAVER_DAILY_QUOTA: "25000"
           NAVER_RESERVED_FOR_APP: "1000"
-
           APTFINDER_SCAN_PROFILE: "balanced"
-
         run: |
           set -e
 
@@ -201,15 +139,7 @@ PY
 
           NAVER_PENDING=0
           if [ -f "data/_naver_queue.json" ]; then
-            NAVER_PENDING=$(python - <<'PY'
-import json
-try:
-    d=json.load(open("data/_naver_queue.json", encoding="utf-8"))
-    print(len(d.get("pending", [])))
-except:
-    print(0)
-PY
-)
+            NAVER_PENDING=$(python -c "import json; print(len(json.load(open('data/_naver_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
           fi
 
           echo "NAVER_PENDING=$NAVER_PENDING"
@@ -223,22 +153,14 @@ PY
             echo "No naver queue pending."
           fi
 
-          echo "Build repair queue from generated DB files."
+          echo "Build repair queue."
           python -u scripts/generate_aptfinder_db.py \
             --build-repair-queue \
             --max-runtime-minutes 30
 
           REPAIR_PENDING=0
           if [ -f "data/_repair_queue.json" ]; then
-            REPAIR_PENDING=$(python - <<'PY'
-import json
-try:
-    d=json.load(open("data/_repair_queue.json", encoding="utf-8"))
-    print(len(d.get("pending", [])))
-except:
-    print(0)
-PY
-)
+            REPAIR_PENDING=$(python -c "import json; print(len(json.load(open('data/_repair_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
           fi
 
           echo "REPAIR_PENDING=$REPAIR_PENDING"
@@ -255,61 +177,23 @@ PY
 
           NAVER_LEFT=0
           if [ -f "data/_naver_queue.json" ]; then
-            NAVER_LEFT=$(python - <<'PY'
-import json
-try:
-    d=json.load(open("data/_naver_queue.json", encoding="utf-8"))
-    print(len(d.get("pending", [])))
-except:
-    print(0)
-PY
-)
+            NAVER_LEFT=$(python -c "import json; print(len(json.load(open('data/_naver_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
           fi
 
           REPAIR_LEFT=0
           if [ -f "data/_repair_queue.json" ]; then
-            REPAIR_LEFT=$(python - <<'PY'
-import json
-try:
-    d=json.load(open("data/_repair_queue.json", encoding="utf-8"))
-    print(len(d.get("pending", [])))
-except:
-    print(0)
-PY
-)
+            REPAIR_LEFT=$(python -c "import json; print(len(json.load(open('data/_repair_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
           fi
 
           echo "NAVER_LEFT=$NAVER_LEFT"
           echo "REPAIR_LEFT=$REPAIR_LEFT"
 
           if [ "$NAVER_LEFT" -eq 0 ] && [ "$REPAIR_LEFT" -eq 0 ]; then
-            echo "All repair queues completed. Switching to main phase."
-            python - <<'PY'
-import json
-from datetime import datetime
-
-state = {
-    "phase": "main",
-    "updatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-    "reason": "repair_completed"
-}
-with open(".aptfinder_phase.json", "w", encoding="utf-8") as f:
-    json.dump(state, f, ensure_ascii=False, indent=2)
-PY
+            echo "Repair completed. Switch to main."
+            python -c "import json; from datetime import datetime; json.dump({'phase':'main','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_completed'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
           else
-            echo "Repair queues still remain. Keeping repair phase."
-            python - <<'PY'
-import json
-from datetime import datetime
-
-state = {
-    "phase": "repair",
-    "updatedAt": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-    "reason": "repair_still_running"
-}
-with open(".aptfinder_phase.json", "w", encoding="utf-8") as f:
-    json.dump(state, f, ensure_ascii=False, indent=2)
-PY
+            echo "Repair still running. Keep repair."
+            python -c "import json; from datetime import datetime; json.dump({'phase':'repair','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_still_running'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
           fi
 
       - name: Upload generated files as artifact
