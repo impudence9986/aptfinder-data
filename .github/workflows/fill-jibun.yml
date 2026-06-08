@@ -24,7 +24,7 @@ jobs:
         env:
           KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
         run: |
-          python script/fill_jibun_address.py
+          python scripts/fill_jibun_address.py
 
       - name: Commit
         run: |
