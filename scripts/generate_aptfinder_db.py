@@ -2515,6 +2515,15 @@ class AptFinderGenerator:
         if item.roadAddress and item.jibunAddress:
             return False
 
+        # ★ 핵심 수정:
+        # balanced 모드에서도 도로명/지번 중 하나만 있으면 반드시 반대쪽 주소를 보강한다.
+        # 기존에는 도로명주소가 "약한 주소"가 아니면 스킵되어 jibunAddress가 비어 있었다.
+        if item.roadAddress and not item.jibunAddress:
+            return True
+
+        if item.jibunAddress and not item.roadAddress:
+            return True
+
         address = item.address or ""
         if not address:
             return True
@@ -2523,8 +2532,9 @@ class AptFinderGenerator:
         if "카카오" in (item.source or "") and (item.roadAddress or item.jibunAddress) and not self.is_weak_address(address):
             return False
 
-        # K-apt에서 온 도로명 주소 + 전화번호 보유 항목은 전국 1회전에서 주소보강을 생략한다.
-        # 도로명/지번 양방향 완성은 딥스캔이나 앱 즉시검색에서 보강한다.
+        # K-apt에서 온 도로명 주소 + 전화번호 보유 항목이라도
+        # 위에서 road/jibun 한쪽 누락이면 이미 보강 대상으로 잡힌다.
+        # 여기서는 둘 다 없거나 raw 주소만 있는 항목 중 강한 번호 보유 항목만 생략한다.
         if self.has_strong_existing_phone(item) and not self.is_weak_address(address):
             return False
 
@@ -2572,7 +2582,7 @@ class AptFinderGenerator:
         print(f"수집 정책: scan_profile={self.scan_profile}")
         print(
             "  기본 전략: K-apt 우선 → 제한된 카카오 후보 → "
-            "주소 약한 항목만 보강 → 번호 없는/낮은 신뢰도만 전화 보강"
+            "주소 한쪽 누락/약한 항목 보강 → 번호 없는/낮은 신뢰도만 전화 보강"
         )
 
         apt_items = self.fetch_kapt_region(sido, sigungu)
