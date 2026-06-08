@@ -1,11 +1,12 @@
 # -*- coding: utf-8 -*-
 import json
+import os
 import time
 import requests
 from pathlib import Path
 
 DATA_DIR = Path("data")
-KAKAO_REST_API_KEY = "여기에_카카오_REST_API_KEY_입력"
+KAKAO_REST_API_KEY = os.getenv("KAKAO_REST_API_KEY", "").strip()
 
 KAKAO_ADDRESS_URL = "https://dapi.kakao.com/v2/local/search/address.json"
 
@@ -28,12 +29,15 @@ def kakao_address_search(address):
             params=params,
             timeout=10
         )
+
         if r.status_code != 200:
             print(f"  [카카오 실패] {r.status_code} / {address}")
+            print(f"  응답: {r.text[:300]}")
             return None
 
         data = r.json()
         docs = data.get("documents", [])
+
         if not docs:
             return None
 
@@ -60,13 +64,28 @@ def extract_road_jibun(doc):
     return road.strip(), jibun.strip()
 
 
+def normalize_for_compare(value):
+    return (
+        (value or "")
+        .replace(" ", "")
+        .replace("\n", "")
+        .strip()
+    )
+
+
 def normalize_display_address(road, jibun):
-    if road and jibun and road != jibun:
+    road = (road or "").strip()
+    jibun = (jibun or "").strip()
+
+    if road and jibun and normalize_for_compare(road) != normalize_for_compare(jibun):
         return f"{road}\n{jibun}"
+
     if road:
         return road
+
     if jibun:
         return jibun
+
     return ""
 
 
@@ -90,8 +109,10 @@ def process_file(path):
         db = json.load(f)
 
     items = db.get("items", [])
+
     changed = 0
     target_count = 0
+    failed_count = 0
 
     for idx, item in enumerate(items, start=1):
         if not needs_jibun_fill(item):
@@ -108,12 +129,14 @@ def process_file(path):
         time.sleep(SLEEP_SEC)
 
         if not doc:
+            failed_count += 1
             print("    → 실패: 결과 없음")
             continue
 
         new_road, new_jibun = extract_road_jibun(doc)
 
         if not new_jibun:
+            failed_count += 1
             print("    → 실패: 지번 없음")
             continue
 
@@ -125,7 +148,6 @@ def process_file(path):
             item.get("roadAddress", ""),
             item.get("jibunAddress", "")
         )
-
         item["addressQuality"] = "ROAD_AND_JIBUN"
 
         changed += 1
@@ -136,14 +158,15 @@ def process_file(path):
         with path.open("w", encoding="utf-8") as f:
             json.dump(db, f, ensure_ascii=False, indent=2)
 
-    print(f"완료: 대상 {target_count}개 / 보강 {changed}개")
+    print(f"완료: 대상 {target_count}개 / 보강 {changed}개 / 실패 {failed_count}개")
 
-    return target_count, changed
+    return target_count, changed, failed_count
 
 
 def main():
-    if KAKAO_REST_API_KEY == "여기에_카카오_REST_API_KEY_입력":
-        print("KAKAO_REST_API_KEY를 먼저 입력해줘.")
+    if not KAKAO_REST_API_KEY:
+        print("KAKAO_REST_API_KEY가 없습니다.")
+        print("GitHub Actions Secrets에 KAKAO_REST_API_KEY가 있는지 확인하세요.")
         return
 
     if not DATA_DIR.exists():
@@ -152,24 +175,32 @@ def main():
 
     files = sorted(DATA_DIR.glob("*.json"))
 
+    files = [
+        f for f in files
+        if not f.name.startswith("_")
+    ]
+
     if not files:
         print("data/*.json 파일이 없습니다.")
         return
 
     total_target = 0
     total_changed = 0
+    total_failed = 0
 
     print("지번 보강 시작")
     print(f"대상 파일 수: {len(files)}")
 
     for path in files:
-        target, changed = process_file(path)
+        target, changed, failed = process_file(path)
         total_target += target
         total_changed += changed
+        total_failed += failed
 
     print("\n전체 완료")
     print(f"전체 대상: {total_target}개")
     print(f"전체 보강: {total_changed}개")
+    print(f"전체 실패: {total_failed}개")
 
 
 if __name__ == "__main__":
