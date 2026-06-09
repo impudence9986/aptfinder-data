@@ -190,6 +190,7 @@ REGION_GROUPS: Dict[int, List[str]] = {
 class ComplexItem:
     kaptCode: str = ""
     name: str = ""
+    aliases: List[dict] = field(default_factory=list)
     type: str = "아파트"
     city: str = ""
     sido: str = ""
@@ -841,9 +842,9 @@ class AptFinderGenerator:
         for token in remove_tokens:
             value = value.replace(token, "")
 
-        # 브랜드/검색어 변형 때문에 자주 흔들리는 장식 단어는 merge key에서 약화한다.
-        for token in ["마을", "타운", "빌리지", "캐슬", "파크", "시티", "센트럴", "리버", "레이크"]:
-            value = value.replace(token, "")
+        # 안전 병합 정책:
+        # 단지명을 구분하는 장식어(센트럴/시티/파크/리버/레이크 등)는 절대 제거하지 않는다.
+        # 이름 유사도 병합을 약하게 만들기보다, 주소가 같은 경우에만 병합한다.
 
         value = re.sub(r"\s+", "", value)
         value = re.sub(r"[\-_.·,()\[\]/]", "", value)
@@ -853,25 +854,54 @@ class AptFinderGenerator:
         parts = [item.sido, item.city, item.name]
         return "_".join([self.normalize_for_key(x) for x in parts if self.normalize_for_key(x)])[:180]
 
+    def _strict_address_keys_for_merge(self, item: ComplexItem) -> List[str]:
+        """
+        안전 병합용 주소 키.
+        - 지번 주소가 같으면 같은 카드
+        - 도로명 주소가 같으면 같은 카드
+        - 주소가 없거나 약하면 이름만으로는 병합하지 않는다.
+        """
+        keys: List[str] = []
+
+        sido_key = self.normalize_for_key(item.sido)
+        city_key = self.normalize_for_key(item.city)
+
+        road = (item.roadAddress or "").strip()
+        jibun = (item.jibunAddress or "").strip()
+
+        # address 필드에 도로명/지번이 줄바꿈으로 들어있는 경우 보조 추출
+        if item.address:
+            for line in [x.strip() for x in str(item.address).splitlines() if x.strip()]:
+                if not road and re.search(r"(로|길)\s*\d", line):
+                    road = line
+                if not jibun and re.search(r"(동|읍|면)\s*(산\s*)?\d", line):
+                    jibun = line
+
+        road_key = self.normalize_for_key(road)
+        jibun_key = self.normalize_for_key(jibun)
+
+        if jibun_key:
+            keys.append(f"{sido_key}_{city_key}_jibun_{jibun_key}")
+        if road_key:
+            keys.append(f"{sido_key}_{city_key}_road_{road_key}")
+
+        return list(dict.fromkeys([k for k in keys if k.strip("_")]))
+
     def make_merge_key(self, item: ComplexItem) -> str:
+        keys = self._strict_address_keys_for_merge(item)
+        if keys:
+            return f"addr:{keys[0]}"
+
         code = (item.kaptCode or "").strip()
         if code:
             return f"kapt:{code}"
 
+        # 주소가 없으면 이름으로 병합하지 않는다. 같은 이름이어도 다른 단지일 수 있다.
         name_key = self.normalize_for_key(item.name)
         sido_key = self.normalize_for_key(item.sido)
         city_key = self.normalize_for_key(item.city)
-        address_key = self.normalize_for_key(
-            item.jibunAddress or item.roadAddress or item.address
-        )
-
-        # K-apt 밖 장소검색 후보는 이름이 약간 달라도 같은 지번이면 같은 단지로 합치기 위해
-        # 주소가 있으면 type은 키에서 제외한다.
-        if address_key:
-            return f"{sido_key}_{city_key}_{address_key}_{name_key}"
-
         type_key = self.normalize_for_key(item.type)
-        return f"{sido_key}_{city_key}_{name_key}_{type_key}"
+        return f"noaddr:{sido_key}_{city_key}_{name_key}_{type_key}_{id(item)}"
 
     def build_dual_address(self, road: str, jibun: str, fallback: str = "") -> str:
         road = (road or "").strip()
@@ -3955,6 +3985,140 @@ class AptFinderGenerator:
 
         return list(dict.fromkeys([x.strip() for x in base if x.strip()]))
 
+    def _source_rank_for_name(self, source: str) -> int:
+        label = self.normalize_source_label(source or "")
+        if label == "K-apt":
+            return 100
+        if label == "네이버부동산":
+            return 90
+        if label == "114On":
+            return 80
+        if label == "카카오":
+            return 70
+        if label == "네이버":
+            return 60
+        if label == "사용자제보":
+            return 95
+        return 10
+
+    def _alias_source_text(self, item: ComplexItem) -> str:
+        return self.normalize_source_label(item.source or item.verifiedAt or "기존")
+
+    def _ensure_aliases(self, item: ComplexItem) -> None:
+        if not hasattr(item, "aliases") or not isinstance(item.aliases, list):
+            item.aliases = []
+
+        name = (item.name or "").strip()
+        if not name:
+            return
+
+        source = self._alias_source_text(item)
+        key = (self.normalize_for_key(name), source)
+
+        existing = set()
+        for a in item.aliases:
+            if not isinstance(a, dict):
+                continue
+            existing.add((self.normalize_for_key(a.get("name", "")), self.normalize_source_label(a.get("source", ""))))
+
+        if key not in existing:
+            item.aliases.append({"name": name, "source": source})
+
+    def _add_alias(self, item: ComplexItem, name: str, source: str) -> None:
+        name = (name or "").strip()
+        if not name:
+            return
+
+        if not hasattr(item, "aliases") or not isinstance(item.aliases, list):
+            item.aliases = []
+
+        source_label = self.normalize_source_label(source or "기존")
+        key = (self.normalize_for_key(name), source_label)
+
+        for a in item.aliases:
+            if not isinstance(a, dict):
+                continue
+            old_key = (
+                self.normalize_for_key(a.get("name", "")),
+                self.normalize_source_label(a.get("source", "")),
+            )
+            if old_key == key:
+                return
+
+        item.aliases.append({"name": name, "source": source_label})
+
+    def _choose_representative_name(self, old: ComplexItem, item: ComplexItem) -> str:
+        """
+        대표명은 K-apt 우선.
+        단, 모든 출처 이름은 aliases에 남긴다.
+        """
+        old_name = (old.name or "").strip()
+        new_name = (item.name or "").strip()
+        if not old_name:
+            return new_name
+        if not new_name:
+            return old_name
+
+        old_rank = self._source_rank_for_name(old.source or old.verifiedAt)
+        new_rank = self._source_rank_for_name(item.source or item.verifiedAt)
+
+        old_bad = any(x in old_name for x in ["관리사무소", "관리사무실", "관리실", "관리단"])
+        new_bad = any(x in new_name for x in ["관리사무소", "관리사무실", "관리실", "관리단"])
+
+        if new_rank > old_rank:
+            return new_name
+        if new_rank == old_rank and old_bad and not new_bad:
+            return new_name
+
+        return old_name
+
+    def _strict_address_sets_for_merge(self, item: ComplexItem) -> Tuple[set, set]:
+        road_set = set()
+        jibun_set = set()
+
+        road = (item.roadAddress or "").strip()
+        jibun = (item.jibunAddress or "").strip()
+
+        if item.address:
+            for line in [x.strip() for x in str(item.address).splitlines() if x.strip()]:
+                if re.search(r"(로|길)\s*\d", line):
+                    road_set.add(self.normalize_for_key(line))
+                if re.search(r"(동|읍|면)\s*(산\s*)?\d", line):
+                    jibun_set.add(self.normalize_for_key(line))
+
+        if road:
+            road_set.add(self.normalize_for_key(road))
+        if jibun:
+            jibun_set.add(self.normalize_for_key(jibun))
+
+        road_set.discard("")
+        jibun_set.discard("")
+        return road_set, jibun_set
+
+    def _same_strict_address(self, old: ComplexItem, item: ComplexItem) -> bool:
+        old_road, old_jibun = self._strict_address_sets_for_merge(old)
+        new_road, new_jibun = self._strict_address_sets_for_merge(item)
+
+        if old_jibun and new_jibun and (old_jibun & new_jibun):
+            return True
+        if old_road and new_road and (old_road & new_road):
+            return True
+        return False
+
+    def _address_conflicts_for_merge(self, old: ComplexItem, item: ComplexItem) -> bool:
+        """
+        양쪽에 같은 종류의 주소가 있는데 서로 다르면 절대 병합 금지.
+        도로명끼리 다르거나 지번끼리 다르면 다른 카드로 유지한다.
+        """
+        old_road, old_jibun = self._strict_address_sets_for_merge(old)
+        new_road, new_jibun = self._strict_address_sets_for_merge(item)
+
+        if old_jibun and new_jibun and not (old_jibun & new_jibun):
+            return True
+        if old_road and new_road and not (old_road & new_road):
+            return True
+        return False
+
     def _lot_key_for_merge(self, value: str) -> str:
         text = self.normalize_for_key(value or "")
         if not text:
@@ -4070,40 +4234,47 @@ class AptFinderGenerator:
         return score
 
     def _should_score_merge(self, old: ComplexItem, item: ComplexItem) -> bool:
-        score = self._merge_score(old, item)
+        # 지역이 다르면 금지
+        if old.sido and item.sido and self.normalize_for_key(old.sido) != self.normalize_for_key(item.sido):
+            return False
+        if old.city and item.city and self.normalize_for_key(old.city) != self.normalize_for_key(item.city):
+            return False
 
-        if score >= 85:
+        # K-apt 코드가 서로 다르면 금지
+        if old.kaptCode and item.kaptCode and old.kaptCode != item.kaptCode:
+            return False
+
+        # 주소가 명확히 다르면 이름/전화번호가 같아도 금지
+        if self._address_conflicts_for_merge(old, item):
+            return False
+
+        # 주소가 완전히 같을 때만 병합
+        if self._same_strict_address(old, item):
             return True
 
-        old_addr_text = self._item_address_text_for_merge(old)
-        new_addr_text = self._item_address_text_for_merge(item)
-        old_addr = self.normalize_for_key(old_addr_text)
-        new_addr = self.normalize_for_key(new_addr_text)
-        old_lot = self._lot_key_for_merge(old_addr_text)
-        new_lot = self._lot_key_for_merge(new_addr_text)
-        old_name = self._name_key_for_merge(old.name)
-        new_name = self._name_key_for_merge(item.name)
-
-        # 핵심 수정:
-        # K-apt 단지와 카카오/네이버 후보의 이름이 달라도 주소가 같으면 같은 리스트로 흡수한다.
-        # 예: K-apt명과 카카오맵 장소명이 다르지만 같은 지번/도로명인 경우
-        #     카카오 번호는 기존 K-apt 항목의 phoneCandidates로 합쳐진다.
-        if old_addr and new_addr and (old_addr == new_addr or old_addr in new_addr or new_addr in old_addr):
+        # 같은 K-apt 코드이고 주소 충돌이 없을 때만 보조 병합
+        # 주소가 나중에 보강되는 같은 공식 단지 중복 방지용.
+        if old.kaptCode and item.kaptCode and old.kaptCode == item.kaptCode:
             return True
 
-        if old_lot and new_lot and old_lot == new_lot:
-            return True
-
-        # 주소가 약한 경우에만 이름 유사도 병합을 사용한다.
-        if old_name and new_name:
-            ratio = SequenceMatcher(None, old_name, new_name).ratio()
-            if ratio >= 0.92 or old_name in new_name or new_name in old_name:
-                return True
-
+        # 주소가 없으면 이름 유사도만으로 병합하지 않는다.
+        # 리스트가 늘어나는 편이 잘못 합쳐지는 것보다 안전하다.
         return False
 
     def _merge_item_into(self, old: ComplexItem, item: ComplexItem) -> ComplexItem:
-        # 후보 번호 전부 합치기
+        # 같은 주소 카드 안에서만 호출된다.
+        # 이름은 출처별 aliases에 전부 보존한다.
+        self._ensure_aliases(old)
+        self._ensure_aliases(item)
+        self._add_alias(old, old.name, old.source or old.verifiedAt or "기존")
+        self._add_alias(old, item.name, item.source or item.verifiedAt or "기존")
+
+        for a in item.aliases or []:
+            if isinstance(a, dict):
+                self._add_alias(old, a.get("name", ""), a.get("source", ""))
+
+        # 후보 번호 전부 합치기.
+        # 이 함수는 주소 동일 카드에서만 호출되므로 번호 오염을 막을 수 있다.
         for c in item.phoneCandidates or []:
             self.add_phone_candidate(
                 old,
@@ -4119,21 +4290,17 @@ class AptFinderGenerator:
                 item.phone,
                 item.verifiedAt or item.source or "기존",
                 int(item.confidenceScore or 50),
-                "merged"
+                "merged_same_address"
             )
 
-        # 이름은 관리사무소/관리실 꼬리표가 없는 쪽 우선, 그 다음 짧은 쪽 우선
-        if item.name:
-            old_bad = any(x in (old.name or "") for x in ["관리사무소", "관리실", "관리단"])
-            new_good = not any(x in item.name for x in ["관리사무소", "관리실", "관리단"])
-            if not old.name or (old_bad and new_good) or (new_good and len(item.name) < len(old.name)):
-                old.name = item.name
+        # 대표명은 K-apt > 사용자제보 > 네이버부동산 > 114On > 카카오 > 네이버 순서.
+        old.name = self._choose_representative_name(old, item)
 
         # type은 아파트보다 구체 타입 우선
         if old.type == "아파트" and item.type in ("오피스텔", "주상복합", "생활형숙박시설"):
             old.type = item.type
 
-        # 주소는 도로명+지번 둘 다 있는 데이터 우선
+        # 주소는 서로 같은 카드라고 판정된 경우에만 보강한다.
         if not old.address and item.address:
             old.address = item.address
         if not old.roadAddress and item.roadAddress:
@@ -4149,6 +4316,8 @@ class AptFinderGenerator:
 
         if not old.households and item.households:
             old.households = item.households
+        if not old.kaptCode and item.kaptCode:
+            old.kaptCode = item.kaptCode
         if not old.sido and item.sido:
             old.sido = item.sido
         if not old.city and item.city:
@@ -4171,35 +4340,44 @@ class AptFinderGenerator:
         merged: List[ComplexItem] = []
         by_key: Dict[str, ComplexItem] = {}
 
+        def register_keys(target: ComplexItem) -> None:
+            for k in self._strict_address_keys_for_merge(target):
+                if k:
+                    by_key[f"addr:{k}"] = target
+
+            # 주소가 없을 때만 K-apt 코드로 보조 등록.
+            # 주소가 있는 항목은 주소 기준 병합이 우선이다.
+            if not self._strict_address_keys_for_merge(target):
+                code = (target.kaptCode or "").strip()
+                if code:
+                    by_key[f"kapt:{code}"] = target
+
         for item in items:
             if not item:
                 continue
 
             self.finalize_phone_fields(item)
+            self._ensure_aliases(item)
             item.sharedKey = item.sharedKey or self.make_shared_key(item)
 
-            key = self.make_merge_key(item)
+            keys = [f"addr:{k}" for k in self._strict_address_keys_for_merge(item)]
 
-            # 1차: K-apt 코드/정규화 주소 기반 정확 병합
-            old = by_key.get(key)
-            if old is not None:
-                self._merge_item_into(old, item)
-                continue
+            # 주소가 없는 K-apt 중복만 코드로 보조 병합
+            if not keys and item.kaptCode:
+                keys.append(f"kapt:{item.kaptCode.strip()}")
 
-            # 2차: 같은 지역 안에서 점수 기반 보수적 병합
             matched = None
 
-            # 카카오에서 정확한 도로명+지번을 가진 K-apt 밖 주거 후보는
-            # 신규 단지일 가능성이 있으므로 점수 병합으로 기존 항목에 먹이지 않는다.
-            protect_extra_place = (
-                "카카오" in (item.source or "")
-                and item.name
-                and item.roadAddress
-                and item.jibunAddress
-                and item.kaptCode == ""
-            )
+            # 1차: 주소 완전 일치 키 병합
+            for key in keys:
+                old = by_key.get(key)
+                if old is not None and self._should_score_merge(old, item):
+                    matched = old
+                    break
 
-            if not protect_extra_place:
+            # 2차: 같은 지역 안에서 주소 완전 일치만 재확인
+            # 이름 유사도 병합은 절대 하지 않는다.
+            if matched is None:
                 for candidate in merged:
                     if self._should_score_merge(candidate, item):
                         matched = candidate
@@ -4207,12 +4385,11 @@ class AptFinderGenerator:
 
             if matched is not None:
                 self._merge_item_into(matched, item)
-                by_key[self.make_merge_key(matched)] = matched
-                by_key[key] = matched
+                register_keys(matched)
                 continue
 
             merged.append(item)
-            by_key[key] = item
+            register_keys(item)
 
         return merged
 
