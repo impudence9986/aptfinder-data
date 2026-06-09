@@ -5197,4 +5197,30 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    import sys
+    import traceback
+    import faulthandler
+
+    try:
+        faulthandler.enable()
+    except Exception:
+        pass
+
+    try:
+        main()
+    except KeyboardInterrupt:
+        print("\n[중단] KeyboardInterrupt 감지", file=sys.stderr, flush=True)
+        traceback.print_exc()
+        raise
+    except QuotaStop as e:
+        print("\n[안전정지/호출한도] QuotaStop 발생", file=sys.stderr, flush=True)
+        print(str(e), file=sys.stderr, flush=True)
+        traceback.print_exc()
+        raise
+    except SystemExit as e:
+        print(f"\n[종료] SystemExit 발생: code={getattr(e, 'code', None)}", file=sys.stderr, flush=True)
+        raise
+    except BaseException:
+        print("\n[치명 오류] 처리되지 않은 예외 발생", file=sys.stderr, flush=True)
+        traceback.print_exc()
+        raise
