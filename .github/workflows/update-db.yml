@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
     inputs:
       force_phase:
-        description: "auto, main, repair"
+        description: "auto, main, repair, verify"
         required: false
         default: "auto"
 
@@ -60,20 +60,43 @@ jobs:
             PHASE="main"
           elif [ "$FORCE_PHASE" = "repair" ]; then
             PHASE="repair"
+          elif [ "$FORCE_PHASE" = "verify" ]; then
+            PHASE="verify"
           else
-            if [ -f ".aptfinder_phase.json" ]; then
-              PHASE=$(python -c "import json; print(json.load(open('.aptfinder_phase.json', encoding='utf-8')).get('phase','main'))" 2>/dev/null || echo "main")
-            elif [ -f "data/_naver_queue.json" ]; then
-              NAVER_PENDING=$(python -c "import json; print(len(json.load(open('data/_naver_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
-              if [ "$NAVER_PENDING" -gt 0 ]; then
-                PHASE="repair"
-              fi
-            fi
-
-            if [ -f "update_state.json" ] && [ "$PHASE" != "repair" ]; then
+            # 메인 전국 수집이 남아 있으면 무조건 main 우선
+            if [ -f "update_state.json" ]; then
               REMAINING=$(python -c "import json; print(len(json.load(open('update_state.json', encoding='utf-8')).get('remaining', [])))" 2>/dev/null || echo "0")
               if [ "$REMAINING" -gt 0 ]; then
                 PHASE="main"
+              else
+                PHASE="repair"
+              fi
+            elif [ -f ".aptfinder_phase.json" ]; then
+              PHASE=$(python -c "import json; print(json.load(open('.aptfinder_phase.json', encoding='utf-8')).get('phase','main'))" 2>/dev/null || echo "main")
+            fi
+
+            if [ "$PHASE" = "main" ]; then
+              true
+            else
+              NAVER_PENDING=0
+              if [ -f "data/_naver_queue.json" ]; then
+                NAVER_PENDING=$(python -c "import json; print(len(json.load(open('data/_naver_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
+              fi
+
+              REPAIR_PENDING=0
+              if [ -f "data/_repair_queue.json" ]; then
+                REPAIR_PENDING=$(python -c "import json; print(len(json.load(open('data/_repair_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
+              fi
+
+              VERIFY_PENDING=0
+              if [ -f "data/_verify_queue.json" ]; then
+                VERIFY_PENDING=$(python -c "import json; print(len(json.load(open('data/_verify_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
+              fi
+
+              if [ "$NAVER_PENDING" -gt 0 ] || [ "$REPAIR_PENDING" -gt 0 ]; then
+                PHASE="repair"
+              elif [ "$VERIFY_PENDING" -gt 0 ]; then
+                PHASE="verify"
               fi
             fi
           fi
@@ -131,19 +154,7 @@ jobs:
         run: |
           set -e
 
-          MAX_RUNTIME_MINUTES="${{ github.event.inputs.max_runtime_minutes }}"
-          if [ -z "$MAX_RUNTIME_MINUTES" ]; then MAX_RUNTIME_MINUTES="330"; fi
-
-          # job timeout-minutes가 350분이므로 repair 내부 작업별 시간을 나눠서 강제 취소를 방지한다.
-          NAVER_QUEUE_RUNTIME_MINUTES=180
-          BUILD_REPAIR_QUEUE_RUNTIME_MINUTES=20
-          REPAIR_QUEUE_RUNTIME_MINUTES=120
-
           echo "PHASE=repair"
-          echo "MAX_RUNTIME_MINUTES=$MAX_RUNTIME_MINUTES"
-          echo "NAVER_QUEUE_RUNTIME_MINUTES=$NAVER_QUEUE_RUNTIME_MINUTES"
-          echo "BUILD_REPAIR_QUEUE_RUNTIME_MINUTES=$BUILD_REPAIR_QUEUE_RUNTIME_MINUTES"
-          echo "REPAIR_QUEUE_RUNTIME_MINUTES=$REPAIR_QUEUE_RUNTIME_MINUTES"
 
           NAVER_PENDING=0
           if [ -f "data/_naver_queue.json" ]; then
@@ -156,7 +167,7 @@ jobs:
             python -u scripts/generate_aptfinder_db.py \
               --naver-queue-only \
               --max-naver-queue-items 1500 \
-              --max-runtime-minutes "$NAVER_QUEUE_RUNTIME_MINUTES"
+              --max-runtime-minutes 160
           else
             echo "No naver queue pending."
           fi
@@ -164,7 +175,7 @@ jobs:
           echo "Build repair queue."
           python -u scripts/generate_aptfinder_db.py \
             --build-repair-queue \
-            --max-runtime-minutes "$BUILD_REPAIR_QUEUE_RUNTIME_MINUTES"
+            --max-runtime-minutes 25
 
           REPAIR_PENDING=0
           if [ -f "data/_repair_queue.json" ]; then
@@ -178,7 +189,7 @@ jobs:
               --repair-queue-only \
               --max-repair-items 1000 \
               --max-repair-per-region 80 \
-              --max-runtime-minutes "$REPAIR_QUEUE_RUNTIME_MINUTES"
+              --max-runtime-minutes 120
           else
             echo "No repair queue pending."
           fi
@@ -197,11 +208,75 @@ jobs:
           echo "REPAIR_LEFT=$REPAIR_LEFT"
 
           if [ "$NAVER_LEFT" -eq 0 ] && [ "$REPAIR_LEFT" -eq 0 ]; then
-            echo "Repair completed. Switch to main."
-            python -c "import json; from datetime import datetime; json.dump({'phase':'main','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_completed'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
+            echo "Repair completed. Build verify queue and switch to verify if needed."
+            python -u scripts/generate_aptfinder_db.py \
+              --build-verify-queue \
+              --max-runtime-minutes 30
+
+            VERIFY_PENDING=0
+            if [ -f "data/_verify_queue.json" ]; then
+              VERIFY_PENDING=$(python -c "import json; print(len(json.load(open('data/_verify_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
+            fi
+
+            echo "VERIFY_PENDING=$VERIFY_PENDING"
+
+            if [ "$VERIFY_PENDING" -gt 0 ]; then
+              python -c "import json; from datetime import datetime; json.dump({'phase':'verify','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_completed_verify_pending'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
+            else
+              python -c "import json; from datetime import datetime; json.dump({'phase':'main','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_completed_no_verify_pending'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
+            fi
           else
             echo "Repair still running. Keep repair."
             python -c "import json; from datetime import datetime; json.dump({'phase':'repair','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_still_running'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
+          fi
+
+      - name: Run K-apt single phone verification queue
+        if: steps.decide.outputs.phase == 'verify'
+        env:
+          PUBLIC_DATA_SERVICE_KEY: ${{ secrets.PUBLIC_DATA_SERVICE_KEY }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          KAKAO_DAILY_QUOTA: "100000"
+          KAKAO_RESERVED_FOR_APP: "500"
+          NAVER_DAILY_QUOTA: "25000"
+          NAVER_RESERVED_FOR_APP: "1000"
+          APTFINDER_SCAN_PROFILE: "balanced"
+        run: |
+          set -e
+
+          echo "PHASE=verify"
+
+          VERIFY_PENDING=0
+          if [ -f "data/_verify_queue.json" ]; then
+            VERIFY_PENDING=$(python -c "import json; print(len(json.load(open('data/_verify_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
+          fi
+
+          echo "VERIFY_PENDING=$VERIFY_PENDING"
+
+          if [ "$VERIFY_PENDING" -gt 0 ]; then
+            python -u scripts/generate_aptfinder_db.py \
+              --verify-queue-only \
+              --max-verify-items 700 \
+              --max-verify-per-region 60 \
+              --max-runtime-minutes 260
+          else
+            echo "No verify queue pending."
+          fi
+
+          VERIFY_LEFT=0
+          if [ -f "data/_verify_queue.json" ]; then
+            VERIFY_LEFT=$(python -c "import json; print(len(json.load(open('data/_verify_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
+          fi
+
+          echo "VERIFY_LEFT=$VERIFY_LEFT"
+
+          if [ "$VERIFY_LEFT" -eq 0 ]; then
+            echo "Verify completed. Switch to main."
+            python -c "import json; from datetime import datetime; json.dump({'phase':'main','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'verify_completed'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
+          else
+            echo "Verify still running. Keep verify."
+            python -c "import json; from datetime import datetime; json.dump({'phase':'verify','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'verify_still_running'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
           fi
 
       - name: Upload generated files as artifact
