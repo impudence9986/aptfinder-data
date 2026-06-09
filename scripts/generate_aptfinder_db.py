@@ -32,6 +32,7 @@ DATA_DIR = Path("data")
 STATE_PATH = Path("update_state.json")
 NAVER_QUEUE_PATH = DATA_DIR / "_naver_queue.json"
 REPAIR_QUEUE_PATH = DATA_DIR / "_repair_queue.json"
+VERIFY_QUEUE_PATH = DATA_DIR / "_verify_queue.json"
 
 KAPT_LIST_URL = "https://apis.data.go.kr/1613000/AptListService3/getTotalAptList3"
 KAPT_DETAIL_URL = "https://apis.data.go.kr/1613000/AptBasisInfoServiceV4/getAphusBassInfoV4"
@@ -2082,6 +2083,372 @@ class AptFinderGenerator:
         queue["updatedAt"] = now_text()
         with REPAIR_QUEUE_PATH.open("w", encoding="utf-8") as f:
             json.dump(queue, f, ensure_ascii=False, indent=2)
+
+    def load_verify_queue(self) -> dict:
+        if not VERIFY_QUEUE_PATH.exists():
+            return {"version": 1, "updatedAt": now_text(), "pending": [], "done": [], "giveUp": []}
+        try:
+            with VERIFY_QUEUE_PATH.open("r", encoding="utf-8") as f:
+                root = json.load(f)
+            if not isinstance(root, dict):
+                root = {}
+            root.setdefault("version", 1)
+            root.setdefault("updatedAt", now_text())
+            root.setdefault("pending", [])
+            root.setdefault("done", [])
+            root.setdefault("giveUp", [])
+            if not isinstance(root.get("pending"), list):
+                root["pending"] = []
+            if not isinstance(root.get("done"), list):
+                root["done"] = []
+            if not isinstance(root.get("giveUp"), list):
+                root["giveUp"] = []
+            return root
+        except Exception:
+            return {"version": 1, "updatedAt": now_text(), "pending": [], "done": [], "giveUp": []}
+
+    def save_verify_queue(self, queue: dict):
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+        queue["version"] = 1
+        queue["updatedAt"] = now_text()
+        with VERIFY_QUEUE_PATH.open("w", encoding="utf-8") as f:
+            json.dump(queue, f, ensure_ascii=False, indent=2)
+
+    def verify_key_for_item(self, file_name: str, sido: str, sigungu: str, item: ComplexItem) -> str:
+        base = item.sharedKey or self.make_shared_key(item) or item.name
+        addr = self.normalize_for_key(item.jibunAddress or item.roadAddress or item.address)
+        phone = normalize_phone(item.phone or "")
+        return f"VERIFY_KAPT_SINGLE|{file_name}|{sido}|{sigungu}|{base}|{addr}|{phone}"[:260]
+
+    def _phone_candidate_source_labels(self, item: ComplexItem) -> set:
+        labels = set()
+        for c in item.phoneCandidates or []:
+            counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
+            for k, v in counts.items():
+                if int(v or 0) > 0:
+                    labels.add(str(k))
+            src = c.get("source", "") or ""
+            for part in src.split(","):
+                part = part.strip()
+                if part:
+                    labels.add(self.normalize_source_label(part))
+        if item.source:
+            labels.add(self.normalize_source_label(item.source))
+        if item.verifiedAt:
+            labels.add(self.normalize_source_label(item.verifiedAt))
+        return labels
+
+    def should_queue_verify(self, item: ComplexItem) -> bool:
+        # K-apt 단독번호만 있는 정상 카드도, 전국 DB 완성 후 조금씩 교차검증한다.
+        if not item.phone:
+            return False
+
+        # 주소가 없으면 네이버부동산/114On 결과를 안전하게 같은 단지로 검증하기 어렵다.
+        if not self._strict_address_keys_for_merge(item):
+            return False
+
+        numbers = set()
+        for c in item.phoneCandidates or []:
+            p = normalize_phone(c.get("number", ""))
+            if p:
+                numbers.add(p)
+        if item.phone:
+            p = normalize_phone(item.phone)
+            if p:
+                numbers.add(p)
+
+        # 이미 번호 후보가 여러 개면 기존 repair/사용자 확인 대상에 가깝다.
+        if len(numbers) != 1:
+            return False
+
+        labels = self._phone_candidate_source_labels(item)
+        if "K-apt" not in labels:
+            return False
+
+        # 이미 교차검증 출처가 붙어 있으면 다시 verify 큐에 넣지 않는다.
+        for label in ["네이버부동산", "114On", "카카오", "네이버", "사용자제보"]:
+            if label in labels:
+                return False
+
+        return True
+
+    def build_verify_queue_from_files(self, max_items: int = 999999999):
+        queue = self.load_verify_queue()
+        pending = queue.get("pending", [])
+        done = queue.get("done", [])
+        give_up = queue.get("giveUp", [])
+
+        blocked_keys = set()
+        for group in (done, give_up):
+            for x in group:
+                if isinstance(x, dict) and x.get("key"):
+                    blocked_keys.add(x.get("key"))
+                elif isinstance(x, str):
+                    blocked_keys.add(x)
+
+        pending_by_key = {}
+        for p in pending:
+            if isinstance(p, dict) and p.get("key"):
+                pending_by_key[p["key"]] = p
+
+        added = 0
+        scanned_files = 0
+
+        for path in sorted(DATA_DIR.glob("*.json")):
+            if path.name.startswith("_"):
+                continue
+            try:
+                with path.open("r", encoding="utf-8") as f:
+                    root = json.load(f)
+                items = root.get("items", [])
+                if not isinstance(items, list):
+                    continue
+                sido = root.get("sido", "")
+                sigungu = root.get("sigungu", "")
+                file_name = f"data/{path.name}"
+                scanned_files += 1
+
+                for obj in items:
+                    if added >= max_items:
+                        break
+                    item = self.dict_to_item(obj if isinstance(obj, dict) else {})
+                    item.sido = item.sido or sido
+                    item.city = item.city or sigungu
+                    item.sharedKey = item.sharedKey or self.make_shared_key(item)
+
+                    if not self.should_queue_verify(item):
+                        continue
+
+                    key = self.verify_key_for_item(file_name, sido, sigungu, item)
+                    if key in blocked_keys:
+                        continue
+
+                    old = pending_by_key.get(key) or {}
+                    entry = {
+                        "key": key,
+                        "type": "VERIFY_KAPT_SINGLE",
+                        "region": f"{sido}|{sigungu}",
+                        "file": file_name,
+                        "sharedKey": item.sharedKey,
+                        "name": item.name,
+                        "address": item.address,
+                        "roadAddress": item.roadAddress,
+                        "jibunAddress": item.jibunAddress,
+                        "phone": item.phone,
+                        "confidenceScore": int(item.confidenceScore or 0),
+                        "phoneStatus": item.phoneStatus,
+                        "tries": int(old.get("tries") or 0),
+                        "lastError": old.get("lastError", ""),
+                        "updatedAt": now_text(),
+                    }
+                    if key not in pending_by_key:
+                        added += 1
+                    pending_by_key[key] = entry
+
+                if added >= max_items:
+                    break
+            except Exception as e:
+                print(f"검증 큐 스캔 실패: {path.name} / {e}")
+
+        queue["pending"] = list(pending_by_key.values())
+        self.save_verify_queue(queue)
+        print(f"K-apt 단독번호 검증 큐 생성/갱신 완료: 스캔 {scanned_files}개 파일 / 신규 {added}개 / 대기 {len(queue['pending'])}개")
+
+    def verify_kapt_single_item(self, item: ComplexItem) -> Tuple[ComplexItem, bool]:
+        before = json.dumps(self.item_to_dict(item), ensure_ascii=False, sort_keys=True)
+
+        # 기존 대표번호도 후보에 다시 정리한다.
+        if item.phone:
+            self.add_phone_candidate(item, item.phone, item.verifiedAt or item.source or "K-apt", item.confidenceScore or 100, "verify_existing")
+
+        # K-apt 번호가 있어도 네이버부동산 관리사무소는 교차검증으로 확인한다.
+        found_land = self.find_phone_naver_land_management_all(item)
+        for idx, phone in enumerate(found_land):
+            self.add_phone_candidate(
+                item,
+                phone,
+                "네이버부동산 관리사무소 검증",
+                95 if idx == 0 else 90,
+                "verify_naver_land"
+            )
+
+        # 114On은 네이버 웹/블로그/카페 스니펫에서 주소/단지명 맥락이 맞는 경우만 후보로 추가한다.
+        for kw in self.smart_phone_keywords(item, strong_existing_phone=True)[:4]:
+            found_web = self.find_phone_naver_web_sources_all(kw, item=item)
+            for phone, source in found_web:
+                if "114" in source:
+                    self.add_phone_candidate(item, phone, "114On 검증", 85, kw)
+                else:
+                    self.add_phone_candidate(item, phone, source, 40, kw)
+            time.sleep(self.phone_enrich_sleep)
+
+        item = self.finalize_phone_fields(item)
+        item.sharedKey = item.sharedKey or self.make_shared_key(item)
+        after = json.dumps(self.item_to_dict(item), ensure_ascii=False, sort_keys=True)
+        return item, before != after
+
+    def update_item_in_region_file_for_verify(self, file_path: Path, entry: dict) -> bool:
+        if not file_path.exists():
+            raise FileNotFoundError(f"지역 파일 없음: {file_path}")
+
+        with file_path.open("r", encoding="utf-8") as f:
+            root = json.load(f)
+
+        items = root.get("items", [])
+        if not isinstance(items, list):
+            raise ValueError("items 배열 없음")
+
+        sido = root.get("sido", "")
+        sigungu = root.get("sigungu", "")
+        target_shared = entry.get("sharedKey", "")
+        target_key = entry.get("key", "")
+
+        changed = False
+        matched = False
+        new_items = []
+
+        for obj in items:
+            item = self.dict_to_item(obj if isinstance(obj, dict) else {})
+            item.sido = item.sido or sido
+            item.city = item.city or sigungu
+            item.sharedKey = item.sharedKey or self.make_shared_key(item)
+            item_key = self.verify_key_for_item(f"data/{file_path.name}", sido, sigungu, item)
+
+            same = (
+                item_key == target_key
+                or (target_shared and item.sharedKey == target_shared)
+            )
+
+            if same and not matched:
+                matched = True
+                item, item_changed = self.verify_kapt_single_item(item)
+                changed = changed or item_changed
+
+            new_items.append(self.item_to_dict(item))
+
+        if not matched:
+            raise ValueError("검증 대상 항목 매칭 실패")
+
+        if changed:
+            root["items"] = new_items
+            root["count"] = len(new_items)
+            root["version"] = int(time.time())
+            root["updatedAt"] = now_text()
+            with file_path.open("w", encoding="utf-8") as f:
+                json.dump(root, f, ensure_ascii=False, indent=2)
+
+        return changed
+
+    def process_verify_queue(self, max_items: int = 500, max_per_region: int = 60):
+        queue = self.load_verify_queue()
+        pending = queue.get("pending", [])
+        done = queue.get("done", [])
+        give_up = queue.get("giveUp", [])
+
+        if not pending:
+            print("K-apt 단독번호 검증 큐 없음")
+            return
+
+        print(f"K-apt 단독번호 검증 큐 처리 시작: 대기 {len(pending)}개 / 이번 실행 최대 {max_items}개 / 지역당 최대 {max_per_region}개")
+
+        new_pending = []
+        processed_count = 0
+        changed_count = 0
+        region_counts: Dict[str, int] = {}
+
+        i = 0
+        while i < len(pending):
+            entry = pending[i]
+            i += 1
+
+            if not isinstance(entry, dict):
+                continue
+
+            region = entry.get("region", "")
+            if processed_count >= max_items:
+                new_pending.append(entry)
+                continue
+
+            if max_per_region > 0 and int(region_counts.get(region, 0)) >= max_per_region:
+                new_pending.append(entry)
+                continue
+
+            key = entry.get("key", "")
+            file_raw = entry.get("file", "")
+            file_path = OUTPUT_DIR / file_raw if file_raw else None
+
+            try:
+                if not key or file_path is None:
+                    raise ValueError("검증 큐 key/file 없음")
+
+                changed = self.update_item_in_region_file_for_verify(file_path, entry)
+                processed_count += 1
+                region_counts[region] = int(region_counts.get(region, 0)) + 1
+                if changed:
+                    changed_count += 1
+
+                done.append({
+                    "key": key,
+                    "type": entry.get("type", ""),
+                    "region": region,
+                    "file": entry.get("file", ""),
+                    "name": entry.get("name", ""),
+                    "processedAt": now_text(),
+                    "changed": changed,
+                })
+
+                queue["pending"] = new_pending + pending[i:]
+                queue["done"] = done
+                queue["giveUp"] = give_up
+                self.save_verify_queue(queue)
+
+                if processed_count % 20 == 0:
+                    print(f"  검증 큐 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(queue['pending'])}개")
+
+            except QuotaStop as e:
+                entry["tries"] = int(entry.get("tries") or 0) + 1
+                entry["lastError"] = str(e)
+                entry["updatedAt"] = now_text()
+                new_pending.append(entry)
+                new_pending.extend(pending[i:])
+                queue["pending"] = new_pending
+                queue["done"] = done
+                queue["giveUp"] = give_up
+                self.save_verify_queue(queue)
+                self.rebuild_metadata_from_output()
+                print(f"\n검증 큐 처리 중단: {e}")
+                print(f"처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(new_pending)}개")
+                return
+
+            except Exception as e:
+                entry["tries"] = int(entry.get("tries") or 0) + 1
+                entry["lastError"] = str(e)
+                entry["updatedAt"] = now_text()
+                if int(entry.get("tries") or 0) < 3:
+                    new_pending.append(entry)
+                else:
+                    give_up.append({
+                        "key": key,
+                        "type": entry.get("type", ""),
+                        "region": region,
+                        "file": entry.get("file", ""),
+                        "name": entry.get("name", ""),
+                        "processedAt": now_text(),
+                        "changed": False,
+                        "error": str(e),
+                    })
+
+                queue["pending"] = new_pending + pending[i:]
+                queue["done"] = done
+                queue["giveUp"] = give_up
+                self.save_verify_queue(queue)
+
+        queue["pending"] = new_pending
+        queue["done"] = done
+        queue["giveUp"] = give_up
+        self.save_verify_queue(queue)
+        self.rebuild_metadata_from_output()
+        print(f"K-apt 단독번호 검증 큐 처리 완료: 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(new_pending)}개 / 포기 {len(give_up)}개")
 
     def repair_key_for_item(self, file_name: str, sido: str, sigungu: str, item: ComplexItem, repair_type: str) -> str:
         base = item.sharedKey or self.make_shared_key(item) or self.make_merge_key(item) or item.name
@@ -4723,6 +5090,32 @@ def main():
     )
 
     parser.add_argument(
+        "--build-verify-queue",
+        action="store_true",
+        help="K-apt 단독번호 단지를 data/_verify_queue.json 검증 큐로 생성/갱신"
+    )
+
+    parser.add_argument(
+        "--verify-queue-only",
+        action="store_true",
+        help="지역 생성 없이 data/_verify_queue.json K-apt 단독번호 검증 큐만 처리"
+    )
+
+    parser.add_argument(
+        "--max-verify-items",
+        type=int,
+        default=500,
+        help="이번 실행에서 K-apt 단독번호 검증 큐를 최대 몇 항목 처리할지 제한"
+    )
+
+    parser.add_argument(
+        "--max-verify-per-region",
+        type=int,
+        default=60,
+        help="이번 실행에서 한 지역당 K-apt 단독번호 검증 큐를 최대 몇 항목 처리할지 제한"
+    )
+
+    parser.add_argument(
         "--debug-discovery",
         action="store_true",
         help="카카오/네이버 후보 수집의 채택/탈락 사유를 data/_debug_discovery_지역.jsonl에 저장"
@@ -4774,6 +5167,18 @@ def main():
         gen.process_repair_queue(
             max_items=args.max_repair_items,
             max_per_region=args.max_repair_per_region,
+        )
+        return
+
+    if args.build_verify_queue:
+        gen.build_verify_queue_from_files()
+        if not args.verify_queue_only:
+            return
+
+    if args.verify_queue_only:
+        gen.process_verify_queue(
+            max_items=args.max_verify_items,
+            max_per_region=args.max_verify_per_region,
         )
         return
 
