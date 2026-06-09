@@ -134,8 +134,16 @@ jobs:
           MAX_RUNTIME_MINUTES="${{ github.event.inputs.max_runtime_minutes }}"
           if [ -z "$MAX_RUNTIME_MINUTES" ]; then MAX_RUNTIME_MINUTES="330"; fi
 
+          # job timeout-minutes가 350분이므로 repair 내부 작업별 시간을 나눠서 강제 취소를 방지한다.
+          NAVER_QUEUE_RUNTIME_MINUTES=180
+          BUILD_REPAIR_QUEUE_RUNTIME_MINUTES=20
+          REPAIR_QUEUE_RUNTIME_MINUTES=120
+
           echo "PHASE=repair"
           echo "MAX_RUNTIME_MINUTES=$MAX_RUNTIME_MINUTES"
+          echo "NAVER_QUEUE_RUNTIME_MINUTES=$NAVER_QUEUE_RUNTIME_MINUTES"
+          echo "BUILD_REPAIR_QUEUE_RUNTIME_MINUTES=$BUILD_REPAIR_QUEUE_RUNTIME_MINUTES"
+          echo "REPAIR_QUEUE_RUNTIME_MINUTES=$REPAIR_QUEUE_RUNTIME_MINUTES"
 
           NAVER_PENDING=0
           if [ -f "data/_naver_queue.json" ]; then
@@ -148,7 +156,7 @@ jobs:
             python -u scripts/generate_aptfinder_db.py \
               --naver-queue-only \
               --max-naver-queue-items 1500 \
-              --max-runtime-minutes "$MAX_RUNTIME_MINUTES"
+              --max-runtime-minutes "$NAVER_QUEUE_RUNTIME_MINUTES"
           else
             echo "No naver queue pending."
           fi
@@ -156,7 +164,7 @@ jobs:
           echo "Build repair queue."
           python -u scripts/generate_aptfinder_db.py \
             --build-repair-queue \
-            --max-runtime-minutes 30
+            --max-runtime-minutes "$BUILD_REPAIR_QUEUE_RUNTIME_MINUTES"
 
           REPAIR_PENDING=0
           if [ -f "data/_repair_queue.json" ]; then
@@ -170,7 +178,7 @@ jobs:
               --repair-queue-only \
               --max-repair-items 1000 \
               --max-repair-per-region 80 \
-              --max-runtime-minutes "$MAX_RUNTIME_MINUTES"
+              --max-runtime-minutes "$REPAIR_QUEUE_RUNTIME_MINUTES"
           else
             echo "No repair queue pending."
           fi
