@@ -1686,30 +1686,97 @@ class AptFinderGenerator:
 
         return display, road, jibun, fixed_sido, district, dong
 
+    def force_fill_missing_jibun_before_save(self, item: ComplexItem, sido: str, sigungu: str) -> ComplexItem:
+        """
+        메인 DB 수집 중 저장 직전에 지번을 강제로 채운다.
+        기존 별도 fill_jibun_address.py가 하던 핵심 동작을 메인 수집기에 내장한 것이다.
+
+        원칙:
+        - roadAddress가 있고 jibunAddress가 비어 있으면 카카오 주소 API로 지번을 다시 조회한다.
+        - 카카오가 돌려준 주소가 현재 수집 지역과 맞을 때만 반영한다.
+        - 성공하면 address를 도로명\n지번 형태로 재작성하고 addressQuality를 ROAD_AND_JIBUN으로 올린다.
+        """
+        road = (item.roadAddress or "").strip()
+        jibun = (item.jibunAddress or "").strip()
+
+        if not road or jibun:
+            return item
+
+        try:
+            result = self.kakao_address_search(road)
+        except QuotaStop:
+            raise
+        except Exception as e:
+            print(f"  저장 전 지번 보강 예외: {item.name} / {road} / {e}")
+            return item
+
+        if not result:
+            return item
+
+        filled_road = (result.get("roadAddress") or "").strip()
+        filled_jibun = (result.get("jibunAddress") or "").strip()
+
+        if not filled_jibun:
+            return item
+
+        display = self.build_dual_address(filled_road or road, filled_jibun, "")
+
+        # 엉뚱한 지역 주소가 들어오는 것 방지
+        if display and not self.is_target_address(display, sido, sigungu):
+            return item
+
+        if filled_road:
+            item.roadAddress = filled_road
+
+        item.jibunAddress = filled_jibun
+        item.address = self.build_dual_address(item.roadAddress, item.jibunAddress, item.address)
+        item.addressQuality = "ROAD_AND_JIBUN"
+
+        if not item.dong:
+            item.dong = self.extract_dong(item.jibunAddress)
+
+        print(f"  저장 전 지번 보강 완료: {item.name} / {item.jibunAddress}")
+        return item
+
     def normalize_item_address(self, item: ComplexItem, sido: str, sigungu: str) -> ComplexItem:
+        original_road = (item.roadAddress or "").strip()
+        original_jibun = (item.jibunAddress or "").strip()
+        original_address = (item.address or "").strip()
+
+        raw_for_resolve = self.build_dual_address(original_road, original_jibun, original_address)
+
         display, road, jibun, fixed_sido, district, dong = self.resolve_dual_address(
-            item.address,
+            raw_for_resolve,
             item.name,
             sido,
             sigungu,
         )
 
-        item.sido = fixed_sido or sido
+        item.sido = fixed_sido or item.sido or sido
         item.city = sigungu
-        item.address = display or item.address
-        item.roadAddress = road
-        item.jibunAddress = jibun
+        item.address = display or raw_for_resolve or item.address
+
+        # resolve가 실패하거나 약하게 끝나도 기존 roadAddress/jibunAddress를 잃어버리지 않는다.
+        item.roadAddress = road or original_road
+        item.jibunAddress = jibun or original_jibun
 
         if not item.district:
-            item.district = district
+            item.district = district or self.extract_district(item.address or item.roadAddress or item.jibunAddress)
         if not item.dong:
-            item.dong = dong
+            item.dong = dong or self.extract_dong(item.jibunAddress or item.address or item.roadAddress)
 
-        if road and jibun:
+        # 핵심 패치: 도로명만 있는 항목은 저장 전 반드시 한 번 더 지번 보강을 시도한다.
+        item = self.force_fill_missing_jibun_before_save(item, sido, sigungu)
+
+        road_final = (item.roadAddress or "").strip()
+        jibun_final = (item.jibunAddress or "").strip()
+
+        if road_final and jibun_final:
+            item.address = self.build_dual_address(road_final, jibun_final, item.address)
             item.addressQuality = "ROAD_AND_JIBUN"
-        elif road:
+        elif road_final:
             item.addressQuality = "ROAD_ONLY"
-        elif jibun:
+        elif jibun_final:
             item.addressQuality = "JIBUN_ONLY"
         else:
             item.addressQuality = "RAW"
