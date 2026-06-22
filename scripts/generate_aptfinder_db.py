@@ -2951,10 +2951,26 @@ class AptFinderGenerator:
         processed_count = 0
         changed_count = 0
 
-        for entry in pending:
+        def checkpoint(next_index: int, reason: str = "checkpoint"):
+            """
+            GitHub Actions가 외부에서 취소되더라도 이미 처리한 네이버 큐가
+            다음 실행에서 다시 반복되지 않도록 진행상황을 즉시 저장한다.
+            """
+            queue["pending"] = new_pending + pending[next_index:]
+            queue["done"] = done
+            self.save_naver_queue(queue)
+
+            # metadata 재생성은 비용이 있으므로 매 체크포인트마다 하지 않고,
+            # 정상 종료/QuotaStop 시점에만 수행한다.
+            print(
+                f"  네이버 큐 저장({reason}): 처리 {processed_count}개 / "
+                f"변경 {changed_count}개 / 남은 {len(queue['pending'])}개"
+            )
+
+        for i, entry in enumerate(pending):
             if processed_count >= max_items:
-                new_pending.append(entry)
-                continue
+                new_pending.extend(pending[i:])
+                break
 
             if not isinstance(entry, dict):
                 continue
@@ -2967,7 +2983,12 @@ class AptFinderGenerator:
                 if not key or file_path is None or not file_path.exists():
                     entry["tries"] = int(entry.get("tries") or 0) + 1
                     entry["lastError"] = "지역 파일 없음"
+                    entry["updatedAt"] = now_text()
                     new_pending.append(entry)
+
+                    if processed_count % 20 == 0:
+                        checkpoint(i + 1, "missing-file")
+
                     continue
 
                 changed = self.update_item_in_region_file(file_path, key)
@@ -2985,26 +3006,26 @@ class AptFinderGenerator:
                 })
 
                 if processed_count % 20 == 0:
-                    print(f"  네이버 큐 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(pending) - processed_count}개")
+                    print(f"  네이버 큐 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(pending) - i - 1}개")
+                    checkpoint(i + 1, "20-items")
 
             except QuotaStop as e:
                 entry["tries"] = int(entry.get("tries") or 0) + 1
                 entry["lastError"] = str(e)
+                entry["updatedAt"] = now_text()
                 new_pending.append(entry)
-                idx = pending.index(entry)
-                new_pending.extend(pending[idx + 1:])
-                queue["pending"] = new_pending
-                queue["done"] = done
-                self.save_naver_queue(queue)
+
+                checkpoint(i + 1, "quota-stop")
                 self.rebuild_metadata_from_output()
                 print(f"\n네이버 보강 큐 처리 중단: {e}")
-                print(f"처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(new_pending)}개")
+                print(f"처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(queue.get('pending', []))}개")
                 return
 
             except Exception as e:
                 entry["tries"] = int(entry.get("tries") or 0) + 1
                 entry["lastError"] = str(e)
                 entry["updatedAt"] = now_text()
+
                 if int(entry.get("tries") or 0) < 3:
                     new_pending.append(entry)
                 else:
@@ -3017,6 +3038,9 @@ class AptFinderGenerator:
                         "changed": False,
                         "error": str(e),
                     })
+
+                # 에러 항목도 바로 저장해서 같은 항목에서 무한 반복되지 않게 한다.
+                checkpoint(i + 1, "exception")
 
         queue["pending"] = new_pending
         queue["done"] = done
