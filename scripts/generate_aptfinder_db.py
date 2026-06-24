@@ -2107,30 +2107,48 @@ class AptFinderGenerator:
 
     def load_naver_queue(self) -> dict:
         if not NAVER_QUEUE_PATH.exists():
-            return {"version": 1, "updatedAt": now_text(), "pending": [], "done": []}
+            return {"version": 2, "updatedAt": now_text(), "pending": [], "deepPending": [], "done": []}
         try:
             with NAVER_QUEUE_PATH.open("r", encoding="utf-8") as f:
                 root = json.load(f)
             if not isinstance(root, dict):
                 root = {}
-            root.setdefault("version", 1)
+            root.setdefault("version", 2)
             root.setdefault("updatedAt", now_text())
             root.setdefault("pending", [])
+            root.setdefault("deepPending", [])
             root.setdefault("done", [])
             if not isinstance(root.get("pending"), list):
                 root["pending"] = []
+            if not isinstance(root.get("deepPending"), list):
+                root["deepPending"] = []
             if not isinstance(root.get("done"), list):
                 root["done"] = []
             return root
         except Exception:
-            return {"version": 1, "updatedAt": now_text(), "pending": [], "done": []}
+            return {"version": 2, "updatedAt": now_text(), "pending": [], "deepPending": [], "done": []}
 
     def save_naver_queue(self, queue: dict):
         DATA_DIR.mkdir(parents=True, exist_ok=True)
-        queue["version"] = 1
+        queue["version"] = 2
         queue["updatedAt"] = now_text()
-        with NAVER_QUEUE_PATH.open("w", encoding="utf-8") as f:
+        tmp_path = NAVER_QUEUE_PATH.with_suffix(NAVER_QUEUE_PATH.suffix + ".tmp")
+        with tmp_path.open("w", encoding="utf-8") as f:
             json.dump(queue, f, ensure_ascii=False, indent=2)
+        tmp_path.replace(NAVER_QUEUE_PATH)
+
+    def should_enqueue_naver_deep(self, item: ComplexItem) -> bool:
+        """
+        빠른 네이버 1차 보강(Local + 네이버부동산) 후에도 번호가 약하면
+        느린 Web/Blog/Cafe/114On 2차 큐로 넘긴다.
+        """
+        if not item.phone:
+            return True
+        if item.phoneStatus != "CONFIRMED":
+            return True
+        if int(item.confidenceScore or 0) < 85:
+            return True
+        return False
 
     def queue_key_for_item(self, sido: str, sigungu: str, item: ComplexItem) -> str:
         base = item.sharedKey or self.make_shared_key(item) or self.make_merge_key(item) or item.name
@@ -2892,18 +2910,31 @@ class AptFinderGenerator:
         clean = {k: v for k, v in (obj or {}).items() if k in allowed}
         return ComplexItem(**clean)
 
-    def update_item_in_region_file(self, file_path: Path, target_key: str) -> bool:
+    def update_item_in_region_file(self, file_path: Path, target_key: str, naver_mode: str = "fast") -> Tuple[bool, bool]:
+        """
+        naver_mode=fast : 네이버부동산 + 네이버 Local만 사용한다. Web/Blog/Cafe/114On은 절대 호출하지 않는다.
+        naver_mode=deep : 느린 Web/Blog/Cafe/114On까지 사용한다.
+        naver_mode=all  : 기존 방식과 유사하게 Local + Web까지 한 번에 사용한다.
+
+        return: (changed, needs_deep)
+        """
         if not file_path.exists():
-            return False
+            return False, False
 
         with file_path.open("r", encoding="utf-8") as f:
             root = json.load(f)
 
         items = root.get("items", [])
         if not isinstance(items, list):
-            return False
+            return False, False
+
+        naver_mode = (naver_mode or "fast").strip().lower()
+        use_naver_web = naver_mode in ("deep", "all", "full")
+        use_naver_local = True
+        skip_web_phone = False  # False여야 네이버부동산 관리사무소 검색은 유지된다.
 
         changed = False
+        needs_deep = False
         new_items = []
 
         for obj in items:
@@ -2916,13 +2947,14 @@ class AptFinderGenerator:
                 before_score = int(item.confidenceScore or 0)
                 item = self.enrich_phone(
                     item,
-                    skip_web_phone=False,
+                    skip_web_phone=skip_web_phone,
                     use_kakao=False,
-                    use_naver_local=True,
-                    use_naver_web=True,
+                    use_naver_local=use_naver_local,
+                    use_naver_web=use_naver_web,
                 )
                 item.sharedKey = item.sharedKey or self.make_shared_key(item)
                 changed = changed or (item.phone != before_phone) or (int(item.confidenceScore or 0) != before_score)
+                needs_deep = needs_deep or (naver_mode == "fast" and self.should_enqueue_naver_deep(item))
 
             new_items.append(self.item_to_dict(item))
 
@@ -2931,40 +2963,73 @@ class AptFinderGenerator:
             root["count"] = len(new_items)
             root["version"] = int(time.time())
             root["updatedAt"] = now_text()
-            with file_path.open("w", encoding="utf-8") as f:
+            tmp_path = file_path.with_suffix(file_path.suffix + ".tmp")
+            with tmp_path.open("w", encoding="utf-8") as f:
                 json.dump(root, f, ensure_ascii=False, indent=2)
+            tmp_path.replace(file_path)
 
-        return changed
+        return changed, needs_deep
 
-    def process_naver_queue(self, max_items: int = 999999999):
+    def process_naver_queue(self, max_items: int = 999999999, mode: str = "fast"):
+        """
+        fast: data/_naver_queue.json pending을 빠르게 처리한다.
+              네이버부동산 + 네이버 Local만 사용하고, 그래도 약한 항목은 deepPending으로 넘긴다.
+        deep: deepPending만 처리한다. Web/Blog/Cafe/114On까지 사용하므로 느리다.
+        all : pending을 기존처럼 Local + Web까지 한 번에 처리한다. 비추천.
+        """
         queue = self.load_naver_queue()
-        pending = queue.get("pending", [])
+        mode = (mode or "fast").strip().lower()
+        if mode not in ("fast", "deep", "all", "full"):
+            mode = "fast"
+        if mode == "full":
+            mode = "all"
+
+        source_key = "deepPending" if mode == "deep" else "pending"
+        pending = queue.get(source_key, [])
         done = queue.get("done", [])
+        deep_pending = queue.get("deepPending", [])
 
         if not pending:
-            print("네이버 보강 큐 없음")
+            print(f"네이버 보강 큐 없음: mode={mode} / source={source_key}")
             return
 
-        print(f"네이버 보강 큐 처리 시작: 대기 {len(pending)}개")
+        print(
+            f"네이버 보강 큐 처리 시작: mode={mode} / "
+            f"대기 {len(pending)}개 / deep대기 {len(deep_pending)}개 / 이번 실행 최대 {max_items}개"
+        )
 
         new_pending = []
         processed_count = 0
         changed_count = 0
+        deep_added_count = 0
+        deep_keys = set()
+        for d in deep_pending:
+            if isinstance(d, dict) and d.get("key"):
+                deep_keys.add(d.get("key"))
+
+        def add_deep_pending(entry: dict):
+            nonlocal deep_added_count
+            key = entry.get("key", "")
+            if not key or key in deep_keys:
+                return
+            copied = dict(entry)
+            copied["stage"] = "deep"
+            copied["updatedAt"] = now_text()
+            copied["lastError"] = copied.get("lastError", "")
+            deep_pending.append(copied)
+            deep_keys.add(key)
+            deep_added_count += 1
 
         def checkpoint(next_index: int, reason: str = "checkpoint"):
-            """
-            GitHub Actions가 외부에서 취소되더라도 이미 처리한 네이버 큐가
-            다음 실행에서 다시 반복되지 않도록 진행상황을 즉시 저장한다.
-            """
-            queue["pending"] = new_pending + pending[next_index:]
+            # 현재 처리 중인 소스 큐만 갱신한다. fast 처리 중 deepPending은 별도 유지/추가된다.
+            queue[source_key] = new_pending + pending[next_index:]
+            queue["deepPending"] = deep_pending
             queue["done"] = done
             self.save_naver_queue(queue)
-
-            # metadata 재생성은 비용이 있으므로 매 체크포인트마다 하지 않고,
-            # 정상 종료/QuotaStop 시점에만 수행한다.
             print(
-                f"  네이버 큐 저장({reason}): 처리 {processed_count}개 / "
-                f"변경 {changed_count}개 / 남은 {len(queue['pending'])}개"
+                f"  네이버 큐 저장({reason}): mode={mode} / 처리 {processed_count}개 / "
+                f"변경 {changed_count}개 / deep추가 {deep_added_count}개 / "
+                f"남은 {len(queue[source_key])}개 / deep대기 {len(queue.get('deepPending', []))}개"
             )
 
         for i, entry in enumerate(pending):
@@ -2985,29 +3050,34 @@ class AptFinderGenerator:
                     entry["lastError"] = "지역 파일 없음"
                     entry["updatedAt"] = now_text()
                     new_pending.append(entry)
-
-                    if processed_count % 20 == 0:
-                        checkpoint(i + 1, "missing-file")
-
+                    checkpoint(i + 1, "missing-file")
                     continue
 
-                changed = self.update_item_in_region_file(file_path, key)
+                changed, needs_deep = self.update_item_in_region_file(file_path, key, naver_mode=mode)
                 processed_count += 1
                 if changed:
                     changed_count += 1
+                if mode == "fast" and needs_deep:
+                    add_deep_pending(entry)
 
                 done.append({
                     "key": key,
+                    "stage": mode,
                     "region": entry.get("region", ""),
                     "file": entry.get("file", ""),
                     "name": entry.get("name", ""),
                     "processedAt": now_text(),
                     "changed": changed,
+                    "needsDeep": bool(needs_deep),
                 })
 
-                if processed_count % 20 == 0:
-                    print(f"  네이버 큐 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(pending) - i - 1}개")
-                    checkpoint(i + 1, "20-items")
+                # GitHub 강제취소 대비: 5개마다 저장한다.
+                if processed_count % 5 == 0:
+                    print(
+                        f"  네이버 큐 처리 {processed_count}개 / 변경 {changed_count}개 / "
+                        f"deep추가 {deep_added_count}개 / 남은 {len(pending) - i - 1}개"
+                    )
+                    checkpoint(i + 1, "5-items")
 
             except QuotaStop as e:
                 entry["tries"] = int(entry.get("tries") or 0) + 1
@@ -3018,7 +3088,10 @@ class AptFinderGenerator:
                 checkpoint(i + 1, "quota-stop")
                 self.rebuild_metadata_from_output()
                 print(f"\n네이버 보강 큐 처리 중단: {e}")
-                print(f"처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(queue.get('pending', []))}개")
+                print(
+                    f"처리 {processed_count}개 / 변경 {changed_count}개 / "
+                    f"deep추가 {deep_added_count}개 / 남은 {len(queue.get(source_key, []))}개"
+                )
                 return
 
             except Exception as e:
@@ -3031,6 +3104,7 @@ class AptFinderGenerator:
                 else:
                     done.append({
                         "key": key,
+                        "stage": mode,
                         "region": entry.get("region", ""),
                         "file": entry.get("file", ""),
                         "name": entry.get("name", ""),
@@ -3039,14 +3113,18 @@ class AptFinderGenerator:
                         "error": str(e),
                     })
 
-                # 에러 항목도 바로 저장해서 같은 항목에서 무한 반복되지 않게 한다.
                 checkpoint(i + 1, "exception")
 
-        queue["pending"] = new_pending
+        queue[source_key] = new_pending
+        queue["deepPending"] = deep_pending
         queue["done"] = done
         self.save_naver_queue(queue)
         self.rebuild_metadata_from_output()
-        print(f"네이버 보강 큐 처리 완료: 처리 {processed_count}개 / 변경 {changed_count}개 / 남은 {len(new_pending)}개")
+        print(
+            f"네이버 보강 큐 처리 완료: mode={mode} / 처리 {processed_count}개 / "
+            f"변경 {changed_count}개 / deep추가 {deep_added_count}개 / "
+            f"남은 {len(new_pending)}개 / deep대기 {len(deep_pending)}개"
+        )
 
     def mark_existing_address_quality(self, item: ComplexItem) -> ComplexItem:
         address = item.address or ""
@@ -5255,6 +5333,13 @@ def main():
         help="이번 실행에서 네이버 큐를 최대 몇 항목 처리할지 제한"
     )
 
+    parser.add_argument(
+        "--naver-queue-mode",
+        choices=["fast", "deep", "all"],
+        default="fast",
+        help="fast=네이버부동산+Local만 빠르게, deep=Web/Blog/Cafe/114On 2차, all=기존처럼 한 번에 전체"
+    )
+
 
     parser.add_argument(
         "--build-repair-queue",
@@ -5376,7 +5461,7 @@ def main():
         return
 
     if args.naver_queue_only:
-        gen.process_naver_queue(max_items=args.max_naver_queue_items)
+        gen.process_naver_queue(max_items=args.max_naver_queue_items, mode=args.naver_queue_mode)
         return
 
     gen.run_regions(
