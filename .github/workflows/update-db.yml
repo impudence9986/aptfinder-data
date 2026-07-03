@@ -166,8 +166,23 @@ jobs:
           if [ "$NAVER_PENDING" -gt 0 ]; then
             python -u scripts/generate_aptfinder_db.py \
               --naver-queue-only \
-              --max-naver-queue-items 1500 \
-              --max-runtime-minutes 160
+              --max-naver-queue-items 500 \
+              --max-runtime-minutes 80
+
+
+          echo "Intermediate save after queue processing."
+
+          git config user.name "aptfinder-bot"
+          git config user.email "aptfinder-bot@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+
+          git add data/ metadata.json update_state.json .aptfinder_phase.json || true
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto save AptFinder progress"
+            git pull --rebase origin "$GITHUB_REF_NAME" || true
+            git push origin HEAD:"$GITHUB_REF_NAME" || true
+          fi
           else
             echo "No naver queue pending."
           fi
@@ -187,9 +202,24 @@ jobs:
           if [ "$REPAIR_PENDING" -gt 0 ]; then
             python -u scripts/generate_aptfinder_db.py \
               --repair-queue-only \
-              --max-repair-items 1000 \
-              --max-repair-per-region 80 \
-              --max-runtime-minutes 120
+              --max-repair-items 300 \
+              --max-repair-per-region 30 \
+              --max-runtime-minutes 60
+
+
+          echo "Intermediate save after queue processing."
+
+          git config user.name "aptfinder-bot"
+          git config user.email "aptfinder-bot@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+
+          git add data/ metadata.json update_state.json .aptfinder_phase.json || true
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Auto save AptFinder progress"
+            git pull --rebase origin "$GITHUB_REF_NAME" || true
+            git push origin HEAD:"$GITHUB_REF_NAME" || true
+          fi
           else
             echo "No repair queue pending."
           fi
