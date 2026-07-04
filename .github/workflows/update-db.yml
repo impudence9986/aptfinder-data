@@ -154,6 +154,24 @@ jobs:
         run: |
           set -e
 
+          save_progress() {
+            echo "Save AptFinder progress."
+
+            git config user.name "aptfinder-bot"
+            git config user.email "aptfinder-bot@users.noreply.github.com"
+            git remote set-url origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+
+            git add data/ metadata.json update_state.json .aptfinder_phase.json || true
+
+            if ! git diff --cached --quiet; then
+              git commit -m "Auto save AptFinder progress"
+              git pull --rebase origin "$GITHUB_REF_NAME" || true
+              git push origin HEAD:"$GITHUB_REF_NAME" || true
+            else
+              echo "No intermediate changes to commit."
+            fi
+          }
+
           echo "PHASE=repair"
 
           NAVER_PENDING=0
@@ -169,22 +187,26 @@ jobs:
               --max-naver-queue-items 500 \
               --max-runtime-minutes 80
 
+            NAVER_LEFT=0
+            if [ -f "data/_naver_queue.json" ]; then
+              NAVER_LEFT=$(python -c "import json; print(len(json.load(open('data/_naver_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
+            fi
 
-          echo "Intermediate save after queue processing."
+            echo "NAVER_LEFT=$NAVER_LEFT"
 
-          git config user.name "aptfinder-bot"
-          git config user.email "aptfinder-bot@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+            if [ "$NAVER_LEFT" -gt 0 ]; then
+              echo "Naver queue still remains. Keep repair and skip repair queue for this run."
+              python -c "import json; from datetime import datetime; json.dump({'phase':'repair','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'naver_queue_still_running'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
+              save_progress
+              exit 0
+            fi
 
-          git add data/ metadata.json update_state.json .aptfinder_phase.json || true
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto save AptFinder progress"
-            git pull --rebase origin "$GITHUB_REF_NAME" || true
-            git push origin HEAD:"$GITHUB_REF_NAME" || true
-          fi
+            echo "Naver queue completed in this run. Save and stop before repair queue."
+            python -c "import json; from datetime import datetime; json.dump({'phase':'repair','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'naver_queue_completed_wait_next_run'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
+            save_progress
+            exit 0
           else
-            echo "No naver queue pending."
+            echo "No naver queue pending. Continue to repair queue."
           fi
 
           echo "Build repair queue."
@@ -206,58 +228,44 @@ jobs:
               --max-repair-per-region 30 \
               --max-runtime-minutes 60
 
+            REPAIR_LEFT=0
+            if [ -f "data/_repair_queue.json" ]; then
+              REPAIR_LEFT=$(python -c "import json; print(len(json.load(open('data/_repair_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
+            fi
 
-          echo "Intermediate save after queue processing."
+            echo "REPAIR_LEFT=$REPAIR_LEFT"
 
-          git config user.name "aptfinder-bot"
-          git config user.email "aptfinder-bot@users.noreply.github.com"
-          git remote set-url origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+            if [ "$REPAIR_LEFT" -gt 0 ]; then
+              echo "Repair queue still remains. Keep repair and stop this run."
+              python -c "import json; from datetime import datetime; json.dump({'phase':'repair','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_still_running'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
+              save_progress
+              exit 0
+            fi
 
-          git add data/ metadata.json update_state.json .aptfinder_phase.json || true
-
-          if ! git diff --cached --quiet; then
-            git commit -m "Auto save AptFinder progress"
-            git pull --rebase origin "$GITHUB_REF_NAME" || true
-            git push origin HEAD:"$GITHUB_REF_NAME" || true
-          fi
+            echo "Repair queue completed in this run. Save and stop before verify queue."
+            python -c "import json; from datetime import datetime; json.dump({'phase':'repair','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_queue_completed_wait_next_run'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
+            save_progress
+            exit 0
           else
             echo "No repair queue pending."
           fi
 
-          NAVER_LEFT=0
-          if [ -f "data/_naver_queue.json" ]; then
-            NAVER_LEFT=$(python -c "import json; print(len(json.load(open('data/_naver_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
+          echo "Repair completed. Build verify queue and switch to verify if needed."
+          python -u scripts/generate_aptfinder_db.py \
+            --build-verify-queue \
+            --max-runtime-minutes 30
+
+          VERIFY_PENDING=0
+          if [ -f "data/_verify_queue.json" ]; then
+            VERIFY_PENDING=$(python -c "import json; print(len(json.load(open('data/_verify_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
           fi
 
-          REPAIR_LEFT=0
-          if [ -f "data/_repair_queue.json" ]; then
-            REPAIR_LEFT=$(python -c "import json; print(len(json.load(open('data/_repair_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
-          fi
+          echo "VERIFY_PENDING=$VERIFY_PENDING"
 
-          echo "NAVER_LEFT=$NAVER_LEFT"
-          echo "REPAIR_LEFT=$REPAIR_LEFT"
-
-          if [ "$NAVER_LEFT" -eq 0 ] && [ "$REPAIR_LEFT" -eq 0 ]; then
-            echo "Repair completed. Build verify queue and switch to verify if needed."
-            python -u scripts/generate_aptfinder_db.py \
-              --build-verify-queue \
-              --max-runtime-minutes 30
-
-            VERIFY_PENDING=0
-            if [ -f "data/_verify_queue.json" ]; then
-              VERIFY_PENDING=$(python -c "import json; print(len(json.load(open('data/_verify_queue.json', encoding='utf-8')).get('pending', [])))" 2>/dev/null || echo "0")
-            fi
-
-            echo "VERIFY_PENDING=$VERIFY_PENDING"
-
-            if [ "$VERIFY_PENDING" -gt 0 ]; then
-              python -c "import json; from datetime import datetime; json.dump({'phase':'verify','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_completed_verify_pending'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
-            else
-              python -c "import json; from datetime import datetime; json.dump({'phase':'main','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_completed_no_verify_pending'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
-            fi
+          if [ "$VERIFY_PENDING" -gt 0 ]; then
+            python -c "import json; from datetime import datetime; json.dump({'phase':'verify','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_completed_verify_pending'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
           else
-            echo "Repair still running. Keep repair."
-            python -c "import json; from datetime import datetime; json.dump({'phase':'repair','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_still_running'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
+            python -c "import json; from datetime import datetime; json.dump({'phase':'main','updatedAt':datetime.now().strftime('%Y-%m-%d %H:%M:%S'),'reason':'repair_completed_no_verify_pending'}, open('.aptfinder_phase.json','w',encoding='utf-8'), ensure_ascii=False, indent=2)"
           fi
 
       - name: Run K-apt single phone verification queue
