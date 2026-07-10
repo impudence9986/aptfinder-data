@@ -161,12 +161,32 @@ jobs:
             git config user.email "aptfinder-bot@users.noreply.github.com"
             git remote set-url origin https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
 
-            git add data/ metadata.json update_state.json .aptfinder_phase.json || true
+            # 존재하는 파일은 추가하고, Git에서 삭제된 추적 파일도 정상 반영합니다.
+            git add -A -- data metadata.json .aptfinder_phase.json
+            if [ -e "update_state.json" ] || git ls-files --error-unmatch update_state.json >/dev/null 2>&1; then
+              git add -A -- update_state.json
+            fi
 
             if ! git diff --cached --quiet; then
               git commit -m "Auto save AptFinder progress"
-              git pull --rebase origin "$GITHUB_REF_NAME" || true
-              git push origin HEAD:"$GITHUB_REF_NAME" || true
+
+              for i in 1 2 3; do
+                echo "Intermediate push attempt $i..."
+                git pull --rebase origin "$GITHUB_REF_NAME" || true
+
+                if git push origin HEAD:"$GITHUB_REF_NAME"; then
+                  echo "Intermediate push success."
+                  break
+                fi
+
+                if [ "$i" -eq 3 ]; then
+                  echo "Intermediate push failed after 3 attempts."
+                  return 1
+                fi
+
+                echo "Intermediate push failed. Retrying in 10 seconds..."
+                sleep 10
+              done
             else
               echo "No intermediate changes to commit."
             fi
@@ -341,7 +361,11 @@ jobs:
           BRANCH="${GITHUB_REF_NAME}"
           echo "Current branch: $BRANCH"
 
-          git add data/ metadata.json update_state.json .aptfinder_phase.json || true
+          # 존재하는 파일은 추가하고, Git에서 삭제된 추적 파일도 정상 반영합니다.
+          git add -A -- data metadata.json .aptfinder_phase.json
+          if [ -e "update_state.json" ] || git ls-files --error-unmatch update_state.json >/dev/null 2>&1; then
+            git add -A -- update_state.json
+          fi
 
           if git diff --cached --quiet; then
             echo "No changes to commit."
