@@ -1,6 +1,6 @@
 {
-  "version": 1783794793,
-  "updatedAt": "2026-07-11 18:33:13",
+  "version": 1783877688,
+  "updatedAt": "2026-07-12 17:34:48",
   "sido": "경기도",
   "sigungu": "성남시",
   "count": 550,
@@ -14754,12 +14754,14 @@
         {
           "number": "031-711-9644",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 11
           },
           "sourceDetails": {
+            "K-apt 10회": 1,
+            "K-apt 8회": 2,
             "K-apt 7회": 1,
             "K-apt 6회": 1,
             "K-apt 5회": 1,
@@ -14768,12 +14770,12 @@
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 11회"
         }
       ],
       "households": "3028",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "K-apt 11회",
       "detailUpdatedAt": 1781023275296,
       "listUpdatedAt": 1781023275296,
       "phoneStatus": "CONFIRMED",
@@ -18682,20 +18684,41 @@
       "address": "경기 성남시 중원구 산성대로426번길 5\n경기 성남시 중원구 금광동 4622",
       "roadAddress": "경기 성남시 중원구 산성대로426번길 5",
       "jibunAddress": "경기 성남시 중원구 금광동 4622",
-      "phone": "061-794-0204",
+      "phone": "031-733-5214",
       "phones": [
-        "061-794-0204"
+        "031-733-5214",
+        "061-794-0204",
+        "031-747-3919",
+        "031-745-0725"
       ],
       "phoneCandidates": [
         {
-          "number": "061-794-0204",
+          "number": "031-733-5214",
           "score": 100,
-          "source": "카카오 13회, 카카오 12회, 카카오 11회, 카카오 9회, 카카오 7회, 카카오 5회, 카카오 3회, 카카오 1회",
-          "keyword": "금광아파트 관리사무소, 금광아파트 관리실, 금광 관리사무소, 금광 관리실, 금광아파트 관리단, 금광 관리단",
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 14
+            "네이버부동산": 4
           },
           "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "061-794-0204",
+          "score": 100,
+          "source": "카카오 16회, 카카오 14회, 카카오 13회, 카카오 12회, 카카오 11회, 카카오 9회, 카카오 7회, 카카오 5회, 카카오 3회, 카카오 1회",
+          "keyword": "금광아파트 관리사무소, 금광아파트 관리실, 금광 관리사무소, 금광 관리실, 금광아파트 관리단, 금광 관리단, existing",
+          "sourceCounts": {
+            "카카오": 17
+          },
+          "sourceDetails": {
+            "카카오 16회": 1,
+            "카카오 14회": 2,
             "카카오 13회": 1,
             "카카오 12회": 1,
             "카카오 11회": 1,
@@ -18706,12 +18729,38 @@
             "카카오 1회": 1,
             "카카오 주소일치 전화번호 보강": 6
           },
-          "sourceSummary": "카카오 14회"
+          "sourceSummary": "카카오 17회"
+        },
+        {
+          "number": "031-747-3919",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-745-0725",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 14회",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
@@ -18738,17 +18787,64 @@
       "address": "경기 성남시 중원구 산성대로426번길 2\n경기 성남시 중원구 금광동 4610",
       "roadAddress": "경기 성남시 중원구 산성대로426번길 2",
       "jibunAddress": "경기 성남시 중원구 금광동 4610",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8016-0111",
+      "phones": [
+        "031-8016-0111",
+        "031-733-5214",
+        "031-707-0127"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8016-0111",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-733-5214",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-707-0127",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_금광dreampalace"
@@ -19062,17 +19158,64 @@
       "address": "경기 성남시 중원구 자혜로54번길 8\n경기 성남시 중원구 금광동 2892",
       "roadAddress": "경기 성남시 중원구 자혜로54번길 8",
       "jibunAddress": "경기 성남시 중원구 금광동 2892",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-733-5214",
+      "phones": [
+        "031-733-5214",
+        "031-8016-0111",
+        "031-734-0974"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-733-5214",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-8016-0111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-734-0974",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_용평금광"
@@ -23260,17 +23403,64 @@
       "address": "경기 성남시 분당구 황새울로 196\n경기 성남시 분당구 수내동 22-1",
       "roadAddress": "경기 성남시 분당구 황새울로 196",
       "jibunAddress": "경기 성남시 분당구 수내동 22-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-711-0929",
+      "phones": [
+        "031-711-0929",
+        "031-728-8800",
+        "031-726-4157"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-711-0929",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-728-8800",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-726-4157",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_수내퍼스티플러스"
@@ -23442,17 +23632,64 @@
       "address": "경기 성남시 분당구 내정로165번길 35\n경기 성남시 분당구 수내동 24",
       "roadAddress": "경기 성남시 분당구 내정로165번길 35",
       "jibunAddress": "경기 성남시 분당구 수내동 24",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-716-9407",
+      "phones": [
+        "031-716-9407",
+        "031-711-2108",
+        "031-711-2060"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-716-9407",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-711-2108",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-711-2060",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_양지마을5한양"
@@ -23526,17 +23763,49 @@
       "address": "경기 성남시 분당구 황새울로258번길 35\n경기 성남시 분당구 수내동 6-6",
       "roadAddress": "경기 성남시 분당구 황새울로258번길 35",
       "jibunAddress": "경기 성남시 분당구 수내동 6-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-715-8000",
+      "phones": [
+        "031-715-8000",
+        "031-777-0044"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-715-8000",
+          "score": 100,
+          "source": "네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 3
+          },
+          "sourceDetails": {
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 3회"
+        },
+        {
+          "number": "031-777-0044",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 3회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_트레벨"
@@ -23558,17 +23827,64 @@
       "address": "경기 성남시 분당구 내정로 186\n경기 성남시 분당구 수내동 51",
       "roadAddress": "경기 성남시 분당구 내정로 186",
       "jibunAddress": "경기 성남시 분당구 수내동 51",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-714-0151",
+      "phones": [
+        "031-714-0151",
+        "031-711-9644",
+        "031-8016-0111"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-714-0151",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-711-9644",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-8016-0111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_파크타운대림"
@@ -23944,17 +24260,64 @@
       "address": "경기 성남시 분당구 백현로 227\n경기 성남시 분당구 수내동 75",
       "roadAddress": "경기 성남시 분당구 백현로 227",
       "jibunAddress": "경기 성남시 분당구 수내동 75",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-712-2333",
+      "phones": [
+        "031-712-2333",
+        "031-711-1121",
+        "031-701-4717"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-712-2333",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-711-1121",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-701-4717",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_푸른마을쌍용"
@@ -25081,17 +25444,64 @@
       "address": "경기 성남시 분당구 장미로 78\n경기 성남시 분당구 야탑동 360-1",
       "roadAddress": "경기 성남시 분당구 장미로 78",
       "jibunAddress": "경기 성남시 분당구 야탑동 360-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8017-8945",
+      "phones": [
+        "031-8017-8945",
+        "031-8016-0111",
+        "031-781-2600"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8017-8945",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-8016-0111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-781-2600",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_시그마iii"
@@ -25501,17 +25911,64 @@
       "address": "경기 성남시 분당구 야탑로 20\n경기 성남시 분당구 야탑동 536",
       "roadAddress": "경기 성남시 분당구 야탑로 20",
       "jibunAddress": "경기 성남시 분당구 야탑동 536",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-703-0548",
+      "phones": [
+        "031-703-0548",
+        "031-705-3327",
+        "031-8016-0111"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-703-0548",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-705-3327",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-8016-0111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_탑마을1선경"
@@ -25599,17 +26056,64 @@
       "address": "경기 성남시 분당구 판교로 519\n경기 성남시 분당구 야탑동 526",
       "roadAddress": "경기 성남시 분당구 판교로 519",
       "jibunAddress": "경기 성남시 분당구 야탑동 526",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-706-2108",
+      "phones": [
+        "031-706-2108",
+        "031-702-5824",
+        "031-8016-2340"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-706-2108",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-702-5824",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-8016-2340",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_탑마을7경남아너스빌"
@@ -25631,17 +26135,64 @@
       "address": "경기 성남시 분당구 벌말로30번길 46\n경기 성남시 분당구 야탑동 264-1",
       "roadAddress": "경기 성남시 분당구 벌말로30번길 46",
       "jibunAddress": "경기 성남시 분당구 야탑동 264-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-703-3434",
+      "phones": [
+        "031-703-3434",
+        "031-734-3004",
+        "031-721-0037"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-703-3434",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-734-3004",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-721-0037",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_포레스트하우스"
@@ -29177,17 +29728,64 @@
       "address": "경기 성남시 수정구 시민로 214\n경기 성남시 수정구 태평동 7306",
       "roadAddress": "경기 성남시 수정구 시민로 214",
       "jibunAddress": "경기 성남시 수정구 태평동 7306",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-754-5236",
+      "phones": [
+        "031-754-5236",
+        "031-753-2830",
+        "031-721-1769"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-754-5236",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-753-2830",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-721-1769",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_선경태평"
@@ -29329,17 +29927,64 @@
       "address": "경기 성남시 수정구 수정북로 92\n경기 성남시 수정구 태평동 7288-11",
       "roadAddress": "경기 성남시 수정구 수정북로 92",
       "jibunAddress": "경기 성남시 수정구 태평동 7288-11",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-722-5050",
+      "phones": [
+        "031-722-5050",
+        "031-759-4562",
+        "031-759-4561"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-722-5050",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-759-4562",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-759-4561",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_주민태평동락커뮤니티"
@@ -29495,17 +30140,64 @@
       "address": "경기 성남시 수정구 남문로 85\n경기 성남시 수정구 태평동 2991-2",
       "roadAddress": "경기 성남시 수정구 남문로 85",
       "jibunAddress": "경기 성남시 수정구 태평동 2991-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-753-4516",
+      "phones": [
+        "031-753-4516",
+        "031-757-1010",
+        "031-741-3939"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-753-4516",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "031-757-1010",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-741-3939",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_통보2차"
