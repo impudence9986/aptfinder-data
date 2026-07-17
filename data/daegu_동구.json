@@ -1,6 +1,6 @@
 {
-  "version": 1781149671,
-  "updatedAt": "2026-06-11 03:47:51",
+  "version": 1784309662,
+  "updatedAt": "2026-07-17 17:34:22",
   "sido": "대구광역시",
   "sigungu": "동구",
   "count": 242,
@@ -1812,12 +1812,14 @@
         {
           "number": "053-755-2700",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 11
           },
           "sourceDetails": {
+            "K-apt 10회": 1,
+            "K-apt 8회": 2,
             "K-apt 7회": 1,
             "K-apt 6회": 1,
             "K-apt 5회": 1,
@@ -1826,12 +1828,12 @@
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 11회"
         }
       ],
       "households": "764",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "K-apt 11회",
       "detailUpdatedAt": 1781149139320,
       "listUpdatedAt": 1781149139320,
       "phoneStatus": "CONFIRMED",
@@ -8130,12 +8132,14 @@
         {
           "number": "053-965-5730",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 11
           },
           "sourceDetails": {
+            "K-apt 10회": 1,
+            "K-apt 8회": 2,
             "K-apt 7회": 1,
             "K-apt 6회": 1,
             "K-apt 5회": 1,
@@ -8144,12 +8148,12 @@
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 11회"
         }
       ],
       "households": "315",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "K-apt 11회",
       "detailUpdatedAt": 1781149139320,
       "listUpdatedAt": 1781149139320,
       "phoneStatus": "CONFIRMED",
@@ -10471,37 +10475,84 @@
       "address": "대구 동구 송라로16길 11\n대구 동구 신천동 1507",
       "roadAddress": "대구 동구 송라로16길 11",
       "jibunAddress": "대구 동구 신천동 1507",
-      "phone": "010-3500-2912",
+      "phone": "053-755-2800",
       "phones": [
-        "010-3500-2912"
+        "053-755-2800",
+        "010-3500-2912",
+        "053-755-2700",
+        "053-768-0536"
       ],
       "phoneCandidates": [
         {
-          "number": "010-3500-2912",
-          "score": 95,
-          "source": "카카오 5회, 카카오 4회, 카카오 3회, 카카오 1회",
-          "keyword": "동대구반도유보라아파트 전화번호, 동대구반도유보라 전화번호",
+          "number": "053-755-2800",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 6
+            "네이버부동산": 4
           },
           "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "010-3500-2912",
+          "score": 100,
+          "source": "카카오 8회, 카카오 6회, 카카오 5회, 카카오 4회, 카카오 3회, 카카오 1회",
+          "keyword": "동대구반도유보라아파트 전화번호, 동대구반도유보라 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 9
+          },
+          "sourceDetails": {
+            "카카오 8회": 1,
+            "카카오 6회": 2,
             "카카오 5회": 1,
             "카카오 4회": 1,
             "카카오 3회": 1,
             "카카오 1회": 1,
             "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 6회"
+          "sourceSummary": "카카오 9회"
+        },
+        {
+          "number": "053-755-2700",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-768-0536",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 6회",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 95,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_동구_동대구반도유보라"
@@ -10523,17 +10574,64 @@
       "address": "대구 동구 송라로16길 11\n대구 동구 신천동 11-10",
       "roadAddress": "대구 동구 송라로16길 11",
       "jibunAddress": "대구 동구 신천동 11-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-655-2212",
+      "phones": [
+        "053-655-2212",
+        "053-755-2800",
+        "053-755-2700"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-655-2212",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "053-755-2800",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-755-2700",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_동구_동대구반도유보라경로당"
@@ -11530,17 +11628,49 @@
       "address": "대구 동구 반야월북로 111-11\n대구 동구 율암동 1307",
       "roadAddress": "대구 동구 반야월북로 111-11",
       "jibunAddress": "대구 동구 율암동 1307",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-965-5730",
+      "phones": [
+        "053-965-5730",
+        "053-965-5731"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-965-5730",
+          "score": 100,
+          "source": "네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 3
+          },
+          "sourceDetails": {
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 3회"
+        },
+        {
+          "number": "053-965-5731",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 3회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_동구_호반써밋이스텔라"
