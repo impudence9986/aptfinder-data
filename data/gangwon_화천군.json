@@ -1,6 +1,6 @@
 {
-  "version": 1781308885,
-  "updatedAt": "2026-06-13 00:01:25",
+  "version": 1784483601,
+  "updatedAt": "2026-07-19 17:53:21",
   "sido": "강원특별자치도",
   "sigungu": "화천군",
   "count": 18,
@@ -84,12 +84,14 @@
         {
           "number": "033-442-8986",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 11
           },
           "sourceDetails": {
+            "K-apt 10회": 1,
+            "K-apt 8회": 2,
             "K-apt 7회": 1,
             "K-apt 6회": 1,
             "K-apt 5회": 1,
@@ -98,12 +100,12 @@
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 11회"
         }
       ],
       "households": "145",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "K-apt 11회",
       "detailUpdatedAt": 1781308769474,
       "listUpdatedAt": 1781308769474,
       "phoneStatus": "CONFIRMED",
@@ -346,17 +348,64 @@
       "address": "강원특별자치도 화천군 사내면 사내로3길 79-18\n강원특별자치도 화천군 사내면 사창리 905",
       "roadAddress": "강원특별자치도 화천군 사내면 사내로3길 79-18",
       "jibunAddress": "강원특별자치도 화천군 사내면 사창리 905",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-732-3700",
+      "phones": [
+        "033-732-3700",
+        "033-730-5290",
+        "033-730-3186"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-732-3700",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-730-5290",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-730-3186",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_화천군_늘푸른데시앙"
@@ -378,17 +427,64 @@
       "address": "강원특별자치도 화천군 사내면 소이길 81\n강원특별자치도 화천군 사내면 사창리 293-5",
       "roadAddress": "강원특별자치도 화천군 사내면 소이길 81",
       "jibunAddress": "강원특별자치도 화천군 사내면 사창리 293-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-653-5485",
+      "phones": [
+        "033-653-5485",
+        "033-651-5485",
+        "033-811-7444"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-653-5485",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-651-5485",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-811-7444",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_화천군_에버그린"
@@ -442,17 +538,64 @@
       "address": "강원특별자치도 화천군 하남면 춘화로 3306\n강원특별자치도 화천군 하남면 위라리 599",
       "roadAddress": "강원특별자치도 화천군 하남면 춘화로 3306",
       "jibunAddress": "강원특별자치도 화천군 하남면 위라리 599",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-4441-0660",
+      "phones": [
+        "033-4441-0660",
+        "033-441-0660",
+        "033-440-2389"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-4441-0660",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-441-0660",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-440-2389",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_화천군_화천대양고운채2차"
@@ -550,17 +693,64 @@
       "address": "강원특별자치도 화천군 화천읍 노신로 82-16\n강원특별자치도 화천군 화천읍 신읍리 578",
       "roadAddress": "강원특별자치도 화천군 화천읍 노신로 82-16",
       "jibunAddress": "강원특별자치도 화천군 화천읍 신읍리 578",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-442-4277",
+      "phones": [
+        "033-442-4277",
+        "033-442-4270",
+        "033-440-2389"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-442-4277",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-442-4270",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-440-2389",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_화천군_동보빌리지"
@@ -728,17 +918,64 @@
       "address": "강원특별자치도 화천군 화천읍 노신로 17\n강원특별자치도 화천군 화천읍 신읍리 642-1",
       "roadAddress": "강원특별자치도 화천군 화천읍 노신로 17",
       "jibunAddress": "강원특별자치도 화천군 화천읍 신읍리 642-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-645-2122",
+      "phones": [
+        "033-645-2122",
+        "033-441-7884",
+        "033-441-6658"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-645-2122",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-441-7884",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-441-6658",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_화천군_칠성"
@@ -760,17 +997,64 @@
       "address": "강원특별자치도 화천군 화천읍 옹기점길 17-3\n강원특별자치도 화천군 화천읍 신읍리 1788",
       "roadAddress": "강원특별자치도 화천군 화천읍 옹기점길 17-3",
       "jibunAddress": "강원특별자치도 화천군 화천읍 신읍리 1788",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-442-8986",
+      "phones": [
+        "033-442-8986",
+        "033-442-9913",
+        "033-442-9912"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-442-8986",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-442-9913",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-442-9912",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_화천군_화천건영아모리움"
@@ -792,17 +1076,34 @@
       "address": "강원특별자치도 화천군 화천읍 강변로 187\n강원특별자치도 화천군 화천읍 상리 14-2",
       "roadAddress": "강원특별자치도 화천군 화천읍 강변로 187",
       "jibunAddress": "강원특별자치도 화천군 화천읍 상리 14-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-442-8986",
+      "phones": [
+        "033-442-8986"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-442-8986",
+          "score": 100,
+          "source": "네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 2회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_화천군_화천상리데시앙"

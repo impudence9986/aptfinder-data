@@ -1,6 +1,6 @@
 {
-  "version": 1781308621,
-  "updatedAt": "2026-06-12 23:57:01",
+  "version": 1784483050,
+  "updatedAt": "2026-07-19 17:44:10",
   "sido": "강원특별자치도",
   "sigungu": "평창군",
   "count": 31,
@@ -84,12 +84,14 @@
         {
           "number": "033-0333-0188",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 11
           },
           "sourceDetails": {
+            "K-apt 10회": 1,
+            "K-apt 8회": 2,
             "K-apt 7회": 1,
             "K-apt 6회": 1,
             "K-apt 5회": 1,
@@ -98,12 +100,12 @@
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 11회"
         }
       ],
       "households": "100",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "K-apt 11회",
       "detailUpdatedAt": 1781308488248,
       "listUpdatedAt": 1781308488248,
       "phoneStatus": "CONFIRMED",
@@ -570,12 +572,14 @@
         {
           "number": "033-332-3458",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 11
           },
           "sourceDetails": {
+            "K-apt 10회": 1,
+            "K-apt 8회": 2,
             "K-apt 7회": 1,
             "K-apt 6회": 1,
             "K-apt 5회": 1,
@@ -584,12 +588,12 @@
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 11회"
         }
       ],
       "households": "191",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "K-apt 11회",
       "detailUpdatedAt": 1781308488248,
       "listUpdatedAt": 1781308488248,
       "phoneStatus": "CONFIRMED",
@@ -1048,17 +1052,64 @@
       "address": "강원특별자치도 평창군 미탄면 샘내천길 92\n강원특별자치도 평창군 미탄면 창리 726",
       "roadAddress": "강원특별자치도 평창군 미탄면 샘내천길 92",
       "jibunAddress": "강원특별자치도 평창군 미탄면 창리 726",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-336-2278",
+      "phones": [
+        "033-336-2278",
+        "033-336-2274",
+        "033-335-5631"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-336-2278",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-336-2274",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-335-5631",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_평창군_백강"
@@ -1244,17 +1295,64 @@
       "address": "강원특별자치도 평창군 평창읍 종부로 73\n강원특별자치도 평창군 평창읍 종부리 576-1",
       "roadAddress": "강원특별자치도 평창군 평창읍 종부로 73",
       "jibunAddress": "강원특별자치도 평창군 평창읍 종부리 576-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-333-0188",
+      "phones": [
+        "033-333-0188",
+        "033-0333-0188",
+        "033-574-9778"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-333-0188",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-0333-0188",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-574-9778",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_평창군_녹주한아름"
@@ -1332,17 +1430,64 @@
       "address": "강원특별자치도 평창군 평창읍 문화길 16\n강원특별자치도 평창군 평창읍 하리 281-6",
       "roadAddress": "강원특별자치도 평창군 평창읍 문화길 16",
       "jibunAddress": "강원특별자치도 평창군 평창읍 하리 281-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-335-5630",
+      "phones": [
+        "033-335-5630",
+        "033-332-3459",
+        "033-332-3458"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-335-5630",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-332-3459",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-332-3458",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_평창군_두레프라임"
@@ -1364,17 +1509,64 @@
       "address": "강원특별자치도 평창군 평창읍 백오로 158\n강원특별자치도 평창군 평창읍 중리 304",
       "roadAddress": "강원특별자치도 평창군 평창읍 백오로 158",
       "jibunAddress": "강원특별자치도 평창군 평창읍 중리 304",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-333-0188",
+      "phones": [
+        "033-333-0188",
+        "033-0333-0188",
+        "033-336-0786"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-333-0188",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-0333-0188",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-336-0786",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_평창군_유존"
@@ -1396,17 +1588,64 @@
       "address": "강원특별자치도 평창군 평창읍 노성로 24\n강원특별자치도 평창군 평창읍 하리 274-1",
       "roadAddress": "강원특별자치도 평창군 평창읍 노성로 24",
       "jibunAddress": "강원특별자치도 평창군 평창읍 하리 274-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-730-5290",
+      "phones": [
+        "033-730-5290",
+        "033-330-6518",
+        "033-745-2999"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-730-5290",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-330-6518",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-745-2999",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_평창군_태장위너빌"
@@ -1428,17 +1667,64 @@
       "address": "강원특별자치도 평창군 평창읍 평창중앙로 130\n강원특별자치도 평창군 평창읍 하리 179-1",
       "roadAddress": "강원특별자치도 평창군 평창읍 평창중앙로 130",
       "jibunAddress": "강원특별자치도 평창군 평창읍 하리 179-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-332-3459",
+      "phones": [
+        "033-332-3459",
+        "033-332-3458",
+        "033-371-1118"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-332-3459",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-332-3458",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-371-1118",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_평창군_평창1차"
@@ -1460,17 +1746,64 @@
       "address": "강원특별자치도 평창군 평창읍 향교1길 25\n강원특별자치도 평창군 평창읍 하리 445",
       "roadAddress": "강원특별자치도 평창군 평창읍 향교1길 25",
       "jibunAddress": "강원특별자치도 평창군 평창읍 하리 445",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-332-3459",
+      "phones": [
+        "033-332-3459",
+        "033-332-3458",
+        "033-336-0786"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-332-3459",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-332-3458",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-336-0786",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_평창군_평창스위트엠웰라움"
@@ -1492,17 +1825,49 @@
       "address": "강원특별자치도 평창군 평창읍 종부리 584",
       "roadAddress": "",
       "jibunAddress": "강원특별자치도 평창군 평창읍 종부리 584",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-332-1052",
+      "phones": [
+        "033-332-1052",
+        "033-332-1042"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-332-1052",
+          "score": 100,
+          "source": "네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 3
+          },
+          "sourceDetails": {
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 3회"
+        },
+        {
+          "number": "033-332-1042",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 3회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "강원특별자치도_평창군_평창종부고령자복지주택"

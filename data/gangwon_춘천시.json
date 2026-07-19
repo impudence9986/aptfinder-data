@@ -1,6 +1,6 @@
 {
-  "version": 1781308356,
-  "updatedAt": "2026-06-12 23:52:36",
+  "version": 1784482563,
+  "updatedAt": "2026-07-19 17:36:03",
   "sido": "강원특별자치도",
   "sigungu": "춘천시",
   "count": 179,
@@ -1714,12 +1714,14 @@
         {
           "number": "033-818-0205",
           "score": 100,
-          "source": "K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 11회, K-apt 9회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 9
+            "K-apt": 12
           },
           "sourceDetails": {
+            "K-apt 11회": 1,
+            "K-apt 9회": 2,
             "K-apt 8회": 1,
             "K-apt 7회": 1,
             "K-apt 6회": 1,
@@ -1729,12 +1731,12 @@
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2
           },
-          "sourceSummary": "K-apt 9회"
+          "sourceSummary": "K-apt 12회"
         }
       ],
       "households": "1039",
       "source": "공공데이터 K-apt, 카카오 장소검색",
-      "verifiedAt": "K-apt 9회",
+      "verifiedAt": "K-apt 12회",
       "detailUpdatedAt": 1781308054613,
       "listUpdatedAt": 1781308054613,
       "phoneStatus": "CONFIRMED",
@@ -1761,17 +1763,64 @@
       "address": "강원특별자치도 춘천시 소양로2가 66-10",
       "roadAddress": "",
       "jibunAddress": "강원특별자치도 춘천시 소양로2가 66-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-652-2123",
+      "phones": [
+        "033-652-2123",
+        "033-250-3611",
+        "033-250-3602"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-652-2123",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-250-3611",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-250-3602",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "강원특별자치도_춘천시_샵소양스타리버정문"
@@ -3907,12 +3956,14 @@
         {
           "number": "033-257-2644",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 11
           },
           "sourceDetails": {
+            "K-apt 10회": 1,
+            "K-apt 8회": 2,
             "K-apt 7회": 1,
             "K-apt 6회": 1,
             "K-apt 5회": 1,
@@ -3921,12 +3972,12 @@
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 11회"
         }
       ],
       "households": "677",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "K-apt 11회",
       "detailUpdatedAt": 1781308054613,
       "listUpdatedAt": 1781308054613,
       "phoneStatus": "CONFIRMED",
@@ -5579,12 +5630,14 @@
         {
           "number": "033-262-2201",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 11
           },
           "sourceDetails": {
+            "K-apt 10회": 1,
+            "K-apt 8회": 2,
             "K-apt 7회": 1,
             "K-apt 6회": 1,
             "K-apt 5회": 1,
@@ -5593,12 +5646,12 @@
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 11회"
         }
       ],
       "households": "762",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "K-apt 11회",
       "detailUpdatedAt": 1781308054613,
       "listUpdatedAt": 1781308054613,
       "phoneStatus": "CONFIRMED",
@@ -6227,12 +6280,14 @@
         {
           "number": "033-262-1065",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 11
           },
           "sourceDetails": {
+            "K-apt 10회": 1,
+            "K-apt 8회": 2,
             "K-apt 7회": 1,
             "K-apt 6회": 1,
             "K-apt 5회": 1,
@@ -6241,12 +6296,12 @@
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 11회"
         }
       ],
       "households": "420",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "K-apt 11회",
       "detailUpdatedAt": 1781308054613,
       "listUpdatedAt": 1781308054613,
       "phoneStatus": "CONFIRMED",
@@ -6958,17 +7013,34 @@
       "address": "강원특별자치도 춘천시 공지로 453\n강원특별자치도 춘천시 근화동 267-9",
       "roadAddress": "강원특별자치도 춘천시 공지로 453",
       "jibunAddress": "강원특별자치도 춘천시 근화동 267-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-254-4700",
+      "phones": [
+        "033-254-4700"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-254-4700",
+          "score": 100,
+          "source": "네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 2회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_엘타워2차"
@@ -6990,17 +7062,34 @@
       "address": "강원특별자치도 춘천시 공지로 455\n강원특별자치도 춘천시 근화동 267-1",
       "roadAddress": "강원특별자치도 춘천시 공지로 455",
       "jibunAddress": "강원특별자치도 춘천시 근화동 267-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-243-3895",
+      "phones": [
+        "033-243-3895"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-243-3895",
+          "score": 100,
+          "source": "네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 2회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_춘천l타워"
@@ -7081,17 +7170,64 @@
       "address": "강원특별자치도 춘천시 동내면 거두리 산 159-10",
       "roadAddress": "",
       "jibunAddress": "강원특별자치도 춘천시 동내면 거두리 산 159-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-0040-7606",
+      "phones": [
+        "033-0040-7606",
+        "033-633-0001",
+        "033-262-8835"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-0040-7606",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-633-0001",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-262-8835",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "강원특별자치도_춘천시_거두리호반베르디움~잼버리도로예정"
@@ -7229,17 +7365,64 @@
       "address": "강원특별자치도 춘천시 동내면 학곡지구길 52\n강원특별자치도 춘천시 동내면 학곡리 860",
       "roadAddress": "강원특별자치도 춘천시 동내면 학곡지구길 52",
       "jibunAddress": "강원특별자치도 춘천시 동내면 학곡리 860",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-262-2202",
+      "phones": [
+        "033-262-2202",
+        "033-262-2201",
+        "033-253-0762"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-262-2202",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-262-2201",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-253-0762",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_학곡지구모아엘가그랑데"
@@ -7261,17 +7444,64 @@
       "address": "강원특별자치도 춘천시 동내면 학곡지구길 16\n강원특별자치도 춘천시 동내면 학곡리 858",
       "roadAddress": "강원특별자치도 춘천시 동내면 학곡지구길 16",
       "jibunAddress": "강원특별자치도 춘천시 동내면 학곡리 858",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-264-6255",
+      "phones": [
+        "033-264-6255",
+        "033-264-6254",
+        "033-263-2026"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-264-6255",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-264-6254",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-263-2026",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_학곡지구중해마루힐포레스트"
@@ -7293,17 +7523,64 @@
       "address": "강원특별자치도 춘천시 동내면 외솔길19번길 80-7\n강원특별자치도 춘천시 동내면 거두리 1065",
       "roadAddress": "강원특별자치도 춘천시 동내면 외솔길19번길 80-7",
       "jibunAddress": "강원특별자치도 춘천시 동내면 거두리 1065",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-262-1035",
+      "phones": [
+        "033-262-1035",
+        "033-257-4584",
+        "033-737-0737"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-262-1035",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-257-4584",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-737-0737",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_호반베르디움"
@@ -7529,17 +7806,64 @@
       "address": "강원특별자치도 춘천시 동면 만천로 69-1\n강원특별자치도 춘천시 동면 만천리 985",
       "roadAddress": "강원특별자치도 춘천시 동면 만천로 69-1",
       "jibunAddress": "강원특별자치도 춘천시 동면 만천리 985",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-263-9019",
+      "phones": [
+        "033-263-9019",
+        "033-252-2269",
+        "033-252-2268"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-263-9019",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-252-2269",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-252-2268",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_스위첸피아노"
@@ -7561,17 +7885,64 @@
       "address": "강원특별자치도 춘천시 동면 삭주로 231\n강원특별자치도 춘천시 동면 장학리 981",
       "roadAddress": "강원특별자치도 춘천시 동면 삭주로 231",
       "jibunAddress": "강원특별자치도 춘천시 동면 장학리 981",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-575-3008",
+      "phones": [
+        "033-575-3008",
+        "033-575-3007",
+        "033-257-2645"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-575-3008",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-575-3007",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-257-2645",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_춘천두산위브"
@@ -7628,18 +7999,25 @@
       "phone": "033-256-5691",
       "phones": [
         "033-256-5691",
+        "033-256-5695",
+        "033-652-1672",
         "033-244-2278"
       ],
       "phoneCandidates": [
         {
           "number": "033-256-5691",
           "score": 100,
-          "source": "카카오 11회, 카카오 10회, 카카오 9회, 카카오 8회, 카카오 7회, 카카오 5회, 카카오 3회, 카카오 1회",
-          "keyword": "강원특별자치도 춘천시 동면 장학리 985 관리사무소, 강원특별자치도 춘천시 동면 장학리 985 관리실, 강원특별자치도 춘천시 동면 만천로 242 관리사무소, 강원특별자치도 춘천시 동면 만천로 242 관리실",
+          "source": "네이버부동산 2회 · 카카오 15회, 네이버부동산 1회 · 카카오 15회, 카카오 14회, 카카오 12회, 카카오 11회, 카카오 10회, 카카오 9회, 카카오 8회, 카카오 7회, 카카오 5회, 카카오 3회, 카카오 1회",
+          "keyword": "강원특별자치도 춘천시 동면 장학리 985 관리사무소, 강원특별자치도 춘천시 동면 장학리 985 관리실, 강원특별자치도 춘천시 동면 만천로 242 관리사무소, 강원특별자치도 춘천시 동면 만천로 242 관리실, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 12
+            "네이버부동산": 3,
+            "카카오": 15
           },
           "sourceDetails": {
+            "네이버부동산 2회 · 카카오 15회": 1,
+            "네이버부동산 1회 · 카카오 15회": 1,
+            "카카오 14회": 1,
+            "카카오 12회": 2,
             "카카오 11회": 1,
             "카카오 10회": 1,
             "카카오 9회": 1,
@@ -7648,13 +8026,41 @@
             "카카오 5회": 1,
             "카카오 3회": 1,
             "카카오 1회": 1,
-            "카카오 주소일치 전화번호 보강": 4
+            "카카오 주소일치 전화번호 보강": 4,
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 12회"
+          "sourceSummary": "네이버부동산 3회 · 카카오 15회"
+        },
+        {
+          "number": "033-256-5695",
+          "score": 100,
+          "source": "네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 2회"
+        },
+        {
+          "number": "033-652-1672",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         },
         {
           "number": "033-244-2278",
-          "score": 77,
+          "score": 87,
           "source": "카카오",
           "keyword": "춘천장학아이파크아파트 전화번호, 춘천장학아이파크 전화번호",
           "sourceCounts": {
@@ -7668,7 +8074,7 @@
       ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 12회",
+      "verifiedAt": "네이버부동산 3회 · 카카오 15회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
@@ -7702,29 +8108,31 @@
       "phoneCandidates": [
         {
           "number": "010-9999-3138",
-          "score": 75,
-          "source": "카카오 3회, 카카오 2회, 카카오 1회",
-          "keyword": "춘천장학아이파크 상가동 전화번호",
+          "score": 100,
+          "source": "카카오 6회, 카카오 4회, 카카오 3회, 카카오 2회, 카카오 1회",
+          "keyword": "춘천장학아이파크 상가동 전화번호, existing",
           "sourceCounts": {
-            "카카오": 4
+            "카카오": 7
           },
           "sourceDetails": {
+            "카카오 6회": 1,
+            "카카오 4회": 2,
             "카카오 3회": 1,
             "카카오 2회": 1,
             "카카오 1회": 1,
             "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "카카오 4회"
+          "sourceSummary": "카카오 7회"
         }
       ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 4회",
+      "verifiedAt": "카카오 7회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 75,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_춘천장학아이파크동"
@@ -8347,17 +8755,64 @@
       "address": "강원특별자치도 춘천시 방송길 70\n강원특별자치도 춘천시 온의동 590",
       "roadAddress": "강원특별자치도 춘천시 방송길 70",
       "jibunAddress": "강원특별자치도 춘천시 온의동 590",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-244-8651",
+      "phones": [
+        "033-244-8651",
+        "033-244-8653",
+        "033-241-8924"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-244-8651",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-244-8653",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-241-8924",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_온의롯데캐슬스카이클래스"
@@ -8490,36 +8945,83 @@
       "address": "강원특별자치도 춘천시 중앙로 32\n강원특별자치도 춘천시 요선동 9-3",
       "roadAddress": "강원특별자치도 춘천시 중앙로 32",
       "jibunAddress": "강원특별자치도 춘천시 요선동 9-3",
-      "phone": "033-242-6233",
+      "phone": "033-244-3465",
       "phones": [
-        "033-242-6233"
+        "033-244-3465",
+        "033-242-6233",
+        "033-243-3895",
+        "033-242-0777"
       ],
       "phoneCandidates": [
         {
-          "number": "033-242-6233",
-          "score": 75,
-          "source": "카카오 3회, 카카오 2회, 카카오 1회",
-          "keyword": "더테라스리빙3 전화번호",
+          "number": "033-244-3465",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 4
+            "네이버부동산": 4
           },
           "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-242-6233",
+          "score": 100,
+          "source": "카카오 6회, 카카오 4회, 카카오 3회, 카카오 2회, 카카오 1회",
+          "keyword": "더테라스리빙3 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 7
+          },
+          "sourceDetails": {
+            "카카오 6회": 1,
+            "카카오 4회": 2,
             "카카오 3회": 1,
             "카카오 2회": 1,
             "카카오 1회": 1,
             "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "카카오 4회"
+          "sourceSummary": "카카오 7회"
+        },
+        {
+          "number": "033-243-3895",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-242-0777",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 4회",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 75,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_테라스리빙3"
@@ -8541,17 +9043,64 @@
       "address": "강원특별자치도 춘천시 시청길12번길 6-1\n강원특별자치도 춘천시 조양동 43-1",
       "roadAddress": "강원특별자치도 춘천시 시청길12번길 6-1",
       "jibunAddress": "강원특별자치도 춘천시 조양동 43-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-800-7004",
+      "phones": [
+        "033-800-7004",
+        "033-800-7003",
+        "033-263-9019"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-800-7004",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-800-7003",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-263-9019",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_자이"
@@ -8573,17 +9122,64 @@
       "address": "강원특별자치도 춘천시 시청길 20\n강원특별자치도 춘천시 조양동 74-1",
       "roadAddress": "강원특별자치도 춘천시 시청길 20",
       "jibunAddress": "강원특별자치도 춘천시 조양동 74-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-562-5200",
+      "phones": [
+        "033-562-5200",
+        "033-243-9000",
+        "033-734-5591"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-562-5200",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-243-9000",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-734-5591",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_춘천벨라시티"
@@ -8664,17 +9260,34 @@
       "address": "강원특별자치도 춘천시 남춘로 17\n강원특별자치도 춘천시 퇴계동 369-9",
       "roadAddress": "강원특별자치도 춘천시 남춘로 17",
       "jibunAddress": "강원특별자치도 춘천시 퇴계동 369-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-241-8949",
+      "phones": [
+        "033-241-8949"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-241-8949",
+          "score": 100,
+          "source": "네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 2회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_남춘천역코아루웰라움타워"
@@ -8696,36 +9309,53 @@
       "address": "강원특별자치도 춘천시 남춘로 22\n강원특별자치도 춘천시 퇴계동 1070",
       "roadAddress": "강원특별자치도 춘천시 남춘로 22",
       "jibunAddress": "강원특별자치도 춘천시 퇴계동 1070",
-      "phone": "03-7152-1756",
+      "phone": "033-263-9019",
       "phones": [
+        "033-263-9019",
         "03-7152-1756"
       ],
       "phoneCandidates": [
         {
-          "number": "03-7152-1756",
-          "score": 75,
-          "source": "카카오 3회, 카카오 2회, 카카오 1회",
-          "keyword": "이스티아 전화번호",
+          "number": "033-263-9019",
+          "score": 100,
+          "source": "네이버부동산 1회",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 4
+            "네이버부동산": 2
           },
           "sourceDetails": {
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 2회"
+        },
+        {
+          "number": "03-7152-1756",
+          "score": 100,
+          "source": "카카오 6회, 카카오 4회, 카카오 3회, 카카오 2회, 카카오 1회",
+          "keyword": "이스티아 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 7
+          },
+          "sourceDetails": {
+            "카카오 6회": 1,
+            "카카오 4회": 2,
             "카카오 3회": 1,
             "카카오 2회": 1,
             "카카오 1회": 1,
             "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "카카오 4회"
+          "sourceSummary": "카카오 7회"
         }
       ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 4회",
+      "verifiedAt": "네이버부동산 2회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 75,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_이스티아"
@@ -8870,17 +9500,64 @@
       "address": "강원특별자치도 춘천시 백령로61번길 15-6\n강원특별자치도 춘천시 효자동 168-128",
       "roadAddress": "강원특별자치도 춘천시 백령로61번길 15-6",
       "jibunAddress": "강원특별자치도 춘천시 효자동 168-128",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-652-7422",
+      "phones": [
+        "033-652-7422",
+        "033-263-9019",
+        "033-255-1488"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-652-7422",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-263-9019",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-255-1488",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_래미안"
@@ -8902,17 +9579,64 @@
       "address": "강원특별자치도 춘천시 춘천로 188\n강원특별자치도 춘천시 효자동 654-9",
       "roadAddress": "강원특별자치도 춘천시 춘천로 188",
       "jibunAddress": "강원특별자치도 춘천시 효자동 654-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-241-1185",
+      "phones": [
+        "033-241-1185",
+        "033-256-1556",
+        "033-255-1556"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-241-1185",
+          "score": 100,
+          "source": "네이버부동산 3회, 네이버부동산 2회, 네이버부동산 1회",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 4
+          },
+          "sourceDetails": {
+            "네이버부동산 3회": 1,
+            "네이버부동산 2회": 1,
+            "네이버부동산 1회": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 4회"
+        },
+        {
+          "number": "033-256-1556",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-255-1556",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
+      "verifiedAt": "네이버부동산 4회",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_메가씨티"
