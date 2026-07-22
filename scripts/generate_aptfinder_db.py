@@ -1025,178 +1025,164 @@ class AptFinderGenerator:
         return True
 
     def finalize_phone_fields(self, item: ComplexItem) -> ComplexItem:
-        by_number = {}
+        """전화번호 후보를 정규화한다.
 
-        if item.phone:
-            p = normalize_phone(item.phone)
-            if p:
-                source_text = item.verifiedAt or item.source or "기존"
-                by_number[p] = {
-                    "number": p,
-                    "score": int(item.confidenceScore or 50),
-                    "source": source_text,
-                    "keyword": "",
-                    "sourceCounts": {
-                        self.normalize_source_label(source_text): 1
-                    },
-                    "sourceDetails": {
-                        source_text: 1
-                    },
-                }
+        중요: 이 함수는 몇 번 호출해도 결과가 같아야 한다(idempotent).
+        기존 저장값을 다시 더하거나 verifiedAt 요약문을 새 출처로 재투입하지 않는다.
+        """
+        by_number: Dict[str, dict] = {}
 
-        for c in item.phoneCandidates or []:
-            p = normalize_phone(c.get("number", ""))
+        def clean_count_map(value: object, max_keys: int = 32) -> dict:
+            if not isinstance(value, dict):
+                return {}
+            out = {}
+            for raw_key, raw_value in list(value.items())[:max_keys]:
+                key = str(raw_key or "").strip()[:120]
+                if not key:
+                    continue
+                try:
+                    count = max(0, min(9999, int(raw_value or 0)))
+                except Exception:
+                    count = 0
+                if count > 0:
+                    out[key] = count
+            return out
+
+        def merge_text_values(old_text: str, new_text: str, max_len: int) -> str:
+            parts = []
+            for source_text in (old_text or "", new_text or ""):
+                for part in str(source_text).split(","):
+                    part = part.strip()
+                    if part and part not in parts:
+                        parts.append(part)
+            return ", ".join(parts)[:max_len]
+
+        # 저장된 phoneCandidates를 유일한 기준으로 먼저 정리한다.
+        for raw in item.phoneCandidates or []:
+            if not isinstance(raw, dict):
+                continue
+            p = normalize_phone(raw.get("number", ""))
             if not p:
                 continue
 
-            source_counts = c.get("sourceCounts")
-            if not isinstance(source_counts, dict):
-                source_counts = {}
+            source = str(raw.get("source", "") or "")[:240]
+            keyword = str(raw.get("keyword", "") or "")[:180]
+            counts = clean_count_map(raw.get("sourceCounts"))
+            details = clean_count_map(raw.get("sourceDetails"))
 
-            source_details = c.get("sourceDetails")
-            if not isinstance(source_details, dict):
-                source_details = {}
-
-            source_text = c.get("source", "")
-            if not source_counts and source_text:
-                for part in source_text.split(","):
+            if not counts and source:
+                for part in source.split(","):
                     label = self.normalize_source_label(part.strip())
-                    source_counts[label] = int(source_counts.get(label) or 0) + 1
-
-            if not source_details and source_text:
-                source_details[source_text] = 1
+                    if label:
+                        counts[label] = max(1, int(counts.get(label) or 0))
+            if not details and source:
+                details[source[:120]] = 1
 
             incoming = {
                 "number": p,
-                "score": int(c.get("score") or 0),
-                "source": c.get("source", ""),
-                "keyword": c.get("keyword", "")[:180],
-                "sourceCounts": source_counts,
-                "sourceDetails": source_details,
+                "score": max(0, min(100, int(raw.get("score") or 0))),
+                "source": source,
+                "keyword": keyword,
+                "sourceCounts": counts,
+                "sourceDetails": details,
             }
-
             old = by_number.get(p)
-
             if old is None:
                 by_number[p] = incoming
                 continue
 
-            old["score"] = max(int(old.get("score") or 0), int(incoming.get("score") or 0))
+            old["score"] = max(int(old.get("score") or 0), incoming["score"])
+            old["source"] = merge_text_values(old.get("source", ""), source, 240)
+            old["keyword"] = merge_text_values(old.get("keyword", ""), keyword, 180)
 
-            old_source = old.get("source", "")
-            new_source = incoming.get("source", "")
-            for part in new_source.split(","):
-                part = part.strip()
-                if part and part not in old_source:
-                    old_source = f"{old_source}, {part}".strip(", ")
-            old["source"] = old_source
-
-            old_keyword = old.get("keyword", "")
-            new_keyword = incoming.get("keyword", "")
-            if new_keyword and new_keyword not in old_keyword:
-                old["keyword"] = f"{old_keyword}, {new_keyword}".strip(", ")[:180]
-
+            # 같은 저장 데이터를 다시 정리하는 과정이므로 합산이 아니라 최댓값을 사용한다.
             old_counts = old.get("sourceCounts") if isinstance(old.get("sourceCounts"), dict) else {}
-            for k, v in source_counts.items():
-                old_counts[k] = int(old_counts.get(k) or 0) + int(v or 0)
+            for k, v in counts.items():
+                old_counts[k] = max(int(old_counts.get(k) or 0), int(v or 0))
             old["sourceCounts"] = old_counts
 
             old_details = old.get("sourceDetails") if isinstance(old.get("sourceDetails"), dict) else {}
-            for k, v in source_details.items():
-                old_details[k] = int(old_details.get(k) or 0) + int(v or 0)
+            for k, v in details.items():
+                old_details[k] = max(int(old_details.get(k) or 0), int(v or 0))
             old["sourceDetails"] = old_details
+
+        # 대표번호가 후보 목록에 아예 없을 때만 1회 보존한다.
+        representative = normalize_phone(item.phone)
+        if representative and representative not in by_number:
+            source_text = (item.source or "기존").strip()[:120]
+            label = self.normalize_source_label(source_text)
+            by_number[representative] = {
+                "number": representative,
+                "score": max(0, min(100, int(item.confidenceScore or 50))),
+                "source": source_text,
+                "keyword": "",
+                "sourceCounts": {label: 1} if label else {"기존": 1},
+                "sourceDetails": {source_text: 1} if source_text else {"기존": 1},
+            }
 
         def recalc_score(c: dict) -> int:
             counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
-            base = int(c.get("score") or 0)
-
-            # 대표번호 최종 우선순위:
-            # K-apt(공식) > 네이버부동산 관리사무소 > 114On > 카카오 > 네이버 일반검색
+            base = max(0, min(100, int(c.get("score") or 0)))
             source_base = 0
-            if counts.get("K-apt", 0) > 0:
-                source_base = max(source_base, 100)
-            if counts.get("네이버부동산", 0) > 0:
-                source_base = max(source_base, 95)
-            if counts.get("114On", 0) > 0:
-                source_base = max(source_base, 85)
-            if counts.get("카카오", 0) > 0:
-                source_base = max(source_base, 60)
-            if counts.get("네이버", 0) > 0:
-                source_base = max(source_base, 40)
-            if counts.get("사용자제보", 0) > 0:
-                source_base = max(source_base, 98)
-            if counts.get("기존", 0) > 0:
-                source_base = max(source_base, 35)
-
-            score = max(base, source_base)
-            total_hits = sum(int(v) for v in counts.values())
+            if counts.get("K-apt", 0) > 0: source_base = max(source_base, 100)
+            if counts.get("사용자제보", 0) > 0: source_base = max(source_base, 98)
+            if counts.get("네이버부동산", 0) > 0: source_base = max(source_base, 95)
+            if counts.get("114On", 0) > 0: source_base = max(source_base, 85)
+            if counts.get("카카오", 0) > 0: source_base = max(source_base, 60)
+            if counts.get("네이버", 0) > 0: source_base = max(source_base, 40)
+            if counts.get("기존", 0) > 0: source_base = max(source_base, 35)
+            total_hits = sum(max(0, int(v or 0)) for v in counts.values())
             repeat_bonus = min(8, max(0, total_hits - 1) * 2)
-            diversity_bonus = min(6, max(0, len([k for k, v in counts.items() if int(v) > 0]) - 1) * 3)
-            return min(100, score + repeat_bonus + diversity_bonus)
+            diversity_bonus = min(6, max(0, len([v for v in counts.values() if int(v or 0) > 0]) - 1) * 3)
+            return min(100, max(base, source_base) + repeat_bonus + diversity_bonus)
 
         def source_priority(c: dict) -> int:
             counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
-
-            if counts.get("K-apt", 0) > 0:
-                return 60
-            if counts.get("사용자제보", 0) > 0:
-                return 55
-            if counts.get("네이버부동산", 0) > 0:
-                return 50
-            if counts.get("114On", 0) > 0:
-                return 40
-            if counts.get("카카오", 0) > 0:
-                return 30
-            if counts.get("네이버", 0) > 0:
-                return 20
+            for label, priority in (("K-apt", 60), ("사용자제보", 55), ("네이버부동산", 50), ("114On", 40), ("카카오", 30), ("네이버", 20)):
+                if counts.get(label, 0) > 0:
+                    return priority
             return 0
 
         candidates = list(by_number.values())
-
+        order = ["K-apt", "네이버부동산", "114On", "카카오", "네이버", "사용자제보", "기존", "기타"]
         for c in candidates:
             c["score"] = recalc_score(c)
-
             counts = c.get("sourceCounts") if isinstance(c.get("sourceCounts"), dict) else {}
-            order = ["K-apt", "네이버부동산", "114On", "카카오", "네이버", "사용자제보", "기존", "기타"]
-            summary_parts = []
-
+            summary = []
             for label in order:
                 count = int(counts.get(label) or 0)
                 if count > 0:
-                    summary_parts.append(f"{label} {count}회")
-
-            for label, count_raw in counts.items():
+                    summary.append(f"{label} {count}회")
+            for label, raw_count in counts.items():
                 if label in order:
                     continue
-                count = int(count_raw or 0)
+                count = int(raw_count or 0)
                 if count > 0:
-                    summary_parts.append(f"{label} {count}회")
+                    summary.append(f"{label} {count}회")
+            c["sourceSummary"] = " · ".join(summary)[:240]
 
-            c["sourceSummary"] = " · ".join(summary_parts)
+        candidates.sort(key=lambda c: (
+            int(c.get("score") or 0),
+            source_priority(c),
+            sum(int(v or 0) for v in (c.get("sourceCounts") or {}).values()) if isinstance(c.get("sourceCounts"), dict) else 0,
+        ), reverse=True)
 
-        candidates.sort(
-            key=lambda c: (
-                int(c.get("score") or 0),
-                source_priority(c),
-                sum(int(v) for v in (c.get("sourceCounts") or {}).values()) if isinstance(c.get("sourceCounts"), dict) else 0
-            ),
-            reverse=True
-        )
-
-        item.phoneCandidates = candidates
-        item.phones = [c["number"] for c in candidates]
-
-        if candidates:
-            best = candidates[0]
+        item.phoneCandidates = candidates[:20]
+        item.phones = [c["number"] for c in item.phoneCandidates]
+        if item.phoneCandidates:
+            best = item.phoneCandidates[0]
             item.phone = best["number"]
             item.phoneStatus = "CONFIRMED" if int(best.get("score") or 0) >= 85 else "CANDIDATE"
-            item.confidenceScore = max(int(item.confidenceScore or 0), int(best.get("score") or 0))
-            item.verifiedAt = best.get("sourceSummary") or best.get("source") or item.verifiedAt
+            item.confidenceScore = int(best.get("score") or 0)
+            # verifiedAt에는 요약문을 재귀적으로 넣지 않고 실제 검증 표지만 유지한다.
+            if not item.verifiedAt or "회" in item.verifiedAt or "·" in item.verifiedAt:
+                item.verifiedAt = now_text()
         else:
             item.phone = ""
             item.phones = []
             item.phoneCandidates = []
             item.phoneStatus = "UNKNOWN"
+            item.confidenceScore = 0
 
         return item
 
