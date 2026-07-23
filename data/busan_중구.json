@@ -1,6 +1,6 @@
 {
-  "version": 1784225561,
-  "updatedAt": "2026-07-16 18:12:41",
+  "version": 1784832533,
+  "updatedAt": "2026-07-23 18:48:53",
   "sido": "부산광역시",
   "sigungu": "중구",
   "count": 34,
@@ -296,16 +296,17 @@
       "jibunAddress": "부산 중구 중앙동4가 19",
       "phone": "051-469-7756",
       "phones": [
-        "051-469-7756"
+        "051-469-7756",
+        "051-461-0541"
       ],
       "phoneCandidates": [
         {
           "number": "051-469-7756",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -314,14 +315,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "051-461-0541",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 중앙동4가 19 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 18:47:20",
       "detailUpdatedAt": 1781145871071,
       "listUpdatedAt": 1781145871071,
       "phoneStatus": "CONFIRMED",
@@ -618,17 +633,105 @@
       "address": "부산 중구 중구로5번길 14\n부산 중구 남포동6가 99",
       "roadAddress": "부산 중구 중구로5번길 14",
       "jibunAddress": "부산 중구 남포동6가 99",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-751-8955",
+      "phones": [
+        "051-751-8955",
+        "00-2021-0007",
+        "07-1436-3531",
+        "051-257-7001",
+        "07-1300-8394",
+        "07-1452-3406"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-751-8955",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 남포동6가 99 전화번호, 남포동 더베이먼트-비프애비뉴99 관리사무소, 중구 더베이먼트-비프애비뉴99 관리사무소, 중구 중구 더베이먼트-비프애비뉴99 관리사무소, 더베이먼트-비프애비뉴99 관리실, 더베이먼트-비프애비뉴99 관리단",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6,
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "00-2021-0007",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 남포동6가 99 전화번호, 남포동 더베이먼트-비프애비뉴99 관리사무소, 더베이먼트-비프애비뉴99 관리실, 더베이먼트-비프애비뉴99 전화번호, 더베이먼트-비프애비뉴99 관리단",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6,
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "07-1436-3531",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 남포동6가 99 관리실, 부산 중구 중구로5번길 14 관리사무소, 부산 중구 중구로5번길 14 관리실, 부산 중구 중구로5번길 14 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "051-257-7001",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 중구로5번길 14 관리사무소, 부산 중구 중구로5번길 14 관리실, 부산 중구 중구로5번길 14 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1300-8394",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 중구로5번길 14 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1452-3406",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 중구로5번길 14 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_베이먼트비프애비뉴99"
@@ -650,17 +753,132 @@
       "address": "부산 중구 비프광장로 20\n부산 중구 남포동6가 85",
       "roadAddress": "부산 중구 비프광장로 20",
       "jibunAddress": "부산 중구 남포동6가 85",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1442-1226",
+      "phones": [
+        "07-1442-1226",
+        "051-244-0019",
+        "051-241-0235",
+        "051-244-0080",
+        "07-1403-8870",
+        "07-1475-8910",
+        "051-715-4567",
+        "051-997-6200"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1442-1226",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 남포동6가 85 관리실, 부산 중구 남포동6가 85 전화번호, 부산 중구 비프광장로 20 관리사무소, 부산 중구 비프광장로 20 관리실, 부산 중구 비프광장로 20 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2,
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "051-244-0019",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 남포동6가 85 관리사무소, 부산 중구 남포동6가 85 관리실, 부산 중구 남포동6가 85 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "051-241-0235",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 중구 남포동6가 85 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-244-0080",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 중구 비프광장로 20 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1403-8870",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "부산 중구 남포동6가 85 관리실, 부산 중구 비프광장로 20 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1475-8910",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 비프광장로 20 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-715-4567",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 비프광장로 20 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-997-6200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "더베이먼트테라스스위트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_베이먼트테라스스위트"
@@ -738,17 +956,75 @@
       "address": "부산 중구 중앙대로 99\n부산 중구 대창동1가 47",
       "roadAddress": "부산 중구 중앙대로 99",
       "jibunAddress": "부산 중구 대창동1가 47",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-464-9199",
+      "phones": [
+        "051-464-9199",
+        "051-714-1377",
+        "020-240-0038",
+        "051-466-0010"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-464-9199",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 중구 대창동1가 47 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-714-1377",
+          "score": 75,
+          "source": "네이버",
+          "keyword": "중구 중앙역퀸즈w테라스에디션 관리사무소, 중구 중구 중앙역퀸즈w테라스에디션 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "020-240-0038",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "중구 중앙역퀸즈w테라스에디션 관리사무소, 중구 중구 중앙역퀸즈w테라스에디션 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "051-466-0010",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "중앙역퀸즈w테라스에디션 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_중앙역퀸즈w테라스에디션"
@@ -855,17 +1131,33 @@
       "address": "부산 중구 망양로319번길 24\n부산 중구 보수동1가 3-148",
       "roadAddress": "부산 중구 망양로319번길 24",
       "jibunAddress": "부산 중구 보수동1가 3-148",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "010-3637-4653",
+      "phones": [
+        "010-3637-4653"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-3637-4653",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 망양로319번길 24 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_보수"
@@ -887,17 +1179,104 @@
       "address": "부산 중구 광복중앙로 27\n부산 중구 신창동1가 4",
       "roadAddress": "부산 중구 광복중앙로 27",
       "jibunAddress": "부산 중구 신창동1가 4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-253-1653",
+      "phones": [
+        "051-253-1653",
+        "051-246-3078",
+        "070-8028-7585",
+        "070-7542-6889",
+        "070-7788-8256",
+        "051-248-8500"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-253-1653",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 중구 신창동1가 4 관리사무소, 부산 중구 광복중앙로 27 관리사무소, 부산 중구 광복중앙로 27 관리실, 부산 중구 광복중앙로 27 전화번호, 신창동 용두산맨션 관리사무소, 중구 용두산맨션 관리사무소, 중구 중구 용두산맨션 관리사무소, 중구 용두산맨션 관리실, 용두산맨션아파트 관리사무소 전화번호, 용두산맨션아파트 ",
+          "sourceCounts": {
+            "114On": 12
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 12
+          },
+          "sourceSummary": "114On 12회"
+        },
+        {
+          "number": "051-246-3078",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 중구 신창동1가 4 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "070-8028-7585",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 중구 광복중앙로 27 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "070-7542-6889",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 중구 광복중앙로 27 전화번호, 용두산맨션 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "070-7788-8256",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 광복중앙로 27 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-248-8500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "용두산맨션 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_용두산맨션"
@@ -1256,17 +1635,243 @@
       "address": "부산 중구 대교로 141\n부산 중구 중앙동5가 18",
       "roadAddress": "부산 중구 대교로 141",
       "jibunAddress": "부산 중구 중앙동5가 18",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-442-4337",
+      "phones": [
+        "051-442-4337",
+        "051-469-1690",
+        "051-461-0541",
+        "051-714-1377",
+        "027-2649-7218",
+        "037-116-3096",
+        "051-741-3008",
+        "051-746-0975",
+        "051-517-0701",
+        "051-517-0706",
+        "051-723-8942",
+        "07-1350-6487",
+        "053-633-7645",
+        "051-747-2128",
+        "06-828-0211",
+        "09-828-1524"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-442-4337",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 중구 중앙동5가 18 전화번호, 부산 중구 대교로 141 관리사무소, 부산 중구 대교로 141 관리실, 부산 중구 대교로 141 전화번호",
+          "sourceCounts": {
+            "114On": 4
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 4
+          },
+          "sourceSummary": "114On 4회"
+        },
+        {
+          "number": "051-469-1690",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 중구 중앙동5가 18 전화번호, 부산 중구 대교로 141 관리사무소, 부산 중구 대교로 141 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "051-461-0541",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 중앙동5가 18 관리사무소, 중앙동 경보이리스오션 관리사무소, 중구 경보이리스오션 관리사무소, 중구 중구 경보이리스오션 관리사무소",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "051-714-1377",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 중앙동5가 18 관리사무소, 중앙동 경보이리스오션 관리사무소, 중구 경보이리스오션 관리사무소, 중구 중구 경보이리스오션 관리사무소",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "027-2649-7218",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 대교로 141 관리사무소, 부산 중구 대교로 141 관리실, 부산 중구 대교로 141 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "037-116-3096",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 대교로 141 관리사무소, 부산 중구 대교로 141 관리실, 부산 중구 대교로 141 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "051-741-3008",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "경보이리스오션오피스텔 전화번호, 경보이리스오션 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-746-0975",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "경보이리스오션 관리사무소, 경보이리스오션 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-517-0701",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 대교로 141 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-517-0706",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 대교로 141 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-723-8942",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경보이리스오션 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1350-6487",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경보이리스오션 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-633-7645",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경보이리스오션 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-747-2128",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경보이리스오션 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "06-828-0211",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경보이리스오션 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "09-828-1524",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경보이리스오션 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_경보이리스오션"
@@ -1288,17 +1893,117 @@
       "address": "부산 중구 대교로 133\n부산 중구 중앙동5가 23",
       "roadAddress": "부산 중구 대교로 133",
       "jibunAddress": "부산 중구 중앙동5가 23",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-461-0541",
+      "phones": [
+        "051-461-0541",
+        "020-676-6791",
+        "037-4753-5057",
+        "051-243-0392",
+        "051-714-1377",
+        "07-1363-0975",
+        "09-828-1524"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-461-0541",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 중앙동5가 23 관리사무소, 중앙동 경보이리스오션더스타 관리사무소, 중구 경보이리스오션더스타 관리사무소, 중구 중구 경보이리스오션더스타 관리사무소",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "020-676-6791",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 대교로 133 관리사무소, 부산 중구 대교로 133 관리실, 부산 중구 대교로 133 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "037-4753-5057",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 중구 대교로 133 관리사무소, 부산 중구 대교로 133 관리실, 부산 중구 대교로 133 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "051-243-0392",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 중구 대교로 133 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-714-1377",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "중구 경보이리스오션더스타 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1363-0975",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 대교로 133 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "09-828-1524",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경보이리스오션더스타 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_경보이리스오션스타"
@@ -1553,17 +2258,271 @@
       "address": "부산 중구 해관로 31-1\n부산 중구 중앙동2가 24-3",
       "roadAddress": "부산 중구 해관로 31-1",
       "jibunAddress": "부산 중구 중앙동2가 24-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "043-277-9898",
+      "phones": [
+        "043-277-9898",
+        "031-667-4300",
+        "051-747-0454",
+        "031-566-1866",
+        "032-751-8164",
+        "051-242-6883",
+        "051-461-0541",
+        "043-221-5841",
+        "031-957-4445",
+        "031-425-2222",
+        "031-429-2419",
+        "031-427-2419",
+        "031-428-1833",
+        "031-428-1891",
+        "02-6257-2570",
+        "02-785-3975",
+        "055-313-3839",
+        "02-401-4550"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "043-277-9898",
+          "score": 100,
+          "source": "114On",
+          "keyword": "중구 센트럴타워 관리사무소, 중구 중구 센트럴타워 관리사무소",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "031-667-4300",
+          "score": 91,
+          "source": "114On",
+          "keyword": "센트럴타워 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-747-0454",
+          "score": 91,
+          "source": "114On",
+          "keyword": "센트럴타워 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-566-1866",
+          "score": 91,
+          "source": "114On",
+          "keyword": "센트럴타워 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-751-8164",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "센트럴타워오피스텔 관리실, 센트럴타워 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-242-6883",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 중구 해관로 31-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-461-0541",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "중앙동 센트럴타워 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "043-221-5841",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "중구 센트럴타워 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-957-4445",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "중구 센트럴타워 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-425-2222",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트럴타워오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-429-2419",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트럴타워오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-427-2419",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트럴타워오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-428-1833",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트럴타워오피스텔 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-428-1891",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트럴타워오피스텔 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6257-2570",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트럴타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-785-3975",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트럴타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-313-3839",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트럴타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-401-4550",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트럴타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_센트럴타워"
@@ -1585,17 +2544,173 @@
       "address": "부산 중구 충장대로9번길 20-1\n부산 중구 중앙동4가 85-5",
       "roadAddress": "부산 중구 충장대로9번길 20-1",
       "jibunAddress": "부산 중구 중앙동4가 85-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-622-6515",
+      "phones": [
+        "051-622-6515",
+        "02-2640-0541",
+        "022-640-0541",
+        "031-853-0336",
+        "070-4047-4832",
+        "07-1469-0547",
+        "07-1386-6820",
+        "031-853-8550",
+        "031-852-2882",
+        "031-852-8583",
+        "070-8670-4133"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-622-6515",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 중구 중앙동4가 85-5 전화번호, 부산 중구 충장대로9번길 20-1 전화번호, 중구 엘스퀘어 관리사무소, 중구 중구 엘스퀘어 관리사무소, 엘스퀘어 전화번호",
+          "sourceCounts": {
+            "114On": 5
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 5
+          },
+          "sourceSummary": "114On 5회"
+        },
+        {
+          "number": "02-2640-0541",
+          "score": 91,
+          "source": "114On",
+          "keyword": "엘스퀘어 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-640-0541",
+          "score": 91,
+          "source": "114On",
+          "keyword": "엘스퀘어 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-853-0336",
+          "score": 91,
+          "source": "114On",
+          "keyword": "엘스퀘어 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "070-4047-4832",
+          "score": 91,
+          "source": "114On",
+          "keyword": "엘스퀘어 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1469-0547",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "엘스퀘어오피스텔 전화번호, 엘스퀘어 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1386-6820",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘스퀘어 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-853-8550",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘스퀘어 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-852-2882",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘스퀘어 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-852-8583",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘스퀘어 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-8670-4133",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘스퀘어 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_엘스퀘어"
@@ -1617,17 +2732,75 @@
       "address": "부산 중구 충장대로13번길 22\n부산 중구 중앙동4가 86-1",
       "roadAddress": "부산 중구 충장대로13번길 22",
       "jibunAddress": "부산 중구 중앙동4가 86-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-468-7418",
+      "phones": [
+        "051-468-7418",
+        "070-7349-3515",
+        "051-461-0541",
+        "051-714-1377"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-468-7418",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 중구 중앙동4가 86-1 전화번호, 부산 중구 충장대로13번길 22 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "070-7349-3515",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 중구 충장대로13번길 22 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-461-0541",
+          "score": 88,
+          "source": "네이버",
+          "keyword": "중앙동 일동미라주더마린 관리사무소, 중구 일동미라주더마린 관리사무소, 중구 중구 일동미라주더마린 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "051-714-1377",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "중앙동 일동미라주더마린 관리사무소, 중구 중구 일동미라주더마린 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_일동미라주마린"

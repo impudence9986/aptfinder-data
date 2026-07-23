@@ -1,6 +1,6 @@
 {
-  "version": 1784745802,
-  "updatedAt": "2026-07-22 18:43:22",
+  "version": 1784829809,
+  "updatedAt": "2026-07-23 18:03:29",
   "sido": "부산광역시",
   "sigungu": "사상구",
   "count": 140,
@@ -2400,16 +2400,18 @@
       "jibunAddress": "부산 사상구 괘법동 984",
       "phone": "051-328-9890",
       "phones": [
-        "051-328-9890"
+        "051-328-9890",
+        "051-314-1255",
+        "08-577-2025"
       ],
       "phoneCandidates": [
         {
           "number": "051-328-9890",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2418,14 +2420,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "051-314-1255",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사상구 괘법동 984 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "08-577-2025",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사상구 괘법동 984 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "874",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 17:58:21",
       "detailUpdatedAt": 1781141634787,
       "listUpdatedAt": 1781141634787,
       "phoneStatus": "CONFIRMED",
@@ -3156,16 +3185,22 @@
       "jibunAddress": "부산 사상구 모라동 1362",
       "phone": "051-313-2355",
       "phones": [
-        "051-313-2355"
+        "051-313-2355",
+        "051-917-9161",
+        "051-313-2358",
+        "05-2022-0928",
+        "06-2022-0928"
       ],
       "phoneCandidates": [
         {
           "number": "051-313-2355",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, existing, 부산 사상구 모라동 1362 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3174,14 +3209,69 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On/네이버 스니펫": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-917-9161",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 사상구 모라동 1362 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-313-2358",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사상구 모라동 1362 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "05-2022-0928",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사상구 모라동 1362 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "06-2022-0928",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사상구 모라동 1362 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1620",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 18:02:03",
       "detailUpdatedAt": 1781141634787,
       "listUpdatedAt": 1781141634787,
       "phoneStatus": "CONFIRMED",
@@ -3210,16 +3300,18 @@
       "jibunAddress": "부산 사상구 주례동 1288",
       "phone": "051-715-2990",
       "phones": [
-        "051-715-2990"
+        "051-715-2990",
+        "01-643-2026",
+        "022-1220-3740"
       ],
       "phoneCandidates": [
         {
           "number": "051-715-2990",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3228,14 +3320,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "01-643-2026",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "부산 사상구 주례동 1288 관리사무소, 부산 사상구 주례동 1288 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "022-1220-3740",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사상구 주례동 1288 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "839",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 18:03:20",
       "detailUpdatedAt": 1781141634787,
       "listUpdatedAt": 1781141634787,
       "phoneStatus": "CONFIRMED",
@@ -3541,9 +3660,9 @@
           "number": "051-328-8805",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3552,14 +3671,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "998",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 18:03:23",
       "detailUpdatedAt": 1781141634787,
       "listUpdatedAt": 1781141634787,
       "phoneStatus": "CONFIRMED",
@@ -4452,16 +4572,18 @@
       "jibunAddress": "부산 사상구 학장동 168",
       "phone": "051-323-3963",
       "phones": [
-        "051-323-3963"
+        "051-323-3963",
+        "051-322-8812"
       ],
       "phoneCandidates": [
         {
           "number": "051-323-3963",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, existing, 부산 사상구 학장동 168 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4470,14 +4592,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On/네이버 스니펫": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "051-322-8812",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 사상구 학장동 168 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "526",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 18:03:26",
       "detailUpdatedAt": 1781141634787,
       "listUpdatedAt": 1781141634787,
       "phoneStatus": "CONFIRMED",
@@ -5485,17 +5622,33 @@
       "address": "부산 사상구 사상로181번길 7\n부산 사상구 괘법동 554-5",
       "roadAddress": "부산 사상구 사상로181번길 7",
       "jibunAddress": "부산 사상구 괘법동 554-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-313-7475",
+      "phones": [
+        "051-313-7475"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-313-7475",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_사상역예서두레라움"
@@ -5549,17 +5702,61 @@
       "address": "부산 사상구 사상로223번길 14\n부산 사상구 괘법동 525-25",
       "roadAddress": "부산 사상구 사상로223번길 14",
       "jibunAddress": "부산 사상구 괘법동 525-25",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-867-2927",
+      "phones": [
+        "051-867-2927",
+        "051-867-2925",
+        "051-322-0099"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-867-2927",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-867-2925",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-322-0099",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_인샵"
@@ -5581,17 +5778,47 @@
       "address": "부산 사상구 광장로56번길 67\n부산 사상구 괘법동 580-1",
       "roadAddress": "부산 사상구 광장로56번길 67",
       "jibunAddress": "부산 사상구 괘법동 580-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-507-5776",
+      "phones": [
+        "051-507-5776",
+        "051-507-5775"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-507-5776",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-507-5775",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_청마마이우스"
@@ -5613,17 +5840,47 @@
       "address": "부산 사상구 광장로97번길 11\n부산 사상구 괘법동 542-4",
       "roadAddress": "부산 사상구 광장로97번길 11",
       "jibunAddress": "부산 사상구 괘법동 542-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-623-7100",
+      "phones": [
+        "051-623-7100",
+        "051-316-8007"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-623-7100",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-316-8007",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_태영아너스"
@@ -5645,17 +5902,131 @@
       "address": "부산 사상구 광장로87번길 77\n부산 사상구 괘법동 270-9",
       "roadAddress": "부산 사상구 광장로87번길 77",
       "jibunAddress": "부산 사상구 괘법동 270-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-715-8585",
+      "phones": [
+        "051-715-8585",
+        "01-911-2026",
+        "051-312-4985",
+        "020-250-0010",
+        "051-714-2989",
+        "01-296-2026",
+        "00-2018-0005",
+        "02-322-3373"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-715-8585",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 사상구 괘법동 270-9 관리사무소, 부산 사상구 광장로87번길 77 관리사무소, 부산 사상구 광장로87번길 77 전화번호, 괘법동 파크블루11차 관리사무소, 사상구 파크블루11차 관리사무소, 사상구 사상구 파크블루11차 관리사무소",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "01-911-2026",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 사상구 괘법동 270-9 관리실, 사상구 파크블루11차 관리사무소, 사상구 사상구 파크블루11차 관리사무소, 사상구 파크블루11차 관리실",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "051-312-4985",
+          "score": 83,
+          "source": "네이버",
+          "keyword": "사상구 파크블루11차 관리사무소, 사상구 사상구 파크블루11차 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "020-250-0010",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "사상구 파크블루11차 관리사무소, 사상구 사상구 파크블루11차 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-714-2989",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 사상구 괘법동 270-9 전화번호, 파크블루11차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "01-296-2026",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "사상구 파크블루11차 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-2018-0005",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "파크블루11차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-322-3373",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "파크블루11차 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_파크블루11차"
@@ -6075,16 +6446,18 @@
       "jibunAddress": "부산 사상구 엄궁동 25-110",
       "phone": "051-325-9618",
       "phones": [
-        "051-325-9618"
+        "051-325-9618",
+        "051-988-9618"
       ],
       "phoneCandidates": [
         {
           "number": "051-325-9618",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 부산 사상구 대동로 34-25 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6093,14 +6466,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-988-9618",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사상구 대동로 34-25 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "441",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 18:00:13",
       "detailUpdatedAt": 1781141634787,
       "listUpdatedAt": 1781141634787,
       "phoneStatus": "CONFIRMED",
@@ -6618,17 +7006,47 @@
       "address": "부산 사상구 백양대로 697-7\n부산 사상구 덕포동 94-9",
       "roadAddress": "부산 사상구 백양대로 697-7",
       "jibunAddress": "부산 사상구 덕포동 94-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-245-2013",
+      "phones": [
+        "02-245-2013",
+        "02-245-2026"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-245-2013",
+          "score": 73,
+          "source": "네이버",
+          "keyword": "덕포동 대동레미안신승빌 관리사무소, 사상구 대동레미안신승빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-245-2026",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "대동레미안신승빌 관리실, 대동레미안신승빌 관리단",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 73,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_대동레미안신승빌"
@@ -6650,17 +7068,47 @@
       "address": "부산 사상구 백양대로703번길 51-30\n부산 사상구 덕포동 94-11",
       "roadAddress": "부산 사상구 백양대로703번길 51-30",
       "jibunAddress": "부산 사상구 덕포동 94-11",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-327-7888",
+      "phones": [
+        "051-327-7888",
+        "051-322-0099"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-327-7888",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-322-0099",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_대동레미안화승빌"
@@ -6763,17 +7211,33 @@
       "address": "부산 사상구 사상로 300\n부산 사상구 덕포동 220",
       "roadAddress": "부산 사상구 사상로 300",
       "jibunAddress": "부산 사상구 덕포동 220",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-305-2721",
+      "phones": [
+        "051-305-2721"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-305-2721",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_사상중흥s클래스그랜드센트럴gate1"
@@ -6795,17 +7259,33 @@
       "address": "부산 사상구 강선로 18\n부산 사상구 덕포동 149-2",
       "roadAddress": "부산 사상구 강선로 18",
       "jibunAddress": "부산 사상구 덕포동 149-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-305-2721",
+      "phones": [
+        "051-305-2721"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-305-2721",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_크리아트사상중흥s클래스그랜드센트럴교육원미술교습소"
@@ -6827,17 +7307,61 @@
       "address": "부산 사상구 백양대로 906\n부산 사상구 모라동 1357",
       "roadAddress": "부산 사상구 백양대로 906",
       "jibunAddress": "부산 사상구 모라동 1357",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-327-7880",
+      "phones": [
+        "051-327-7880",
+        "051-989-6291",
+        "051-326-6290"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-327-7880",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-989-6291",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-326-6290",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_모라1차우성"
@@ -7120,17 +7644,33 @@
       "address": "부산 사상구 엄궁북로 59\n부산 사상구 엄궁동 725",
       "roadAddress": "부산 사상구 엄궁북로 59",
       "jibunAddress": "부산 사상구 엄궁동 725",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-314-3358",
+      "phones": [
+        "051-314-3358"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-314-3358",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_엄궁롯데캐슬리버동"
@@ -7210,17 +7750,61 @@
       "address": "부산 사상구 사상로 27\n부산 사상구 주례동 692-10",
       "roadAddress": "부산 사상구 사상로 27",
       "jibunAddress": "부산 사상구 주례동 692-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-711-7007",
+      "phones": [
+        "051-711-7007",
+        "051-328-9891",
+        "051-328-9890"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-711-7007",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-328-9891",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-328-9890",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_귀한"

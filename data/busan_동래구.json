@@ -1,6 +1,6 @@
 {
-  "version": 1784744810,
-  "updatedAt": "2026-07-22 18:26:50",
+  "version": 1784829305,
+  "updatedAt": "2026-07-23 17:55:05",
   "sido": "부산광역시",
   "sigungu": "동래구",
   "count": 193,
@@ -4462,9 +4462,9 @@
           "number": "051-558-2927",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4473,14 +4473,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "603",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 17:53:52",
       "detailUpdatedAt": 1781139374883,
       "listUpdatedAt": 1781139374883,
       "phoneStatus": "CONFIRMED",
@@ -4516,9 +4517,9 @@
           "number": "051-927-2700",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4527,14 +4528,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "206",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 17:53:56",
       "detailUpdatedAt": 1781139374883,
       "listUpdatedAt": 1781139374883,
       "phoneStatus": "CONFIRMED",
@@ -5677,16 +5679,18 @@
       "jibunAddress": "부산 동래구 온천동 1412-1",
       "phone": "051-503-9119",
       "phones": [
-        "051-503-9119"
+        "051-503-9119",
+        "051-503-9132"
       ],
       "phoneCandidates": [
         {
           "number": "051-503-9119",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 부산 동래구 온천동 1412-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5695,14 +5699,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-503-9132",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 동래구 온천동 1412-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1149",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 17:53:59",
       "detailUpdatedAt": 1781139374883,
       "listUpdatedAt": 1781139374883,
       "phoneStatus": "CONFIRMED",
@@ -10120,17 +10139,61 @@
       "address": "부산 동래구 차밭골로20번길 60\n부산 동래구 온천동 189-13",
       "roadAddress": "부산 동래구 차밭골로20번길 60",
       "jibunAddress": "부산 동래구 온천동 189-13",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-556-5688",
+      "phones": [
+        "051-556-5688",
+        "051-552-6807",
+        "051-552-6806"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-556-5688",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-552-6807",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-552-6806",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동래구_레지던스이브"
@@ -10152,17 +10215,33 @@
       "address": "부산 동래구 동래로19번길 4\n부산 동래구 온천동 474-14",
       "roadAddress": "부산 동래구 동래로19번길 4",
       "jibunAddress": "부산 동래구 온천동 474-14",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-555-3369",
+      "phones": [
+        "051-555-3369"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-555-3369",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동래구_르씨엘명륜"
@@ -10184,17 +10263,33 @@
       "address": "부산 동래구 사직북로28번길 206\n부산 동래구 온천동 1248-8",
       "roadAddress": "부산 동래구 사직북로28번길 206",
       "jibunAddress": "부산 동래구 온천동 1248-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-555-3369",
+      "phones": [
+        "051-555-3369"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-555-3369",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동래구_르씨엘시티"
@@ -10316,17 +10411,33 @@
       "address": "부산 동래구 충렬대로92번길 27\n부산 동래구 온천동 1424-4",
       "roadAddress": "부산 동래구 충렬대로92번길 27",
       "jibunAddress": "부산 동래구 온천동 1424-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-710-5006",
+      "phones": [
+        "051-710-5006"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-710-5006",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동래구_보성오페라"
@@ -10348,17 +10459,61 @@
       "address": "부산 동래구 온천동 1423-20",
       "roadAddress": "",
       "jibunAddress": "부산 동래구 온천동 1423-20",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-945-6806",
+      "phones": [
+        "051-945-6806",
+        "051-558-8841",
+        "051-557-0990"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-945-6806",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-558-8841",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-557-0990",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "부산광역시_동래구_부산온천동효성해링턴예정"
@@ -10380,17 +10535,61 @@
       "address": "부산 동래구 차밭골로21번길 14\n부산 동래구 온천동 440-11",
       "roadAddress": "부산 동래구 차밭골로21번길 14",
       "jibunAddress": "부산 동래구 온천동 440-11",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-555-3369",
+      "phones": [
+        "051-555-3369",
+        "051-852-0101",
+        "051-715-6441"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-555-3369",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-852-0101",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-715-6441",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동래구_블레싱동래"
@@ -10621,17 +10820,61 @@
       "address": "부산 동래구 석사북로95번길 27\n부산 동래구 온천동 1236-17",
       "roadAddress": "부산 동래구 석사북로95번길 27",
       "jibunAddress": "부산 동래구 온천동 1236-17",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-555-7999",
+      "phones": [
+        "051-555-7999",
+        "051-557-9920",
+        "051-532-0636"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-555-7999",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-557-9920",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-532-0636",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동래구_온천파밀리에"
@@ -10776,17 +11019,35 @@
       "address": "부산 동래구 온천동 460-11",
       "roadAddress": "",
       "jibunAddress": "부산 동래구 온천동 460-11",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-852-0101",
+      "phones": [
+        "051-852-0101"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-852-0101",
+          "score": 100,
+          "source": "네이버부동산, 카카오",
+          "keyword": "naver_land_management, existing",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 카카오 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "부산광역시_동래구_해링턴플레이스명륜역2029년01월예정"
@@ -10895,17 +11156,61 @@
       "address": "부산 동래구 미남로132번길 14\n부산 동래구 온천동 1446-81",
       "roadAddress": "부산 동래구 미남로132번길 14",
       "jibunAddress": "부산 동래구 온천동 1446-81",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-804-5454",
+      "phones": [
+        "051-804-5454",
+        "051-710-2167",
+        "051-645-3113"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-804-5454",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-710-2167",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-645-3113",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동래구_효창개발"

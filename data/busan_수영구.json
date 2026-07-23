@@ -1,6 +1,6 @@
 {
-  "version": 1784225231,
-  "updatedAt": "2026-07-16 18:07:11",
+  "version": 1784831388,
+  "updatedAt": "2026-07-23 18:29:48",
   "sido": "부산광역시",
   "sigungu": "수영구",
   "count": 124,
@@ -2616,16 +2616,19 @@
       "jibunAddress": "부산 수영구 민락동 336-36",
       "phone": "051-751-5855",
       "phones": [
-        "051-751-5855"
+        "051-751-5855",
+        "051-751-5856"
       ],
       "phoneCandidates": [
         {
           "number": "051-751-5855",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, existing, 부산 수영구 민락동 336-36 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2634,14 +2637,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On/네이버 스니펫": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-751-5856",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 민락동 336-36 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "213",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 18:29:45",
       "detailUpdatedAt": 1781143372576,
       "listUpdatedAt": 1781143372576,
       "phoneStatus": "CONFIRMED",
@@ -2994,16 +3013,18 @@
       "jibunAddress": "부산 수영구 남천동 340-1",
       "phone": "051-625-7333",
       "phones": [
-        "051-625-7333"
+        "051-625-7333",
+        "051-628-7333"
       ],
       "phoneCandidates": [
         {
           "number": "051-625-7333",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 부산 수영구 남천동 340-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3012,14 +3033,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-628-7333",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 남천동 340-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "217",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 18:24:22",
       "detailUpdatedAt": 1781143372576,
       "listUpdatedAt": 1781143372576,
       "phoneStatus": "CONFIRMED",
@@ -3097,9 +3133,9 @@
       "sido": "부산광역시",
       "district": "수영구",
       "dong": "광안동",
-      "address": "부산광역시 수영구 광안동 195-9 광안경동리인",
-      "roadAddress": "",
-      "jibunAddress": "부산광역시 수영구 광안동 195-9 광안경동리인",
+      "address": "부산 수영구 광남로 122\n부산 수영구 광안동 195-9",
+      "roadAddress": "부산 수영구 광남로 122",
+      "jibunAddress": "부산 수영구 광안동 195-9",
       "phone": "051-755-2992",
       "phones": [
         "051-755-2992"
@@ -3134,7 +3170,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_광안경동리인"
     },
     {
@@ -3151,9 +3187,9 @@
       "sido": "부산광역시",
       "district": "수영구",
       "dong": "광안동",
-      "address": "부산광역시 수영구 광안동 191-1 광안비치올리브씨아파트",
-      "roadAddress": "",
-      "jibunAddress": "부산광역시 수영구 광안동 191-1 광안비치올리브씨아파트",
+      "address": "부산 수영구 광안로62번길 10\n부산 수영구 광안동 191-1",
+      "roadAddress": "부산 수영구 광안로62번길 10",
+      "jibunAddress": "부산 수영구 광안동 191-1",
       "phone": "051-754-5701",
       "phones": [
         "051-754-5701"
@@ -3188,7 +3224,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_광안비치올리브씨"
     },
     {
@@ -3542,17 +3578,47 @@
       "address": "부산 수영구 광안로62번길 21\n부산 수영구 광안동 192-4",
       "roadAddress": "부산 수영구 광안로62번길 21",
       "jibunAddress": "부산 수영구 광안동 192-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-751-9988",
+      "phones": [
+        "051-751-9988",
+        "051-292-0292"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-751-9988",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-292-0292",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_광안청일디오브오션뷰"
@@ -3574,17 +3640,61 @@
       "address": "부산 수영구 수영로642번길 9\n부산 수영구 광안동 99-9",
       "roadAddress": "부산 수영구 수영로642번길 9",
       "jibunAddress": "부산 수영구 광안동 99-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-753-7887",
+      "phones": [
+        "051-753-7887",
+        "051-761-0075",
+        "051-752-4902"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-753-7887",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-761-0075",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-752-4902",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_광안파밀리에"
@@ -3606,17 +3716,61 @@
       "address": "부산 수영구 수영로646번길 19\n부산 수영구 광안동 100-3",
       "roadAddress": "부산 수영구 수영로646번길 19",
       "jibunAddress": "부산 수영구 광안동 100-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-758-3885",
+      "phones": [
+        "051-758-3885",
+        "051-754-2909",
+        "051-744-0333"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-758-3885",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-754-2909",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-744-0333",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_대성레미안"
@@ -3785,17 +3939,33 @@
       "address": "부산 수영구 광안해변로 175\n부산 수영구 광안동 200-6",
       "roadAddress": "부산 수영구 광안해변로 175",
       "jibunAddress": "부산 수영구 광안동 200-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-989-8245",
+      "phones": [
+        "051-989-8245"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-989-8245",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_빌리브광안에이파크오션"
@@ -3905,17 +4075,47 @@
       "address": "부산 수영구 수영로666번길 6\n부산 수영구 광안동 98-1",
       "roadAddress": "부산 수영구 수영로666번길 6",
       "jibunAddress": "부산 수영구 광안동 98-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-755-4090",
+      "phones": [
+        "051-755-4090",
+        "051-292-0292"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-755-4090",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-292-0292",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_수영역삼정그린코아시티"
@@ -3990,17 +4190,61 @@
       "address": "부산 수영구 수영로642번길 47\n부산 수영구 광안동 102-10",
       "roadAddress": "부산 수영구 수영로642번길 47",
       "jibunAddress": "부산 수영구 광안동 102-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-621-0035",
+      "phones": [
+        "051-621-0035",
+        "051-292-0292",
+        "051-804-5454"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-621-0035",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-292-0292",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-804-5454",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_아이파크빌"
@@ -4022,17 +4266,63 @@
       "address": "부산 수영구 광서로16번길 46\n부산 수영구 광안동 1075-4",
       "roadAddress": "부산 수영구 광서로16번길 46",
       "jibunAddress": "부산 수영구 광안동 1075-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-754-2909",
+      "phones": [
+        "051-754-2909",
+        "051-744-0333",
+        "051-715-1190"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-754-2909",
+          "score": 100,
+          "source": "네이버부동산, 카카오",
+          "keyword": "naver_land_management, existing",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 카카오 1회"
+        },
+        {
+          "number": "051-744-0333",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-715-1190",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_영남레미안"
@@ -4086,17 +4376,201 @@
       "address": "부산 수영구 수영로 525\n부산 수영구 광안동 776-18",
       "roadAddress": "부산 수영구 수영로 525",
       "jibunAddress": "부산 수영구 광안동 776-18",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-754-8858",
+      "phones": [
+        "051-754-8858",
+        "00-2022-0005",
+        "051-757-7550",
+        "00-2021-0006",
+        "051-949-4989",
+        "051-759-8572",
+        "00-2022-0003",
+        "051-751-0088",
+        "051-714-2925",
+        "051-623-0709",
+        "00-2023-0003",
+        "051-755-0113",
+        "051-555-3613"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-754-8858",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "광안동 위어뮤즈디광안 관리사무소, 수영구 위어뮤즈디광안 관리사무소, 수영구 수영구 위어뮤즈디광안 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "00-2022-0005",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "광안동 위어뮤즈디광안 관리사무소, 수영구 위어뮤즈디광안 관리사무소, 수영구 수영구 위어뮤즈디광안 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "051-757-7550",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 광안동 776-18 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "00-2021-0006",
+          "score": 91,
+          "source": "114On",
+          "keyword": "광안동 위어뮤즈디광안 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-949-4989",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "수영구 위어뮤즈디광안 관리사무소, 수영구 수영구 위어뮤즈디광안 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-759-8572",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "위어뮤즈디광안오피스텔 전화번호, 위어뮤즈디광안 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "00-2022-0003",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "부산 수영구 광안동 776-18 전화번호, 위어뮤즈디광안 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-751-0088",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "부산 수영구 광안동 776-18 전화번호, 위어뮤즈디광안 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-714-2925",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 광안동 776-18 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-623-0709",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위어뮤즈디광안 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-2023-0003",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위어뮤즈디광안오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-755-0113",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위어뮤즈디광안 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-555-3613",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위어뮤즈디광안 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_위어뮤즈디광안"
@@ -4204,17 +4678,75 @@
       "address": "부산 수영구 남천동로9번길 38\n부산 수영구 남천동 10-2",
       "roadAddress": "부산 수영구 남천동로9번길 38",
       "jibunAddress": "부산 수영구 남천동 10-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1304-6150",
+      "phones": [
+        "07-1304-6150",
+        "051-621-4989",
+        "051-622-0780",
+        "051-626-8850"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1304-6150",
+          "score": 93,
+          "source": "네이버",
+          "keyword": "부산 수영구 남천동로9번길 38 관리사무소, 부산 수영구 남천동로9번길 38 관리실, 부산 수영구 남천동로9번길 38 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "051-621-4989",
+          "score": 90,
+          "source": "네이버",
+          "keyword": "남천동 금양아이파크 관리사무소, 수영구 금양아이파크 관리사무소, 수영구 수영구 금양아이파크 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "051-622-0780",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "수영구 금양아이파크 관리사무소, 수영구 수영구 금양아이파크 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-626-8850",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "남천동 금양아이파크 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 93,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_금양아이파크"
@@ -4748,17 +5280,33 @@
       "address": "부산 수영구 수영로 389\n부산 수영구 남천동 75-18",
       "roadAddress": "부산 수영구 수영로 389",
       "jibunAddress": "부산 수영구 남천동 75-18",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-911-0881",
+      "phones": [
+        "051-911-0881"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-911-0881",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 수영구 수영로 389 전화번호, 더샵남천프레스티지아파트 정문 전화번호, 더샵남천프레스티지 정문 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_샵남천프레스티지정문"
@@ -5135,17 +5683,76 @@
       "address": "부산 수영구 좌수영로 192\n부산 수영구 망미동 1136",
       "roadAddress": "부산 수영구 좌수영로 192",
       "jibunAddress": "부산 수영구 망미동 1136",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-752-1320",
+      "phones": [
+        "051-752-1320",
+        "051-751-8511",
+        "051-924-0606",
+        "051-757-2552"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-752-1320",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 수영구 망미동 1136 전화번호, 부산 수영구 좌수영로 192 관리사무소, 부산 수영구 좌수영로 192 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "051-751-8511",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 수영구 망미동 1136 전화번호, 부산 수영구 좌수영로 192 관리사무소, 부산 수영구 좌수영로 192 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "051-924-0606",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "망미동 센텀수영강변3차e-편한세상 관리사무소, 수영구 센텀수영강변3차e-편한세상 관리사무소, 수영구 수영구 센텀수영강변3차e-편한세상 관리사무소, 수영구 센텀수영강변3차e-편한세상 관리실, 센텀수영강변3차e-편한세상아파트 관리사무소, 센텀수영강변3차e-편한세상아파트 관리실, 센텀수영강변3차e-편한세상아파트 전화번호, 센텀",
+          "sourceCounts": {
+            "네이버": 14
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 12,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 14회"
+        },
+        {
+          "number": "051-757-2552",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 좌수영로 192 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_센텀수영강변3차e편한세상"
@@ -5221,17 +5828,77 @@
       "address": "부산 수영구 좌수영로 204\n부산 수영구 망미동 1128",
       "roadAddress": "부산 수영구 좌수영로 204",
       "jibunAddress": "부산 수영구 망미동 1128",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-759-2934",
+      "phones": [
+        "051-759-2934",
+        "051-924-0606",
+        "051-759-2935",
+        "051-531-8898"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-759-2934",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "부산 수영구 망미동 1128 관리사무소, 부산 수영구 좌수영로 204 관리사무소, 부산 수영구 좌수영로 204 전화번호, 센텀수영강변e편한세상2차아파트 관리사무소, 센텀수영강변e편한세상2차아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 3,
+            "114On": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3,
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회 · 네이버 3회"
+        },
+        {
+          "number": "051-924-0606",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "망미동 센텀수영강변e편한세상2차 관리사무소, 수영구 센텀수영강변e편한세상2차 관리사무소, 수영구 수영구 센텀수영강변e편한세상2차 관리사무소, 센텀수영강변e편한세상2차아파트 관리사무소, 센텀수영강변e편한세상2차아파트 전화번호, 센텀수영강변e편한세상2차아파트 관리단, 센텀수영강변e편한세상2차 전화번호",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 8
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "051-759-2935",
+          "score": 89,
+          "source": "네이버",
+          "keyword": "부산 수영구 망미동 1128 관리사무소, 센텀수영강변e편한세상2차아파트 관리사무소, 센텀수영강변e편한세상2차아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "051-531-8898",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "센텀수영강변e편한세상2차아파트 전화번호, 센텀수영강변e편한세상2차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_센텀수영강변e편한세상2차"
@@ -5442,17 +6109,33 @@
       "address": "부산 수영구 연수로 266\n부산 수영구 망미동 823-25",
       "roadAddress": "부산 수영구 연수로 266",
       "jibunAddress": "부산 수영구 망미동 823-25",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1428-8626",
+      "phones": [
+        "07-1428-8626"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1428-8626",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "자이주차장 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_자이주차장"
@@ -5474,17 +6157,33 @@
       "address": "부산 수영구 연수로 311\n부산 수영구 망미동 640-14",
       "roadAddress": "부산 수영구 연수로 311",
       "jibunAddress": "부산 수영구 망미동 640-14",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-630-4252",
+      "phones": [
+        "051-630-4252"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-630-4252",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 수영구 망미동 640-14 관리실, 부산 수영구 망미동 640-14 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 51,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_힐스테이트사직아시아드모델하우스"
@@ -5506,17 +6205,89 @@
       "address": "부산 수영구 좌수영로210번길 24\n부산 수영구 망미동 1129",
       "roadAddress": "부산 수영구 좌수영로210번길 24",
       "jibunAddress": "부산 수영구 망미동 1129",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-759-7744",
+      "phones": [
+        "051-759-7744",
+        "070-8028-8207",
+        "051-751-2789",
+        "051-731-1113",
+        "051-704-4200"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-759-7744",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 수영구 망미동 1129 전화번호, 부산 수영구 좌수영로210번길 24 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "070-8028-8207",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 수영구 망미동 1129 전화번호, 부산 수영구 좌수영로210번길 24 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "051-751-2789",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 수영구 망미동 1129 관리사무소, 부산 수영구 좌수영로210번길 24 관리사무소, 부산 수영구 좌수영로210번길 24 관리실, 망미동 힐스테이트센텀더퍼스트 관리사무소, 수영구 힐스테이트센텀더퍼스트 관리사무소, 수영구 수영구 힐스테이트센텀더퍼스트 관리사무소, 힐스테이트센텀더퍼스트오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "051-731-1113",
+          "score": 92,
+          "source": "네이버",
+          "keyword": "부산 수영구 망미동 1129 전화번호, 힐스테이트센텀더퍼스트오피스텔 전화번호, 힐스테이트센텀더퍼스트 관리실, 힐스테이트센텀더퍼스트 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "051-704-4200",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "부산 수영구 좌수영로210번길 24 전화번호, 힐스테이트센텀더퍼스트오피스텔 전화번호, 힐스테이트센텀더퍼스트 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_힐스테이트센텀퍼스트"
@@ -5590,17 +6361,47 @@
       "address": "부산 수영구 광안해변로326번길 10\n부산 수영구 민락동 780",
       "roadAddress": "부산 수영구 광안해변로326번길 10",
       "jibunAddress": "부산 수영구 민락동 780",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-255-0432",
+      "phones": [
+        "051-255-0432",
+        "051-759-8010"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-255-0432",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 광안해변로326번길 10 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-759-8010",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 민락동 780 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_e편한세상오션테라스1"
@@ -5622,17 +6423,47 @@
       "address": "부산 수영구 광안해변로326번길 9\n부산 수영구 민락동 781",
       "roadAddress": "부산 수영구 광안해변로326번길 9",
       "jibunAddress": "부산 수영구 민락동 781",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-759-8010",
+      "phones": [
+        "051-759-8010",
+        "051-759-8012"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-759-8010",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "부산 수영구 민락동 781 관리사무소, 부산 수영구 광안해변로326번길 9 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-759-8012",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 수영구 민락동 781 관리사무소, 부산 수영구 광안해변로326번길 9 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 53,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_e편한세상오션테라스2"
@@ -5654,17 +6485,146 @@
       "address": "부산 수영구 광안해변로326번길 32\n부산 수영구 민락동 783",
       "roadAddress": "부산 수영구 광안해변로326번길 32",
       "jibunAddress": "부산 수영구 민락동 783",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-466-3111",
+      "phones": [
+        "051-466-3111",
+        "00-2026-0000",
+        "051-755-3433",
+        "010-9566-0201",
+        "051-759-7000",
+        "010-9396-0155",
+        "051-754-4246",
+        "00-0507-1466",
+        "07-1466-0189"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-466-3111",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 783 전화번호, 부산 수영구 광안해변로326번길 32 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "00-2026-0000",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "수영구 e편한세상오션테라스3단지 관리사무소, 수영구 수영구 e편한세상오션테라스3단지 관리사무소, e편한세상오션테라스3단지아파트 관리사무소, e편한세상오션테라스3단지아파트 전화번호, e편한세상오션테라스3단지 전화번호",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3,
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "051-755-3433",
+          "score": 99,
+          "source": "네이버",
+          "keyword": "부산 수영구 광안해변로326번길 32 관리사무소, 부산 수영구 광안해변로326번길 32 관리실, 부산 수영구 광안해변로326번길 32 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "010-9566-0201",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 783 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-759-7000",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 783 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "010-9396-0155",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 783 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-754-4246",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 광안해변로326번길 32 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "00-0507-1466",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 광안해변로326번길 32 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1466-0189",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 광안해변로326번길 32 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_e편한세상오션테라스3"
@@ -5686,17 +6646,89 @@
       "address": "부산 수영구 광안해변로326번길 31\n부산 수영구 민락동 782",
       "roadAddress": "부산 수영구 광안해변로326번길 31",
       "jibunAddress": "부산 수영구 민락동 782",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-758-0008",
+      "phones": [
+        "051-758-0008",
+        "051-758-8988",
+        "051-755-0556",
+        "051-755-8383",
+        "07-1376-8095"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-758-0008",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 782 전화번호, 부산 수영구 광안해변로326번길 31 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "051-758-8988",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 782 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-755-0556",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 광안해변로326번길 31 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-755-8383",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "부산 수영구 광안해변로326번길 31 관리사무소, 부산 수영구 광안해변로326번길 31 관리실, 부산 수영구 광안해변로326번길 31 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1376-8095",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 민락동 782 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_e편한세상오션테라스4"
@@ -5715,9 +6747,9 @@
       "sido": "부산광역시",
       "district": "수영구",
       "dong": "민락동",
-      "address": "부산광역시 수영구 민락동 181-79 광안KCC스위첸하버뷰",
-      "roadAddress": "",
-      "jibunAddress": "부산광역시 수영구 민락동 181-79 광안KCC스위첸하버뷰",
+      "address": "부산 수영구 민락수변로 49\n부산 수영구 민락동 181-79",
+      "roadAddress": "부산 수영구 민락수변로 49",
+      "jibunAddress": "부산 수영구 민락동 181-79",
       "phone": "051-761-0991",
       "phones": [
         "051-761-0991"
@@ -5752,7 +6784,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_광안kcc스위첸하버뷰"
     },
     {
@@ -5952,17 +6984,145 @@
       "address": "부산 수영구 광안해변로 386\n부산 수영구 민락동 110-8",
       "roadAddress": "부산 수영구 광안해변로 386",
       "jibunAddress": "부산 수영구 민락동 110-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-757-0600",
+      "phones": [
+        "051-757-0600",
+        "051-761-2930",
+        "051-754-3800",
+        "051-527-7715",
+        "051-761-5516",
+        "051-998-9393",
+        "051-988-8245",
+        "051-864-6200",
+        "00-2024-0003"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-757-0600",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 110-8 전화번호, 부산 수영구 광안해변로 386 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "051-761-2930",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 수영구 민락동 110-8 관리사무소, 민락동 민락롯데캐슬자이언트 관리사무소, 수영구 민락롯데캐슬자이언트 관리사무소, 수영구 수영구 민락롯데캐슬자이언트 관리사무소, 수영구 민락롯데캐슬자이언트 관리실, 민락롯데캐슬자이언트아파트 관리사무소, 민락롯데캐슬자이언트아파트 관리단",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 8
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "051-754-3800",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 110-8 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-527-7715",
+          "score": 81,
+          "source": "네이버",
+          "keyword": "민락롯데캐슬자이언트아파트 관리사무소, 민락롯데캐슬자이언트아파트 전화번호, 민락롯데캐슬자이언트아파트 관리단",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "051-761-5516",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 광안해변로 386 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-998-9393",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 광안해변로 386 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-988-8245",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "민락롯데캐슬자이언트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-864-6200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "민락롯데캐슬자이언트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-2024-0003",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "민락롯데캐슬자이언트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_수영구_민락롯데캐슬자이언트"
@@ -5984,17 +7144,75 @@
       "address": "부산 수영구 민락동 110",
       "roadAddress": "",
       "jibunAddress": "부산 수영구 민락동 110",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-751-7979",
+      "phones": [
+        "051-751-7979",
+        "051-753-7034",
+        "051-754-9001",
+        "051-754-1911"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-751-7979",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 110 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-753-7034",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 110 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-754-9001",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 수영구 민락동 110 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-754-1911",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 민락동 110 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "부산광역시_수영구_부산민락유원지예정"

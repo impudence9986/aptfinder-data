@@ -1,6 +1,6 @@
 {
-  "version": 1784225167,
-  "updatedAt": "2026-07-16 18:06:07",
+  "version": 1784830805,
+  "updatedAt": "2026-07-23 18:20:05",
   "sido": "부산광역시",
   "sigungu": "서구",
   "count": 132,
@@ -247,9 +247,9 @@
           "number": "051-931-0701",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -258,14 +258,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "767",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 18:15:30",
       "detailUpdatedAt": 1781142941247,
       "listUpdatedAt": 1781142941247,
       "phoneStatus": "CONFIRMED",
@@ -726,16 +727,20 @@
       "jibunAddress": "부산 서구 서대신동2가 570",
       "phone": "051-243-0815",
       "phones": [
-        "051-243-0815"
+        "051-243-0815",
+        "051-240-4890",
+        "07-1385-4232",
+        "022-1227-5000",
+        "022-1227-4900"
       ],
       "phoneCandidates": [
         {
           "number": "051-243-0815",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -744,14 +749,67 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "051-240-4890",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 서구 서대신동2가 570 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1385-4232",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 서구 서대신동2가 570 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "022-1227-5000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 서구 서대신동2가 570 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "022-1227-4900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 서구 서대신동2가 570 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "815",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-23 18:11:53",
       "detailUpdatedAt": 1781142941247,
       "listUpdatedAt": 1781142941247,
       "phoneStatus": "CONFIRMED",
@@ -5001,9 +5059,9 @@
       "sido": "부산광역시",
       "district": "강서구",
       "dong": "대저2동",
-      "address": "부산광역시 강서구 대저2동 2033-1 공항마을 리베르하임",
-      "roadAddress": "",
-      "jibunAddress": "부산광역시 강서구 대저2동 2033-1 공항마을 리베르하임",
+      "address": "부산 강서구 공항앞길13번길 53\n부산 강서구 대저2동 2033-1",
+      "roadAddress": "부산 강서구 공항앞길13번길 53",
+      "jibunAddress": "부산 강서구 대저2동 2033-1",
       "phone": "051-984-0709",
       "phones": [
         "051-984-0709"
@@ -5038,7 +5096,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_공항마을리베르하임"
     },
     {
@@ -5058,17 +5116,33 @@
       "address": "부산 서구 구덕로346번길 4\n부산 서구 동대신동3가 190",
       "roadAddress": "부산 서구 구덕로346번길 4",
       "jibunAddress": "부산 서구 동대신동3가 190",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-294-9374",
+      "phones": [
+        "051-294-9374"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-294-9374",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_동대센츄럴타운"
@@ -5320,9 +5394,9 @@
       "sido": "부산광역시",
       "district": "강서구",
       "dong": "명지동",
-      "address": "부산광역시 강서구 명지동 3227-2 명지행복주택",
-      "roadAddress": "",
-      "jibunAddress": "부산광역시 강서구 명지동 3227-2 명지행복주택",
+      "address": "부산 강서구 르노삼성대로 255\n부산 강서구 명지동 3227-2",
+      "roadAddress": "부산 강서구 르노삼성대로 255",
+      "jibunAddress": "부산 강서구 명지동 3227-2",
       "phone": "051-294-8433",
       "phones": [
         "051-294-8433"
@@ -5357,7 +5431,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_명지행복주택"
     },
     {
@@ -5377,17 +5451,47 @@
       "address": "부산 서구 대청로6번길 22\n부산 서구 부민동1가 31-6",
       "roadAddress": "부산 서구 대청로6번길 22",
       "jibunAddress": "부산 서구 부민동1가 31-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-7249-6442",
+      "phones": [
+        "051-7249-6442",
+        "051-323-1112"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-7249-6442",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-323-1112",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_르헤리티지"
@@ -5477,17 +5581,33 @@
       "address": "부산 서구 구덕로244번길 6\n부산 서구 부용동1가 61",
       "roadAddress": "부산 서구 구덕로244번길 6",
       "jibunAddress": "부산 서구 부용동1가 61",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-250-1710",
+      "phones": [
+        "051-250-1710"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-250-1710",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_서원블루오션g동"
@@ -5620,17 +5740,47 @@
       "address": "부산 서구 부용로 27\n부산 서구 서대신동1가 73",
       "roadAddress": "부산 서구 부용로 27",
       "jibunAddress": "부산 서구 서대신동1가 73",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-292-0292",
+      "phones": [
+        "051-292-0292",
+        "051-711-2017"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-292-0292",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-711-2017",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_넥스트리"
@@ -5684,17 +5834,61 @@
       "address": "부산 서구 서대신동2가 420-2",
       "roadAddress": "",
       "jibunAddress": "부산 서구 서대신동2가 420-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-257-8652",
+      "phones": [
+        "051-257-8652",
+        "051-710-6888",
+        "051-554-0030"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-257-8652",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-710-6888",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-554-0030",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "부산광역시_서구_대신2차푸르지오정문"
@@ -5716,17 +5910,61 @@
       "address": "부산 서구 고운들로 181\n부산 서구 서대신동2가 414-1",
       "roadAddress": "부산 서구 고운들로 181",
       "jibunAddress": "부산 서구 서대신동2가 414-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-710-6888",
+      "phones": [
+        "051-710-6888",
+        "051-972-6171",
+        "051-243-0816"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-710-6888",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-972-6171",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-243-0816",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_대신2차푸르지오후문"
@@ -5883,17 +6121,47 @@
       "address": "부산 서구 꽃마을로 48\n부산 서구 서대신동3가 117-1",
       "roadAddress": "부산 서구 꽃마을로 48",
       "jibunAddress": "부산 서구 서대신동3가 117-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-973-8275",
+      "phones": [
+        "051-973-8275",
+        "051-242-5234"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-973-8275",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-242-5234",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_대신샵정문"
@@ -6077,17 +6345,117 @@
       "address": "부산 서구 대영로6번길 6\n부산 서구 서대신동2가 278-2",
       "roadAddress": "부산 서구 대영로6번길 6",
       "jibunAddress": "부산 서구 서대신동2가 278-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "010-9326-6107",
+      "phones": [
+        "010-9326-6107",
+        "051-293-0122",
+        "051-245-6933",
+        "051-293-1238",
+        "051-231-4452",
+        "051-242-3352",
+        "051-240-0800"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-9326-6107",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 서구 대영로6번길 6 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-293-0122",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 서구 대영로6번길 6 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-245-6933",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "부산 서구 대영로6번길 6 관리사무소, 부산 서구 대영로6번길 6 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-293-1238",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서대신엔스타오피스텔 관리사무소, 서대신엔스타 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-231-4452",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서대신엔스타 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-242-3352",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서대신엔스타 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-240-0800",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서대신엔스타 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_서대신엔스타"
@@ -6141,17 +6509,47 @@
       "address": "부산 서구 망양로 48\n부산 서구 서대신동3가 249-3",
       "roadAddress": "부산 서구 망양로 48",
       "jibunAddress": "부산 서구 서대신동3가 249-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-517-1883",
+      "phones": [
+        "051-517-1883",
+        "051-517-1881"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-517-1883",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-517-1881",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_아이파크풋볼아카데미대신점"
@@ -6173,17 +6571,89 @@
       "address": "부산 서구 구덕로285번길 23\n부산 서구 서대신동1가 54-16",
       "roadAddress": "부산 서구 구덕로285번길 23",
       "jibunAddress": "부산 서구 서대신동1가 54-16",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1309-3361",
+      "phones": [
+        "07-1309-3361",
+        "02-324-4090",
+        "033-333-3371",
+        "07-1358-3372",
+        "07-1311-7793"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1309-3361",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘렌시아오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-324-4090",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘렌시아 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "033-333-3371",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘렌시아 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1358-3372",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘렌시아 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1311-7793",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘렌시아 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_엘렌시아"
@@ -6205,17 +6675,33 @@
       "address": "부산 서구 구덕로333번길 10\n부산 서구 서대신동3가 291-5",
       "roadAddress": "부산 서구 구덕로333번길 10",
       "jibunAddress": "부산 서구 서대신동3가 291-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-243-8545",
+      "phones": [
+        "051-243-8545"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-243-8545",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_효정풍경채"
@@ -6269,17 +6755,47 @@
       "address": "부산 서구 구덕로165번길 29\n부산 서구 아미동2가 70-14",
       "roadAddress": "부산 서구 구덕로165번길 29",
       "jibunAddress": "부산 서구 아미동2가 70-14",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-462-0024",
+      "phones": [
+        "051-462-0024",
+        "051-205-3574"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-462-0024",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-205-3574",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_다온레지던스"
@@ -6566,17 +7082,33 @@
       "address": "부산 서구 충무대로34번길 19\n부산 서구 암남동 351-1",
       "roadAddress": "부산 서구 충무대로34번길 19",
       "jibunAddress": "부산 서구 암남동 351-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6080-0595",
+      "phones": [
+        "02-6080-0595"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6080-0595",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "송도헤븐더뷰 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_송도헤븐뷰"
@@ -6679,17 +7211,90 @@
       "address": "부산 서구 송도해변로 192\n부산 서구 암남동 123-15",
       "roadAddress": "부산 서구 송도해변로 192",
       "jibunAddress": "부산 서구 암남동 123-15",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-243-2500",
+      "phones": [
+        "051-243-2500",
+        "051-246-7739",
+        "051-247-7739",
+        "051-714-0066",
+        "070-4012-7635"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-243-2500",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 서구 암남동 123-15 관리사무소, 부산 서구 송도해변로 192 관리사무소, 부산 서구 송도해변로 192 관리실, 부산 서구 송도해변로 192 전화번호",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4,
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "051-246-7739",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "부산 서구 암남동 123-15 관리사무소, 부산 서구 송도해변로 192 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-247-7739",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "부산 서구 암남동 123-15 관리사무소, 부산 서구 송도해변로 192 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-714-0066",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 서구 송도해변로 192 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-4012-7635",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 서구 송도해변로 192 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_송도힐스테이트이진베이시티a동입구"
@@ -6711,17 +7316,61 @@
       "address": "부산 서구 충무대로34번길 37-7\n부산 서구 암남동 351",
       "roadAddress": "부산 서구 충무대로34번길 37-7",
       "jibunAddress": "부산 서구 암남동 351",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-246-2921",
+      "phones": [
+        "051-246-2921",
+        "051-246-2920",
+        "051-206-6001"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-246-2921",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-246-2920",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-206-6001",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_월드"
@@ -6743,17 +7392,75 @@
       "address": "부산 서구 충무시장길 34\n부산 서구 충무동1가 29-8",
       "roadAddress": "부산 서구 충무시장길 34",
       "jibunAddress": "부산 서구 충무동1가 29-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "01-462-2026",
+      "phones": [
+        "01-462-2026",
+        "01-283-2026",
+        "042-483-0633",
+        "051-254-7867"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "01-462-2026",
+          "score": 79,
+          "source": "네이버",
+          "keyword": "충무동 충무6차에코팰리스 관리사무소, 서구 서구 충무6차에코팰리스 관리사무소, 서구 충무6차에코팰리스 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "01-283-2026",
+          "score": 75,
+          "source": "네이버",
+          "keyword": "충무동 충무6차에코팰리스 관리사무소, 서구 서구 충무6차에코팰리스 관리사무소, 서구 충무6차에코팰리스 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "042-483-0633",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "충무6차에코팰리스 관리실, 충무6차에코팰리스 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-254-7867",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 서구 충무시장길 34 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 79,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_충무6차에코팰리스"
@@ -6775,17 +7482,61 @@
       "address": "부산 서구 까치고개로239번길 30\n부산 서구 토성동1가 2-2",
       "roadAddress": "부산 서구 까치고개로239번길 30",
       "jibunAddress": "부산 서구 토성동1가 2-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-972-9097",
+      "phones": [
+        "051-972-9097",
+        "051-972-9091",
+        "051-791-1118"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-972-9097",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-972-9091",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-791-1118",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_샵"
@@ -6807,17 +7558,89 @@
       "address": "부산 서구 구덕로148번길 8\n부산 서구 토성동5가 22-9",
       "roadAddress": "부산 서구 구덕로148번길 8",
       "jibunAddress": "부산 서구 토성동5가 22-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-244-8944",
+      "phones": [
+        "051-244-8944",
+        "051-923-7760",
+        "051-461-0541",
+        "051-203-4985",
+        "010-2371-2025"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-244-8944",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 서구 토성동5가 22-9 전화번호, 토성동 아람빌리지 관리사무소, 서구 아람빌리지 관리사무소, 서구 서구 아람빌리지 관리사무소, 아람빌리지오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "051-923-7760",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "아람빌리지오피스텔 관리실, 아람빌리지 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-461-0541",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 서구 토성동5가 22-9 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-203-4985",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "아람빌리지오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "010-2371-2025",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "아람빌리지오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_아람빌리지"
@@ -6897,17 +7720,33 @@
       "address": "부산 서구 구덕로124번길 49\n부산 서구 토성동1가 33-8",
       "roadAddress": "부산 서구 구덕로124번길 49",
       "jibunAddress": "부산 서구 토성동1가 33-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-810-5500",
+      "phones": [
+        "051-810-5500"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-810-5500",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_서구_트레저"
