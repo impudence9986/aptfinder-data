@@ -1,6 +1,6 @@
 {
-  "version": 1784311177,
-  "updatedAt": "2026-07-17 17:59:37",
+  "version": 1784918484,
+  "updatedAt": "2026-07-24 18:41:24",
   "sido": "대구광역시",
   "sigungu": "서구",
   "count": 333,
@@ -14899,9 +14899,9 @@
       "sido": "대구광역시",
       "district": "대구",
       "dong": "감삼동",
-      "address": "대구광역시 달서구 감삼동 582-5 죽전역화성파크드림",
-      "roadAddress": "",
-      "jibunAddress": "대구광역시 달서구 감삼동 582-5 죽전역화성파크드림",
+      "address": "대구 달서구 달구벌대로304길 60\n대구 달서구 감삼동 582-5",
+      "roadAddress": "대구 달서구 달구벌대로304길 60",
+      "jibunAddress": "대구 달서구 감삼동 582-5",
       "phone": "053-551-1133",
       "phones": [
         "053-551-1133"
@@ -14936,7 +14936,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_서구_죽전역화성파크드림"
     },
     {
@@ -16604,17 +16604,33 @@
       "address": "대구 서구 팔달로18길 20-8\n대구 서구 비산동 1455",
       "roadAddress": "대구 서구 팔달로18길 20-8",
       "jibunAddress": "대구 서구 비산동 1455",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "054-733-6450",
+      "phones": [
+        "054-733-6450"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "054-733-6450",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "양문그레이스 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_서구_양문그레이스"

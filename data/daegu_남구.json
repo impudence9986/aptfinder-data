@@ -1,6 +1,6 @@
 {
-  "version": 1781147940,
-  "updatedAt": "2026-06-11 03:19:00",
+  "version": 1784916826,
+  "updatedAt": "2026-07-24 18:13:46",
   "sido": "대구광역시",
   "sigungu": "남구",
   "count": 83,
@@ -132,16 +132,17 @@
       "jibunAddress": "대구 남구 봉덕동 862",
       "phone": "053-476-0548",
       "phones": [
-        "053-476-0548"
+        "053-476-0548",
+        "03-556-2021"
       ],
       "phoneCandidates": [
         {
           "number": "053-476-0548",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -150,14 +151,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "03-556-2021",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 862 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "430",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-24 18:12:30",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2616,16 +2631,18 @@
       "jibunAddress": "대구 남구 대명동 3083",
       "phone": "053-621-7753",
       "phones": [
-        "053-621-7753"
+        "053-621-7753",
+        "053-521-7754"
       ],
       "phoneCandidates": [
         {
           "number": "053-621-7753",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 대구 남구 대명동 3083 관리사무소, 대구 남구 대명동 3083 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 4
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2634,14 +2651,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2,
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 4회"
+        },
+        {
+          "number": "053-521-7754",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 3083 관리사무소, 대구 남구 대명동 3083 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "325",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-24 18:12:27",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2677,9 +2710,9 @@
           "number": "053-472-2003",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2688,14 +2721,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "345",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-24 18:12:33",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2803,17 +2837,33 @@
       "address": "대구 남구 명덕로 50\n대구 남구 대명동 2275-2",
       "roadAddress": "대구 남구 명덕로 50",
       "jibunAddress": "대구 남구 대명동 2275-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-471-0141",
+      "phones": [
+        "053-471-0141"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-471-0141",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 남구 명덕로 50 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_남구_hanastay대명"
@@ -2982,17 +3032,61 @@
       "address": "대구 남구 중앙대로42길 46-6\n대구 남구 대명동 2014-211",
       "roadAddress": "대구 남구 중앙대로42길 46-6",
       "jibunAddress": "대구 남구 대명동 2014-211",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-759-0555",
+      "phones": [
+        "053-759-0555",
+        "053-472-2002",
+        "053-352-7991"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-759-0555",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-472-2002",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-352-7991",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_남구_리치카운티"
@@ -3122,17 +3216,47 @@
       "address": "대구 남구 대명역2길 70\n대구 남구 대명동 1118-1",
       "roadAddress": "대구 남구 대명역2길 70",
       "jibunAddress": "대구 남구 대명동 1118-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-756-9852",
+      "phones": [
+        "053-756-9852",
+        "053-756-9851"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-756-9852",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-756-9851",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_남구_앞산삼정그린코아트라이시티"
@@ -3154,17 +3278,61 @@
       "address": "대구 남구 명덕로 142\n대구 남구 대명동 1875-1",
       "roadAddress": "대구 남구 명덕로 142",
       "jibunAddress": "대구 남구 대명동 1875-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-623-1120",
+      "phones": [
+        "053-623-1120",
+        "053-744-7701",
+        "053-217-0082"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-623-1120",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-744-7701",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-217-0082",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_남구_이랜드peer대명1"
@@ -3186,17 +3354,47 @@
       "address": "대구 남구 명덕로 148\n대구 남구 대명동 1824-1",
       "roadAddress": "대구 남구 명덕로 148",
       "jibunAddress": "대구 남구 대명동 1824-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-623-1120",
+      "phones": [
+        "053-623-1120",
+        "053-217-0082"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-623-1120",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-217-0082",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_남구_이랜드peer대명2"
@@ -3218,17 +3416,89 @@
       "address": "대구 남구 대명로 39\n대구 남구 대명동 1593-57",
       "roadAddress": "대구 남구 대명로 39",
       "jibunAddress": "대구 남구 대명동 1593-57",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-654-8989",
+      "phones": [
+        "053-654-8989",
+        "053-653-5008",
+        "053-629-8949",
+        "053-622-4774",
+        "053-629-5454"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-654-8989",
+          "score": 100,
+          "source": "114On",
+          "keyword": "대구 남구 대명동 1593-57 전화번호, 대구 남구 대명로 39 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "053-653-5008",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 남구 대명동 1593-57 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "053-629-8949",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 남구 대명동 1593-57 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "053-622-4774",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 남구 대명동 1593-57 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "053-629-5454",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 남구 대명동 1593-57 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_남구_자이웰니스진"
@@ -3250,17 +3520,33 @@
       "address": "대구 남구 대명로 290\n대구 남구 대명동 145-4",
       "roadAddress": "대구 남구 대명로 290",
       "jibunAddress": "대구 남구 대명동 145-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-202-3533",
+      "phones": [
+        "053-202-3533"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-202-3533",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_남구_차밍오퓨런스"
@@ -3282,17 +3568,33 @@
       "address": "대구 남구 대명로 140\n대구 남구 대명동 910-1",
       "roadAddress": "대구 남구 대명로 140",
       "jibunAddress": "대구 남구 대명동 910-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-566-7786",
+      "phones": [
+        "053-566-7786"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-566-7786",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_남구_현우팰리스"
@@ -3314,17 +3616,61 @@
       "address": "대구 남구 명덕로26길 17-7\n대구 남구 대명동 1888-5",
       "roadAddress": "대구 남구 명덕로26길 17-7",
       "jibunAddress": "대구 남구 대명동 1888-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-623-1120",
+      "phones": [
+        "053-623-1120",
+        "053-474-1040",
+        "053-623-1121"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-623-1120",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-474-1040",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-623-1121",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_남구_힐스테이트"
@@ -4189,17 +4535,61 @@
       "address": "대구 남구 봉덕동 1006-1",
       "roadAddress": "",
       "jibunAddress": "대구 남구 봉덕동 1006-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-803-7450",
+      "phones": [
+        "053-803-7450",
+        "053-472-3153",
+        "053-471-1091"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-803-7450",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-472-3153",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-471-1091",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대구광역시_남구_힐스테이트영대병원역예정"
@@ -4302,17 +4692,61 @@
       "address": "대구 남구 이천동 471-5",
       "roadAddress": "",
       "jibunAddress": "대구 남구 이천동 471-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-477-7005",
+      "phones": [
+        "053-477-7005",
+        "053-477-6008",
+        "053-472-5559"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-477-7005",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-477-6008",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-472-5559",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대구광역시_남구_교대역푸르지오트레힐즈정문"
@@ -4334,17 +4768,61 @@
       "address": "대구 남구 이천로19길 16\n대구 남구 이천동 474-1",
       "roadAddress": "대구 남구 이천로19길 16",
       "jibunAddress": "대구 남구 이천동 474-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-477-7005",
+      "phones": [
+        "053-477-7005",
+        "053-477-6008",
+        "053-244-1683"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-477-7005",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-477-6008",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-244-1683",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_남구_교대역푸르지오트레힐즈후문"

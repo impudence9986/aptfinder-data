@@ -1,6 +1,6 @@
 {
-  "version": 1784832533,
-  "updatedAt": "2026-07-23 18:48:53",
+  "version": 1784915752,
+  "updatedAt": "2026-07-24 17:55:52",
   "sido": "부산광역시",
   "sigungu": "중구",
   "count": 34,
@@ -2822,17 +2822,33 @@
       "address": "부산 중구 해관로 23\n부산 중구 중앙동1가 23-2",
       "roadAddress": "부산 중구 해관로 23",
       "jibunAddress": "부산 중구 중앙동1가 23-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-245-6601",
+      "phones": [
+        "051-245-6601"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-245-6601",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_중구_프리미엄안단테"
