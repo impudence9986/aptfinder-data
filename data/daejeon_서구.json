@@ -1,6 +1,6 @@
 {
-  "version": 1784397434,
-  "updatedAt": "2026-07-18 17:57:14",
+  "version": 1785002888,
+  "updatedAt": "2026-07-25 18:08:08",
   "sido": "대전광역시",
   "sigungu": "서구",
   "count": 255,
@@ -8178,16 +8178,18 @@
       "jibunAddress": "대전 서구 도마동 산 39-1",
       "phone": "042-524-3001",
       "phones": [
-        "042-524-3001"
+        "042-524-3001",
+        "042-524-3002"
       ],
       "phoneCandidates": [
         {
           "number": "042-524-3001",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 대전 서구 도마동 산 39-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8196,14 +8198,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "042-524-3002",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 서구 도마동 산 39-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "690",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 18:05:44",
       "detailUpdatedAt": 1781232504999,
       "listUpdatedAt": 1781232504999,
       "phoneStatus": "CONFIRMED",
@@ -8608,17 +8625,33 @@
       "address": "대전 서구 가수원동 산 16-119",
       "roadAddress": "",
       "jibunAddress": "대전 서구 가수원동 산 16-119",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-824-9660",
+      "phones": [
+        "042-824-9660"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-824-9660",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_서구_관저푸르지오센트럴파크22026년11월예정"
@@ -8808,17 +8841,61 @@
       "address": "대전 서구 신갈마로 237\n대전 서구 갈마동 263-9",
       "roadAddress": "대전 서구 신갈마로 237",
       "jibunAddress": "대전 서구 갈마동 263-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-825-7454",
+      "phones": [
+        "042-825-7454",
+        "042-542-0922",
+        "042-541-1500"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-825-7454",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-542-0922",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-541-1500",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_센트레빌"
@@ -8906,17 +8983,33 @@
       "address": "대전 서구 봉우로30번길 16\n대전 서구 관저동 1737",
       "roadAddress": "대전 서구 봉우로30번길 16",
       "jibunAddress": "대전 서구 관저동 1737",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-347-9500",
+      "phones": [
+        "042-347-9500"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-347-9500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "e편한세상시티도안 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_e편한세상시티도안"
@@ -8938,17 +9031,47 @@
       "address": "대전 서구 관저북로13번길 23-24\n대전 서구 관저동 1778",
       "roadAddress": "대전 서구 관저북로13번길 23-24",
       "jibunAddress": "대전 서구 관저동 1778",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-542-6789",
+      "phones": [
+        "042-542-6789",
+        "042-543-8782"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-542-6789",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 서구 관저북로13번길 23-24 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-543-8782",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 서구 관저북로13번길 23-24 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_계룡한라비발디센트럴홍보관"
@@ -9160,17 +9283,75 @@
       "address": "대전 서구 관저남로12번길 12\n대전 서구 관저동 1566",
       "roadAddress": "대전 서구 관저남로12번길 12",
       "jibunAddress": "대전 서구 관저동 1566",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-545-7200",
+      "phones": [
+        "042-545-7200",
+        "042-826-0093",
+        "042-545-0320",
+        "07-1351-9962"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-545-7200",
+          "score": 100,
+          "source": "114On",
+          "keyword": "대전 서구 관저동 1566 전화번호, 대전 서구 관저남로12번길 12 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "042-826-0093",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "관저동 관저중흥S클래스프라디움 관리사무소, 서구 관저중흥S클래스프라디움 관리사무소, 서구 서구 관저중흥S클래스프라디움 관리사무소, 서구 관저중흥S클래스프라디움 관리실",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "042-545-0320",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 서구 관저남로12번길 12 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1351-9962",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관저중흥S클래스프라디움 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_관저중흥s클래스프라디움"
@@ -9224,17 +9405,91 @@
       "address": "대전 서구 관저동로 12\n대전 서구 관저동 1595",
       "roadAddress": "대전 서구 관저동로 12",
       "jibunAddress": "대전 서구 관저동 1595",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-544-8220",
+      "phones": [
+        "042-544-8220",
+        "042-545-9600",
+        "042-544-8221",
+        "042-541-0123",
+        "042-527-2637"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-544-8220",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "대전 서구 관저동 1595 관리사무소, 대전 서구 관저동 1595 전화번호, 관저효성해링턴플레이스아파트 관리사무소, 관저효성해링턴플레이스아파트 전화번호, 관저효성해링턴플레이스 전화번호",
+          "sourceCounts": {
+            "네이버": 2,
+            "114On": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회 · 네이버 2회"
+        },
+        {
+          "number": "042-545-9600",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 서구 관저동 1595 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "042-544-8221",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "대전 서구 관저동 1595 관리사무소, 관저효성해링턴플레이스아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "042-541-0123",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관저효성해링턴플레이스아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-527-2637",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관저효성해링턴플레이스아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_관저효성해링턴플레이스"
@@ -9364,17 +9619,77 @@
       "address": "대전 서구 관저서로 19\n대전 서구 관저동 1988",
       "roadAddress": "대전 서구 관저서로 19",
       "jibunAddress": "대전 서구 관저동 1988",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-545-9928",
+      "phones": [
+        "042-545-9928",
+        "010-2737-4354",
+        "042-544-8986",
+        "042-545-9929"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-545-9928",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "대전 서구 관저서로 19 관리사무소, 대전 서구 관저서로 19 전화번호",
+          "sourceCounts": {
+            "네이버": 2,
+            "114On": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회 · 네이버 2회"
+        },
+        {
+          "number": "010-2737-4354",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 서구 관저서로 19 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "042-544-8986",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 서구 관저서로 19 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "042-545-9929",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "대전 서구 관저서로 19 관리사무소, 대전 서구 관저서로 19 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_샵관저아르테2029년06월예정"
@@ -9396,17 +9711,33 @@
       "address": "대전 서구 관저동 1747",
       "roadAddress": "",
       "jibunAddress": "대전 서구 관저동 1747",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-600-0129",
+      "phones": [
+        "02-600-0129"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-600-0129",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 서구 관저동 1747 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_서구_샵관저아르테견본주택"
@@ -9690,17 +10021,47 @@
       "address": "대전 서구 갈마로197번길 80\n대전 서구 괴정동 69-39",
       "roadAddress": "대전 서구 갈마로197번길 80",
       "jibunAddress": "대전 서구 괴정동 69-39",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-534-8949",
+      "phones": [
+        "02-534-8949",
+        "010-4355-0030"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-534-8949",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "아이파크빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "010-4355-0030",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "아이파크빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_아이파크빌"
@@ -10038,17 +10399,48 @@
       "address": "대전 서구 도산로 8\n대전 서구 도마동 140-17",
       "roadAddress": "대전 서구 도산로 8",
       "jibunAddress": "대전 서구 도마동 140-17",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-583-1500",
+      "phones": [
+        "042-583-1500",
+        "042-584-1110"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-583-1500",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서구 도마e편한세상포레나 상가1동 관리사무소, 서구 도마e편한세상포레나 상가1동 관리실, 도마e편한세상포레나 상가1동 전화번호, 도마e편한세상포레나 상가1동 관리단",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "042-584-1110",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "대전 서구 도마동 140-17 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_도마e편한세상포레나1동"
@@ -10070,17 +10462,47 @@
       "address": "대전 서구 도산로 8\n대전 서구 도마동 179-30",
       "roadAddress": "대전 서구 도산로 8",
       "jibunAddress": "대전 서구 도마동 179-30",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-581-5971",
+      "phones": [
+        "042-581-5971",
+        "07-1332-7485"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-581-5971",
+          "score": 100,
+          "source": "114On",
+          "keyword": "대전 서구 도마동 179-30 관리사무소, 대전 서구 도마동 179-30 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "07-1332-7485",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 서구 도마동 179-30 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_도마e편한세상포레나후문"
@@ -11022,17 +11444,62 @@
       "address": "대전 서구 도안동로 234-54\n대전 서구 도안동 2330",
       "roadAddress": "대전 서구 도안동로 234-54",
       "jibunAddress": "대전 서구 도안동 2330",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1348-0149",
+      "phones": [
+        "07-1348-0149",
+        "042-334-1515",
+        "042-719-4924"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1348-0149",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "대전 서구 도안동로 234-54 관리사무소, 대전 서구 도안동로 234-54 관리실, 대전 서구 도안동로 234-54 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3,
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "042-334-1515",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "대전 서구 도안동 2330 관리실, 대전 서구 도안동 2330 전화번호, 대전 서구 도안동로 234-54 관리실, 대전 서구 도안동로 234-54 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "042-719-4924",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "힐스테이트 도안리버파크2차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_힐스테이트도안리버파크2차"
@@ -11195,17 +11662,33 @@
       "address": "대전 서구 둔산동 1380-2",
       "roadAddress": "",
       "jibunAddress": "대전 서구 둔산동 1380-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-486-8468",
+      "phones": [
+        "042-486-8468"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-486-8468",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 서구 둔산동 1380-2 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_서구_그랑르피에드2028년05월예정"
@@ -11227,17 +11710,118 @@
       "address": "대전 서구 대덕대로 248\n대전 서구 둔산동 1370",
       "roadAddress": "대전 서구 대덕대로 248",
       "jibunAddress": "대전 서구 둔산동 1370",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1450-2026",
+      "phones": [
+        "07-1450-2026",
+        "07-1383-9297",
+        "07-1358-4676",
+        "042-489-7923",
+        "07-1337-8470",
+        "07-1368-5421",
+        "07-1381-3611"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1450-2026",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "대전 서구 대덕대로 248 관리사무소, 대전 서구 대덕대로 248 관리실, 대전 서구 대덕대로 248 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1383-9297",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "대전 서구 대덕대로 248 관리실, 둔산동 넥서스밸리(A,B동) 관리사무소, 넥서스밸리(A,B동) 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1358-4676",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "넥서스밸리오피스텔(A,B동) 전화번호, 넥서스밸리(A,B동) 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "042-489-7923",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 서구 대덕대로 248 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1337-8470",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 서구 대덕대로 248 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1368-5421",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 서구 대덕대로 248 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1381-3611",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 서구 대덕대로 248 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_넥서스밸리ab동"
@@ -11707,17 +12291,131 @@
       "address": "대전 서구 둔산중로64번길 25\n대전 서구 둔산동 1473",
       "roadAddress": "대전 서구 둔산중로64번길 25",
       "jibunAddress": "대전 서구 둔산동 1473",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-484-1118",
+      "phones": [
+        "042-484-1118",
+        "042-485-8467",
+        "017-0201-6000",
+        "07-1406-8515",
+        "042-334-4985",
+        "042-484-4979",
+        "042-365-7216",
+        "042-365-7211"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-484-1118",
+          "score": 100,
+          "source": "114On",
+          "keyword": "대전 서구 둔산동 1473 전화번호, 대전 서구 둔산중로64번길 25 관리실, 대전 서구 둔산중로64번길 25 전화번호, 서구 봉쥬르카운티 관리실, 봉쥬르카운티 전화번호",
+          "sourceCounts": {
+            "114On": 5
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 5
+          },
+          "sourceSummary": "114On 5회"
+        },
+        {
+          "number": "042-485-8467",
+          "score": 89,
+          "source": "네이버",
+          "keyword": "둔산동 봉쥬르카운티 관리사무소, 서구 봉쥬르카운티 관리사무소, 서구 서구 봉쥬르카운티 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "017-0201-6000",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "서구 봉쥬르카운티 관리사무소, 서구 서구 봉쥬르카운티 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1406-8515",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "대전 서구 둔산중로64번길 25 관리실, 봉쥬르카운티 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "042-334-4985",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "둔산동 봉쥬르카운티 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-484-4979",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서구 봉쥬르카운티 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-365-7216",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "봉쥬르카운티 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-365-7211",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "봉쥬르카운티 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_서구_봉쥬르카운티"

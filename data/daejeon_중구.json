@@ -1,6 +1,6 @@
 {
-  "version": 1781236891,
-  "updatedAt": "2026-06-12 04:01:31",
+  "version": 1785003470,
+  "updatedAt": "2026-07-25 18:17:50",
   "sido": "대전광역시",
   "sigungu": "중구",
   "count": 149,
@@ -618,16 +618,20 @@
       "jibunAddress": "대전 중구 대흥동 912",
       "phone": "042-252-3370",
       "phones": [
-        "042-252-3370"
+        "042-252-3370",
+        "042-221-3371",
+        "042-222-1259",
+        "042-221-4372",
+        "042-221-4900"
       ],
       "phoneCandidates": [
         {
           "number": "042-252-3370",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -636,14 +640,69 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "042-221-3371",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "대전 중구 대흥동 912 관리사무소",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "042-222-1259",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 중구 대흥동 912 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "042-221-4372",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 중구 대흥동 912 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-221-4900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 중구 대흥동 912 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "278",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 18:14:44",
       "detailUpdatedAt": 1781236489865,
       "listUpdatedAt": 1781236489865,
       "phoneStatus": "CONFIRMED",
@@ -5260,17 +5319,34 @@
       "address": "대전 중구 대흥동 444-1",
       "roadAddress": "",
       "jibunAddress": "대전 중구 대흥동 444-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-335-2500",
+      "phones": [
+        "042-335-2500"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-335-2500",
+          "score": 84,
+          "source": "네이버",
+          "keyword": "대흥동 대전롯데캐슬더퍼스트 견본주택 관리사무소, 중구 대전롯데캐슬더퍼스트 견본주택 관리사무소, 중구 중구 대전롯데캐슬더퍼스트 견본주택 관리사무소, 대전롯데캐슬더퍼스트 견본주택 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 4회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 84,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_중구_대전롯데캐슬퍼스트견본주택"
@@ -5292,17 +5368,33 @@
       "address": "대전 중구 대흥동 388-7",
       "roadAddress": "",
       "jibunAddress": "대전 중구 대흥동 388-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-589-2580",
+      "phones": [
+        "042-589-2580"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-589-2580",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "대전 중구 대흥동 388-7 전화번호, 대전르에브스위첸2단지아파트 (2027년09월예정) 전화번호, 대전르에브스위첸2단지 (2027년09월예정) 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 65,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_중구_대전르에브스위첸22027년09월예정"
@@ -5421,9 +5513,9 @@
       "sido": "대전광역시",
       "district": "중구",
       "dong": "대흥동",
-      "address": "대전광역시 중구 대흥동 219-1 대흥동센텀시티",
-      "roadAddress": "",
-      "jibunAddress": "대전광역시 중구 대흥동 219-1 대흥동센텀시티",
+      "address": "대전 중구 중앙로138번길 48\n대전 중구 대흥동 219-1",
+      "roadAddress": "대전 중구 중앙로138번길 48",
+      "jibunAddress": "대전 중구 대흥동 219-1",
       "phone": "042-222-6111",
       "phones": [
         "042-222-6111"
@@ -5458,7 +5550,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_대흥동센텀시티"
     },
     {
@@ -5533,17 +5625,300 @@
       "address": "대전 중구 중교로 35\n대전 중구 대흥동 462-1",
       "roadAddress": "대전 중구 중교로 35",
       "jibunAddress": "대전 중구 대흥동 462-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-222-2220",
+      "phones": [
+        "042-222-2220",
+        "02-2256-6908",
+        "02-2231-7402",
+        "052-291-0666",
+        "042-226-8860",
+        "02-2291-0992",
+        "022-291-0992",
+        "02-796-7345",
+        "02-2267-7087",
+        "02-362-9804",
+        "031-266-0005",
+        "031-896-9231",
+        "070-4432-5045",
+        "02-963-5803",
+        "053-641-3318",
+        "02-3491-4869",
+        "02-730-1248",
+        "026-351-1248",
+        "02-533-1343",
+        "051-504-5550"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-222-2220",
+          "score": 100,
+          "source": "114On",
+          "keyword": "대전 중구 대흥동 462-1 전화번호, 대전 중구 중교로 35 관리사무소, 대전 중구 중교로 35 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "02-2256-6908",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중구 래미안 관리사무소, 중구 중구 래미안 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-2231-7402",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중구 래미안 관리사무소, 중구 중구 래미안 관리사무소, 중구 래미안 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "052-291-0666",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중구 래미안 관리사무소, 중구 중구 래미안 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "042-226-8860",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 중구 대흥동 462-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2291-0992",
+          "score": 91,
+          "source": "114On",
+          "keyword": "래미안 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-291-0992",
+          "score": 91,
+          "source": "114On",
+          "keyword": "래미안 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-796-7345",
+          "score": 91,
+          "source": "114On",
+          "keyword": "래미안 관리단",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2267-7087",
+          "score": 89,
+          "source": "네이버",
+          "keyword": "중구 래미안 관리사무소, 중구 중구 래미안 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-362-9804",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "대흥동 래미안 관리사무소, 래미안 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-266-0005",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대흥동 래미안 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-896-9231",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대흥동 래미안 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-4432-5045",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대흥동 래미안 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-963-5803",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "중구 래미안 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-641-3318",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "중구 래미안 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3491-4869",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "래미안 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-730-1248",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "래미안 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-351-1248",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "래미안 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-533-1343",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "래미안 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-504-5550",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "래미안 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_래미안"
@@ -6564,17 +6939,232 @@
       "address": "대전 중구 대종로594번길 51\n대전 중구 선화동 903",
       "roadAddress": "대전 중구 대종로594번길 51",
       "jibunAddress": "대전 중구 선화동 903",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-223-5123",
+      "phones": [
+        "042-223-5123",
+        "042-713-9114",
+        "042-223-5122",
+        "042-257-9733",
+        "042-252-5242",
+        "07-1353-2688",
+        "07-1433-4460",
+        "042-273-7000",
+        "042-221-7114",
+        "07-1307-1342",
+        "042-221-1010",
+        "03-0507-1351",
+        "042-223-0077",
+        "042-252-9738",
+        "042-221-4900"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-223-5123",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "대전 중구 선화동 903 관리사무소, 대전 중구 선화동 903 전화번호, 중구 대전하늘채스카이앤1차 관리사무소, 중구 중구 대전하늘채스카이앤1차 관리사무소, 대전하늘채스카이앤1차아파트 관리사무소, 대전하늘채스카이앤1차아파트 관리실, 대전하늘채스카이앤1차아파트 전화번호, 대전하늘채스카이앤1차 관리실, 대전하늘채스카이앤1차아",
+          "sourceCounts": {
+            "114On": 6,
+            "네이버": 13
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 6,
+            "네이버 웹검색": 10,
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "114On 6회 · 네이버 13회"
+        },
+        {
+          "number": "042-713-9114",
+          "score": 100,
+          "source": "114On",
+          "keyword": "중구 대전하늘채스카이앤1차 관리사무소, 대전하늘채스카이앤1차아파트 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "042-223-5122",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중구 대전하늘채스카이앤1차 관리사무소, 중구 중구 대전하늘채스카이앤1차 관리사무소, 대전하늘채스카이앤1차아파트 관리사무소, 대전하늘채스카이앤1차아파트 관리실, 대전하늘채스카이앤1차아파트 전화번호, 대전하늘채스카이앤1차 관리실, 대전하늘채스카이앤1차아파트 관리단, 대전하늘채스카이앤1차 전화번호, 대전하늘채스카이앤1차 관리단",
+          "sourceCounts": {
+            "네이버": 10
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10
+          },
+          "sourceSummary": "네이버 10회"
+        },
+        {
+          "number": "042-257-9733",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중구 대전하늘채스카이앤1차 관리사무소, 중구 중구 대전하늘채스카이앤1차 관리사무소, 대전하늘채스카이앤1차아파트 관리사무소, 대전하늘채스카이앤1차아파트 관리실, 대전하늘채스카이앤1차아파트 전화번호, 대전하늘채스카이앤1차 관리실, 대전하늘채스카이앤1차아파트 관리단, 대전하늘채스카이앤1차 전화번호, 대전하늘채스카이앤1차 관리단",
+          "sourceCounts": {
+            "네이버": 10
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10
+          },
+          "sourceSummary": "네이버 10회"
+        },
+        {
+          "number": "042-252-5242",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중구 대전하늘채스카이앤1차 관리사무소, 중구 중구 대전하늘채스카이앤1차 관리사무소, 대전하늘채스카이앤1차아파트 관리사무소, 대전하늘채스카이앤1차아파트 관리실, 대전하늘채스카이앤1차아파트 전화번호, 대전하늘채스카이앤1차 관리실, 대전하늘채스카이앤1차아파트 관리단, 대전하늘채스카이앤1차 전화번호, 대전하늘채스카이앤1차 관리단",
+          "sourceCounts": {
+            "네이버": 10
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10
+          },
+          "sourceSummary": "네이버 10회"
+        },
+        {
+          "number": "07-1353-2688",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "대전 중구 선화동 903 관리실, 대전 중구 선화동 903 전화번호, 대전 중구 대종로594번길 51 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1433-4460",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "대전 중구 대종로594번길 51 관리실, 대전 중구 대종로594번길 51 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "042-273-7000",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 중구 대종로594번길 51 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "042-221-7114",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 중구 대종로594번길 51 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1307-1342",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 중구 선화동 903 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-221-1010",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 중구 선화동 903 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "03-0507-1351",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 중구 선화동 903 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-223-0077",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 중구 대종로594번길 51 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-252-9738",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전하늘채스카이앤1차아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-221-4900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전하늘채스카이앤1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_대전하늘채스카이앤1차"

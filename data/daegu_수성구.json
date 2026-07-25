@@ -1,6 +1,6 @@
 {
-  "version": 1784918981,
-  "updatedAt": "2026-07-24 18:49:41",
+  "version": 1785001164,
+  "updatedAt": "2026-07-25 17:39:24",
   "sido": "대구광역시",
   "sigungu": "수성구",
   "count": 401,
@@ -348,16 +348,17 @@
       "jibunAddress": "대구 수성구 시지동 600",
       "phone": "053-795-9553",
       "phones": [
-        "053-795-9553"
+        "053-795-9553",
+        "07-1400-3782"
       ],
       "phoneCandidates": [
         {
           "number": "053-795-9553",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -366,14 +367,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "07-1400-3782",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 시지동 600 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "126",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:31:18",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -672,16 +687,18 @@
       "jibunAddress": "대구 수성구 시지동 486",
       "phone": "053-791-6095",
       "phones": [
-        "053-791-6095"
+        "053-791-6095",
+        "053-214-6095"
       ],
       "phoneCandidates": [
         {
           "number": "053-791-6095",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 대구 수성구 시지동 486 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -690,14 +707,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-214-6095",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 시지동 486 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "465",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:31:21",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -5269,10 +5301,11 @@
         {
           "number": "053-794-8101",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, existing, 대구 수성구 신매동 10-14 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5281,14 +5314,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On/네이버 스니펫": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "188",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:32:41",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -5324,9 +5359,9 @@
           "number": "053-794-8102",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5335,14 +5370,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "297",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:32:45",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -5594,9 +5630,9 @@
           "number": "053-781-0983",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5605,14 +5641,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "899",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:34:54",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -7927,16 +7964,18 @@
       "jibunAddress": "대구 수성구 중동 641",
       "phone": "053-767-0662",
       "phones": [
-        "053-767-0662"
+        "053-767-0662",
+        "053-767-0663"
       ],
       "phoneCandidates": [
         {
           "number": "053-767-0662",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 대구 수성구 중동 641 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7945,14 +7984,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-767-0663",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 중동 641 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "745",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:33:18",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -9061,16 +9115,18 @@
       "jibunAddress": "대구 수성구 시지동 602",
       "phone": "053-795-5600",
       "phones": [
-        "053-795-5600"
+        "053-795-5600",
+        "053-795-5601"
       ],
       "phoneCandidates": [
         {
           "number": "053-795-5600",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 대구 수성구 시지동 602 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9079,14 +9135,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-795-5601",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 시지동 602 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:31:49",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -9446,9 +9517,9 @@
           "number": "053-795-7933",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9457,14 +9528,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "407",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:32:14",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -11512,16 +11584,19 @@
       "jibunAddress": "대구 수성구 지산동 1234-1",
       "phone": "053-783-8361",
       "phones": [
-        "053-783-8361"
+        "053-783-8361",
+        "053-781-7361"
       ],
       "phoneCandidates": [
         {
           "number": "053-783-8361",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, existing, 대구 수성구 지산동 1234-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11530,14 +11605,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On/네이버 스니펫": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "053-781-7361",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 지산동 1234-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "694",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:35:36",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -11836,16 +11927,20 @@
       "jibunAddress": "대구 수성구 지산동 1271",
       "phone": "053-784-0417",
       "phones": [
-        "053-784-0417"
+        "053-784-0417",
+        "053-214-0417",
+        "053-781-4300"
       ],
       "phoneCandidates": [
         {
           "number": "053-784-0417",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, existing, 대구 수성구 지산동 1271 관리사무소, 대구 수성구 지산동 1271 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 2,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11854,14 +11949,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On/네이버 스니펫": 2,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "053-214-0417",
+          "score": 100,
+          "source": "114On",
+          "keyword": "대구 수성구 지산동 1271 관리사무소, 대구 수성구 지산동 1271 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "053-781-4300",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 수성구 지산동 1271 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "460",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:35:40",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -11944,16 +12068,20 @@
       "jibunAddress": "대구 수성구 지산동 1288",
       "phone": "053-783-8362",
       "phones": [
-        "053-783-8362"
+        "053-783-8362",
+        "053-214-8204",
+        "053-784-5850"
       ],
       "phoneCandidates": [
         {
           "number": "053-783-8362",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, existing, 대구 수성구 지산동 1288 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11962,14 +12090,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On/네이버 스니펫": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "053-214-8204",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "대구 수성구 지산동 1288 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "053-784-5850",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 지산동 1288 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "630",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:36:11",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -12376,16 +12535,18 @@
       "jibunAddress": "대구 수성구 시지동 349",
       "phone": "053-216-2491",
       "phones": [
-        "053-216-2491"
+        "053-216-2491",
+        "053-214-2491"
       ],
       "phoneCandidates": [
         {
           "number": "053-216-2491",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 대구 수성구 시지동 349 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12394,14 +12555,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-214-2491",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 시지동 349 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "678",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:32:17",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -19485,17 +19661,61 @@
       "address": "대구 수성구 달구벌대로625길 22\n대구 수성구 시지동 462-2",
       "roadAddress": "대구 수성구 달구벌대로625길 22",
       "jibunAddress": "대구 수성구 시지동 462-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-795-6281",
+      "phones": [
+        "053-795-6281",
+        "053-793-7890",
+        "053-792-7604"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-795-6281",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-793-7890",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-792-7604",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_시지대백"
@@ -19549,17 +19769,61 @@
       "address": "대구 수성구 달구벌대로 3110\n대구 수성구 시지동 262",
       "roadAddress": "대구 수성구 달구벌대로 3110",
       "jibunAddress": "대구 수성구 시지동 262",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-793-5055",
+      "phones": [
+        "053-793-5055",
+        "053-793-5054",
+        "053-816-5959"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-793-5055",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-793-5054",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-816-5959",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_시지아이프라임"
@@ -19752,17 +20016,61 @@
       "address": "대구 수성구 달구벌대로 3176\n대구 수성구 신매동 566",
       "roadAddress": "대구 수성구 달구벌대로 3176",
       "jibunAddress": "대구 수성구 신매동 566",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-792-4988",
+      "phones": [
+        "053-792-4988",
+        "053-655-2234",
+        "053-424-6704"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-792-4988",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-655-2234",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-424-6704",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_대구고산예정"
@@ -20016,17 +20324,33 @@
       "address": "대구 수성구 고산로 101\n대구 수성구 신매동 566-3",
       "roadAddress": "대구 수성구 고산로 101",
       "jibunAddress": "대구 수성구 신매동 566-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-792-2482",
+      "phones": [
+        "053-792-2482"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-792-2482",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_시지코오롱하늘채스카이뷰"
@@ -20463,17 +20787,33 @@
       "address": "대구 수성구 수성로35길 50\n대구 수성구 중동 556",
       "roadAddress": "대구 수성구 수성로35길 50",
       "jibunAddress": "대구 수성구 중동 556",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-476-6769",
+      "phones": [
+        "053-476-6769"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-476-6769",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_수성푸르지오리버센트후문"
@@ -20527,17 +20867,61 @@
       "address": "대구 수성구 용학로42길 13\n대구 수성구 지산동 1200",
       "roadAddress": "대구 수성구 용학로42길 13",
       "jibunAddress": "대구 수성구 지산동 1200",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-784-3500",
+      "phones": [
+        "053-784-3500",
+        "053-784-1518",
+        "053-783-4545"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-784-3500",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-784-1518",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-783-4545",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_목련"
@@ -20591,17 +20975,61 @@
       "address": "대구 수성구 용학로40길 28\n대구 수성구 지산동 1333-10",
       "roadAddress": "대구 수성구 용학로40길 28",
       "jibunAddress": "대구 수성구 지산동 1333-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-781-3340",
+      "phones": [
+        "053-781-3340",
+        "053-783-4545",
+        "053-754-6606"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-781-3340",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-783-4545",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-754-6606",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_수성벨루체"
@@ -20623,17 +21051,61 @@
       "address": "대구 수성구 지범로 170\n대구 수성구 지산동 1275-4",
       "roadAddress": "대구 수성구 지범로 170",
       "jibunAddress": "대구 수성구 지산동 1275-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-781-0984",
+      "phones": [
+        "053-781-0984",
+        "053-781-0983",
+        "053-744-5800"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-781-0984",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-781-0983",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-744-5800",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_수성엘코어하이엔드타워"
@@ -20995,17 +21467,61 @@
       "address": "대구 수성구 지산로 48\n대구 수성구 지산동 1270",
       "roadAddress": "대구 수성구 지산로 48",
       "jibunAddress": "대구 수성구 지산동 1270",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-782-6389",
+      "phones": [
+        "053-782-6389",
+        "053-214-6390",
+        "053-783-8362"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-782-6389",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-214-6390",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-783-8362",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_지산청구"
@@ -21059,17 +21575,61 @@
       "address": "대구 수성구 지산로13길 16\n대구 수성구 지산동 654-9",
       "roadAddress": "대구 수성구 지산로13길 16",
       "jibunAddress": "대구 수성구 지산동 654-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-766-9933",
+      "phones": [
+        "053-766-9933",
+        "053-764-8341",
+        "053-213-1031"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-766-9933",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-764-8341",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-213-1031",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_지산파크뷰"
@@ -21201,17 +21761,33 @@
       "address": "대구 수성구 지범로31안길 11-1\n대구 수성구 지산동 424",
       "roadAddress": "대구 수성구 지범로31안길 11-1",
       "jibunAddress": "대구 수성구 지산동 424",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-764-9050",
+      "phones": [
+        "053-764-9050"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-764-9050",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 수성구 지범로31안길 11-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_칸타빌지산102동"
@@ -21554,20 +22130,50 @@
       "sido": "대구광역시",
       "district": "대구",
       "dong": "파동",
-      "address": "대구 수성구 파동 330-2",
+      "address": "대구 수성구 파동 330",
       "roadAddress": "",
-      "jibunAddress": "대구 수성구 파동 330-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "jibunAddress": "대구 수성구 파동 330",
+      "phone": "053-623-1120",
+      "phones": [
+        "053-623-1120",
+        "053-710-3101"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-623-1120",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-710-3101",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대구광역시_수성구_수성센트레빌어반포레"
@@ -21589,17 +22195,61 @@
       "address": "대구 수성구 파동로22길 15\n대구 수성구 파동 1000",
       "roadAddress": "대구 수성구 파동로22길 15",
       "jibunAddress": "대구 수성구 파동 1000",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-741-8525",
+      "phones": [
+        "053-741-8525",
+        "053-741-8524",
+        "053-767-3800"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-741-8525",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-741-8524",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-767-3800",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_수성아이파크"
@@ -21741,17 +22391,61 @@
       "address": "대구 수성구 파동로 190\n대구 수성구 파동 27-17",
       "roadAddress": "대구 수성구 파동로 190",
       "jibunAddress": "대구 수성구 파동 27-17",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-766-6204",
+      "phones": [
+        "053-766-6204",
+        "053-745-9333",
+        "053-243-9161"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-766-6204",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-745-9333",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-243-9161",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_수성팰리스푸르지오샵정문"
@@ -21782,9 +22476,9 @@
           "number": "053-763-5511",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -21793,14 +22487,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "755",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:38:37",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -22314,17 +23009,33 @@
       "address": "대구 수성구 황금동 851-13",
       "roadAddress": "",
       "jibunAddress": "대구 수성구 황금동 851-13",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-751-3322",
+      "phones": [
+        "053-751-3322"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-751-3322",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 황금동 851-13 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대구광역시_수성구_호반써밋골든스카이2029년04월예정"

@@ -1,6 +1,6 @@
 {
-  "version": 1784397293,
-  "updatedAt": "2026-07-18 17:54:53",
+  "version": 1785002285,
+  "updatedAt": "2026-07-25 17:58:05",
   "sido": "대전광역시",
   "sigungu": "동구",
   "count": 138,
@@ -348,16 +348,19 @@
       "jibunAddress": "대전 동구 낭월동 723",
       "phone": "042-274-0171",
       "phones": [
-        "042-274-0171"
+        "042-274-0171",
+        "042-274-0173",
+        "042-271-0111"
       ],
       "phoneCandidates": [
         {
           "number": "042-274-0171",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 대전 동구 낭월동 723 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -366,14 +369,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "042-274-0173",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 동구 낭월동 723 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-271-0111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 동구 낭월동 723 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "713",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-25 17:50:18",
       "detailUpdatedAt": 1781231339752,
       "listUpdatedAt": 1781231339752,
       "phoneStatus": "CONFIRMED",
@@ -4718,17 +4749,77 @@
       "address": "대전 동구 충정로 5\n대전 동구 가양동 88-1",
       "roadAddress": "대전 동구 충정로 5",
       "jibunAddress": "대전 동구 가양동 88-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-673-9286",
+      "phones": [
+        "042-673-9286",
+        "042-633-1991",
+        "042-626-5557",
+        "042-627-7774"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-673-9286",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "대전 동구 충정로 5 관리사무소, 대전 동구 충정로 5 관리실",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "042-633-1991",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 동구 가양동 88-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "042-626-5557",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대전 동구 가양동 88-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "042-627-7774",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "대전 동구 가양동 88-1 관리실, 대전 동구 가양동 88-1 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_충북청주시용정한라비발디1전기차충전소"
@@ -4912,17 +5003,33 @@
       "address": "대전 동구 가오동 394",
       "roadAddress": "",
       "jibunAddress": "대전 동구 가오동 394",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-335-2500",
+      "phones": [
+        "042-335-2500"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-335-2500",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_동구_대전롯데캐슬퍼스트2027년11월예정"
@@ -5128,17 +5235,33 @@
       "address": "대전 동구 산내로1308번길 41-15\n대전 동구 낭월동 74-1",
       "roadAddress": "대전 동구 산내로1308번길 41-15",
       "jibunAddress": "대전 동구 낭월동 74-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-6944-9017",
+      "phones": [
+        "042-6944-9017"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-6944-9017",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_남대전힐스테이트홍보관"
@@ -5800,17 +5923,33 @@
       "address": "대전 동구 대전로815번길 94\n대전 동구 삼성동 112-1",
       "roadAddress": "대전 동구 대전로815번길 94",
       "jibunAddress": "대전 동구 삼성동 112-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-531-0425",
+      "phones": [
+        "042-531-0425"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-531-0425",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_e편한세상대전역센텀비스타"
@@ -5832,17 +5971,33 @@
       "address": "대전 동구 삼성시장2길 18\n대전 동구 삼성동 106-28",
       "roadAddress": "대전 동구 삼성시장2길 18",
       "jibunAddress": "대전 동구 삼성동 106-28",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-822-7988",
+      "phones": [
+        "042-822-7988"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-822-7988",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_대전역대라수어썸브릿지1차"
@@ -5864,17 +6019,33 @@
       "address": "대전 동구 삼성시장2길 18\n대전 동구 삼성동 109-1",
       "roadAddress": "대전 동구 삼성시장2길 18",
       "jibunAddress": "대전 동구 삼성동 109-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-822-7988",
+      "phones": [
+        "042-822-7988"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-822-7988",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_대전역대라수어썸브릿지2차"
@@ -6085,17 +6256,61 @@
       "address": "대전 동구 삼성동 458",
       "roadAddress": "",
       "jibunAddress": "대전 동구 삼성동 458",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-628-0003",
+      "phones": [
+        "042-628-0003",
+        "042-825-7454",
+        "042-628-0084"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-628-0003",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-825-7454",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-628-0084",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_동구_한밭자이정문"
@@ -6198,17 +6413,33 @@
       "address": "대전 동구 성남동 1-97",
       "roadAddress": "",
       "jibunAddress": "대전 동구 성남동 1-97",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-531-1008",
+      "phones": [
+        "042-531-1008"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-531-1008",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "대전성남우미린뉴시티아파트 (2027년06월예정) 전화번호, 대전성남우미린뉴시티 (2027년06월예정) 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 51,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_동구_대전성남우미린뉴시티2027년06월예정"
@@ -6296,17 +6527,89 @@
       "address": "대전 동구 동서대로1572번길 173\n대전 동구 성남동 157-6",
       "roadAddress": "대전 동구 동서대로1572번길 173",
       "jibunAddress": "대전 동구 성남동 157-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "052-294-8122",
+      "phones": [
+        "052-294-8122",
+        "070-8786-1118",
+        "051-502-1195",
+        "013-1230-0000",
+        "031-952-3656"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "052-294-8122",
+          "score": 100,
+          "source": "114On",
+          "keyword": "동구 현대그랜드 관리사무소, 동구 동구 현대그랜드 관리사무소",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "070-8786-1118",
+          "score": 100,
+          "source": "114On",
+          "keyword": "대전 동구 성남동 157-6 전화번호, 대전 동구 동서대로1572번길 173 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "051-502-1195",
+          "score": 91,
+          "source": "114On",
+          "keyword": "현대그랜드 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "013-1230-0000",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "대전 동구 성남동 157-6 관리실, 대전 동구 성남동 157-6 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-952-3656",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "현대그랜드 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_현대그랜드"
@@ -6544,17 +6847,47 @@
       "address": "대전 동구 용운로 163\n대전 동구 용운동 296-1",
       "roadAddress": "대전 동구 용운로 163",
       "jibunAddress": "대전 동구 용운동 296-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-522-6220",
+      "phones": [
+        "042-522-6220",
+        "042-488-2140"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-522-6220",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-488-2140",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_대한"
@@ -6576,17 +6909,48 @@
       "address": "대전 동구 용운로 149\n대전 동구 용운동 290-12",
       "roadAddress": "대전 동구 용운로 149",
       "jibunAddress": "대전 동구 용운동 290-12",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-274-8066",
+      "phones": [
+        "042-274-8066",
+        "042-622-2212"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-274-8066",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "대전 동구 용운동 290-12 관리실, 대전 동구 용운로 149 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "042-622-2212",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 동구 용운로 149 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 53,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_샵음악동호회"
@@ -6779,17 +7143,61 @@
       "address": "대전 동구 계족로489번길 24\n대전 동구 용전동 41-27",
       "roadAddress": "대전 동구 계족로489번길 24",
       "jibunAddress": "대전 동구 용전동 41-27",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-825-7454",
+      "phones": [
+        "042-825-7454",
+        "042-633-8004",
+        "042-542-0922"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-825-7454",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-633-8004",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-542-0922",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_레미안"
@@ -7054,17 +7462,61 @@
       "address": "대전 동구 대전로 706\n대전 동구 인동 18-1",
       "roadAddress": "대전 동구 대전로 706",
       "jibunAddress": "대전 동구 인동 18-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-271-0065",
+      "phones": [
+        "042-271-0065",
+        "042-271-0061",
+        "042-285-9811"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-271-0065",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-271-0061",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-285-9811",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_동구인동참좋은"
@@ -7086,17 +7538,33 @@
       "address": "대전 동구 정동 3-4",
       "roadAddress": "",
       "jibunAddress": "대전 동구 정동 3-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-271-8241",
+      "phones": [
+        "042-271-8241"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-271-8241",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_동구_대전동구a1bl공공임대예정"
@@ -7118,17 +7586,33 @@
       "address": "대전 동구 선화로192번길 43\n대전 동구 중동 33-5",
       "roadAddress": "대전 동구 선화로192번길 43",
       "jibunAddress": "대전 동구 중동 33-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-716-0058",
+      "phones": [
+        "042-716-0058"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-716-0058",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "중동힐링타운오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_중동힐링타운"
@@ -7319,17 +7803,61 @@
       "address": "대전 동구 옥천로 169\n대전 동구 판암동 864",
       "roadAddress": "대전 동구 옥천로 169",
       "jibunAddress": "대전 동구 판암동 864",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-589-2467",
+      "phones": [
+        "042-589-2467",
+        "042-271-0347",
+        "042-271-0346"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-589-2467",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-271-0347",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-271-0346",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_판암역르네블루"
@@ -7403,17 +7931,47 @@
       "address": "대전 동구 동산초교로 34\n대전 동구 홍도동 1004",
       "roadAddress": "대전 동구 동산초교로 34",
       "jibunAddress": "대전 동구 홍도동 1004",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-639-8220",
+      "phones": [
+        "042-639-8220",
+        "042-639-8221"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-639-8220",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-639-8221",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_신동아파밀리에2"
@@ -7435,17 +7993,47 @@
       "address": "대전 동구 동산초교로55번길 20\n대전 동구 홍도동 1001",
       "roadAddress": "대전 동구 동산초교로55번길 20",
       "jibunAddress": "대전 동구 홍도동 1001",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-639-8221",
+      "phones": [
+        "042-639-8221",
+        "042-639-8220"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-639-8221",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-639-8220",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_신동아파밀리에3"
@@ -7467,17 +8055,61 @@
       "address": "대전 동구 동산초교로 47\n대전 동구 홍도동 1002",
       "roadAddress": "대전 동구 동산초교로 47",
       "jibunAddress": "대전 동구 홍도동 1002",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-639-8220",
+      "phones": [
+        "042-639-8220",
+        "042-639-8221",
+        "042-623-5116"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-639-8220",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-639-8221",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-623-5116",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_신동아파밀리에4"
