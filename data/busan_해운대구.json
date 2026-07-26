@@ -1,6 +1,6 @@
 {
-  "version": 1785000558,
-  "updatedAt": "2026-07-25 17:29:18",
+  "version": 1785086561,
+  "updatedAt": "2026-07-26 17:22:41",
   "sido": "부산광역시",
   "sigungu": "해운대구",
   "count": 335,
@@ -8267,16 +8267,18 @@
       "jibunAddress": "부산 해운대구 좌동 1274",
       "phone": "051-747-8311",
       "phones": [
-        "051-747-8311"
+        "051-747-8311",
+        "051-746-5480"
       ],
       "phoneCandidates": [
         {
           "number": "051-747-8311",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, existing, 부산 해운대구 좌동 1274 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8285,14 +8287,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On/네이버 스니펫": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "051-746-5480",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 해운대구 좌동 1274 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "662",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-26 17:19:53",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -18474,17 +18491,47 @@
       "address": "부산 해운대구 양운로 45\n부산 해운대구 좌동 1476-1",
       "roadAddress": "부산 해운대구 양운로 45",
       "jibunAddress": "부산 해운대구 좌동 1476-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-746-0179",
+      "phones": [
+        "051-746-0179",
+        "051-744-5560"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-746-0179",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-744-5560",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_해운대구_해운대베르나움"
@@ -18947,17 +18994,61 @@
       "address": "부산 해운대구 세실로 104\n부산 해운대구 좌동 970",
       "roadAddress": "부산 해운대구 세실로 104",
       "jibunAddress": "부산 해운대구 좌동 970",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-742-0811",
+      "phones": [
+        "051-742-0811",
+        "051-701-6041",
+        "051-701-3998"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-742-0811",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-701-6041",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-701-3998",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_해운대구_해운대좌동롯데캐슬마스터1"
@@ -19307,17 +19398,47 @@
       "address": "부산 해운대구 좌동순환로433번길 30-1\n부산 해운대구 중동 1809",
       "roadAddress": "부산 해운대구 좌동순환로433번길 30-1",
       "jibunAddress": "부산 해운대구 중동 1809",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-701-8884",
+      "phones": [
+        "051-701-8884",
+        "051-701-6700"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-701-8884",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-701-6700",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_해운대구_해운대힐스테이트위브동"
@@ -19545,17 +19666,285 @@
       "address": "부산 해운대구 해운대해변로 371\n부산 해운대구 중동 1275-3",
       "roadAddress": "부산 해운대구 해운대해변로 371",
       "jibunAddress": "부산 해운대구 중동 1275-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-747-6352",
+      "phones": [
+        "051-747-6352",
+        "051-817-8617",
+        "051-746-1180",
+        "051-525-7008",
+        "051-702-2777",
+        "051-740-0444",
+        "051-743-5019",
+        "051-747-4111",
+        "051-742-0300",
+        "051-740-3267",
+        "051-612-1234",
+        "051-783-7900",
+        "051-752-1173",
+        "051-701-5602",
+        "051-704-1818",
+        "051-742-0309",
+        "051-746-0064",
+        "051-742-4848",
+        "051-760-7000"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-747-6352",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-817-8617",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-746-1180",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 해운대구 해운대해변로 371 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-525-7008",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-702-2777",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-740-0444",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-743-5019",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-747-4111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-742-0300",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-740-3267",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-612-1234",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-783-7900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-752-1173",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-701-5602",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-704-1818",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-742-0309",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-746-0064",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-742-4848",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 중동 1275-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-760-7000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 해운대해변로 371 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_해운대구_솔레비치"
@@ -19894,17 +20283,61 @@
       "address": "부산 해운대구 중동1로17번길 15-1\n부산 해운대구 우동 597-4",
       "roadAddress": "부산 해운대구 중동1로17번길 15-1",
       "jibunAddress": "부산 해운대구 우동 597-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-741-9350",
+      "phones": [
+        "051-741-9350",
+        "051-740-5000",
+        "051-704-2288"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-741-9350",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-740-5000",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-704-2288",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_해운대구_해운대듀플리체"
@@ -19926,17 +20359,146 @@
       "address": "부산 해운대구 해운대해변로357번길 9\n부산 해운대구 중동 1260-16",
       "roadAddress": "부산 해운대구 해운대해변로357번길 9",
       "jibunAddress": "부산 해운대구 중동 1260-16",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-704-4200",
+      "phones": [
+        "051-704-4200",
+        "051-744-7771",
+        "051-741-2258",
+        "051-741-2259",
+        "051-744-0258",
+        "051-791-2103",
+        "051-701-5682",
+        "051-744-8288",
+        "09-827-3044"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-704-4200",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "해운대구 해운대라센트스위첸 관리사무소, 해운대구 해운대구 해운대라센트스위첸 관리사무소, 해운대라센트스위첸오피스텔 관리사무소, 해운대라센트스위첸오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4,
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "051-744-7771",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중동 해운대라센트스위첸 관리사무소, 해운대구 해운대라센트스위첸 관리사무소, 해운대구 해운대구 해운대라센트스위첸 관리사무소, 해운대라센트스위첸오피스텔 관리사무소, 해운대라센트스위첸오피스텔 전화번호, 해운대라센트스위첸 전화번호",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "051-741-2258",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "부산 해운대구 해운대해변로357번길 9 관리사무소, 해운대라센트스위첸 관리단",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-741-2259",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 해운대구 해운대해변로357번길 9 관리사무소, 해운대라센트스위첸 관리단",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-744-0258",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 해운대해변로357번길 9 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-791-2103",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "해운대라센트스위첸 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-701-5682",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "해운대라센트스위첸 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-744-8288",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "해운대라센트스위첸 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "09-827-3044",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "해운대라센트스위첸 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_해운대구_해운대라센트스위첸"
@@ -19958,17 +20520,61 @@
       "address": "부산 해운대구 중동2로34번길 29\n부산 해운대구 중동 1360",
       "roadAddress": "부산 해운대구 중동2로34번길 29",
       "jibunAddress": "부산 해운대구 중동 1360",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-918-1889",
+      "phones": [
+        "051-918-1889",
+        "051-742-1889",
+        "051-1940-9188"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-918-1889",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-742-1889",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-1940-9188",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_해운대구_해운대롯데캐슬마린"
@@ -19990,17 +20596,61 @@
       "address": "부산 해운대구 달맞이길 41\n부산 해운대구 중동 1775-1",
       "roadAddress": "부산 해운대구 달맞이길 41",
       "jibunAddress": "부산 해운대구 중동 1775-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-746-2323",
+      "phones": [
+        "051-746-2323",
+        "051-742-0811",
+        "051-747-7949"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-746-2323",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-742-0811",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-747-7949",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_해운대구_해운대롯데캐슬비치"

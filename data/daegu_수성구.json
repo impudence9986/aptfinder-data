@@ -1,6 +1,6 @@
 {
-  "version": 1785001164,
-  "updatedAt": "2026-07-25 17:39:24",
+  "version": 1785086630,
+  "updatedAt": "2026-07-26 17:23:50",
   "sido": "대구광역시",
   "sigungu": "수성구",
   "count": 401,
@@ -13800,16 +13800,17 @@
       "jibunAddress": "대구 수성구 황금동 891-1",
       "phone": "053-765-3586",
       "phones": [
-        "053-765-3586"
+        "053-765-3586",
+        "053-763-6111"
       ],
       "phoneCandidates": [
         {
           "number": "053-765-3586",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13818,14 +13819,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "053-763-6111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 황금동 891-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "152",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-26 17:23:26",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -13854,16 +13869,19 @@
       "jibunAddress": "대구 수성구 황금동 862-5",
       "phone": "053-762-8905",
       "phones": [
-        "053-762-8905"
+        "053-762-8905",
+        "053-763-8905",
+        "053-763-6111"
       ],
       "phoneCandidates": [
         {
           "number": "053-762-8905",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 대구 수성구 황금동 862-5 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13872,14 +13890,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-763-8905",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 황금동 862-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-763-6111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 황금동 862-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "185",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-26 17:23:31",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
@@ -23141,17 +23187,61 @@
       "address": "대구 수성구 들안로42안길 29\n대구 수성구 황금동 717-7",
       "roadAddress": "대구 수성구 들안로42안길 29",
       "jibunAddress": "대구 수성구 황금동 717-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-767-0600",
+      "phones": [
+        "053-767-0600",
+        "053-764-6602",
+        "053-761-7977"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-767-0600",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-764-6602",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-761-7977",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_황금위브"
@@ -23227,17 +23317,61 @@
       "address": "대구 수성구 동대구로 210\n대구 수성구 황금동 667",
       "roadAddress": "대구 수성구 동대구로 210",
       "jibunAddress": "대구 수성구 황금동 667",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-781-0664",
+      "phones": [
+        "053-781-0664",
+        "053-767-0600",
+        "053-755-4245"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-781-0664",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-767-0600",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-755-4245",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_황금한화오벨리스크"
@@ -23427,17 +23561,61 @@
       "address": "대구 수성구 동대구로 145\n대구 수성구 황금동 844",
       "roadAddress": "대구 수성구 동대구로 145",
       "jibunAddress": "대구 수성구 황금동 844",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-313-6003",
+      "phones": [
+        "053-313-6003",
+        "053-763-6111",
+        "053-767-3586"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-313-6003",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-763-6111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-767-3586",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_힐스테이트황금역리저브모델하우스"

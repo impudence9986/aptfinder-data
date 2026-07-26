@@ -1,6 +1,6 @@
 {
-  "version": 1785003470,
-  "updatedAt": "2026-07-25 18:17:50",
+  "version": 1785087361,
+  "updatedAt": "2026-07-26 17:36:01",
   "sido": "대전광역시",
   "sigungu": "중구",
   "count": 149,
@@ -2250,9 +2250,9 @@
           "number": "042-721-2992",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2261,14 +2261,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "195",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-26 17:35:30",
       "detailUpdatedAt": 1781236489865,
       "listUpdatedAt": 1781236489865,
       "phoneStatus": "CONFIRMED",
@@ -4896,9 +4897,9 @@
           "number": "042-531-0903",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4907,14 +4908,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-26 17:35:33",
       "detailUpdatedAt": 1781236489865,
       "listUpdatedAt": 1781236489865,
       "phoneStatus": "CONFIRMED",
@@ -5051,16 +5053,18 @@
       "jibunAddress": "대전 중구 선화동 910",
       "phone": "042-252-6686",
       "phones": [
-        "042-252-6686"
+        "042-252-6686",
+        "042-252-6687"
       ],
       "phoneCandidates": [
         {
           "number": "042-252-6686",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 대전 중구 선화동 910 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5069,14 +5073,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "042-252-6687",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대전 중구 선화동 910 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "997",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-26 17:33:12",
       "detailUpdatedAt": 1781236489865,
       "listUpdatedAt": 1781236489865,
       "phoneStatus": "CONFIRMED",
@@ -7186,17 +7205,61 @@
       "address": "대전 중구 대종로594번길 52\n대전 중구 선화동 920",
       "roadAddress": "대전 중구 대종로594번길 52",
       "jibunAddress": "대전 중구 선화동 920",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-713-9114",
+      "phones": [
+        "042-713-9114",
+        "042-252-9432",
+        "042-252-9431"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-713-9114",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-252-9432",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-252-9431",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_대전하늘채스카이앤2차"
@@ -7218,17 +7281,61 @@
       "address": "대전 중구 선화서로 85\n대전 중구 선화동 895",
       "roadAddress": "대전 중구 선화서로 85",
       "jibunAddress": "대전 중구 선화동 895",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-257-6874",
+      "phones": [
+        "042-257-6874",
+        "042-606-6114",
+        "042-580-2706"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-257-6874",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-606-6114",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-580-2706",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_대전해모로센트라"
@@ -7340,17 +7447,61 @@
       "address": "대전 중구 대종로 544\n대전 중구 선화동 83-1",
       "roadAddress": "대전 중구 대종로 544",
       "jibunAddress": "대전 중구 선화동 83-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-224-0055",
+      "phones": [
+        "042-224-0055",
+        "042-242-0034",
+        "042-242-0033"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-224-0055",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-242-0034",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-242-0033",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_선화동참좋은"
@@ -7372,17 +7523,47 @@
       "address": "대전 중구 대종로505번길 59\n대전 중구 선화동 228",
       "roadAddress": "대전 중구 대종로505번길 59",
       "jibunAddress": "대전 중구 선화동 228",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-543-0505",
+      "phones": [
+        "042-543-0505",
+        "042-542-6789"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-543-0505",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-542-6789",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_어반브릿지"
@@ -7404,17 +7585,61 @@
       "address": "대전 중구 대종로550번길 5\n대전 중구 선화동 79-14",
       "roadAddress": "대전 중구 대종로550번길 5",
       "jibunAddress": "대전 중구 선화동 79-14",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-254-3735",
+      "phones": [
+        "042-254-3735",
+        "042-253-9953",
+        "042-226-6293"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-254-3735",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-253-9953",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-226-6293",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_유원"
@@ -7436,17 +7661,33 @@
       "address": "대전 중구 대종로517번길 48\n대전 중구 선화동 236-22",
       "roadAddress": "대전 중구 대종로517번길 48",
       "jibunAddress": "대전 중구 선화동 236-22",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-626-5422",
+      "phones": [
+        "042-626-5422"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-626-5422",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_토마토하우스"
@@ -7761,17 +8002,33 @@
       "address": "대전 중구 어덕마을로10번길 95-4\n대전 중구 용두동 118-6",
       "roadAddress": "대전 중구 어덕마을로10번길 95-4",
       "jibunAddress": "대전 중구 용두동 118-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-253-1500",
+      "phones": [
+        "042-253-1500"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-253-1500",
+          "score": 84,
+          "source": "네이버",
+          "keyword": "용두동 오룡하우스 관리사무소, 중구 오룡하우스 관리사무소, 중구 중구 오룡하우스 관리사무소, 중구 오룡하우스 관리실",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 84,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_오룡하우스"
@@ -7851,17 +8108,33 @@
       "address": "대전 중구 용두동 722",
       "roadAddress": "",
       "jibunAddress": "대전 중구 용두동 722",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-822-1470",
+      "phones": [
+        "042-822-1470"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-822-1470",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_중구_해링턴플레이스오룡역2029년06월예정"
@@ -8055,17 +8328,61 @@
       "address": "대전 중구 유천동 340-32",
       "roadAddress": "",
       "jibunAddress": "대전 중구 유천동 340-32",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-586-9942",
+      "phones": [
+        "042-586-9942",
+        "042-531-0903",
+        "042-527-5247"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-586-9942",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-531-0903",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-527-5247",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_중구_힐스테이트유천와이즈예정"
