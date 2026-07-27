@@ -1,6 +1,6 @@
 {
-  "version": 1784482563,
-  "updatedAt": "2026-07-19 17:36:03",
+  "version": 1785175603,
+  "updatedAt": "2026-07-27 18:06:43",
   "sido": "강원특별자치도",
   "sigungu": "춘천시",
   "count": 179,
@@ -1761,7 +1761,7 @@
       "district": "",
       "dong": "",
       "address": "강원특별자치도 춘천시 소양로2가 66-10",
-      "roadAddress": "",
+      "roadAddress": "강원특별자치도 춘천시 소양로2가 66-10",
       "jibunAddress": "강원특별자치도 춘천시 소양로2가 66-10",
       "phone": "033-652-2123",
       "phones": [
@@ -1822,7 +1822,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_샵소양스타리버정문"
     },
     {
@@ -7774,17 +7774,47 @@
       "address": "강원특별자치도 춘천시 동면 만천로 240\n강원특별자치도 춘천시 동면 장학리 982",
       "roadAddress": "강원특별자치도 춘천시 동면 만천로 240",
       "jibunAddress": "강원특별자치도 춘천시 동면 장학리 982",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-575-3008",
+      "phones": [
+        "033-575-3008",
+        "033-575-3007"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-575-3008",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-575-3007",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_춘천시_두산위브"
@@ -7964,17 +7994,47 @@
       "address": "강원특별자치도 춘천시 동면 장학리 883",
       "roadAddress": "",
       "jibunAddress": "강원특별자치도 춘천시 동면 장학리 883",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-600-0312",
+      "phones": [
+        "02-600-0312",
+        "033-250-4042"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-600-0312",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "강원특별자치도 춘천시 동면 장학리 883 관리실, 강원특별자치도 춘천시 동면 장학리 883 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "033-250-4042",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 춘천시 동면 장학리 883 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 51,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "강원특별자치도_춘천시_춘천리버뷰아이파크예정"
@@ -8368,17 +8428,33 @@
       "address": "강원특별자치도 춘천시 삼천동 22-19",
       "roadAddress": "",
       "jibunAddress": "강원특별자치도 춘천시 삼천동 22-19",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-244-8996",
+      "phones": [
+        "033-244-8996"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-244-8996",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 춘천시 삼천동 22-19 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "강원특별자치도_춘천시_춘천레이크시티아이파크2026년08월예정"

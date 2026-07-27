@@ -1,6 +1,6 @@
 {
-  "version": 1781307805,
-  "updatedAt": "2026-06-12 23:43:25",
+  "version": 1785175283,
+  "updatedAt": "2026-07-27 18:01:23",
   "sido": "강원특별자치도",
   "sigungu": "인제군",
   "count": 16,
@@ -24,16 +24,17 @@
       "jibunAddress": "강원특별자치도 인제군 인제읍 상동리 43-1",
       "phone": "033-461-8183",
       "phones": [
-        "033-461-8183"
+        "033-461-8183",
+        "033-259-9710"
       ],
       "phoneCandidates": [
         {
           "number": "033-461-8183",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +43,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "033-259-9710",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 인제군 인제읍 상동리 43-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "162",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-27 18:00:31",
       "detailUpdatedAt": 1781307693380,
       "listUpdatedAt": 1781307693380,
       "phoneStatus": "CONFIRMED",
@@ -292,17 +307,61 @@
       "address": "강원특별자치도 인제군 기린면 내린천로 3898\n강원특별자치도 인제군 기린면 현리 887",
       "roadAddress": "강원특별자치도 인제군 기린면 내린천로 3898",
       "jibunAddress": "강원특별자치도 인제군 기린면 현리 887",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-761-2703",
+      "phones": [
+        "033-761-2703",
+        "033-747-8947",
+        "033-742-1102"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-761-2703",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-747-8947",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-742-1102",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_인제군_기린대"
@@ -324,17 +383,33 @@
       "address": "강원특별자치도 인제군 남면 응봉길 128\n강원특별자치도 인제군 남면 어론리 산 70-1",
       "roadAddress": "강원특별자치도 인제군 남면 응봉길 128",
       "jibunAddress": "강원특별자치도 인제군 남면 어론리 산 70-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "010-1202-2081",
+      "phones": [
+        "010-1202-2081"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-1202-2081",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "강원특별자치도 인제군 남면 어론리 산 70-1 관리사무소, 강원특별자치도 인제군 남면 응봉길 128 관리사무소, 강원특별자치도 인제군 남면 응봉길 128 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 65,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_인제군_과훈단응봉군인"
@@ -408,17 +483,61 @@
       "address": "강원특별자치도 인제군 북면 금강로 92\n강원특별자치도 인제군 북면 원통리 604-3",
       "roadAddress": "강원특별자치도 인제군 북면 금강로 92",
       "jibunAddress": "강원특별자치도 인제군 북면 원통리 604-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-463-8800",
+      "phones": [
+        "033-463-8800",
+        "033-463-8552",
+        "033-463-8551"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-463-8800",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-463-8552",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-463-8551",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_인제군_미진"
@@ -440,17 +559,61 @@
       "address": "강원특별자치도 인제군 북면 원통로 261-20\n강원특별자치도 인제군 북면 원통리 528-15",
       "roadAddress": "강원특별자치도 인제군 북면 원통로 261-20",
       "jibunAddress": "강원특별자치도 인제군 북면 원통리 528-15",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-463-8552",
+      "phones": [
+        "033-463-8552",
+        "033-463-8551",
+        "033-461-7884"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-463-8552",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-463-8551",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-461-7884",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_인제군_아르미소"
@@ -664,17 +827,61 @@
       "address": "강원특별자치도 인제군 인제읍 내린천로 6760\n강원특별자치도 인제군 인제읍 덕산리 666",
       "roadAddress": "강원특별자치도 인제군 인제읍 내린천로 6760",
       "jibunAddress": "강원특별자치도 인제군 인제읍 덕산리 666",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-462-7104",
+      "phones": [
+        "033-462-7104",
+        "033-462-9193",
+        "033-462-9191"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-462-7104",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-462-9193",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-462-9191",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_인제군_한양쉐르빌"
@@ -696,17 +903,61 @@
       "address": "강원특별자치도 인제군 인제읍 인제로 315\n강원특별자치도 인제군 인제읍 합강리 215",
       "roadAddress": "강원특별자치도 인제군 인제읍 인제로 315",
       "jibunAddress": "강원특별자치도 인제군 인제읍 합강리 215",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-258-2500",
+      "phones": [
+        "033-258-2500",
+        "033-250-3539",
+        "033-249-4091"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-258-2500",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-250-3539",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-249-4091",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_인제군_행복마을아르미소"

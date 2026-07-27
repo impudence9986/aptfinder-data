@@ -1,6 +1,6 @@
 {
-  "version": 1784481776,
-  "updatedAt": "2026-07-19 17:22:56",
+  "version": 1785175333,
+  "updatedAt": "2026-07-27 18:02:13",
   "sido": "강원특별자치도",
   "sigungu": "정선군",
   "count": 30,
@@ -726,16 +726,17 @@
       "jibunAddress": "강원특별자치도 정선군 남면 문곡리 593",
       "phone": "033-591-5562",
       "phones": [
-        "033-591-5562"
+        "033-591-5562",
+        "010-1202-2080"
       ],
       "phoneCandidates": [
         {
           "number": "033-591-5562",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -744,14 +745,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "010-1202-2080",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 정선군 남면 문곡리 593 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "207",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-27 18:02:09",
       "detailUpdatedAt": 1781307805072,
       "listUpdatedAt": 1781307805072,
       "phoneStatus": "CONFIRMED",
@@ -994,17 +1009,61 @@
       "address": "강원특별자치도 정선군 남면 멀미길 33\n강원특별자치도 정선군 남면 무릉리 530",
       "roadAddress": "강원특별자치도 정선군 남면 멀미길 33",
       "jibunAddress": "강원특별자치도 정선군 남면 무릉리 530",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-591-5164",
+      "phones": [
+        "033-591-5164",
+        "033-592-2951",
+        "033-591-5165"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-591-5164",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-592-2951",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-591-5165",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_정선군_무릉주공"
