@@ -1,6 +1,6 @@
 {
-  "version": 1783792950,
-  "updatedAt": "2026-07-11 18:02:30",
+  "version": 1785264148,
+  "updatedAt": "2026-07-28 18:42:28",
   "sido": "경기도",
   "sigungu": "김포시",
   "count": 360,
@@ -726,16 +726,19 @@
       "jibunAddress": "경기 김포시 고촌읍 신곡리 970-12",
       "phone": "031-8049-0192",
       "phones": [
-        "031-8049-0192"
+        "031-8049-0192",
+        "031-8049-0193",
+        "010-4445-0927"
       ],
       "phoneCandidates": [
         {
           "number": "031-8049-0192",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 김포시 고촌읍 신곡리 970-12 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -744,14 +747,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-8049-0193",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 고촌읍 신곡리 970-12 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "010-4445-0927",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 고촌읍 신곡리 970-12 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1297",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:35:16",
       "detailUpdatedAt": 1781019833161,
       "listUpdatedAt": 1781019833161,
       "phoneStatus": "CONFIRMED",
@@ -1057,9 +1088,9 @@
           "number": "031-998-0627",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1068,14 +1099,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "572",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:38:08",
       "detailUpdatedAt": 1781019833161,
       "listUpdatedAt": 1781019833161,
       "phoneStatus": "CONFIRMED",
@@ -1111,9 +1143,9 @@
           "number": "031-989-0878",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1122,14 +1154,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "820",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:38:12",
       "detailUpdatedAt": 1781019833161,
       "listUpdatedAt": 1781019833161,
       "phoneStatus": "CONFIRMED",
@@ -3316,17 +3349,33 @@
       "address": "경기 김포시 김포한강3로237번길 91\n경기 김포시 장기동 1762",
       "roadAddress": "경기 김포시 김포한강3로237번길 91",
       "jibunAddress": "경기 김포시 장기동 1762",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-988-1378",
+      "phones": [
+        "031-988-1378"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-988-1378",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 김포시 김포한강3로237번길 91 전화번호, 김포한강신도시대원칸타빌타운하우스 전화번호, 김포한강신도시대원칸타빌타운하우스 관리단",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        }
+      ],
       "households": "79",
       "source": "공공데이터 K-apt",
       "verifiedAt": "공공데이터 K-apt",
       "detailUpdatedAt": 1781019833161,
       "listUpdatedAt": 1781019833161,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_김포시_김포한강신도시대원칸타빌타운하우스"
@@ -3728,16 +3777,18 @@
       "jibunAddress": "경기 김포시 구래동 6874-20",
       "phone": "031-998-4701",
       "phones": [
-        "031-998-4701"
+        "031-998-4701",
+        "031-998-4703"
       ],
       "phoneCandidates": [
         {
           "number": "031-998-4701",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 김포시 구래동 6874-20 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3746,14 +3797,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-998-4703",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6874-20 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1230",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:39:47",
       "detailUpdatedAt": 1781019833161,
       "listUpdatedAt": 1781019833161,
       "phoneStatus": "CONFIRMED",
@@ -5672,16 +5739,17 @@
       "jibunAddress": "경기 김포시 고촌읍 신곡리 1248",
       "phone": "031-985-7006",
       "phones": [
-        "031-985-7006"
+        "031-985-7006",
+        "032-320-1138"
       ],
       "phoneCandidates": [
         {
           "number": "031-985-7006",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5690,14 +5758,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "032-320-1138",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 고촌읍 신곡리 1248 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "203",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:35:20",
       "detailUpdatedAt": 1781019833161,
       "listUpdatedAt": 1781019833161,
       "phoneStatus": "CONFIRMED",
@@ -8804,16 +8886,18 @@
       "jibunAddress": "경기 김포시 걸포동 1595",
       "phone": "031-988-9690",
       "phones": [
-        "031-988-9690"
+        "031-988-9690",
+        "031-986-4924",
+        "07-1380-0035"
       ],
       "phoneCandidates": [
         {
           "number": "031-988-9690",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8822,14 +8906,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-986-4924",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 걸포동 1595 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1380-0035",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 걸포동 1595 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1142",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:34:41",
       "detailUpdatedAt": 1781019833161,
       "listUpdatedAt": 1781019833161,
       "phoneStatus": "CONFIRMED",
@@ -10647,9 +10758,9 @@
           "number": "031-985-2353",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10658,14 +10769,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1568",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:37:33",
       "detailUpdatedAt": 1781019833161,
       "listUpdatedAt": 1781019833161,
       "phoneStatus": "CONFIRMED",
@@ -10985,17 +11097,63 @@
       "address": "경기 김포시 고촌읍 신곡로3번길 34-38\n경기 김포시 고촌읍 신곡리 1110",
       "roadAddress": "경기 김포시 고촌읍 신곡로3번길 34-38",
       "jibunAddress": "경기 김포시 고촌읍 신곡리 1110",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-982-5479",
+      "phones": [
+        "031-982-5479",
+        "031-982-5483",
+        "05-009-2525"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-982-5479",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 김포시 고촌읍 신곡리 1110 전화번호, 경기 김포시 고촌읍 신곡로3번길 34-38 전화번호",
+          "sourceCounts": {
+            "114On": 2,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "031-982-5483",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 고촌읍 신곡로3번길 34-38 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "05-009-2525",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강변마을2단지동부센트레빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_김포시_강변마을2동부센트레빌"
@@ -11414,17 +11572,33 @@
       "address": "경기 김포시 고촌읍 향산리 588-11",
       "roadAddress": "",
       "jibunAddress": "경기 김포시 고촌읍 향산리 588-11",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-997-1100",
+      "phones": [
+        "031-997-1100"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-997-1100",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 고촌읍 향산리 588-11 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_김포시_오퍼스한강스위첸2028년08월예정"
@@ -11646,17 +11820,33 @@
       "address": "경기 김포시 고촌읍 향산리 588-45",
       "roadAddress": "",
       "jibunAddress": "경기 김포시 고촌읍 향산리 588-45",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-982-3337",
+      "phones": [
+        "031-982-3337"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-982-3337",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 고촌읍 향산리 588-45 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_김포시_한강시네폴리스푸르지오예정"
@@ -11710,17 +11900,145 @@
       "address": "경기 김포시 김포한강9로75번길 158\n경기 김포시 구래동 6882-1",
       "roadAddress": "경기 김포시 김포한강9로75번길 158",
       "jibunAddress": "경기 김포시 구래동 6882-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1388-8488",
+      "phones": [
+        "07-1388-8488",
+        "031-985-6517",
+        "07-1319-8651",
+        "07-1435-0862",
+        "07-1455-9967",
+        "00-0507-1397",
+        "07-1380-0804",
+        "050-7871-0507",
+        "031-8049-3320"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1388-8488",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6882-1 관리사무소, 경기 김포시 구래동 6882-1 관리실, 경기 김포시 구래동 6882-1 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-985-6517",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 김포시 구래동 6882-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1319-8651",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "경기 김포시 김포한강9로75번길 158 관리사무소, 경기 김포시 김포한강9로75번길 158 관리실, 경기 김포시 김포한강9로75번길 158 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1435-0862",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "경기 김포시 김포한강9로75번길 158 관리사무소, 경기 김포시 김포한강9로75번길 158 관리실, 경기 김포시 김포한강9로75번길 158 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1455-9967",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6882-1 관리실, 경기 김포시 구래동 6882-1 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "00-0507-1397",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6882-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1380-0804",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6882-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "050-7871-0507",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6882-1 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8049-3320",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 김포한강9로75번길 158 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_김포시_e편한세상시티한강신도시"
@@ -11891,17 +12209,33 @@
       "address": "경기 김포시 김포한강10로133번길 142\n경기 김포시 구래동 6871-33",
       "roadAddress": "경기 김포시 김포한강10로133번길 142",
       "jibunAddress": "경기 김포시 구래동 6871-33",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-989-5996",
+      "phones": [
+        "031-989-5996"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-989-5996",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 김포시 김포한강10로133번길 142 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_김포시_김포럭스나인b"
@@ -11923,17 +12257,47 @@
       "address": "경기 김포시 김포한강9로75번길 132\n경기 김포시 구래동 6881-3",
       "roadAddress": "경기 김포시 김포한강9로75번길 132",
       "jibunAddress": "경기 김포시 구래동 6881-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8049-9914",
+      "phones": [
+        "031-8049-9914",
+        "050-7874-4119"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8049-9914",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 김포한강9로75번길 132 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "050-7874-4119",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 김포한강9로75번길 132 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_김포시_김포안강럭스나인"
@@ -12139,17 +12503,47 @@
       "address": "경기 김포시 김포한강10로 170\n경기 김포시 구래동 6878-12",
       "roadAddress": "경기 김포시 김포한강10로 170",
       "jibunAddress": "경기 김포시 구래동 6878-12",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "023-0900-0523",
+      "phones": [
+        "023-0900-0523",
+        "024-0800-0619"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "023-0900-0523",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6878-12 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "024-0800-0619",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "김포한강트루엘오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_김포시_김포한강트루엘"
@@ -12303,17 +12697,131 @@
       "address": "경기 김포시 김포한강10로133번길 82\n경기 김포시 구래동 6871-46",
       "roadAddress": "경기 김포시 김포한강10로133번길 82",
       "jibunAddress": "경기 김포시 구래동 6871-46",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-996-0412",
+      "phones": [
+        "031-996-0412",
+        "07-1307-5581",
+        "010-2371-6871",
+        "07-1363-2327",
+        "07-1312-2604",
+        "02-6712-1150",
+        "02-3664-2453",
+        "02-978-0401"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-996-0412",
+          "score": 100,
+          "source": "114On",
+          "keyword": "스위트엠아크라시티2차오피스텔 전화번호, 스위트엠아크라시티2차 전화번호, 스위트엠아크라시티2차 관리단",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "07-1307-5581",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6871-46 관리실, 경기 김포시 구래동 6871-46 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "010-2371-6871",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "스위트엠아크라시티2차오피스텔 전화번호, 스위트엠아크라시티2차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1363-2327",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6871-46 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1312-2604",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6871-46 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6712-1150",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6871-46 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3664-2453",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "스위트엠아크라시티2차오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-978-0401",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "스위트엠아크라시티2차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_김포시_스위트엠아크라시티2차"
@@ -12455,17 +12963,160 @@
       "address": "경기 김포시 김포한강9로75번길 142\n경기 김포시 구래동 6881-4",
       "roadAddress": "경기 김포시 김포한강9로75번길 142",
       "jibunAddress": "경기 김포시 구래동 6881-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-984-0588",
+      "phones": [
+        "031-984-0588",
+        "031-381-9996",
+        "07-1462-8883",
+        "031-982-8842",
+        "031-344-6547",
+        "031-983-9033",
+        "031-841-9005",
+        "031-813-8582",
+        "031-991-8662",
+        "031-991-8664"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-984-0588",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 김포시 구래동 6881-4 전화번호, 경기 김포시 김포한강9로75번길 142 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-381-9996",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 김포시 김포한강9로75번길 142 관리사무소, 경기 김포시 김포한강9로75번길 142 전화번호, 태림더끌리움1차오피스텔 전화번호, 태림더끌리움1차 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "07-1462-8883",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 김포시 김포한강9로75번길 142 관리사무소, 경기 김포시 김포한강9로75번길 142 관리실, 경기 김포시 김포한강9로75번길 142 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-982-8842",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 김포시 김포한강9로75번길 142 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-344-6547",
+          "score": 77,
+          "source": "네이버",
+          "keyword": "경기 김포시 김포한강9로75번길 142 전화번호, 태림더끌리움1차오피스텔 전화번호, 태림더끌리움1차 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-983-9033",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "구래동 태림더끌리움1차 관리사무소, 태림더끌리움1차오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-841-9005",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "태림더끌리움1차오피스텔 전화번호, 태림더끌리움1차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-813-8582",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 김포시 김포한강9로75번길 142 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-991-8662",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "태림더끌리움1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-991-8664",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "태림더끌리움1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_김포시_태림끌리움1차"
@@ -12603,17 +13254,76 @@
       "address": "경기 김포시 구래동 6920",
       "roadAddress": "",
       "jibunAddress": "경기 김포시 구래동 6920",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1421-0923",
+      "phones": [
+        "07-1421-0923",
+        "031-986-8325",
+        "031-983-0322",
+        "031-984-0920"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1421-0923",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6920 관리사무소, 경기 김포시 구래동 6920 관리실, 경기 김포시 구래동 6920 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-986-8325",
+          "score": 96,
+          "source": "네이버",
+          "keyword": "한가람우미린아파트 정문 관리사무소, 한가람우미린아파트 정문 관리실, 한가람우미린 정문 관리사무소, 한가람우미린아파트 정문 관리단",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-983-0322",
+          "score": 90,
+          "source": "네이버",
+          "keyword": "한가람우미린아파트 정문 관리사무소, 한가람우미린아파트 정문 관리실, 한가람우미린 정문 관리사무소, 한가람우미린아파트 정문 관리단",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-984-0920",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "경기 김포시 구래동 6920 관리실, 경기 김포시 구래동 6920 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_김포시_한가람우미린정문"

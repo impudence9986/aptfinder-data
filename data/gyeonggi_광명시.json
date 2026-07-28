@@ -1,6 +1,6 @@
 {
-  "version": 1785178643,
-  "updatedAt": "2026-07-27 18:57:23",
+  "version": 1785262097,
+  "updatedAt": "2026-07-28 18:08:17",
   "sido": "경기도",
   "sigungu": "광명시",
   "count": 140,
@@ -1187,16 +1187,19 @@
       "jibunAddress": "경기 광명시 일직동 512",
       "phone": "02-899-7762",
       "phones": [
-        "02-899-7762"
+        "02-899-7762",
+        "02-2680-6617",
+        "02-897-8588"
       ],
       "phoneCandidates": [
         {
           "number": "02-899-7762",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 광명시 일직동 512 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1205,14 +1208,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2680-6617",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 일직동 512 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-897-8588",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 일직동 512 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1500",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:03:24",
       "detailUpdatedAt": 1781018136711,
       "listUpdatedAt": 1781018136711,
       "phoneStatus": "CONFIRMED",
@@ -1782,16 +1813,26 @@
       "jibunAddress": "경기 광명시 철산동 631",
       "phone": "022-066-3483",
       "phones": [
-        "022-066-3483"
+        "022-066-3483",
+        "02-2066-3483",
+        "02-2680-6613",
+        "02-2680-6604",
+        "02-2680-6611",
+        "02-2680-6612",
+        "022-066-3484",
+        "016-5330-8201",
+        "016-9875-2017",
+        "02-2680-6605"
       ],
       "phoneCandidates": [
         {
           "number": "022-066-3483",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 광명시 철산동 631 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1800,14 +1841,134 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2066-3483",
+          "score": 77,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 631 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2680-6613",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 631 관리사무소, 경기 광명시 철산동 631 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2680-6604",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 631 관리사무소, 경기 광명시 철산동 631 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2680-6611",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 631 관리사무소, 경기 광명시 철산동 631 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2680-6612",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 631 관리사무소, 경기 광명시 철산동 631 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "022-066-3484",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 631 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-5330-8201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 631 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-9875-2017",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 631 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2680-6605",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 631 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "426",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:05:21",
       "detailUpdatedAt": 1781018136711,
       "listUpdatedAt": 1781018136711,
       "phoneStatus": "CONFIRMED",
@@ -1890,16 +2051,17 @@
       "jibunAddress": "경기 광명시 광명동 791-2",
       "phone": "022-615-0967",
       "phones": [
-        "022-615-0967"
+        "022-615-0967",
+        "02-2619-0110"
       ],
       "phoneCandidates": [
         {
           "number": "022-615-0967",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1908,14 +2070,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2619-0110",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 광명동 791-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1187",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 17:59:25",
       "detailUpdatedAt": 1781018136711,
       "listUpdatedAt": 1781018136711,
       "phoneStatus": "CONFIRMED",
@@ -3726,16 +3902,19 @@
       "jibunAddress": "경기 광명시 철산동 105",
       "phone": "026-958-6571",
       "phones": [
-        "026-958-6571"
+        "026-958-6571",
+        "016-5287-9201",
+        "02-2680-6609",
+        "02-2680-6613"
       ],
       "phoneCandidates": [
         {
           "number": "026-958-6571",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3744,14 +3923,54 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "016-5287-9201",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 105 관리사무소, 경기 광명시 철산동 105 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2680-6609",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 105 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2680-6613",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 105 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1490",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:07:28",
       "detailUpdatedAt": 1781018136711,
       "listUpdatedAt": 1781018136711,
       "phoneStatus": "CONFIRMED",
@@ -4057,9 +4276,9 @@
           "number": "022-060-8820",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4068,14 +4287,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "3344",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-28 18:01:07",
       "detailUpdatedAt": 1781018136711,
       "listUpdatedAt": 1781018136711,
       "phoneStatus": "CONFIRMED",
@@ -5064,17 +5284,33 @@
       "address": "경기 광명시 광명동 78-38",
       "roadAddress": "",
       "jibunAddress": "경기 광명시 광명동 78-38",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6953-5532",
+      "phones": [
+        "02-6953-5532"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6953-5532",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 광명시 광명동 78-38 전화번호, 광명자이힐스테이트SKVIEW아파트 (2027년07월예정) 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 51,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_광명시_광명자이힐스테이트skview2027년07월예정"
@@ -5096,17 +5332,161 @@
       "address": "경기 광명시 광명로 834\n경기 광명시 광명동 344",
       "roadAddress": "경기 광명시 광명로 834",
       "jibunAddress": "경기 광명시 광명동 344",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2617-7205",
+      "phones": [
+        "02-2617-7205",
+        "07-1470-7560",
+        "02-2060-0710",
+        "022-617-7205",
+        "02-2618-2804",
+        "022-618-2804",
+        "02-6953-8579",
+        "02-2682-8244",
+        "07-1369-0992",
+        "07-1332-6255"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2617-7205",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 광명시 광명동 344 전화번호, 경기 광명시 광명로 834 전화번호",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "07-1470-7560",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 광명시 광명로 834 관리사무소, 경기 광명시 광명로 834 관리실, 경기 광명시 광명로 834 전화번호, 광명퍼스트스위첸 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-2060-0710",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "광명동 광명퍼스트스위첸 관리사무소, 광명시 광명퍼스트스위첸 관리사무소, 광명시 광명퍼스트스위첸 관리실, 광명퍼스트스위첸오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "022-617-7205",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 광명동 344 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2618-2804",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 광명로 834 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-618-2804",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 광명로 834 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-6953-8579",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 광명로 834 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2682-8244",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "광명퍼스트스위첸 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1369-0992",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "광명퍼스트스위첸 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1332-6255",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "광명퍼스트스위첸 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_광명퍼스트스위첸"
@@ -5270,17 +5650,104 @@
       "address": "경기 광명시 광화로13번길 9\n경기 광명시 광명동 373-3",
       "roadAddress": "경기 광명시 광화로13번길 9",
       "jibunAddress": "경기 광명시 광명동 373-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2613-7466",
+      "phones": [
+        "02-2613-7466",
+        "02-2688-1693",
+        "02-2135-6366",
+        "02-2612-8288",
+        "07-1335-0360",
+        "07-1388-0838"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2613-7466",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "광명시 광명호반써밋그랜드에비뉴 관리사무소, 광명호반써밋그랜드에비뉴아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-2688-1693",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 광명시 광화로13번길 9 관리사무소, 경기 광명시 광화로13번길 9 관리실, 경기 광명시 광화로13번길 9 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-2135-6366",
+          "score": 75,
+          "source": "네이버",
+          "keyword": "광명시 광명호반써밋그랜드에비뉴 관리사무소, 광명호반써밋그랜드에비뉴아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-2612-8288",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "광명호반써밋그랜드에비뉴아파트 전화번호, 광명호반써밋그랜드에비뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1335-0360",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 광화로13번길 9 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1388-0838",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "광명동 광명호반써밋그랜드에비뉴 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_광명호반써밋그랜드에비뉴"
@@ -5302,17 +5769,33 @@
       "address": "경기 광명시 광명로831번길 45\n경기 광명시 광명동 784",
       "roadAddress": "경기 광명시 광명로831번길 45",
       "jibunAddress": "경기 광명시 광명동 784",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-318-8981",
+      "phones": [
+        "031-318-8981"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-318-8981",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_제일풍경채"
@@ -5456,17 +5939,191 @@
       "address": "경기 광명시 오리로 500\n경기 광명시 소하동 1343-1",
       "roadAddress": "경기 광명시 오리로 500",
       "jibunAddress": "경기 광명시 소하동 1343-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-897-5329",
+      "phones": [
+        "02-897-5329",
+        "02-899-1115",
+        "02-899-0114",
+        "02-569-3321",
+        "02-899-5999",
+        "02-897-3671",
+        "02-898-3723",
+        "02-898-0727",
+        "02-898-3005",
+        "07-1328-1262",
+        "02-899-0115",
+        "02-899-8974"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-897-5329",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경기 광명시 소하동 1343-1 관리실, 경기 광명시 소하동 1343-1 전화번호, 경기 광명시 오리로 500 관리실, 경기 광명시 오리로 500 전화번호",
+          "sourceCounts": {
+            "네이버": 2,
+            "114On": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2,
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회 · 네이버 2회"
+        },
+        {
+          "number": "02-899-1115",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "광명한라비발디큐브오피스텔 전화번호, 광명한라비발디큐브 전화번호",
+          "sourceCounts": {
+            "114On": 2,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "02-899-0114",
+          "score": 100,
+          "source": "114On",
+          "keyword": "광명한라비발디큐브오피스텔 전화번호, 광명한라비발디큐브 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-569-3321",
+          "score": 93,
+          "source": "네이버",
+          "keyword": "경기 광명시 소하동 1343-1 전화번호, 광명시 광명한라비발디큐브 관리사무소, 광명한라비발디큐브 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-899-5999",
+          "score": 91,
+          "source": "114On",
+          "keyword": "소하동 광명한라비발디큐브 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-897-3671",
+          "score": 89,
+          "source": "네이버",
+          "keyword": "경기 광명시 소하동 1343-1 전화번호, 광명시 광명한라비발디큐브 관리사무소, 광명한라비발디큐브 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-898-3723",
+          "score": 79,
+          "source": "네이버",
+          "keyword": "경기 광명시 오리로 500 관리실, 경기 광명시 오리로 500 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-898-0727",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 오리로 500 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-898-3005",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "소하동 광명한라비발디큐브 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1328-1262",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "광명시 광명한라비발디큐브 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-899-0115",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "광명한라비발디큐브오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-899-8974",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "광명한라비발디큐브 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_광명한라비발디큐브"
@@ -5656,17 +6313,61 @@
       "address": "경기 광명시 기아로6번길 9\n경기 광명시 소하동 1243-7",
       "roadAddress": "경기 광명시 기아로6번길 9",
       "jibunAddress": "경기 광명시 소하동 1243-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-938-5565",
+      "phones": [
+        "031-938-5565",
+        "031-581-2662",
+        "031-291-3911"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-938-5565",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-581-2662",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-291-3911",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_수자인"
@@ -5688,17 +6389,299 @@
       "address": "경기 광명시 소하로92번길 12\n경기 광명시 소하동 1342-3",
       "roadAddress": "경기 광명시 소하로92번길 12",
       "jibunAddress": "경기 광명시 소하동 1342-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "055-648-7779",
+      "phones": [
+        "055-648-7779",
+        "02-898-9464",
+        "055-648-5888",
+        "02-6952-2828",
+        "055-645-0583",
+        "07-1366-2555",
+        "02-897-6558",
+        "010-9899-2957",
+        "055-646-1238",
+        "055-648-0061",
+        "055-646-7886",
+        "055-648-2297",
+        "055-644-9988",
+        "02-897-4910",
+        "02-899-5589",
+        "07-1339-6558",
+        "00-2022-0009",
+        "055-648-0170",
+        "055-634-3333",
+        "055-648-1600"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "055-648-7779",
+          "score": 100,
+          "source": "114On",
+          "keyword": "주영팰리스 관리사무소, 주영팰리스 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-898-9464",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 광명시 소하동 1342-3 관리사무소, 경기 광명시 소하동 1342-3 관리실, 경기 광명시 소하동 1342-3 전화번호, 경기 광명시 소하로92번길 12 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "055-648-5888",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "소하동 주영팰리스 관리사무소, 광명시 주영팰리스 관리사무소, 주영팰리스오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-6952-2828",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 광명시 소하동 1342-3 관리실, 경기 광명시 소하동 1342-3 전화번호, 주영팰리스오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "055-645-0583",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "소하동 주영팰리스 관리사무소, 광명시 주영팰리스 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1366-2555",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 광명시 소하동 1342-3 전화번호, 경기 광명시 소하로92번길 12 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-897-6558",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 소하로92번길 12 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "010-9899-2957",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 소하로92번길 12 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "055-646-1238",
+          "score": 91,
+          "source": "114On",
+          "keyword": "주영팰리스 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "055-648-0061",
+          "score": 91,
+          "source": "114On",
+          "keyword": "주영팰리스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "055-646-7886",
+          "score": 91,
+          "source": "114On",
+          "keyword": "주영팰리스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "055-648-2297",
+          "score": 91,
+          "source": "114On",
+          "keyword": "주영팰리스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "055-644-9988",
+          "score": 91,
+          "source": "네이버",
+          "keyword": "주영팰리스 관리사무소, 주영팰리스오피스텔 전화번호, 주영팰리스 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-897-4910",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 소하로92번길 12 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-899-5589",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 소하로92번길 12 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1339-6558",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "소하동 주영팰리스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-2022-0009",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "주영팰리스오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-648-0170",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "주영팰리스오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-634-3333",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "주영팰리스오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-648-1600",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "주영팰리스 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_주영팰리스"
@@ -6092,17 +7075,243 @@
       "address": "경기 광명시 일직로 28\n경기 광명시 일직동 509-2",
       "roadAddress": "경기 광명시 일직로 28",
       "jibunAddress": "경기 광명시 일직동 509-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-898-3549",
+      "phones": [
+        "02-898-3549",
+        "02-2684-0011",
+        "022-684-0011",
+        "02-2612-3524",
+        "022-612-3524",
+        "02-899-3286",
+        "07-1380-3495",
+        "02-6958-7414",
+        "07-1381-1966",
+        "031-481-1193",
+        "07-1498-1290",
+        "02-6405-3121",
+        "02-898-7761",
+        "07-1405-7414",
+        "02-899-1377",
+        "02-897-3115"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-898-3549",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 광명시 일직동 509-2 전화번호, 경기 광명시 일직로 28 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-2684-0011",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 일직동 509-2 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-684-0011",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 일직동 509-2 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2612-3524",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 일직동 509-2 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-612-3524",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 일직동 509-2 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-899-3286",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 일직로 28 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1380-3495",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "경기 광명시 일직로 28 관리사무소, 경기 광명시 일직로 28 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6958-7414",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 광명시 일직로 28 관리실, 경기 광명시 일직로 28 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1381-1966",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 일직동 509-2 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-1193",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 일직동 509-2 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1498-1290",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 일직로 28 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6405-3121",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 일직로 28 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-898-7761",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 일직로 28 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1405-7414",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 일직로 28 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-899-1377",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "광명시 광명역트리플타워 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-897-3115",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "광명역트리플타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_광명역트리플타워"
@@ -6231,17 +7440,33 @@
       "address": "경기 광명시 일직로 22\n경기 광명시 일직동 509-1",
       "roadAddress": "경기 광명시 일직로 22",
       "jibunAddress": "경기 광명시 일직동 509-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8017-4300",
+      "phones": [
+        "031-8017-4300"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8017-4300",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_광명역효성해링턴타워퍼스트"
@@ -6263,17 +7488,105 @@
       "address": "경기 광명시 오리로 835\n경기 광명시 철산동 638",
       "roadAddress": "경기 광명시 오리로 835",
       "jibunAddress": "경기 광명시 철산동 638",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "010-5298-6064",
+      "phones": [
+        "010-5298-6064",
+        "02-2612-5800",
+        "022-612-5800",
+        "02-2611-0967",
+        "022-611-0968",
+        "07-1331-1013"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-5298-6064",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 광명시 철산동 638 전화번호, 경기 광명시 오리로 835 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-2612-5800",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 광명시 오리로 835 전화번호, 광명철산센트럴푸르지오 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "022-612-5800",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 광명시 오리로 835 전화번호, 광명철산센트럴푸르지오 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-2611-0967",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 638 관리사무소, 경기 광명시 오리로 835 관리사무소, 경기 광명시 오리로 835 전화번호, 철산동 광명철산센트럴푸르지오 관리사무소, 광명시 광명철산센트럴푸르지오 관리사무소, 광명시 광명철산센트럴푸르지오 관리실, 광명철산센트럴푸르지오아파트 관리사무소, 광명철산센트럴푸르지오아파트 관리실, 광명철산센트",
+          "sourceCounts": {
+            "네이버": 11
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 11회"
+        },
+        {
+          "number": "022-611-0968",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 638 관리사무소, 경기 광명시 오리로 835 관리사무소, 철산동 광명철산센트럴푸르지오 관리사무소, 광명시 광명철산센트럴푸르지오 관리사무소, 광명시 광명철산센트럴푸르지오 관리실, 광명철산센트럴푸르지오아파트 관리사무소, 광명철산센트럴푸르지오아파트 관리실, 광명철산센트럴푸르지오아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 10
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10
+          },
+          "sourceSummary": "네이버 10회"
+        },
+        {
+          "number": "07-1331-1013",
+          "score": 95,
+          "source": "네이버",
+          "keyword": "경기 광명시 오리로 835 관리실, 경기 광명시 오리로 835 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_광명철산센트럴푸르지오"
@@ -6537,17 +7850,33 @@
       "address": "경기 광명시 서부샛길 778\n경기 광명시 철산동 119-2",
       "roadAddress": "경기 광명시 서부샛길 778",
       "jibunAddress": "경기 광명시 철산동 119-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-912-4988",
+      "phones": [
+        "031-912-4988"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-912-4988",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_디오스텔가산"
@@ -6569,17 +7898,33 @@
       "address": "경기 광명시 오리로 887\n경기 광명시 철산동 473-14",
       "roadAddress": "경기 광명시 오리로 887",
       "jibunAddress": "경기 광명시 철산동 473-14",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-000-0000",
+      "phones": [
+        "031-000-0000"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-000-0000",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_보보스텔"
@@ -6827,17 +8172,131 @@
       "address": "경기 광명시 시청로 50\n경기 광명시 철산동 233",
       "roadAddress": "경기 광명시 시청로 50",
       "jibunAddress": "경기 광명시 철산동 233",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "010-2223-9356",
+      "phones": [
+        "010-2223-9356",
+        "02-2687-5949",
+        "022-687-5949",
+        "031-481-1263",
+        "026-956-6002",
+        "070-7545-6002",
+        "07-1439-9979",
+        "07-1330-4611"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-2223-9356",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 철산동 233 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2687-5949",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 시청로 50 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-687-5949",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 시청로 50 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-481-1263",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 233 관리실, 경기 광명시 철산동 233 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "026-956-6002",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 시청로 50 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-7545-6002",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 시청로 50 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1439-9979",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 시청로 50 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1330-4611",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 시청로 50 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_철산역롯데캐슬앤skview클래스티지정문"
@@ -6859,17 +8318,33 @@
       "address": "경기 광명시 철산동 472-267",
       "roadAddress": "",
       "jibunAddress": "경기 광명시 철산동 472-267",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6956-5615",
+      "phones": [
+        "02-6956-5615"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6956-5615",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 철산동 472-267 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_광명시_철산역자이2029년05월예정"
@@ -7392,17 +8867,103 @@
       "address": "경기 광명시 광덕산로 26\n경기 광명시 하안동 863-2",
       "roadAddress": "경기 광명시 광덕산로 26",
       "jibunAddress": "경기 광명시 하안동 863-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2682-4199",
+      "phones": [
+        "02-2682-4199",
+        "022-682-4199",
+        "02-897-0033",
+        "070-7985-0617",
+        "02-898-3338",
+        "02-898-4448"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2682-4199",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 광명시 광덕산로 26 관리실, 경기 광명시 광덕산로 26 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "022-682-4199",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 광명시 광덕산로 26 관리실, 경기 광명시 광덕산로 26 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-897-0033",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 광명시 광덕산로 26 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "070-7985-0617",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 광덕산로 26 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-898-3338",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 광덕산로 26 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-898-4448",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광명시 광덕산로 26 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_광명두산위브트레지움정문"
