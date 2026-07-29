@@ -1,6 +1,6 @@
 {
-  "version": 1783708360,
-  "updatedAt": "2026-07-10 18:32:40",
+  "version": 1785350438,
+  "updatedAt": "2026-07-29 18:40:38",
   "sido": "경기도",
   "sigungu": "수원시",
   "count": 707,
@@ -7878,10 +7878,10 @@
       "city": "수원시",
       "sido": "경기도",
       "district": "영통구",
-      "dong": "",
-      "address": "경기도 수원시 영통구 인계로 165",
-      "roadAddress": "경기도 수원시 영통구 인계로 165",
-      "jibunAddress": "",
+      "dong": "매탄동",
+      "address": "경기 수원시 영통구 동탄원천로881번길 35\n경기 수원시 영통구 매탄동 1282",
+      "roadAddress": "경기 수원시 영통구 동탄원천로881번길 35",
+      "jibunAddress": "경기 수원시 영통구 매탄동 1282",
       "phone": "031-215-1901",
       "phones": [
         "031-215-1901"
@@ -7916,7 +7916,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "ROAD_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_매탄주공5"
     },
     {
@@ -25267,17 +25267,118 @@
       "address": "경기 수원시 권선구 서부로1670번길 11-9\n경기 수원시 권선구 고색동 1206",
       "roadAddress": "경기 수원시 권선구 서부로1670번길 11-9",
       "jibunAddress": "경기 수원시 권선구 고색동 1206",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-293-1073",
+      "phones": [
+        "031-293-1073",
+        "031-291-2231",
+        "031-278-6288",
+        "031-226-2666",
+        "031-452-8924",
+        "031-222-1779",
+        "02-2066-4867"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-293-1073",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 서부로1670번길 11-9 관리실, 수원시 e편한세상시티고색 관리실, e편한세상시티고색오피스텔 관리실, e편한세상시티고색오피스텔 관리단, e편한세상시티고색 전화번호, e편한세상시티고색 관리단",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "031-291-2231",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "고색동 e편한세상시티고색 관리사무소, 수원시 e편한세상시티고색 관리사무소, e편한세상시티고색오피스텔 전화번호, e편한세상시티고색오피스텔 관리단, e편한세상시티고색 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2,
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-278-6288",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 서부로1670번길 11-9 관리사무소, 경기 수원시 권선구 서부로1670번길 11-9 관리실, 경기 수원시 권선구 서부로1670번길 11-9 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-226-2666",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 권선구 서부로1670번길 11-9 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-452-8924",
+          "score": 75,
+          "source": "네이버",
+          "keyword": "고색동 e편한세상시티고색 관리사무소, 수원시 e편한세상시티고색 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-222-1779",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "e편한세상시티고색오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2066-4867",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "e편한세상시티고색 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_e편한세상시티고색"
@@ -26359,17 +26460,131 @@
       "address": "경기 수원시 권선구 동수원로224번길 28\n경기 수원시 권선구 권선동 1311-6",
       "roadAddress": "경기 수원시 권선구 동수원로224번길 28",
       "jibunAddress": "경기 수원시 권선구 권선동 1311-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-225-5077",
+      "phones": [
+        "031-225-5077",
+        "031-233-1770",
+        "05-2040-0043",
+        "09-1040-0007",
+        "08-1040-0006",
+        "031-217-0111",
+        "031-223-1900",
+        "031-297-2367"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-225-5077",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 수원시 권선구 권선동 1311-6 전화번호, 경기 수원시 권선구 동수원로224번길 28 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-233-1770",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "에스띠보보1차오피스텔 전화번호, 에스띠보보1차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "05-2040-0043",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "에스띠보보1차오피스텔 전화번호, 에스띠보보1차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "09-1040-0007",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "에스띠보보1차오피스텔 전화번호, 에스띠보보1차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "08-1040-0006",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "에스띠보보1차오피스텔 전화번호, 에스띠보보1차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-217-0111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "에스띠보보1차오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-223-1900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "에스띠보보1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-297-2367",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "에스띠보보1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_에스띠보보1차"
@@ -26440,17 +26655,89 @@
       "address": "경기 수원시 권선구 금곡로196번길 98\n경기 수원시 권선구 금곡동 1125-2",
       "roadAddress": "경기 수원시 권선구 금곡로196번길 98",
       "jibunAddress": "경기 수원시 권선구 금곡동 1125-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-265-9110",
+      "phones": [
+        "031-265-9110",
+        "031-276-9110",
+        "031-546-0381",
+        "07-1338-5175",
+        "07-1491-0218"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-265-9110",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "LH청년나래가오피스텔 관리사무소, LH청년나래가 관리사무소, LH청년나래가 관리실, LH청년나래가 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-276-9110",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "LH청년나래가 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-546-0381",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "LH청년나래가 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1338-5175",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "LH청년나래가 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1491-0218",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "LH청년나래가 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_lh청년나래가"
@@ -26707,17 +26994,75 @@
       "address": "경기 수원시 권선구 금곡로196번길 15\n경기 수원시 권선구 금곡동 1118-3",
       "roadAddress": "경기 수원시 권선구 금곡로196번길 15",
       "jibunAddress": "경기 수원시 권선구 금곡동 1118-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-293-9978",
+      "phones": [
+        "031-293-9978",
+        "031-298-1232",
+        "032-561-2838",
+        "032-564-2838"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-293-9978",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 수원시 권선구 금곡동 1118-3 전화번호, 경기 수원시 권선구 금곡로196번길 15 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-298-1232",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 금곡로196번길 15 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-561-2838",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "커낼파크 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-564-2838",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "커낼파크 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_커낼파크"
@@ -26791,17 +27136,61 @@
       "address": "경기 수원시 권선구 금곡로197번길 23\n경기 수원시 권선구 금곡동 1111",
       "roadAddress": "경기 수원시 권선구 금곡로197번길 23",
       "jibunAddress": "경기 수원시 권선구 금곡동 1111",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-295-8882",
+      "phones": [
+        "031-295-8882",
+        "031-372-7788",
+        "031-221-3777"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-295-8882",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "금곡동 호매실스카이시티 관리사무소, 호매실스카이시티 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-372-7788",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "호매실스카이시티 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-221-3777",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "호매실스카이시티 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 71,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_호매실스카이시티"
@@ -26823,17 +27212,89 @@
       "address": "경기 수원시 권선구 금곡로196번길 35\n경기 수원시 권선구 금곡동 1118-4",
       "roadAddress": "경기 수원시 권선구 금곡로196번길 35",
       "jibunAddress": "경기 수원시 권선구 금곡동 1118-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-292-0150",
+      "phones": [
+        "031-292-0150",
+        "031-298-6670",
+        "031-227-2222",
+        "031-296-0888",
+        "031-294-2900"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-292-0150",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 수원시 권선구 금곡동 1118-4 전화번호, 경기 수원시 권선구 금곡로196번길 35 전화번호, 금곡동 호매실역더리브스타일 관리사무소, 수원시 호매실역더리브스타일 관리사무소, 수원시 호매실역더리브스타일 관리실, 호매실역더리브스타일오피스텔 관리사무소, 호매실역더리브스타일오피스텔 전화번호, 호매실역더리브스타일오피스텔 관",
+          "sourceCounts": {
+            "114On": 10
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 10
+          },
+          "sourceSummary": "114On 10회"
+        },
+        {
+          "number": "031-298-6670",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 권선구 금곡로196번길 35 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-227-2222",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "수원시 호매실역더리브스타일 관리사무소, 수원시 호매실역더리브스타일 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-296-0888",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 금곡로196번길 35 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-294-2900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "호매실역더리브스타일 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_호매실역리브스타일"
@@ -27381,17 +27842,306 @@
       "address": "경기 수원시 영통구 영통로90번길 4-27\n경기 수원시 영통구 망포동 488",
       "roadAddress": "경기 수원시 영통구 영통로90번길 4-27",
       "jibunAddress": "경기 수원시 영통구 망포동 488",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-206-5022",
+      "phones": [
+        "031-206-5022",
+        "031-295-8662",
+        "031-314-3416",
+        "031-273-0511",
+        "031-206-2221",
+        "031-206-5023",
+        "031-228-8769",
+        "016-3361-4201",
+        "031-210-1265",
+        "031-210-1262",
+        "031-216-9712",
+        "031-228-8649",
+        "031-310-4573",
+        "010-0130-0559",
+        "016-1103-4201",
+        "031-205-2677",
+        "031-204-7335",
+        "031-203-0074",
+        "031-210-1271",
+        "016-4975-2016"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-206-5022",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경기 수원시 영통구 망포동 488 관리사무소, 경기 수원시 영통구 망포동 488 전화번호, 경기 수원시 영통구 영통로90번길 4-27 관리사무소, 수원시 늘푸른벽산 관리사무소, 수원시 영통구 늘푸른벽산 관리사무소, 수원시 늘푸른벽산 관리실, 늘푸른벽산아파트 관리사무소, 늘푸른벽산아파트 관리실, 늘푸른벽산아파트 전화번호, ",
+          "sourceCounts": {
+            "네이버": 15,
+            "114On": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 8,
+            "네이버 블로그검색": 4,
+            "네이버 카페검색": 3,
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회 · 네이버 15회"
+        },
+        {
+          "number": "031-295-8662",
+          "score": 100,
+          "source": "114On",
+          "keyword": "수원시 늘푸른벽산 관리사무소, 수원시 영통구 늘푸른벽산 관리사무소, 늘푸른벽산아파트 관리사무소, 늘푸른벽산아파트 관리실, 늘푸른벽산아파트 전화번호, 늘푸른벽산 전화번호",
+          "sourceCounts": {
+            "114On": 7
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 7
+          },
+          "sourceSummary": "114On 7회"
+        },
+        {
+          "number": "031-314-3416",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "늘푸른벽산아파트 전화번호, 늘푸른벽산 전화번호",
+          "sourceCounts": {
+            "114On": 2,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "114On 2회 · 네이버 2회"
+        },
+        {
+          "number": "031-273-0511",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 망포동 488 전화번호, 경기 수원시 영통구 영통로90번길 4-27 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-206-2221",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 망포동 488 전화번호, 경기 수원시 영통구 영통로90번길 4-27 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-206-5023",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 망포동 488 관리사무소, 경기 수원시 영통구 영통로90번길 4-27 관리사무소, 수원시 늘푸른벽산 관리사무소, 수원시 영통구 늘푸른벽산 관리사무소, 늘푸른벽산아파트 관리사무소, 늘푸른벽산아파트 관리실",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "031-228-8769",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 망포동 488 관리실, 경기 수원시 영통구 영통로90번길 4-27 관리실, 망포동 늘푸른벽산 관리사무소, 늘푸른벽산아파트 관리실, 늘푸른벽산 관리실",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "016-3361-4201",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 망포동 488 관리사무소, 경기 수원시 영통구 망포동 488 관리실, 수원시 늘푸른벽산 관리사무소, 수원시 영통구 늘푸른벽산 관리사무소, 수원시 늘푸른벽산 관리실",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "031-210-1265",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 망포동 488 관리사무소, 경기 수원시 영통구 망포동 488 관리실, 경기 수원시 영통구 망포동 488 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-210-1262",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 망포동 488 전화번호, 경기 수원시 영통구 영통로90번길 4-27 관리실, 경기 수원시 영통구 영통로90번길 4-27 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1,
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-216-9712",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "수원시 늘푸른벽산 관리사무소, 수원시 영통구 늘푸른벽산 관리사무소, 수원시 늘푸른벽산 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-228-8649",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 망포동 488 관리실, 늘푸른벽산아파트 관리실, 늘푸른벽산 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-310-4573",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "수원시 늘푸른벽산 관리실, 늘푸른벽산 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "010-0130-0559",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 망포동 488 관리실, 경기 수원시 영통구 망포동 488 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "016-1103-4201",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 망포동 488 관리실, 늘푸른벽산아파트 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-205-2677",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 영통로90번길 4-27 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-204-7335",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 영통로90번길 4-27 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-203-0074",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 영통로90번길 4-27 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-210-1271",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 망포동 488 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-4975-2016",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "수원시 늘푸른벽산 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_늘푸른벽산"
@@ -28960,17 +29710,145 @@
       "address": "경기 수원시 영통구 효원로 383\n경기 수원시 영통구 매탄동 1267-2",
       "roadAddress": "경기 수원시 영통구 효원로 383",
       "jibunAddress": "경기 수원시 영통구 매탄동 1267-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-212-4048",
+      "phones": [
+        "031-212-4048",
+        "07-1487-6692",
+        "031-213-2077",
+        "031-217-4776",
+        "031-211-3979",
+        "031-213-6666",
+        "031-216-9952",
+        "031-217-6675",
+        "031-215-6692"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-212-4048",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 매탄동 1267-2 관리사무소, 경기 수원시 영통구 매탄동 1267-2 전화번호, 경기 수원시 영통구 효원로 383 관리사무소, 경기 수원시 영통구 효원로 383 전화번호, 매탄동 매탄프라자 관리사무소, 수원시 매탄프라자 관리사무소, 수원시 영통구 매탄프라자 관리사무소, 매탄프라자 전화번호",
+          "sourceCounts": {
+            "114On": 9
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 9
+          },
+          "sourceSummary": "114On 9회"
+        },
+        {
+          "number": "07-1487-6692",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 효원로 383 관리사무소, 경기 수원시 영통구 효원로 383 관리실, 경기 수원시 영통구 효원로 383 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-213-2077",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 매탄동 1267-2 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-217-4776",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 효원로 383 관리실, 경기 수원시 영통구 효원로 383 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-211-3979",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 효원로 383 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-213-6666",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 효원로 383 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-216-9952",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 효원로 383 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-217-6675",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 효원로 383 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-215-6692",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "매탄프라자 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_매탄프라자"
@@ -29839,17 +30717,89 @@
       "address": "경기 수원시 권선구 세화로154번길 10\n경기 수원시 권선구 서둔동 414",
       "roadAddress": "경기 수원시 권선구 세화로154번길 10",
       "jibunAddress": "경기 수원시 권선구 서둔동 414",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1363-4176",
+      "phones": [
+        "07-1363-4176",
+        "07-1421-9074",
+        "031-539-3602",
+        "02-6953-5040",
+        "031-278-1200"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1363-4176",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 서둔동 414 관리실, 경기 수원시 권선구 세화로154번길 10 관리사무소, 프라운트수원오피스텔 전화번호, 프라운트수원 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "07-1421-9074",
+          "score": 87,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 세화로154번길 10 관리사무소, 경기 수원시 권선구 세화로154번길 10 관리실, 경기 수원시 권선구 세화로154번길 10 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-539-3602",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "프라운트수원오피스텔 전화번호, 프라운트수원 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6953-5040",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 세화로154번길 10 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-278-1200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서둔동 프라운트수원 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_프라운트수원"
@@ -30638,17 +31588,47 @@
       "address": "경기 수원시 장안구 연무동 58-1",
       "roadAddress": "",
       "jibunAddress": "경기 수원시 장안구 연무동 58-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-207-0014",
+      "phones": [
+        "031-207-0014",
+        "031-244-5341"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-207-0014",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "연무동 서광교한라비발디레이크포레 (2027년02월예정) 관리사무소, 수원시 서광교한라비발디레이크포레 (2027년02월예정) 관리사무소, 수원시 장안구 서광교한라비발디레이크포레 (2027년02월예정) 관리사무소, 서광교한라비발디레이크포레아파트 (2027년02월예정) 관리사무소",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-244-5341",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 장안구 연무동 58-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_수원시_서광교한라비발디레이크포레2027년02월예정"
@@ -31078,17 +32058,61 @@
       "address": "경기 수원시 영통구 영통동 999-2",
       "roadAddress": "",
       "jibunAddress": "경기 수원시 영통구 영통동 999-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-215-8181",
+      "phones": [
+        "031-215-8181",
+        "031-202-0001",
+        "031-258-1244"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-215-8181",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 영통동 999-2 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-202-0001",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 영통동 999-2 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-258-1244",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 영통동 999-2 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_수원시_영통역우미린2029년11월예정"
@@ -31578,17 +32602,33 @@
       "address": "경기 수원시 장안구 영화동 93-6",
       "roadAddress": "",
       "jibunAddress": "경기 수원시 장안구 영화동 93-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-224-1119",
+      "phones": [
+        "031-224-1119"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-224-1119",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 영화동 93-6 전화번호, 수원시 두산위브더센트럴수원 (2028년09월예정) 관리실, 두산위브더센트럴수원아파트 (2028년09월예정) 관리실, 두산위브더센트럴수원아파트 (2028년09월예정) 전화번호, 두산위브더센트럴수원 (2028년09월예정) 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_수원시_두산위브센트럴수원2028년09월예정"
@@ -32099,17 +33139,33 @@
       "address": "경기 수원시 영통구 삼성로320번길 17\n경기 수원시 영통구 원천동 295-1",
       "roadAddress": "경기 수원시 영통구 삼성로320번길 17",
       "jibunAddress": "경기 수원시 영통구 원천동 295-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-205-1870",
+      "phones": [
+        "031-205-1870"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-205-1870",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "e편한세상시티광교웰스하임오피스텔 전화번호, e편한세상시티광교웰스하임 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 51,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_e편한세상시티광교웰스하임"
@@ -32673,17 +33729,105 @@
       "address": "경기 수원시 영통구 삼성로320번길 35\n경기 수원시 영통구 원천동 296-6",
       "roadAddress": "경기 수원시 영통구 삼성로320번길 35",
       "jibunAddress": "경기 수원시 영통구 원천동 296-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-217-9283",
+      "phones": [
+        "031-217-9283",
+        "031-212-7585",
+        "031-211-4594",
+        "031-212-5577",
+        "031-8004-5505",
+        "031-548-0212"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-217-9283",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 수원시 영통구 원천동 296-6 전화번호, 경기 수원시 영통구 삼성로320번길 35 전화번호",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-212-7585",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 원천동 296-6 전화번호, 경기 수원시 영통구 삼성로320번길 35 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-211-4594",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 원천동 296-6 전화번호, 경기 수원시 영통구 삼성로320번길 35 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-212-5577",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 원천동 296-6 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-8004-5505",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 삼성로320번길 35 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-548-0212",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 삼성로320번길 35 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_수원영통아크로파크"
@@ -32757,17 +33901,145 @@
       "address": "경기 수원시 영통구 매영로199번길 42\n경기 수원시 영통구 원천동 336",
       "roadAddress": "경기 수원시 영통구 매영로199번길 42",
       "jibunAddress": "경기 수원시 영통구 원천동 336",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-214-5556",
+      "phones": [
+        "031-214-5556",
+        "02-3011-6200",
+        "031-216-9712",
+        "031-205-8945",
+        "02-587-0456",
+        "07-1407-0068",
+        "02-525-9642",
+        "07-1354-0826",
+        "08-828-3929"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-214-5556",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 원천동 336 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3011-6200",
+          "score": 91,
+          "source": "114On",
+          "keyword": "애니타워 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-216-9712",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "수원시 애니타워 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-205-8945",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "애니타워오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-587-0456",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "애니타워 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1407-0068",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "애니타워 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-525-9642",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "애니타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1354-0826",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "애니타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "08-828-3929",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "애니타워 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_애니타워"
@@ -35467,17 +36739,217 @@
       "address": "경기 수원시 팔달구 효원로308번길 58-17\n경기 수원시 팔달구 인계동 1134-3",
       "roadAddress": "경기 수원시 팔달구 효원로308번길 58-17",
       "jibunAddress": "경기 수원시 팔달구 인계동 1134-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-308-0811",
+      "phones": [
+        "031-308-0811",
+        "031-221-0530",
+        "031-1544-6986",
+        "031-256-4466",
+        "031-237-9771",
+        "031-210-1276",
+        "031-210-1261",
+        "031-210-1265",
+        "031-988-2347",
+        "031-988-2348",
+        "07-1445-5979",
+        "031-261-2811",
+        "07-1449-1104",
+        "07-1482-0125"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-308-0811",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 수원시 팔달구 인계동 1134-3 전화번호, 경기 수원시 팔달구 효원로308번길 58-17 전화번호, 동양파라곤1단지 전화번호",
+          "sourceCounts": {
+            "114On": 3,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 3회 · 네이버 1회"
+        },
+        {
+          "number": "031-221-0530",
+          "score": 93,
+          "source": "네이버",
+          "keyword": "동양파라곤1단지오피스텔 관리실, 동양파라곤1단지오피스텔 전화번호, 동양파라곤1단지오피스텔 관리단",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-1544-6986",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 팔달구 인계동 1134-3 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-256-4466",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 팔달구 인계동 1134-3 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-237-9771",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 팔달구 인계동 1134-3 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-210-1276",
+          "score": 89,
+          "source": "네이버",
+          "keyword": "동양파라곤1단지오피스텔 관리실, 동양파라곤1단지오피스텔 전화번호, 동양파라곤1단지오피스텔 관리단",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-210-1261",
+          "score": 89,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 효원로308번길 58-17 관리사무소, 경기 수원시 팔달구 효원로308번길 58-17 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-210-1265",
+          "score": 79,
+          "source": "네이버",
+          "keyword": "수원시 팔달구 동양파라곤1단지 관리사무소, 수원시 동양파라곤1단지 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-988-2347",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "동양파라곤1단지 관리사무소, 동양파라곤1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-988-2348",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "동양파라곤1단지 관리사무소, 동양파라곤1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1445-5979",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "수원시 동양파라곤1단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-261-2811",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "동양파라곤1단지 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1449-1104",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "동양파라곤1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1482-0125",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "동양파라곤1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_동양파라곤1"
@@ -35499,17 +36971,215 @@
       "address": "경기 수원시 팔달구 권선로 751\n경기 수원시 팔달구 인계동 1134-11",
       "roadAddress": "경기 수원시 팔달구 권선로 751",
       "jibunAddress": "경기 수원시 팔달구 인계동 1134-11",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-224-7200",
+      "phones": [
+        "031-224-7200",
+        "031-210-1269",
+        "031-210-1266",
+        "07-1479-0547",
+        "010-2562-0982",
+        "02-2097-1158",
+        "031-8002-6040",
+        "016-1280-8201",
+        "031-210-1272",
+        "07-1407-2384",
+        "02-464-8898",
+        "07-1465-2779",
+        "031-210-1273",
+        "02-797-4555"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-224-7200",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "인계동 동양파라곤2단지 관리사무소, 수원시 동양파라곤2단지 관리사무소, 동양파라곤2단지오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-210-1269",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 인계동 1134-11 전화번호, 경기 수원시 팔달구 권선로 751 전화번호, 동양파라곤2단지오피스텔 전화번호, 동양파라곤2단지 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-210-1266",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 인계동 1134-11 관리사무소, 경기 수원시 팔달구 인계동 1134-11 관리실, 경기 수원시 팔달구 인계동 1134-11 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1479-0547",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 권선로 751 관리사무소, 경기 수원시 팔달구 권선로 751 관리실, 경기 수원시 팔달구 권선로 751 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "010-2562-0982",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "수원시 팔달구 동양파라곤2단지 관리사무소, 수원시 동양파라곤2단지 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2097-1158",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 인계동 1134-11 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8002-6040",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 인계동 1134-11 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-1280-8201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 인계동 1134-11 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1272",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 권선로 751 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1407-2384",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 권선로 751 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-464-8898",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "동양파라곤2단지 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1465-2779",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "동양파라곤2단지 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1273",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "동양파라곤2단지 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-797-4555",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "동양파라곤2단지 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_동양파라곤2"
@@ -36141,17 +37811,201 @@
       "address": "경기 수원시 팔달구 권광로196번길 57\n경기 수원시 팔달구 인계동 1116-5",
       "roadAddress": "경기 수원시 팔달구 권광로196번길 57",
       "jibunAddress": "경기 수원시 팔달구 인계동 1116-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-898-5671",
+      "phones": [
+        "031-898-5671",
+        "031-225-1253",
+        "031-225-6651",
+        "031-210-1269",
+        "031-210-1262",
+        "015-5002-7820",
+        "031-212-9176",
+        "031-212-9175",
+        "016-1088-8201",
+        "07-1308-8106",
+        "031-233-8106",
+        "031-225-5995",
+        "031-294-0211"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-898-5671",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 수원시 팔달구 인계동 1116-5 관리사무소, 경기 수원시 팔달구 인계동 1116-5 전화번호, 경기 수원시 팔달구 권광로196번길 57 관리사무소, 경기 수원시 팔달구 권광로196번길 57 전화번호",
+          "sourceCounts": {
+            "114On": 4
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 4
+          },
+          "sourceSummary": "114On 4회"
+        },
+        {
+          "number": "031-225-1253",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 수원시 팔달구 인계동 1116-5 전화번호, 경기 수원시 팔달구 권광로196번길 57 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-225-6651",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "삼환아르누보파크오피스텔 관리사무소, 삼환아르누보파크오피스텔 관리실, 삼환아르누보파크오피스텔 전화번호, 삼환아르누보파크오피스텔 관리단, 삼환아르누보파크 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-210-1269",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 권광로196번길 57 관리사무소, 경기 수원시 팔달구 권광로196번길 57 관리실, 경기 수원시 팔달구 권광로196번길 57 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-210-1262",
+          "score": 87,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 인계동 1116-5 전화번호, 삼환아르누보파크오피스텔 전화번호, 삼환아르누보파크 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "015-5002-7820",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "삼환아르누보파크오피스텔 전화번호, 삼환아르누보파크 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-212-9176",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 권광로196번길 57 전화번호, 삼환아르누보파크 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-212-9175",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 권광로196번길 57 전화번호, 삼환아르누보파크 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "016-1088-8201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 인계동 1116-5 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1308-8106",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 권광로196번길 57 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-233-8106",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 권광로196번길 57 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-225-5995",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "삼환아르누보파크 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-294-0211",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "삼환아르누보파크 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_수원시_삼환아르누보파크"
