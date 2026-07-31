@@ -1,6 +1,6 @@
 {
-  "version": 1783879678,
-  "updatedAt": "2026-07-12 18:07:58",
+  "version": 1785524104,
+  "updatedAt": "2026-07-31 18:55:04",
   "sido": "경기도",
   "sigungu": "안산시",
   "count": 309,
@@ -1860,16 +1860,18 @@
       "jibunAddress": "경기 안산시 상록구 건건동 857-3",
       "phone": "031-365-4674",
       "phones": [
-        "031-365-4674"
+        "031-365-4674",
+        "031-365-4675"
       ],
       "phoneCandidates": [
         {
           "number": "031-365-4674",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안산시 상록구 건건동 857-3 관리사무소, 경기 안산시 상록구 건건동 857-3 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1878,14 +1880,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-365-4675",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 건건동 857-3 관리사무소, 경기 안산시 상록구 건건동 857-3 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "725",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:47:21",
       "detailUpdatedAt": 1781025525881,
       "listUpdatedAt": 1781025525881,
       "phoneStatus": "CONFIRMED",
@@ -3858,16 +3875,24 @@
       "jibunAddress": "경기 안산시 상록구 본오동 871",
       "phone": "031-409-8330",
       "phones": [
-        "031-409-8330"
+        "031-409-8330",
+        "031-409-8331",
+        "031-408-5817",
+        "015-3795-2016",
+        "031-481-5608",
+        "016-2867-2016",
+        "031-481-1192",
+        "031-481-5606"
       ],
       "phoneCandidates": [
         {
           "number": "031-409-8330",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안산시 상록구 본오동 871 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3876,14 +3901,109 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-409-8331",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 안산시 상록구 본오동 871 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-408-5817",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 상록구 본오동 871 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "015-3795-2016",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 871 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-5608",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 871 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-2867-2016",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 871 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-1192",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 871 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-5606",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 871 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2132",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:53:44",
       "detailUpdatedAt": 1781025525881,
       "listUpdatedAt": 1781025525881,
       "phoneStatus": "CONFIRMED",
@@ -5046,16 +5166,18 @@
       "jibunAddress": "경기 안산시 단원구 고잔동 851",
       "phone": "031-414-2992",
       "phones": [
-        "031-414-2992"
+        "031-414-2992",
+        "031-414-2993"
       ],
       "phoneCandidates": [
         {
           "number": "031-414-2992",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안산시 단원구 고잔동 851 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5064,14 +5186,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-414-2993",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 851 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "990",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:47:46",
       "detailUpdatedAt": 1781025525881,
       "listUpdatedAt": 1781025525881,
       "phoneStatus": "CONFIRMED",
@@ -6120,10 +6257,10 @@
       "city": "안산시",
       "sido": "경기도",
       "district": "단원구",
-      "dong": "",
-      "address": "경기도 안산시 단원구 당곡1로 10",
-      "roadAddress": "경기도 안산시 단원구 당곡1로 10",
-      "jibunAddress": "",
+      "dong": "고잔동",
+      "address": "경기 안산시 단원구 당곡1로 9\n경기 안산시 단원구 고잔동 675",
+      "roadAddress": "경기 안산시 단원구 당곡1로 9",
+      "jibunAddress": "경기 안산시 단원구 고잔동 675",
       "phone": "031-482-3798",
       "phones": [
         "031-482-3798"
@@ -6158,7 +6295,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "ROAD_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_중앙주공5"
     },
     {
@@ -6828,16 +6965,27 @@
       "jibunAddress": "경기 안산시 단원구 고잔동 720",
       "phone": "031-439-7071",
       "phones": [
-        "031-439-7071"
+        "031-439-7071",
+        "031-402-3405",
+        "016-1130-4201",
+        "016-1418-1201",
+        "016-5483-7201",
+        "031-481-6604",
+        "017-5146-0201",
+        "031-481-1193",
+        "031-481-6611",
+        "031-481-6607",
+        "031-481-6610"
       ],
       "phoneCandidates": [
         {
           "number": "031-439-7071",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안산시 단원구 고잔동 720 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6846,14 +6994,146 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-402-3405",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 단원구 고잔동 720 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "016-1130-4201",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 720 관리사무소, 경기 안산시 단원구 고잔동 720 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "016-1418-1201",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 720 관리사무소, 경기 안산시 단원구 고잔동 720 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "016-5483-7201",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 720 관리사무소, 경기 안산시 단원구 고잔동 720 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-481-6604",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 720 관리사무소, 경기 안산시 단원구 고잔동 720 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "017-5146-0201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 720 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-1193",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 720 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-6611",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 720 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-6607",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 720 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-6610",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 720 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2073",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:50:02",
       "detailUpdatedAt": 1781025525881,
       "listUpdatedAt": 1781025525881,
       "phoneStatus": "CONFIRMED",
@@ -7044,16 +7324,19 @@
       "jibunAddress": "경기 안산시 단원구 고잔동 853",
       "phone": "031-487-9273",
       "phones": [
-        "031-487-9273"
+        "031-487-9273",
+        "07-1352-0001",
+        "031-487-9274"
       ],
       "phoneCandidates": [
         {
           "number": "031-487-9273",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안산시 단원구 고잔동 853 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7062,14 +7345,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "07-1352-0001",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 853 관리사무소, 경기 안산시 단원구 고잔동 853 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-487-9274",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 853 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1152",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:50:58",
       "detailUpdatedAt": 1781025525881,
       "listUpdatedAt": 1781025525881,
       "phoneStatus": "CONFIRMED",
@@ -7218,17 +7529,47 @@
       "address": "경기 안산시 단원구 적금로 164\n경기 안산시 단원구 고잔동 852",
       "roadAddress": "경기 안산시 단원구 적금로 164",
       "jibunAddress": "경기 안산시 단원구 고잔동 852",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-405-3313",
+      "phones": [
+        "031-405-3313",
+        "031-402-0817"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-405-3313",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 단원구 고잔동 852 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-402-0817",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 단원구 고잔동 852 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_고잔롯데캐슬골드파크정문"
@@ -7718,17 +8059,117 @@
       "address": "경기 안산시 단원구 원고잔로 17\n경기 안산시 단원구 고잔동 520",
       "roadAddress": "경기 안산시 단원구 원고잔로 17",
       "jibunAddress": "경기 안산시 단원구 고잔동 520",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-411-3637",
+      "phones": [
+        "031-411-3637",
+        "010-5934-0728",
+        "07-1433-3508",
+        "07-1373-9118",
+        "07-1378-3385",
+        "031-414-8700",
+        "031-481-1193"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-411-3637",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 원고잔로 17 관리실, 경기 안산시 단원구 원고잔로 17 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "010-5934-0728",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "안산에비뉴큐브시티오피스텔 관리사무소, 안산에비뉴큐브시티오피스텔 관리단",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1433-3508",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 원고잔로 17 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1373-9118",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 원고잔로 17 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1378-3385",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 원고잔로 17 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-414-8700",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 원고잔로 17 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-1193",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 원고잔로 17 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 59,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_안산에비뉴큐브시티"
@@ -7834,17 +8275,306 @@
       "address": "경기 안산시 단원구 당곡2로 30\n경기 안산시 단원구 고잔동 672",
       "roadAddress": "경기 안산시 단원구 당곡2로 30",
       "jibunAddress": "경기 안산시 단원구 고잔동 672",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-480-3590",
+      "phones": [
+        "031-480-3590",
+        "031-852-5716",
+        "031-486-5190",
+        "016-1253-2017",
+        "031-439-6071",
+        "02-481-6171",
+        "015-1512-5201",
+        "02-937-8055",
+        "02-3477-9060",
+        "031-413-0213",
+        "031-401-4949",
+        "063-831-4163",
+        "062-962-9100",
+        "031-481-6607",
+        "031-481-6604",
+        "031-439-6072",
+        "02-934-1800",
+        "02-502-3193",
+        "02-502-4922",
+        "02-934-0147"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-480-3590",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경기 안산시 단원구 고잔동 672 관리사무소, 경기 안산시 단원구 고잔동 672 전화번호, 경기 안산시 단원구 당곡2로 30 관리사무소, 경기 안산시 단원구 당곡2로 30 전화번호, 고잔동 주공9단지 관리사무소, 안산시 주공9단지 관리사무소, 안산시 단원구 주공9단지 관리사무소, 안산시 주공9단지 관리실, 주공9단지아파트",
+          "sourceCounts": {
+            "네이버": 11,
+            "114On": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 8,
+            "네이버 블로그검색": 3,
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회 · 네이버 11회"
+        },
+        {
+          "number": "031-852-5716",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "주공9단지아파트 관리사무소, 주공9단지아파트 전화번호, 주공9단지 전화번호",
+          "sourceCounts": {
+            "114On": 3,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 3회 · 네이버 1회"
+        },
+        {
+          "number": "031-486-5190",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 672 관리사무소, 경기 안산시 단원구 당곡2로 30 관리사무소, 고잔동 주공9단지 관리사무소, 안산시 주공9단지 관리사무소, 안산시 단원구 주공9단지 관리사무소, 안산시 주공9단지 관리실, 주공9단지아파트 관리실, 주공9단지 전화번호",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 8
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "016-1253-2017",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 672 관리사무소, 경기 안산시 단원구 고잔동 672 관리실, 경기 안산시 단원구 고잔동 672 전화번호, 안산시 단원구 주공9단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-439-6071",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "고잔동 주공9단지 관리사무소, 안산시 주공9단지 관리사무소, 안산시 단원구 주공9단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-481-6171",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "주공9단지아파트 관리사무소, 주공9단지아파트 전화번호, 주공9단지 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "015-1512-5201",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 672 관리사무소, 경기 안산시 단원구 고잔동 672 관리실, 경기 안산시 단원구 고잔동 672 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-937-8055",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "주공9단지아파트 관리사무소, 주공9단지 관리사무소, 주공9단지아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-3477-9060",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "주공9단지아파트 관리사무소, 주공9단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-413-0213",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 단원구 고잔동 672 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-401-4949",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 단원구 고잔동 672 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "063-831-4163",
+          "score": 91,
+          "source": "114On",
+          "keyword": "주공9단지아파트 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "062-962-9100",
+          "score": 91,
+          "source": "114On",
+          "keyword": "주공9단지 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-481-6607",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 672 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-6604",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 672 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-439-6072",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안산시 단원구 주공9단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-934-1800",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "주공9단지아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-502-3193",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "주공9단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-502-4922",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "주공9단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-934-0147",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "주공9단지아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_주공9"
@@ -7934,17 +8664,187 @@
       "address": "경기 안산시 단원구 광덕대로 268\n경기 안산시 단원구 고잔동 527-7",
       "roadAddress": "경기 안산시 단원구 광덕대로 268",
       "jibunAddress": "경기 안산시 단원구 고잔동 527-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-635-3111",
+      "phones": [
+        "051-635-3111",
+        "031-278-7921",
+        "053-627-5588",
+        "053-617-4355",
+        "051-728-3336",
+        "031-503-4419",
+        "031-503-4416",
+        "031-816-4900",
+        "055-759-8249",
+        "031-963-3300",
+        "031-963-8800",
+        "023-0800-0503"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-635-3111",
+          "score": 100,
+          "source": "114On",
+          "keyword": "줌시티오피스텔 관리실, 줌시티오피스텔 전화번호, 줌시티 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "031-278-7921",
+          "score": 100,
+          "source": "114On",
+          "keyword": "줌시티 관리사무소, 줌시티 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "053-627-5588",
+          "score": 73,
+          "source": "네이버",
+          "keyword": "줌시티 관리사무소, 줌시티오피스텔 전화번호, 줌시티 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "053-617-4355",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "줌시티오피스텔 관리사무소, 줌시티 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-728-3336",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "줌시티오피스텔 전화번호, 줌시티 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-503-4419",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 광덕대로 268 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-503-4416",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 광덕대로 268 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-816-4900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "줌시티오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-759-8249",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "줌시티오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-963-3300",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "줌시티 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-963-8800",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "줌시티 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "023-0800-0503",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "줌시티 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_줌시티"
@@ -8090,17 +8990,145 @@
       "address": "경기 안산시 단원구 예술대학로1길 7\n경기 안산시 단원구 고잔동 631",
       "roadAddress": "경기 안산시 단원구 예술대학로1길 7",
       "jibunAddress": "경기 안산시 단원구 고잔동 631",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-410-1311",
+      "phones": [
+        "031-410-1311",
+        "031-410-1312",
+        "031-520-2020",
+        "032-212-4004",
+        "031-481-1242",
+        "031-403-3066",
+        "070-7168-1817",
+        "031-413-3419",
+        "031-322-8568"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-410-1311",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 631 관리사무소, 경기 안산시 단원구 고잔동 631 관리실, 경기 안산시 단원구 예술대학로1길 7 관리사무소, 고잔동 한화포레나안산고잔 관리사무소, 안산시 한화포레나안산고잔 관리사무소, 안산시 단원구 한화포레나안산고잔 관리사무소, 한화포레나안산고잔아파트 관리사무소, 한화포레나안산고잔아파트 관리",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 9
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "031-410-1312",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 631 관리사무소, 경기 안산시 단원구 고잔동 631 관리실, 경기 안산시 단원구 예술대학로1길 7 관리사무소, 고잔동 한화포레나안산고잔 관리사무소, 안산시 한화포레나안산고잔 관리사무소, 안산시 단원구 한화포레나안산고잔 관리사무소, 한화포레나안산고잔아파트 관리사무소, 한화포레나안산고잔아파트 관리",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 9
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "031-520-2020",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "고잔동 한화포레나안산고잔 관리사무소, 안산시 한화포레나안산고잔 관리사무소, 안산시 한화포레나안산고잔 관리실, 한화포레나안산고잔아파트 전화번호, 한화포레나안산고잔 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "032-212-4004",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "한화포레나안산고잔 관리사무소, 한화포레나안산고잔아파트 전화번호, 한화포레나안산고잔 관리실, 한화포레나안산고잔 전화번호, 한화포레나안산고잔 관리단",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-481-1242",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 631 관리사무소, 경기 안산시 단원구 고잔동 631 관리실, 경기 안산시 단원구 고잔동 631 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-403-3066",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 단원구 고잔동 631 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "070-7168-1817",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 단원구 고잔동 631 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-413-3419",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 예술대학로1길 7 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-322-8568",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안산시 단원구 한화포레나안산고잔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_한화포레나안산고잔"
@@ -8119,22 +9147,52 @@
       "sido": "경기도",
       "district": "단원구",
       "dong": "고잔동",
-      "address": "경기 안산시 단원구 고잔동 648",
-      "roadAddress": "",
+      "address": "경기 안산시 단원구 예술대학로2길 4\n경기 안산시 단원구 고잔동 648",
+      "roadAddress": "경기 안산시 단원구 예술대학로2길 4",
       "jibunAddress": "경기 안산시 단원구 고잔동 648",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-486-5698",
+      "phones": [
+        "031-486-5698",
+        "031-520-2020"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-486-5698",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 단원구 고잔동 648 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-520-2020",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "한화포레나안산고잔2차아파트 (2026년09월예정) 전화번호, 한화포레나안산고잔2차 (2026년09월예정) 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_한화포레나안산고잔2차2026년09월예정"
     },
     {
@@ -8357,17 +9415,47 @@
       "address": "경기 안산시 단원구 인현중앙길 18\n경기 안산시 단원구 고잔동 665-1",
       "roadAddress": "경기 안산시 단원구 인현중앙길 18",
       "jibunAddress": "경기 안산시 단원구 고잔동 665-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-486-1452",
+      "phones": [
+        "031-486-1452",
+        "031-413-7751"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-486-1452",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 단원구 고잔동 665-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-413-7751",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 단원구 고잔동 665-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_힐스테이트라치엘로예정"
@@ -8389,17 +9477,75 @@
       "address": "경기 안산시 단원구 중앙대로 885\n경기 안산시 단원구 고잔동 537-7",
       "roadAddress": "경기 안산시 단원구 중앙대로 885",
       "jibunAddress": "경기 안산시 단원구 고잔동 537-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1421-0637",
+      "phones": [
+        "07-1421-0637",
+        "031-484-4959",
+        "032-505-0430",
+        "02-578-4250"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1421-0637",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 고잔동 537-7 관리사무소, 경기 안산시 단원구 고잔동 537-7 관리실, 경기 안산시 단원구 고잔동 537-7 전화번호, 경기 안산시 단원구 중앙대로 885 관리사무소, 경기 안산시 단원구 중앙대로 885 관리실, 경기 안산시 단원구 중앙대로 885 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "031-484-4959",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "고잔동 힐스테이트에코안산중앙역 관리사무소, 안산시 단원구 힐스테이트에코안산중앙역 관리사무소, 힐스테이트에코안산중앙역오피스텔 전화번호, 힐스테이트에코안산중앙역 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "032-505-0430",
+          "score": 89,
+          "source": "네이버",
+          "keyword": "고잔동 힐스테이트에코안산중앙역 관리사무소, 안산시 힐스테이트에코안산중앙역 관리사무소, 안산시 단원구 힐스테이트에코안산중앙역 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-578-4250",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "경기 안산시 단원구 중앙대로 885 전화번호, 힐스테이트에코안산중앙역오피스텔 전화번호, 힐스테이트에코안산중앙역 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_힐스테이트에코안산중앙역"
@@ -8783,17 +9929,61 @@
       "address": "경기 안산시 상록구 각골로1안길 18\n경기 안산시 상록구 본오동 772-2",
       "roadAddress": "경기 안산시 상록구 각골로1안길 18",
       "jibunAddress": "경기 안산시 상록구 본오동 772-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-416-3989",
+      "phones": [
+        "031-416-3989",
+        "031-484-4959",
+        "05-365-2424"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-416-3989",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "본오동 금목센트레빌 관리사무소, 안산시 금목센트레빌 관리사무소, 안산시 상록구 금목센트레빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-484-4959",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "안산시 금목센트레빌 관리사무소, 안산시 상록구 금목센트레빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "05-365-2424",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "금목센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 71,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_금목센트레빌"
@@ -8905,17 +10095,302 @@
       "address": "경기 안산시 상록구 샘골로4길 3\n경기 안산시 상록구 본오동 674-11",
       "roadAddress": "경기 안산시 상록구 샘골로4길 3",
       "jibunAddress": "경기 안산시 상록구 본오동 674-11",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-487-9664",
+      "phones": [
+        "031-487-9664",
+        "031-507-7976",
+        "031-480-4988",
+        "051-868-2925",
+        "02-3477-0042",
+        "023-477-0042",
+        "043-234-5225",
+        "031-8003-6036",
+        "051-271-6001",
+        "032-561-4506",
+        "02-3426-3385",
+        "023-426-3385",
+        "031-375-5927",
+        "031-795-0275",
+        "053-527-1421",
+        "031-484-8364",
+        "031-475-0555",
+        "031-439-6069",
+        "031-487-9662",
+        "031-403-8004"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-487-9664",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "안산시 롯데캐슬 관리사무소, existing",
+          "sourceCounts": {
+            "네이버": 2,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-507-7976",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "본오동 롯데캐슬 관리사무소, 안산시 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-480-4988",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "본오동 롯데캐슬 관리사무소, 안산시 상록구 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-868-2925",
+          "score": 91,
+          "source": "114On",
+          "keyword": "본오동 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3477-0042",
+          "score": 91,
+          "source": "114On",
+          "keyword": "본오동 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-477-0042",
+          "score": 91,
+          "source": "114On",
+          "keyword": "본오동 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "043-234-5225",
+          "score": 91,
+          "source": "114On",
+          "keyword": "안산시 상록구 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-8003-6036",
+          "score": 91,
+          "source": "114On",
+          "keyword": "롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-271-6001",
+          "score": 91,
+          "source": "114On",
+          "keyword": "롯데캐슬 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-561-4506",
+          "score": 91,
+          "source": "114On",
+          "keyword": "롯데캐슬 관리단",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3426-3385",
+          "score": 91,
+          "source": "114On",
+          "keyword": "롯데캐슬 관리단",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-426-3385",
+          "score": 91,
+          "source": "114On",
+          "keyword": "롯데캐슬 관리단",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-375-5927",
+          "score": 91,
+          "source": "114On",
+          "keyword": "롯데캐슬 관리단",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-795-0275",
+          "score": 91,
+          "source": "114On",
+          "keyword": "롯데캐슬 관리단",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "053-527-1421",
+          "score": 91,
+          "source": "114On",
+          "keyword": "롯데캐슬 관리단",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-484-8364",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "본오동 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-475-0555",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "본오동 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-439-6069",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "본오동 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-487-9662",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안산시 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-403-8004",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안산시 롯데캐슬 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_롯데캐슬"
@@ -8969,17 +10444,35 @@
       "address": "경기 안산시 상록구 반석로3길 10\n경기 안산시 상록구 본오동 754",
       "roadAddress": "경기 안산시 상록구 반석로3길 10",
       "jibunAddress": "경기 안산시 상록구 본오동 754",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-418-2377",
+      "phones": [
+        "031-418-2377"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-418-2377",
+          "score": 100,
+          "source": "114On, 카카오",
+          "keyword": "묵산풍경채 전화번호, existing",
+          "sourceCounts": {
+            "114On": 1,
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "카카오 장소검색": 3
+          },
+          "sourceSummary": "114On 1회 · 카카오 3회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_묵산풍경채"
@@ -9097,17 +10590,33 @@
       "address": "경기 안산시 상록구 각골서로2안길 20-2\n경기 안산시 상록구 본오동 825-6",
       "roadAddress": "경기 안산시 상록구 각골서로2안길 20-2",
       "jibunAddress": "경기 안산시 상록구 본오동 825-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-481-1196",
+      "phones": [
+        "031-481-1196"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-481-1196",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "본오센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_본오센트레빌"
@@ -9129,17 +10638,176 @@
       "address": "경기 안산시 상록구 이호로5길 9\n경기 안산시 상록구 본오동 948-9",
       "roadAddress": "경기 안산시 상록구 이호로5길 9",
       "jibunAddress": "경기 안산시 상록구 본오동 948-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-222-6190",
+      "phones": [
+        "031-222-6190",
+        "031-945-7167",
+        "031-945-7168",
+        "031-223-2482",
+        "07-1461-8343",
+        "06-800-0141",
+        "020-160-0041",
+        "07-1362-4997",
+        "062-682-5204",
+        "062-381-3417",
+        "07-1478-5598"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-222-6190",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "안산시 비발디파크 관리사무소, 안산시 상록구 비발디파크 관리사무소, 비발디파크오피스텔 관리단, 비발디파크 관리단",
+          "sourceCounts": {
+            "114On": 3,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 3회 · 네이버 1회"
+        },
+        {
+          "number": "031-945-7167",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "안산시 비발디파크 관리사무소, 안산시 상록구 비발디파크 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-945-7168",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "안산시 비발디파크 관리사무소, 안산시 상록구 비발디파크 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-223-2482",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "비발디파크오피스텔 관리사무소, 비발디파크오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1461-8343",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "비발디파크오피스텔 전화번호, 비발디파크 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "06-800-0141",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "비발디파크오피스텔 관리단, 비발디파크 관리단",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "020-160-0041",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "비발디파크 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1362-4997",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "비발디파크오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "062-682-5204",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "비발디파크오피스텔 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "062-381-3417",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "비발디파크오피스텔 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1478-5598",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "비발디파크 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_비발디파크"
@@ -9161,17 +10829,271 @@
       "address": "경기 안산시 상록구 본원로5안길 32\n경기 안산시 상록구 본오동 832",
       "roadAddress": "경기 안산시 상록구 본원로5안길 32",
       "jibunAddress": "경기 안산시 상록구 본오동 832",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "010-9006-8824",
+      "phones": [
+        "010-9006-8824",
+        "031-528-2511",
+        "031-439-7071",
+        "031-482-0400",
+        "041-358-9890",
+        "041-357-1731",
+        "041-358-9893",
+        "05-074-8518",
+        "080-890-7777",
+        "02-982-0193",
+        "053-657-1660",
+        "053-313-6003",
+        "031-997-0122",
+        "032-874-4300",
+        "07-1387-1485",
+        "055-635-0101",
+        "070-7551-2951",
+        "031-574-2951"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-9006-8824",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 상록구 본오동 832 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-528-2511",
+          "score": 91,
+          "source": "114On",
+          "keyword": "안산시 상록구 센트레빌 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-439-7071",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안산시 센트레빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-482-0400",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안산시 센트레빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "041-358-9890",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "041-357-1731",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "041-358-9893",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "05-074-8518",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "080-890-7777",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-982-0193",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-657-1660",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-313-6003",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-997-0122",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-874-4300",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1387-1485",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-635-0101",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-7551-2951",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-574-2951",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "센트레빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_센트레빌"
@@ -9225,17 +11147,202 @@
       "address": "경기 안산시 상록구 본삼로 8\n경기 안산시 상록구 본오동 879",
       "roadAddress": "경기 안산시 상록구 본삼로 8",
       "jibunAddress": "경기 안산시 상록구 본오동 879",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-501-4006",
+      "phones": [
+        "031-501-4006",
+        "031-418-6647",
+        "031-506-6647",
+        "031-481-1194",
+        "014-2450-4201",
+        "031-481-5606",
+        "031-481-1195",
+        "031-476-0057",
+        "010-9004-3139",
+        "031-501-4007",
+        "031-408-4427",
+        "031-481-5603",
+        "031-487-5743"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-501-4006",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 안산시 상록구 본삼로 8 전화번호, 안산본오주공 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-418-6647",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 879 관리사무소, 경기 안산시 상록구 본오동 879 관리실, 경기 안산시 상록구 본삼로 8 관리사무소, 본오동 안산본오주공 관리사무소, 안산시 안산본오주공 관리사무소, 안산시 상록구 안산본오주공 관리사무소, 안산시 안산본오주공 관리실, 안산본오주공아파트 관리사무소, 안산본오주공아파트 관리실",
+          "sourceCounts": {
+            "네이버": 15
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 11,
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 15회"
+        },
+        {
+          "number": "031-506-6647",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 879 관리사무소, 경기 안산시 상록구 본삼로 8 관리사무소, 본오동 안산본오주공 관리사무소, 안산시 안산본오주공 관리사무소, 안산시 상록구 안산본오주공 관리사무소, 안산시 안산본오주공 관리실, 안산본오주공아파트 관리사무소, 안산본오주공아파트 관리실",
+          "sourceCounts": {
+            "네이버": 10
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10
+          },
+          "sourceSummary": "네이버 10회"
+        },
+        {
+          "number": "031-481-1194",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 879 관리사무소, 경기 안산시 상록구 본오동 879 관리실, 경기 안산시 상록구 본오동 879 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "014-2450-4201",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 879 관리사무소, 경기 안산시 상록구 본오동 879 관리실, 경기 안산시 상록구 본오동 879 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-481-5606",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 879 관리사무소, 경기 안산시 상록구 본오동 879 관리실, 안산본오주공아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-481-1195",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 879 관리사무소, 경기 안산시 상록구 본오동 879 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-476-0057",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 879 관리실, 경기 안산시 상록구 본오동 879 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "010-9004-3139",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 상록구 본오동 879 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-501-4007",
+          "score": 91,
+          "source": "114On",
+          "keyword": "안산본오주공 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-408-4427",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 879 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-5603",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 879 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-487-5743",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안산본오주공아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_안산본오주공"
@@ -9257,17 +11364,103 @@
       "address": "경기 안산시 상록구 이호로4길 14\n경기 안산시 상록구 본오동 948-1",
       "roadAddress": "경기 안산시 상록구 이호로4길 14",
       "jibunAddress": "경기 안산시 상록구 본오동 948-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-406-9164",
+      "phones": [
+        "031-406-9164",
+        "031-481-1193",
+        "051-924-7070",
+        "051-746-7466",
+        "050-7134-7999",
+        "070-8600-1130"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-406-9164",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 상록구 본오동 948-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-481-1193",
+          "score": 83,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 본오동 948-1 관리사무소, 경기 안산시 상록구 본오동 948-1 관리실, 경기 안산시 상록구 본오동 948-1 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "051-924-7070",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘씨엘로 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-746-7466",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘씨엘로 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "050-7134-7999",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘씨엘로 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-8600-1130",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘씨엘로 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_엘씨엘로"
@@ -9289,17 +11482,173 @@
       "address": "경기 안산시 상록구 상록수로 16\n경기 안산시 상록구 본오동 877-5",
       "roadAddress": "경기 안산시 상록구 상록수로 16",
       "jibunAddress": "경기 안산시 상록구 본오동 877-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-406-5679",
+      "phones": [
+        "031-406-5679",
+        "031-417-2204",
+        "07-1383-5679",
+        "031-407-0900",
+        "07-1327-5017",
+        "031-409-5505",
+        "031-508-3636",
+        "031-408-8982",
+        "031-501-4949",
+        "031-419-3112",
+        "031-501-1510"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-406-5679",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "안산시 우남센스빌 관리사무소, 안산시 상록구 우남센스빌 관리사무소, 안산시 우남센스빌 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-417-2204",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안산시 상록구 본오동 877-5 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1383-5679",
+          "score": 87,
+          "source": "네이버",
+          "keyword": "본오동 우남센스빌 관리사무소, 안산시 우남센스빌 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-407-0900",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "우남센스빌오피스텔 전화번호, 우남센스빌 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1327-5017",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안산시 상록구 상록수로 16 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-409-5505",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "우남센스빌오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-508-3636",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "우남센스빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-408-8982",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "우남센스빌오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-501-4949",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "우남센스빌오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-419-3112",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "우남센스빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-501-1510",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "우남센스빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_우남센스빌"

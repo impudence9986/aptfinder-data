@@ -1,6 +1,6 @@
 {
-  "version": 1785437009,
-  "updatedAt": "2026-07-30 18:43:29",
+  "version": 1785523158,
+  "updatedAt": "2026-07-31 18:39:18",
   "sido": "경기도",
   "sigungu": "성남시",
   "count": 550,
@@ -473,16 +473,18 @@
       "jibunAddress": "경기 성남시 수정구 태평동 7343",
       "phone": "031-757-1010",
       "phones": [
-        "031-757-1010"
+        "031-757-1010",
+        "031-623-5091"
       ],
       "phoneCandidates": [
         {
           "number": "031-757-1010",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 성남시 수정구 태평동 7343 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -491,14 +493,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-623-5091",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 태평동 7343 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "248",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:37:57",
       "detailUpdatedAt": 1781023275296,
       "listUpdatedAt": 1781023275296,
       "phoneStatus": "CONFIRMED",
@@ -11713,16 +11730,18 @@
       "jibunAddress": "경기 성남시 수정구 창곡동 531",
       "phone": "031-722-2717",
       "phones": [
-        "031-722-2717"
+        "031-722-2717",
+        "031-722-2719"
       ],
       "phoneCandidates": [
         {
           "number": "031-722-2717",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 성남시 수정구 창곡동 531 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11731,14 +11750,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-722-2719",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 창곡동 531 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "517",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:37:00",
       "detailUpdatedAt": 1781023275296,
       "listUpdatedAt": 1781023275296,
       "phoneStatus": "CONFIRMED",
@@ -19565,8 +19599,9 @@
       "phone": "031-736-0600",
       "phones": [
         "031-736-0600",
-        "031-734-0972",
         "031-747-7001",
+        "031-732-5500",
+        "031-734-0972",
         "031-736-0400",
         "031-8003-6036",
         "051-271-6001",
@@ -19582,23 +19617,54 @@
         "031-734-5666",
         "052-211-3004",
         "031-734-3004",
-        "031-977-2256",
-        "02-989-8490"
+        "031-977-2256"
       ],
       "phoneCandidates": [
         {
           "number": "031-736-0600",
           "score": 100,
-          "source": "네이버",
-          "keyword": "금광동 롯데캐슬 관리사무소, 성남시 롯데캐슬 관리사무소, 성남시 중원구 롯데캐슬 관리사무소",
+          "source": "네이버, 카카오, 네이버부동산",
+          "keyword": "금광동 롯데캐슬 관리사무소, 성남시 롯데캐슬 관리사무소, 성남시 중원구 롯데캐슬 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "네이버": 5
+            "네이버": 5,
+            "카카오": 1,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "네이버 블로그검색": 3,
-            "네이버 웹검색": 2
+            "네이버 웹검색": 2,
+            "카카오 장소검색": 1,
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 5회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 1회 · 네이버 5회"
+        },
+        {
+          "number": "031-747-7001",
+          "score": 100,
+          "source": "네이버, 네이버부동산",
+          "keyword": "성남시 롯데캐슬 관리사무소, 성남시 중원구 롯데캐슬 관리사무소, naver_land_management",
+          "sourceCounts": {
+            "네이버": 2,
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-732-5500",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         },
         {
           "number": "031-734-0972",
@@ -19612,19 +19678,6 @@
             "네이버 블로그검색": 3
           },
           "sourceSummary": "네이버 3회"
-        },
-        {
-          "number": "031-747-7001",
-          "score": 100,
-          "source": "네이버",
-          "keyword": "성남시 롯데캐슬 관리사무소, 성남시 중원구 롯데캐슬 관리사무소",
-          "sourceCounts": {
-            "네이버": 2
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 2
-          },
-          "sourceSummary": "네이버 2회"
         },
         {
           "number": "031-736-0400",
@@ -19831,19 +19884,6 @@
           },
           "sourceDetails": {
             "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "02-989-8490",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "롯데캐슬 관리사무소",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
           },
           "sourceSummary": "네이버 1회"
         }
@@ -30797,17 +30837,61 @@
       "address": "경기 성남시 분당구 느티로 70\n경기 성남시 분당구 정자동 88",
       "roadAddress": "경기 성남시 분당구 느티로 70",
       "jibunAddress": "경기 성남시 분당구 정자동 88",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-712-9900",
+      "phones": [
+        "031-712-9900",
+        "031-712-4042",
+        "031-711-2330"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-712-9900",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 성남시 분당구 정자동 88 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-712-4042",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 성남시 분당구 느티로 70 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-711-2330",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 성남시 분당구 느티로 70 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_샵분당티에르원2027년10월예정"
@@ -30829,17 +30913,61 @@
       "address": "경기 성남시 분당구 돌마로 171\n경기 성남시 분당구 정자동 215",
       "roadAddress": "경기 성남시 분당구 돌마로 171",
       "jibunAddress": "경기 성남시 분당구 정자동 215",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-716-6657",
+      "phones": [
+        "031-716-6657",
+        "031-715-6656",
+        "031-8022-5100"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-716-6657",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-715-6656",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-8022-5100",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_샵분당파크리버"
@@ -30861,17 +30989,61 @@
       "address": "경기 성남시 분당구 정자일로 239\n경기 성남시 분당구 정자동 9",
       "roadAddress": "경기 성남시 분당구 정자일로 239",
       "jibunAddress": "경기 성남시 분당구 정자동 9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-785-1903",
+      "phones": [
+        "031-785-1903",
+        "031-785-1900",
+        "031-202-4701"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-785-1903",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-785-1900",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-202-4701",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_아이파크분당1"
@@ -30893,17 +31065,61 @@
       "address": "경기 성남시 분당구 정자일로213번길 19\n경기 성남시 분당구 정자동 10-1",
       "roadAddress": "경기 성남시 분당구 정자일로213번길 19",
       "jibunAddress": "경기 성남시 분당구 정자동 10-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-785-1903",
+      "phones": [
+        "031-785-1903",
+        "031-785-1900",
+        "031-925-9042"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-785-1903",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-785-1900",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-925-9042",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_아이파크분당2"
@@ -30977,17 +31193,61 @@
       "address": "경기 성남시 분당구 정자일로232번길 25\n경기 성남시 분당구 정자동 15-4",
       "roadAddress": "경기 성남시 분당구 정자일로232번길 25",
       "jibunAddress": "경기 성남시 분당구 정자동 15-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-719-1456",
+      "phones": [
+        "031-719-1456",
+        "031-719-1457",
+        "031-284-2993"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-719-1456",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-719-1457",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-284-2993",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_위브제니스"
@@ -31205,17 +31465,61 @@
       "address": "경기 성남시 분당구 느티로 2\n경기 성남시 분당구 정자동 16-1",
       "roadAddress": "경기 성남시 분당구 느티로 2",
       "jibunAddress": "경기 성남시 분당구 정자동 16-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-719-4455",
+      "phones": [
+        "031-719-4455",
+        "031-717-6500",
+        "031-713-5000"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-719-4455",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-717-6500",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-713-5000",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_정자역ak와이즈플레이스"
@@ -31237,17 +31541,33 @@
       "address": "경기 성남시 분당구 정자일로 146\n경기 성남시 분당구 정자동 165-1",
       "roadAddress": "경기 성남시 분당구 정자일로 146",
       "jibunAddress": "경기 성남시 분당구 정자동 165-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-717-7114",
+      "phones": [
+        "031-717-7114"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-717-7114",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_정자역엠코헤리츠1234"
@@ -31512,17 +31832,61 @@
       "address": "경기 성남시 분당구 정자로 115\n경기 성남시 분당구 정자동 112",
       "roadAddress": "경기 성남시 분당구 정자로 115",
       "jibunAddress": "경기 성남시 분당구 정자동 112",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-716-1787",
+      "phones": [
+        "031-716-1787",
+        "031-715-3174",
+        "031-714-2717"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-716-1787",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-715-3174",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-714-2717",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_한솔마을5주공"
@@ -31576,17 +31940,61 @@
       "address": "경기 성남시 중원구 시민로66번길 21\n경기 성남시 중원구 중앙동 578",
       "roadAddress": "경기 성남시 중원구 시민로66번길 21",
       "jibunAddress": "경기 성남시 중원구 중앙동 578",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-734-5666",
+      "phones": [
+        "031-734-5666",
+        "031-734-5668",
+        "031-731-8045"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-734-5666",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-734-5668",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-731-8045",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_중앙힐스테이트1차"
@@ -31662,17 +32070,33 @@
       "address": "경기 성남시 중원구 중앙동 912",
       "roadAddress": "",
       "jibunAddress": "경기 성남시 중원구 중앙동 912",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-223-1120",
+      "phones": [
+        "031-223-1120"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-223-1120",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_성남시_해링턴스퀘어신흥역2027년12월예정"
@@ -31694,17 +32118,89 @@
       "address": "경기 성남시 수정구 위례광장로 5\n경기 성남시 수정구 창곡동 560",
       "roadAddress": "경기 성남시 수정구 위례광장로 5",
       "jibunAddress": "경기 성남시 수정구 창곡동 560",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-408-3355",
+      "phones": [
+        "02-408-3355",
+        "02-477-4800",
+        "031-707-3900",
+        "031-737-1322",
+        "031-759-8592"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-408-3355",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "창곡동 남위례역아이파크 관리사무소, 성남시 남위례역아이파크 관리사무소, 성남시 수정구 남위례역아이파크 관리사무소, 남위례역아이파크오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-477-4800",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "남위례역아이파크오피스텔 전화번호, 남위례역아이파크 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-707-3900",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "남위례역아이파크 전화번호, 남위례역아이파크 관리단",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-737-1322",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 창곡동 560 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-759-8592",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 남위례역아이파크 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_남위례역아이파크"
@@ -31726,17 +32222,117 @@
       "address": "경기 성남시 수정구 위례광장로 9-9\n경기 성남시 수정구 창곡동 560-1",
       "roadAddress": "경기 성남시 수정구 위례광장로 9-9",
       "jibunAddress": "경기 성남시 수정구 창곡동 560-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-758-1501",
+      "phones": [
+        "031-758-1501",
+        "031-723-7488",
+        "070-8821-2119",
+        "04-084-7611",
+        "031-737-1322",
+        "031-753-3399",
+        "031-706-2244"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-758-1501",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "창곡동 남위례역푸르지오시티 관리사무소, 성남시 남위례역푸르지오시티 관리사무소, 성남시 남위례역푸르지오시티 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-723-7488",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례광장로 9-9 관리실, 경기 성남시 수정구 위례광장로 9-9 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "070-8821-2119",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 창곡동 560-1 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "04-084-7611",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 창곡동 560-1 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-737-1322",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 창곡동 560-1 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-753-3399",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례광장로 9-9 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-706-2244",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 수정구 남위례역푸르지오시티 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 67,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_남위례역푸르지오시티"
@@ -31917,17 +32513,275 @@
       "address": "경기 성남시 수정구 위례광장로 311\n경기 성남시 수정구 창곡동 510",
       "roadAddress": "경기 성남시 수정구 위례광장로 311",
       "jibunAddress": "경기 성남시 수정구 창곡동 510",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-752-0246",
+      "phones": [
+        "031-752-0246",
+        "031-759-8334",
+        "031-759-8336",
+        "07-1337-7412",
+        "031-745-9796",
+        "031-778-3142",
+        "031-759-9005",
+        "031-759-1328",
+        "031-753-0905",
+        "031-602-0907",
+        "031-739-3112",
+        "031-758-7354",
+        "070-4577-8876",
+        "07-1418-2088",
+        "031-721-4651",
+        "031-755-8600",
+        "031-759-7065",
+        "02-449-8677"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-752-0246",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 성남시 수정구 위례광장로 311 전화번호, 위례35단지 전화번호",
+          "sourceCounts": {
+            "114On": 2,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "031-759-8334",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 창곡동 510 관리사무소, 경기 성남시 수정구 위례광장로 311 관리사무소, 창곡동 위례35단지 관리사무소, 성남시 위례35단지 관리사무소, 성남시 수정구 위례35단지 관리사무소, 성남시 위례35단지 관리실, 위례35단지아파트 관리사무소, 위례35단지아파트 관리실",
+          "sourceCounts": {
+            "네이버": 12
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10,
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 12회"
+        },
+        {
+          "number": "031-759-8336",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 창곡동 510 관리사무소, 경기 성남시 수정구 위례광장로 311 관리사무소, 성남시 수정구 위례35단지 관리사무소, 위례35단지아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "07-1337-7412",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례광장로 311 관리실, 경기 성남시 수정구 위례광장로 311 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-745-9796",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 성남시 수정구 위례광장로 311 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-778-3142",
+          "score": 75,
+          "source": "네이버",
+          "keyword": "위례35단지아파트 전화번호, 위례35단지 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-759-9005",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "위례35단지아파트 관리실, 위례35단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-759-1328",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "위례35단지아파트 전화번호, 위례35단지 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-753-0905",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례광장로 311 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-602-0907",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례광장로 311 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-739-3112",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례광장로 311 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-758-7354",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례광장로 311 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-4577-8876",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례광장로 311 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1418-2088",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 위례35단지 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-721-4651",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례35단지아파트 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-755-8600",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례35단지아파트 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-759-7065",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례35단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-449-8677",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례35단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_위례35"
@@ -31949,17 +32803,131 @@
       "address": "경기 성남시 수정구 위례광장로 21-9\n경기 성남시 수정구 창곡동 562-1",
       "roadAddress": "경기 성남시 수정구 위례광장로 21-9",
       "jibunAddress": "경기 성남시 수정구 창곡동 562-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-757-4005",
+      "phones": [
+        "031-757-4005",
+        "031-756-0665",
+        "032-322-4344",
+        "02-2135-1755",
+        "031-739-3190",
+        "031-718-6696",
+        "070-4048-6421",
+        "031-719-6696"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-757-4005",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "창곡동 위례KCC웰츠타워 관리사무소, 성남시 위례KCC웰츠타워 관리사무소, 성남시 수정구 위례KCC웰츠타워 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-756-0665",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 위례KCC웰츠타워 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-322-4344",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례KCC웰츠타워오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2135-1755",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례KCC웰츠타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-739-3190",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례KCC웰츠타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-718-6696",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례KCC웰츠타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-4048-6421",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례KCC웰츠타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-719-6696",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례KCC웰츠타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_위례kcc웰츠타워"
@@ -31981,17 +32949,103 @@
       "address": "경기 성남시 수정구 위례서로 34\n경기 성남시 수정구 창곡동 536",
       "roadAddress": "경기 성남시 수정구 위례서로 34",
       "jibunAddress": "경기 성남시 수정구 창곡동 536",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-404-6100",
+      "phones": [
+        "02-404-6100",
+        "031-758-8239",
+        "031-759-9386",
+        "031-757-4005",
+        "07-1324-6634",
+        "031-722-0955"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-404-6100",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 성남시 수정구 창곡동 536 전화번호, 경기 성남시 수정구 위례서로 34 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-758-8239",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 성남시 수정구 위례서로 34 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-759-9386",
+          "score": 75,
+          "source": "네이버",
+          "keyword": "창곡동 위례리버스토리 관리사무소, 성남시 위례리버스토리 관리사무소, 위례리버스토리오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-757-4005",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "성남시 위례리버스토리 관리사무소, 성남시 수정구 위례리버스토리 관리사무소, 위례리버스토리오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1324-6634",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례서로 34 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-722-0955",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례리버스토리 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_위례리버스토리"
@@ -32367,17 +33421,103 @@
       "address": "경기 성남시 수정구 위례서일로 30\n경기 성남시 수정구 창곡동 559-7",
       "roadAddress": "경기 성남시 수정구 위례서일로 30",
       "jibunAddress": "경기 성남시 수정구 창곡동 559-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-751-1816",
+      "phones": [
+        "031-751-1816",
+        "031-722-6380",
+        "02-508-1616",
+        "031-757-4005",
+        "031-606-8659",
+        "07-1490-1599"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-751-1816",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 성남시 수정구 창곡동 559-7 전화번호, 경기 성남시 수정구 위례서일로 30 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-722-6380",
+          "score": 98,
+          "source": "네이버",
+          "keyword": "창곡동 위례헤리움 관리사무소, 성남시 위례헤리움 관리사무소, 위례헤리움오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-508-1616",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "창곡동 위례헤리움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-757-4005",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 위례헤리움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-606-8659",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례헤리움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1490-1599",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례헤리움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_위례헤리움"
@@ -32399,17 +33539,244 @@
       "address": "경기 성남시 수정구 위례중앙로 216\n경기 성남시 수정구 창곡동 236-1",
       "roadAddress": "경기 성남시 수정구 위례중앙로 216",
       "jibunAddress": "경기 성남시 수정구 창곡동 236-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-752-1137",
+      "phones": [
+        "031-752-1137",
+        "031-752-1138",
+        "070-4760-7600",
+        "02-448-2800",
+        "02-456-7999",
+        "031-707-2464",
+        "031-759-9250",
+        "031-759-7730",
+        "031-729-5956",
+        "031-751-9343",
+        "031-5171-0600",
+        "031-8038-1954",
+        "031-759-7065",
+        "031-759-9005",
+        "02-449-8677",
+        "02-431-8300"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-752-1137",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례중앙로 216 관리사무소, 창곡동 위례호반베르디움 관리사무소, 성남시 위례호반베르디움 관리사무소, 성남시 수정구 위례호반베르디움 관리사무소, 위례호반베르디움아파트 관리사무소 관리실, 성남시 위례호반베르디움 관리실, 위례호반베르디움아파트 관리사무소 전화번호, 위례호반베르디움아파트 관리사무소 관리사무소",
+          "sourceCounts": {
+            "네이버": 14
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 8,
+            "네이버 블로그검색": 6
+          },
+          "sourceSummary": "네이버 14회"
+        },
+        {
+          "number": "031-752-1138",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 성남시 수정구 위례중앙로 216 관리사무소, 창곡동 위례호반베르디움 관리사무소, 성남시 위례호반베르디움 관리사무소, 성남시 수정구 위례호반베르디움 관리사무소, 위례호반베르디움아파트 관리사무소 관리실, 위례호반베르디움아파트 관리사무소 전화번호, 위례호반베르디움아파트 관리사무소 관리사무소",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 8
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "070-4760-7600",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "성남시 위례호반베르디움 관리사무소, 위례호반베르디움아파트 관리사무소 관리실, 위례호반베르디움아파트 관리사무소 관리단",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-448-2800",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "창곡동 위례호반베르디움 관리사무소, 성남시 위례호반베르디움 관리사무소, 성남시 수정구 위례호반베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-456-7999",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "성남시 위례호반베르디움 관리사무소, 성남시 수정구 위례호반베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-707-2464",
+          "score": 91,
+          "source": "114On",
+          "keyword": "위례호반베르디움 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-759-9250",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "성남시 위례호반베르디움 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-759-7730",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "성남시 위례호반베르디움 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-729-5956",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 수정구 위례호반베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-751-9343",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 수정구 위례호반베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-5171-0600",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 수정구 위례호반베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8038-1954",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 수정구 위례호반베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-759-7065",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 위례호반베르디움 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-759-9005",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 위례호반베르디움 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-449-8677",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례호반베르디움 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-431-8300",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위례호반베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_위례호반베르디움"
@@ -33229,17 +34596,91 @@
       "address": "경기 성남시 분당구 서판교로 73\n경기 성남시 분당구 판교동 552",
       "roadAddress": "경기 성남시 분당구 서판교로 73",
       "jibunAddress": "경기 성남시 분당구 판교동 552",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-703-7269",
+      "phones": [
+        "031-703-7269",
+        "031-8016-0240",
+        "031-8016-0241",
+        "031-8016-6114",
+        "031-8016-0700"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-703-7269",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 성남시 분당구 판교동 552 전화번호, 경기 성남시 분당구 서판교로 73 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-8016-0240",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 성남시 분당구 판교동 552 관리사무소, 경기 성남시 분당구 서판교로 73 관리사무소, 경기 성남시 분당구 서판교로 73 전화번호, 판교동 판교원마을10단지힐스테이트 관리사무소, 성남시 판교원마을10단지힐스테이트 관리사무소, 성남시 분당구 판교원마을10단지힐스테이트 관리사무소",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "031-8016-0241",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 성남시 분당구 판교동 552 관리사무소, 경기 성남시 분당구 서판교로 73 관리사무소, 경기 성남시 분당구 서판교로 73 전화번호, 판교동 판교원마을10단지힐스테이트 관리사무소, 성남시 판교원마을10단지힐스테이트 관리사무소, 성남시 분당구 판교원마을10단지힐스테이트 관리사무소",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "031-8016-6114",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 성남시 분당구 판교동 552 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-8016-0700",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "판교동 판교원마을10단지힐스테이트 관리사무소, 성남시 분당구 판교원마을10단지힐스테이트 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_판교원마을10힐스테이트"
@@ -33329,17 +34770,131 @@
       "address": "경기 성남시 분당구 서판교로 165\n경기 성남시 분당구 판교동 494",
       "roadAddress": "경기 성남시 분당구 서판교로 165",
       "jibunAddress": "경기 성남시 분당구 판교동 494",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8016-3333",
+      "phones": [
+        "031-8016-3333",
+        "031-8016-0322",
+        "031-8016-0323",
+        "031-8016-9660",
+        "031-705-0159",
+        "031-263-4494",
+        "031-737-1324",
+        "031-737-1321"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8016-3333",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 성남시 분당구 판교동 494 전화번호, 경기 성남시 분당구 서판교로 165 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-8016-0322",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 성남시 분당구 판교동 494 관리사무소, 경기 성남시 분당구 서판교로 165 관리사무소, 경기 성남시 분당구 서판교로 165 관리실, 판교원마을12단지힐스테이트아파트 관리사무소, 판교원마을12단지힐스테이트아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-8016-0323",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 성남시 분당구 판교동 494 관리사무소, 경기 성남시 분당구 서판교로 165 관리사무소, 경기 성남시 분당구 서판교로 165 관리실, 판교원마을12단지힐스테이트아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-8016-9660",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 성남시 분당구 판교동 494 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-705-0159",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "판교원마을12단지힐스테이트아파트 전화번호, 판교원마을12단지힐스테이트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-263-4494",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "판교원마을12단지힐스테이트아파트 전화번호, 판교원마을12단지힐스테이트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-737-1324",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 분당구 판교동 494 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-737-1321",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 분당구 서판교로 165 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_판교원마을12힐스테이트"
@@ -33413,17 +34968,175 @@
       "address": "경기 성남시 분당구 서판교로 29\n경기 성남시 분당구 판교동 585",
       "roadAddress": "경기 성남시 분당구 서판교로 29",
       "jibunAddress": "경기 성남시 분당구 판교동 585",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8016-7800",
+      "phones": [
+        "031-8016-7800",
+        "031-8016-8900",
+        "031-737-1325",
+        "031-8016-7802",
+        "031-729-7890",
+        "031-778-7644",
+        "003-9004-9005",
+        "031-708-8677",
+        "031-737-1323",
+        "031-737-1327",
+        "031-8016-7776"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8016-7800",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 성남시 분당구 판교동 585 관리사무소, 경기 성남시 분당구 판교동 585 전화번호, 경기 성남시 분당구 서판교로 29 관리사무소, 경기 성남시 분당구 서판교로 29 전화번호, 성남시 판교원마을9단지한림풀에버 관리사무소, 성남시 분당구 판교원마을9단지한림풀에버 관리사무소",
+          "sourceCounts": {
+            "114On": 4,
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 4,
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "114On 4회 · 네이버 3회"
+        },
+        {
+          "number": "031-8016-8900",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 성남시 분당구 판교동 585 전화번호, 경기 성남시 분당구 서판교로 29 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-737-1325",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 성남시 분당구 판교동 585 관리사무소, 경기 성남시 분당구 판교동 585 관리실, 경기 성남시 분당구 판교동 585 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-8016-7802",
+          "score": 95,
+          "source": "네이버",
+          "keyword": "경기 성남시 분당구 판교동 585 관리사무소, 성남시 판교원마을9단지한림풀에버 관리사무소, 성남시 분당구 판교원마을9단지한림풀에버 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-729-7890",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "성남시 판교원마을9단지한림풀에버 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-778-7644",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "판교원마을9단지한림풀에버아파트 전화번호, 판교원마을9단지한림풀에버 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "003-9004-9005",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 분당구 판교동 585 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-708-8677",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 성남시 분당구 서판교로 29 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-737-1323",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 판교원마을9단지한림풀에버 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-737-1327",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "성남시 판교원마을9단지한림풀에버 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8016-7776",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "판교원마을9단지한림풀에버 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_판교원마을9한림풀에버"

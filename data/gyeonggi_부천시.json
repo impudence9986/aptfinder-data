@@ -1,6 +1,6 @@
 {
-  "version": 1785436423,
-  "updatedAt": "2026-07-30 18:33:43",
+  "version": 1785522576,
+  "updatedAt": "2026-07-31 18:29:36",
   "sido": "경기도",
   "sigungu": "부천시",
   "count": 442,
@@ -2253,16 +2253,17 @@
       "jibunAddress": "경기 부천시 원미구 약대동 218",
       "phone": "032-677-1700",
       "phones": [
-        "032-677-1700"
+        "032-677-1700",
+        "032-326-0011"
       ],
       "phoneCandidates": [
         {
           "number": "032-677-1700",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2271,14 +2272,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "032-326-0011",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 부천시 원미구 약대동 218 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "184",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:19:06",
       "detailUpdatedAt": 1781022240522,
       "listUpdatedAt": 1781022240522,
       "phoneStatus": "CONFIRMED",
@@ -2422,9 +2437,9 @@
           "number": "032-342-0500",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2433,14 +2448,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "432",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:20:07",
       "detailUpdatedAt": 1781022240522,
       "listUpdatedAt": 1781022240522,
       "phoneStatus": "CONFIRMED",
@@ -2469,16 +2485,19 @@
       "jibunAddress": "경기 부천시 원미구 약대동 196",
       "phone": "032-679-1882",
       "phones": [
-        "032-679-1882"
+        "032-679-1882",
+        "032-679-1883",
+        "032-677-8200"
       ],
       "phoneCandidates": [
         {
           "number": "032-679-1882",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 부천시 원미구 약대동 196 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2487,14 +2506,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-679-1883",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 부천시 원미구 약대동 196 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-677-8200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 부천시 원미구 약대동 196 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "620",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:19:10",
       "detailUpdatedAt": 1781022240522,
       "listUpdatedAt": 1781022240522,
       "phoneStatus": "CONFIRMED",
@@ -8701,10 +8748,11 @@
         {
           "number": "032-342-4264",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 부천시 원미구 역곡동 204 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8713,14 +8761,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "190",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:22:36",
       "detailUpdatedAt": 1781022240522,
       "listUpdatedAt": 1781022240522,
       "phoneStatus": "CONFIRMED",
@@ -9727,10 +9777,11 @@
         {
           "number": "032-671-1364",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 부천시 오정구 원종동 469 관리사무소, 경기 부천시 오정구 원종동 469 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9739,14 +9790,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "158",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-07-31 18:29:33",
       "detailUpdatedAt": 1781022240522,
       "listUpdatedAt": 1781022240522,
       "phoneStatus": "CONFIRMED",
@@ -21596,17 +21649,61 @@
       "address": "경기 부천시 원미구 부일로 519\n경기 부천시 원미구 심곡동 130-6",
       "roadAddress": "경기 부천시 원미구 부일로 519",
       "jibunAddress": "경기 부천시 원미구 심곡동 130-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-653-1210",
+      "phones": [
+        "032-653-1210",
+        "070-8779-1319",
+        "032-664-7822"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-653-1210",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 부천시 원미구 부일로 519 관리사무소, 경기 부천시 원미구 부일로 519 전화번호, 심곡동 화신 운영위원회 관리사무소, 부천시 화신 운영위원회 관리사무소, 부천시 원미구 화신 운영위원회 관리사무소, 화신오피스텔 운영위원회 관리사무소, 화신오피스텔 운영위원회 전화번호, 화신 운영위원회 관리실, 화신 운영위원회 전화번",
+          "sourceCounts": {
+            "114On": 10
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 10
+          },
+          "sourceSummary": "114On 10회"
+        },
+        {
+          "number": "070-8779-1319",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 부천시 원미구 심곡동 130-6 전화번호, 경기 부천시 원미구 부일로 519 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-664-7822",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 부천시 원미구 부일로 519 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_화신운영위원회"
@@ -21694,17 +21791,201 @@
       "address": "경기 부천시 소사구 경인로 175\n경기 부천시 소사구 심곡본동 527",
       "roadAddress": "경기 부천시 소사구 경인로 175",
       "jibunAddress": "경기 부천시 소사구 심곡본동 527",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-611-3741",
+      "phones": [
+        "032-611-3741",
+        "070-7098-3357",
+        "02-2026-1945",
+        "022-026-1945",
+        "07-129-4928",
+        "032-613-1391",
+        "02-839-6435",
+        "032-552-0054",
+        "032-329-0651",
+        "032-555-1013",
+        "032-614-1100",
+        "032-715-8013",
+        "032-614-7755"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-611-3741",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 심곡본동 527 관리사무소, 부천시 KCC엠파이어타워 관리사무소, 부천시 소사구 KCC엠파이어타워 관리사무소, KCC엠파이어타워오피스텔 관리사무소",
+          "sourceCounts": {
+            "114On": 5
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 5
+          },
+          "sourceSummary": "114On 5회"
+        },
+        {
+          "number": "070-7098-3357",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 심곡본동 527 전화번호, 경기 부천시 소사구 경인로 175 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-2026-1945",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 심곡본동 527 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-026-1945",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 심곡본동 527 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-129-4928",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 심곡본동 527 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-613-1391",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 심곡본동 527 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-839-6435",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 경인로 175 전화번호, KCC엠파이어타워 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-552-0054",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "KCC엠파이어타워오피스텔 전화번호, KCC엠파이어타워 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-329-0651",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "심곡본동 KCC엠파이어타워 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-555-1013",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "KCC엠파이어타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-614-1100",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "KCC엠파이어타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-715-8013",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "KCC엠파이어타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-614-7755",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "KCC엠파이어타워 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_kcc엠파이어타워"
@@ -21758,17 +22039,33 @@
       "address": "경기 부천시 소사구 경인로 232\n경기 부천시 소사구 심곡본동 671-1",
       "roadAddress": "경기 부천시 소사구 경인로 232",
       "jibunAddress": "경기 부천시 소사구 심곡본동 671-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-668-3330",
+      "phones": [
+        "032-668-3330"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-668-3330",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 심곡본동 671-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_부천역이테크에비뉴스타"
@@ -21845,17 +22142,75 @@
       "address": "경기 부천시 소사구 경인로 287\n경기 부천시 소사구 심곡본동 776-2",
       "roadAddress": "경기 부천시 소사구 경인로 287",
       "jibunAddress": "경기 부천시 소사구 심곡본동 776-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-612-7700",
+      "phones": [
+        "032-612-7700",
+        "02-300-0421",
+        "032-205-1700",
+        "031-912-9010"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-612-7700",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "부천시 월드메르디앙소사역 관리사무소, 부천시 소사구 월드메르디앙소사역 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-300-0421",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "월드메르디앙소사역 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-205-1700",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "월드메르디앙소사역아파트 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-912-9010",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "월드메르디앙소사역 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 57,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_월드메르디앙소사역"
@@ -21877,17 +22232,117 @@
       "address": "경기 부천시 소사구 경인로 196\n경기 부천시 소사구 심곡본동 589-3",
       "roadAddress": "경기 부천시 소사구 경인로 196",
       "jibunAddress": "경기 부천시 소사구 심곡본동 589-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-668-4226",
+      "phones": [
+        "032-668-4226",
+        "032-212-3033",
+        "032-887-8941",
+        "07-1352-5749",
+        "032-710-8799",
+        "07-1365-4428",
+        "032-611-4428"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-668-4226",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 심곡본동 589-3 전화번호, 경기 부천시 소사구 경인로 196 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-212-3033",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "심곡본동 티케이캐슬 관리사무소, 부천시 티케이캐슬 관리사무소, 부천시 소사구 티케이캐슬 관리사무소, 티케이캐슬오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "032-887-8941",
+          "score": 81,
+          "source": "네이버",
+          "keyword": "심곡본동 티케이캐슬 관리사무소, 부천시 티케이캐슬 관리사무소, 티케이캐슬오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1352-5749",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 경인로 196 관리실, 경기 부천시 소사구 경인로 196 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-710-8799",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 경인로 196 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1365-4428",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "티케이캐슬 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-611-4428",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "티케이캐슬 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_티케이캐슬"
@@ -22125,17 +22580,61 @@
       "address": "경기 부천시 원미구 평천로 680\n경기 부천시 원미구 약대동 217-1",
       "roadAddress": "경기 부천시 원미구 평천로 680",
       "jibunAddress": "경기 부천시 원미구 약대동 217-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-760-2216",
+      "phones": [
+        "031-760-2216",
+        "031-461-2600",
+        "031-925-9042"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-760-2216",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-461-2600",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-925-9042",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_부천아이파크정문"
@@ -22285,17 +22784,33 @@
       "address": "경기 부천시 원미구 지봉로 153\n경기 부천시 원미구 역곡동 213-7",
       "roadAddress": "경기 부천시 원미구 지봉로 153",
       "jibunAddress": "경기 부천시 원미구 역곡동 213-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-511-5059",
+      "phones": [
+        "031-511-5059"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-511-5059",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_부천역곡대주파크빌"
@@ -22317,17 +22832,62 @@
       "address": "경기 부천시 원미구 지봉로127번길 39\n경기 부천시 원미구 역곡동 416",
       "roadAddress": "경기 부천시 원미구 지봉로127번길 39",
       "jibunAddress": "경기 부천시 원미구 역곡동 416",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-345-8980",
+      "phones": [
+        "032-345-8980",
+        "02-494-0095",
+        "02-494-0116"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-345-8980",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 부천시 원미구 지봉로127번길 39 관리실, 부천시 부천역곡자연앤한양립스 관리실, 부천역곡자연앤한양립스아파트 관리사무소, 부천역곡자연앤한양립스아파트 관리실, 부천역곡자연앤한양립스 관리사무소, 부천역곡자연앤한양립스아파트 전화번호, 부천역곡자연앤한양립스아파트 관리단, 부천역곡자연앤한양립스 전화번호, 부천역곡자연앤한양립스",
+          "sourceCounts": {
+            "네이버": 10
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10
+          },
+          "sourceSummary": "네이버 10회"
+        },
+        {
+          "number": "02-494-0095",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부천역곡자연앤한양립스 관리사무소, 부천역곡자연앤한양립스 관리실, 부천역곡자연앤한양립스 전화번호, 부천역곡자연앤한양립스 관리단",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "02-494-0116",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부천역곡자연앤한양립스 관리사무소, 부천역곡자연앤한양립스 관리실, 부천역곡자연앤한양립스 전화번호, 부천역곡자연앤한양립스 관리단",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_부천역곡자연앤한양립스"
@@ -22595,17 +23155,47 @@
       "address": "경기 부천시 원미구 지봉로121번길 18\n경기 부천시 원미구 역곡동 412",
       "roadAddress": "경기 부천시 원미구 지봉로121번길 18",
       "jibunAddress": "경기 부천시 원미구 역곡동 412",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2611-6487",
+      "phones": [
+        "02-2611-6487",
+        "032-578-9969"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2611-6487",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "역곡한양수자인1차아파트 관리실, 역곡한양수자인1차아파트 관리단",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-578-9969",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "역곡한양수자인1차아파트 전화번호, 역곡한양수자인1차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 53,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_역곡한양수자인1차"
@@ -22627,17 +23217,89 @@
       "address": "경기 부천시 원미구 부일로685번길 22\n경기 부천시 원미구 역곡동 413",
       "roadAddress": "경기 부천시 원미구 부일로685번길 22",
       "jibunAddress": "경기 부천시 원미구 역곡동 413",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-578-9969",
+      "phones": [
+        "032-578-9969",
+        "02-2611-6487",
+        "032-326-1124",
+        "032-349-6666",
+        "032-347-3325"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-578-9969",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "역곡한양수자인3차아파트 전화번호, 역곡한양수자인3차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2611-6487",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부천시 역곡한양수자인3차 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-326-1124",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부천시 역곡한양수자인3차 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-349-6666",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "역곡한양수자인3차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-347-3325",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "역곡한양수자인3차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 53,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_역곡한양수자인3차"
@@ -22767,17 +23429,145 @@
       "address": "경기 부천시 원미구 역곡로13번길 7\n경기 부천시 원미구 역곡동 77-4",
       "roadAddress": "경기 부천시 원미구 역곡로13번길 7",
       "jibunAddress": "경기 부천시 원미구 역곡동 77-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "070-4154-0628",
+      "phones": [
+        "070-4154-0628",
+        "070-4155-0628",
+        "031-111-1111",
+        "031-781-5909",
+        "02-3431-5500",
+        "023-431-5500",
+        "02-2223-5135",
+        "050-7132-8365",
+        "02-515-6640"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "070-4154-0628",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부천시 이클래스 관리사무소, 부천시 원미구 이클래스 관리사무소, 부천시 이클래스 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "070-4155-0628",
+          "score": 97,
+          "source": "네이버",
+          "keyword": "부천시 이클래스 관리사무소, 부천시 원미구 이클래스 관리사무소, 부천시 이클래스 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-111-1111",
+          "score": 91,
+          "source": "114On",
+          "keyword": "이클래스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-781-5909",
+          "score": 91,
+          "source": "114On",
+          "keyword": "이클래스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3431-5500",
+          "score": 91,
+          "source": "114On",
+          "keyword": "이클래스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-431-5500",
+          "score": 91,
+          "source": "114On",
+          "keyword": "이클래스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2223-5135",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "이클래스오피스텔 관리실, 이클래스오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "050-7132-8365",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부천시 원미구 이클래스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-515-6640",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이클래스 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_이클래스"
@@ -22799,17 +23589,62 @@
       "address": "경기 부천시 원미구 부일로725번길 17\n경기 부천시 원미구 역곡동 75",
       "roadAddress": "경기 부천시 원미구 부일로725번길 17",
       "jibunAddress": "경기 부천시 원미구 역곡동 75",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-349-6666",
+      "phones": [
+        "032-349-6666",
+        "032-343-0747",
+        "032-345-1747"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-349-6666",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "일두맨션 관리사무소, 일두맨션 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-343-0747",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 부천시 원미구 역곡동 75 관리사무소, 일두맨션 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-345-1747",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "일두맨션 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 55,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_일두맨션"
@@ -22831,17 +23666,47 @@
       "address": "경기 부천시 원미구 지봉로51번길 16-14\n경기 부천시 원미구 역곡동 33",
       "roadAddress": "경기 부천시 원미구 지봉로51번길 16-14",
       "jibunAddress": "경기 부천시 원미구 역곡동 33",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-375-6672",
+      "phones": [
+        "031-375-6672",
+        "031-0000-0000"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-375-6672",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-0000-0000",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_한양수자인2차"
@@ -23066,17 +23931,103 @@
       "address": "경기 부천시 소사구 범안로 231-7\n경기 부천시 소사구 옥길동 777-3",
       "roadAddress": "경기 부천시 소사구 범안로 231-7",
       "jibunAddress": "경기 부천시 소사구 옥길동 777-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "010-8500-8528",
+      "phones": [
+        "010-8500-8528",
+        "032-348-9292",
+        "032-348-1988",
+        "032-342-2200",
+        "032-343-5300",
+        "020-220-0285"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-8500-8528",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 옥길동 777-3 전화번호, 경기 부천시 소사구 범안로 231-7 전화번호, 부천옥길이노타워 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "032-348-9292",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 범안로 231-7 관리실, 경기 부천시 소사구 범안로 231-7 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-348-1988",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 범안로 231-7 관리실, 경기 부천시 소사구 범안로 231-7 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-342-2200",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "부천옥길이노타워오피스텔 전화번호, 부천옥길이노타워 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-343-5300",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "부천옥길이노타워오피스텔 전화번호, 부천옥길이노타워 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "020-220-0285",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부천옥길이노타워오피스텔 전화번호, 부천옥길이노타워 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_부천옥길이노타워"
@@ -23266,17 +24217,216 @@
       "address": "경기 부천시 소사구 범안로 227\n경기 부천시 소사구 옥길동 777-4",
       "roadAddress": "경기 부천시 소사구 범안로 227",
       "jibunAddress": "경기 부천시 소사구 옥길동 777-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-347-1116",
+      "phones": [
+        "032-347-1116",
+        "032-345-8488",
+        "032-342-7400",
+        "02-2138-3849",
+        "032-345-6400",
+        "07-1389-1136",
+        "032-566-3533",
+        "02-6712-1113",
+        "032-345-3323",
+        "07-1343-4880",
+        "032-341-3126",
+        "032-566-3119",
+        "032-565-4546",
+        "000-019-9194"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-347-1116",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 옥길동 777-4 전화번호, 경기 부천시 소사구 범안로 227 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-345-8488",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부천시 서영아너시티1차 관리사무소, 부천시 소사구 서영아너시티1차 관리사무소, 부천시 서영아너시티1차 관리실, 서영아너시티1차오피스텔 관리사무소, 서영아너시티1차오피스텔 관리실, 서영아너시티1차오피스텔 관리단, 서영아너시티1차 관리단",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3,
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "032-342-7400",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부천시 서영아너시티1차 관리사무소, 부천시 소사구 서영아너시티1차 관리사무소, 부천시 서영아너시티1차 관리실, 서영아너시티1차 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "02-2138-3849",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 범안로 227 관리사무소, 경기 부천시 소사구 범안로 227 관리실, 경기 부천시 소사구 범안로 227 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "032-345-6400",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 부천시 소사구 옥길동 777-4 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1389-1136",
+          "score": 87,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 범안로 227 관리실, 경기 부천시 소사구 범안로 227 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-566-3533",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "서영아너시티1차오피스텔 전화번호, 서영아너시티1차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6712-1113",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 옥길동 777-4 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-345-3323",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 범안로 227 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1343-4880",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 범안로 227 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-341-3126",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 부천시 소사구 범안로 227 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-566-3119",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서영아너시티1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-565-4546",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서영아너시티1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "000-019-9194",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서영아너시티1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_서영아너시티1차"
@@ -23816,17 +24966,61 @@
       "address": "경기 부천시 원미구 원미로149번길 37\n경기 부천시 원미구 원미동 64",
       "roadAddress": "경기 부천시 원미구 원미로149번길 37",
       "jibunAddress": "경기 부천시 원미구 원미동 64",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8075-2095",
+      "phones": [
+        "031-8075-2095",
+        "031-584-0661",
+        "031-582-6623"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8075-2095",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-584-0661",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-582-6623",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_우성데시앙"
@@ -23927,17 +25121,33 @@
       "address": "경기 부천시 오정구 소사로776번길 32\n경기 부천시 오정구 원종동 275-3",
       "roadAddress": "경기 부천시 오정구 소사로776번길 32",
       "jibunAddress": "경기 부천시 오정구 원종동 275-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-795-9933",
+      "phones": [
+        "031-795-9933"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-795-9933",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_금풍센트레빌"
