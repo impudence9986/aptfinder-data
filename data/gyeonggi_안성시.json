@@ -1,6 +1,6 @@
 {
-  "version": 1785524127,
-  "updatedAt": "2026-07-31 18:55:27",
+  "version": 1785606371,
+  "updatedAt": "2026-08-01 17:46:11",
   "sido": "경기도",
   "sigungu": "안성시",
   "count": 125,
@@ -24,16 +24,20 @@
       "jibunAddress": "경기 안성시 당왕동 587",
       "phone": "031-677-7960",
       "phones": [
-        "031-677-7960"
+        "031-677-7960",
+        "031-677-7962",
+        "00-0507-1301",
+        "031-8057-8050"
       ],
       "phoneCandidates": [
         {
           "number": "031-677-7960",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안성시 당왕동 587 관리사무소, 경기 안성시 당왕동 587 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +46,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-677-7962",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 안성시 당왕동 587 관리사무소, 경기 안성시 당왕동 587 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "00-0507-1301",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 당왕동 587 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8057-8050",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 당왕동 587 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1370",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-01 17:42:51",
       "detailUpdatedAt": 1781026491350,
       "listUpdatedAt": 1781026491350,
       "phoneStatus": "CONFIRMED",
@@ -888,16 +933,19 @@
       "jibunAddress": "경기 안성시 미양면 양변리 240-19",
       "phone": "031-677-3136",
       "phones": [
-        "031-677-3136"
+        "031-677-3136",
+        "031-677-3137",
+        "011-0130-0024"
       ],
       "phoneCandidates": [
         {
           "number": "031-677-3136",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안성시 미양면 양변리 240-19 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -906,14 +954,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-677-3137",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 미양면 양변리 240-19 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "011-0130-0024",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 미양면 양변리 240-19 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "499",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-01 17:44:55",
       "detailUpdatedAt": 1781026491350,
       "listUpdatedAt": 1781026491350,
       "phoneStatus": "CONFIRMED",
@@ -1273,9 +1349,9 @@
           "number": "031-618-7305",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1284,14 +1360,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "986",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-01 17:39:24",
       "detailUpdatedAt": 1781026491350,
       "listUpdatedAt": 1781026491350,
       "phoneStatus": "CONFIRMED",
@@ -2400,16 +2477,18 @@
       "jibunAddress": "경기 안성시 석정동 368",
       "phone": "031-673-1102",
       "phones": [
-        "031-673-1102"
+        "031-673-1102",
+        "031-673-1106"
       ],
       "phoneCandidates": [
         {
           "number": "031-673-1102",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안성시 석정동 368 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2418,14 +2497,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-673-1106",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 석정동 368 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "644",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-01 17:45:22",
       "detailUpdatedAt": 1781026491350,
       "listUpdatedAt": 1781026491350,
       "phoneStatus": "CONFIRMED",
@@ -4042,17 +4136,92 @@
       "address": "경기 안성시 공도읍 진건중길 14\n경기 안성시 공도읍 진사리 639-1",
       "roadAddress": "경기 안성시 공도읍 진건중길 14",
       "jibunAddress": "경기 안성시 공도읍 진사리 639-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-691-0389",
+      "phones": [
+        "031-691-0389",
+        "031-651-0389",
+        "031-655-6525",
+        "031-656-6550",
+        "031-618-3033"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-691-0389",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경기 안성시 공도읍 진사리 639-1 관리사무소, 경기 안성시 공도읍 진사리 639-1 전화번호, 경기 안성시 공도읍 진건중길 14 전화번호, 공도읍 공도삼성 관리사무소, 안성시 공도삼성 관리사무소, 공도삼성아파트 관리사무소 관리실, 안성시 공도삼성 관리실, 공도삼성아파트 관리사무소 전화번호, 공도삼성아파트 관리사무소 관",
+          "sourceCounts": {
+            "네이버": 9,
+            "114On": 11
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 9,
+            "114On/네이버 스니펫": 11
+          },
+          "sourceSummary": "114On 11회 · 네이버 9회"
+        },
+        {
+          "number": "031-651-0389",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사리 639-1 관리사무소, 공도읍 공도삼성 관리사무소, 안성시 공도삼성 관리사무소, 공도삼성아파트 관리사무소 관리실, 안성시 공도삼성 관리실, 공도삼성아파트 관리사무소 전화번호, 공도삼성아파트 관리사무소 관리사무소",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 9
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "031-655-6525",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "공도읍 공도삼성 관리사무소, 안성시 공도삼성 관리사무소, 공도삼성 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-656-6550",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진건중길 14 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-618-3033",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "공도삼성 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_공도삼성"
@@ -4366,17 +4535,75 @@
       "address": "경기 안성시 공도읍 공도로 42-71\n경기 안성시 공도읍 승두리 898",
       "roadAddress": "경기 안성시 공도읍 공도로 42-71",
       "jibunAddress": "경기 안성시 공도읍 승두리 898",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1401-2093",
+      "phones": [
+        "07-1401-2093",
+        "07-1342-0336",
+        "031-618-0250",
+        "031-675-2297"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1401-2093",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 공도로 42-71 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1342-0336",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 공도로 42-71 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-618-0250",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안성시 안성공도쌍용더플래티넘프리미어 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-675-2297",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안성공도쌍용더플래티넘프리미어아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_안성공도쌍용플래티넘프리미어"
@@ -4531,17 +4758,146 @@
       "address": "경기 안성시 공도읍 벚꽃길 36\n경기 안성시 공도읍 용두리 683",
       "roadAddress": "경기 안성시 공도읍 벚꽃길 36",
       "jibunAddress": "경기 안성시 공도읍 용두리 683",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "010-6264-0149",
+      "phones": [
+        "010-6264-0149",
+        "032-875-9114",
+        "031-652-5571",
+        "031-652-5572",
+        "031-658-0125",
+        "07-1470-2477",
+        "07-1393-7975",
+        "07-1314-4467",
+        "07-1320-8697"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-6264-0149",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 안성시 공도읍 용두리 683 전화번호, 경기 안성시 공도읍 벚꽃길 36 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-875-9114",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 안성시 공도읍 용두리 683 전화번호, 경기 안성시 공도읍 벚꽃길 36 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-652-5571",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 용두리 683 관리사무소, 경기 안성시 공도읍 벚꽃길 36 전화번호, 공도읍 안성태산 관리사무소, 안성시 안성태산 관리사무소, 안성태산아파트 관리사무소 관리실, 안성시 안성태산 관리실, 안성태산아파트 관리사무소 전화번호, 안성태산아파트 관리사무소 관리사무소",
+          "sourceCounts": {
+            "네이버": 10
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 9,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 10회"
+        },
+        {
+          "number": "031-652-5572",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 용두리 683 관리사무소, 공도읍 안성태산 관리사무소, 안성시 안성태산 관리사무소, 안성태산아파트 관리사무소 관리실, 안성시 안성태산 관리실, 안성태산아파트 관리사무소 전화번호, 안성태산아파트 관리사무소 관리사무소",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 9
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "031-658-0125",
+          "score": 91,
+          "source": "114On",
+          "keyword": "안성태산 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1470-2477",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 벚꽃길 36 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1393-7975",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 벚꽃길 36 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1314-4467",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 벚꽃길 36 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1320-8697",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 벚꽃길 36 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_안성태산"
@@ -4563,17 +4919,301 @@
       "address": "경기 안성시 공도읍 송원길 50\n경기 안성시 공도읍 만정리 785-10",
       "roadAddress": "경기 안성시 공도읍 송원길 50",
       "jibunAddress": "경기 안성시 공도읍 만정리 785-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-653-5725",
+      "phones": [
+        "031-653-5725",
+        "063-252-7446",
+        "031-8015-8060",
+        "031-677-7841",
+        "043-882-9230",
+        "053-625-9100",
+        "02-591-3914",
+        "02-560-2222",
+        "031-677-7840",
+        "031-372-7788",
+        "010-9201-6124",
+        "031-879-9706",
+        "031-527-1648",
+        "043-845-7887",
+        "031-232-8775",
+        "051-1600-9588",
+        "031-788-4435",
+        "031-284-2900",
+        "02-3394-9088",
+        "02-295-0044"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-653-5725",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "공도읍 엘리시아 관리사무소, 안성시 엘리시아 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "063-252-7446",
+          "score": 100,
+          "source": "114On",
+          "keyword": "엘리시아오피스텔 관리사무소, 엘리시아 관리사무소, 엘리시아오피스텔 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "031-8015-8060",
+          "score": 100,
+          "source": "114On",
+          "keyword": "엘리시아오피스텔 전화번호, 엘리시아오피스텔 관리단, 엘리시아 관리단",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "031-677-7841",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "안성시 엘리시아 관리사무소, 안성시 엘리시아 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "043-882-9230",
+          "score": 91,
+          "source": "114On",
+          "keyword": "엘리시아 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "053-625-9100",
+          "score": 91,
+          "source": "114On",
+          "keyword": "엘리시아 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-591-3914",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "공도읍 엘리시아 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-560-2222",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "공도읍 엘리시아 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-677-7840",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안성시 엘리시아 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-372-7788",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "010-9201-6124",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아오피스텔 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-879-9706",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-527-1648",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "043-845-7887",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-232-8775",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-1600-9588",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-788-4435",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-284-2900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3394-9088",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-295-0044",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘리시아오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_엘리시아"
@@ -4595,17 +5235,307 @@
       "address": "경기 안성시 공도읍 진사길 32\n경기 안성시 공도읍 진사리 36-1",
       "roadAddress": "경기 안성시 공도읍 진사길 32",
       "jibunAddress": "경기 안성시 공도읍 진사리 36-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-651-8838",
+      "phones": [
+        "031-651-8838",
+        "031-673-3777",
+        "031-673-3778",
+        "031-678-3610",
+        "031-651-8848",
+        "015-1501-4201",
+        "031-650-3164",
+        "031-678-3710",
+        "031-678-4050",
+        "070-4213-0171",
+        "031-657-2119",
+        "031-650-3167",
+        "031-678-3920",
+        "031-618-0202",
+        "031-651-0208",
+        "031-650-3154",
+        "016-4240-2201",
+        "07-1305-7371",
+        "031-647-6800",
+        "015-9798-2016"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-651-8838",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경기 안성시 공도읍 진사리 36-1 관리사무소, 경기 안성시 공도읍 진사길 32 관리사무소, 경기 안성시 공도읍 진사길 32 관리실, 공도읍 주은청설 관리사무소, 안성시 주은청설 관리사무소, 주은청설아파트 관리사무소, 주은청설아파트 전화번호, 주은청설 전화번호",
+          "sourceCounts": {
+            "네이버": 11,
+            "114On": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 7,
+            "네이버 카페검색": 1,
+            "네이버 블로그검색": 3,
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회 · 네이버 11회"
+        },
+        {
+          "number": "031-673-3777",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "주은청설 관리사무소, 주은청설아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-673-3778",
+          "score": 100,
+          "source": "114On",
+          "keyword": "주은청설아파트 전화번호, 주은청설 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-678-3610",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사리 36-1 관리사무소, 경기 안성시 공도읍 진사리 36-1 관리실, 경기 안성시 공도읍 진사길 32 관리사무소, 경기 안성시 공도읍 진사길 32 관리실, 안성시 주은청설 관리사무소, 주은청설아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "031-651-8848",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사리 36-1 관리사무소, 경기 안성시 공도읍 진사길 32 관리사무소, 경기 안성시 공도읍 진사길 32 관리실, 주은청설아파트 관리사무소, 주은청설 관리사무소, 주은청설 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "015-1501-4201",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사리 36-1 관리사무소, 경기 안성시 공도읍 진사리 36-1 관리실, 경기 안성시 공도읍 진사리 36-1 전화번호, 안성시 주은청설 관리사무소, 주은청설아파트 전화번호, 주은청설 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "031-650-3164",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사리 36-1 관리실, 경기 안성시 공도읍 진사리 36-1 전화번호, 경기 안성시 공도읍 진사길 32 전화번호, 주은청설아파트 전화번호, 주은청설 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-678-3710",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사리 36-1 관리사무소, 경기 안성시 공도읍 진사리 36-1 관리실, 공도읍 주은청설 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-678-4050",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사리 36-1 관리사무소, 경기 안성시 공도읍 진사리 36-1 관리실, 공도읍 주은청설 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "070-4213-0171",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사길 32 관리실, 경기 안성시 공도읍 진사길 32 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-657-2119",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사길 32 관리실, 경기 안성시 공도읍 진사길 32 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-650-3167",
+          "score": 99,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사리 36-1 전화번호, 주은청설아파트 전화번호, 주은청설 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-678-3920",
+          "score": 97,
+          "source": "네이버",
+          "keyword": "공도읍 주은청설 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-618-0202",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안성시 공도읍 진사리 36-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-651-0208",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안성시 공도읍 진사길 32 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-650-3154",
+          "score": 91,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사길 32 전화번호, 주은청설아파트 전화번호, 주은청설 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "016-4240-2201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 진사리 36-1 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1305-7371",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "공도읍 주은청설 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-647-6800",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "주은청설아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "015-9798-2016",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "주은청설 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_주은청설"
@@ -4695,17 +5625,75 @@
       "address": "경기 안성시 공도읍 서동대로 3858-27\n경기 안성시 공도읍 진사리 29-13",
       "roadAddress": "경기 안성시 공도읍 서동대로 3858-27",
       "jibunAddress": "경기 안성시 공도읍 진사리 29-13",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-647-3591",
+      "phones": [
+        "031-647-3591",
+        "031-647-3592",
+        "031-658-8000",
+        "02-200-0642"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-647-3591",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 서동대로 3858-27 관리사무소, 경기 안성시 공도읍 서동대로 3858-27 전화번호, 안성시 해링턴플레이스진사1단지 관리사무소, 해링턴플레이스진사1단지아파트 관리사무소, 해링턴플레이스진사1단지아파트 전화번호, 해링턴플레이스진사1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "031-647-3592",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 서동대로 3858-27 관리사무소, 경기 안성시 공도읍 서동대로 3858-27 전화번호, 안성시 해링턴플레이스진사1단지 관리사무소, 해링턴플레이스진사1단지아파트 관리사무소, 해링턴플레이스진사1단지아파트 전화번호, 해링턴플레이스진사1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "031-658-8000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "해링턴플레이스진사1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-200-0642",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "해링턴플레이스진사1단지 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_해링턴플레이스진사1"
@@ -4727,17 +5715,47 @@
       "address": "경기 안성시 공도읍 서동대로 3858-40\n경기 안성시 공도읍 진사리 33",
       "roadAddress": "경기 안성시 공도읍 서동대로 3858-40",
       "jibunAddress": "경기 안성시 공도읍 진사리 33",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-658-8000",
+      "phones": [
+        "031-658-8000",
+        "031-618-0250"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-658-8000",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "공도읍 해링턴플레이스진사2BL 관리사무소, 안성시 해링턴플레이스진사2BL 관리사무소, 안성시 해링턴플레이스진사2BL 관리실, 해링턴플레이스진사2BL 전화번호, 해링턴플레이스진사2BL 관리단",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "031-618-0250",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "해링턴플레이스진사2BL 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_해링턴플레이스진사2bl"
@@ -4759,17 +5777,117 @@
       "address": "경기 안성시 공도읍 서동대로 4060-5\n경기 안성시 공도읍 승두리 939",
       "roadAddress": "경기 안성시 공도읍 서동대로 4060-5",
       "jibunAddress": "경기 안성시 공도읍 승두리 939",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-647-6800",
+      "phones": [
+        "031-647-6800",
+        "031-652-5526",
+        "00-225-7600",
+        "031-657-0053",
+        "03-653-5526",
+        "025-1219-1026",
+        "031-654-7792"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-647-6800",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "공도읍 효성해링턴플레이스안성공도 관리사무소, 안성시 효성해링턴플레이스안성공도 관리사무소, 효성해링턴플레이스안성공도아파트 관리사무소, 효성해링턴플레이스안성공도아파트 관리실, 효성해링턴플레이스안성공도 관리실, 효성해링턴플레이스안성공도 전화번호",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "031-652-5526",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 승두리 939 관리사무소, 경기 안성시 공도읍 승두리 939 관리실, 경기 안성시 공도읍 서동대로 4060-5 관리사무소, 경기 안성시 공도읍 승두리 939 전화번호, 경기 안성시 공도읍 서동대로 4060-5 관리실",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "00-225-7600",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 승두리 939 관리사무소, 경기 안성시 공도읍 승두리 939 관리실, 경기 안성시 공도읍 서동대로 4060-5 관리사무소, 경기 안성시 공도읍 승두리 939 전화번호, 경기 안성시 공도읍 서동대로 4060-5 관리실",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-657-0053",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "안성시 효성해링턴플레이스안성공도 관리사무소, 효성해링턴플레이스안성공도아파트 관리단",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "03-653-5526",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 서동대로 4060-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-1219-1026",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 공도읍 서동대로 4060-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-654-7792",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "효성해링턴플레이스안성공도 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_효성해링턴플레이스안성공도"
@@ -4985,17 +6103,299 @@
       "address": "경기 안성시 대덕면 대학9길 3\n경기 안성시 대덕면 내리 689-6",
       "roadAddress": "경기 안성시 대덕면 대학9길 3",
       "jibunAddress": "경기 안성시 대덕면 내리 689-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-212-7806",
+      "phones": [
+        "031-212-7806",
+        "031-212-7807",
+        "025-0523-1146",
+        "031-721-9012",
+        "031-675-7200",
+        "053-357-8424",
+        "051-959-7910",
+        "031-382-1382",
+        "031-269-0021",
+        "063-531-4432",
+        "033-260-0800",
+        "031-713-1823",
+        "031-5180-7703",
+        "032-567-7733",
+        "02-475-6660",
+        "010-8949-1454",
+        "051-751-2789",
+        "02-387-7002",
+        "02-356-1404",
+        "070-7382-7448"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-212-7806",
+          "score": 100,
+          "source": "114On",
+          "keyword": "안성시 21세기 관리사무소",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-212-7807",
+          "score": 100,
+          "source": "114On",
+          "keyword": "안성시 21세기 관리사무소",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "025-0523-1146",
+          "score": 100,
+          "source": "114On",
+          "keyword": "안성시 21세기 관리사무소",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-721-9012",
+          "score": 100,
+          "source": "114On",
+          "keyword": "안성시 21세기 관리사무소",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-675-7200",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안성시 대덕면 대학9길 3 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "053-357-8424",
+          "score": 91,
+          "source": "114On",
+          "keyword": "21세기오피스텔 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-959-7910",
+          "score": 91,
+          "source": "114On",
+          "keyword": "21세기오피스텔 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-382-1382",
+          "score": 91,
+          "source": "114On",
+          "keyword": "21세기 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-269-0021",
+          "score": 91,
+          "source": "114On",
+          "keyword": "21세기 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "063-531-4432",
+          "score": 91,
+          "source": "114On",
+          "keyword": "21세기 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "033-260-0800",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안성시 21세기 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-713-1823",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안성시 21세기 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-5180-7703",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안성시 21세기 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-567-7733",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "21세기오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-475-6660",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "21세기오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "010-8949-1454",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "21세기오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-751-2789",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "21세기오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-387-7002",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "21세기오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-356-1404",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "21세기오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-7382-7448",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "21세기오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_21세기"
@@ -5130,17 +6530,47 @@
       "address": "경기 안성시 대덕면 서동대로 4723\n경기 안성시 대덕면 신령리 500-20",
       "roadAddress": "경기 안성시 대덕면 서동대로 4723",
       "jibunAddress": "경기 안성시 대덕면 신령리 500-20",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-673-5553",
+      "phones": [
+        "031-673-5553",
+        "031-676-9547"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-673-5553",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "대덕면 문구방구 안성롯데캐슬점 관리사무소, 안성시 문구방구 안성롯데캐슬점 관리사무소, 안성시 문구방구 안성롯데캐슬점 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-676-9547",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안성시 대덕면 서동대로 4723 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 65,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_문구방구안성롯데캐슬점"
@@ -5858,17 +7288,131 @@
       "address": "경기 안성시 백성1길 27\n경기 안성시 석정동 1-1",
       "roadAddress": "경기 안성시 백성1길 27",
       "jibunAddress": "경기 안성시 석정동 1-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-671-9700",
+      "phones": [
+        "031-671-9700",
+        "031-650-0200",
+        "031-461-3880",
+        "031-461-3881",
+        "031-671-3824",
+        "07-1318-6648",
+        "031-8751-5550",
+        "031-429-2200"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-671-9700",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "안성시 루첸트 관리실, 루첸트오피스텔 관리실, 루첸트오피스텔 전화번호, 루첸트 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-650-0200",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "루첸트오피스텔 전화번호, 루첸트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-461-3880",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "루첸트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-461-3881",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "루첸트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-671-3824",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "루첸트오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1318-6648",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "루첸트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8751-5550",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "루첸트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-429-2200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "루첸트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_루첸트"
@@ -6038,17 +7582,89 @@
       "address": "경기 안성시 아양로 73\n경기 안성시 아양동 424",
       "roadAddress": "경기 안성시 아양로 73",
       "jibunAddress": "경기 안성시 아양동 424",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-671-2504",
+      "phones": [
+        "031-671-2504",
+        "031-675-7273",
+        "031-676-7273",
+        "07-1363-4452",
+        "07-1309-5010"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-671-2504",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안성시 아양로 73 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-675-7273",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "경기 안성시 아양로 73 전화번호, 아양동 안성서희스타힐스NHF 관리사무소, 안성서희스타힐스NHF 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-676-7273",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "경기 안성시 아양로 73 전화번호, 아양동 안성서희스타힐스NHF 관리사무소, 안성서희스타힐스NHF 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1363-4452",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "경기 안성시 아양동 424 관리사무소, 경기 안성시 아양로 73 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1309-5010",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "경기 안성시 아양로 73 관리사무소, 경기 안성시 아양로 73 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_안성서희스타힐스nhf"
@@ -6070,17 +7686,33 @@
       "address": "경기 안성시 원곡면 청원로 1836\n경기 안성시 원곡면 내가천리 164-4",
       "roadAddress": "경기 안성시 원곡면 청원로 1836",
       "jibunAddress": "경기 안성시 원곡면 내가천리 164-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-653-2468",
+      "phones": [
+        "031-653-2468"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-653-2468",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 안성시 원곡면 내가천리 164-4 전화번호, 경기 안성시 원곡면 청원로 1836 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_샵"
@@ -6151,9 +7783,9 @@
       "sido": "경기도",
       "district": "",
       "dong": "인지동",
-      "address": "경기도 안성시 인지동 7 안성골든캐슬타워",
-      "roadAddress": "",
-      "jibunAddress": "경기도 안성시 인지동 7 안성골든캐슬타워",
+      "address": "경기 안성시 장기로 37\n경기 안성시 인지동 7",
+      "roadAddress": "경기 안성시 장기로 37",
+      "jibunAddress": "경기 안성시 인지동 7",
       "phone": "031-671-8494",
       "phones": [
         "031-671-8494"
@@ -6188,7 +7820,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안성시_안성골든캐슬타워"
     },
     {
