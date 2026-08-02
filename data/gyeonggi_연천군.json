@@ -1,6 +1,6 @@
 {
-  "version": 1781029128,
-  "updatedAt": "2026-06-09 18:18:48",
+  "version": 1785692796,
+  "updatedAt": "2026-08-02 17:46:36",
   "sido": "경기도",
   "sigungu": "연천군",
   "count": 30,
@@ -409,9 +409,9 @@
           "number": "031-835-5596",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -420,14 +420,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "257",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-02 17:45:57",
       "detailUpdatedAt": 1781028978848,
       "listUpdatedAt": 1781028978848,
       "phoneStatus": "CONFIRMED",
@@ -724,17 +725,61 @@
       "address": "경기 연천군 연천읍 차옥로 149\n경기 연천군 연천읍 옥산리 860",
       "roadAddress": "경기 연천군 연천읍 차옥로 149",
       "jibunAddress": "경기 연천군 연천읍 옥산리 860",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8088-7782",
+      "phones": [
+        "031-8088-7782",
+        "031-839-2228",
+        "031-8088-7783"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8088-7782",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-839-2228",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-8088-7783",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_연천군_e편한세상연천웰스하임"
@@ -756,17 +801,33 @@
       "address": "경기 연천군 연천읍 현문로26번길 25\n경기 연천군 연천읍 통현리 1073",
       "roadAddress": "경기 연천군 연천읍 현문로26번길 25",
       "jibunAddress": "경기 연천군 연천읍 통현리 1073",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-852-2299",
+      "phones": [
+        "031-852-2299"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-852-2299",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_연천군_연천bix경기행복주택"
@@ -853,17 +914,63 @@
       "address": "경기 연천군 전곡읍 전곡로6번길 28-11\n경기 연천군 전곡읍 전곡리 86-8",
       "roadAddress": "경기 연천군 전곡읍 전곡로6번길 28-11",
       "jibunAddress": "경기 연천군 전곡읍 전곡리 86-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-832-7702",
+      "phones": [
+        "031-832-7702",
+        "031-832-7701",
+        "031-832-2315"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-832-7702",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경기 연천군 전곡읍 전곡로6번길 28-11 관리사무소, 경기 연천군 전곡읍 전곡리 86-8 전화번호, 경기 연천군 전곡읍 전곡로6번길 28-11 전화번호, 전곡읍 1호선전곡역제일풍경채리버파크 관리사무소, 연천군 1호선전곡역제일풍경채리버파크 관리사무소, 1호선전곡역제일풍경채리버파크아파트 관리사무소 관리실, 1호선전곡역제일풍",
+          "sourceCounts": {
+            "네이버": 6,
+            "114On": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6,
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회 · 네이버 6회"
+        },
+        {
+          "number": "031-832-7701",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 연천군 전곡읍 전곡로6번길 28-11 관리사무소, 전곡읍 1호선전곡역제일풍경채리버파크 관리사무소, 연천군 1호선전곡역제일풍경채리버파크 관리사무소, 1호선전곡역제일풍경채리버파크아파트 관리사무소 관리실, 1호선전곡역제일풍경채리버파크아파트 관리사무소 전화번호, 1호선전곡역제일풍경채리버파크아파트 관리사무소 관리사무소",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "031-832-2315",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 연천군 전곡읍 전곡로6번길 28-11 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_연천군_1호선전곡역제일풍경채리버파크"
@@ -940,17 +1047,47 @@
       "address": "경기 연천군 전곡읍 은빛로 83\n경기 연천군 전곡읍 은대리 2502",
       "roadAddress": "경기 연천군 전곡읍 은빛로 83",
       "jibunAddress": "경기 연천군 전곡읍 은대리 2502",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-835-9491",
+      "phones": [
+        "031-835-9491",
+        "031-835-9490"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-835-9491",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-835-9490",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_연천군_연천전곡코아루클래스"
@@ -1030,17 +1167,61 @@
       "address": "경기 연천군 전곡읍 전곡로161번길 9\n경기 연천군 전곡읍 전곡리 480-35",
       "roadAddress": "경기 연천군 전곡읍 전곡로161번길 9",
       "jibunAddress": "경기 연천군 전곡읍 전곡리 480-35",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-832-7424",
+      "phones": [
+        "031-832-7424",
+        "031-833-7424",
+        "031-552-8543"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-832-7424",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-833-7424",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-552-8543",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_연천군_영도플라자"
@@ -1062,17 +1243,61 @@
       "address": "경기 연천군 전곡읍 선사로 415\n경기 연천군 전곡읍 전곡리 330-3",
       "roadAddress": "경기 연천군 전곡읍 선사로 415",
       "jibunAddress": "경기 연천군 전곡읍 전곡리 330-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-857-1119",
+      "phones": [
+        "031-857-1119",
+        "031-835-7556",
+        "031-835-7555"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-857-1119",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-835-7556",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-835-7555",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_연천군_전곡석미"
@@ -1408,17 +1633,33 @@
       "address": "경기 연천군 전곡읍 평화로673번길 61\n경기 연천군 전곡읍 은대리 642-5",
       "roadAddress": "경기 연천군 전곡읍 평화로673번길 61",
       "jibunAddress": "경기 연천군 전곡읍 은대리 642-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-833-6789",
+      "phones": [
+        "031-833-6789"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-833-6789",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_연천군_푸르미아르미소"
@@ -1440,17 +1681,47 @@
       "address": "경기 연천군 청산면 청창로 677\n경기 연천군 청산면 백의리 50-1",
       "roadAddress": "경기 연천군 청산면 청창로 677",
       "jibunAddress": "경기 연천군 청산면 백의리 50-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-835-8946",
+      "phones": [
+        "031-835-8946",
+        "031-832-0747"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-835-8946",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-832-0747",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_연천군_백의리아느칸빌경비실"

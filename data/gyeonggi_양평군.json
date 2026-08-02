@@ -1,6 +1,6 @@
 {
-  "version": 1785607903,
-  "updatedAt": "2026-08-01 18:11:43",
+  "version": 1785692513,
+  "updatedAt": "2026-08-02 17:41:53",
   "sido": "경기도",
   "sigungu": "양평군",
   "count": 65,
@@ -1260,16 +1260,18 @@
       "jibunAddress": "경기 양평군 용문면 다문리 1107",
       "phone": "031-774-0331",
       "phones": [
-        "031-774-0331"
+        "031-774-0331",
+        "031-774-0332"
       ],
       "phoneCandidates": [
         {
           "number": "031-774-0331",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 양평군 용문면 다문리 1107 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1278,14 +1280,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-774-0332",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 양평군 용문면 다문리 1107 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "740",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-02 17:41:49",
       "detailUpdatedAt": 1781028490873,
       "listUpdatedAt": 1781028490873,
       "phoneStatus": "CONFIRMED",
