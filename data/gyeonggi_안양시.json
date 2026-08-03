@@ -1,6 +1,6 @@
 {
-  "version": 1785692065,
-  "updatedAt": "2026-08-02 17:34:25",
+  "version": 1785781421,
+  "updatedAt": "2026-08-03 18:23:41",
   "sido": "경기도",
   "sigungu": "안양시",
   "count": 404,
@@ -510,16 +510,18 @@
       "jibunAddress": "경기 안양시 동안구 평촌동 314",
       "phone": "031-385-1886",
       "phones": [
-        "031-385-1886"
+        "031-385-1886",
+        "031-385-1940"
       ],
       "phoneCandidates": [
         {
           "number": "031-385-1886",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안양시 동안구 평촌동 314 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -528,14 +530,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-385-1940",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안양시 동안구 평촌동 314 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "967",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-03 18:21:10",
       "detailUpdatedAt": 1781026769269,
       "listUpdatedAt": 1781026769269,
       "phoneStatus": "CONFIRMED",
@@ -6543,16 +6560,21 @@
       "jibunAddress": "경기 안양시 만안구 안양동 1410",
       "phone": "031-469-9398",
       "phones": [
-        "031-469-9398"
+        "031-469-9398",
+        "010-1202-2080",
+        "031-466-0077",
+        "031-469-9399",
+        "031-447-2080"
       ],
       "phoneCandidates": [
         {
           "number": "031-469-9398",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안양시 만안구 안양동 1410 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6561,14 +6583,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "010-1202-2080",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 안양시 만안구 안양동 1410 관리사무소, 경기 안양시 만안구 안양동 1410 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-466-0077",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안양시 만안구 안양동 1410 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-469-9399",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안양시 만안구 안양동 1410 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-447-2080",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안양시 만안구 안양동 1410 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "200",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-03 18:15:25",
       "detailUpdatedAt": 1781026769269,
       "listUpdatedAt": 1781026769269,
       "phoneStatus": "CONFIRMED",
@@ -7137,16 +7213,19 @@
       "jibunAddress": "경기 안양시 만안구 안양동 1411",
       "phone": "031-468-9912",
       "phones": [
-        "031-468-9912"
+        "031-468-9912",
+        "031-468-9914",
+        "031-8086-1283"
       ],
       "phoneCandidates": [
         {
           "number": "031-468-9912",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안양시 만안구 안양동 1411 관리사무소, 경기 안양시 만안구 안양동 1411 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7155,14 +7234,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-468-9914",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안양시 만안구 안양동 1411 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8086-1283",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안양시 만안구 안양동 1411 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "419",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-03 18:16:31",
       "detailUpdatedAt": 1781026769269,
       "listUpdatedAt": 1781026769269,
       "phoneStatus": "CONFIRMED",
@@ -9080,16 +9188,18 @@
       "jibunAddress": "경기 안양시 동안구 평촌동 75-1",
       "phone": "031-422-1025",
       "phones": [
-        "031-422-1025"
+        "031-422-1025",
+        "031-422-1026"
       ],
       "phoneCandidates": [
         {
           "number": "031-422-1025",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 안양시 동안구 평촌동 75-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9098,14 +9208,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-422-1026",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 안양시 동안구 평촌동 75-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "220",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-03 18:21:15",
       "detailUpdatedAt": 1781026769269,
       "listUpdatedAt": 1781026769269,
       "phoneStatus": "CONFIRMED",
@@ -12285,9 +12410,9 @@
           "number": "031-426-9091",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12296,14 +12421,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "472",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-03 18:22:01",
       "detailUpdatedAt": 1781026769269,
       "listUpdatedAt": 1781026769269,
       "phoneStatus": "CONFIRMED",
@@ -19373,17 +19499,61 @@
       "address": "경기 안양시 만안구 안양로 186\n경기 안양시 만안구 안양동 433",
       "roadAddress": "경기 안양시 만안구 안양로 186",
       "jibunAddress": "경기 안양시 만안구 안양동 433",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-469-9084",
+      "phones": [
+        "031-469-9084",
+        "031-469-9083",
+        "031-466-9336"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-469-9084",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-469-9083",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-466-9336",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_안양센트럴헤센2차"
@@ -19457,17 +19627,61 @@
       "address": "경기 안양시 만안구 삼덕로 43\n경기 안양시 만안구 안양동 710-72",
       "roadAddress": "경기 안양시 만안구 삼덕로 43",
       "jibunAddress": "경기 안양시 만안구 안양동 710-72",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-468-7775",
+      "phones": [
+        "031-468-7775",
+        "031-468-7774",
+        "031-468-3352"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-468-7775",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-468-7774",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-468-3352",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_안양어반포레자연앤e편한세상"
@@ -19486,20 +19700,64 @@
       "sido": "경기도",
       "district": "만안구",
       "dong": "안양동",
-      "address": "경기 안양시 만안구 안양동 841-5",
+      "address": "경기 안양시 만안구 안양동 688-53",
       "roadAddress": "",
-      "jibunAddress": "경기 안양시 만안구 안양동 841-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "jibunAddress": "경기 안양시 만안구 안양동 688-53",
+      "phone": "031-469-9083",
+      "phones": [
+        "031-469-9083",
+        "031-449-1852",
+        "031-441-4250"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-469-9083",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-449-1852",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-441-4250",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_안양시_안양역센트럴아이파크수자인2029년04월예정"
@@ -19618,9 +19876,9 @@
       "sido": "경기도",
       "district": "만안구",
       "dong": "안양동",
-      "address": "경기 안양시 만안구 안양동 398-32",
+      "address": "경기 안양시 만안구 안양동 602-8",
       "roadAddress": "",
-      "jibunAddress": "경기 안양시 만안구 안양동 398-32",
+      "jibunAddress": "경기 안양시 만안구 안양동 602-8",
       "phone": "",
       "phones": [],
       "phoneCandidates": [],
@@ -19653,17 +19911,75 @@
       "address": "경기 안양시 만안구 안양동 594-24",
       "roadAddress": "",
       "jibunAddress": "경기 안양시 만안구 안양동 594-24",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-691-0030",
+      "phones": [
+        "02-691-0030",
+        "02-694-0082",
+        "02-694-0041",
+        "02-500-0423"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-691-0030",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "안양시 안양자이 헤리티온 견본주택 관리실, 안양자이 헤리티온 견본주택 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-694-0082",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "안양시 안양자이 헤리티온 견본주택 관리실, 안양자이 헤리티온 견본주택 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-694-0041",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안양시 안양자이 헤리티온 견본주택 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-500-0423",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "안양자이 헤리티온 견본주택 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 53,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_안양시_안양자이헤리티온견본주택"
@@ -19743,17 +20059,61 @@
       "address": "경기 안양시 만안구 안양로138번길 1\n경기 안양시 만안구 안양동 517-17",
       "roadAddress": "경기 안양시 만안구 안양로138번길 1",
       "jibunAddress": "경기 안양시 만안구 안양동 517-17",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-455-4503",
+      "phones": [
+        "031-455-4503",
+        "031-441-1577",
+        "031-345-8953"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-455-4503",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-441-1577",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-345-8953",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_알파타워"
@@ -19775,17 +20135,61 @@
       "address": "경기 안양시 만안구 병목안로 14\n경기 안양시 만안구 안양동 782-11",
       "roadAddress": "경기 안양시 만안구 병목안로 14",
       "jibunAddress": "경기 안양시 만안구 안양동 782-11",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-449-3355",
+      "phones": [
+        "031-449-3355",
+        "031-436-2600",
+        "031-441-3330"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-449-3355",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-436-2600",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-441-3330",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_우남리치빌"
@@ -19860,17 +20264,61 @@
       "address": "경기 안양시 만안구 만안로 268\n경기 안양시 만안구 안양동 815-15",
       "roadAddress": "경기 안양시 만안구 만안로 268",
       "jibunAddress": "경기 안양시 만안구 안양동 815-15",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-422-4000",
+      "phones": [
+        "031-422-4000",
+        "031-291-6393",
+        "031-278-4533"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-422-4000",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-291-6393",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-278-4533",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_원평노블레스5차"
@@ -19892,17 +20340,61 @@
       "address": "경기 안양시 만안구 장내로150번길 55-1\n경기 안양시 만안구 안양동 622-420",
       "roadAddress": "경기 안양시 만안구 장내로150번길 55-1",
       "jibunAddress": "경기 안양시 만안구 안양동 622-420",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-468-3351",
+      "phones": [
+        "031-468-3351",
+        "031-422-4000",
+        "031-296-9999"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-468-3351",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-422-4000",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-296-9999",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_원평노블레스7차"
@@ -19924,17 +20416,61 @@
       "address": "경기 안양시 만안구 안양로 208\n경기 안양시 만안구 안양동 414-6",
       "roadAddress": "경기 안양시 만안구 안양로 208",
       "jibunAddress": "경기 안양시 만안구 안양동 414-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-372-5178",
+      "phones": [
+        "031-372-5178",
+        "031-372-5176",
+        "031-494-4661"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-372-5178",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-372-5176",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-494-4661",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_유일sj뷰"
@@ -20181,17 +20717,61 @@
       "address": "경기 안양시 만안구 예술공원로70번길 61\n경기 안양시 만안구 안양동 46-5",
       "roadAddress": "경기 안양시 만안구 예술공원로70번길 61",
       "jibunAddress": "경기 안양시 만안구 안양동 46-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-898-8767",
+      "phones": [
+        "031-898-8767",
+        "031-473-3582",
+        "031-471-5898"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-898-8767",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-473-3582",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-471-5898",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_향림"
@@ -20268,17 +20848,61 @@
       "address": "경기 안양시 만안구 만안로 121\n경기 안양시 만안구 안양동 395-1",
       "roadAddress": "경기 안양시 만안구 만안로 121",
       "jibunAddress": "경기 안양시 만안구 안양동 395-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-378-8769",
+      "phones": [
+        "031-378-8769",
+        "031-378-8767",
+        "031-378-6885"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-378-8769",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-378-8767",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-378-6885",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_힐스테이트안양펠루스"
@@ -20508,17 +21132,47 @@
       "address": "경기 안양시 동안구 안양천동로126번길 22\n경기 안양시 동안구 호계동 893-2",
       "roadAddress": "경기 안양시 동안구 안양천동로126번길 22",
       "jibunAddress": "경기 안양시 동안구 호계동 893-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-388-4949",
+      "phones": [
+        "031-388-4949",
+        "031-453-8944"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-388-4949",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-453-8944",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_호계스카이뷰"
@@ -21089,17 +21743,33 @@
       "address": "경기 안양시 동안구 평촌동 934",
       "roadAddress": "",
       "jibunAddress": "경기 안양시 동안구 평촌동 934",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8045-2631",
+      "phones": [
+        "031-8045-2631"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8045-2631",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 안양시 동안구 평촌동 934 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_안양시_평촌롯데캐슬르씨엘2029년10월예정"
@@ -21245,17 +21915,33 @@
       "address": "경기 안양시 동안구 호계동 533-3",
       "roadAddress": "",
       "jibunAddress": "경기 안양시 동안구 호계동 533-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-341-5333",
+      "phones": [
+        "031-341-5333"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-341-5333",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_안양시_e편한세상평촌어반밸리2026년10월예정"
@@ -21277,17 +21963,61 @@
       "address": "경기 안양시 동안구 귀인로79번길 12\n경기 안양시 동안구 호계동 923-30",
       "roadAddress": "경기 안양시 동안구 귀인로79번길 12",
       "jibunAddress": "경기 안양시 동안구 호계동 923-30",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-458-6122",
+      "phones": [
+        "031-458-6122",
+        "031-459-2022",
+        "031-455-7262"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-458-6122",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-459-2022",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-455-7262",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_ld범계마을"
@@ -21309,17 +22039,61 @@
       "address": "경기 안양시 동안구 전파로 103\n경기 안양시 동안구 호계동 896-9",
       "roadAddress": "경기 안양시 동안구 전파로 103",
       "jibunAddress": "경기 안양시 동안구 호계동 896-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-453-8944",
+      "phones": [
+        "031-453-8944",
+        "031-441-1577",
+        "031-466-8088"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-453-8944",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-441-1577",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-466-8088",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_ss타워"
@@ -21393,17 +22167,61 @@
       "address": "경기 안양시 동안구 경수대로 701\n경기 안양시 동안구 호계동 923-5",
       "roadAddress": "경기 안양시 동안구 경수대로 701",
       "jibunAddress": "경기 안양시 동안구 호계동 923-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-360-5102",
+      "phones": [
+        "031-360-5102",
+        "031-360-5101",
+        "031-998-9421"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-360-5102",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-360-5101",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-998-9421",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_노블"
@@ -21483,17 +22301,61 @@
       "address": "경기 안양시 동안구 동안로 57\n경기 안양시 동안구 호계동 1053-4",
       "roadAddress": "경기 안양시 동안구 동안로 57",
       "jibunAddress": "경기 안양시 동안구 호계동 1053-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-385-2733",
+      "phones": [
+        "031-385-2733",
+        "031-384-8621",
+        "031-382-1250"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-385-2733",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-384-8621",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-382-1250",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_목련동아경남"
