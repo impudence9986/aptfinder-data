@@ -1,6 +1,6 @@
 {
-  "version": 1785782515,
-  "updatedAt": "2026-08-03 18:41:55",
+  "version": 1785868170,
+  "updatedAt": "2026-08-04 18:29:30",
   "sido": "경기도",
   "sigungu": "용인시",
   "count": 807,
@@ -15001,16 +15001,18 @@
       "jibunAddress": "경기 용인시 수지구 성복동 787",
       "phone": "031-262-9556",
       "phones": [
-        "031-262-9556"
+        "031-262-9556",
+        "031-262-9557"
       ],
       "phoneCandidates": [
         {
           "number": "031-262-9556",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 경기 용인시 수지구 성복동 787 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15019,14 +15021,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-262-9557",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 성복동 787 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "236",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-04 18:18:06",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -39058,17 +39075,33 @@
       "address": "경기 용인시 수지구 성복동 500-2",
       "roadAddress": "",
       "jibunAddress": "경기 용인시 수지구 성복동 500-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-263-7000",
+      "phones": [
+        "031-263-7000"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-263-7000",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_용인시_수지몽펠리에힐포레2"
@@ -39537,17 +39570,47 @@
       "address": "경기 용인시 기흥구 신갈로 46\n경기 용인시 기흥구 신갈동 70-2",
       "roadAddress": "경기 용인시 기흥구 신갈로 46",
       "jibunAddress": "경기 용인시 기흥구 신갈동 70-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-485-8700",
+      "phones": [
+        "031-485-8700",
+        "031-281-5557"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-485-8700",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-281-5557",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_스위트클래스"
@@ -39738,17 +39801,61 @@
       "address": "경기 용인시 기흥구 신갈로124번길 23-5\n경기 용인시 기흥구 신갈동 14-17",
       "roadAddress": "경기 용인시 기흥구 신갈로124번길 23-5",
       "jibunAddress": "경기 용인시 기흥구 신갈동 14-17",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-526-7114",
+      "phones": [
+        "031-526-7114",
+        "031-285-4321",
+        "031-275-9900"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-526-7114",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-285-4321",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-275-9900",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_행인"
@@ -39992,17 +40099,61 @@
       "address": "경기 용인시 수지구 신봉3로 6\n경기 용인시 수지구 신봉동 965",
       "roadAddress": "경기 용인시 수지구 신봉3로 6",
       "jibunAddress": "경기 용인시 수지구 신봉동 965",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-896-7818",
+      "phones": [
+        "031-896-7818",
+        "031-896-7817",
+        "031-705-4925"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-896-7818",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-896-7817",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-705-4925",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_수지신봉동도센트리움"
@@ -40024,17 +40175,61 @@
       "address": "경기 용인시 수지구 신봉1로172번길 8\n경기 용인시 수지구 신봉동 959",
       "roadAddress": "경기 용인시 수지구 신봉1로172번길 8",
       "jibunAddress": "경기 용인시 수지구 신봉동 959",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-263-3538",
+      "phones": [
+        "031-263-3538",
+        "031-266-6001",
+        "031-266-6977"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-263-3538",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-266-6001",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-266-6977",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_신봉마을1동부센트레빌"
@@ -40056,17 +40251,61 @@
       "address": "경기 용인시 수지구 신봉3로 25\n경기 용인시 수지구 신봉동 985",
       "roadAddress": "경기 용인시 수지구 신봉3로 25",
       "jibunAddress": "경기 용인시 수지구 신봉동 985",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-276-0037",
+      "phones": [
+        "031-276-0037",
+        "031-276-0035",
+        "031-278-0114"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-276-0037",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-276-0035",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-278-0114",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_신봉마을3동일하이빌"
@@ -40088,17 +40327,61 @@
       "address": "경기 용인시 수지구 신봉3로12번길 9\n경기 용인시 수지구 신봉동 976",
       "roadAddress": "경기 용인시 수지구 신봉3로12번길 9",
       "jibunAddress": "경기 용인시 수지구 신봉동 976",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-276-0037",
+      "phones": [
+        "031-276-0037",
+        "031-276-0035",
+        "031-263-5746"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-276-0037",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-276-0035",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-263-5746",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_신봉마을4동일하이빌"
@@ -40120,17 +40403,61 @@
       "address": "경기 용인시 수지구 신봉1로 216\n경기 용인시 수지구 신봉동 946",
       "roadAddress": "경기 용인시 수지구 신봉1로 216",
       "jibunAddress": "경기 용인시 수지구 신봉동 946",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-263-3538",
+      "phones": [
+        "031-263-3538",
+        "031-264-3538",
+        "031-262-0764"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-263-3538",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-264-3538",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-262-0764",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_신봉마을6동부센트레빌"
@@ -40152,17 +40479,61 @@
       "address": "경기 용인시 수지구 신봉1로 214\n경기 용인시 수지구 신봉동 949",
       "roadAddress": "경기 용인시 수지구 신봉1로 214",
       "jibunAddress": "경기 용인시 수지구 신봉동 949",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-263-3538",
+      "phones": [
+        "031-263-3538",
+        "031-889-9997",
+        "031-266-6001"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-263-3538",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-889-9997",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-266-6001",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_신봉마을동부센트레빌5"
@@ -40184,17 +40555,61 @@
       "address": "경기 용인시 수지구 신봉1로 110\n경기 용인시 수지구 신봉동 870",
       "roadAddress": "경기 용인시 수지구 신봉1로 110",
       "jibunAddress": "경기 용인시 수지구 신봉동 870",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-897-5549",
+      "phones": [
+        "031-897-5549",
+        "031-897-5541",
+        "031-693-7884"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-897-5549",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-897-5541",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-693-7884",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_신봉마을엘지빌리지5차a"
@@ -40727,17 +41142,47 @@
       "address": "경기 용인시 처인구 양지읍 양지리 344",
       "roadAddress": "",
       "jibunAddress": "경기 용인시 처인구 양지읍 양지리 344",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-339-9948",
+      "phones": [
+        "031-339-9948",
+        "031-337-3969"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-339-9948",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-337-3969",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_용인시_용인양지서희스타힐스하이뷰2030년09월예정"
@@ -40759,17 +41204,33 @@
       "address": "경기 용인시 처인구 양지읍 양지리 산 97-12",
       "roadAddress": "",
       "jibunAddress": "경기 용인시 처인구 양지읍 양지리 산 97-12",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-264-0710",
+      "phones": [
+        "031-264-0710"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-264-0710",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 용인시 처인구 양지읍 양지리 산 97-12 전화번호, 용인시 용인푸르지오원클러스터파크 (2028년12월예정) 관리실, 용인푸르지오원클러스터파크아파트 (2028년12월예정) 관리실, 용인푸르지오원클러스터파크아파트 (2028년12월예정) 전화번호, 용인푸르지오원클러스터파크 (2028년12월예정) 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_용인시_용인푸르지오원클러스터파크2028년12월예정"
@@ -40791,17 +41252,33 @@
       "address": "경기 용인시 기흥구 구성로78번길 4\n경기 용인시 기흥구 언남동 379",
       "roadAddress": "경기 용인시 기흥구 구성로78번길 4",
       "jibunAddress": "경기 용인시 기흥구 언남동 379",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-282-0377",
+      "phones": [
+        "031-282-0377"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-282-0377",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 구성로78번길 4 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_구성역플랫폼시온시티47예정"
@@ -40823,17 +41300,61 @@
       "address": "경기 용인시 기흥구 용인향교로 12-6\n경기 용인시 기흥구 언남동 335",
       "roadAddress": "경기 용인시 기흥구 용인향교로 12-6",
       "jibunAddress": "경기 용인시 기흥구 언남동 335",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-286-0353",
+      "phones": [
+        "031-286-0353",
+        "031-284-3988",
+        "031-263-3538"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-286-0353",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-284-3988",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-263-3538",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_동부센트레빌삼거리"
@@ -40936,17 +41457,61 @@
       "address": "경기 용인시 기흥구 구성로77번길 3\n경기 용인시 기흥구 언남동 366",
       "roadAddress": "경기 용인시 기흥구 구성로77번길 3",
       "jibunAddress": "경기 용인시 기흥구 언남동 366",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-210-1268",
+      "phones": [
+        "031-210-1268",
+        "031-210-1271",
+        "031-210-1374"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-210-1268",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 언남동 366 전화번호, 경기 용인시 기흥구 구성로77번길 3 관리사무소, 경기 용인시 기흥구 구성로77번길 3 관리실, 경기 용인시 기흥구 구성로77번길 3 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-210-1271",
+          "score": 96,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 언남동 366 전화번호, 경기 용인시 기흥구 구성로77번길 3 전화번호, 준아트빌366오피스텔 전화번호, 준아트빌366 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-210-1374",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 구성로77번길 3 전화번호, 준아트빌366오피스텔 전화번호, 준아트빌366 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_준아트빌366"
@@ -41428,17 +41993,75 @@
       "address": "경기 용인시 처인구 명지로16번길 9-24\n경기 용인시 처인구 역북동 747-1",
       "roadAddress": "경기 용인시 처인구 명지로16번길 9-24",
       "jibunAddress": "경기 용인시 처인구 역북동 747-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1312-5203",
+      "phones": [
+        "07-1312-5203",
+        "00-0507-1312",
+        "07-1341-6847",
+        "07-1388-9190"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1312-5203",
+          "score": 77,
+          "source": "네이버",
+          "keyword": "경기 용인시 처인구 명지로16번길 9-24 관리사무소, 경기 용인시 처인구 명지로16번길 9-24 관리실, 경기 용인시 처인구 명지로16번길 9-24 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "00-0507-1312",
+          "score": 73,
+          "source": "네이버",
+          "keyword": "경기 용인시 처인구 명지로16번길 9-24 관리사무소, 경기 용인시 처인구 명지로16번길 9-24 관리실, 경기 용인시 처인구 명지로16번길 9-24 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1341-6847",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 처인구 명지로16번길 9-24 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1388-9190",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 처인구 명지로16번길 9-24 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_jy진영리스빌"
@@ -41460,17 +42083,33 @@
       "address": "경기 용인시 처인구 금학로277번길 5\n경기 용인시 처인구 역북동 434-18",
       "roadAddress": "경기 용인시 처인구 금학로277번길 5",
       "jibunAddress": "경기 용인시 처인구 역북동 434-18",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-0001-0001",
+      "phones": [
+        "031-0001-0001"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-0001-0001",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_m&y"
@@ -41492,17 +42131,47 @@
       "address": "경기 용인시 처인구 금학로241번길 22-6\n경기 용인시 처인구 역북동 378-1",
       "roadAddress": "경기 용인시 처인구 금학로241번길 22-6",
       "jibunAddress": "경기 용인시 처인구 역북동 378-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-324-4257",
+      "phones": [
+        "031-324-4257",
+        "031-322-9904"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-324-4257",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-322-9904",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_금수"
@@ -41524,17 +42193,33 @@
       "address": "경기 용인시 처인구 금학로235번길 15\n경기 용인시 처인구 역북동 819-3",
       "roadAddress": "경기 용인시 처인구 금학로235번길 15",
       "jibunAddress": "경기 용인시 처인구 역북동 819-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-328-2100",
+      "phones": [
+        "031-328-2100"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-328-2100",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 처인구 역북동 819-3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_명지대역네스트프라임파크"
@@ -41556,17 +42241,61 @@
       "address": "경기 용인시 처인구 낙은로 100-30\n경기 용인시 처인구 역북동 233",
       "roadAddress": "경기 용인시 처인구 낙은로 100-30",
       "jibunAddress": "경기 용인시 처인구 역북동 233",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-339-9937",
+      "phones": [
+        "031-339-9937",
+        "031-339-9936",
+        "031-339-9775"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-339-9937",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-339-9936",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-339-9775",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_서희스타힐스포레스트204동"
@@ -41588,17 +42317,61 @@
       "address": "경기 용인시 처인구 금학로235번길 18\n경기 용인시 처인구 역북동 377-15",
       "roadAddress": "경기 용인시 처인구 금학로235번길 18",
       "jibunAddress": "경기 용인시 처인구 역북동 377-15",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-335-9449",
+      "phones": [
+        "031-335-9449",
+        "031-333-2831",
+        "031-323-1061"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-335-9449",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-333-2831",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-323-1061",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_스카이"
@@ -41620,17 +42393,33 @@
       "address": "경기 용인시 처인구 금학로241번길 20\n경기 용인시 처인구 역북동 378",
       "roadAddress": "경기 용인시 처인구 금학로241번길 20",
       "jibunAddress": "경기 용인시 처인구 역북동 378",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-323-1112",
+      "phones": [
+        "051-323-1112"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-323-1112",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "신성원룸오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_신성원룸"
@@ -41720,8 +42509,8 @@
       "sido": "경기도",
       "district": "처인구",
       "dong": "역북동",
-      "address": "경기 용인시 처인구 역북동 89-25",
-      "roadAddress": "",
+      "address": "경기 용인시 처인구 성산로 180\n경기 용인시 처인구 역북동 89-25",
+      "roadAddress": "경기 용인시 처인구 성산로 180",
       "jibunAddress": "경기 용인시 처인구 역북동 89-25",
       "phone": "",
       "phones": [],
@@ -41735,7 +42524,7 @@
       "reportCount": 0,
       "confidenceScore": 0,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_역북서희스타힐스프라임시티2027년03월예정"
     },
     {
@@ -41836,17 +42625,47 @@
       "address": "경기 용인시 처인구 용문로 46\n경기 용인시 처인구 역북동 426-1",
       "roadAddress": "경기 용인시 처인구 용문로 46",
       "jibunAddress": "경기 용인시 처인구 역북동 426-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-595-9164",
+      "phones": [
+        "031-595-9164",
+        "031-247-4100"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-595-9164",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-247-4100",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_오딧세이"
@@ -42052,17 +42871,33 @@
       "address": "경기 용인시 처인구 명지로 24\n경기 용인시 처인구 역북동 745",
       "roadAddress": "경기 용인시 처인구 명지로 24",
       "jibunAddress": "경기 용인시 처인구 역북동 745",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-338-4998",
+      "phones": [
+        "031-338-4998"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-338-4998",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_용인역북럭스나인"
@@ -42084,17 +42919,61 @@
       "address": "경기 용인시 처인구 낙은로 11\n경기 용인시 처인구 역북동 795",
       "roadAddress": "경기 용인시 처인구 낙은로 11",
       "jibunAddress": "경기 용인시 처인구 역북동 795",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-323-0296",
+      "phones": [
+        "031-323-0296",
+        "031-323-0295",
+        "031-204-8801"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-323-0296",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-323-0295",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-204-8801",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_용인시_용인역북신원아침도시"
