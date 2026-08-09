@@ -1,6 +1,6 @@
 {
-  "version": 1781313279,
-  "updatedAt": "2026-06-13 01:14:39",
+  "version": 1786296870,
+  "updatedAt": "2026-08-09 17:34:30",
   "sido": "전북특별자치도",
   "sigungu": "군산시",
   "count": 186,
@@ -7127,9 +7127,9 @@
       "sido": "전북특별자치도",
       "district": "",
       "dong": "내흥동",
-      "address": "전북특별자치도 군산시 내흥동 1017 군산내흥3단지 LH아파트",
-      "roadAddress": "",
-      "jibunAddress": "전북특별자치도 군산시 내흥동 1017 군산내흥3단지 LH아파트",
+      "address": "전북특별자치도 군산시 사옥로 69\n전북특별자치도 군산시 내흥동 1017",
+      "roadAddress": "전북특별자치도 군산시 사옥로 69",
+      "jibunAddress": "전북특별자치도 군산시 내흥동 1017",
       "phone": "063-443-2983",
       "phones": [
         "063-443-2983"
@@ -7164,7 +7164,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "전북특별자치도_군산시_군산내흥3lh"
     },
     {
@@ -7528,17 +7528,61 @@
       "address": "전북특별자치도 군산시 미제2길 8-4\n전북특별자치도 군산시 미룡동 875-1",
       "roadAddress": "전북특별자치도 군산시 미제2길 8-4",
       "jibunAddress": "전북특별자치도 군산시 미룡동 875-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "062-236-2507",
+      "phones": [
+        "062-236-2507",
+        "063-467-8883",
+        "063-465-4241"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "062-236-2507",
+          "score": 100,
+          "source": "114On",
+          "keyword": "전북특별자치도 군산시 미룡동 875-1 전화번호, 전북특별자치도 군산시 미제2길 8-4 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "063-467-8883",
+          "score": 100,
+          "source": "114On",
+          "keyword": "전북특별자치도 군산시 미제2길 8-4 전화번호, 군창아리울 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "063-465-4241",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "군창아리울오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "전북특별자치도_군산시_군창아리울"
@@ -8159,17 +8203,103 @@
       "address": "전북특별자치도 군산시 수송로 315\n전북특별자치도 군산시 미장동 519-5",
       "roadAddress": "전북특별자치도 군산시 수송로 315",
       "jibunAddress": "전북특별자치도 군산시 미장동 519-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "063-464-7542",
+      "phones": [
+        "063-464-7542",
+        "063-471-5114",
+        "063-471-9532",
+        "063-910-1193",
+        "063-443-0013",
+        "063-467-7952"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "063-464-7542",
+          "score": 100,
+          "source": "114On",
+          "keyword": "전북특별자치도 군산시 미장동 519-5 전화번호, 전북특별자치도 군산시 수송로 315 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "063-471-5114",
+          "score": 91,
+          "source": "114On",
+          "keyword": "전북특별자치도 군산시 미장동 519-5 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "063-471-9532",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "전북특별자치도 군산시 미장동 519-5 관리실, 전북특별자치도 군산시 수송로 315 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "063-910-1193",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "전북특별자치도 군산시 미장동 519-5 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "063-443-0013",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "전북특별자치도 군산시 미장동 519-5 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "063-467-7952",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "전북특별자치도 군산시 미장동 519-5 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "전북특별자치도_군산시_군산한라비발디프라임홍보관"
@@ -8593,17 +8723,33 @@
       "address": "전북특별자치도 군산시 풍전4길 28\n전북특별자치도 군산시 소룡동 831",
       "roadAddress": "전북특별자치도 군산시 풍전4길 28",
       "jibunAddress": "전북특별자치도 군산시 소룡동 831",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "063-466-4688",
+      "phones": [
+        "063-466-4688"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "063-466-4688",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "해강솔비앙2단지 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "전북특별자치도_군산시_해강솔비앙2"
@@ -9852,17 +9998,299 @@
       "address": "전북특별자치도 군산시 지곡로 52\n전북특별자치도 군산시 지곡동 612",
       "roadAddress": "전북특별자치도 군산시 지곡로 52",
       "jibunAddress": "전북특별자치도 군산시 지곡동 612",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "063-471-4560",
+      "phones": [
+        "063-471-4560",
+        "055-785-0886",
+        "063-461-6733",
+        "063-471-0226",
+        "02-717-9697",
+        "052-249-9952",
+        "042-933-2300",
+        "061-641-1168",
+        "062-267-6097",
+        "055-313-2795",
+        "052-294-5570",
+        "052-294-5571",
+        "063-467-0209",
+        "054-293-6162",
+        "054-293-8332",
+        "054-222-7526",
+        "054-221-4997",
+        "063-471-5566",
+        "02-717-9698",
+        "031-339-8086"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "063-471-4560",
+          "score": 100,
+          "source": "114On",
+          "keyword": "전북특별자치도 군산시 지곡동 612 전화번호, 전북특별자치도 군산시 지곡로 52 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "055-785-0886",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서희스타힐스아파트 관리사무소, 서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "063-461-6733",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "전북특별자치도 군산시 지곡동 612 관리사무소, 전북특별자치도 군산시 지곡동 612 전화번호, 전북특별자치도 군산시 지곡로 52 관리사무소, 전북특별자치도 군산시 지곡로 52 관리실, 지곡동 서희스타힐스 관리사무소, 군산시 서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "063-471-0226",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "전북특별자치도 군산시 지곡동 612 관리사무소, 전북특별자치도 군산시 지곡동 612 전화번호, 전북특별자치도 군산시 지곡로 52 관리사무소, 전북특별자치도 군산시 지곡로 52 관리실, 지곡동 서희스타힐스 관리사무소, 군산시 서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "02-717-9697",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서희스타힐스아파트 관리사무소, 서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "052-249-9952",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서희스타힐스아파트 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "042-933-2300",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "061-641-1168",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "062-267-6097",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "055-313-2795",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서희스타힐스아파트 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "052-294-5570",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서희스타힐스아파트 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "052-294-5571",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서희스타힐스아파트 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "063-467-0209",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "전북특별자치도 군산시 지곡로 52 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-293-6162",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "지곡동 서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-293-8332",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "지곡동 서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-222-7526",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "지곡동 서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-221-4997",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "지곡동 서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "063-471-5566",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "군산시 서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-717-9698",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서희스타힐스아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-339-8086",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "전북특별자치도_군산시_서희스타힐스"

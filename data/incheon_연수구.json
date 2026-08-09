@@ -1,6 +1,6 @@
 {
-  "version": 1786210933,
-  "updatedAt": "2026-08-08 17:42:13",
+  "version": 1786296525,
+  "updatedAt": "2026-08-09 17:28:45",
   "sido": "인천광역시",
   "sigungu": "연수구",
   "count": 289,
@@ -7125,10 +7125,11 @@
         {
           "number": "032-811-3030",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 인천 연수구 연수동 593-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7137,14 +7138,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "117",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-09 17:21:11",
       "detailUpdatedAt": 1781222893722,
       "listUpdatedAt": 1781222893722,
       "phoneStatus": "CONFIRMED",
@@ -7173,16 +7176,19 @@
       "jibunAddress": "인천 연수구 연수동 593",
       "phone": "032-811-3030",
       "phones": [
-        "032-811-3030"
+        "032-811-3030",
+        "032-812-8338",
+        "032-749-6550"
       ],
       "phoneCandidates": [
         {
           "number": "032-811-3030",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 인천 연수구 연수동 593 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7191,14 +7197,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-812-8338",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 연수동 593 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-749-6550",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 연수동 593 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "110",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-09 17:21:15",
       "detailUpdatedAt": 1781222893722,
       "listUpdatedAt": 1781222893722,
       "phoneStatus": "CONFIRMED",
@@ -14732,17 +14766,33 @@
       "address": "인천 연수구 송도동 399-13",
       "roadAddress": "",
       "jibunAddress": "인천 연수구 송도동 399-13",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-831-7765",
+      "phones": [
+        "032-831-7765"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-831-7765",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 399-13 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "인천광역시_연수구_힐스테이트레이크송도5차2028년06월예정"
@@ -15039,17 +15089,47 @@
       "address": "인천 연수구 용담로117번길 27\n인천 연수구 연수동 595-2",
       "roadAddress": "인천 연수구 용담로117번길 27",
       "jibunAddress": "인천 연수구 연수동 595-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-814-5999",
+      "phones": [
+        "032-814-5999",
+        "032-816-3338"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-814-5999",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 용담로117번길 27 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-816-3338",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 용담로117번길 27 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_남양"
@@ -15155,17 +15235,89 @@
       "address": "인천 연수구 먼우금로 194\n인천 연수구 연수동 597-3",
       "roadAddress": "인천 연수구 먼우금로 194",
       "jibunAddress": "인천 연수구 연수동 597-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-813-0077",
+      "phones": [
+        "032-813-0077",
+        "032-814-9393",
+        "032-822-5259",
+        "032-822-7003",
+        "032-818-2828"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-813-0077",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 연수동 597-3 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-814-9393",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 연수동 597-3 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-822-5259",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 연수동 597-3 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-822-7003",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로 194 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-818-2828",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로 194 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_메카"
@@ -15319,17 +15471,61 @@
       "address": "인천 연수구 용담로118번길 21\n인천 연수구 연수동 598-11",
       "roadAddress": "인천 연수구 용담로118번길 21",
       "jibunAddress": "인천 연수구 연수동 598-11",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-816-9229",
+      "phones": [
+        "032-816-9229",
+        "032-812-3338",
+        "032-814-8507"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-816-9229",
+          "score": 100,
+          "source": "114On",
+          "keyword": "인천 연수구 연수동 598-11 전화번호, 인천 연수구 용담로118번길 21 전화번호, 미지프라임빌 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "032-812-3338",
+          "score": 100,
+          "source": "114On",
+          "keyword": "인천 연수구 연수동 598-11 전화번호, 인천 연수구 용담로118번길 21 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-814-8507",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "미지프라임빌 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_미지프라임빌"
@@ -15555,17 +15751,219 @@
       "address": "인천 연수구 먼우금로188번길 12\n인천 연수구 연수동 599-1",
       "roadAddress": "인천 연수구 먼우금로188번길 12",
       "jibunAddress": "인천 연수구 연수동 599-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-812-1219",
+      "phones": [
+        "032-812-1219",
+        "032-818-7010",
+        "032-813-1500",
+        "032-822-6660",
+        "032-811-7582",
+        "032-818-8114",
+        "032-815-8875",
+        "032-812-7180",
+        "032-813-7180",
+        "032-814-9950",
+        "07-1370-2499",
+        "032-822-2453",
+        "032-816-1688",
+        "032-814-4101"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-812-1219",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "인천 연수구 연수동 599-1 전화번호, 인천 연수구 먼우금로188번길 12 전화번호, 이리옴3오피스텔 전화번호, 이리옴3 전화번호",
+          "sourceCounts": {
+            "114On": 3,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 3회 · 네이버 1회"
+        },
+        {
+          "number": "032-818-7010",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "인천 연수구 연수동 599-1 전화번호, 이리옴3 전화번호",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "032-813-1500",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 연수동 599-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-822-6660",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 연수동 599-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-811-7582",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 연수동 599-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-818-8114",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 먼우금로188번길 12 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-815-8875",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 먼우금로188번길 12 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-812-7180",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로188번길 12 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-813-7180",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로188번길 12 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-814-9950",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로188번길 12 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1370-2499",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "연수구 이리옴3 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-822-2453",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이리옴3오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-816-1688",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이리옴3오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-814-4101",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이리옴3 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_이리옴3"
@@ -15723,17 +16121,75 @@
       "address": "인천 연수구 한진로 76\n인천 연수구 옥련동 647",
       "roadAddress": "인천 연수구 한진로 76",
       "jibunAddress": "인천 연수구 옥련동 647",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "020-901-2022",
+      "phones": [
+        "020-901-2022",
+        "032-834-2549",
+        "032-831-2701",
+        "032-831-2702"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "020-901-2022",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "KTX송도역서해그랑블아파트 전화번호, KTX송도역서해그랑블 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-834-2549",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "KTX송도역서해그랑블아파트 전화번호, KTX송도역서해그랑블 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-831-2701",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 한진로 76 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-831-2702",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 한진로 76 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 53,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_ktx송도역서해그랑블"
@@ -15755,17 +16211,47 @@
       "address": "인천 연수구 능허대로179번길 17\n인천 연수구 옥련동 518-9",
       "roadAddress": "인천 연수구 능허대로179번길 17",
       "jibunAddress": "인천 연수구 옥련동 518-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-761-5881",
+      "phones": [
+        "02-761-5881",
+        "05-861-5919"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-761-5881",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "UNIOS 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "05-861-5919",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "UNIOS 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_unios"
@@ -15787,17 +16273,35 @@
       "address": "인천 연수구 독배로82번길 27-3\n인천 연수구 옥련동 168-1",
       "roadAddress": "인천 연수구 독배로82번길 27-3",
       "jibunAddress": "인천 연수구 옥련동 168-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-831-1449",
+      "phones": [
+        "032-831-1449"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-831-1449",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "인천 연수구 독배로82번길 27-3 전화번호, 극동힐타운 전화번호",
+          "sourceCounts": {
+            "114On": 2,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 2회 · 네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_극동힐타운"
@@ -15947,17 +16451,103 @@
       "address": "인천 연수구 능허대로149번길 11\n인천 연수구 옥련동 468-1",
       "roadAddress": "인천 연수구 능허대로149번길 11",
       "jibunAddress": "인천 연수구 옥련동 468-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-851-4772",
+      "phones": [
+        "032-851-4772",
+        "032-761-8606",
+        "070-4100-7031",
+        "031-795-4557",
+        "031-455-4034",
+        "02-883-1723"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-851-4772",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 옥련동 468-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-761-8606",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 옥련동 468-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "070-4100-7031",
+          "score": 91,
+          "source": "114On",
+          "keyword": "마이룸 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-795-4557",
+          "score": 91,
+          "source": "114On",
+          "keyword": "마이룸 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-455-4034",
+          "score": 91,
+          "source": "114On",
+          "keyword": "마이룸 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-883-1723",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마이룸 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_마이룸"
@@ -16566,17 +17156,33 @@
       "address": "인천 연수구 능허대로179번길 27\n인천 연수구 옥련동 524-10",
       "roadAddress": "인천 연수구 능허대로179번길 27",
       "jibunAddress": "인천 연수구 옥련동 524-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-851-8220",
+      "phones": [
+        "032-851-8220"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-851-8220",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "제일아키텍오피스텔 전화번호, 제일아키텍 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 51,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_제일아키텍"
@@ -16682,17 +17288,301 @@
       "address": "인천 연수구 비류대로 170\n인천 연수구 옥련동 265-8",
       "roadAddress": "인천 연수구 비류대로 170",
       "jibunAddress": "인천 연수구 옥련동 265-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-822-3339",
+      "phones": [
+        "032-822-3339",
+        "053-561-4433",
+        "02-767-5645",
+        "031-461-2293",
+        "02-3498-2600",
+        "02-6480-1000",
+        "051-753-7784",
+        "051-937-6546",
+        "061-852-5850",
+        "054-261-8833",
+        "033-637-4682",
+        "061-794-2558",
+        "031-287-4810",
+        "031-853-6013",
+        "02-5796-9902",
+        "031-326-6200",
+        "000-202-2018",
+        "032-818-7010",
+        "032-811-7582",
+        "051-506-0018"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-822-3339",
+          "score": 100,
+          "source": "114On",
+          "keyword": "인천 연수구 옥련동 265-8 전화번호, 인천 연수구 비류대로 170 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "053-561-4433",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "태평양 전화번호",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-767-5645",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "연수구 태평양 관리사무소, 연수구 연수구 태평양 관리사무소, 연수구 태평양 관리실, 태평양오피스텔 관리사무소, 태평양오피스텔 관리실, 태평양오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "031-461-2293",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "옥련동 태평양 관리사무소, 연수구 태평양 관리사무소, 연수구 연수구 태평양 관리사무소, 태평양오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "02-3498-2600",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "연수구 태평양 관리사무소, 연수구 연수구 태평양 관리사무소, 태평양오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-6480-1000",
+          "score": 97,
+          "source": "네이버",
+          "keyword": "연수구 태평양 관리실, 태평양오피스텔 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-753-7784",
+          "score": 91,
+          "source": "114On",
+          "keyword": "태평양 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-937-6546",
+          "score": 91,
+          "source": "114On",
+          "keyword": "태평양 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "061-852-5850",
+          "score": 91,
+          "source": "114On",
+          "keyword": "태평양 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "054-261-8833",
+          "score": 91,
+          "source": "114On",
+          "keyword": "태평양 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "033-637-4682",
+          "score": 91,
+          "source": "114On",
+          "keyword": "태평양 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "061-794-2558",
+          "score": 91,
+          "source": "114On",
+          "keyword": "태평양 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-287-4810",
+          "score": 91,
+          "source": "114On",
+          "keyword": "태평양 관리단",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-853-6013",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "옥련동 태평양 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-5796-9902",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "옥련동 태평양 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-326-6200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "옥련동 태평양 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "000-202-2018",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "연수구 태평양 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-818-7010",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "연수구 태평양 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-811-7582",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "연수구 태평양 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-506-0018",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "태평양오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_태평양"
@@ -16714,17 +17604,47 @@
       "address": "인천 연수구 대암로8번길 17\n인천 연수구 옥련동 558",
       "roadAddress": "인천 연수구 대암로8번길 17",
       "jibunAddress": "인천 연수구 옥련동 558",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-832-2222",
+      "phones": [
+        "032-832-2222",
+        "032-833-0357"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-832-2222",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 옥련동 558 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-833-0357",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 옥련동 558 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_파크n테라스휴"
@@ -17052,17 +17972,131 @@
       "address": "인천 연수구 솔샘로 20\n인천 연수구 청학동 448-1",
       "roadAddress": "인천 연수구 솔샘로 20",
       "jibunAddress": "인천 연수구 청학동 448-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-831-4933",
+      "phones": [
+        "032-831-4933",
+        "032-832-0494",
+        "032-831-7784",
+        "032-814-9929",
+        "032-831-8220",
+        "032-463-9669",
+        "032-833-5192",
+        "032-814-9928"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-831-4933",
+          "score": 100,
+          "source": "114On",
+          "keyword": "인천 연수구 청학동 448-1 관리사무소, 청학동 삼용 관리사무소, 연수구 삼용 관리사무소, 연수구 연수구 삼용 관리사무소, 삼용아파트 관리사무소",
+          "sourceCounts": {
+            "114On": 6
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 6
+          },
+          "sourceSummary": "114On 6회"
+        },
+        {
+          "number": "032-832-0494",
+          "score": 100,
+          "source": "114On",
+          "keyword": "인천 연수구 청학동 448-1 전화번호, 인천 연수구 솔샘로 20 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-831-7784",
+          "score": 100,
+          "source": "114On",
+          "keyword": "인천 연수구 청학동 448-1 전화번호, 인천 연수구 솔샘로 20 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-814-9929",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "인천 연수구 청학동 448-1 관리사무소, 인천 연수구 청학동 448-1 관리실, 연수구 삼용 관리사무소, 연수구 연수구 삼용 관리사무소, 연수구 삼용 관리실",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "032-831-8220",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 청학동 448-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-463-9669",
+          "score": 85,
+          "source": "네이버",
+          "keyword": "인천 연수구 청학동 448-1 관리사무소, 인천 연수구 청학동 448-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-833-5192",
+          "score": 83,
+          "source": "네이버",
+          "keyword": "인천 연수구 청학동 448-1 관리사무소, 인천 연수구 청학동 448-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-814-9928",
+          "score": 75,
+          "source": "네이버",
+          "keyword": "연수구 삼용 관리사무소, 연수구 연수구 삼용 관리사무소, 연수구 삼용 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_삼용"
@@ -17260,17 +18294,146 @@
       "address": "인천 연수구 먼우금로 217\n인천 연수구 청학동 499",
       "roadAddress": "인천 연수구 먼우금로 217",
       "jibunAddress": "인천 연수구 청학동 499",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-819-1390",
+      "phones": [
+        "032-819-1390",
+        "032-813-0702",
+        "032-814-9929",
+        "032-814-9928",
+        "032-816-4133",
+        "02-577-6525",
+        "032-816-3322",
+        "032-812-8998",
+        "032-812-8558"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-819-1390",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 청학동 499 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-813-0702",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 청학동 499 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-814-9929",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "인천 연수구 청학동 499 관리사무소, 인천 연수구 청학동 499 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-814-9928",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "인천 연수구 청학동 499 관리사무소, 인천 연수구 청학동 499 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-816-4133",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로 217 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-577-6525",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 청학동 499 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-816-3322",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 청학동 499 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-812-8998",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로 217 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-812-8558",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로 217 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_연수푸르지오4"
