@@ -1,6 +1,6 @@
 {
-  "version": 1784398449,
-  "updatedAt": "2026-07-18 18:14:09",
+  "version": 1786384136,
+  "updatedAt": "2026-08-10 17:48:56",
   "sido": "세종특별자치시",
   "sigungu": "세종시",
   "count": 258,
@@ -1428,16 +1428,18 @@
       "jibunAddress": "세종특별자치시 아름동 1282",
       "phone": "044-866-6878",
       "phones": [
-        "044-866-6878"
+        "044-866-6878",
+        "044-867-6306",
+        "044-867-6308"
       ],
       "phoneCandidates": [
         {
           "number": "044-866-6878",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1446,14 +1448,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "044-867-6306",
+          "score": 100,
+          "source": "카카오, 네이버",
+          "keyword": "세종특별자치시 아름동 1282 관리사무소, 세종특별자치시 아름동 1282 관리실",
+          "sourceCounts": {
+            "카카오": 2,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "카카오 2회 · 네이버 1회"
+        },
+        {
+          "number": "044-867-6308",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "세종특별자치시 아름동 1282 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "852",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:42:59",
       "detailUpdatedAt": 1781305607388,
       "listUpdatedAt": 1781305607388,
       "phoneStatus": "CONFIRMED",
@@ -2022,16 +2053,18 @@
       "jibunAddress": "세종특별자치시 조치원읍 신안리 542",
       "phone": "044-865-7250",
       "phones": [
-        "044-865-7250"
+        "044-865-7250",
+        "044-866-2344"
       ],
       "phoneCandidates": [
         {
           "number": "044-865-7250",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 세종특별자치시 조치원읍 신안리 542 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2040,14 +2073,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "044-866-2344",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "세종특별자치시 조치원읍 신안리 542 관리사무소, 세종특별자치시 조치원읍 신안리 542 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "983",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:45:40",
       "detailUpdatedAt": 1781305607388,
       "listUpdatedAt": 1781305607388,
       "phoneStatus": "CONFIRMED",
@@ -2238,16 +2286,18 @@
       "jibunAddress": "세종특별자치시 나성동 751",
       "phone": "044-867-8421",
       "phones": [
-        "044-867-8421"
+        "044-867-8421",
+        "044-862-3394",
+        "044-862-3395"
       ],
       "phoneCandidates": [
         {
           "number": "044-867-8421",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2256,14 +2306,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "044-862-3394",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "세종특별자치시 나성동 751 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "044-862-3395",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "세종특별자치시 나성동 751 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "174",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:40:09",
       "detailUpdatedAt": 1781305607388,
       "listUpdatedAt": 1781305607388,
       "phoneStatus": "CONFIRMED",
@@ -3540,10 +3617,11 @@
         {
           "number": "044-867-4660",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, existing, 세종특별자치시 조치원읍 침산리 89 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3552,14 +3630,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On/네이버 스니펫": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "1208",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:46:07",
       "detailUpdatedAt": 1781305607388,
       "listUpdatedAt": 1781305607388,
       "phoneStatus": "CONFIRMED",
@@ -6245,17 +6325,33 @@
       "address": "세종특별자치시 한누리대로 320\n세종특별자치시 나성동 756",
       "roadAddress": "세종특별자치시 한누리대로 320",
       "jibunAddress": "세종특별자치시 나성동 756",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-862-2877",
+      "phones": [
+        "044-862-2877"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-862-2877",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_리치먼드시티세종"
@@ -6277,17 +6373,61 @@
       "address": "세종특별자치시 한누리대로 284\n세종특별자치시 나성동 765",
       "roadAddress": "세종특별자치시 한누리대로 284",
       "jibunAddress": "세종특별자치시 나성동 765",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-867-1686",
+      "phones": [
+        "044-867-1686",
+        "044-862-9906",
+        "044-099-8176"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-867-1686",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-862-9906",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-099-8176",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_마들렌"
@@ -6309,17 +6449,33 @@
       "address": "세종특별자치시 나성로 38\n세종특별자치시 나성동 821",
       "roadAddress": "세종특별자치시 나성로 38",
       "jibunAddress": "세종특별자치시 나성동 821",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-866-8243",
+      "phones": [
+        "044-866-8243"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-866-8243",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_세종가로수길"
@@ -6491,17 +6647,33 @@
       "address": "세종특별자치시 한누리대로 207\n세종특별자치시 나성동 713",
       "roadAddress": "세종특별자치시 한누리대로 207",
       "jibunAddress": "세종특별자치시 나성동 713",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-867-8477",
+      "phones": [
+        "044-867-8477"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-867-8477",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_세진이너스빌"
@@ -7293,17 +7465,33 @@
       "address": "세종특별자치시 대평로 71\n세종특별자치시 대평동 687",
       "roadAddress": "세종특별자치시 대평로 71",
       "jibunAddress": "세종특별자치시 대평동 687",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-9893-0504",
+      "phones": [
+        "044-9893-0504"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-9893-0504",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_펠리체타워1"
@@ -7443,17 +7631,61 @@
       "address": "세종특별자치시 대평3길 17\n세종특별자치시 대평동 680",
       "roadAddress": "세종특별자치시 대평3길 17",
       "jibunAddress": "세종특별자치시 대평동 680",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-998-0073",
+      "phones": [
+        "044-998-0073",
+        "044-868-1664",
+        "044-272-5327"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-998-0073",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-868-1664",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-272-5327",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_해피라움페스타"
@@ -8653,17 +8885,33 @@
       "address": "세종특별자치시 한누리대로 2197\n세종특별자치시 보람동 732",
       "roadAddress": "세종특별자치시 한누리대로 2197",
       "jibunAddress": "세종특별자치시 보람동 732",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-863-7007",
+      "phones": [
+        "044-863-7007"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-863-7007",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_호려울마을2lh천년나무"
@@ -10110,17 +10358,47 @@
       "address": "세종특별자치시 소담로 70\n세종특별자치시 소담동 566",
       "roadAddress": "세종특별자치시 소담로 70",
       "jibunAddress": "세종특별자치시 소담동 566",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-866-0822",
+      "phones": [
+        "044-866-0822",
+        "044-866-0821"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-866-0822",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-866-0821",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_레전드타워"
@@ -10265,17 +10543,33 @@
       "address": "세종특별자치시 남세종로 358\n세종특별자치시 소담동 594",
       "roadAddress": "세종특별자치시 남세종로 358",
       "jibunAddress": "세종특별자치시 소담동 594",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-867-7684",
+      "phones": [
+        "044-867-7684"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-867-7684",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_새샘마을2한양수자인와이즈시티"
@@ -10661,17 +10955,61 @@
       "address": "세종특별자치시 법원1로 30\n세종특별자치시 소담동 559",
       "roadAddress": "세종특별자치시 법원1로 30",
       "jibunAddress": "세종특별자치시 소담동 559",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-999-4036",
+      "phones": [
+        "044-999-4036",
+        "044-868-5625",
+        "044-868-5623"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-999-4036",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-868-5625",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-868-5623",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_소담캐슬"
@@ -10693,17 +11031,61 @@
       "address": "세종특별자치시 한누리대로 2007\n세종특별자치시 소담동 9-176",
       "roadAddress": "세종특별자치시 한누리대로 2007",
       "jibunAddress": "세종특별자치시 소담동 9-176",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-998-6958",
+      "phones": [
+        "044-998-6958",
+        "044-868-7112",
+        "044-863-7007"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-998-6958",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-868-7112",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-863-7007",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_퍼스트시티"
@@ -11224,17 +11606,61 @@
       "address": "세종특별자치시 달빛1로 122\n세종특별자치시 아름동 1353",
       "roadAddress": "세종특별자치시 달빛1로 122",
       "jibunAddress": "세종특별자치시 아름동 1353",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-868-8187",
+      "phones": [
+        "044-868-8187",
+        "044-868-8185",
+        "044-862-7684"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-868-8187",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-868-8185",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-862-7684",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_범지기마을5상록어울림"
@@ -11438,17 +11864,61 @@
       "address": "세종특별자치시 가름로 255-21\n세종특별자치시 어진동 648",
       "roadAddress": "세종특별자치시 가름로 255-21",
       "jibunAddress": "세종특별자치시 어진동 648",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-999-3300",
+      "phones": [
+        "044-999-3300",
+        "044-998-7405",
+        "044-905-6599"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-999-3300",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-998-7405",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-905-6599",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_2차푸르지오시티"
@@ -11470,17 +11940,61 @@
       "address": "세종특별자치시 가름로 170-14\n세종특별자치시 어진동 664",
       "roadAddress": "세종특별자치시 가름로 170-14",
       "jibunAddress": "세종특별자치시 어진동 664",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-866-4235",
+      "phones": [
+        "044-866-4235",
+        "044-866-9935",
+        "044-866-4236"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-866-4235",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-866-9935",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-866-4236",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_세종모닝시티"
@@ -11736,17 +12250,33 @@
       "address": "세종특별자치시 다솜1로 20\n세종특별자치시 어진동 521",
       "roadAddress": "세종특별자치시 다솜1로 20",
       "jibunAddress": "세종특별자치시 어진동 521",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-960-6500",
+      "phones": [
+        "044-960-6500"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-960-6500",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "인히어오피스텔(KT&G세종타워C) 전화번호, 인히어(KT&G세종타워C) 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 51,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_인히어kt&g세종타워c"
@@ -12002,17 +12532,61 @@
       "address": "세종특별자치시 연서면 도원로 45-40\n세종특별자치시 연서면 월하리 852-8",
       "roadAddress": "세종특별자치시 연서면 도원로 45-40",
       "jibunAddress": "세종특별자치시 연서면 월하리 852-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-865-7636",
+      "phones": [
+        "044-865-7636",
+        "044-865-7635",
+        "044-863-5578"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-865-7636",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-865-7635",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-863-5578",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_세종시월하리예정"
@@ -12149,17 +12723,61 @@
       "address": "세종특별자치시 조치원읍 신안리 544",
       "roadAddress": "",
       "jibunAddress": "세종특별자치시 조치원읍 신안리 544",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-865-7450",
+      "phones": [
+        "044-865-7450",
+        "044-865-7250",
+        "044-868-7112"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-865-7450",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-865-7250",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-868-7112",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "세종특별자치시_세종시_세종e편한세상후문"
@@ -12358,17 +12976,61 @@
       "address": "세종특별자치시 조치원읍 도원로 16\n세종특별자치시 조치원읍 죽림리 396",
       "roadAddress": "세종특별자치시 조치원읍 도원로 16",
       "jibunAddress": "세종특별자치시 조치원읍 죽림리 396",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-868-3556",
+      "phones": [
+        "044-868-3556",
+        "044-868-3558",
+        "044-998-3001"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-868-3556",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-868-3558",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-998-3001",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_자이"
@@ -12520,17 +13182,61 @@
       "address": "세종특별자치시 조치원읍 죽림본로 33-6\n세종특별자치시 조치원읍 죽림리 389",
       "roadAddress": "세종특별자치시 조치원읍 죽림본로 33-6",
       "jibunAddress": "세종특별자치시 조치원읍 죽림리 389",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-868-8802",
+      "phones": [
+        "044-868-8802",
+        "044-862-8802",
+        "044-866-4898"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-868-8802",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-862-8802",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-866-4898",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_조치원죽림푸르지오"
@@ -13555,17 +14261,91 @@
       "address": "세종특별자치시 집현서로 16\n세종특별자치시 집현동",
       "roadAddress": "세종특별자치시 집현서로 16",
       "jibunAddress": "세종특별자치시 집현동",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-868-7401",
+      "phones": [
+        "044-868-7401",
+        "044-868-7402",
+        "044-868-7827",
+        "044-868-7828",
+        "044-864-2213"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-868-7401",
+          "score": 73,
+          "source": "네이버",
+          "keyword": "세종특별자치시 집현서로 16 관리사무소, 세종특별자치시 집현서로 16 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "044-868-7402",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "세종특별자치시 집현서로 16 관리사무소, 세종특별자치시 집현서로 16 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "044-868-7827",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "세종특별자치시 집현서로 16 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "044-868-7828",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "세종특별자치시 집현서로 16 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "044-864-2213",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "세종특별자치시 집현서로 16 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 73,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_새나루마을8세종하늘채센트레빌정문"
@@ -13701,17 +14481,47 @@
       "address": "세종특별자치시 누리로 59\n세종특별자치시 한솔동 1045",
       "roadAddress": "세종특별자치시 누리로 59",
       "jibunAddress": "세종특별자치시 한솔동 1045",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-868-5065",
+      "phones": [
+        "044-868-5065",
+        "044-868-5035"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-868-5065",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-868-5035",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_세종시첫마을5유즈센터"
@@ -13792,17 +14602,61 @@
       "address": "세종특별자치시 누리로 59\n세종특별자치시 한솔동 971",
       "roadAddress": "세종특별자치시 누리로 59",
       "jibunAddress": "세종특별자치시 한솔동 971",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "044-868-5034",
+      "phones": [
+        "044-868-5034",
+        "044-868-5064",
+        "044-9088-8549"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "044-868-5034",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-868-5064",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-9088-8549",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_첫마을5푸르지오"
@@ -13958,16 +14812,19 @@
       "phone": "044-868-5037",
       "phones": [
         "044-868-5037",
-        "044-864-4252"
+        "044-864-4252",
+        "044-868-5067"
       ],
       "phoneCandidates": [
         {
           "number": "044-868-5037",
           "score": 100,
-          "source": "K-apt 10회, K-apt 9회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 10회, K-apt 9회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 2026-08-10 17:48:51",
+          "keyword": "kaptTel, existing, 세종특별자치시 한솔동 978 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 2,
+            "2026-08-10 17:48:51": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -13979,13 +14836,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 웹검색": 2,
+            "2026-08-10 17:48:51": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 2회 · 2026-08-10 17:48:51 1회"
         },
         {
           "number": "044-864-4252",
-          "score": 96,
+          "score": 100,
           "source": "카카오",
           "keyword": "세종시 래미안, merged_same_address",
           "sourceCounts": {
@@ -13996,11 +14856,24 @@
             "카카오 4회": 1
           },
           "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "044-868-5067",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "세종특별자치시 한솔동 978 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1328",
       "source": "공공데이터 K-apt, 카카오 장소검색",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-08-10 17:48:51",
       "detailUpdatedAt": 1781305607388,
       "listUpdatedAt": 1781305607388,
       "phoneStatus": "CONFIRMED",

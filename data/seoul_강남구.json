@@ -1,6 +1,6 @@
 {
-  "version": 1784051240,
-  "updatedAt": "2026-07-14 17:47:20",
+  "version": 1786384594,
+  "updatedAt": "2026-08-10 17:56:34",
   "sido": "서울특별시",
   "sigungu": "강남구",
   "count": 468,
@@ -1536,16 +1536,18 @@
       "jibunAddress": "서울 강남구 개포동 651-1",
       "phone": "02-576-3999",
       "phones": [
-        "02-576-3999"
+        "02-576-3999",
+        "02-576-3998"
       ],
       "phoneCandidates": [
         {
           "number": "02-576-3999",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 개포동 651-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1554,14 +1556,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-576-3998",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 개포동 651-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "232",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:49:15",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -1759,9 +1776,9 @@
           "number": "02-445-4721",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1770,14 +1787,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "212",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:49:18",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -1860,16 +1878,19 @@
       "jibunAddress": "서울 강남구 개포동 187",
       "phone": "02-445-8879",
       "phones": [
-        "02-445-8879"
+        "02-445-8879",
+        "02-445-6219"
       ],
       "phoneCandidates": [
         {
           "number": "02-445-8879",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 개포동 187 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1878,14 +1899,32 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On/네이버 스니펫": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-445-6219",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 강남구 개포동 187 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "940",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:49:22",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -2184,16 +2223,18 @@
       "jibunAddress": "서울 강남구 논현동 195-1",
       "phone": "02-512-0776",
       "phones": [
-        "02-512-0776"
+        "02-512-0776",
+        "02-512-0825"
       ],
       "phoneCandidates": [
         {
           "number": "02-512-0776",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 논현동 195-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2202,14 +2243,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-512-0825",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 논현동 195-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "64",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:52:16",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -2299,9 +2355,9 @@
           "number": "026-241-6835",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2310,14 +2366,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "160",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:52:45",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -2947,9 +3004,9 @@
           "number": "02-567-2232",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2958,14 +3015,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "805",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:55:04",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -3379,9 +3437,9 @@
           "number": "02-556-9711",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3390,14 +3448,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "489",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:56:00",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -3532,17 +3591,33 @@
       "address": "서울 강남구 삼성로64길 12\n서울 강남구 대치동 988-4",
       "roadAddress": "서울 강남구 삼성로64길 12",
       "jibunAddress": "서울 강남구 대치동 988-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-566-6038",
+      "phones": [
+        "02-566-6038"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-566-6038",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 대치동 988-4 전화번호, 서울 강남구 삼성로64길 12 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        }
+      ],
       "households": "83",
       "source": "공공데이터 K-apt",
       "verifiedAt": "공공데이터 K-apt",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_대치효성"
@@ -4484,16 +4559,18 @@
       "jibunAddress": "서울 강남구 대치동 964",
       "phone": "02-501-6658",
       "phones": [
-        "02-501-6658"
+        "02-501-6658",
+        "02-501-6659"
       ],
       "phoneCandidates": [
         {
           "number": "02-501-6658",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 대치동 964 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4502,14 +4579,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-501-6659",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 대치동 964 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "282",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:56:03",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -4538,16 +4630,19 @@
       "jibunAddress": "서울 강남구 개포동 1281",
       "phone": "02-572-3340",
       "phones": [
-        "02-572-3340"
+        "02-572-3340",
+        "02-572-3341",
+        "02-572-9954"
       ],
       "phoneCandidates": [
         {
           "number": "02-572-3340",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 개포동 1281 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4556,14 +4651,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-572-3341",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 개포동 1281 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-572-9954",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 개포동 1281 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1320",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:49:55",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -4592,16 +4715,19 @@
       "jibunAddress": "서울 강남구 개포동 660-1",
       "phone": "022-058-1801",
       "phones": [
-        "022-058-1801"
+        "022-058-1801",
+        "022-058-1860",
+        "02-459-0318"
       ],
       "phoneCandidates": [
         {
           "number": "022-058-1801",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 개포동 660-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4610,14 +4736,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-058-1860",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 개포동 660-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-459-0318",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 개포동 660-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "6702",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-10 17:49:58",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -10941,17 +11095,61 @@
       "address": "서울 강남구 논현로20길 12\n서울 강남구 개포동 1237-3",
       "roadAddress": "서울 강남구 논현로20길 12",
       "jibunAddress": "서울 강남구 개포동 1237-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-869-7873",
+      "phones": [
+        "02-869-7873",
+        "02-6284-0061",
+        "02-572-5454"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-869-7873",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6284-0061",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-572-5454",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_금종"
@@ -11096,17 +11294,61 @@
       "address": "서울 강남구 개포로 407\n서울 강남구 개포동 176-2",
       "roadAddress": "서울 강남구 개포로 407",
       "jibunAddress": "서울 강남구 개포동 176-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-572-7766",
+      "phones": [
+        "02-572-7766",
+        "02-556-9711",
+        "02-501-0066"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-572-7766",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-556-9711",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-501-0066",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_대치푸르지오발라드"
@@ -11276,17 +11518,61 @@
       "address": "서울 강남구 개포로 504\n서울 강남구 개포동 186-13",
       "roadAddress": "서울 강남구 개포로 504",
       "jibunAddress": "서울 강남구 개포동 186-13",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2111-6111",
+      "phones": [
+        "02-2111-6111",
+        "02-3411-8811",
+        "02-2024-0205"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2111-6111",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-3411-8811",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2024-0205",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_메트하임"
@@ -11308,17 +11594,257 @@
       "address": "서울 강남구 논현로4길 28\n서울 강남구 개포동 1167",
       "roadAddress": "서울 강남구 논현로4길 28",
       "jibunAddress": "서울 강남구 개포동 1167",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-831-7562",
+      "phones": [
+        "032-831-7562",
+        "02-2057-5831",
+        "022-057-5831",
+        "02-2058-3263",
+        "022-058-3263",
+        "032-858-9315",
+        "031-558-5507",
+        "032-831-7561",
+        "032-858-9177",
+        "032-858-9178",
+        "032-831-8562",
+        "032-831-8522",
+        "032-858-9015",
+        "032-858-9016",
+        "024-1127-1828",
+        "032-859-5955",
+        "032-859-5966"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-831-7562",
+          "score": 100,
+          "source": "114On",
+          "keyword": "더샵그린아파트 전화번호, 더샵그린 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-2057-5831",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 개포동 1167 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-057-5831",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 개포동 1167 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2058-3263",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 개포동 1167 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-058-3263",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 개포동 1167 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-858-9315",
+          "score": 91,
+          "source": "114On",
+          "keyword": "더샵그린아파트 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-558-5507",
+          "score": 91,
+          "source": "114On",
+          "keyword": "더샵그린아파트 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-831-7561",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "더샵그린아파트 관리사무소, 더샵그린 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-858-9177",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "더샵그린아파트 관리사무소, 더샵그린아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-858-9178",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "더샵그린아파트 관리사무소, 더샵그린아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-831-8562",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "더샵그린아파트 관리사무소, 더샵그린아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-831-8522",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "더샵그린아파트 관리사무소, 더샵그린아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-858-9015",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "더샵그린아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-858-9016",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "더샵그린아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "024-1127-1828",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "더샵그린아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-859-5955",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "더샵그린아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-859-5966",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "더샵그린아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_샵그린"
@@ -11340,17 +11866,299 @@
       "address": "서울 강남구 논현로18길 10-10\n서울 강남구 개포동 1236-4",
       "roadAddress": "서울 강남구 논현로18길 10-10",
       "jibunAddress": "서울 강남구 개포동 1236-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-571-4565",
+      "phones": [
+        "02-571-4565",
+        "02-534-2121",
+        "02-572-0725",
+        "02-575-0751",
+        "02-573-3717",
+        "02-529-4848",
+        "02-3453-0135",
+        "023-453-0135",
+        "02-419-2451",
+        "058-0767-2006",
+        "02-577-0232",
+        "019-408-7658",
+        "02-577-0264",
+        "02-3462-8500",
+        "072-003-2403",
+        "02-557-7700",
+        "033-435-7171",
+        "02-3461-4422",
+        "02-928-9995",
+        "02-2276-0993"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-571-4565",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강남구 포이동 관리사무소, 강남구 강남구 포이동 관리사무소, 포이동오피스텔 관리사무소, 포이동오피스텔 관리실",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "02-534-2121",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강남구 포이동 관리사무소, 강남구 강남구 포이동 관리사무소, 강남구 포이동 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-572-0725",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "포이동오피스텔 관리사무소, 포이동오피스텔 관리실, 포이동 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-575-0751",
+          "score": 91,
+          "source": "114On",
+          "keyword": "포이동 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-573-3717",
+          "score": 91,
+          "source": "114On",
+          "keyword": "포이동 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-529-4848",
+          "score": 91,
+          "source": "114On",
+          "keyword": "포이동 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3453-0135",
+          "score": 91,
+          "source": "114On",
+          "keyword": "포이동 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-453-0135",
+          "score": 91,
+          "source": "114On",
+          "keyword": "포이동 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-419-2451",
+          "score": 85,
+          "source": "네이버",
+          "keyword": "포이동 관리사무소, 포이동 관리실, 포이동 관리단",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "058-0767-2006",
+          "score": 83,
+          "source": "네이버",
+          "keyword": "포이동오피스텔 관리사무소, 포이동오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-577-0232",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 개포동 1236-4 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "019-408-7658",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 개포동 1236-4 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-577-0264",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 개포동 1236-4 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3462-8500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강남구 포이동 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "072-003-2403",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "포이동오피스텔 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-557-7700",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "포이동오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "033-435-7171",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "포이동오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3461-4422",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "포이동오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-928-9995",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "포이동오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2276-0993",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "포이동오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_포이동"
@@ -11372,17 +12180,103 @@
       "address": "서울 강남구 논현로 72\n서울 강남구 개포동 1229-10",
       "roadAddress": "서울 강남구 논현로 72",
       "jibunAddress": "서울 강남구 개포동 1229-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-578-2833",
+      "phones": [
+        "02-578-2833",
+        "02-563-6390",
+        "02-538-2580",
+        "02-6953-7117",
+        "026-953-7117",
+        "02-565-8942"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-578-2833",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 개포동 1229-10 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-563-6390",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 논현로 72 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-538-2580",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 논현로 72 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-6953-7117",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 논현로 72 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-953-7117",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 논현로 72 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-565-8942",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "개포동 하우징허브럭스 관리사무소, 강남구 강남구 하우징허브럭스 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_하우징허브럭스"
@@ -11678,17 +12572,61 @@
       "address": "서울 강남구 도산대로46길 11\n서울 강남구 논현동 96",
       "roadAddress": "서울 강남구 도산대로46길 11",
       "jibunAddress": "서울 강남구 논현동 96",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-517-3794",
+      "phones": [
+        "02-517-3794",
+        "02-552-2321",
+        "02-548-6405"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-517-3794",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 논현동 96 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-552-2321",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 도산대로46길 11 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-548-6405",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 도산대로46길 11 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_논현"
@@ -11742,17 +12680,89 @@
       "address": "서울 강남구 논현동 98",
       "roadAddress": "",
       "jibunAddress": "서울 강남구 논현동 98",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3448-9991",
+      "phones": [
+        "02-3448-9991",
+        "023-448-9991",
+        "02-542-4246",
+        "02-772-9000",
+        "02-545-0344"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3448-9991",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 논현동 98 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-448-9991",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 논현동 98 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-542-4246",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 논현동 98 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-772-9000",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 논현동 98 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-545-0344",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 논현동 98 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "서울특별시_강남구_논현동98예정"
@@ -11806,17 +12816,35 @@
       "address": "서울 강남구 언주로122길 25\n서울 강남구 논현동 258",
       "roadAddress": "서울 강남구 언주로122길 25",
       "jibunAddress": "서울 강남구 논현동 258",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-547-2391",
+      "phones": [
+        "02-547-2391"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-547-2391",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 강남구 논현동 258 관리사무소, 서울 강남구 논현동 258 관리실",
+          "sourceCounts": {
+            "114On": 2,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 2회 · 네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_논현두산위브2"
@@ -11838,17 +12866,61 @@
       "address": "서울 강남구 강남대로146길 28\n서울 강남구 논현동 22",
       "roadAddress": "서울 강남구 강남대로146길 28",
       "jibunAddress": "서울 강남구 논현동 22",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-511-7100",
+      "phones": [
+        "02-511-7100",
+        "02-3446-2001",
+        "023-446-2001"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-511-7100",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "논현동 논현신동아파밀리에 관리사무소, 강남구 논현신동아파밀리에 관리사무소, 강남구 강남구 논현신동아파밀리에 관리사무소, 논현신동아파밀리에아파트 관리사무소, 논현신동아파밀리에 관리실",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "02-3446-2001",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 강남대로146길 28 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-446-2001",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 강남대로146길 28 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_논현신동아파밀리에"
@@ -11870,17 +12942,75 @@
       "address": "서울 강남구 언주로 615\n서울 강남구 논현동 225-6",
       "roadAddress": "서울 강남구 언주로 615",
       "jibunAddress": "서울 강남구 논현동 225-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "070-7608-1107",
+      "phones": [
+        "070-7608-1107",
+        "02-000-0000",
+        "02-515-8777",
+        "02-2293-3131"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "070-7608-1107",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 언주로 615 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-000-0000",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 강남구 논현동 225-6 전화번호, 서울 강남구 언주로 615 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-515-8777",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 언주로 615 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2293-3131",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "논현아이파크 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_논현아이파크"
@@ -11899,9 +13029,9 @@
       "sido": "서울특별시",
       "district": "강남구",
       "dong": "논현동",
-      "address": "서울특별시 강남구 논현동 278-4 선정릉역 모아엘가퍼스트홈",
-      "roadAddress": "",
-      "jibunAddress": "서울특별시 강남구 논현동 278-4 선정릉역 모아엘가퍼스트홈",
+      "address": "서울 강남구 선릉로111길 17\n서울 강남구 논현동 278",
+      "roadAddress": "서울 강남구 선릉로111길 17",
+      "jibunAddress": "서울 강남구 논현동 278",
       "phone": "02-518-4997",
       "phones": [
         "02-518-4997"
@@ -11936,7 +13066,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_선정릉역모아엘가퍼스트홈"
     },
     {
@@ -12183,17 +13313,187 @@
       "address": "서울 강남구 삼성로85길 42\n서울 강남구 대치동 891-26",
       "roadAddress": "서울 강남구 삼성로85길 42",
       "jibunAddress": "서울 강남구 대치동 891-26",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-565-1278",
+      "phones": [
+        "02-565-1278",
+        "02-566-0583",
+        "02-557-2541",
+        "02-2047-9922",
+        "02-553-0734",
+        "023-1218-2850",
+        "023-1218-2290",
+        "02-566-1237",
+        "070-7778-6543",
+        "012-0316-0441",
+        "02-568-3332",
+        "02-558-1116"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-565-1278",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 삼성로85길 42 전화번호, 대우아이빌멤버스 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-566-0583",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 삼성로85길 42 전화번호, 대우아이빌멤버스 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-557-2541",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 삼성로85길 42 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2047-9922",
+          "score": 81,
+          "source": "네이버",
+          "keyword": "서울 강남구 삼성로85길 42 전화번호, 대우아이빌멤버스오피스텔 전화번호, 대우아이빌멤버스 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-553-0734",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "대우아이빌멤버스오피스텔 전화번호, 대우아이빌멤버스 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "023-1218-2850",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "대우아이빌멤버스오피스텔 전화번호, 대우아이빌멤버스 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "023-1218-2290",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "대우아이빌멤버스오피스텔 전화번호, 대우아이빌멤버스 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-566-1237",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 삼성로85길 42 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-7778-6543",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 삼성로85길 42 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "012-0316-0441",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대우아이빌멤버스 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-568-3332",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대우아이빌멤버스 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-558-1116",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대우아이빌멤버스 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_대우아이빌멤버스"
@@ -12215,17 +13515,145 @@
       "address": "서울 강남구 선릉로90길 56\n서울 강남구 대치동 891-23",
       "roadAddress": "서울 강남구 선릉로90길 56",
       "jibunAddress": "서울 강남구 대치동 891-23",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6956-3884",
+      "phones": [
+        "02-6956-3884",
+        "026-956-3884",
+        "02-538-8077",
+        "02-565-8701",
+        "07-585-8173",
+        "02-3288-5705",
+        "02-554-9444",
+        "02-568-9222",
+        "02-565-8702"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6956-3884",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 대치동 891-23 전화번호, 서울 강남구 선릉로90길 56 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "026-956-3884",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 대치동 891-23 전화번호, 서울 강남구 선릉로90길 56 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-538-8077",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 강남구 대치동 891-23 관리실, 강남구 대치동대우아이빌명문가 관리사무소, 강남구 강남구 대치동대우아이빌명문가 관리사무소, 강남구 대치동대우아이빌명문가 관리실, 대치동 대치동대우아이빌명문가 관리사무소",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "02-565-8701",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강남구 대치동대우아이빌명문가 관리사무소, 강남구 강남구 대치동대우아이빌명문가 관리사무소, 대치동 대치동대우아이빌명문가 관리사무소, 대치동대우아이빌명문가 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "07-585-8173",
+          "score": 75,
+          "source": "네이버",
+          "keyword": "서울 강남구 선릉로90길 56 관리실, 서울 강남구 선릉로90길 56 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-3288-5705",
+          "score": 73,
+          "source": "네이버",
+          "keyword": "서울 강남구 선릉로90길 56 관리실, 서울 강남구 선릉로90길 56 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-554-9444",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 대치동 891-23 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-568-9222",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 대치동 891-23 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-565-8702",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대치동대우아이빌명문가 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_대치동대우아이빌명문가"
@@ -12279,17 +13707,103 @@
       "address": "서울 강남구 도곡로93길 12\n서울 강남구 대치동 985",
       "roadAddress": "서울 강남구 도곡로93길 12",
       "jibunAddress": "서울 강남구 대치동 985",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2057-3651",
+      "phones": [
+        "02-2057-3651",
+        "022-057-3651",
+        "02-558-1731",
+        "02-419-1704",
+        "02-556-4309",
+        "02-501-2372"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2057-3651",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 대치동 985 전화번호, 서울 강남구 도곡로93길 12 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "022-057-3651",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 대치동 985 전화번호, 서울 강남구 도곡로93길 12 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-558-1731",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 대치동 985 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-419-1704",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "대치래미안하이스턴아파트 전화번호, 대치래미안하이스턴 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-556-4309",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡로93길 12 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-501-2372",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대치래미안하이스턴 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_대치래미안하이스턴"
@@ -12427,17 +13941,61 @@
       "address": "서울 강남구 도곡로 404\n서울 강남구 대치동 1025",
       "roadAddress": "서울 강남구 도곡로 404",
       "jibunAddress": "서울 강남구 대치동 1025",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-557-1154",
+      "phones": [
+        "02-557-1154",
+        "02-553-3221",
+        "02-571-6789"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-557-1154",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 대치동 1025 전화번호, 서울 강남구 도곡로 404 전화번호, 대치롯데캐슬리베아파트 전화번호, 대치롯데캐슬리베 전화번호",
+          "sourceCounts": {
+            "114On": 4
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 4
+          },
+          "sourceSummary": "114On 4회"
+        },
+        {
+          "number": "02-553-3221",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 대치동 1025 전화번호, 서울 강남구 도곡로 404 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-571-6789",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강남구 대치롯데캐슬리베 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_대치롯데캐슬리베"
@@ -12847,17 +14405,117 @@
       "address": "서울 강남구 삼성로51길 37\n서울 강남구 대치동 1027",
       "roadAddress": "서울 강남구 삼성로51길 37",
       "jibunAddress": "서울 강남구 대치동 1027",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-523-2374",
+      "phones": [
+        "02-523-2374",
+        "02-565-0114",
+        "02-569-3303",
+        "02-3482-4361",
+        "02-530-1817",
+        "02-567-3303",
+        "02-558-3303"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-523-2374",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 대치동 1027 전화번호, 서울 강남구 삼성로51길 37 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-565-0114",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 강남구 대치동 1027 전화번호, 서울 강남구 삼성로51길 37 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-569-3303",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "래미안대치팰리스1단지아파트 전화번호, 래미안대치팰리스1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-3482-4361",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 삼성로51길 37 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-530-1817",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 삼성로51길 37 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-567-3303",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 삼성로51길 37 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-558-3303",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 삼성로51길 37 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_래미안대치팰리스1"
