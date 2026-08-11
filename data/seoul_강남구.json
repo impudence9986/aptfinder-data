@@ -1,6 +1,6 @@
 {
-  "version": 1786384594,
-  "updatedAt": "2026-08-10 17:56:34",
+  "version": 1786469406,
+  "updatedAt": "2026-08-11 17:30:06",
   "sido": "서울특별시",
   "sigungu": "강남구",
   "count": 468,
@@ -3749,16 +3749,19 @@
       "jibunAddress": "서울 강남구 도곡동 967",
       "phone": "023-461-2518",
       "phones": [
-        "023-461-2518"
+        "023-461-2518",
+        "026-207-2517",
+        "02-572-4480"
       ],
       "phoneCandidates": [
         {
           "number": "023-461-2518",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 도곡동 967 관리사무소, 서울 강남구 도곡동 967 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3767,14 +3770,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "026-207-2517",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 967 관리사무소, 서울 강남구 도곡동 967 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-572-4480",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 967 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "348",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-11 17:24:07",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -3965,16 +3996,20 @@
       "jibunAddress": "서울 강남구 도곡동 527",
       "phone": "02-577-4505",
       "phones": [
-        "02-577-4505"
+        "02-577-4505",
+        "02-416-9640",
+        "016-1443-1201",
+        "02-577-4559"
       ],
       "phoneCandidates": [
         {
           "number": "02-577-4505",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 도곡동 527 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3983,14 +4018,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "02-416-9640",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 527 관리사무소, 서울 강남구 도곡동 527 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "016-1443-1201",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 527 관리사무소, 서울 강남구 도곡동 527 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-577-4559",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 527 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "3002",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-11 17:24:38",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -4073,16 +4150,18 @@
       "jibunAddress": "서울 강남구 도곡동 91-5",
       "phone": "026-205-2233",
       "phones": [
-        "026-205-2233"
+        "026-205-2233",
+        "026-205-0033"
       ],
       "phoneCandidates": [
         {
           "number": "026-205-2233",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 도곡동 91-5 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4091,14 +4170,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-205-0033",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 91-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "732",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-11 17:24:41",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -4127,16 +4221,18 @@
       "jibunAddress": "서울 강남구 도곡동 902-8",
       "phone": "023-461-0072",
       "phones": [
-        "023-461-0072"
+        "023-461-0072",
+        "023-461-0073"
       ],
       "phoneCandidates": [
         {
           "number": "023-461-0072",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 도곡동 902-8 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4145,14 +4241,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-461-0073",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 902-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "384",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-11 17:25:14",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -5178,16 +5289,21 @@
       "jibunAddress": "서울 강남구 도곡동 538-3",
       "phone": "023-461-5380",
       "phones": [
-        "023-461-5380"
+        "023-461-5380",
+        "023-462-5380",
+        "02-3423-8670",
+        "02-3423-7620",
+        "02-3423-8270"
       ],
       "phoneCandidates": [
         {
           "number": "023-461-5380",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 도곡동 538-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5196,14 +5312,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-462-5380",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 538-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3423-8670",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 538-3 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3423-7620",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 538-3 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3423-8270",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 538-3 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "397",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-11 17:26:12",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -5232,16 +5402,17 @@
       "jibunAddress": "서울 강남구 삼성동 189",
       "phone": "02-518-3318",
       "phones": [
-        "02-518-3318"
+        "02-518-3318",
+        "02-3442-1075"
       ],
       "phoneCandidates": [
         {
           "number": "02-518-3318",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5250,14 +5421,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-3442-1075",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 삼성동 189 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "679",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-11 17:28:07",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -5610,16 +5795,18 @@
       "jibunAddress": "서울 강남구 도곡동 966",
       "phone": "023-463-5245",
       "phones": [
-        "023-463-5245"
+        "023-463-5245",
+        "026-203-5244"
       ],
       "phoneCandidates": [
         {
           "number": "023-463-5245",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 도곡동 966 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5628,14 +5815,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-203-5244",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 도곡동 966 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "132",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-11 17:26:43",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -5880,16 +6082,18 @@
       "jibunAddress": "서울 강남구 삼성동 188",
       "phone": "02-541-5951",
       "phones": [
-        "02-541-5951"
+        "02-541-5951",
+        "02-541-5953"
       ],
       "phoneCandidates": [
         {
           "number": "02-541-5951",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 강남구 삼성동 188 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5898,14 +6102,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-541-5953",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 삼성동 188 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "416",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-11 17:28:51",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -14650,17 +14869,61 @@
       "address": "서울 강남구 테헤란로 406\n서울 강남구 대치동 889-5",
       "roadAddress": "서울 강남구 테헤란로 406",
       "jibunAddress": "서울 강남구 대치동 889-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-754-8004",
+      "phones": [
+        "02-754-8004",
+        "02-745-0003",
+        "02-2024-0205"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-754-8004",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-745-0003",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2024-0205",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_샹제리제센터a동"
@@ -14682,17 +14945,61 @@
       "address": "서울 강남구 선릉로90길 10\n서울 강남구 대치동 889-47",
       "roadAddress": "서울 강남구 선릉로90길 10",
       "jibunAddress": "서울 강남구 대치동 889-47",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-765-6400",
+      "phones": [
+        "02-765-6400",
+        "02-760-8698",
+        "02-723-2235"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-765-6400",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-760-8698",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-723-2235",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_샹제리제센터b동"
@@ -14772,17 +15079,61 @@
       "address": "서울 강남구 역삼로 409\n서울 강남구 대치동 907-12",
       "roadAddress": "서울 강남구 역삼로 409",
       "jibunAddress": "서울 강남구 대치동 907-12",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-775-7826",
+      "phones": [
+        "02-775-7826",
+        "02-6953-4784",
+        "02-6953-4781"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-775-7826",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6953-4784",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6953-4781",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_아티스톤"
@@ -14804,17 +15155,61 @@
       "address": "서울 강남구 테헤란로70길 12\n서울 강남구 대치동 890-60",
       "roadAddress": "서울 강남구 테헤란로70길 12",
       "jibunAddress": "서울 강남구 대치동 890-60",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-760-0374",
+      "phones": [
+        "02-760-0374",
+        "02-3452-8372",
+        "02-6378-2021"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-760-0374",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-3452-8372",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6378-2021",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_위브랜드"
@@ -14961,17 +15356,61 @@
       "address": "서울 강남구 삼성로 417\n서울 강남구 대치동 902",
       "roadAddress": "서울 강남구 삼성로 417",
       "jibunAddress": "서울 강남구 대치동 902",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-566-2220",
+      "phones": [
+        "02-566-2220",
+        "02-869-7607",
+        "02-6249-6039"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-566-2220",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-869-7607",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6249-6039",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_포스코샵"
@@ -14993,17 +15432,61 @@
       "address": "서울 강남구 삼성로 150\n서울 강남구 대치동 511",
       "roadAddress": "서울 강남구 삼성로 150",
       "jibunAddress": "서울 강남구 대치동 511",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-557-2954",
+      "phones": [
+        "02-557-2954",
+        "02-552-2843",
+        "02-561-8989"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-557-2954",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-552-2843",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-561-8989",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_한보미도맨션12차"
@@ -15115,17 +15598,61 @@
       "address": "서울 강남구 강남대로44길 24\n서울 강남구 도곡동 955",
       "roadAddress": "서울 강남구 강남대로44길 24",
       "jibunAddress": "서울 강남구 도곡동 955",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-572-4480",
+      "phones": [
+        "02-572-4480",
+        "02-578-4224",
+        "02-578-3835"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-572-4480",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-578-4224",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-578-3835",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_도곡그린빌"
@@ -15144,9 +15671,9 @@
       "sido": "서울특별시",
       "district": "강남구",
       "dong": "도곡동",
-      "address": "서울특별시 강남구 도곡동 960 도곡대림",
-      "roadAddress": "",
-      "jibunAddress": "서울특별시 강남구 도곡동 960 도곡대림",
+      "address": "서울 강남구 논현로41길 10\n서울 강남구 도곡동 960",
+      "roadAddress": "서울 강남구 논현로41길 10",
+      "jibunAddress": "서울 강남구 도곡동 960",
       "phone": "023-462-3976",
       "phones": [
         "023-462-3976"
@@ -15181,7 +15708,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_도곡대림"
     },
     {
@@ -15265,17 +15792,61 @@
       "address": "서울 강남구 논현로 218\n서울 강남구 도곡동 869",
       "roadAddress": "서울 강남구 논현로 218",
       "jibunAddress": "서울 강남구 도곡동 869",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-578-6319",
+      "phones": [
+        "02-578-6319",
+        "02-737-3399",
+        "02-737-3388"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-578-6319",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-737-3399",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-737-3388",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_도곡삼익"
@@ -15329,17 +15900,61 @@
       "address": "서울 강남구 강남대로42길 19\n서울 강남구 도곡동 954-17",
       "roadAddress": "서울 강남구 강남대로42길 19",
       "jibunAddress": "서울 강남구 도곡동 954-17",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-578-4224",
+      "phones": [
+        "02-578-4224",
+        "02-578-3835",
+        "02-554-9950"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-578-4224",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-578-3835",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-554-9950",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_도곡써밋타워"
@@ -15423,17 +16038,61 @@
       "address": "서울 강남구 강남대로 272\n서울 강남구 도곡동 949-2",
       "roadAddress": "서울 강남구 강남대로 272",
       "jibunAddress": "서울 강남구 도곡동 949-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-523-2525",
+      "phones": [
+        "02-523-2525",
+        "02-600-0171",
+        "02-3411-9810"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-523-2525",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-600-0171",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-3411-9810",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_도곡푸르지오2차"
@@ -15591,17 +16250,61 @@
       "address": "서울 강남구 남부순환로379길 15\n서울 강남구 도곡동 183",
       "roadAddress": "서울 강남구 남부순환로379길 15",
       "jibunAddress": "서울 강남구 도곡동 183",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3462-4949",
+      "phones": [
+        "02-3462-4949",
+        "02-529-2344",
+        "02-529-2343"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3462-4949",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-529-2344",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-529-2343",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_도곡현대힐스테이트"
@@ -15655,17 +16358,61 @@
       "address": "서울 강남구 도곡로14길 12\n서울 강남구 도곡동 551-28",
       "roadAddress": "서울 강남구 도곡로14길 12",
       "jibunAddress": "서울 강남구 도곡동 551-28",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-557-1154",
+      "phones": [
+        "02-557-1154",
+        "02-2057-4281",
+        "02-572-4480"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-557-1154",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2057-4281",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-572-4480",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_롯데캐슬모닝"
@@ -15906,17 +16653,61 @@
       "address": "서울 강남구 언주로30길 39\n서울 강남구 도곡동 467-15",
       "roadAddress": "서울 강남구 언주로30길 39",
       "jibunAddress": "서울 강남구 도곡동 467-15",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-578-7771",
+      "phones": [
+        "02-578-7771",
+        "02-391-1919",
+        "02-2111-6111"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-578-7771",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-391-1919",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2111-6111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_우미린"
@@ -16096,17 +16887,61 @@
       "address": "서울 강남구 언주로 122\n서울 강남구 도곡동 467-18",
       "roadAddress": "서울 강남구 언주로 122",
       "jibunAddress": "서울 강남구 도곡동 467-18",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6925-2093",
+      "phones": [
+        "02-6925-2093",
+        "02-571-4327",
+        "02-571-4321"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6925-2093",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-571-4327",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-571-4321",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_우성캐릭터빌"
@@ -16128,17 +16963,61 @@
       "address": "서울 강남구 언주로 120\n서울 강남구 도곡동 467-23",
       "roadAddress": "서울 강남구 언주로 120",
       "jibunAddress": "서울 강남구 도곡동 467-23",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3461-0001",
+      "phones": [
+        "02-3461-0001",
+        "02-775-7826",
+        "02-6953-4784"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3461-0001",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-775-7826",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6953-4784",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_인스토피아"
@@ -16376,17 +17255,61 @@
       "address": "서울 강남구 삼성로96길 6\n서울 강남구 삼성동 157-8",
       "roadAddress": "서울 강남구 삼성로96길 6",
       "jibunAddress": "서울 강남구 삼성동 157-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6956-3055",
+      "phones": [
+        "02-6956-3055",
+        "02-2051-9117",
+        "02-805-1198"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6956-3055",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2051-9117",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-805-1198",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_lg트윈텔1"
@@ -16496,17 +17419,61 @@
       "address": "서울 강남구 테헤란로87길 17\n서울 강남구 삼성동 158-10",
       "roadAddress": "서울 강남구 테헤란로87길 17",
       "jibunAddress": "서울 강남구 삼성동 158-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-563-5337",
+      "phones": [
+        "02-563-5337",
+        "02-555-2977",
+        "02-566-9656"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-563-5337",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-555-2977",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-566-9656",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_마젤란21아스테리움"
@@ -16528,17 +17495,61 @@
       "address": "서울 강남구 삼성로104길 23\n서울 강남구 삼성동 148-14",
       "roadAddress": "서울 강남구 삼성로104길 23",
       "jibunAddress": "서울 강남구 삼성동 148-14",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-576-3999",
+      "phones": [
+        "02-576-3999",
+        "02-576-3998",
+        "02-566-2220"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-576-3999",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-576-3998",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-566-2220",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_바디샵"
@@ -16647,17 +17658,33 @@
       "address": "서울 강남구 삼성로95길 9\n서울 강남구 삼성동 144-1",
       "roadAddress": "서울 강남구 삼성로95길 9",
       "jibunAddress": "서울 강남구 삼성동 144-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-530-2715",
+      "phones": [
+        "02-530-2715"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-530-2715",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 삼성동 144-1 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_삼성동현대위버포레"
@@ -16679,17 +17706,47 @@
       "address": "서울 강남구 봉은사로 645\n서울 강남구 삼성동 110-2",
       "roadAddress": "서울 강남구 봉은사로 645",
       "jibunAddress": "서울 강남구 삼성동 110-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2111-6111",
+      "phones": [
+        "02-2111-6111",
+        "02-2024-0205"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2111-6111",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2024-0205",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_삼성라테라스"
@@ -16711,17 +17768,61 @@
       "address": "서울 강남구 테헤란로63길 9\n서울 강남구 삼성동 141-10",
       "roadAddress": "서울 강남구 테헤란로63길 9",
       "jibunAddress": "서울 강남구 삼성동 141-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-827-0536",
+      "phones": [
+        "02-827-0536",
+        "02-592-2560",
+        "02-556-7114"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-827-0536",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-592-2560",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-556-7114",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_삼성롯데캐슬클라쎄"
