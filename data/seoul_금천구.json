@@ -1,6 +1,6 @@
 {
-  "version": 1784052596,
-  "updatedAt": "2026-07-14 18:09:56",
+  "version": 1786556970,
+  "updatedAt": "2026-08-12 17:49:30",
   "sido": "서울특별시",
   "sigungu": "금천구",
   "count": 102,
@@ -1590,16 +1590,18 @@
       "jibunAddress": "서울 금천구 독산동 1160",
       "phone": "02-803-8576",
       "phones": [
-        "02-803-8576"
+        "02-803-8576",
+        "02-803-8577"
       ],
       "phoneCandidates": [
         {
           "number": "02-803-8576",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 금천구 독산동 1160 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1608,14 +1610,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-803-8577",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 독산동 1160 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "927",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-12 17:45:22",
       "detailUpdatedAt": 1781055505751,
       "listUpdatedAt": 1781055505751,
       "phoneStatus": "CONFIRMED",
@@ -2776,17 +2793,47 @@
       "address": "서울 금천구 서부샛길 714\n서울 금천구 가산동 535-7",
       "roadAddress": "서울 금천구 서부샛길 714",
       "jibunAddress": "서울 금천구 가산동 535-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3489-4400",
+      "phones": [
+        "02-3489-4400",
+        "02-2111-6111"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3489-4400",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2111-6111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_g밸리하우스디어반"
@@ -3008,17 +3055,61 @@
       "address": "서울 금천구 가산디지털2로 127-33\n서울 금천구 가산동 776",
       "roadAddress": "서울 금천구 가산디지털2로 127-33",
       "jibunAddress": "서울 금천구 가산동 776",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-838-3377",
+      "phones": [
+        "02-838-3377",
+        "02-784-8272",
+        "02-566-0440"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-838-3377",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-784-8272",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-566-0440",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_대명벨리온"
@@ -3121,17 +3212,61 @@
       "address": "서울 금천구 가산로 152\n서울 금천구 가산동 141-18",
       "roadAddress": "서울 금천구 가산로 152",
       "jibunAddress": "서울 금천구 가산동 141-18",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-322-5112",
+      "phones": [
+        "02-322-5112",
+        "02-2111-6111",
+        "02-809-1768"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-322-5112",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2111-6111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-809-1768",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_래미안리빙텔"
@@ -3153,17 +3288,47 @@
       "address": "서울 금천구 벚꽃로56길 182\n서울 금천구 가산동 139-3",
       "roadAddress": "서울 금천구 벚꽃로56길 182",
       "jibunAddress": "서울 금천구 가산동 139-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-862-1133",
+      "phones": [
+        "02-862-1133",
+        "02-852-5114"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-862-1133",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-852-5114",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_램킨푸르지오시티"
@@ -3238,17 +3403,61 @@
       "address": "서울 금천구 가산디지털2로 98\n서울 금천구 가산동 429-2",
       "roadAddress": "서울 금천구 가산디지털2로 98",
       "jibunAddress": "서울 금천구 가산동 429-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2026-8813",
+      "phones": [
+        "02-2026-8813",
+        "02-865-2119",
+        "02-858-0880"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2026-8813",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-865-2119",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-858-0880",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_롯데it캐슬2동"
@@ -3438,9 +3647,9 @@
       "sido": "서울특별시",
       "district": "금천구",
       "dong": "가산동",
-      "address": "서울특별시 금천구 가산동 775 어바니엘가산",
-      "roadAddress": "",
-      "jibunAddress": "서울특별시 금천구 가산동 775 어바니엘가산",
+      "address": "서울 금천구 가산디지털1로 222\n서울 금천구 가산동 775",
+      "roadAddress": "서울 금천구 가산디지털1로 222",
+      "jibunAddress": "서울 금천구 가산동 775",
       "phone": "02-863-2802",
       "phones": [
         "02-863-2802"
@@ -3475,7 +3684,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_어바니엘가산"
     },
     {
@@ -3495,17 +3704,61 @@
       "address": "서울 금천구 벚꽃로56길 190\n서울 금천구 가산동 139-8",
       "roadAddress": "서울 금천구 벚꽃로56길 190",
       "jibunAddress": "서울 금천구 가산동 139-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-851-1212",
+      "phones": [
+        "02-851-1212",
+        "02-6299-5003",
+        "02-6299-5001"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-851-1212",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6299-5003",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6299-5001",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_에스키스가산"
@@ -3527,17 +3780,61 @@
       "address": "서울 금천구 가산로9길 109\n서울 금천구 가산동 239-4",
       "roadAddress": "서울 금천구 가산로9길 109",
       "jibunAddress": "서울 금천구 가산동 239-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-775-7826",
+      "phones": [
+        "02-775-7826",
+        "02-6953-4784",
+        "02-6953-4781"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-775-7826",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6953-4784",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6953-4781",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_엘아르베뉴"
@@ -3559,17 +3856,61 @@
       "address": "서울 금천구 가산디지털2로 184\n서울 금천구 가산동 481-10",
       "roadAddress": "서울 금천구 가산디지털2로 184",
       "jibunAddress": "서울 금천구 가산동 481-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-856-9983",
+      "phones": [
+        "02-856-9983",
+        "02-743-0417",
+        "02-743-0416"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-856-9983",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-743-0417",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-743-0416",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_위브텍"
@@ -3821,17 +4162,61 @@
       "address": "서울 금천구 범안로16길 24-15\n서울 금천구 독산동 1006-75",
       "roadAddress": "서울 금천구 범안로16길 24-15",
       "jibunAddress": "서울 금천구 독산동 1006-75",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6295-2200",
+      "phones": [
+        "02-6295-2200",
+        "02-564-7766",
+        "02-322-5112"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6295-2200",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-564-7766",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-322-5112",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_골든위브"
@@ -4264,17 +4649,61 @@
       "address": "서울 금천구 시흥대로 377\n서울 금천구 독산동 1163",
       "roadAddress": "서울 금천구 시흥대로 377",
       "jibunAddress": "서울 금천구 독산동 1163",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-830-8982",
+      "phones": [
+        "02-830-8982",
+        "02-2133-9591",
+        "02-806-0883"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-830-8982",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2133-9591",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-806-0883",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_센트레빌웨스트온"
@@ -4352,17 +4781,61 @@
       "address": "서울 금천구 벚꽃로10길 77\n서울 금천구 독산동 1006-97",
       "roadAddress": "서울 금천구 벚꽃로10길 77",
       "jibunAddress": "서울 금천구 독산동 1006-97",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-858-9253",
+      "phones": [
+        "02-858-9253",
+        "02-855-5554",
+        "02-872-4242"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-858-9253",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-855-5554",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-872-4242",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_신독산역갤러리휴리움"
@@ -4384,17 +4857,61 @@
       "address": "서울 금천구 시흥대로134길 14\n서울 금천구 독산동 162-5",
       "roadAddress": "서울 금천구 시흥대로134길 14",
       "jibunAddress": "서울 금천구 독산동 162-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-970-0848",
+      "phones": [
+        "02-970-0848",
+        "02-931-8360",
+        "02-859-2580"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-970-0848",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-931-8360",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-859-2580",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_자이드림빌"
@@ -4416,17 +4933,61 @@
       "address": "서울 금천구 범안로17길 17-13\n서울 금천구 독산동 331-52",
       "roadAddress": "서울 금천구 범안로17길 17-13",
       "jibunAddress": "서울 금천구 독산동 331-52",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-859-2580",
+      "phones": [
+        "02-859-2580",
+        "02-813-9038",
+        "02-6958-7053"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-859-2580",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-813-9038",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6958-7053",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_자이에코빌"
@@ -4448,17 +5009,63 @@
       "address": "서울 금천구 시흥대로149길 65\n서울 금천구 독산동 148-44",
       "roadAddress": "서울 금천구 시흥대로149길 65",
       "jibunAddress": "서울 금천구 독산동 148-44",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-980-9998",
+      "phones": [
+        "02-980-9998",
+        "02-980-9997",
+        "02-2179-6534"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-980-9998",
+          "score": 100,
+          "source": "네이버부동산, 카카오",
+          "keyword": "naver_land_management, existing",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 카카오 1회"
+        },
+        {
+          "number": "02-980-9997",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2179-6534",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_자이칸타빌"
@@ -4565,17 +5172,61 @@
       "address": "서울 금천구 문성로 14-1\n서울 금천구 독산동 887-5",
       "roadAddress": "서울 금천구 문성로 14-1",
       "jibunAddress": "서울 금천구 독산동 887-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-816-0111",
+      "phones": [
+        "02-816-0111",
+        "02-816-0088",
+        "02-812-7231"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-816-0111",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-816-0088",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-812-7231",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_청호센트레빌"
@@ -4733,17 +5384,61 @@
       "address": "서울 금천구 시흥대로150길 6\n서울 금천구 독산동 1144",
       "roadAddress": "서울 금천구 시흥대로150길 6",
       "jibunAddress": "서울 금천구 독산동 1144",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-866-2048",
+      "phones": [
+        "02-866-2048",
+        "02-866-2047",
+        "02-496-9866"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-866-2048",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-866-2047",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-496-9866",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_한양수자인"
@@ -5203,17 +5898,61 @@
       "address": "서울 금천구 독산로40길 82\n서울 금천구 시흥동 796-31",
       "roadAddress": "서울 금천구 독산로40길 82",
       "jibunAddress": "서울 금천구 시흥동 796-31",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-896-5772",
+      "phones": [
+        "02-896-5772",
+        "02-896-1110",
+        "02-882-3225"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-896-5772",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-896-1110",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-882-3225",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_래미안타운"
@@ -5397,17 +6136,63 @@
       "address": "서울 금천구 독산로22길 56\n서울 금천구 시흥동 825-4",
       "roadAddress": "서울 금천구 독산로22길 56",
       "jibunAddress": "서울 금천구 시흥동 825-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6295-2200",
+      "phones": [
+        "02-6295-2200",
+        "02-2111-6111",
+        "02-2026-3902"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6295-2200",
+          "score": 100,
+          "source": "네이버부동산, 카카오",
+          "keyword": "naver_land_management, existing",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1,
+            "카카오 장소검색": 2
+          },
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+        },
+        {
+          "number": "02-2111-6111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2026-3902",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_스타힐스"
@@ -5493,17 +6278,33 @@
       "address": "서울 금천구 시흥대로 143\n서울 금천구 시흥동 985-12",
       "roadAddress": "서울 금천구 시흥대로 143",
       "jibunAddress": "서울 금천구 시흥동 985-12",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-852-2100",
+      "phones": [
+        "02-852-2100"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-852-2100",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 금천구 시흥동 985-12 전화번호, 서울 금천구 시흥대로 143 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_잡사바24힐스테이트점"
