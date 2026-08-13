@@ -1,6 +1,6 @@
 {
-  "version": 1786558503,
-  "updatedAt": "2026-08-12 18:15:03",
+  "version": 1786642071,
+  "updatedAt": "2026-08-13 17:27:51",
   "sido": "서울특별시",
   "sigungu": "동대문구",
   "count": 202,
@@ -4935,16 +4935,18 @@
       "jibunAddress": "서울 동대문구 청량리동 199",
       "phone": "02-969-0991",
       "phones": [
-        "02-969-0991"
+        "02-969-0991",
+        "02-969-0992"
       ],
       "phoneCandidates": [
         {
           "number": "02-969-0991",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 동대문구 청량리동 199 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4953,14 +4955,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-969-0992",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 청량리동 199 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-13 17:26:50",
       "detailUpdatedAt": 1781056923291,
       "listUpdatedAt": 1781056923291,
       "phoneStatus": "CONFIRMED",
@@ -9836,17 +9853,61 @@
       "address": "서울 동대문구 장한로20길 7\n서울 동대문구 장안동 365-5",
       "roadAddress": "서울 동대문구 장한로20길 7",
       "jibunAddress": "서울 동대문구 장안동 365-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-871-1563",
+      "phones": [
+        "02-871-1563",
+        "02-765-7737",
+        "02-765-7736"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-871-1563",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-765-7737",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-765-7736",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_서희스타힐스주차장"
@@ -9865,9 +9926,9 @@
       "sido": "서울특별시",
       "district": "동대문구",
       "dong": "장안동",
-      "address": "서울특별시 동대문구 장안동 567 신일해피트리2차아파트",
-      "roadAddress": "",
-      "jibunAddress": "서울특별시 동대문구 장안동 567 신일해피트리2차아파트",
+      "address": "서울 동대문구 천호대로77가길 27\n서울 동대문구 장안동 567",
+      "roadAddress": "서울 동대문구 천호대로77가길 27",
+      "jibunAddress": "서울 동대문구 장안동 567",
       "phone": "022-212-8130",
       "phones": [
         "022-212-8130"
@@ -9902,7 +9963,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_신일해피트리2차"
     },
     {
@@ -9922,17 +9983,61 @@
       "address": "서울 동대문구 장한로26길 85\n서울 동대문구 장안동 333-4",
       "roadAddress": "서울 동대문구 장한로26길 85",
       "jibunAddress": "서울 동대문구 장안동 333-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-743-0417",
+      "phones": [
+        "02-743-0417",
+        "02-743-0416",
+        "02-742-0515"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-743-0417",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-743-0416",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-742-0515",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_자이팰리스"
@@ -10012,17 +10117,47 @@
       "address": "서울 동대문구 장한로 85\n서울 동대문구 장안동 374-1",
       "roadAddress": "서울 동대문구 장한로 85",
       "jibunAddress": "서울 동대문구 장안동 374-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2243-9940",
+      "phones": [
+        "02-2243-9940",
+        "02-2244-3600"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2243-9940",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2244-3600",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_장안현대벤처빌"
@@ -10182,17 +10317,33 @@
       "address": "서울 동대문구 장한로 88\n서울 동대문구 장안동 364-1",
       "roadAddress": "서울 동대문구 장한로 88",
       "jibunAddress": "서울 동대문구 장안동 364-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3394-8110",
+      "phones": [
+        "02-3394-8110"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3394-8110",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_힐스테이트장안라보니타"
@@ -10214,17 +10365,33 @@
       "address": "서울 동대문구 장한로 110\n서울 동대문구 장안동 366-7",
       "roadAddress": "서울 동대문구 장한로 110",
       "jibunAddress": "서울 동대문구 장안동 366-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-594-0062",
+      "phones": [
+        "02-594-0062"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-594-0062",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_힐스테이트장안센트럴"
@@ -10576,17 +10743,61 @@
       "address": "서울 동대문구 사가정로 109-1\n서울 동대문구 전농동 295-7",
       "roadAddress": "서울 동대문구 사가정로 109-1",
       "jibunAddress": "서울 동대문구 전농동 295-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-721-0600",
+      "phones": [
+        "02-721-0600",
+        "02-564-7766",
+        "02-512-5090"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-721-0600",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-564-7766",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-512-5090",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_위브스튜디오동대문이스트"
@@ -10825,17 +11036,61 @@
       "address": "서울 동대문구 왕산로 200\n서울 동대문구 전농동 620-69",
       "roadAddress": "서울 동대문구 왕산로 200",
       "jibunAddress": "서울 동대문구 전농동 620-69",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2184-4500",
+      "phones": [
+        "02-2184-4500",
+        "07-1429-2877",
+        "07-1353-1212"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2184-4500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 왕산로 200 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1429-2877",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 왕산로 200 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1353-1212",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 왕산로 200 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_청량리역롯데캐슬skyl65주차장"
@@ -10857,17 +11112,47 @@
       "address": "서울 동대문구 왕산로36길 6\n서울 동대문구 전농동 620-56",
       "roadAddress": "서울 동대문구 왕산로36길 6",
       "jibunAddress": "서울 동대문구 전농동 620-56",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-962-8881",
+      "phones": [
+        "02-962-8881",
+        "02-921-0224"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-962-8881",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-921-0224",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_힐스테이트청량리퍼스트101동"
@@ -10889,17 +11174,47 @@
       "address": "서울 동대문구 답십리로1길 10\n서울 동대문구 전농동 620-60",
       "roadAddress": "서울 동대문구 답십리로1길 10",
       "jibunAddress": "서울 동대문구 전농동 620-60",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-963-8952",
+      "phones": [
+        "02-963-8952",
+        "02-962-8881"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-963-8952",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-962-8881",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_힐스테이트청량리퍼스트102~103동"
@@ -10923,16 +11238,18 @@
       "jibunAddress": "서울 동대문구 용두동 792",
       "phone": "02-963-5803",
       "phones": [
-        "02-963-5803"
+        "02-963-5803",
+        "02-963-5804"
       ],
       "phoneCandidates": [
         {
           "number": "02-963-5803",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 동대문구 정릉천동로 36 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10941,14 +11258,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-963-5804",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 정릉천동로 36 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "844",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-13 17:26:18",
       "detailUpdatedAt": 1781056923291,
       "listUpdatedAt": 1781056923291,
       "phoneStatus": "CONFIRMED",
@@ -11242,17 +11574,61 @@
       "address": "서울 동대문구 정릉천동로 80\n서울 동대문구 제기동 892-68",
       "roadAddress": "서울 동대문구 정릉천동로 80",
       "jibunAddress": "서울 동대문구 제기동 892-68",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-957-3411",
+      "phones": [
+        "02-957-3411",
+        "02-591-0175",
+        "02-969-0023"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-957-3411",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-591-0175",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-969-0023",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_제기동역아이파크2028년09월예정"
@@ -11386,17 +11762,47 @@
       "address": "서울 동대문구 왕산로 269\n서울 동대문구 청량리동 30-6",
       "roadAddress": "서울 동대문구 왕산로 269",
       "jibunAddress": "서울 동대문구 청량리동 30-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-730-4021",
+      "phones": [
+        "02-730-4021",
+        "02-322-5112"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-730-4021",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-322-5112",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_위코스테이청량리"
@@ -11450,17 +11856,61 @@
       "address": "서울 동대문구 왕산로 239\n서울 동대문구 청량리동 235-6",
       "roadAddress": "서울 동대문구 왕산로 239",
       "jibunAddress": "서울 동대문구 청량리동 235-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-965-5553",
+      "phones": [
+        "02-965-5553",
+        "02-965-5552",
+        "02-963-8952"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-965-5553",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-965-5552",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-963-8952",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_힐스테이트청량리역"
@@ -11656,17 +12106,61 @@
       "address": "서울 동대문구 이문로 56\n서울 동대문구 휘경동 187-5",
       "roadAddress": "서울 동대문구 이문로 56",
       "jibunAddress": "서울 동대문구 휘경동 187-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-965-0088",
+      "phones": [
+        "02-965-0088",
+        "02-831-0528",
+        "02-2213-6600"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-965-0088",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-831-0528",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2213-6600",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_위브플레이스회기"
@@ -11688,17 +12182,33 @@
       "address": "서울 동대문구 휘경동 98-38",
       "roadAddress": "",
       "jibunAddress": "서울 동대문구 휘경동 98-38",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-960-0425",
+      "phones": [
+        "02-960-0425"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-960-0425",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "서울특별시_동대문구_휘경자이디센시아후문"
@@ -11717,9 +12227,9 @@
       "sido": "서울특별시",
       "district": "동대문구",
       "dong": "휘경동",
-      "address": "서울특별시 동대문구 휘경동 363 휘경현대아파트",
-      "roadAddress": "",
-      "jibunAddress": "서울특별시 동대문구 휘경동 363 휘경현대아파트",
+      "address": "서울 동대문구 서울시립대로29길 62\n서울 동대문구 휘경동 363",
+      "roadAddress": "서울 동대문구 서울시립대로29길 62",
+      "jibunAddress": "서울 동대문구 휘경동 363",
       "phone": "022-247-7738",
       "phones": [
         "022-247-7738"
@@ -11754,7 +12264,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_휘경현대"
     }
   ]
