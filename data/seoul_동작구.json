@@ -1,6 +1,6 @@
 {
-  "version": 1786642640,
-  "updatedAt": "2026-08-13 17:37:20",
+  "version": 1786727999,
+  "updatedAt": "2026-08-14 17:19:59",
   "sido": "서울특별시",
   "sigungu": "동작구",
   "count": 212,
@@ -4524,16 +4524,18 @@
       "jibunAddress": "서울 동작구 상도동 534",
       "phone": "023-280-6663",
       "phones": [
-        "023-280-6663"
+        "023-280-6663",
+        "02-820-2484",
+        "02-824-8292"
       ],
       "phoneCandidates": [
         {
           "number": "023-280-6663",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4542,14 +4544,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-820-2484",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 534 관리사무소, 서울 동작구 상도동 534 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-824-8292",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 534 관리사무소, 서울 동작구 상도동 534 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "138",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:17:04",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -4632,16 +4661,18 @@
       "jibunAddress": "서울 동작구 상도동 904",
       "phone": "023-280-6667",
       "phones": [
-        "023-280-6667"
+        "023-280-6667",
+        "023-280-6668"
       ],
       "phoneCandidates": [
         {
           "number": "023-280-6667",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 동작구 상도동 904 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4650,14 +4681,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-280-6668",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 904 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "950",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:17:06",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -4747,9 +4793,9 @@
           "number": "02-823-0771",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4758,14 +4804,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "771",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:17:09",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -4848,16 +4895,20 @@
       "jibunAddress": "서울 동작구 상도동 536",
       "phone": "02-825-5300",
       "phones": [
-        "02-825-5300"
+        "02-825-5300",
+        "02-825-5330",
+        "02-814-3755",
+        "02-815-3084"
       ],
       "phoneCandidates": [
         {
           "number": "02-825-5300",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 동작구 상도동 536 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4866,14 +4917,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-825-5330",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 536 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-814-3755",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 536 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-815-3084",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 536 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "202",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:17:12",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -4956,16 +5048,18 @@
       "jibunAddress": "서울 동작구 신대방동 717",
       "phone": "02-831-7829",
       "phones": [
-        "02-831-7829"
+        "02-831-7829",
+        "02-831-6829"
       ],
       "phoneCandidates": [
         {
           "number": "02-831-7829",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 동작구 신대방동 717 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4974,14 +5068,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-831-6829",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 717 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "105",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:18:05",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -7063,16 +7172,18 @@
       "jibunAddress": "서울 동작구 흑석동 336",
       "phone": "02-823-0300",
       "phones": [
-        "02-823-0300"
+        "02-823-0300",
+        "02-832-6521",
+        "015-2070-5201"
       ],
       "phoneCandidates": [
         {
           "number": "02-823-0300",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7081,14 +7192,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-832-6521",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 동작구 흑석동 336 관리사무소, 서울 동작구 흑석동 336 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "015-2070-5201",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 흑석동 336 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "863",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:19:55",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -11338,17 +11476,47 @@
       "address": "서울 동작구 상도로47나길 49-4\n서울 동작구 상도동 56-105",
       "roadAddress": "서울 동작구 상도로47나길 49-4",
       "jibunAddress": "서울 동작구 상도동 56-105",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-737-3399",
+      "phones": [
+        "02-737-3399",
+        "02-737-3388"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-737-3399",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-737-3388",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동작구_진흥푸르지오"
@@ -11370,17 +11538,47 @@
       "address": "서울 동작구 상도동 23-42",
       "roadAddress": "",
       "jibunAddress": "서울 동작구 상도동 23-42",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-600-0171",
+      "phones": [
+        "02-600-0171",
+        "02-6095-2000"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-600-0171",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6095-2000",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "서울특별시_동작구_힐스테이트동작시그니처예정"
@@ -11783,17 +11981,61 @@
       "address": "서울 동작구 신대방길 85\n서울 동작구 신대방동 712",
       "roadAddress": "서울 동작구 신대방길 85",
       "jibunAddress": "서울 동작구 신대방동 712",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-836-3776",
+      "phones": [
+        "02-836-3776",
+        "02-836-3737",
+        "02-847-9670"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-836-3776",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-836-3737",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-847-9670",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동작구_신대방경남"
@@ -12012,17 +12254,33 @@
       "address": "서울 동작구 시흥대로 596\n서울 동작구 신대방동 698",
       "roadAddress": "서울 동작구 시흥대로 596",
       "jibunAddress": "서울 동작구 신대방동 698",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-564-7766",
+      "phones": [
+        "02-564-7766"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-564-7766",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동작구_신라스테이해링턴타워"
@@ -12332,17 +12590,61 @@
       "address": "서울 동작구 서달로 90\n서울 동작구 흑석동 253-89",
       "roadAddress": "서울 동작구 서달로 90",
       "jibunAddress": "서울 동작구 흑석동 253-89",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-826-9905",
+      "phones": [
+        "02-826-9905",
+        "02-826-9903",
+        "02-823-4040"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-826-9905",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-826-9903",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-823-4040",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동작구_흑석자이gate1"

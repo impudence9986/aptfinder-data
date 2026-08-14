@@ -1,6 +1,6 @@
 {
-  "version": 1786644616,
-  "updatedAt": "2026-08-13 18:10:16",
+  "version": 1786728837,
+  "updatedAt": "2026-08-14 17:33:57",
   "sido": "서울특별시",
   "sigungu": "서초구",
   "count": 119,
@@ -3141,23 +3141,67 @@
       "address": "서울 서초구 방배중앙로27길 28\n서울 서초구 방배동 763-19",
       "roadAddress": "서울 서초구 방배중앙로27길 28",
       "jibunAddress": "서울 서초구 방배동 763-19",
-      "phone": "02-587-4125",
+      "phone": "02-588-0049",
       "phones": [
-        "02-587-4125"
+        "02-588-0049",
+        "02-587-4125",
+        "02-599-7800",
+        "02-581-0337"
       ],
       "phoneCandidates": [
         {
-          "number": "02-587-4125",
-          "score": 84,
-          "source": "네이버",
-          "keyword": "방배동 아이파크빌 관리사무소, 서초구 아이파크빌 관리사무소, 서초구 서초구 아이파크빌 관리사무소",
+          "number": "02-588-0049",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 4
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 4
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 4회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-587-4125",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "방배동 아이파크빌 관리사무소, 서초구 아이파크빌 관리사무소, 서초구 서초구 아이파크빌 관리사무소, existing",
+          "sourceCounts": {
+            "네이버": 4,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 4회"
+        },
+        {
+          "number": "02-599-7800",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-581-0337",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -3165,9 +3209,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 84,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_아이파크빌"
@@ -3892,17 +3936,61 @@
       "address": "서울 서초구 효령로 304\n서울 서초구 서초동 1445-3",
       "roadAddress": "서울 서초구 효령로 304",
       "jibunAddress": "서울 서초구 서초동 1445-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-766-5626",
+      "phones": [
+        "02-766-5626",
+        "02-700-6087",
+        "02-765-6400"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-766-5626",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-700-6087",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-765-6400",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_국제전자센터"
@@ -3924,17 +4012,47 @@
       "address": "서울 서초구 효령로53길 53\n서울 서초구 서초동 1593-1",
       "roadAddress": "서울 서초구 효령로53길 53",
       "jibunAddress": "서울 서초구 서초동 1593-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6953-7496",
+      "phones": [
+        "02-6953-7496",
+        "02-322-5112"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6953-7496",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-322-5112",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_디오페라서초해링턴타워"
@@ -3956,17 +4074,61 @@
       "address": "서울 서초구 서운로 62\n서울 서초구 서초동 1755",
       "roadAddress": "서울 서초구 서운로 62",
       "jibunAddress": "서울 서초구 서초동 1755",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-523-7805",
+      "phones": [
+        "02-523-7805",
+        "02-523-7803",
+        "02-419-1008"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-523-7805",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-523-7803",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-419-1008",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_래미안리스원"
@@ -3988,17 +4150,61 @@
       "address": "서울 서초구 사임당로23길 12\n서울 서초구 서초동 1647-1",
       "roadAddress": "서울 서초구 사임당로23길 12",
       "jibunAddress": "서울 서초구 서초동 1647-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-522-2296",
+      "phones": [
+        "02-522-2296",
+        "02-3472-0043",
+        "02-599-3425"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-522-2296",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-3472-0043",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-599-3425",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_롯데캐슬spa"
@@ -4020,17 +4226,61 @@
       "address": "서울 서초구 서운로6길 15-20\n서울 서초구 서초동 1359-50",
       "roadAddress": "서울 서초구 서운로6길 15-20",
       "jibunAddress": "서울 서초구 서초동 1359-50",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-598-8033",
+      "phones": [
+        "02-598-8033",
+        "02-521-8033",
+        "02-598-1393"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-598-8033",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-521-8033",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-598-1393",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_롯데캐슬쥬피터"
@@ -4052,17 +4302,33 @@
       "address": "서울 서초구 서초대로38길 12\n서울 서초구 서초동 1498-5",
       "roadAddress": "서울 서초구 서초대로38길 12",
       "jibunAddress": "서울 서초구 서초동 1498-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6952-3660",
+      "phones": [
+        "02-6952-3660"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6952-3660",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_마제스타시티힐스테이트서리풀"
@@ -4217,17 +4483,61 @@
       "address": "서울 서초구 서초중앙로2길 21\n서울 서초구 서초동 1445-14",
       "roadAddress": "서울 서초구 서초중앙로2길 21",
       "jibunAddress": "서울 서초구 서초동 1445-14",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-529-3848",
+      "phones": [
+        "02-529-3848",
+        "02-529-2206",
+        "02-523-5509"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-529-3848",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-529-2206",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-523-5509",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_샵서초"
@@ -4249,17 +4559,61 @@
       "address": "서울 서초구 반포대로7길 45\n서울 서초구 서초동 1476-18",
       "roadAddress": "서울 서초구 반포대로7길 45",
       "jibunAddress": "서울 서초구 서초동 1476-18",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-585-1281",
+      "phones": [
+        "02-585-1281",
+        "02-523-5509",
+        "02-523-0877"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-585-1281",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-523-5509",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-523-0877",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_샵오데움2"
@@ -4281,17 +4635,61 @@
       "address": "서울 서초구 명달로6길 31\n서울 서초구 서초동 1487-63",
       "roadAddress": "서울 서초구 명달로6길 31",
       "jibunAddress": "서울 서초구 서초동 1487-63",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-521-6120",
+      "phones": [
+        "02-521-6120",
+        "02-521-6109",
+        "02-599-0293"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-521-6120",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-521-6109",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-599-0293",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초1차e편한세상"
@@ -4313,17 +4711,61 @@
       "address": "서울 서초구 효령로49길 57\n서울 서초구 서초동 1529",
       "roadAddress": "서울 서초구 효령로49길 57",
       "jibunAddress": "서울 서초구 서초동 1529",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-584-1546",
+      "phones": [
+        "02-584-1546",
+        "02-523-0676",
+        "02-523-0622"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-584-1546",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-523-0676",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-523-0622",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초2차이편한세상"
@@ -4345,17 +4787,61 @@
       "address": "서울 서초구 남부순환로 2343-10\n서울 서초구 서초동 1467-37",
       "roadAddress": "서울 서초구 남부순환로 2343-10",
       "jibunAddress": "서울 서초구 서초동 1467-37",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-521-6120",
+      "phones": [
+        "02-521-6120",
+        "02-521-6109",
+        "02-584-1546"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-521-6120",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-521-6109",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-584-1546",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초3차대림이편한세상"
@@ -4377,17 +4863,61 @@
       "address": "서울 서초구 명달로4길 30\n서울 서초구 서초동 1467-62",
       "roadAddress": "서울 서초구 명달로4길 30",
       "jibunAddress": "서울 서초구 서초동 1467-62",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-599-0293",
+      "phones": [
+        "02-599-0293",
+        "02-584-1546",
+        "02-523-0676"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-599-0293",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-584-1546",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-523-0676",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초5차이편한세상"
@@ -4616,17 +5146,61 @@
       "address": "서울 서초구 강남대로39길 5\n서울 서초구 서초동 1362",
       "roadAddress": "서울 서초구 강남대로39길 5",
       "jibunAddress": "서울 서초구 서초동 1362",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-599-8945",
+      "phones": [
+        "02-599-8945",
+        "02-532-7538",
+        "02-581-1883"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-599-8945",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-532-7538",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-581-1883",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초두산위브"
@@ -4648,17 +5222,61 @@
       "address": "서울 서초구 명달로 112\n서울 서초구 서초동 1507-38",
       "roadAddress": "서울 서초구 명달로 112",
       "jibunAddress": "서울 서초구 서초동 1507-38",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-599-8945",
+      "phones": [
+        "02-599-8945",
+        "02-581-1883",
+        "02-908-8772"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-599-8945",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-581-1883",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-908-8772",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초두산위브2"
@@ -4680,17 +5298,61 @@
       "address": "서울 서초구 서운로 194\n서울 서초구 서초동 1310-4",
       "roadAddress": "서울 서초구 서운로 194",
       "jibunAddress": "서울 서초구 서초동 1310-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-946-1295",
+      "phones": [
+        "02-946-1295",
+        "02-946-1293",
+        "02-827-0512"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-946-1295",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-946-1293",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-827-0512",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초두산위브트레지움"
@@ -4712,17 +5374,61 @@
       "address": "서울 서초구 서초대로65길 13-10\n서울 서초구 서초동 1682",
       "roadAddress": "서울 서초구 서초대로65길 13-10",
       "jibunAddress": "서울 서초구 서초동 1682",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3477-8603",
+      "phones": [
+        "02-3477-8603",
+        "02-597-8702",
+        "02-597-8701"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3477-8603",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-597-8702",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-597-8701",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초래미안"
@@ -4744,17 +5450,75 @@
       "address": "서울 서초구 반포대로16길 30\n서울 서초구 서초동 1591-6",
       "roadAddress": "서울 서초구 반포대로16길 30",
       "jibunAddress": "서울 서초구 서초동 1591-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "070-8655-2747",
+      "phones": [
+        "070-8655-2747",
+        "070-8064-3920",
+        "010-2371-1591",
+        "031-753-2889"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "070-8655-2747",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "서초구 서초로이움지젤 관리실, 서초로이움지젤 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "070-8064-3920",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서초로이움지젤 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "010-2371-1591",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서초로이움지젤 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-753-2889",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서초로이움지젤 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 57,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초로이움지젤"
@@ -4776,17 +5540,47 @@
       "address": "서울 서초구 사임당로10길 39\n서울 서초구 서초동 1620-20",
       "roadAddress": "서울 서초구 사임당로10길 39",
       "jibunAddress": "서울 서초구 서초동 1620-20",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-586-8732",
+      "phones": [
+        "02-586-8732",
+        "02-586-8730"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-586-8732",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-586-8730",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초롯데캐슬리버티"
@@ -4892,17 +5686,61 @@
       "address": "서울 서초구 서초중앙로24길 57\n서울 서초구 서초동 1681-8",
       "roadAddress": "서울 서초구 서초중앙로24길 57",
       "jibunAddress": "서울 서초구 서초동 1681-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-533-4001",
+      "phones": [
+        "02-533-4001",
+        "02-532-7787",
+        "02-532-7786"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-533-4001",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-532-7787",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-532-7786",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초롯데캐슬프레지던트"
@@ -4924,17 +5762,61 @@
       "address": "서울 서초구 효령로46길 21\n서울 서초구 서초동 1483-18",
       "roadAddress": "서울 서초구 효령로46길 21",
       "jibunAddress": "서울 서초구 서초동 1483-18",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-523-0193",
+      "phones": [
+        "02-523-0193",
+        "02-2155-7462",
+        "02-530-1816"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-523-0193",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 서초구 서초동 1483-18 전화번호, 서울 서초구 효령로46길 21 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-2155-7462",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 서초구 서초동 1483-18 관리사무소, 서울 서초구 서초동 1483-18 관리실, 서초구 서초더샵오데움1단지 관리실, 서초더샵오데움1단지아파트 관리실",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "02-530-1816",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "서초더샵오데움1단지아파트 관리실, 서초더샵오데움1단지아파트 전화번호, 서초더샵오데움1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초샵오데움1"
@@ -4956,17 +5838,61 @@
       "address": "서울 서초구 반포대로18길 36\n서울 서초구 서초동 1582-3",
       "roadAddress": "서울 서초구 반포대로18길 36",
       "jibunAddress": "서울 서초구 서초동 1582-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-525-0979",
+      "phones": [
+        "02-525-0979",
+        "02-525-0978",
+        "02-833-4707"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-525-0979",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-525-0978",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-833-4707",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초센트럴아이파크"
@@ -4988,17 +5914,61 @@
       "address": "서울 서초구 효령로68길 33\n서울 서초구 서초동 1436-14",
       "roadAddress": "서울 서초구 효령로68길 33",
       "jibunAddress": "서울 서초구 서초동 1436-14",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-594-8033",
+      "phones": [
+        "02-594-8033",
+        "02-533-8035",
+        "02-525-0979"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-594-8033",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-533-8035",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-525-0979",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초아이파크"
@@ -5252,17 +6222,61 @@
       "address": "서울 서초구 효령로68길 81\n서울 서초구 서초동 1444-7",
       "roadAddress": "서울 서초구 효령로68길 81",
       "jibunAddress": "서울 서초구 서초동 1444-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-587-1453",
+      "phones": [
+        "02-587-1453",
+        "02-587-1450",
+        "02-6956-1662"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-587-1453",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-587-1450",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6956-1662",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초자이"
@@ -5284,17 +6298,61 @@
       "address": "서울 서초구 효령로52길 63\n서울 서초구 서초동 1451-89",
       "roadAddress": "서울 서초구 효령로52길 63",
       "jibunAddress": "서울 서초구 서초동 1451-89",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6012-6639",
+      "phones": [
+        "02-6012-6639",
+        "02-3471-7888",
+        "02-570-1107"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6012-6639",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-3471-7888",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-570-1107",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초중흥s클래스"
@@ -5316,17 +6374,61 @@
       "address": "서울 서초구 서운로 201\n서울 서초구 서초동 1311-10",
       "roadAddress": "서울 서초구 서운로 201",
       "jibunAddress": "서울 서초구 서초동 1311-10",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-534-8949",
+      "phones": [
+        "02-534-8949",
+        "02-592-2221",
+        "02-556-9714"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-534-8949",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-592-2221",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-556-9714",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초푸르지오써밋"
@@ -5348,17 +6450,61 @@
       "address": "서울 서초구 서운로11길 23\n서울 서초구 서초동 1344-2",
       "roadAddress": "서울 서초구 서운로11길 23",
       "jibunAddress": "서울 서초구 서초동 1344-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-959-8322",
+      "phones": [
+        "02-959-8322",
+        "02-959-8320",
+        "02-532-1050"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-959-8322",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-959-8320",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-532-1050",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초한양수자인"
@@ -5380,17 +6526,33 @@
       "address": "서울 서초구 강남대로 305\n서울 서초구 서초동 1338-20",
       "roadAddress": "서울 서초구 강남대로 305",
       "jibunAddress": "서울 서초구 서초동 1338-20",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-625-0570",
+      "phones": [
+        "02-625-0570"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-625-0570",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초현대렉시온"
@@ -5773,17 +6935,47 @@
       "address": "서울 서초구 반포대로18길 62\n서울 서초구 서초동 1595-3",
       "roadAddress": "서울 서초구 반포대로18길 62",
       "jibunAddress": "서울 서초구 서초동 1595-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-521-8001",
+      "phones": [
+        "02-521-8001",
+        "02-523-2626"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-521-8001",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-523-2626",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_엘루크서초"
@@ -5860,17 +7052,61 @@
       "address": "서울 서초구 사임당로10길 3\n서울 서초구 서초동 1626-2",
       "roadAddress": "서울 서초구 사임당로10길 3",
       "jibunAddress": "서울 서초구 서초동 1626-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-743-0417",
+      "phones": [
+        "02-743-0417",
+        "02-743-0416",
+        "02-521-9111"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-743-0417",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-743-0416",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-521-9111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_위브씨앤씨"

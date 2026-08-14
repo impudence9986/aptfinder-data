@@ -1,6 +1,6 @@
 {
-  "version": 1784139100,
-  "updatedAt": "2026-07-15 18:11:40",
+  "version": 1786730740,
+  "updatedAt": "2026-08-14 18:05:40",
   "sido": "서울특별시",
   "sigungu": "양천구",
   "count": 220,
@@ -456,16 +456,18 @@
       "jibunAddress": "서울 양천구 목동 404-13",
       "phone": "022-061-4087",
       "phones": [
-        "022-061-4087"
+        "022-061-4087",
+        "022-061-4086"
       ],
       "phoneCandidates": [
         {
           "number": "022-061-4087",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 양천구 목동 404-13 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -474,14 +476,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-061-4086",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 404-13 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "248",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:57:51",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -4405,9 +4422,9 @@
           "number": "022-065-9511",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4416,14 +4433,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "407",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 18:05:37",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -6210,17 +6228,33 @@
       "address": "서울 양천구 목동중앙본로 85\n서울 양천구 목동 953",
       "roadAddress": "서울 양천구 목동중앙본로 85",
       "jibunAddress": "서울 양천구 목동 953",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2652-7672",
+      "phones": [
+        "02-2652-7672"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2652-7672",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "목동두산위브 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_목동두산위브"
@@ -6276,16 +6310,18 @@
       "jibunAddress": "서울 양천구 목동 965",
       "phone": "022-655-2608",
       "phones": [
-        "022-655-2608"
+        "022-655-2608",
+        "022-655-2609"
       ],
       "phoneCandidates": [
         {
           "number": "022-655-2608",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 양천구 목동 965 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6294,14 +6330,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-655-2609",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 965 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "410",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:57:49",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -6938,17 +6989,89 @@
       "address": "서울 양천구 목동로 230\n서울 양천구 목동 940",
       "roadAddress": "서울 양천구 목동로 230",
       "jibunAddress": "서울 양천구 목동 940",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2620-3942",
+      "phones": [
+        "02-2620-3942",
+        "02-2192-1302",
+        "08-816-2366",
+        "02-2643-4965",
+        "02-2643-4975"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2620-3942",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 940 관리실, 서울 양천구 목동로 230 관리실, 목동아이파크1차아파트 관리실, 목동아이파크1차 관리실",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-2192-1302",
+          "score": 73,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 940 전화번호, 서울 양천구 목동로 230 전화번호, 목동아이파크1차 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "08-816-2366",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "목동아이파크1차아파트 전화번호, 목동아이파크1차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2643-4965",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 940 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2643-4975",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 940 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_목동아이파크1차"
@@ -6970,17 +7093,61 @@
       "address": "서울 양천구 목동중앙로 79\n서울 양천구 목동 758-2",
       "roadAddress": "서울 양천구 목동중앙로 79",
       "jibunAddress": "서울 양천구 목동 758-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "022-649-0224",
+      "phones": [
+        "022-649-0224",
+        "02-2192-1302",
+        "02-2620-3942"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "022-649-0224",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 758-2 관리사무소, 서울 양천구 목동중앙로 79 관리사무소, 서울 양천구 목동 758-2 전화번호, 양천구 목동아이파크2차 관리사무소, 목동아이파크2차아파트 관리사무소, 목동아이파크2차아파트 전화번호, 목동아이파크2차 전화번호",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 8
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "02-2192-1302",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "목동아이파크2차아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2620-3942",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "목동아이파크2차 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_목동아이파크2차"
@@ -7056,17 +7223,159 @@
       "address": "서울 양천구 목동서로 201\n서울 양천구 목동 924",
       "roadAddress": "서울 양천구 목동서로 201",
       "jibunAddress": "서울 양천구 목동 924",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3417-2112",
+      "phones": [
+        "02-3417-2112",
+        "023-417-2112",
+        "02-731-0001",
+        "02-3219-3916",
+        "023-219-3916",
+        "02-2062-1690",
+        "022-062-1690",
+        "02-767-0114",
+        "02-2654-9981",
+        "022-654-9981"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3417-2112",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 924 전화번호, 서울 양천구 목동서로 201 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "023-417-2112",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 924 전화번호, 서울 양천구 목동서로 201 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-731-0001",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 924 전화번호, 서울 양천구 목동서로 201 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-3219-3916",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 924 전화번호, 서울 양천구 목동서로 201 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "023-219-3916",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 924 전화번호, 서울 양천구 목동서로 201 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-2062-1690",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 924 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-062-1690",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 924 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-767-0114",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 924 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2654-9981",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 924 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-654-9981",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 924 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_목동윤슬자이예정"
@@ -7088,17 +7397,33 @@
       "address": "서울 양천구 오목로 336\n서울 양천구 목동 405-268",
       "roadAddress": "서울 양천구 오목로 336",
       "jibunAddress": "서울 양천구 목동 405-268",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6212-8822",
+      "phones": [
+        "02-6212-8822"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6212-8822",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 오목로 336 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_목동윤슬자이홍보관"
@@ -7670,17 +7995,285 @@
       "address": "서울 양천구 목동중앙로13나길 83-1\n서울 양천구 목동 131-60",
       "roadAddress": "서울 양천구 목동중앙로13나길 83-1",
       "jibunAddress": "서울 양천구 목동 131-60",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-813-6868",
+      "phones": [
+        "053-813-6868",
+        "032-569-7521",
+        "054-854-6655",
+        "062-952-1058",
+        "02-794-9980",
+        "02-794-9981",
+        "031-377-6657",
+        "031-377-6659",
+        "04-1382-6149",
+        "062-951-8205",
+        "042-542-4864",
+        "062-573-6655",
+        "02-408-2280",
+        "032-279-5279",
+        "031-376-5253",
+        "033-253-8914",
+        "062-956-1111",
+        "062-955-9983",
+        "054-859-9980"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-813-6868",
+          "score": 100,
+          "source": "114On",
+          "keyword": "베르디움 관리사무소, 베르디움 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-569-7521",
+          "score": 91,
+          "source": "114On",
+          "keyword": "베르디움 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "054-854-6655",
+          "score": 91,
+          "source": "114On",
+          "keyword": "베르디움 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "062-952-1058",
+          "score": 91,
+          "source": "114On",
+          "keyword": "베르디움 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-794-9980",
+          "score": 83,
+          "source": "네이버",
+          "keyword": "양천구 베르디움 관리사무소, 양천구 양천구 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-794-9981",
+          "score": 81,
+          "source": "네이버",
+          "keyword": "양천구 베르디움 관리사무소, 양천구 양천구 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-377-6657",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "목동 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-377-6659",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "목동 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "04-1382-6149",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "양천구 양천구 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "062-951-8205",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-542-4864",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "062-573-6655",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-408-2280",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-279-5279",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-376-5253",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "033-253-8914",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "062-956-1111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "062-955-9983",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-859-9980",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_베르디움"
@@ -7758,17 +8351,33 @@
       "address": "서울 양천구 등촌로 132\n서울 양천구 목동 713-1",
       "roadAddress": "서울 양천구 등촌로 132",
       "jibunAddress": "서울 양천구 목동 713-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "04-1382-6149",
+      "phones": [
+        "04-1382-6149"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "04-1382-6149",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "서울 양천구 등촌로 132 관리사무소, 양천구 신영베르디움 관리사무소, 양천구 양천구 신영베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 65,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_신영베르디움"
@@ -8015,9 +8624,9 @@
       "sido": "서울특별시",
       "district": "양천구",
       "dong": "목동",
-      "address": "서울특별시 양천구 목동 514-18 어바니엘 염창",
-      "roadAddress": "",
-      "jibunAddress": "서울특별시 양천구 목동 514-18 어바니엘 염창",
+      "address": "서울 양천구 공항대로 630\n서울 양천구 목동 514-18",
+      "roadAddress": "서울 양천구 공항대로 630",
+      "jibunAddress": "서울 양천구 목동 514-18",
       "phone": "026-952-6996",
       "phones": [
         "026-952-6996"
@@ -8052,7 +8661,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_어바니엘염창"
     },
     {
@@ -8127,17 +8736,89 @@
       "address": "서울 양천구 목동서로 293\n서울 양천구 신정동 319-26",
       "roadAddress": "서울 양천구 목동서로 293",
       "jibunAddress": "서울 양천구 신정동 319-26",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2645-2929",
+      "phones": [
+        "02-2645-2929",
+        "02-2654-3405",
+        "022-654-3405",
+        "02-6953-2521",
+        "02-2647-7788"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2645-2929",
+          "score": 100,
+          "source": "114On",
+          "keyword": "목동 젠트리빌 관리사무소, 양천구 젠트리빌 관리사무소, 양천구 양천구 젠트리빌 관리사무소",
+          "sourceCounts": {
+            "114On": 4
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 4
+          },
+          "sourceSummary": "114On 4회"
+        },
+        {
+          "number": "02-2654-3405",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 293 전화번호, 서울 양천구 신정동 319-26 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "022-654-3405",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 293 전화번호, 서울 양천구 신정동 319-26 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-6953-2521",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "목동 젠트리빌 관리사무소, 양천구 젠트리빌 관리사무소, 양천구 양천구 젠트리빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-2647-7788",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "목동 젠트리빌 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_젠트리빌"
@@ -8246,17 +8927,301 @@
       "address": "서울 양천구 목동서로 77\n서울 양천구 목동 907",
       "roadAddress": "서울 양천구 목동서로 77",
       "jibunAddress": "서울 양천구 목동 907",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6678-0100",
+      "phones": [
+        "02-6678-0100",
+        "026-678-0100",
+        "02-6678-2244",
+        "026-678-2244",
+        "02-6091-7808",
+        "026-091-7808",
+        "02-6678-1011",
+        "02-2620-3942",
+        "02-2653-8274",
+        "02-2652-5249",
+        "022-652-5249",
+        "026-678-1011",
+        "02-2642-8029",
+        "022-642-8029",
+        "02-2062-0877",
+        "022-062-0877",
+        "02-6678-1959",
+        "026-678-1959",
+        "02-2654-9755",
+        "022-654-9755"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6678-0100",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 907 전화번호, 서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "026-678-0100",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 907 전화번호, 서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-6678-2244",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호, 현대월드타워 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "026-678-2244",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호, 현대월드타워 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-6091-7808",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호, 현대월드타워 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "026-091-7808",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호, 현대월드타워 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-6678-1011",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 양천구 목동서로 77 전화번호, 현대월드타워 전화번호",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-2620-3942",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 907 관리사무소, 서울 양천구 목동 907 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2653-8274",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 907 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2652-5249",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 907 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-652-5249",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 907 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-678-1011",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2642-8029",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-642-8029",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2062-0877",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-062-0877",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-6678-1959",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-678-1959",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2654-9755",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-654-9755",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동서로 77 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_현대월드타워"
@@ -10265,17 +11230,61 @@
       "address": "서울 양천구 신월동 1079-2",
       "roadAddress": "",
       "jibunAddress": "서울 양천구 신월동 1079-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-737-3399",
+      "phones": [
+        "02-737-3399",
+        "02-737-3388",
+        "02-533-6234"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-737-3399",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-737-3388",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-533-6234",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "서울특별시_양천구_목동센트럴아이파크위브1정문"
@@ -10297,17 +11306,33 @@
       "address": "서울 양천구 남부순환로83길 18\n서울 양천구 신월동 1076",
       "roadAddress": "서울 양천구 남부순환로83길 18",
       "jibunAddress": "서울 양천구 신월동 1076",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2690-0333",
+      "phones": [
+        "02-2690-0333"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2690-0333",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_목동센트럴아이파크위브2주차장"
@@ -10329,17 +11354,47 @@
       "address": "서울 양천구 남부순환로83길 54\n서울 양천구 신월동 1077-2",
       "roadAddress": "서울 양천구 남부순환로83길 54",
       "jibunAddress": "서울 양천구 신월동 1077-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-935-5446",
+      "phones": [
+        "02-935-5446",
+        "02-2607-8945"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-935-5446",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2607-8945",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_목동센트럴아이파크위브3후문주차장"
@@ -10361,17 +11416,61 @@
       "address": "서울 양천구 남부순환로83길 47\n서울 양천구 신월동 1078",
       "roadAddress": "서울 양천구 남부순환로83길 47",
       "jibunAddress": "서울 양천구 신월동 1078",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-737-3399",
+      "phones": [
+        "02-737-3399",
+        "02-737-3388",
+        "02-734-0253"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-737-3399",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-737-3388",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-734-0253",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_목동센트럴아이파크위브4정문주차장"
@@ -11167,17 +12266,61 @@
       "address": "서울 양천구 오목로5길 19\n서울 양천구 신월동 1057",
       "roadAddress": "서울 양천구 오목로5길 19",
       "jibunAddress": "서울 양천구 신월동 1057",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2690-0941",
+      "phones": [
+        "02-2690-0941",
+        "02-2699-2285",
+        "02-2651-4994"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2690-0941",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2699-2285",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2651-4994",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_양천롯데캐슬1"
@@ -11251,17 +12394,33 @@
       "address": "서울 양천구 신월로 309\n서울 양천구 신정동 976-7",
       "roadAddress": "서울 양천구 신월로 309",
       "jibunAddress": "서울 양천구 신정동 976-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2645-8828",
+      "phones": [
+        "02-2645-8828"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2645-8828",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_검단신도시롯데캐슬넥스티엘홍보관"
@@ -11338,17 +12497,61 @@
       "address": "서울 양천구 오목로23길 9\n서울 양천구 신정동 942-5",
       "roadAddress": "서울 양천구 오목로23길 9",
       "jibunAddress": "서울 양천구 신정동 942-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-774-4050",
+      "phones": [
+        "02-774-4050",
+        "02-743-0417",
+        "02-743-0416"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-774-4050",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-743-0417",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-743-0416",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_동명베르디움"
@@ -11633,17 +12836,61 @@
       "address": "서울 양천구 신정중앙로 60\n서울 양천구 신정동 911-6",
       "roadAddress": "서울 양천구 신정중앙로 60",
       "jibunAddress": "서울 양천구 신정동 911-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-717-9698",
+      "phones": [
+        "02-717-9698",
+        "02-717-9697",
+        "02-391-1919"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-717-9698",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-717-9697",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-391-1919",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_스타힐스"
@@ -11769,17 +13016,61 @@
       "address": "서울 양천구 신목로12길 22\n서울 양천구 신정동 1309",
       "roadAddress": "서울 양천구 신목로12길 22",
       "jibunAddress": "서울 양천구 신정동 1309",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2643-4047",
+      "phones": [
+        "02-2643-4047",
+        "02-2643-0047",
+        "02-2690-0941"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2643-4047",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2643-0047",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2690-0941",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_신정롯데캐슬"
@@ -11798,9 +13089,9 @@
       "sido": "서울특별시",
       "district": "양천구",
       "dong": "신정동",
-      "address": "서울특별시 양천구 신정동 831 신정숲속마을아파트",
-      "roadAddress": "",
-      "jibunAddress": "서울특별시 양천구 신정동 831 신정숲속마을아파트",
+      "address": "서울 양천구 신정로 110\n서울 양천구 신정동 1324",
+      "roadAddress": "서울 양천구 신정로 110",
+      "jibunAddress": "서울 양천구 신정동 1324",
       "phone": "022-060-8101",
       "phones": [
         "022-060-8101"
@@ -11835,7 +13126,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_신정숲속마을"
     },
     {
@@ -12109,17 +13400,61 @@
       "address": "서울 양천구 중앙로29길 45-7\n서울 양천구 신정동 1157-19",
       "roadAddress": "서울 양천구 중앙로29길 45-7",
       "jibunAddress": "서울 양천구 신정동 1157-19",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6369-8100",
+      "phones": [
+        "02-6369-8100",
+        "02-2696-5500",
+        "02-2651-3890"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6369-8100",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2696-5500",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2651-3890",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_양천구_하나아이파크빌"

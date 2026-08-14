@@ -1,6 +1,6 @@
 {
-  "version": 1784139340,
-  "updatedAt": "2026-07-15 18:15:40",
+  "version": 1786731236,
+  "updatedAt": "2026-08-14 18:13:56",
   "sido": "서울특별시",
   "sigungu": "용산구",
   "count": 143,
@@ -351,17 +351,47 @@
       "address": "서울 용산구 한강대로62다길 45\n서울 용산구 한강로1가 167-2",
       "roadAddress": "서울 용산구 한강대로62다길 45",
       "jibunAddress": "서울 용산구 한강로1가 167-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-748-1123",
+      "phones": [
+        "02-748-1123",
+        "02-748-0800"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-748-1123",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "국방레스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-748-0800",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "국방레스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_용산구_국방레스텔"
@@ -439,16 +469,18 @@
       "jibunAddress": "서울 용산구 한강로1가 64",
       "phone": "02-790-3883",
       "phones": [
-        "02-790-3883"
+        "02-790-3883",
+        "02-790-3811"
       ],
       "phoneCandidates": [
         {
           "number": "02-790-3883",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 용산구 한강로1가 64 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -457,14 +489,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-790-3811",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강로1가 64 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "160",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 18:10:15",
       "detailUpdatedAt": 1781134704417,
       "listUpdatedAt": 1781134704417,
       "phoneStatus": "CONFIRMED",
@@ -1743,16 +1790,19 @@
       "jibunAddress": "서울 용산구 한강로2가 419",
       "phone": "02-797-1690",
       "phones": [
-        "02-797-1690"
+        "02-797-1690",
+        "02-797-2380",
+        "02-795-0020"
       ],
       "phoneCandidates": [
         {
           "number": "02-797-1690",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 용산구 한강로2가 419 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1761,14 +1811,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-797-2380",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강로2가 419 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-795-0020",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강로2가 419 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "128",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 18:10:39",
       "detailUpdatedAt": 1781134704417,
       "listUpdatedAt": 1781134704417,
       "phoneStatus": "CONFIRMED",
@@ -1825,7 +1903,7 @@
       "district": "용산구",
       "dong": "",
       "address": "서울 용산구 한강로3가 63-200",
-      "roadAddress": "",
+      "roadAddress": "서울 용산구 한강로3가 63-200",
       "jibunAddress": "서울 용산구 한강로3가 63-200",
       "phone": "",
       "phones": [],
@@ -1839,7 +1917,7 @@
       "reportCount": 0,
       "confidenceScore": 0,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_용산구_아이디헤어용산해링턴점주차장"
     },
     {
@@ -2185,16 +2263,18 @@
       "jibunAddress": "서울 용산구 갈월동 98-6",
       "phone": "02-797-2997",
       "phones": [
-        "02-797-2997"
+        "02-797-2997",
+        "02-797-2996"
       ],
       "phoneCandidates": [
         {
           "number": "02-797-2997",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 용산구 갈월동 98-6 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2203,14 +2283,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-797-2996",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 갈월동 98-6 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "269",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 18:13:25",
       "detailUpdatedAt": 1781134704417,
       "listUpdatedAt": 1781134704417,
       "phoneStatus": "CONFIRMED",
@@ -2651,7 +2746,7 @@
       "district": "용산구",
       "dong": "",
       "address": "서울 용산구 한강로3가 63-385",
-      "roadAddress": "",
+      "roadAddress": "서울 용산구 한강로3가 63-385",
       "jibunAddress": "서울 용산구 한강로3가 63-385",
       "phone": "",
       "phones": [],
@@ -2665,7 +2760,7 @@
       "reportCount": 0,
       "confidenceScore": 0,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_용산구_용산센트럴파크해링턴스퀘어gate2"
     },
     {
@@ -3318,17 +3413,47 @@
       "address": "서울 용산구 한강대로 69\n서울 용산구 한강로3가 95",
       "roadAddress": "서울 용산구 한강대로 69",
       "jibunAddress": "서울 용산구 한강로3가 95",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1395-8088",
+      "phones": [
+        "07-1395-8088",
+        "07-1389-8641"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1395-8088",
+          "score": 91,
+          "source": "114On",
+          "keyword": "용산푸르지오써밋 주차장 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1389-8641",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강대로 69 관리실, 서울 용산구 한강대로 69 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_용산구_용산푸르지오써밋주차장"
@@ -3510,17 +3635,103 @@
       "address": "서울 용산구 한강대로 66\n서울 용산구 한강로2가 210-1",
       "roadAddress": "서울 용산구 한강대로 66",
       "jibunAddress": "서울 용산구 한강로2가 210-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-790-8388",
+      "phones": [
+        "02-790-8388",
+        "02-693-0016",
+        "070-4760-6991",
+        "02-749-7738",
+        "07-1411-9699",
+        "05-331-3100"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-790-8388",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 용산구 한강로2가 210-1 전화번호, 서울 용산구 한강대로 66 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-693-0016",
+          "score": 73,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강대로 66 전화번호, 용산구 용산호반써밋에이디션 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "070-4760-6991",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강로2가 210-1 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-749-7738",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강대로 66 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1411-9699",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "용산호반써밋에이디션 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "05-331-3100",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "용산호반써밋에이디션 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_용산구_용산호반써밋에이디션"
@@ -4353,17 +4564,89 @@
       "address": "서울 용산구 한강대로 23\n서울 용산구 한강로3가 40-19",
       "roadAddress": "서울 용산구 한강대로 23",
       "jibunAddress": "서울 용산구 한강로3가 40-19",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2012-0948",
+      "phones": [
+        "02-2012-0948",
+        "02-2012-1332",
+        "02-2012-0101",
+        "02-6923-8000",
+        "02-2012-2700"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2012-0948",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강대로 23 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2012-1332",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강대로 23 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2012-0101",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강대로 23 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6923-8000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강대로 23 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2012-2700",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 한강대로 23 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_용산구_정동롯데캐슬136견본주택"
@@ -5849,17 +6132,61 @@
       "address": "서울 용산구 장문로6길 76\n서울 용산구 동빙고동 315",
       "roadAddress": "서울 용산구 장문로6길 76",
       "jibunAddress": "서울 용산구 동빙고동 315",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-718-3103",
+      "phones": [
+        "02-718-3103",
+        "02-795-8550",
+        "02-795-8554"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-718-3103",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 장문로6길 76 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-795-8550",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 장문로6길 76 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-795-8554",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 용산구 장문로6길 76 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_용산구_용산푸르지오파크타운1"

@@ -1,6 +1,6 @@
 {
-  "version": 1786644915,
-  "updatedAt": "2026-08-13 18:15:15",
+  "version": 1786728980,
+  "updatedAt": "2026-08-14 17:36:20",
   "sido": "서울특별시",
   "sigungu": "성동구",
   "count": 194,
@@ -5773,17 +5773,61 @@
       "address": "서울 성동구 성수일로12길 52\n서울 성동구 성수동2가 835-1",
       "roadAddress": "서울 성동구 성수일로12길 52",
       "jibunAddress": "서울 성동구 성수동2가 835-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-476-9444",
+      "phones": [
+        "02-476-9444",
+        "02-499-7670",
+        "02-464-1413"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-476-9444",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-499-7670",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-464-1413",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_성동구_성수롯데캐슬파크동"
@@ -5870,9 +5914,9 @@
       "sido": "서울특별시",
       "district": "성동구",
       "dong": "성동",
-      "address": "서울특별시 성동구 성수동2가 833 성수신성아파트",
-      "roadAddress": "",
-      "jibunAddress": "서울특별시 성동구 성수동2가 833 성수신성아파트",
+      "address": "서울 성동구 뚝섬로13길 11\n서울 성동구 성수동2가 833",
+      "roadAddress": "서울 성동구 뚝섬로13길 11",
+      "jibunAddress": "서울 성동구 성수동2가 833",
       "phone": "023-409-5825",
       "phones": [
         "023-409-5825"
@@ -5907,7 +5951,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_성동구_성수신성"
     },
     {
@@ -6745,16 +6789,19 @@
       "jibunAddress": "서울 성동구 금호동1가 1818",
       "phone": "022-294-8547",
       "phones": [
-        "022-294-8547"
+        "022-294-8547",
+        "02-2294-8547",
+        "022-294-8546"
       ],
       "phoneCandidates": [
         {
           "number": "022-294-8547",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 성동구 금호동1가 1818 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6763,14 +6810,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2294-8547",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 성동구 금호동1가 1818 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-294-8546",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 금호동1가 1818 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "169",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:34:16",
       "detailUpdatedAt": 1781060653178,
       "listUpdatedAt": 1781060653178,
       "phoneStatus": "CONFIRMED",
@@ -7165,16 +7240,18 @@
       "jibunAddress": "서울 성동구 성수동1가 685-700",
       "phone": "023-409-5778",
       "phones": [
-        "023-409-5778"
+        "023-409-5778",
+        "023-409-5776"
       ],
       "phoneCandidates": [
         {
           "number": "023-409-5778",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 성동구 성수동1가 685-700 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7183,14 +7260,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-409-5776",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 성수동1가 685-700 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "280",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:34:19",
       "detailUpdatedAt": 1781060653178,
       "listUpdatedAt": 1781060653178,
       "phoneStatus": "CONFIRMED",
@@ -8379,17 +8471,61 @@
       "address": "서울 성동구 가람길 267\n서울 성동구 용답동 238-7",
       "roadAddress": "서울 성동구 가람길 267",
       "jibunAddress": "서울 성동구 용답동 238-7",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2291-3456",
+      "phones": [
+        "02-2291-3456",
+        "02-6403-2864",
+        "02-2242-5808"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2291-3456",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6403-2864",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2242-5808",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_성동구_용답동2387"
@@ -8519,17 +8655,33 @@
       "address": "서울 성동구 아차산로7길 15-1\n서울 성동구 성수동2가 289-21",
       "roadAddress": "서울 성동구 아차산로7길 15-1",
       "jibunAddress": "서울 성동구 성수동2가 289-21",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-225-6447",
+      "phones": [
+        "02-225-6447"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-225-6447",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_성동구_위브비"
@@ -8932,17 +9084,159 @@
       "address": "서울 성동구 가람길 287\n서울 성동구 용답동 238-12",
       "roadAddress": "서울 성동구 가람길 287",
       "jibunAddress": "서울 성동구 용답동 238-12",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "00-2024-0007",
+      "phones": [
+        "00-2024-0007",
+        "022-217-3900",
+        "02-2217-3900",
+        "00-2025-0007",
+        "002-0250-0073",
+        "02-2249-8872",
+        "02-1899-4472",
+        "02-2249-8096",
+        "02-2249-8097",
+        "02-452-7400"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "00-2024-0007",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "성동구 장한평역서희스타힐스리버파크 관리사무소, 성동구 성동구 장한평역서희스타힐스리버파크 관리사무소, 성동구 장한평역서희스타힐스리버파크 관리실, 성동 장한평역서희스타힐스리버파크 관리사무소, 장한평역서희스타힐스리버파크오피스텔 관리사무소, 장한평역서희스타힐스리버파크오피스텔 전화번호, 장한평역서희스타힐스리버파크 전화번호",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 8
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "022-217-3900",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 성동구 가람길 287 관리사무소, 서울 성동구 가람길 287 관리실, 성동구 장한평역서희스타힐스리버파크 관리사무소, 성동구 성동구 장한평역서희스타힐스리버파크 관리사무소, 성동 장한평역서희스타힐스리버파크 관리사무소",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "02-2217-3900",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 성동구 가람길 287 관리사무소, 서울 성동구 가람길 287 관리실, 서울 성동구 가람길 287 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "00-2025-0007",
+          "score": 83,
+          "source": "네이버",
+          "keyword": "서울 성동구 가람길 287 관리실, 서울 성동구 가람길 287 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "002-0250-0073",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 가람길 287 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2249-8872",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 용답동 238-12 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-1899-4472",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 가람길 287 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2249-8096",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 가람길 287 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2249-8097",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 가람길 287 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-452-7400",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "장한평역서희스타힐스리버파크오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_성동구_장한평역서희스타힐스리버파크"
@@ -10399,16 +10693,18 @@
       "jibunAddress": "서울 성동구 행당동 375",
       "phone": "022-298-8872",
       "phones": [
-        "022-298-8872"
+        "022-298-8872",
+        "022-297-8873",
+        "022-297-8874"
       ],
       "phoneCandidates": [
         {
           "number": "022-298-8872",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10417,14 +10713,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "022-297-8873",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 행당동 375 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "022-297-8874",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 행당동 375 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "351",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:35:55",
       "detailUpdatedAt": 1781060653178,
       "listUpdatedAt": 1781060653178,
       "phoneStatus": "CONFIRMED",
@@ -10537,17 +10860,47 @@
       "address": "서울 성동구 행당로8길 8-1\n서울 성동구 행당동 375-2",
       "roadAddress": "서울 성동구 행당로8길 8-1",
       "jibunAddress": "서울 성동구 행당동 375-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2298-2393",
+      "phones": [
+        "02-2298-2393",
+        "02-322-5112"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2298-2393",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-322-5112",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_성동구_행당두산위브주차장"
@@ -10679,16 +11032,20 @@
       "jibunAddress": "서울 성동구 행당동 346",
       "phone": "022-281-4437",
       "phones": [
-        "022-281-4437"
+        "022-281-4437",
+        "02-2281-4437",
+        "02-2286-7201",
+        "022-297-2057",
+        "022-297-2058"
       ],
       "phoneCandidates": [
         {
           "number": "022-281-4437",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10697,14 +11054,69 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2281-4437",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 성동구 행당동 346 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-2286-7201",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 성동구 행당동 346 관리사무소, 서울 성동구 행당동 346 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "022-297-2057",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 행당동 346 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "022-297-2058",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성동구 행당동 346 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2123",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-14 17:36:18",
       "detailUpdatedAt": 1781060653178,
       "listUpdatedAt": 1781060653178,
       "phoneStatus": "CONFIRMED",
