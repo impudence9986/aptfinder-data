@@ -1,6 +1,6 @@
 {
-  "version": 1786730201,
-  "updatedAt": "2026-08-14 17:56:41",
+  "version": 1786813697,
+  "updatedAt": "2026-08-15 17:08:17",
   "sido": "서울특별시",
   "sigungu": "송파구",
   "count": 179,
@@ -1715,6 +1715,8 @@
       "phone": "02-404-0331",
       "phones": [
         "02-404-0331",
+        "02-982-0193",
+        "02-982-0194",
         "022-043-3162",
         "022-043-3163",
         "02-404-0359",
@@ -1727,8 +1729,6 @@
         "031-611-7870",
         "02-400-4348",
         "02-847-9669",
-        "02-982-0193",
-        "02-982-0194",
         "02-980-5278",
         "02-980-5279",
         "053-768-0536",
@@ -1739,17 +1739,51 @@
         {
           "number": "02-404-0331",
           "score": 100,
-          "source": "네이버, 114On",
-          "keyword": "가락동 센트레빌 관리사무소, 송파구 센트레빌 관리사무소, 송파구 송파구 센트레빌 관리사무소, 센트레빌 전화번호",
+          "source": "네이버, 114On, 카카오, 네이버부동산",
+          "keyword": "가락동 센트레빌 관리사무소, 송파구 센트레빌 관리사무소, 송파구 송파구 센트레빌 관리사무소, 센트레빌 전화번호, existing, naver_land_management",
           "sourceCounts": {
             "네이버": 4,
-            "114On": 3
+            "114On": 3,
+            "카카오": 1,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "네이버 웹검색": 4,
-            "114On/네이버 스니펫": 3
+            "114On/네이버 스니펫": 3,
+            "카카오 장소검색": 1,
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "114On 3회 · 네이버 4회"
+          "sourceSummary": "네이버부동산 1회 · 114On 3회 · 카카오 1회 · 네이버 4회"
+        },
+        {
+          "number": "02-982-0193",
+          "score": 100,
+          "source": "네이버, 네이버부동산",
+          "keyword": "센트레빌 관리사무소, naver_land_management",
+          "sourceCounts": {
+            "네이버": 1,
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-982-0194",
+          "score": 100,
+          "source": "네이버, 네이버부동산",
+          "keyword": "센트레빌 관리사무소, naver_land_management",
+          "sourceCounts": {
+            "네이버": 1,
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
         },
         {
           "number": "022-043-3162",
@@ -1870,7 +1904,7 @@
         },
         {
           "number": "031-611-7870",
-          "score": 55,
+          "score": 65,
           "source": "네이버",
           "keyword": "센트레빌 관리실, 센트레빌 전화번호",
           "sourceCounts": {
@@ -1904,32 +1938,6 @@
           },
           "sourceDetails": {
             "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "02-982-0193",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "센트레빌 관리사무소",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "02-982-0194",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "센트레빌 관리사무소",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
           },
           "sourceSummary": "네이버 1회"
         },
@@ -5697,17 +5705,61 @@
       "address": "서울 송파구 새말로 150\n서울 송파구 문정동 99-8",
       "roadAddress": "서울 송파구 새말로 150",
       "jibunAddress": "서울 송파구 문정동 99-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-587-1700",
+      "phones": [
+        "02-587-1700",
+        "02-413-7878",
+        "02-401-5989"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-587-1700",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-413-7878",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-401-5989",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_세느"
@@ -5729,17 +5781,61 @@
       "address": "서울 송파구 법원로 55\n서울 송파구 문정동 624",
       "roadAddress": "서울 송파구 법원로 55",
       "jibunAddress": "서울 송파구 문정동 624",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-561-9989",
+      "phones": [
+        "02-561-9989",
+        "02-486-4700",
+        "02-461-0000"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-561-9989",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-486-4700",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-461-0000",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_송파아이파크"
@@ -5851,17 +5947,61 @@
       "address": "서울 송파구 새말로 62\n서울 송파구 문정동 620",
       "roadAddress": "서울 송파구 새말로 62",
       "jibunAddress": "서울 송파구 문정동 620",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-989-8925",
+      "phones": [
+        "02-989-8925",
+        "02-841-1810",
+        "02-831-5654"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-989-8925",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-841-1810",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-831-5654",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_송파푸르지오시티"
@@ -5883,17 +6023,61 @@
       "address": "서울 송파구 충민로 5\n서울 송파구 문정동 622",
       "roadAddress": "서울 송파구 충민로 5",
       "jibunAddress": "서울 송파구 문정동 622",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-430-5753",
+      "phones": [
+        "02-430-5753",
+        "02-430-5752",
+        "02-938-9559"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-430-5753",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-430-5752",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-938-9559",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_송파한화오벨리스크"
@@ -5915,17 +6099,61 @@
       "address": "서울 송파구 법원로 114\n서울 송파구 문정동 643-1",
       "roadAddress": "서울 송파구 법원로 114",
       "jibunAddress": "서울 송파구 문정동 643-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6956-1071",
+      "phones": [
+        "02-6956-1071",
+        "02-448-5900",
+        "02-400-3322"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6956-1071",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-448-5900",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-400-3322",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_엠스테이트"
@@ -5947,17 +6175,61 @@
       "address": "서울 송파구 중대로 24\n서울 송파구 문정동 150",
       "roadAddress": "서울 송파구 중대로 24",
       "jibunAddress": "서울 송파구 문정동 150",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-430-4043",
+      "phones": [
+        "02-430-4043",
+        "02-404-6006",
+        "02-402-7708"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-430-4043",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-404-6006",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-402-7708",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_올림픽훼밀리타운"
@@ -5979,17 +6251,61 @@
       "address": "서울 송파구 충민로 66\n서울 송파구 문정동 634",
       "roadAddress": "서울 송파구 충민로 66",
       "jibunAddress": "서울 송파구 문정동 634",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-706-9300",
+      "phones": [
+        "02-706-9300",
+        "02-843-8698",
+        "02-843-8690"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-706-9300",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-843-8698",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-843-8690",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_자이박스"
@@ -6011,17 +6327,61 @@
       "address": "서울 송파구 송파대로14길 8\n서울 송파구 문정동 68-1",
       "roadAddress": "서울 송파구 송파대로14길 8",
       "jibunAddress": "서울 송파구 문정동 68-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-449-2212",
+      "phones": [
+        "02-449-2212",
+        "02-449-2210",
+        "02-430-7450"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-449-2212",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-449-2210",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-430-7450",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_자이파인빌"
@@ -6099,17 +6459,61 @@
       "address": "서울 송파구 동남로 160\n서울 송파구 문정동 3",
       "roadAddress": "서울 송파구 동남로 160",
       "jibunAddress": "서울 송파구 문정동 3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-408-2336",
+      "phones": [
+        "02-408-2336",
+        "02-402-2338",
+        "02-404-8467"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-408-2336",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-402-2338",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-404-8467",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_현대가락1차"
@@ -6131,17 +6535,61 @@
       "address": "서울 송파구 새말로15길 22\n서울 송파구 문정동 106-21",
       "roadAddress": "서울 송파구 새말로15길 22",
       "jibunAddress": "서울 송파구 문정동 106-21",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2111-6111",
+      "phones": [
+        "02-2111-6111",
+        "02-6166-3396",
+        "02-2047-3333"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2111-6111",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6166-3396",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2047-3333",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_홈즈스튜디오어반하우스송파"
@@ -6163,17 +6611,61 @@
       "address": "서울 송파구 송이로31길 20\n서울 송파구 문정동 656",
       "roadAddress": "서울 송파구 송이로31길 20",
       "jibunAddress": "서울 송파구 문정동 656",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-449-8587",
+      "phones": [
+        "02-449-8587",
+        "02-449-8586",
+        "02-401-4989"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-449-8587",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-449-8586",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-401-4989",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_힐스테이트e편한세상문정"
@@ -6227,17 +6719,61 @@
       "address": "서울 송파구 문정동 139-9",
       "roadAddress": "",
       "jibunAddress": "서울 송파구 문정동 139-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-737-3399",
+      "phones": [
+        "02-737-3399",
+        "02-737-3388",
+        "02-448-9070"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-737-3399",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-737-3388",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-448-9070",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "서울특별시_송파구_힐스테이트e편한세상문정후문"
@@ -6381,17 +6917,61 @@
       "address": "서울 송파구 정의로7길 13\n서울 송파구 문정동 483",
       "roadAddress": "서울 송파구 정의로7길 13",
       "jibunAddress": "서울 송파구 문정동 483",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-578-5406",
+      "phones": [
+        "02-578-5406",
+        "02-578-5051",
+        "02-459-0058"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-578-5406",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-578-5051",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-459-0058",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_힐스테이트에코송파주차장"
@@ -6413,17 +6993,47 @@
       "address": "서울 송파구 오금로11길 61-16\n서울 송파구 방이동 50-1",
       "roadAddress": "서울 송파구 오금로11길 61-16",
       "jibunAddress": "서울 송파구 방이동 50-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-795-8700",
+      "phones": [
+        "02-795-8700",
+        "02-3159-8959"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-795-8700",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-3159-8959",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_h타워"
@@ -6723,17 +7333,61 @@
       "address": "서울 송파구 오금로 181\n서울 송파구 방이동 115-5",
       "roadAddress": "서울 송파구 오금로 181",
       "jibunAddress": "서울 송파구 방이동 115-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-322-5112",
+      "phones": [
+        "02-322-5112",
+        "02-730-4021",
+        "02-706-9300"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-322-5112",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-730-4021",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-706-9300",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_방이"
@@ -6755,17 +7409,61 @@
       "address": "서울 송파구 위례성대로8길 28\n서울 송파구 방이동 157",
       "roadAddress": "서울 송파구 위례성대로8길 28",
       "jibunAddress": "서울 송파구 방이동 157",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-424-5338",
+      "phones": [
+        "02-424-5338",
+        "02-415-5810",
+        "02-2202-4455"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-424-5338",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-415-5810",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2202-4455",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_방이금호어울림"
@@ -6787,17 +7485,33 @@
       "address": "서울 송파구 오금로11길 45\n서울 송파구 방이동 46-2",
       "roadAddress": "서울 송파구 오금로11길 45",
       "jibunAddress": "서울 송파구 방이동 46-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-592-2560",
+      "phones": [
+        "02-592-2560"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-592-2560",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_사보이시티잠실"
@@ -6851,17 +7565,61 @@
       "address": "서울 송파구 위례성대로8길 67\n서울 송파구 방이동 123-13",
       "roadAddress": "서울 송파구 위례성대로8길 67",
       "jibunAddress": "서울 송파구 방이동 123-13",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-931-8360",
+      "phones": [
+        "02-931-8360",
+        "02-6166-3396",
+        "02-595-1020"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-931-8360",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-6166-3396",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-595-1020",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_스윗자이"
@@ -6935,17 +7693,61 @@
       "address": "서울 송파구 가락로40길 3\n서울 송파구 방이동 160-5",
       "roadAddress": "서울 송파구 가락로40길 3",
       "jibunAddress": "서울 송파구 방이동 160-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-409-6333",
+      "phones": [
+        "02-409-6333",
+        "02-919-8862",
+        "02-743-0417"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-409-6333",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-919-8862",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-743-0417",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_양지래미안"
@@ -6967,17 +7769,103 @@
       "address": "서울 송파구 올림픽로30길 9\n서울 송파구 방이동 28-2",
       "roadAddress": "서울 송파구 올림픽로30길 9",
       "jibunAddress": "서울 송파구 방이동 28-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2051-0877",
+      "phones": [
+        "02-2051-0877",
+        "02-425-0100",
+        "02-487-8245",
+        "02-422-4885",
+        "07-1406-5141",
+        "07-1416-6113"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2051-0877",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "송파구 엘루이시티 관리사무소, 엘루이시티오피스텔 관리사무소, 엘루이시티오피스텔 관리실, 엘루이시티오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "02-425-0100",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "엘루이시티오피스텔 관리사무소, 엘루이시티 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-487-8245",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "방이동 엘루이시티 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-422-4885",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘루이시티오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1406-5141",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘루이시티 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1416-6113",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "엘루이시티 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_엘루이시티"
@@ -6999,17 +7887,33 @@
       "address": "서울 송파구 위례성대로14길 11\n서울 송파구 방이동 193-37",
       "roadAddress": "서울 송파구 위례성대로14길 11",
       "jibunAddress": "서울 송파구 방이동 193-37",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-970-0848",
+      "phones": [
+        "02-970-0848"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-970-0848",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_옥산크리스탈"
@@ -7031,17 +7935,61 @@
       "address": "서울 송파구 위례성대로 58\n서울 송파구 방이동 171",
       "roadAddress": "서울 송파구 위례성대로 58",
       "jibunAddress": "서울 송파구 방이동 171",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-423-3735",
+      "phones": [
+        "02-423-3735",
+        "02-477-9279",
+        "02-471-2022"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-423-3735",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-477-9279",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-471-2022",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_올림픽베어스타운"
@@ -7127,17 +8075,47 @@
       "address": "서울 송파구 오금로 231\n서울 송파구 방이동 227-1",
       "roadAddress": "서울 송파구 오금로 231",
       "jibunAddress": "서울 송파구 방이동 227-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-449-2212",
+      "phones": [
+        "02-449-2212",
+        "02-449-2210"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-449-2212",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-449-2210",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_인텍스파크텔"
@@ -7211,17 +8189,33 @@
       "address": "서울 송파구 오금로11길 65\n서울 송파구 방이동 50-3",
       "roadAddress": "서울 송파구 오금로11길 65",
       "jibunAddress": "서울 송파구 방이동 50-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-569-1130",
+      "phones": [
+        "02-569-1130"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-569-1130",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "방이동 잠실리버리치 관리사무소, 송파구 잠실리버리치 관리사무소, 송파구 송파구 잠실리버리치 관리사무소, 송파구 잠실리버리치 관리실, 잠실리버리치오피스텔 관리사무소, 잠실리버리치오피스텔 관리실, 잠실리버리치오피스텔 전화번호, 잠실리버리치 전화번호",
+          "sourceCounts": {
+            "네이버": 10
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10
+          },
+          "sourceSummary": "네이버 10회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_잠실리버리치"
@@ -7575,17 +8569,33 @@
       "address": "서울 송파구 올림픽로34길 5-14\n서울 송파구 방이동 42",
       "roadAddress": "서울 송파구 올림픽로34길 5-14",
       "jibunAddress": "서울 송파구 방이동 42",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-421-7776",
+      "phones": [
+        "02-421-7776"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-421-7776",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_잠실역웰리지테라스"
@@ -7607,17 +8617,47 @@
       "address": "서울 송파구 위례성대로6길 30-11\n서울 송파구 방이동 455",
       "roadAddress": "서울 송파구 위례성대로6길 30-11",
       "jibunAddress": "서울 송파구 방이동 455",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-471-2022",
+      "phones": [
+        "02-471-2022",
+        "02-471-2008"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-471-2022",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-471-2008",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_송파구_잠실올림픽포레다움"

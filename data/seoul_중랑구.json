@@ -1,6 +1,6 @@
 {
-  "version": 1784140182,
-  "updatedAt": "2026-07-15 18:29:42",
+  "version": 1786815786,
+  "updatedAt": "2026-08-15 17:43:06",
   "sido": "서울특별시",
   "sigungu": "중랑구",
   "count": 184,
@@ -1698,16 +1698,18 @@
       "jibunAddress": "서울 중랑구 면목동 193-1",
       "phone": "02-496-8158",
       "phones": [
-        "02-496-8158"
+        "02-496-8158",
+        "02-436-1685"
       ],
       "phoneCandidates": [
         {
           "number": "02-496-8158",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 중랑구 면목동 193-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1716,14 +1718,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-436-1685",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 중랑구 면목동 193-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1362",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-15 17:37:44",
       "detailUpdatedAt": 1781136355924,
       "listUpdatedAt": 1781136355924,
       "phoneStatus": "CONFIRMED",
@@ -4897,9 +4914,9 @@
           "number": "02-435-7343",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4908,14 +4925,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "490",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-15 17:37:15",
       "detailUpdatedAt": 1781136355924,
       "listUpdatedAt": 1781136355924,
       "phoneStatus": "CONFIRMED",
@@ -6130,17 +6148,75 @@
       "address": "서울 중랑구 중랑천로 14\n서울 중랑구 면목동 1520",
       "roadAddress": "서울 중랑구 중랑천로 14",
       "jibunAddress": "서울 중랑구 면목동 1520",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2285-1583",
+      "phones": [
+        "02-2285-1583",
+        "022-285-1583",
+        "02-2209-6904",
+        "022-209-6904"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2285-1583",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 중랑구 면목동 1520 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-285-1583",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 중랑구 면목동 1520 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2209-6904",
+          "score": 91,
+          "source": "114On",
+          "keyword": "일신강변 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-209-6904",
+          "score": 91,
+          "source": "114On",
+          "keyword": "일신강변 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "62",
       "source": "공공데이터 K-apt",
       "verifiedAt": "공공데이터 K-apt",
       "detailUpdatedAt": 1781136355924,
       "listUpdatedAt": 1781136355924,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_일신강변"
@@ -6920,16 +6996,18 @@
       "jibunAddress": "서울 중랑구 면목동 1543",
       "phone": "02-496-9866",
       "phones": [
-        "02-496-9866"
+        "02-496-9866",
+        "02-495-9866"
       ],
       "phoneCandidates": [
         {
           "number": "02-496-9866",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 서울 중랑구 면목동 1543 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6938,14 +7016,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-495-9866",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 중랑구 면목동 1543 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "497",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-15 17:39:08",
       "detailUpdatedAt": 1781136355924,
       "listUpdatedAt": 1781136355924,
       "phoneStatus": "CONFIRMED",
@@ -6972,17 +7065,159 @@
       "address": "서울 중랑구 망우로76길 51\n서울 중랑구 망우동 579",
       "roadAddress": "서울 중랑구 망우로76길 51",
       "jibunAddress": "서울 중랑구 망우동 579",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-496-5972",
+      "phones": [
+        "02-496-5972",
+        "02-2207-0365",
+        "02-433-7275",
+        "02-433-9736",
+        "02-493-0266",
+        "02-2207-0040",
+        "02-494-4110",
+        "02-432-8397",
+        "04-800-7757",
+        "02-432-5120"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-496-5972",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중랑구 한울네세창 관리사무소, 중랑구 중랑구 한울네세창 관리사무소, 중랑구 한울네세창 관리실, 한울네세창 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "02-2207-0365",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중랑구 한울네세창 관리사무소, 중랑구 중랑구 한울네세창 관리사무소, 중랑구 한울네세창 관리실",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-433-7275",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중랑구 한울네세창 관리사무소, 중랑구 중랑구 한울네세창 관리사무소, 중랑구 한울네세창 관리실",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-433-9736",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중랑구 한울네세창 관리사무소, 중랑구 중랑구 한울네세창 관리사무소, 중랑구 한울네세창 관리실",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-493-0266",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "중랑구 한울네세창 관리사무소, 중랑구 중랑구 한울네세창 관리사무소, 중랑구 한울네세창 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-2207-0040",
+          "score": 75,
+          "source": "네이버",
+          "keyword": "한울네세창 관리사무소, 한울네세창 관리실, 한울네세창 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-494-4110",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "한울네세창 관리사무소, 한울네세창 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-432-8397",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "한울네세창 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "04-800-7757",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "한울네세창 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-432-5120",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "한울네세창 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "55",
       "source": "공공데이터 K-apt",
       "verifiedAt": "공공데이터 K-apt",
       "detailUpdatedAt": 1781136355924,
       "listUpdatedAt": 1781136355924,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_한울네세창"
@@ -7252,17 +7487,62 @@
       "address": "서울 중랑구 봉우재로 239\n서울 중랑구 망우동 461-1",
       "roadAddress": "서울 중랑구 봉우재로 239",
       "jibunAddress": "서울 중랑구 망우동 461-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-437-5552",
+      "phones": [
+        "02-437-5552",
+        "050-7875-6113",
+        "02-433-2275"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-437-5552",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 중랑구 봉우재로 239 관리실, 서울 중랑구 봉우재로 239 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "050-7875-6113",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 중랑구 망우동 461-1 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-433-2275",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 중랑구 봉우재로 239 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 53,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_샵담다"
@@ -7592,9 +7872,9 @@
       "sido": "서울특별시",
       "district": "중랑구",
       "dong": "면목동",
-      "address": "서울특별시 중랑구 면목동 1500 면목1차두산아파트",
-      "roadAddress": "",
-      "jibunAddress": "서울특별시 중랑구 면목동 1500 면목1차두산아파트",
+      "address": "서울 중랑구 사가정로41길 9\n서울 중랑구 면목동 1500",
+      "roadAddress": "서울 중랑구 사가정로41길 9",
+      "jibunAddress": "서울 중랑구 면목동 1500",
       "phone": "02-437-2660",
       "phones": [
         "02-437-2660"
@@ -7629,7 +7909,7 @@
       "reportCount": 0,
       "confidenceScore": 100,
       "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
+      "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_면목1차두산"
     },
     {
@@ -7733,17 +8013,299 @@
       "address": "서울 중랑구 답십리로85길 3\n서울 중랑구 면목동 393-81",
       "roadAddress": "서울 중랑구 답십리로85길 3",
       "jibunAddress": "서울 중랑구 면목동 393-81",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-813-6868",
+      "phones": [
+        "053-813-6868",
+        "032-569-7521",
+        "054-854-6655",
+        "062-952-1058",
+        "02-723-2107",
+        "031-708-2993",
+        "02-422-0167",
+        "031-965-6671",
+        "02-3663-2561",
+        "02-794-9980",
+        "02-794-9981",
+        "062-951-8205",
+        "042-542-4864",
+        "062-573-6655",
+        "02-408-2280",
+        "032-279-5279",
+        "031-376-5253",
+        "062-956-1111",
+        "062-955-9983",
+        "054-859-9980"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-813-6868",
+          "score": 100,
+          "source": "114On",
+          "keyword": "베르디움 관리사무소, 베르디움 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-569-7521",
+          "score": 91,
+          "source": "114On",
+          "keyword": "베르디움 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "054-854-6655",
+          "score": 91,
+          "source": "114On",
+          "keyword": "베르디움 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "062-952-1058",
+          "score": 91,
+          "source": "114On",
+          "keyword": "베르디움 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-723-2107",
+          "score": 87,
+          "source": "네이버",
+          "keyword": "중랑구 베르디움 관리사무소, 중랑구 중랑구 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-708-2993",
+          "score": 85,
+          "source": "네이버",
+          "keyword": "중랑구 베르디움 관리사무소, 중랑구 중랑구 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-422-0167",
+          "score": 83,
+          "source": "네이버",
+          "keyword": "중랑구 베르디움 관리사무소, 중랑구 중랑구 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-965-6671",
+          "score": 81,
+          "source": "네이버",
+          "keyword": "중랑구 베르디움 관리사무소, 중랑구 중랑구 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-3663-2561",
+          "score": 79,
+          "source": "네이버",
+          "keyword": "중랑구 베르디움 관리사무소, 중랑구 중랑구 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-794-9980",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "중랑구 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-794-9981",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "중랑구 베르디움 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "062-951-8205",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "042-542-4864",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "062-573-6655",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-408-2280",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-279-5279",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-376-5253",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "062-956-1111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "062-955-9983",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-859-9980",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "베르디움 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_베르디움"
@@ -7855,17 +8417,75 @@
       "address": "서울 중랑구 상봉로 7\n서울 중랑구 면목동 68-2",
       "roadAddress": "서울 중랑구 상봉로 7",
       "jibunAddress": "서울 중랑구 면목동 68-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-433-0015",
+      "phones": [
+        "02-433-0015",
+        "010-2291-0945",
+        "02-492-3622",
+        "02-438-7205"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-433-0015",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 중랑구 면목동 68-2 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "010-2291-0945",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서일타운오피스텔 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-492-3622",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서일타운 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-438-7205",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서일타운 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_서일타운"
@@ -8160,17 +8780,61 @@
       "address": "서울 중랑구 숙선옹주로 45\n서울 중랑구 묵동 156-33",
       "roadAddress": "서울 중랑구 숙선옹주로 45",
       "jibunAddress": "서울 중랑구 묵동 156-33",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-974-8949",
+      "phones": [
+        "02-974-8949",
+        "02-975-9295",
+        "02-3421-9514"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-974-8949",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 중랑구 숙선옹주로 45 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-975-9295",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 중랑구 숙선옹주로 45 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3421-9514",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 중랑구 숙선옹주로 45 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_e편한세상화랑대출입구"
@@ -8474,17 +9138,103 @@
       "address": "서울 중랑구 동일로 932\n서울 중랑구 묵동 190-3",
       "roadAddress": "서울 중랑구 동일로 932",
       "jibunAddress": "서울 중랑구 묵동 190-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "070-4986-3703",
+      "phones": [
+        "070-4986-3703",
+        "02-5550-5655",
+        "02-433-3400",
+        "02-979-8606",
+        "02-494-2077",
+        "02-938-1600"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "070-4986-3703",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 중랑구 동일로 932 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-5550-5655",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 중랑구 동일로 932 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-433-3400",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 중랑구 동일로 932 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-979-8606",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 중랑구 동일로 932 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-494-2077",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 중랑구 동일로 932 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-938-1600",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 중랑구 동일로 932 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_묵동자이2주차장입구"
@@ -8538,17 +9288,61 @@
       "address": "서울 중랑구 중랑천로 77\n서울 중랑구 상봉동 137-15",
       "roadAddress": "서울 중랑구 중랑천로 77",
       "jibunAddress": "서울 중랑구 상봉동 137-15",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-491-1328",
+      "phones": [
+        "02-491-1328",
+        "02-433-0333",
+        "02-433-6500"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-491-1328",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 중랑구 상봉동 137-15 전화번호, 서울 중랑구 중랑천로 77 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-433-0333",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 중랑구 상봉동 137-15 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-433-6500",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 중랑구 상봉동 137-15 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_상봉"
@@ -8864,17 +9658,33 @@
       "address": "서울 중랑구 면목로96길 66\n서울 중랑구 상봉동 89",
       "roadAddress": "서울 중랑구 면목로96길 66",
       "jibunAddress": "서울 중랑구 상봉동 89",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "01-630-0520",
+      "phones": [
+        "01-630-0520"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "01-630-0520",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "위버루체 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_위버루체"
