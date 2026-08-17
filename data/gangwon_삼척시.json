@@ -1,6 +1,6 @@
 {
-  "version": 1785088307,
-  "updatedAt": "2026-07-26 17:51:47",
+  "version": 1786987300,
+  "updatedAt": "2026-08-17 17:21:40",
   "sido": "강원특별자치도",
   "sigungu": "삼척시",
   "count": 43,
@@ -1598,21 +1598,24 @@
       "phone": "010-1202-2080",
       "phones": [
         "010-1202-2080",
-        "031-717-4847"
+        "031-717-4847",
+        "02-1833-4903"
       ],
       "phoneCandidates": [
         {
           "number": "010-1202-2080",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "강원특별자치도 삼척시 월계안1길 1-8 관리실",
+          "score": 75,
+          "source": "네이버, 카카오",
+          "keyword": "강원특별자치도 삼척시 월계안1길 1-8 관리실, existing",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 1,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버 웹검색": 1,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         },
         {
           "number": "031-717-4847",
@@ -1626,6 +1629,19 @@
             "네이버 블로그검색": 1
           },
           "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-1833-4903",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "두원빌라3차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1635,7 +1651,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 75,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_삼척시_두원빌라3차"

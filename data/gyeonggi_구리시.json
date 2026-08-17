@@ -1,6 +1,6 @@
 {
-  "version": 1785262848,
-  "updatedAt": "2026-07-28 18:20:48",
+  "version": 1786988339,
+  "updatedAt": "2026-08-17 17:38:59",
   "sido": "경기도",
   "sigungu": "구리시",
   "count": 150,
@@ -7355,21 +7355,51 @@
       "jibunAddress": "경기 구리시 교문동 259-10",
       "phone": "031-221-3777",
       "phones": [
-        "031-221-3777"
+        "031-221-3777",
+        "02-500-0450",
+        "062-510-2111"
       ],
       "phoneCandidates": [
         {
           "number": "031-221-3777",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "중흥S클래스힐더포레 견본주택 전화번호",
+          "score": 90,
+          "source": "네이버, 카카오",
+          "keyword": "중흥S클래스힐더포레 견본주택 전화번호, existing",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 1,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 블로그검색": 1
+            "네이버 블로그검색": 1,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-500-0450",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "구리시 중흥S클래스힐더포레 견본주택 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "062-510-2111",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 구리시 교문동 259-10 전화번호, 중흥S클래스힐더포레 견본주택 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "",
@@ -7377,9 +7407,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 90,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_구리시_중흥s클래스힐포레견본주택"

@@ -1,6 +1,6 @@
 {
-  "version": 1784745606,
-  "updatedAt": "2026-07-22 18:40:06",
+  "version": 1786986097,
+  "updatedAt": "2026-08-17 17:01:37",
   "sido": "부산광역시",
   "sigungu": "북구",
   "count": 154,
@@ -6299,30 +6299,74 @@
       "address": "부산 북구 구포만세길 115\n부산 북구 구포동 1060-45",
       "roadAddress": "부산 북구 구포만세길 115",
       "jibunAddress": "부산 북구 구포동 1060-45",
-      "phone": "05-828-5815",
+      "phone": "051-583-7936",
       "phones": [
+        "051-583-7936",
         "05-828-5815",
+        "051-582-1823",
+        "051-515-9884",
         "051-343-1060",
         "051-343-5722",
         "051-337-9561"
       ],
       "phoneCandidates": [
         {
-          "number": "05-828-5815",
-          "score": 79,
-          "source": "네이버",
-          "keyword": "북구 효산벨루스 관리사무소, 북구 북구 효산벨루스 관리사무소",
+          "number": "051-583-7936",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 3
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 3
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 3회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "05-828-5815",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "북구 효산벨루스 관리사무소, 북구 북구 효산벨루스 관리사무소, existing",
+          "sourceCounts": {
+            "네이버": 3,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 3회"
+        },
+        {
+          "number": "051-582-1823",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-515-9884",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         },
         {
           "number": "051-343-1060",
-          "score": 67,
+          "score": 87,
           "source": "네이버",
           "keyword": "부산 북구 구포만세길 115 관리실, 효산벨루스 전화번호",
           "sourceCounts": {
@@ -6336,7 +6380,7 @@
         },
         {
           "number": "051-343-5722",
-          "score": 59,
+          "score": 69,
           "source": "네이버",
           "keyword": "구포동 효산벨루스 관리사무소",
           "sourceCounts": {
@@ -6366,9 +6410,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_북구_효산벨루스"
@@ -7965,14 +8009,30 @@
       "jibunAddress": "부산 북구 화명동 1352",
       "phone": "051-361-6679",
       "phones": [
-        "051-361-6679"
+        "051-361-6679",
+        "051-365-7070"
       ],
       "phoneCandidates": [
         {
           "number": "051-361-6679",
+          "score": 75,
+          "source": "네이버, 카카오",
+          "keyword": "북구 e편한세상화명힐스 정문 관리실, existing",
+          "sourceCounts": {
+            "네이버": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-365-7070",
           "score": 42,
           "source": "네이버",
-          "keyword": "북구 e편한세상화명힐스 정문 관리실",
+          "keyword": "e편한세상화명힐스 정문 전화번호",
           "sourceCounts": {
             "네이버": 1
           },
@@ -7989,7 +8049,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 75,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "부산광역시_북구_e편한세상화명힐스정문"

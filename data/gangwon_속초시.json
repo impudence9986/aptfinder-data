@@ -1,6 +1,6 @@
 {
-  "version": 1785088743,
-  "updatedAt": "2026-07-26 17:59:03",
+  "version": 1786987351,
+  "updatedAt": "2026-08-17 17:22:31",
   "sido": "강원특별자치도",
   "sigungu": "속초시",
   "count": 97,
@@ -3040,16 +3040,18 @@
       "phoneCandidates": [
         {
           "number": "033-655-4148",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "강원특별자치도 속초시 금호동 617-21 관리사무소",
+          "score": 70,
+          "source": "네이버, 카카오",
+          "keyword": "강원특별자치도 속초시 금호동 617-21 관리사무소, existing",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 1,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버 웹검색": 1,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         }
       ],
       "households": "",
@@ -3059,7 +3061,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 70,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "강원특별자치도_속초시_샵속초프라임뷰2027년07월예정"
@@ -5552,23 +5554,67 @@
       "address": "강원특별자치도 속초시 청호로3길 70\n강원특별자치도 속초시 조양동 1410-16",
       "roadAddress": "강원특별자치도 속초시 청호로3길 70",
       "jibunAddress": "강원특별자치도 속초시 조양동 1410-16",
-      "phone": "033-800-7250",
+      "phone": "033-653-8338",
       "phones": [
+        "033-653-8338",
+        "033-651-0818",
+        "033-647-2891",
         "033-800-7250"
       ],
       "phoneCandidates": [
         {
-          "number": "033-800-7250",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "강원특별자치도 속초시 청호로3길 70 전화번호",
+          "number": "033-653-8338",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 1
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-651-0818",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-647-2891",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "033-800-7250",
+          "score": 85,
+          "source": "네이버, 카카오",
+          "keyword": "강원특별자치도 속초시 청호로3길 70 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         }
       ],
       "households": "",
@@ -5576,9 +5622,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_속초시_호텔속초베스트웨스턴시그니처컬렉션"

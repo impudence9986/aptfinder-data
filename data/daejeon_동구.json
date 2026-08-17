@@ -1,6 +1,6 @@
 {
-  "version": 1785002285,
-  "updatedAt": "2026-07-25 17:58:05",
+  "version": 1786986935,
+  "updatedAt": "2026-08-17 17:15:35",
   "sido": "대전광역시",
   "sigungu": "동구",
   "count": 138,
@@ -6420,16 +6420,18 @@
       "phoneCandidates": [
         {
           "number": "042-531-1008",
-          "score": 51,
-          "source": "네이버",
-          "keyword": "대전성남우미린뉴시티아파트 (2027년06월예정) 전화번호, 대전성남우미린뉴시티 (2027년06월예정) 전화번호",
+          "score": 80,
+          "source": "네이버, 카카오",
+          "keyword": "대전성남우미린뉴시티아파트 (2027년06월예정) 전화번호, 대전성남우미린뉴시티 (2027년06월예정) 전화번호, existing",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 2,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 2
+            "네이버 웹검색": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "카카오 1회 · 네이버 2회"
         }
       ],
       "households": "",
@@ -6439,7 +6441,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 51,
+      "confidenceScore": 80,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "대전광역시_동구_대전성남우미린뉴시티2027년06월예정"
@@ -6917,30 +6919,34 @@
       "phoneCandidates": [
         {
           "number": "042-274-8066",
+          "score": 100,
+          "source": "네이버, 카카오, 114On",
+          "keyword": "대전 동구 용운동 290-12 관리실, 대전 동구 용운로 149 관리실, existing, 대전 동구 용운동 290-12 전화번호, 대전 동구 용운로 149 전화번호",
+          "sourceCounts": {
+            "네이버": 3,
+            "카카오": 1,
+            "114On": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 2,
+            "카카오 장소검색": 1,
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회 · 카카오 1회 · 네이버 3회"
+        },
+        {
+          "number": "042-622-2212",
           "score": 53,
           "source": "네이버",
-          "keyword": "대전 동구 용운동 290-12 관리실, 대전 동구 용운로 149 관리실",
+          "keyword": "대전 동구 용운로 149 관리실",
           "sourceCounts": {
             "네이버": 2
           },
           "sourceDetails": {
-            "네이버 블로그검색": 1,
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2
           },
           "sourceSummary": "네이버 2회"
-        },
-        {
-          "number": "042-622-2212",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "대전 동구 용운로 149 관리실",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -6948,9 +6954,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 53,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_샵음악동호회"
@@ -7586,23 +7592,39 @@
       "address": "대전 동구 선화로192번길 43\n대전 동구 중동 33-5",
       "roadAddress": "대전 동구 선화로192번길 43",
       "jibunAddress": "대전 동구 중동 33-5",
-      "phone": "042-716-0058",
+      "phone": "042-488-8697",
       "phones": [
+        "042-488-8697",
         "042-716-0058"
       ],
       "phoneCandidates": [
         {
-          "number": "042-716-0058",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "중동힐링타운오피스텔 전화번호",
+          "number": "042-488-8697",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 1
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 블로그검색": 1
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-716-0058",
+          "score": 75,
+          "source": "네이버, 카카오",
+          "keyword": "중동힐링타운오피스텔 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         }
       ],
       "households": "",
@@ -7610,9 +7632,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_동구_중동힐링타운"

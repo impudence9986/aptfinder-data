@@ -1,6 +1,6 @@
 {
-  "version": 1786902124,
-  "updatedAt": "2026-08-16 17:42:04",
+  "version": 1786985766,
+  "updatedAt": "2026-08-17 16:56:06",
   "sido": "울산광역시",
   "sigungu": "중구",
   "count": 148,
@@ -4613,16 +4613,18 @@
       "jibunAddress": "울산 중구 학성동 356",
       "phone": "052-291-3210",
       "phones": [
-        "052-291-3210"
+        "052-291-3210",
+        "052-291-3211"
       ],
       "phoneCandidates": [
         {
           "number": "052-291-3210",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, 울산 중구 학성동 356 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4631,14 +4633,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-291-3211",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 중구 학성동 356 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "209",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-17 16:56:03",
       "detailUpdatedAt": 1781305281357,
       "listUpdatedAt": 1781305281357,
       "phoneStatus": "CONFIRMED",
@@ -8663,17 +8680,33 @@
       "address": "울산 중구 옥교3길 70-2\n울산 중구 학산동 15-12",
       "roadAddress": "울산 중구 옥교3길 70-2",
       "jibunAddress": "울산 중구 학산동 15-12",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "03-245-0646",
+      "phones": [
+        "03-245-0646"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "03-245-0646",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "학산동 동남하이빌5차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "울산광역시_중구_동남하이빌5차"
@@ -8695,17 +8728,61 @@
       "address": "울산 중구 학산동 167-4",
       "roadAddress": "",
       "jibunAddress": "울산 중구 학산동 167-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "052-298-0401",
+      "phones": [
+        "052-298-0401",
+        "052-296-6763",
+        "052-294-9210"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "052-298-0401",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "052-296-6763",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "052-294-9210",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "울산광역시_중구_번영로롯데캐슬센트럴스카이2028년11월예정"
@@ -8810,17 +8887,33 @@
       "address": "울산 중구 학성동 397-1",
       "roadAddress": "",
       "jibunAddress": "울산 중구 학성동 397-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "052-297-7000",
+      "phones": [
+        "052-297-7000"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "052-297-7000",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "울산광역시_중구_샵시에르네2027년05월예정"

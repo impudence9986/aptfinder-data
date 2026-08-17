@@ -1,6 +1,6 @@
 {
-  "version": 1784744374,
-  "updatedAt": "2026-07-22 18:19:34",
+  "version": 1786985906,
+  "updatedAt": "2026-08-17 16:58:26",
   "sido": "부산광역시",
   "sigungu": "동구",
   "count": 60,
@@ -3193,21 +3193,37 @@
       "jibunAddress": "부산 동구 초량동 593",
       "phone": "037-2287-0937",
       "phones": [
-        "037-2287-0937"
+        "037-2287-0937",
+        "051-442-3111"
       ],
       "phoneCandidates": [
         {
           "number": "037-2287-0937",
-          "score": 51,
-          "source": "네이버",
-          "keyword": "부산 동구 중앙대로179번길 27 관리실, 부산 동구 중앙대로179번길 27 전화번호",
+          "score": 87,
+          "source": "네이버, 카카오",
+          "keyword": "부산 동구 중앙대로179번길 27 관리실, 부산 동구 중앙대로179번길 27 전화번호, existing",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 2,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 2
+            "네이버 웹검색": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "카카오 1회 · 네이버 2회"
+        },
+        {
+          "number": "051-442-3111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 동구 초량동 593 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -3215,9 +3231,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 51,
+      "confidenceScore": 87,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동구_부산역삼정그린코아시티"
