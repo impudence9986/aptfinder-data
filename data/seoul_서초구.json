@@ -1,6 +1,6 @@
 {
-  "version": 1786812681,
-  "updatedAt": "2026-08-15 16:51:21",
+  "version": 1787075117,
+  "updatedAt": "2026-08-18 17:45:17",
   "sido": "서울특별시",
   "sigungu": "서초구",
   "count": 119,
@@ -1512,16 +1512,18 @@
       "phoneCandidates": [
         {
           "number": "02-2686-8006",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "동건센트레빌 전화번호",
+          "score": 70,
+          "source": "네이버, 카카오",
+          "keyword": "동건센트레빌 전화번호, existing",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 1,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 블로그검색": 1
+            "네이버 블로그검색": 1,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         }
       ],
       "households": "",
@@ -1531,7 +1533,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 70,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_동건센트레빌"
@@ -3152,15 +3154,17 @@
         {
           "number": "02-588-0049",
           "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "source": "네이버부동산, 카카오",
+          "keyword": "naver_land_management, existing",
           "sourceCounts": {
-            "네이버부동산": 1
+            "네이버부동산": 1,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "네이버부동산 관리사무소": 1,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 1회"
         },
         {
           "number": "02-587-4125",
@@ -3413,16 +3417,18 @@
       "phoneCandidates": [
         {
           "number": "02-538-8077",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "서울 서초구 서초동 1309-2 관리사무소",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "서울 서초구 서초동 1309-2 관리사무소, existing, 서울 서초구 서초대로77길 59 관리사무소",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 3,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 3,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 3회"
         }
       ],
       "households": "",
@@ -3430,9 +3436,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_강남역아이파크2차"
@@ -5455,14 +5461,31 @@
         "070-8655-2747",
         "070-8064-3920",
         "010-2371-1591",
-        "031-753-2889"
+        "031-753-2889",
+        "00-0507-1385",
+        "07-1385-7694"
       ],
       "phoneCandidates": [
         {
           "number": "070-8655-2747",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "서초구 서초로이움지젤 관리실, 서초로이움지젤 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 3,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 3회"
+        },
+        {
+          "number": "070-8064-3920",
           "score": 57,
           "source": "네이버",
-          "keyword": "서초구 서초로이움지젤 관리실, 서초로이움지젤 전화번호",
+          "keyword": "서초로이움지젤 전화번호",
           "sourceCounts": {
             "네이버": 2
           },
@@ -5472,7 +5495,46 @@
           "sourceSummary": "네이버 2회"
         },
         {
-          "number": "070-8064-3920",
+          "number": "010-2371-1591",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서초로이움지젤 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-753-2889",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서초로이움지젤 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "00-0507-1385",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서초구 서초로이움지젤 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1385-7694",
           "score": 42,
           "source": "네이버",
           "keyword": "서초로이움지젤 전화번호",
@@ -5483,32 +5545,6 @@
             "네이버 블로그검색": 1
           },
           "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "010-2371-1591",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "서초로이움지젤 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "031-753-2889",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "서초로이움지젤 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -5516,9 +5552,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 57,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_서초구_서초로이움지젤"

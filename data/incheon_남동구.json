@@ -1,6 +1,6 @@
 {
-  "version": 1785955993,
-  "updatedAt": "2026-08-05 18:53:13",
+  "version": 1787073315,
+  "updatedAt": "2026-08-18 17:15:15",
   "sido": "인천광역시",
   "sigungu": "남동구",
   "count": 228,
@@ -141,16 +141,18 @@
       "phoneCandidates": [
         {
           "number": "062-375-4001",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "가온시티 전화번호",
+          "score": 70,
+          "source": "네이버, 카카오",
+          "keyword": "가온시티 전화번호, existing",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 1,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버 웹검색": 1,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         }
       ],
       "households": "",
@@ -160,7 +162,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 70,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_남동구_가온시티"
@@ -4622,34 +4624,39 @@
         "032-860-1623",
         "032-422-6830",
         "07-1337-6384",
-        "032-860-1602"
+        "032-860-1602",
+        "032-442-7778",
+        "032-455-8005"
       ],
       "phoneCandidates": [
         {
           "number": "032-860-1623",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "인천 남동구 논현동 650-1 관리실, 인천 남동구 논현동 650-1 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 2,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 2회"
+        },
+        {
+          "number": "032-422-6830",
           "score": 55,
           "source": "네이버",
-          "keyword": "인천 남동구 논현동 650-1 관리실, 인천 남동구 논현동 650-1 전화번호",
+          "keyword": "인천 남동구 논현동 650-1 관리실, 인천 남동구 청능대로 596 전화번호",
           "sourceCounts": {
             "네이버": 2
           },
           "sourceDetails": {
-            "네이버 블로그검색": 2
+            "네이버 블로그검색": 1,
+            "네이버 웹검색": 1
           },
           "sourceSummary": "네이버 2회"
-        },
-        {
-          "number": "032-422-6830",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "인천 남동구 논현동 650-1 관리실",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
         },
         {
           "number": "07-1337-6384",
@@ -4676,6 +4683,32 @@
             "네이버 블로그검색": 1
           },
           "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-442-7778",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 남동구 청능대로 596 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-455-8005",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 남동구 청능대로 596 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -4683,9 +4716,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 55,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_남동구_논현푸르지오시티"
@@ -8549,6 +8582,7 @@
       "phone": "032-860-1620",
       "phones": [
         "032-860-1620",
+        "032-439-7609",
         "032-860-1603",
         "07-1378-1980",
         "07-1320-6930",
@@ -8557,29 +8591,44 @@
       "phoneCandidates": [
         {
           "number": "032-860-1620",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "인천 남동구 구월동 1130-3 전화번호",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "인천 남동구 구월동 1130-3 전화번호, existing",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 2회"
+        },
+        {
+          "number": "032-439-7609",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 남동구 예술로 198 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         },
         {
           "number": "032-860-1603",
-          "score": 42,
+          "score": 53,
           "source": "네이버",
           "keyword": "인천 남동구 구월동 1130-3 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "07-1378-1980",
@@ -8626,9 +8675,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_남동구_샵"
@@ -10665,29 +10714,31 @@
       "phoneCandidates": [
         {
           "number": "032-508-8783",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "영보아이파크 전화번호",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "영보아이파크 전화번호, existing",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 2회"
         },
         {
           "number": "032-270-5500",
-          "score": 42,
+          "score": 51,
           "source": "네이버",
           "keyword": "영보아이파크 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "",
@@ -10695,9 +10746,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_남동구_영보아이파크"
@@ -10893,20 +10944,22 @@
       "phoneCandidates": [
         {
           "number": "032-422-7877",
-          "score": 73,
-          "source": "네이버",
-          "keyword": "인천 남동구 경인로644번길 5 관리사무소, 인천 남동구 경인로644번길 5 관리실, 인천 남동구 경인로644번길 5 전화번호",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "인천 남동구 경인로644번길 5 관리사무소, 인천 남동구 경인로644번길 5 관리실, 인천 남동구 경인로644번길 5 전화번호, existing",
           "sourceCounts": {
-            "네이버": 3
+            "네이버": 3,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 블로그검색": 3
+            "네이버 블로그검색": 3,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 3회"
+          "sourceSummary": "카카오 1회 · 네이버 3회"
         },
         {
           "number": "032-521-0552",
-          "score": 51,
+          "score": 55,
           "source": "네이버",
           "keyword": "남동구 남동구 위브타운 관리사무소, 남동 위브타운 관리사무소",
           "sourceCounts": {
@@ -10923,9 +10976,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 73,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_남동구_위브타운"
