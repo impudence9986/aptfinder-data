@@ -1,6 +1,6 @@
 {
-  "version": 1786902176,
-  "updatedAt": "2026-08-16 17:42:56",
+  "version": 1787331451,
+  "updatedAt": "2026-08-21 16:57:31",
   "sido": "부산광역시",
   "sigungu": "강서구",
   "count": 63,
@@ -24,16 +24,17 @@
       "jibunAddress": "부산 강서구 명지동 3599-1",
       "phone": "051-201-1231",
       "phones": [
-        "051-201-1231"
+        "051-201-1231",
+        "051-291-6200"
       ],
       "phoneCandidates": [
         {
           "number": "051-201-1231",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +43,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "051-291-6200",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "377",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:54:13",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -78,16 +93,20 @@
       "jibunAddress": "부산 강서구 강동동 4965-5",
       "phone": "051-973-9735",
       "phones": [
-        "051-973-9735"
+        "051-973-9735",
+        "051-751-5535",
+        "051-973-9736"
       ],
       "phoneCandidates": [
         {
           "number": "051-973-9735",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산 강서구 강동동 4965-5 관리사무소, 부산 강서구 강동동 4965-5 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -96,14 +115,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "051-751-5535",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-973-9736",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 강서구 강동동 4965-5 관리사무소, 부산 강서구 강동동 4965-5 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "953",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:54:42",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -132,16 +180,18 @@
       "jibunAddress": "부산 강서구 강동동 4998-4",
       "phone": "051-710-2653",
       "phones": [
-        "051-710-2653"
+        "051-710-2653",
+        "051-710-2654"
       ],
       "phoneCandidates": [
         {
           "number": "051-710-2653",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 강동동 4998-4 관리사무소, 부산 강서구 강동동 4998-4 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -150,14 +200,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "051-710-2654",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 강서구 강동동 4998-4 관리사무소, 부산 강서구 강동동 4998-4 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "856",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:54:48",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -186,16 +251,18 @@
       "jibunAddress": "부산 강서구 지사동 1184-1",
       "phone": "051-941-1184",
       "phones": [
-        "051-941-1184"
+        "051-941-1184",
+        "051-941-1195"
       ],
       "phoneCandidates": [
         {
           "number": "051-941-1184",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 지사동 1184-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -204,14 +271,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-941-1195",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 지사동 1184-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1111",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:54:51",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -240,16 +322,18 @@
       "jibunAddress": "부산 강서구 명지동 3423",
       "phone": "051-271-5561",
       "phones": [
-        "051-271-5561"
+        "051-271-5561",
+        "051-271-5562"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-5561",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3423 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -258,14 +342,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-271-5562",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3423 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "737",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:54:55",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -301,9 +400,9 @@
           "number": "051-271-1571",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -312,14 +411,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "850",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:54:58",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -355,9 +455,9 @@
           "number": "051-207-0401",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -366,14 +466,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "670",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:01",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -409,9 +510,9 @@
           "number": "051-271-8826",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -420,14 +521,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "642",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:05",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -456,16 +558,18 @@
       "jibunAddress": "부산 강서구 명지동 3233",
       "phone": "051-271-2142",
       "phones": [
-        "051-271-2142"
+        "051-271-2142",
+        "051-271-2143"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-2142",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3233 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -474,14 +578,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-271-2143",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3233 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1124",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:07",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -510,16 +629,18 @@
       "jibunAddress": "부산 강서구 명지동 3347",
       "phone": "051-201-4521",
       "phones": [
-        "051-201-4521"
+        "051-201-4521",
+        "051-201-4522"
       ],
       "phoneCandidates": [
         {
           "number": "051-201-4521",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3347 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -528,14 +649,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-201-4522",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3347 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "870",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:11",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -571,9 +707,9 @@
           "number": "051-294-8705",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -582,14 +718,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "600",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:14",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -618,16 +755,20 @@
       "jibunAddress": "부산 강서구 명지동 3234",
       "phone": "051-271-3787",
       "phones": [
-        "051-271-3787"
+        "051-271-3787",
+        "051-271-3789",
+        "010-4001-3234",
+        "000-000-0001"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-3787",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3234 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -636,14 +777,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-271-3789",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3234 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "010-4001-3234",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3234 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "000-000-0001",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3234 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1256",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:17",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -679,9 +861,9 @@
           "number": "051-206-3428",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -690,14 +872,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1122",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:20",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -733,9 +916,9 @@
           "number": "051-293-6668",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -744,14 +927,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "610",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:23",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -787,9 +971,9 @@
           "number": "051-206-2920",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -798,14 +982,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "431",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:27",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -841,9 +1026,9 @@
           "number": "051-291-8855",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -852,14 +1037,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "980",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:30",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -888,16 +1074,17 @@
       "jibunAddress": "부산 강서구 명지동 3235",
       "phone": "051-271-3999",
       "phones": [
-        "051-271-3999"
+        "051-271-3999",
+        "051-220-1200"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-3999",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -906,14 +1093,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "051-220-1200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3235 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "480",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:33",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -942,16 +1143,18 @@
       "jibunAddress": "부산 강서구 명지동 3236",
       "phone": "051-271-2750",
       "phones": [
-        "051-271-2750"
+        "051-271-2750",
+        "051-271-2760"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-2750",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3236 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -960,14 +1163,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-271-2760",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3236 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "841",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:36",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1002,10 +1220,11 @@
         {
           "number": "051-201-5976",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3399 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1014,14 +1233,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "1201",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:39",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1050,16 +1271,18 @@
       "jibunAddress": "부산 강서구 명지동 3478-4",
       "phone": "051-292-0573",
       "phones": [
-        "051-292-0573"
+        "051-292-0573",
+        "051-292-0572"
       ],
       "phoneCandidates": [
         {
           "number": "051-292-0573",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3478-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1068,14 +1291,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-292-0572",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3478-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "222",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:43",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1111,9 +1349,9 @@
           "number": "051-292-2846",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1122,14 +1360,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1664",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:46",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1158,16 +1397,18 @@
       "jibunAddress": "부산 강서구 화전동 558",
       "phone": "051-974-1246",
       "phones": [
-        "051-974-1246"
+        "051-974-1246",
+        "051-974-1248"
       ],
       "phoneCandidates": [
         {
           "number": "051-974-1246",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 화전동 558 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1176,14 +1417,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-974-1248",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 화전동 558 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1515",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:49",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1212,16 +1468,18 @@
       "jibunAddress": "부산 강서구 지사동 1182-2",
       "phone": "051-973-3339",
       "phones": [
-        "051-973-3339"
+        "051-973-3339",
+        "02-2179-2486"
       ],
       "phoneCandidates": [
         {
           "number": "051-973-3339",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 지사동 1182-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1230,14 +1488,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2179-2486",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 지사동 1182-2 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "132",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:53",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1266,16 +1539,21 @@
       "jibunAddress": "부산 강서구 신호동 300-1",
       "phone": "051-831-4560",
       "phones": [
-        "051-831-4560"
+        "051-831-4560",
+        "051-972-6997",
+        "051-972-6996",
+        "051-971-2564",
+        "051-831-4561"
       ],
       "phoneCandidates": [
         {
           "number": "051-831-4560",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 신호동 300-1 관리사무소, 부산 강서구 신호동 300-1 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1284,14 +1562,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "051-972-6997",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-972-6996",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-971-2564",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-831-4561",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 강서구 신호동 300-1 관리사무소, 부산 강서구 신호동 300-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1278",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:55:56",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1320,16 +1652,18 @@
       "jibunAddress": "부산 강서구 신호동 296-1",
       "phone": "051-971-2563",
       "phones": [
-        "051-971-2563"
+        "051-971-2563",
+        "051-971-2564"
       ],
       "phoneCandidates": [
         {
           "number": "051-971-2563",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 신호동 296-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1338,14 +1672,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-971-2564",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 신호동 296-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1064",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:03",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1374,16 +1723,18 @@
       "jibunAddress": "부산 강서구 신호동 298-1",
       "phone": "051-832-6111",
       "phones": [
-        "051-832-6111"
+        "051-832-6111",
+        "051-832-6112"
       ],
       "phoneCandidates": [
         {
           "number": "051-832-6111",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 신호동 298-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1392,14 +1743,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-832-6112",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 신호동 298-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1388",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:07",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1428,16 +1794,18 @@
       "jibunAddress": "부산 강서구 신호동 302-2",
       "phone": "051-972-6996",
       "phones": [
-        "051-972-6996"
+        "051-972-6996",
+        "051-972-6997"
       ],
       "phoneCandidates": [
         {
           "number": "051-972-6996",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 신호동 302-2 관리사무소, 부산 강서구 신호동 302-2 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1446,14 +1814,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "051-972-6997",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 강서구 신호동 302-2 관리사무소, 부산 강서구 신호동 302-2 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1109",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:10",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1482,16 +1865,18 @@
       "jibunAddress": "부산 강서구 강동동 5076-5",
       "phone": "051-973-5580",
       "phones": [
-        "051-973-5580"
+        "051-973-5580",
+        "051-973-5581"
       ],
       "phoneCandidates": [
         {
           "number": "051-973-5580",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 강동동 5076-5 관리사무소, 부산 강서구 강동동 5076-5 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1500,14 +1885,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "051-973-5581",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 강서구 강동동 5076-5 관리사무소, 부산 강서구 강동동 5076-5 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "526",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:14",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1543,9 +1943,9 @@
           "number": "051-293-2224",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1554,14 +1954,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1406",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:17",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1597,9 +1998,9 @@
           "number": "051-710-0802",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1608,14 +2009,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1530",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:20",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1644,16 +2046,19 @@
       "jibunAddress": "부산 강서구 명지동 3325",
       "phone": "051-201-0062",
       "phones": [
-        "051-201-0062"
+        "051-201-0062",
+        "051-201-0063"
       ],
       "phoneCandidates": [
         {
           "number": "051-201-0062",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3325 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1662,14 +2067,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-201-0063",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3325 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "908",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:24",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1698,16 +2119,17 @@
       "jibunAddress": "부산 강서구 신호동 205-1",
       "phone": "051-831-8285",
       "phones": [
-        "051-831-8285"
+        "051-831-8285",
+        "051-831-8286"
       ],
       "phoneCandidates": [
         {
           "number": "051-831-8285",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1716,14 +2138,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "051-831-8286",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 강서구 신호동 205-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "671",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:27",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1752,16 +2188,18 @@
       "jibunAddress": "부산 강서구 강동동 4685-1",
       "phone": "051-831-3990",
       "phones": [
-        "051-831-3990"
+        "051-831-3990",
+        "051-831-3991"
       ],
       "phoneCandidates": [
         {
           "number": "051-831-3990",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 강동동 4685-1 관리사무소, 부산 강서구 강동동 4685-1 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1770,14 +2208,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "051-831-3991",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 강서구 강동동 4685-1 관리사무소, 부산 강서구 강동동 4685-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:31",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1806,16 +2259,18 @@
       "jibunAddress": "부산 강서구 강동동 5058-9",
       "phone": "051-972-2920",
       "phones": [
-        "051-972-2920"
+        "051-972-2920",
+        "051-972-2921"
       ],
       "phoneCandidates": [
         {
           "number": "051-972-2920",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 강동동 5058-9 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1824,14 +2279,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-972-2921",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 강동동 5058-9 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "554",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:34",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1860,16 +2330,18 @@
       "jibunAddress": "부산 강서구 강동동 5022",
       "phone": "051-973-6663",
       "phones": [
-        "051-973-6663"
+        "051-973-6663",
+        "051-973-9994"
       ],
       "phoneCandidates": [
         {
           "number": "051-973-6663",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 강동동 5022 관리사무소, 부산 강서구 강동동 5022 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1878,14 +2350,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "051-973-9994",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 강서구 강동동 5022 관리사무소, 부산 강서구 강동동 5022 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "895",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:38",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1914,16 +2401,18 @@
       "jibunAddress": "부산 강서구 강동동 4831-14",
       "phone": "051-941-0178",
       "phones": [
-        "051-941-0178"
+        "051-941-0178",
+        "051-941-0179"
       ],
       "phoneCandidates": [
         {
           "number": "051-941-0178",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 강동동 4831-14 관리사무소, 부산 강서구 강동동 4831-14 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1932,14 +2421,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "051-941-0179",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 강서구 강동동 4831-14 관리사무소, 부산 강서구 강동동 4831-14 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "972",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:41",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -1968,16 +2472,19 @@
       "jibunAddress": "부산 강서구 명지동 3243",
       "phone": "051-271-2262",
       "phones": [
-        "051-271-2262"
+        "051-271-2262",
+        "051-205-8008",
+        "051-271-2279"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-2262",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3243 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1986,14 +2493,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-205-8008",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3243 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-271-2279",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3243 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "414",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:44",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2022,16 +2557,19 @@
       "jibunAddress": "부산 강서구 명지동 3241",
       "phone": "051-271-2263",
       "phones": [
-        "051-271-2263"
+        "051-271-2263",
+        "051-271-2289",
+        "025-0721-1305"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-2263",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3241 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2040,14 +2578,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-271-2289",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3241 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0721-1305",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3241 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "375",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:48",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2076,16 +2642,17 @@
       "jibunAddress": "부산 강서구 명지동 3242",
       "phone": "051-271-2264",
       "phones": [
-        "051-271-2264"
+        "051-271-2264",
+        "051-271-2263"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-2264",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2094,14 +2661,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "051-271-2263",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 강서구 명지동 3242 관리사무소, 부산 강서구 명지동 3242 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
         }
       ],
       "households": "252",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:51",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2130,16 +2711,17 @@
       "jibunAddress": "부산 강서구 명지동 3231",
       "phone": "051-271-7170",
       "phones": [
-        "051-271-7170"
+        "051-271-7170",
+        "051-271-7114"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-7170",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2148,14 +2730,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "051-271-7114",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 강서구 명지동 3231 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "1102",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:54",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2184,16 +2780,18 @@
       "jibunAddress": "부산 강서구 명지동 3230-11",
       "phone": "051-271-0541",
       "phones": [
-        "051-271-0541"
+        "051-271-0541",
+        "051-271-0542"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-0541",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3230-11 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2202,14 +2800,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-271-0542",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3230-11 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "652",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:56:58",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2245,9 +2858,9 @@
           "number": "051-201-5923",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2256,14 +2869,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "750",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:57:01",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2292,16 +2906,18 @@
       "jibunAddress": "부산 강서구 명지동 3400",
       "phone": "051-271-1202",
       "phones": [
-        "051-271-1202"
+        "051-271-1202",
+        "051-291-6868"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-1202",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3400 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2310,14 +2926,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-291-6868",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3400 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1033",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:57:04",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2346,16 +2977,18 @@
       "jibunAddress": "부산 강서구 지사동 1185-1",
       "phone": "051-972-0555",
       "phones": [
-        "051-972-0555"
+        "051-972-0555",
+        "051-941-0556"
       ],
       "phoneCandidates": [
         {
           "number": "051-972-0555",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 지사동 1185-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2364,14 +2997,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-941-0556",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 지사동 1185-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1013",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:57:08",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2400,16 +3048,18 @@
       "jibunAddress": "부산 강서구 지사동 1183-1",
       "phone": "051-832-5121",
       "phones": [
-        "051-832-5121"
+        "051-832-5121",
+        "051-832-5123"
       ],
       "phoneCandidates": [
         {
           "number": "051-832-5121",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 지사동 1183-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2418,14 +3068,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-832-5123",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 지사동 1183-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "961",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:57:11",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2461,9 +3126,9 @@
           "number": "051-271-7781",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2472,14 +3137,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1112",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:57:14",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2508,16 +3174,20 @@
       "jibunAddress": "부산 강서구 지사동 1186",
       "phone": "051-941-2725",
       "phones": [
-        "051-941-2725"
+        "051-941-2725",
+        "051-973-3434",
+        "051-971-9552",
+        "051-973-6967"
       ],
       "phoneCandidates": [
         {
           "number": "051-941-2725",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 지사동 1186 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2526,14 +3196,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "051-973-3434",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "부산 강서구 지사동 1186 관리사무소, 부산 강서구 지사동 1186 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-971-9552",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 강서구 지사동 1186 관리사무소, 부산 강서구 지사동 1186 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-973-6967",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 지사동 1186 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1277",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:57:18",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2562,16 +3273,18 @@
       "jibunAddress": "부산 강서구 명지동 3344",
       "phone": "051-271-2766",
       "phones": [
-        "051-271-2766"
+        "051-271-2766",
+        "051-271-2767"
       ],
       "phoneCandidates": [
         {
           "number": "051-271-2766",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3344 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2580,14 +3293,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-271-2767",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3344 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "694",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:57:21",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -2623,9 +3351,9 @@
           "number": "051-271-3577",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2634,14 +3362,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1210",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:57:24",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
@@ -3385,16 +4114,18 @@
       "jibunAddress": "부산 강서구 명지동 3227-2",
       "phone": "051-294-8433",
       "phones": [
-        "051-294-8433"
+        "051-294-8433",
+        "051-294-8432"
       ],
       "phoneCandidates": [
         {
           "number": "051-294-8433",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 강서구 명지동 3227-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3403,14 +4134,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-294-8432",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 강서구 명지동 3227-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "284",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-21 16:57:28",
       "detailUpdatedAt": 1781136804628,
       "listUpdatedAt": 1781136804628,
       "phoneStatus": "CONFIRMED",
