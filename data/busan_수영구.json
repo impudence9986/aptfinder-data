@@ -1,6 +1,6 @@
 {
-  "version": 1787333333,
-  "updatedAt": "2026-08-21 17:28:53",
+  "version": 1787418352,
+  "updatedAt": "2026-08-22 17:05:52",
   "sido": "부산광역시",
   "sigungu": "수영구",
   "count": 124,
@@ -7528,16 +7528,18 @@
       "jibunAddress": "부산 수영구 민락동 181-79",
       "phone": "051-761-0991",
       "phones": [
-        "051-761-0991"
+        "051-761-0991",
+        "051-761-0996"
       ],
       "phoneCandidates": [
         {
           "number": "051-761-0991",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 부산 수영구 민락동 181-79 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7546,14 +7548,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "051-761-0996",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 수영구 민락동 181-79 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "294",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-22 17:05:49",
       "detailUpdatedAt": 1781143372576,
       "listUpdatedAt": 1781143372576,
       "phoneStatus": "CONFIRMED",
