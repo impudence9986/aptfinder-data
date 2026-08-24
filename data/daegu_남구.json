@@ -1,6 +1,6 @@
 {
-  "version": 1784916826,
-  "updatedAt": "2026-07-24 18:13:46",
+  "version": 1787592087,
+  "updatedAt": "2026-08-24 17:21:27",
   "sido": "대구광역시",
   "sigungu": "남구",
   "count": 83,
@@ -24,16 +24,19 @@
       "jibunAddress": "대구 남구 봉덕동 1329-2",
       "phone": "053-471-1174",
       "phones": [
-        "053-471-1174"
+        "053-471-1174",
+        "053-472-3153",
+        "053-474-8002",
+        "053-664-3771"
       ],
       "phoneCandidates": [
         {
           "number": "053-471-1174",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +45,54 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "053-472-3153",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 남구 봉덕동 1329-2 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "053-474-8002",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1329-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-664-3771",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1329-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "528",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:18:53",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -78,16 +121,19 @@
       "jibunAddress": "대구 남구 대명동 2017-13",
       "phone": "053-471-4030",
       "phones": [
-        "053-471-4030"
+        "053-471-4030",
+        "053-471-4031",
+        "00-2026-0000"
       ],
       "phoneCandidates": [
         {
           "number": "053-471-4030",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 2017-13 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -96,14 +142,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-471-4031",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 2017-13 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-2026-0000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 2017-13 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1758",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:18:56",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -201,16 +275,19 @@
       "jibunAddress": "대구 남구 봉덕동 1635",
       "phone": "053-471-2552",
       "phones": [
-        "053-471-2552"
+        "053-471-2552",
+        "053-471-2554"
       ],
       "phoneCandidates": [
         {
           "number": "053-471-2552",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 대구 남구 봉덕동 1635 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -219,14 +296,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "053-471-2554",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1635 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "337",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:18:59",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -255,16 +348,19 @@
       "jibunAddress": "대구 남구 대명동 1635",
       "phone": "053-656-0056",
       "phones": [
-        "053-656-0056"
+        "053-656-0056",
+        "053-656-0053"
       ],
       "phoneCandidates": [
         {
           "number": "053-656-0056",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 1635 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -273,14 +369,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "053-656-0053",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 1635 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "427",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:03",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -316,9 +428,9 @@
           "number": "053-472-2277",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -327,14 +439,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "268",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:06",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -363,16 +476,19 @@
       "jibunAddress": "대구 남구 이천동 452",
       "phone": "053-471-0961",
       "phones": [
-        "053-471-0961"
+        "053-471-0961",
+        "053-471-0962"
       ],
       "phoneCandidates": [
         {
           "number": "053-471-0961",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 이천동 452 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -381,14 +497,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "053-471-0962",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 이천동 452 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "361",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:09",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -424,9 +556,9 @@
           "number": "053-477-6008",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -435,14 +567,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "924",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:12",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -471,16 +604,19 @@
       "jibunAddress": "대구 남구 대명동 3067",
       "phone": "053-651-6500",
       "phones": [
-        "053-651-6500"
+        "053-651-6500",
+        "053-651-6501",
+        "053-664-3811"
       ],
       "phoneCandidates": [
         {
           "number": "053-651-6500",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 3067 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -489,14 +625,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-651-6501",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 3067 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-664-3811",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 3067 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "975",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:15",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -531,10 +695,11 @@
         {
           "number": "053-472-3153",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 대구 남구 봉덕동 1329-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -543,14 +708,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "550",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:19",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -586,9 +753,9 @@
           "number": "053-622-0320",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -597,14 +764,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "110",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:22",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -633,16 +801,17 @@
       "jibunAddress": "대구 남구 대명동 329-13",
       "phone": "053-651-0294",
       "phones": [
-        "053-651-0294"
+        "053-651-0294",
+        "053-651-6187"
       ],
       "phoneCandidates": [
         {
           "number": "053-651-0294",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -651,14 +820,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "053-651-6187",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 남구 대명동 329-13 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "114",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:25",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -694,9 +877,9 @@
           "number": "053-625-9500",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -705,14 +888,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1051",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:29",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -741,16 +925,19 @@
       "jibunAddress": "대구 남구 대명동 2301-2",
       "phone": "053-625-5600",
       "phones": [
-        "053-625-5600"
+        "053-625-5600",
+        "053-625-5601",
+        "053-768-0536"
       ],
       "phoneCandidates": [
         {
           "number": "053-625-5600",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 2301-2 관리사무소, 대구 남구 대명동 2301-2 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -759,14 +946,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "053-625-5601",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 2301-2 관리사무소, 대구 남구 대명동 2301-2 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "053-768-0536",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 2301-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2023",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:32",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -795,16 +1010,18 @@
       "jibunAddress": "대구 남구 대명동 1633",
       "phone": "053-627-1445",
       "phones": [
-        "053-627-1445"
+        "053-627-1445",
+        "053-627-1440"
       ],
       "phoneCandidates": [
         {
           "number": "053-627-1445",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 1633 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -813,14 +1030,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-627-1440",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 1633 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "553",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:35",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -856,9 +1088,9 @@
           "number": "053-214-4851",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -867,14 +1099,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "433",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:38",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -910,9 +1143,9 @@
           "number": "053-477-5101",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -921,14 +1154,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "412",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:42",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -957,16 +1191,18 @@
       "jibunAddress": "대구 남구 대명동 780-3",
       "phone": "053-621-5024",
       "phones": [
-        "053-621-5024"
+        "053-621-5024",
+        "053-624-1900"
       ],
       "phoneCandidates": [
         {
           "number": "053-621-5024",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 780-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -975,14 +1211,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-624-1900",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "대구 남구 대명동 780-3 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "202",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:45",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1017,10 +1270,11 @@
         {
           "number": "053-628-1759",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 1220-24 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1029,14 +1283,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "210",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:48",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1072,9 +1328,9 @@
           "number": "053-471-1091",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1083,14 +1339,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "471",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:52",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1119,16 +1376,19 @@
       "jibunAddress": "대구 남구 봉덕동 산 89-3",
       "phone": "053-471-1900",
       "phones": [
-        "053-471-1900"
+        "053-471-1900",
+        "053-753-3910",
+        "053-753-3911"
       ],
       "phoneCandidates": [
         {
           "number": "053-471-1900",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 봉덕동 산 89-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1137,14 +1397,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-753-3910",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 산 89-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-753-3911",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 산 89-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "408",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:55",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1179,10 +1467,11 @@
         {
           "number": "053-624-9958",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 181-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1191,14 +1480,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "104",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:19:58",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1227,16 +1518,19 @@
       "jibunAddress": "대구 남구 이천동 650",
       "phone": "053-473-9023",
       "phones": [
-        "053-473-9023"
+        "053-473-9023",
+        "053-473-9033"
       ],
       "phoneCandidates": [
         {
           "number": "053-473-9023",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 대구 남구 이천동 650 관리사무소, 대구 남구 이천동 650 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1245,14 +1539,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "053-473-9033",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 이천동 650 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "510",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:01",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1281,16 +1591,18 @@
       "jibunAddress": "대구 남구 대명동 2680-17",
       "phone": "053-625-2264",
       "phones": [
-        "053-625-2264"
+        "053-625-2264",
+        "053-657-0310"
       ],
       "phoneCandidates": [
         {
           "number": "053-625-2264",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 2680-17 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1299,14 +1611,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-657-0310",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 2680-17 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "347",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:05",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1342,9 +1669,9 @@
           "number": "053-474-7888",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1353,14 +1680,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "499",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:08",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1396,9 +1724,9 @@
           "number": "053-473-9913",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1407,14 +1735,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "198",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:11",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1450,9 +1779,9 @@
           "number": "053-477-6601",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1461,14 +1790,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "186",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:14",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1497,16 +1827,18 @@
       "jibunAddress": "대구 남구 봉덕동 1639",
       "phone": "053-716-0229",
       "phones": [
-        "053-716-0229"
+        "053-716-0229",
+        "053-716-0230"
       ],
       "phoneCandidates": [
         {
           "number": "053-716-0229",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 봉덕동 1639 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1515,14 +1847,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-716-0230",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1639 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "332",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:17",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1557,10 +1904,11 @@
         {
           "number": "053-626-7668",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 1721-29 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1569,14 +1917,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "160",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:21",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1605,16 +1955,18 @@
       "jibunAddress": "대구 남구 대명동 3062",
       "phone": "053-625-4100",
       "phones": [
-        "053-625-4100"
+        "053-625-4100",
+        "053-625-4103"
       ],
       "phoneCandidates": [
         {
           "number": "053-625-4100",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 3062 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1623,14 +1975,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-625-4103",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 3062 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "299",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:24",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1659,16 +2026,18 @@
       "jibunAddress": "대구 남구 봉덕동 1329",
       "phone": "053-473-2203",
       "phones": [
-        "053-473-2203"
+        "053-473-2203",
+        "053-475-2203"
       ],
       "phoneCandidates": [
         {
           "number": "053-473-2203",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 봉덕동 1329 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1677,14 +2046,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-475-2203",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1329 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "360",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:27",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1713,16 +2097,18 @@
       "jibunAddress": "대구 남구 봉덕동 1650",
       "phone": "053-719-0192",
       "phones": [
-        "053-719-0192"
+        "053-719-0192",
+        "053-719-0193"
       ],
       "phoneCandidates": [
         {
           "number": "053-719-0192",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 봉덕동 1650 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1731,14 +2117,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-719-0193",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1650 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "622",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:30",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1767,16 +2168,18 @@
       "jibunAddress": "대구 남구 봉덕동 1652",
       "phone": "053-476-9995",
       "phones": [
-        "053-476-9995"
+        "053-476-9995",
+        "053-476-9996"
       ],
       "phoneCandidates": [
         {
           "number": "053-476-9995",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 봉덕동 1652 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1785,14 +2188,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-476-9996",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1652 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "431",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:33",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1828,9 +2246,9 @@
           "number": "053-268-2700",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1839,14 +2257,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "128",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:36",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1875,16 +2294,18 @@
       "jibunAddress": "대구 남구 봉덕동 1642",
       "phone": "053-588-1921",
       "phones": [
-        "053-588-1921"
+        "053-588-1921",
+        "053-588-1924"
       ],
       "phoneCandidates": [
         {
           "number": "053-588-1921",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 봉덕동 1642 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1893,14 +2314,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-588-1924",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1642 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "493",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:39",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1929,16 +2365,19 @@
       "jibunAddress": "대구 남구 봉덕동 1630",
       "phone": "053-474-1040",
       "phones": [
-        "053-474-1040"
+        "053-474-1040",
+        "053-474-1041",
+        "053-471-0355"
       ],
       "phoneCandidates": [
         {
           "number": "053-474-1040",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 대구 남구 봉덕동 1630 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1947,14 +2386,44 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "053-474-1041",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "대구 남구 봉덕동 1630 관리사무소",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "053-471-0355",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1630 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "425",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:43",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -1989,10 +2458,11 @@
         {
           "number": "053-623-8749",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 1638-5 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2001,14 +2471,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "162",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:46",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2043,10 +2515,11 @@
         {
           "number": "053-621-1361",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 1210-8 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2055,14 +2528,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "188",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:49",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2097,10 +2572,11 @@
         {
           "number": "053-623-4917",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 1111 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2109,14 +2585,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "264",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:52",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2151,10 +2629,11 @@
         {
           "number": "053-475-5069",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 대구 남구 이천동 214-456 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2163,14 +2642,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "480",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:55",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2199,16 +2680,19 @@
       "jibunAddress": "대구 남구 이천동 551-1",
       "phone": "053-474-2010",
       "phones": [
-        "053-474-2010"
+        "053-474-2010",
+        "053-474-2012"
       ],
       "phoneCandidates": [
         {
           "number": "053-474-2010",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 대구 남구 이천동 551-1 관리사무소, 대구 남구 이천동 551-1 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2217,14 +2701,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "053-474-2012",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 이천동 551-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "320",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:20:59",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2260,9 +2760,9 @@
           "number": "053-474-6611",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2271,14 +2771,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "431",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:21:02",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2314,9 +2815,9 @@
           "number": "053-476-8111",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2325,14 +2826,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "576",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:21:05",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2361,16 +2863,19 @@
       "jibunAddress": "대구 남구 대명동 629-1",
       "phone": "053-629-9683",
       "phones": [
-        "053-629-9683"
+        "053-629-9683",
+        "053-628-0554",
+        "053-622-9412"
       ],
       "phoneCandidates": [
         {
           "number": "053-629-9683",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 대명동 629-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2379,14 +2884,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-628-0554",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 남구 대명동 629-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "053-622-9412",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 629-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "441",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:21:09",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2415,16 +2948,20 @@
       "jibunAddress": "대구 남구 봉덕동 1071",
       "phone": "053-474-8003",
       "phones": [
-        "053-474-8003"
+        "053-474-8003",
+        "053-475-7001",
+        "053-474-8002",
+        "053-664-3771"
       ],
       "phoneCandidates": [
         {
           "number": "053-474-8003",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 남구 봉덕동 1071 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2433,14 +2970,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-475-7001",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1071 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-474-8002",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1071 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-664-3771",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1071 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1162",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:21:12",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2469,16 +3047,19 @@
       "jibunAddress": "대구 남구 이천동 361-16",
       "phone": "053-474-9541",
       "phones": [
-        "053-474-9541"
+        "053-474-9541",
+        "053-477-5803"
       ],
       "phoneCandidates": [
         {
           "number": "053-474-9541",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 대구 남구 이천동 361-16 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2487,14 +3068,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "053-477-5803",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 이천동 361-16 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "635",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:21:15",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2530,9 +3127,9 @@
           "number": "053-623-1120",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2541,14 +3138,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "861",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:21:18",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2577,16 +3175,17 @@
       "jibunAddress": "대구 남구 대명동 3086",
       "phone": "053-657-3737",
       "phones": [
-        "053-657-3737"
+        "053-657-3737",
+        "053-781-0661"
       ],
       "phoneCandidates": [
         {
           "number": "053-657-3737",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2595,14 +3194,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "053-781-0661",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "대구 남구 대명동 3086 관리사무소, 대구 남구 대명동 3086 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "977",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-24 17:21:22",
       "detailUpdatedAt": 1781147489000,
       "listUpdatedAt": 1781147489000,
       "phoneStatus": "CONFIRMED",
@@ -2703,16 +3316,19 @@
       "jibunAddress": "대구 남구 봉덕동 1663",
       "phone": "053-472-2003",
       "phones": [
-        "053-472-2003"
+        "053-472-2003",
+        "053-472-2004"
       ],
       "phoneCandidates": [
         {
           "number": "053-472-2003",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 2026-07-24 18:12:33, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 대구 남구 봉덕동 1663 관리사무소",
           "sourceCounts": {
-            "K-apt": 9
+            "K-apt": 9,
+            "2026-07-24 18:12:33": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2722,9 +3338,24 @@
             "K-apt 3회": 1,
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2,
-            "K-apt 8회": 1
+            "K-apt 8회": 1,
+            "2026-07-24 18:12:33": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 9회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회 · 2026-07-24 18:12:33 1회"
+        },
+        {
+          "number": "053-472-2004",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 남구 봉덕동 1663 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "345",
