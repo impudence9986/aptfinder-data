@@ -1,6 +1,6 @@
 {
-  "version": 1787590837,
-  "updatedAt": "2026-08-24 17:00:37",
+  "version": 1787677475,
+  "updatedAt": "2026-08-25 17:04:35",
   "sido": "부산광역시",
   "sigungu": "해운대구",
   "count": 335,
@@ -21651,16 +21651,20 @@
       "jibunAddress": "부산 해운대구 중동 149-1",
       "phone": "051-747-6116",
       "phones": [
-        "051-747-6116"
+        "051-747-6116",
+        "051-747-6117",
+        "051-746-2323"
       ],
       "phoneCandidates": [
         {
           "number": "051-747-6116",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산 해운대구 좌동순환로8번길 78 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -21669,14 +21673,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-747-6117",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 부산 해운대구 좌동순환로8번길 78 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-746-2323",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "145",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 16:58:17",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -21767,16 +21802,22 @@
       "jibunAddress": "부산 해운대구 좌동 1439",
       "phone": "051-701-4124",
       "phones": [
-        "051-701-4124"
+        "051-701-4124",
+        "051-703-0123",
+        "051-747-6377",
+        "051-701-7762"
       ],
       "phoneCandidates": [
         {
           "number": "051-701-4124",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산 해운대구 좌동 1439 관리사무소, 부산 해운대구 좌동 1439 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "114On": 2,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -21785,14 +21826,57 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 2,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "051-703-0123",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-747-6377",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-701-7762",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 해운대구 좌동 1439 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "1070",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 16:58:45",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -21821,16 +21905,21 @@
       "jibunAddress": "부산 해운대구 좌동 1445",
       "phone": "051-703-5453",
       "phones": [
-        "051-703-5453"
+        "051-703-5453",
+        "051-703-1117",
+        "051-744-8127"
       ],
       "phoneCandidates": [
         {
           "number": "051-703-5453",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산 해운대구 좌동 1445 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -21839,14 +21928,46 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-703-1117",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 부산 해운대구 좌동 1445 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-744-8127",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "356",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 16:59:23",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -21991,16 +22112,22 @@
       "jibunAddress": "부산 해운대구 좌동 1282",
       "phone": "051-704-2017",
       "phones": [
-        "051-704-2017"
+        "051-704-2017",
+        "051-704-2018",
+        "051-747-7348",
+        "051-701-7594",
+        "051-704-2170"
       ],
       "phoneCandidates": [
         {
           "number": "051-704-2017",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산 해운대구 좌동 1282 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -22009,14 +22136,71 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-704-2018",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 부산 해운대구 좌동 1282 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-747-7348",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-701-7594",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 해운대구 좌동 1282 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "051-704-2170",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 해운대구 좌동 1282 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "799",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 17:00:08",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -22100,16 +22284,20 @@
       "jibunAddress": "부산 해운대구 중동 1792",
       "phone": "051-744-4306",
       "phones": [
-        "051-744-4306"
+        "051-744-4306",
+        "051-747-0940",
+        "051-743-0777"
       ],
       "phoneCandidates": [
         {
           "number": "051-744-4306",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산 해운대구 좌동순환로433번길 40 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -22118,14 +22306,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-747-0940",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-743-0777",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "218",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 17:00:35",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -22154,16 +22371,18 @@
       "jibunAddress": "부산 해운대구 좌동 1328",
       "phone": "051-701-0431",
       "phones": [
-        "051-701-0431"
+        "051-701-0431",
+        "051-703-7311"
       ],
       "phoneCandidates": [
         {
           "number": "051-701-0431",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -22172,14 +22391,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "051-703-7311",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "512",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 17:00:59",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -22338,16 +22572,20 @@
       "jibunAddress": "부산 해운대구 좌동 1323",
       "phone": "051-701-4486",
       "phones": [
-        "051-701-4486"
+        "051-701-4486",
+        "051-701-4487",
+        "051-703-7311"
       ],
       "phoneCandidates": [
         {
           "number": "051-701-4486",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산 해운대구 좌동 1323 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -22356,14 +22594,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-701-4487",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 부산 해운대구 좌동 1323 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-703-7311",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "466",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 17:01:36",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -22492,16 +22761,21 @@
       "jibunAddress": "부산 해운대구 중동 1818",
       "phone": "051-731-5577",
       "phones": [
-        "051-731-5577"
+        "051-731-5577",
+        "051-731-7200",
+        "051-744-1001",
+        "051-747-3213"
       ],
       "phoneCandidates": [
         {
           "number": "051-731-5577",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산 해운대구 좌동순환로433번길 30 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -22510,14 +22784,58 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-731-7200",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 부산 해운대구 좌동순환로433번길 30 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-744-1001",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-747-3213",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 해운대구 좌동순환로433번길 30 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2369",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 17:02:25",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -22826,16 +23144,20 @@
       "jibunAddress": "부산광역시 해운대구 중동2로34번길 29",
       "phone": "051-742-1889",
       "phones": [
-        "051-742-1889"
+        "051-742-1889",
+        "051-918-1889",
+        "051-747-1713"
       ],
       "phoneCandidates": [
         {
           "number": "051-742-1889",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산광역시 해운대구 중동2로34번길 29 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -22844,14 +23166,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-918-1889",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-747-1713",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산광역시 해운대구 중동2로34번길 29 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "792",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 17:02:50",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -23180,16 +23531,20 @@
       "jibunAddress": "부산광역시 해운대구 중동2로24번길 24",
       "phone": "051-747-1369",
       "phones": [
-        "051-747-1369"
+        "051-747-1369",
+        "051-746-1369",
+        "051-746-6503"
       ],
       "phoneCandidates": [
         {
           "number": "051-747-1369",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산광역시 해운대구 중동2로24번길 24 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23198,14 +23553,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-746-1369",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 부산광역시 해운대구 중동2로24번길 24 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-746-6503",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "152",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 17:03:15",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -23443,16 +23829,22 @@
       "jibunAddress": "부산광역시 해운대구 중동1로19번길 24",
       "phone": "051-746-0975",
       "phones": [
-        "051-746-0975"
+        "051-746-0975",
+        "051-746-0980",
+        "051-741-3008",
+        "00-1522-2573",
+        "051-747-4999"
       ],
       "phoneCandidates": [
         {
           "number": "051-746-0975",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 부산광역시 해운대구 중동1로19번길 24 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23461,14 +23853,71 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-746-0980",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 부산광역시 해운대구 중동1로19번길 24 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "051-741-3008",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "00-1522-2573",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산광역시 해운대구 중동1로19번길 24 관리사무소, 부산광역시 해운대구 중동1로19번길 24 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-747-4999",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산광역시 해운대구 중동1로19번길 24 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "198",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 17:03:43",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
@@ -23886,16 +24335,18 @@
       "jibunAddress": "부산광역시 해운대구 중동2로34번길 6",
       "phone": "051-746-6501",
       "phones": [
-        "051-746-6501"
+        "051-746-6501",
+        "051-746-6503"
       ],
       "phoneCandidates": [
         {
           "number": "051-746-6501",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23904,14 +24355,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "051-746-6503",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "828",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-25 17:04:07",
       "detailUpdatedAt": 1781146182774,
       "listUpdatedAt": 1781146182774,
       "phoneStatus": "CONFIRMED",
