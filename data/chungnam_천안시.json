@@ -1,6 +1,6 @@
 {
-  "version": 1787768228,
-  "updatedAt": "2026-08-26 18:17:08",
+  "version": 1787881998,
+  "updatedAt": "2026-08-28 01:53:18",
   "sido": "충청남도",
   "sigungu": "천안시",
   "count": 363,
@@ -14606,16 +14606,20 @@
       "jibunAddress": "충남 천안시 서북구 쌍용동 848",
       "phone": "041-571-9902",
       "phones": [
-        "041-571-9902"
+        "041-571-9902",
+        "041-571-2354",
+        "041-622-0044"
       ],
       "phoneCandidates": [
         {
           "number": "041-571-9902",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 쌍용동 848 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14624,14 +14628,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 1회"
+        },
+        {
+          "number": "041-571-2354",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-622-0044",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "570",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:36:49",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -14660,16 +14693,19 @@
       "jibunAddress": "충남 천안시 서북구 쌍용동 788",
       "phone": "041-571-4391",
       "phones": [
-        "041-571-4391"
+        "041-571-4391",
+        "041-358-9961",
+        "041-355-6711"
       ],
       "phoneCandidates": [
         {
           "number": "041-571-4391",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14678,14 +14714,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "041-358-9961",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-355-6711",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "159",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:37:28",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -14714,16 +14778,20 @@
       "jibunAddress": "충남 천안시 서북구 쌍용동 652",
       "phone": "041-571-2297",
       "phones": [
-        "041-571-2297"
+        "041-571-2297",
+        "041-571-0686",
+        "041-571-2298"
       ],
       "phoneCandidates": [
         {
           "number": "041-571-2297",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 쌍용동 652 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14732,14 +14800,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 1회"
+        },
+        {
+          "number": "041-571-0686",
+          "score": 100,
+          "source": "네이버부동산, 114On",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 쌍용동 652 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 114On 1회"
+        },
+        {
+          "number": "041-571-2298",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "521",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:37:59",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -14768,16 +14867,21 @@
       "jibunAddress": "충남 천안시 서북구 쌍용동 657",
       "phone": "041-572-2800",
       "phones": [
-        "041-572-2800"
+        "041-572-2800",
+        "041-835-6456",
+        "041-571-2298",
+        "041-575-7001"
       ],
       "phoneCandidates": [
         {
           "number": "041-572-2800",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 쌍용동 657 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14786,14 +14890,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 1회"
+        },
+        {
+          "number": "041-835-6456",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-571-2298",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-575-7001",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 쌍용동 657 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "132",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:38:26",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -14822,16 +14968,20 @@
       "jibunAddress": "충남 천안시 서북구 입장면 하장리 84",
       "phone": "041-583-7743",
       "phones": [
-        "041-583-7743"
+        "041-583-7743",
+        "041-583-7747",
+        "041-584-4149"
       ],
       "phoneCandidates": [
         {
           "number": "041-583-7743",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 입장면 하장리 84 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14840,14 +14990,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-583-7747",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 입장면 하장리 84 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-584-4149",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "332",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:39:15",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -14876,16 +15057,21 @@
       "jibunAddress": "충남 천안시 서북구 입장면 도림리 341-1",
       "phone": "041-584-2611",
       "phones": [
-        "041-584-2611"
+        "041-584-2611",
+        "041-585-2614",
+        "041-417-3013"
       ],
       "phoneCandidates": [
         {
           "number": "041-584-2611",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 입장면 도림리 341-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14894,14 +15080,48 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-585-2614",
+          "score": 100,
+          "source": "네이버부동산, 114On",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 입장면 도림리 341-1 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-417-3013",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "770",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:39:58",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -14930,16 +15150,20 @@
       "jibunAddress": "충남 천안시 서북구 성거읍 천흥리 429",
       "phone": "041-622-5544",
       "phones": [
-        "041-622-5544"
+        "041-622-5544",
+        "041-622-4140",
+        "041-582-0572"
       ],
       "phoneCandidates": [
         {
           "number": "041-622-5544",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 성거읍 천흥리 429 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14948,14 +15172,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 1회"
+        },
+        {
+          "number": "041-622-4140",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-582-0572",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "207",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:40:41",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -14984,16 +15237,19 @@
       "jibunAddress": "충남 천안시 동남구 목천읍 서리 58-1",
       "phone": "041-557-8453",
       "phones": [
-        "041-557-8453"
+        "041-557-8453",
+        "041-522-3584"
       ],
       "phoneCandidates": [
         {
           "number": "041-557-8453",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 동남구 목천읍 서리 58-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15002,14 +15258,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-522-3584",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "105",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:41:52",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15038,16 +15310,19 @@
       "jibunAddress": "충남 천안시 동남구 목천읍 서리 73-1",
       "phone": "041-557-3548",
       "phones": [
-        "041-557-3548"
+        "041-557-3548",
+        "041-563-3548",
+        "041-541-8800"
       ],
       "phoneCandidates": [
         {
           "number": "041-557-3548",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15056,14 +15331,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "041-563-3548",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-541-8800",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "114",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:42:36",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15092,16 +15395,19 @@
       "jibunAddress": "충남 천안시 서북구 직산읍 삼은리 69-14",
       "phone": "041-564-5005",
       "phones": [
-        "041-564-5005"
+        "041-564-5005",
+        "041-588-6846",
+        "041-582-0572"
       ],
       "phoneCandidates": [
         {
           "number": "041-564-5005",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15110,14 +15416,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "041-588-6846",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-582-0572",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "108",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:43:24",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15146,16 +15480,21 @@
       "jibunAddress": "충남 천안시 서북구 성정동 717",
       "phone": "041-573-3334",
       "phones": [
-        "041-573-3334"
+        "041-573-3334",
+        "041-573-8678",
+        "041-574-8679",
+        "041-572-2856"
       ],
       "phoneCandidates": [
         {
           "number": "041-573-3334",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 성정동 717 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15164,14 +15503,64 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 1회"
+        },
+        {
+          "number": "041-573-8678",
+          "score": 100,
+          "source": "네이버부동산, 114On",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 성정동 717 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-574-8679",
+          "score": 100,
+          "source": "네이버부동산, 114On",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 성정동 717 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-572-2856",
+          "score": 91,
+          "source": "114On",
+          "keyword": "충남 천안시 서북구 성정동 717 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "410",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:44:17",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15200,16 +15589,23 @@
       "jibunAddress": "충남 천안시 서북구 성정동 717",
       "phone": "041-573-8678",
       "phones": [
-        "041-573-8678"
+        "041-573-8678",
+        "041-574-8679",
+        "041-358-8651",
+        "041-573-3334",
+        "041-572-2856"
       ],
       "phoneCandidates": [
         {
           "number": "041-573-8678",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 성정동 717 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15218,14 +15614,74 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-574-8679",
+          "score": 100,
+          "source": "네이버부동산, 114On",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 성정동 717 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-358-8651",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-573-3334",
+          "score": 91,
+          "source": "114On",
+          "keyword": "충남 천안시 서북구 성정동 717 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "041-572-2856",
+          "score": 91,
+          "source": "114On",
+          "keyword": "충남 천안시 서북구 성정동 717 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "510",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:44:49",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15254,16 +15710,20 @@
       "jibunAddress": "충남 천안시 서북구 성정동 785",
       "phone": "041-577-5368",
       "phones": [
-        "041-577-5368"
+        "041-577-5368",
+        "041-357-5353",
+        "041-355-0055"
       ],
       "phoneCandidates": [
         {
           "number": "041-577-5368",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 성정동 785 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15272,14 +15732,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-357-5353",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-355-0055",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "580",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:45:22",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15308,16 +15797,20 @@
       "jibunAddress": "충남 천안시 서북구 성정동 789",
       "phone": "041-574-3775",
       "phones": [
-        "041-574-3775"
+        "041-574-3775",
+        "041-575-3776",
+        "041-357-5353"
       ],
       "phoneCandidates": [
         {
           "number": "041-574-3775",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 성정동 789 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15326,14 +15819,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-575-3776",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 성정동 789 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-357-5353",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "588",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:46:00",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15362,16 +15886,24 @@
       "jibunAddress": "충남 천안시 서북구 쌍용동 1914",
       "phone": "041-574-6414",
       "phones": [
-        "041-574-6414"
+        "041-574-6414",
+        "041-574-6415",
+        "041-575-6961",
+        "041-572-4246",
+        "041-571-4336",
+        "041-567-0515"
       ],
       "phoneCandidates": [
         {
           "number": "041-574-6414",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 쌍용동 1914 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "114On": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15380,14 +15912,86 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "041-574-6415",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 쌍용동 1914 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-575-6961",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-572-4246",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 쌍용동 1914 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "041-571-4336",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 쌍용동 1914 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "041-567-0515",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 쌍용동 1914 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1080",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:46:38",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15416,16 +16020,23 @@
       "jibunAddress": "충남 천안시 서북구 쌍용동 1914",
       "phone": "041-572-4246",
       "phones": [
-        "041-572-4246"
+        "041-572-4246",
+        "041-571-4336",
+        "041-574-6414",
+        "041-575-6961",
+        "041-574-6415",
+        "041-567-0515"
       ],
       "phoneCandidates": [
         {
           "number": "041-572-4246",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 쌍용동 1914 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15434,14 +16045,87 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-571-4336",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 쌍용동 1914 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-574-6414",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "충남 천안시 서북구 쌍용동 1914 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "041-575-6961",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-574-6415",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 쌍용동 1914 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "041-567-0515",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 쌍용동 1914 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "570",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:47:08",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15470,16 +16154,20 @@
       "jibunAddress": "충남 천안시 서북구 두정동 527",
       "phone": "041-563-1366",
       "phones": [
-        "041-563-1366"
+        "041-563-1366",
+        "041-562-5870",
+        "041-547-5770"
       ],
       "phoneCandidates": [
         {
           "number": "041-563-1366",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 두정동 527 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15488,14 +16176,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-562-5870",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 두정동 527 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-547-5770",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "947",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:47:44",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15524,16 +16243,20 @@
       "jibunAddress": "충남 천안시 서북구 입장면 기로리 86-1",
       "phone": "041-585-0120",
       "phones": [
-        "041-585-0120"
+        "041-585-0120",
+        "041-585-0121",
+        "041-358-5531"
       ],
       "phoneCandidates": [
         {
           "number": "041-585-0120",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 입장면 기로리 86-1 관리사무소, 충남 천안시 서북구 입장면 기로리 86-1 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 3
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15542,14 +16265,46 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 3회"
+        },
+        {
+          "number": "041-585-0121",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 입장면 기로리 86-1 관리사무소, 충남 천안시 서북구 입장면 기로리 86-1 관리실",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "041-358-5531",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "170",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:48:09",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15578,16 +16333,19 @@
       "jibunAddress": "충남 천안시 서북구 두정동 581",
       "phone": "02-551-7622",
       "phones": [
-        "02-551-7622"
+        "02-551-7622",
+        "041-571-3457",
+        "041-566-3457",
+        "041-563-7111"
       ],
       "phoneCandidates": [
         {
           "number": "02-551-7622",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15596,14 +16354,54 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "041-571-3457",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-566-3457",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-563-7111",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "40",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:48:42",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15632,16 +16430,21 @@
       "jibunAddress": "충남 천안시 동남구 청당동 606",
       "phone": "041-522-1545",
       "phones": [
-        "041-522-1545"
+        "041-522-1545",
+        "041-523-1545",
+        "041-557-5336"
       ],
       "phoneCandidates": [
         {
           "number": "041-522-1545",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산, 114On",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 동남구 청당동 606 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15650,14 +16453,46 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-523-1545",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 충남 천안시 동남구 청당동 606 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-557-5336",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "504",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:49:01",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15686,16 +16521,19 @@
       "jibunAddress": "충남 천안시 서북구 불당동 1498",
       "phone": "041-555-8370",
       "phones": [
-        "041-555-8370"
+        "041-555-8370",
+        "041-622-8424",
+        "041-622-7537",
+        "041-621-3100"
       ],
       "phoneCandidates": [
         {
           "number": "041-555-8370",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15704,14 +16542,54 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "041-622-8424",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-622-7537",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-621-3100",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "682",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:49:48",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15740,16 +16618,19 @@
       "jibunAddress": "충남 천안시 서북구 성환읍 수향리 214-9",
       "phone": "041-584-0300",
       "phones": [
-        "041-584-0300"
+        "041-584-0300",
+        "041-622-4140",
+        "041-621-0035"
       ],
       "phoneCandidates": [
         {
           "number": "041-584-0300",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15758,14 +16639,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "041-622-4140",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-621-0035",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "100",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:51:02",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15794,16 +16703,21 @@
       "jibunAddress": "충남 천안시 서북구 직산읍 모시리 242-5",
       "phone": "041-621-0035",
       "phones": [
-        "041-621-0035"
+        "041-621-0035",
+        "041-621-0105",
+        "041-523-7773",
+        "041-621-0034"
       ],
       "phoneCandidates": [
         {
           "number": "041-621-0035",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 충남 천안시 서북구 직산읍 모시리 242-5 관리사무소, 충남 천안시 서북구 직산읍 모시리 242-5 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15812,14 +16726,58 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "041-621-0105",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 충남 천안시 서북구 직산읍 모시리 242-5 관리사무소, 충남 천안시 서북구 직산읍 모시리 242-5 관리실",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "041-523-7773",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "041-621-0034",
+          "score": 91,
+          "source": "114On",
+          "keyword": "충남 천안시 서북구 직산읍 모시리 242-5 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "640",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:51:49",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15848,16 +16806,18 @@
       "jibunAddress": "충남 천안시 서북구 직산읍 모시리 253-38",
       "phone": "041-583-2888",
       "phones": [
-        "041-583-2888"
+        "041-583-2888",
+        "041-583-2892"
       ],
       "phoneCandidates": [
         {
           "number": "041-583-2888",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 충남 천안시 서북구 직산읍 모시리 253-38 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15866,14 +16826,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "041-583-2892",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "충남 천안시 서북구 직산읍 모시리 253-38 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "904",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:52:25",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15902,16 +16879,19 @@
       "jibunAddress": "충남 천안시 서북구 직산읍 수헐리 16-1",
       "phone": "041-581-1432",
       "phones": [
-        "041-581-1432"
+        "041-581-1432",
+        "041-581-1433"
       ],
       "phoneCandidates": [
         {
           "number": "041-581-1432",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 충남 천안시 서북구 직산읍 수헐리 16-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15920,14 +16900,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-581-1433",
+          "score": 91,
+          "source": "114On",
+          "keyword": "충남 천안시 서북구 직산읍 수헐리 16-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "854",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:52:38",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -15956,16 +16952,21 @@
       "jibunAddress": "충남 천안시 서북구 직산읍 상덕리 107",
       "phone": "041-582-3995",
       "phones": [
-        "041-582-3995"
+        "041-582-3995",
+        "041-581-3995",
+        "041-582-5900",
+        "041-584-5469"
       ],
       "phoneCandidates": [
         {
           "number": "041-582-3995",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 충남 천안시 서북구 직산읍 상덕리 107 관리사무소, 충남 천안시 서북구 직산읍 상덕리 107 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15974,14 +16975,58 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "041-581-3995",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "충남 천안시 서북구 직산읍 상덕리 107 관리사무소, 충남 천안시 서북구 직산읍 상덕리 107 관리실",
+          "sourceCounts": {
+            "네이버": 2,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "041-582-5900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 직산읍 상덕리 107 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "041-584-5469",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 직산읍 상덕리 107 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "494",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:52:43",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -16017,9 +17062,9 @@
           "number": "041-584-7785",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -16028,14 +17073,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "178",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:52:48",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -16071,9 +17117,9 @@
           "number": "041-584-7786",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -16082,14 +17128,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "318",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:52:53",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -16118,16 +17165,18 @@
       "jibunAddress": "충남 천안시 서북구 성거읍 신월리 467",
       "phone": "041-583-7739",
       "phones": [
-        "041-583-7739"
+        "041-583-7739",
+        "041-583-6556"
       ],
       "phoneCandidates": [
         {
           "number": "041-583-7739",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 충남 천안시 서북구 성거읍 신월리 467 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -16136,14 +17185,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "041-583-6556",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 성거읍 신월리 467 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "416",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:52:58",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -16172,16 +17236,19 @@
       "jibunAddress": "충남 천안시 서북구 직산읍 모시리 206-13",
       "phone": "041-583-4781",
       "phones": [
-        "041-583-4781"
+        "041-583-4781",
+        "041-583-4782"
       ],
       "phoneCandidates": [
         {
           "number": "041-583-4781",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 충남 천안시 서북구 직산읍 모시리 206-13 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -16190,14 +17257,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "041-583-4782",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 직산읍 모시리 206-13 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "946",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:53:03",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -16233,9 +17316,9 @@
           "number": "041-585-3740",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -16244,14 +17327,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "374",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:53:08",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
@@ -16280,16 +17364,19 @@
       "jibunAddress": "충남 천안시 서북구 직산읍 삼은리 395",
       "phone": "041-584-3541",
       "phones": [
-        "041-584-3541"
+        "041-584-3541",
+        "041-584-3542",
+        "041-583-9111"
       ],
       "phoneCandidates": [
         {
           "number": "041-584-3541",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 충남 천안시 서북구 직산읍 삼은리 395 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -16298,14 +17385,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "041-584-3542",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 직산읍 삼은리 395 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "041-583-9111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충남 천안시 서북구 직산읍 삼은리 395 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "285",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-28 01:53:13",
       "detailUpdatedAt": 1781311581955,
       "listUpdatedAt": 1781311581955,
       "phoneStatus": "CONFIRMED",
