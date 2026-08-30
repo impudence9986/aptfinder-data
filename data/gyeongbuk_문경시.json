@@ -1,6 +1,6 @@
 {
-  "version": 1781319200,
-  "updatedAt": "2026-06-13 02:53:20",
+  "version": 1788120643,
+  "updatedAt": "2026-08-30 20:10:43",
   "sido": "경상북도",
   "sigungu": "문경시",
   "count": 24,
@@ -24,16 +24,18 @@
       "jibunAddress": "경북 문경시 흥덕동 827",
       "phone": "054-925-9905",
       "phones": [
-        "054-925-9905"
+        "054-925-9905",
+        "054-925-9906"
       ],
       "phoneCandidates": [
         {
           "number": "054-925-9905",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 흥덕동 827 관리사무소, 경북 문경시 흥덕동 827 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +44,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "054-925-9906",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경북 문경시 흥덕동 827 관리사무소, 경북 문경시 흥덕동 827 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "83",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:16",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -85,9 +102,9 @@
           "number": "054-553-0536",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -96,14 +113,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "255",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:19",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -138,10 +156,12 @@
         {
           "number": "054-553-2832",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 흥덕동 790 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -150,14 +170,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
         }
       ],
       "households": "156",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:23",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -186,16 +209,21 @@
       "jibunAddress": "경북 문경시 모전동 908",
       "phone": "054-555-0538",
       "phones": [
-        "054-555-0538"
+        "054-555-0538",
+        "054-554-0549",
+        "054-555-8042",
+        "054-554-0548"
       ],
       "phoneCandidates": [
         {
           "number": "054-555-0538",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 908 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -204,14 +232,58 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-554-0549",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경북 문경시 모전동 908 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-555-8042",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 모전동 908 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-554-0548",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 모전동 908 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "500",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:27",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -240,16 +312,19 @@
       "jibunAddress": "경북 문경시 모전동 870",
       "phone": "054-552-5671",
       "phones": [
-        "054-552-5671"
+        "054-552-5671",
+        "054-554-5671"
       ],
       "phoneCandidates": [
         {
           "number": "054-552-5671",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 870 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -258,14 +333,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-554-5671",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 모전동 870 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "118",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:30",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -294,16 +385,19 @@
       "jibunAddress": "경북 문경시 모전동 264-1",
       "phone": "054-555-9283",
       "phones": [
-        "054-555-9283"
+        "054-555-9283",
+        "070-7426-9283"
       ],
       "phoneCandidates": [
         {
           "number": "054-555-9283",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 264-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -312,14 +406,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "070-7426-9283",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 모전동 264-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "240",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:34",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -348,16 +458,19 @@
       "jibunAddress": "경북 문경시 모전동 869",
       "phone": "054-556-1448",
       "phones": [
-        "054-556-1448"
+        "054-556-1448",
+        "054-556-1447"
       ],
       "phoneCandidates": [
         {
           "number": "054-556-1448",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 869 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -366,14 +479,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-556-1447",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 모전동 869 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "476",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:38",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -402,16 +531,19 @@
       "jibunAddress": "경북 문경시 모전동 908",
       "phone": "054-554-0548",
       "phones": [
-        "054-554-0548"
+        "054-554-0548",
+        "054-554-0549",
+        "054-555-0538"
       ],
       "phoneCandidates": [
         {
           "number": "054-554-0548",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 908 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -420,14 +552,44 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-554-0549",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경북 문경시 모전동 908 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-555-0538",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경북 문경시 모전동 908 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "428",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:41",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -456,16 +618,17 @@
       "jibunAddress": "경북 문경시 모전동 870",
       "phone": "054-555-7989",
       "phones": [
-        "054-555-7989"
+        "054-555-7989",
+        "054-552-5671"
       ],
       "phoneCandidates": [
         {
           "number": "054-555-7989",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -474,14 +637,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "054-552-5671",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경북 문경시 모전동 870 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "388",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:44",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -510,16 +687,18 @@
       "jibunAddress": "경북 문경시 모전동 948",
       "phone": "054-555-3160",
       "phones": [
-        "054-555-3160"
+        "054-555-3160",
+        "054-555-3161"
       ],
       "phoneCandidates": [
         {
           "number": "054-555-3160",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 948 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -528,14 +707,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-555-3161",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 모전동 948 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "154",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:47",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -564,16 +758,18 @@
       "jibunAddress": "경북 문경시 모전동 1150",
       "phone": "054-556-7787",
       "phones": [
-        "054-556-7787"
+        "054-556-7787",
+        "054-555-1235"
       ],
       "phoneCandidates": [
         {
           "number": "054-556-7787",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 1150 관리사무소, 경북 문경시 모전동 1150 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -582,14 +778,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "054-555-1235",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경북 문경시 모전동 1150 관리사무소, 경북 문경시 모전동 1150 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "450",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:51",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -618,16 +829,18 @@
       "jibunAddress": "경북 문경시 모전동 862-2",
       "phone": "054-553-7725",
       "phones": [
-        "054-553-7725"
+        "054-553-7725",
+        "054-553-7726"
       ],
       "phoneCandidates": [
         {
           "number": "054-553-7725",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 862-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -636,14 +849,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-553-7726",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 모전동 862-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "166",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:55",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -678,10 +906,11 @@
         {
           "number": "054-553-9562",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 577-1 관리사무소, 경북 문경시 모전동 577-1 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -690,14 +919,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "48",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:09:59",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -732,10 +963,11 @@
         {
           "number": "054-556-3348",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 흥덕동 717-1 관리사무소, 경북 문경시 흥덕동 717-1 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -744,14 +976,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "48",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:02",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -787,9 +1021,9 @@
           "number": "054-555-4428",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -798,14 +1032,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "180",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:06",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -834,16 +1069,18 @@
       "jibunAddress": "경북 문경시 모전동 949",
       "phone": "054-555-2331",
       "phones": [
-        "054-555-2331"
+        "054-555-2331",
+        "054-555-2332"
       ],
       "phoneCandidates": [
         {
           "number": "054-555-2331",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 949 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -852,14 +1089,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-555-2332",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 모전동 949 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "343",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:10",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -888,16 +1140,19 @@
       "jibunAddress": "경북 문경시 모전동 868",
       "phone": "054-556-7837",
       "phones": [
-        "054-556-7837"
+        "054-556-7837",
+        "054-553-7838"
       ],
       "phoneCandidates": [
         {
           "number": "054-556-7837",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 모전동 868 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -906,14 +1161,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-553-7838",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 모전동 868 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "299",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:13",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -942,16 +1213,18 @@
       "jibunAddress": "경북 문경시 흥덕동 337-21",
       "phone": "054-555-7274",
       "phones": [
-        "054-555-7274"
+        "054-555-7274",
+        "054-552-7274"
       ],
       "phoneCandidates": [
         {
           "number": "054-555-7274",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 흥덕동 337-21 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -960,14 +1233,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-552-7274",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 흥덕동 337-21 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "240",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:17",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -996,16 +1284,18 @@
       "jibunAddress": "경북 문경시 문경읍 하리 346",
       "phone": "054-572-7701",
       "phones": [
-        "054-572-7701"
+        "054-572-7701",
+        "054-571-7702"
       ],
       "phoneCandidates": [
         {
           "number": "054-572-7701",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 문경읍 하리 346 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1014,14 +1304,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-571-7702",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 문경읍 하리 346 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "116",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:21",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -1050,16 +1355,18 @@
       "jibunAddress": "경북 문경시 흥덕동 796",
       "phone": "02-552-9006",
       "phones": [
-        "02-552-9006"
+        "02-552-9006",
+        "054-552-9006"
       ],
       "phoneCandidates": [
         {
           "number": "02-552-9006",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 흥덕동 796 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1068,14 +1375,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-552-9006",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경북 문경시 흥덕동 796 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "135",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:24",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -1104,16 +1426,18 @@
       "jibunAddress": "경북 문경시 흥덕동 631-1",
       "phone": "054-554-2262",
       "phones": [
-        "054-554-2262"
+        "054-554-2262",
+        "054-554-2266"
       ],
       "phoneCandidates": [
         {
           "number": "054-554-2262",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 흥덕동 631-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1122,14 +1446,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-554-2266",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 흥덕동 631-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "421",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:28",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -1158,16 +1497,19 @@
       "jibunAddress": "경북 문경시 흥덕동 776",
       "phone": "054-555-6002",
       "phones": [
-        "054-555-6002"
+        "054-555-6002",
+        "054-556-0238"
       ],
       "phoneCandidates": [
         {
           "number": "054-555-6002",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 흥덕동 776 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1176,14 +1518,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-556-0238",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 문경시 흥덕동 776 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "198",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:32",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -1218,10 +1576,11 @@
         {
           "number": "054-555-4495",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 문경시 흥덕동 330 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1230,14 +1589,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "200",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:36",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",
@@ -1266,16 +1627,18 @@
       "jibunAddress": "경상북도 문경시 흥덕동 828 흥덕천년나무아파트",
       "phone": "054-555-5830",
       "phones": [
-        "054-555-5830"
+        "054-555-5830",
+        "054-554-5830"
       ],
       "phoneCandidates": [
         {
           "number": "054-555-5830",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경상북도 문경시 흥덕동 828 흥덕천년나무아파트 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1284,14 +1647,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-554-5830",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경상북도 문경시 흥덕동 828 흥덕천년나무아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "200",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 20:10:39",
       "detailUpdatedAt": 1781319106943,
       "listUpdatedAt": 1781319106943,
       "phoneStatus": "CONFIRMED",

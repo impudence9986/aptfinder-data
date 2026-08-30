@@ -1,6 +1,6 @@
 {
-  "version": 1788032295,
-  "updatedAt": "2026-08-29 19:38:15",
+  "version": 1788118135,
+  "updatedAt": "2026-08-30 19:28:55",
   "sido": "대구광역시",
   "sigungu": "수성구",
   "count": 401,
@@ -25813,16 +25813,20 @@
       "jibunAddress": "대구 수성구 파동 1004",
       "phone": "053-719-0163",
       "phones": [
-        "053-719-0163"
+        "053-719-0163",
+        "053-719-0164",
+        "053-763-1478",
+        "053-745-9333"
       ],
       "phoneCandidates": [
         {
           "number": "053-719-0163",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 대구 수성구 파동 1004 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25831,14 +25835,57 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "053-719-0164",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 대구 수성구 파동 1004 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "053-763-1478",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-745-9333",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "143",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-30 19:28:29",
       "detailUpdatedAt": 1781150724887,
       "listUpdatedAt": 1781150724887,
       "phoneStatus": "CONFIRMED",
