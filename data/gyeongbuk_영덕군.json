@@ -1,6 +1,6 @@
 {
-  "version": 1781319651,
-  "updatedAt": "2026-06-13 03:00:51",
+  "version": 1788213685,
+  "updatedAt": "2026-08-31 22:01:25",
   "sido": "경상북도",
   "sigungu": "영덕군",
   "count": 1,
@@ -24,16 +24,19 @@
       "jibunAddress": "경북 영덕군 영덕읍 우곡리 522",
       "phone": "054-732-0083",
       "phones": [
-        "054-732-0083"
+        "054-732-0083",
+        "054-732-0084",
+        "023-0800-0453"
       ],
       "phoneCandidates": [
         {
           "number": "054-732-0083",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 영덕군 영덕읍 우곡리 522 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +45,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-732-0084",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 영덕군 영덕읍 우곡리 522 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "023-0800-0453",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 영덕군 영덕읍 우곡리 522 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "250",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-08-31 22:01:22",
       "detailUpdatedAt": 1781319571539,
       "listUpdatedAt": 1781319571539,
       "phoneStatus": "CONFIRMED",
