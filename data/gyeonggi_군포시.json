@@ -1,6 +1,6 @@
 {
-  "version": 1785263629,
-  "updatedAt": "2026-07-28 18:33:49",
+  "version": 1788293352,
+  "updatedAt": "2026-09-01 20:09:12",
   "sido": "경기도",
   "sigungu": "군포시",
   "count": 146,
@@ -31,9 +31,9 @@
           "number": "031-392-5669",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +42,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "677",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:12",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -78,16 +79,22 @@
       "jibunAddress": "경기 군포시 당정동 973-1",
       "phone": "031-427-0121",
       "phones": [
-        "031-427-0121"
+        "031-427-0121",
+        "031-390-8509",
+        "031-390-8507",
+        "031-390-8500",
+        "031-390-8508",
+        "031-427-2205"
       ],
       "phoneCandidates": [
         {
           "number": "031-427-0121",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당정동 973-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -96,14 +103,81 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 당정동 973-1 관리사무소, 경기 군포시 당정동 973-1 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-390-8507",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 973-1 관리사무소, 경기 군포시 당정동 973-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8500",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 973-1 관리사무소, 경기 군포시 당정동 973-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8508",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 973-1 관리사무소, 경기 군포시 당정동 973-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-427-2205",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 973-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "914",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:16",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -132,16 +206,18 @@
       "jibunAddress": "경기 군포시 도마교동 471-1",
       "phone": "031-438-0707",
       "phones": [
-        "031-438-0707"
+        "031-438-0707",
+        "022-000-0328"
       ],
       "phoneCandidates": [
         {
           "number": "031-438-0707",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 도마교동 471-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -150,14 +226,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-000-0328",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 도마교동 471-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "726",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:20",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -193,9 +284,9 @@
           "number": "031-392-3980",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -204,14 +295,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1601",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:24",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -240,16 +332,21 @@
       "jibunAddress": "경기 군포시 산본동 1152-7",
       "phone": "031-392-0512",
       "phones": [
-        "031-392-0512"
+        "031-392-0512",
+        "031-396-5337",
+        "015-9227-2016",
+        "031-390-8501",
+        "031-390-8507"
       ],
       "phoneCandidates": [
         {
           "number": "031-392-0512",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1152-7 관리사무소, 경기 군포시 산본동 1152-7 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -258,14 +355,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-396-5337",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1152-7 관리사무소, 경기 군포시 산본동 1152-7 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "015-9227-2016",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1152-7 관리사무소, 경기 군포시 산본동 1152-7 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1152-7 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8507",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1152-7 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "604",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:28",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -294,16 +445,20 @@
       "jibunAddress": "경기 군포시 산본동 1088",
       "phone": "031-346-2251",
       "phones": [
-        "031-346-2251"
+        "031-346-2251",
+        "031-346-2253",
+        "031-899-1300",
+        "031-393-7703"
       ],
       "phoneCandidates": [
         {
           "number": "031-346-2251",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1088 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -312,14 +467,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-346-2253",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1088 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-899-1300",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1088 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-393-7703",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1088 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1040",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:33",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -348,16 +544,23 @@
       "jibunAddress": "경기 군포시 산본동 1092",
       "phone": "031-346-3116",
       "phones": [
-        "031-346-3116"
+        "031-346-3116",
+        "031-390-8501",
+        "015-1003-0420",
+        "017-2329-2017",
+        "031-392-3118",
+        "031-390-8506"
       ],
       "phoneCandidates": [
         {
           "number": "031-346-3116",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1092 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -366,14 +569,84 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 군포시 산본동 1092 관리사무소, 경기 군포시 산본동 1092 관리실",
+          "sourceCounts": {
+            "114On": 2,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "114On 2회 · 네이버 2회"
+        },
+        {
+          "number": "015-1003-0420",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1092 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "017-2329-2017",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1092 관리사무소, 경기 군포시 산본동 1092 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-392-3118",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1092 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8506",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1092 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "822",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:37",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -409,9 +682,9 @@
           "number": "031-502-0541",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -420,14 +693,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "447",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:41",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -456,16 +730,18 @@
       "jibunAddress": "경기 군포시 부곡동 1181",
       "phone": "031-393-3463",
       "phones": [
-        "031-393-3463"
+        "031-393-3463",
+        "031-393-4100"
       ],
       "phoneCandidates": [
         {
           "number": "031-393-3463",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 부곡동 1181 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -474,14 +750,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-393-4100",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 부곡동 1181 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "489",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:45",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -517,9 +808,9 @@
           "number": "031-391-5386",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -528,14 +819,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "90",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:49",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -564,16 +856,19 @@
       "jibunAddress": "경기 군포시 부곡동 1199",
       "phone": "031-393-8707",
       "phones": [
-        "031-393-8707"
+        "031-393-8707",
+        "031-393-8708"
       ],
       "phoneCandidates": [
         {
           "number": "031-393-8707",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 부곡동 1199 관리사무소, 경기 군포시 부곡동 1199 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -582,14 +877,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-393-8708",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 부곡동 1199 관리사무소, 경기 군포시 부곡동 1199 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "422",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:53",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -625,9 +936,9 @@
           "number": "031-8042-2013",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -636,14 +947,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "184",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:05:57",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -672,16 +984,20 @@
       "jibunAddress": "경기 군포시 당동 900",
       "phone": "031-395-2815",
       "phones": [
-        "031-395-2815"
+        "031-395-2815",
+        "017-132-2017",
+        "031-390-8509",
+        "031-396-9286"
       ],
       "phoneCandidates": [
         {
           "number": "031-395-2815",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당동 900 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -690,14 +1006,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "017-132-2017",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 당동 900 관리사무소, 경기 군포시 당동 900 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 당동 900 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-396-9286",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 900 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "483",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:01",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -726,16 +1083,19 @@
       "jibunAddress": "경기 군포시 당동 907",
       "phone": "031-394-4456",
       "phones": [
-        "031-394-4456"
+        "031-394-4456",
+        "031-394-4457",
+        "031-390-8501"
       ],
       "phoneCandidates": [
         {
           "number": "031-394-4456",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당동 907 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -744,14 +1104,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-394-4457",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 907 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 907 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "398",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:05",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -780,16 +1168,18 @@
       "jibunAddress": "경기 군포시 부곡동 1126",
       "phone": "031-461-7710",
       "phones": [
-        "031-461-7710"
+        "031-461-7710",
+        "031-461-7713"
       ],
       "phoneCandidates": [
         {
           "number": "031-461-7710",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 부곡동 1126 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -798,14 +1188,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-461-7713",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 부곡동 1126 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "891",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:09",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -841,9 +1246,9 @@
           "number": "031-406-3420",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -852,14 +1257,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "720",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:13",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -888,16 +1294,18 @@
       "jibunAddress": "경기 군포시 도마교동 479",
       "phone": "031-502-2995",
       "phones": [
-        "031-502-2995"
+        "031-502-2995",
+        "031-502-5949"
       ],
       "phoneCandidates": [
         {
           "number": "031-502-2995",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 도마교동 479 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -906,14 +1314,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-502-5949",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 도마교동 479 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "542",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:17",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -942,16 +1365,18 @@
       "jibunAddress": "경기 군포시 금정동 744-1",
       "phone": "031-458-5136",
       "phones": [
-        "031-458-5136"
+        "031-458-5136",
+        "031-455-5532"
       ],
       "phoneCandidates": [
         {
           "number": "031-458-5136",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 금정동 744-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -960,14 +1385,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-455-5532",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 금정동 744-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "562",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:21",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -996,16 +1436,19 @@
       "jibunAddress": "경기 군포시 금정동 876",
       "phone": "031-344-6566",
       "phones": [
-        "031-344-6566"
+        "031-344-6566",
+        "031-344-6567",
+        "031-390-8507"
       ],
       "phoneCandidates": [
         {
           "number": "031-344-6566",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 금정동 876 관리사무소, 경기 군포시 금정동 876 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1014,14 +1457,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-344-6567",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 금정동 876 관리사무소, 경기 군포시 금정동 876 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8507",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 금정동 876 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2042",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:25",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1057,9 +1528,9 @@
           "number": "031-419-0227",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1068,14 +1539,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "658",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:29",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1104,16 +1576,18 @@
       "jibunAddress": "경기 군포시 도마교동 471",
       "phone": "031-407-0346",
       "phones": [
-        "031-407-0346"
+        "031-407-0346",
+        "031-407-0347"
       ],
       "phoneCandidates": [
         {
           "number": "031-407-0346",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 도마교동 471 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1122,14 +1596,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-407-0347",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 도마교동 471 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "750",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:33",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1158,16 +1647,18 @@
       "jibunAddress": "경기 군포시 금정동 704",
       "phone": "031-454-7677",
       "phones": [
-        "031-454-7677"
+        "031-454-7677",
+        "031-346-7677"
       ],
       "phoneCandidates": [
         {
           "number": "031-454-7677",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 금정동 704 관리사무소, 경기 군포시 금정동 704 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1176,14 +1667,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-346-7677",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 금정동 704 관리사무소, 경기 군포시 금정동 704 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "264",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:37",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1212,16 +1718,19 @@
       "jibunAddress": "경기 군포시 금정동 875",
       "phone": "031-395-6962",
       "phones": [
-        "031-395-6962"
+        "031-395-6962",
+        "031-397-3622",
+        "031-390-5141"
       ],
       "phoneCandidates": [
         {
           "number": "031-395-6962",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 금정동 875 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1230,14 +1739,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-397-3622",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 금정동 875 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-5141",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 금정동 875 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "981",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:41",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1266,16 +1803,25 @@
       "jibunAddress": "경기 군포시 당동 954",
       "phone": "031-399-5173",
       "phones": [
-        "031-399-5173"
+        "031-399-5173",
+        "031-378-3040",
+        "031-378-3041",
+        "031-390-8501",
+        "031-390-8500",
+        "031-399-5174",
+        "031-390-8505",
+        "031-390-8509",
+        "016-3097-2017"
       ],
       "phoneCandidates": [
         {
           "number": "031-399-5173",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당동 954 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1284,14 +1830,120 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-378-3040",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 954 관리사무소, 경기 군포시 당동 954 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-378-3041",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 954 관리사무소, 경기 군포시 당동 954 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 954 관리사무소, 경기 군포시 당동 954 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8500",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 954 관리사무소, 경기 군포시 당동 954 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-399-5174",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 954 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8505",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 954 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 954 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-3097-2017",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 954 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "989",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:45",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1327,9 +1979,9 @@
           "number": "031-398-6260",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1338,14 +1990,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "135",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:49",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1380,10 +2033,11 @@
         {
           "number": "031-395-5611",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당동 873 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1392,14 +2046,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "770",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:53",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1434,10 +2090,11 @@
         {
           "number": "031-399-5037",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당동 957-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1446,14 +2103,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "115",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:06:57",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1482,16 +2141,19 @@
       "jibunAddress": "경기 군포시 당동 979-1",
       "phone": "031-398-9806",
       "phones": [
-        "031-398-9806"
+        "031-398-9806",
+        "031-390-8501",
+        "031-390-8509",
+        "031-390-8503"
       ],
       "phoneCandidates": [
         {
           "number": "031-398-9806",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1500,14 +2162,58 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 군포시 당동 979-1 관리사무소, 경기 군포시 당동 979-1 관리실",
+          "sourceCounts": {
+            "114On": 2,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 2,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경기 군포시 당동 979-1 관리사무소, 경기 군포시 당동 979-1 관리실",
+          "sourceCounts": {
+            "네이버": 2,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-390-8503",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 979-1 관리사무소, 경기 군포시 당동 979-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1247",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:01",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1536,16 +2242,19 @@
       "jibunAddress": "경기 군포시 당동 874",
       "phone": "031-398-5037",
       "phones": [
-        "031-398-5037"
+        "031-398-5037",
+        "031-390-8501",
+        "031-391-0032"
       ],
       "phoneCandidates": [
         {
           "number": "031-398-5037",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당동 874 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1554,14 +2263,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 874 관리사무소, 경기 군포시 당동 874 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-391-0032",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 874 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "600",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:05",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1590,16 +2327,17 @@
       "jibunAddress": "경기 군포시 당동 874",
       "phone": "031-398-1767",
       "phones": [
-        "031-398-1767"
+        "031-398-1767",
+        "031-390-8501"
       ],
       "phoneCandidates": [
         {
           "number": "031-398-1767",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1608,14 +2346,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 874 관리사무소, 경기 군포시 당동 874 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "400",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:09",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1644,16 +2396,17 @@
       "jibunAddress": "경기 군포시 당동 886",
       "phone": "031-396-6112",
       "phones": [
-        "031-396-6112"
+        "031-396-6112",
+        "031-390-8501"
       ],
       "phoneCandidates": [
         {
           "number": "031-396-6112",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1662,14 +2415,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 886 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "830",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:12",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1698,16 +2465,18 @@
       "jibunAddress": "경기 군포시 당동 885",
       "phone": "031-394-7277",
       "phones": [
-        "031-394-7277"
+        "031-394-7277",
+        "031-394-7278"
       ],
       "phoneCandidates": [
         {
           "number": "031-394-7277",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당동 885 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1716,14 +2485,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-394-7278",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경기 군포시 당동 885 관리사무소",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "800",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:16",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1752,16 +2538,19 @@
       "jibunAddress": "경기 군포시 당정동 1025-1",
       "phone": "031-427-2912",
       "phones": [
-        "031-427-2912"
+        "031-427-2912",
+        "031-390-8500",
+        "031-390-8507"
       ],
       "phoneCandidates": [
         {
           "number": "031-427-2912",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당정동 1025-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1770,14 +2559,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-390-8500",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 1025-1 관리사무소, 경기 군포시 당정동 1025-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8507",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 1025-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "565",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:20",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1806,16 +2623,18 @@
       "jibunAddress": "경기 군포시 당정동 1012-3",
       "phone": "031-427-3816",
       "phones": [
-        "031-427-3816"
+        "031-427-3816",
+        "031-427-3817"
       ],
       "phoneCandidates": [
         {
           "number": "031-427-3816",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당정동 1012-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1824,14 +2643,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-427-3817",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 1012-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "262",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:24",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1867,9 +2701,9 @@
           "number": "031-451-9982",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1878,14 +2712,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "216",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:28",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1914,16 +2749,18 @@
       "jibunAddress": "경기 군포시 당정동 978-1",
       "phone": "070-7431-0131",
       "phones": [
-        "070-7431-0131"
+        "070-7431-0131",
+        "031-451-2260"
       ],
       "phoneCandidates": [
         {
           "number": "070-7431-0131",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당정동 978-1 관리사무소, 경기 군포시 당정동 978-1 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1932,14 +2769,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-451-2260",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 978-1 관리사무소, 경기 군포시 당정동 978-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "47",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:32",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -1968,16 +2820,21 @@
       "jibunAddress": "경기 군포시 당정동 997-1",
       "phone": "031-427-4438",
       "phones": [
-        "031-427-4438"
+        "031-427-4438",
+        "031-390-8500",
+        "031-390-8509",
+        "031-427-4439",
+        "031-390-8507"
       ],
       "phoneCandidates": [
         {
           "number": "031-427-4438",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당정동 997-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1986,14 +2843,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-390-8500",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 997-1 관리사무소, 경기 군포시 당정동 997-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 997-1 관리사무소, 경기 군포시 당정동 997-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-427-4439",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 997-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8507",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 997-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "492",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:36",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2022,16 +2933,17 @@
       "jibunAddress": "경기 군포시 당정동 1001-1",
       "phone": "031-454-6245",
       "phones": [
-        "031-454-6245"
+        "031-454-6245",
+        "031-390-8500"
       ],
       "phoneCandidates": [
         {
           "number": "031-454-6245",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2040,14 +2952,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-390-8500",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 당정동 1001-1 관리사무소, 경기 군포시 당정동 1001-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "443",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:40",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2076,16 +3002,24 @@
       "jibunAddress": "경기 군포시 산본동 1146",
       "phone": "031-391-7058",
       "phones": [
-        "031-391-7058"
+        "031-391-7058",
+        "031-390-8508",
+        "031-390-8506",
+        "031-390-8507",
+        "031-390-8503",
+        "031-391-7078",
+        "016-1237-2016",
+        "031-390-8509"
       ],
       "phoneCandidates": [
         {
           "number": "031-391-7058",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1146 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2094,14 +3028,107 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-390-8508",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146 관리사무소, 경기 군포시 산본동 1146 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-390-8506",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146 관리사무소, 경기 군포시 산본동 1146 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-390-8507",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146 관리사무소, 경기 군포시 산본동 1146 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-390-8503",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146 관리사무소, 경기 군포시 산본동 1146 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-391-7078",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "016-1237-2016",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "1158",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:45",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2136,10 +3163,11 @@
         {
           "number": "031-437-5314",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 대야미동 654-14 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2148,14 +3176,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "154",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:49",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2184,16 +3214,18 @@
       "jibunAddress": "경기 군포시 대야미동 659-1",
       "phone": "031-437-6249",
       "phones": [
-        "031-437-6249"
+        "031-437-6249",
+        "031-437-6253"
       ],
       "phoneCandidates": [
         {
           "number": "031-437-6249",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 대야미동 659-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2202,14 +3234,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-437-6253",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 대야미동 659-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "157",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:53",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2238,16 +3285,18 @@
       "jibunAddress": "경기 군포시 대야미동 636-3",
       "phone": "031-437-2255",
       "phones": [
-        "031-437-2255"
+        "031-437-2255",
+        "031-437-2256"
       ],
       "phoneCandidates": [
         {
           "number": "031-437-2255",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 대야미동 636-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2256,14 +3305,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-437-2256",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 대야미동 636-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "578",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:07:56",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2292,16 +3356,20 @@
       "jibunAddress": "경기 군포시 대야미동 667-3",
       "phone": "031-505-5626",
       "phones": [
-        "031-505-5626"
+        "031-505-5626",
+        "031-390-8500",
+        "031-505-5627",
+        "017-1487-2017"
       ],
       "phoneCandidates": [
         {
           "number": "031-505-5626",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 대야미동 667-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2310,14 +3378,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-390-8500",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 대야미동 667-3 관리사무소, 경기 군포시 대야미동 667-3 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-505-5627",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 대야미동 667-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "017-1487-2017",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 대야미동 667-3 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "689",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:00",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2353,9 +3462,9 @@
           "number": "031-399-3044",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2364,14 +3473,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "147",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:04",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2400,16 +3510,19 @@
       "jibunAddress": "경기 군포시 당동 963",
       "phone": "031-399-8294",
       "phones": [
-        "031-399-8294"
+        "031-399-8294",
+        "031-399-8295",
+        "031-399-8800"
       ],
       "phoneCandidates": [
         {
           "number": "031-399-8294",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 당동 963 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2418,14 +3531,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-399-8295",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 963 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-399-8800",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 당동 963 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "218",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:08",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2454,16 +3595,22 @@
       "jibunAddress": "경기 군포시 산본동 1091-1",
       "phone": "031-394-1974",
       "phones": [
-        "031-394-1974"
+        "031-394-1974",
+        "031-390-8501",
+        "031-394-7125",
+        "031-390-8506",
+        "017-2800-2017",
+        "031-390-8509"
       ],
       "phoneCandidates": [
         {
           "number": "031-394-1974",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1091-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2472,14 +3619,81 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1091-1 관리사무소, 경기 군포시 산본동 1091-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-394-7125",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1091-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8506",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1091-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "017-2800-2017",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1091-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1091-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "792",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:12",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2508,16 +3722,19 @@
       "jibunAddress": "경기 군포시 산본동 1148",
       "phone": "031-392-0419",
       "phones": [
-        "031-392-0419"
+        "031-392-0419",
+        "031-390-8501",
+        "031-390-8505"
       ],
       "phoneCandidates": [
         {
           "number": "031-392-0419",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1148 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2526,14 +3743,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1148 관리사무소, 경기 군포시 산본동 1148 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-390-8505",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1148 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "784",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:16",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2562,16 +3807,18 @@
       "jibunAddress": "경기 군포시 산본동 1119-3",
       "phone": "031-392-7934",
       "phones": [
-        "031-392-7934"
+        "031-392-7934",
+        "031-396-2249"
       ],
       "phoneCandidates": [
         {
           "number": "031-392-7934",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1119-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2580,14 +3827,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-396-2249",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1119-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "472",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:20",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2616,16 +3878,20 @@
       "jibunAddress": "경기 군포시 산본동 1119-4",
       "phone": "031-391-5782",
       "phones": [
-        "031-391-5782"
+        "031-391-5782",
+        "031-390-8506",
+        "031-390-8508",
+        "031-341-5782"
       ],
       "phoneCandidates": [
         {
           "number": "031-391-5782",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1119-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2634,14 +3900,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-390-8506",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1119-4 관리사무소, 경기 군포시 산본동 1119-4 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8508",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1119-4 관리사무소, 경기 군포시 산본동 1119-4 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-341-5782",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1119-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "460",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:24",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2670,16 +3977,23 @@
       "jibunAddress": "경기 군포시 산본동 1119",
       "phone": "031-394-9029",
       "phones": [
-        "031-394-9029"
+        "031-394-9029",
+        "015-176-2016",
+        "031-390-8509",
+        "031-390-8506",
+        "031-390-8507",
+        "016-3851-2016",
+        "031-390-8508",
+        "031-390-8501"
       ],
       "phoneCandidates": [
         {
           "number": "031-394-9029",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2688,14 +4002,106 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "015-176-2016",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1119 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1119 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-390-8506",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1119 관리사무소, 경기 군포시 산본동 1119 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8507",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1119 관리사무소, 경기 군포시 산본동 1119 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "016-3851-2016",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1119 관리사무소, 경기 군포시 산본동 1119 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8508",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1119 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1119 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "930",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:28",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2724,16 +4130,18 @@
       "jibunAddress": "경기 군포시 부곡동 1137",
       "phone": "031-462-1568",
       "phones": [
-        "031-462-1568"
+        "031-462-1568",
+        "031-462-1569"
       ],
       "phoneCandidates": [
         {
           "number": "031-462-1568",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 부곡동 1137 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2742,14 +4150,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-462-1569",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 부곡동 1137 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "561",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:33",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2778,16 +4201,22 @@
       "jibunAddress": "경기 군포시 산본동 1120",
       "phone": "031-396-9784",
       "phones": [
-        "031-396-9784"
+        "031-396-9784",
+        "031-392-7672",
+        "031-396-6122",
+        "031-396-6123",
+        "031-390-8509",
+        "031-390-8500"
       ],
       "phoneCandidates": [
         {
           "number": "031-396-9784",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1120 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2796,14 +4225,81 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-392-7672",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1120 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-396-6122",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1120 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-396-6123",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1120 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1120 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1120 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "927",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:37",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2832,16 +4328,21 @@
       "jibunAddress": "경기 군포시 산본동 1052",
       "phone": "031-391-3035",
       "phones": [
-        "031-391-3035"
+        "031-391-3035",
+        "031-390-8501",
+        "031-390-8503",
+        "031-397-0430",
+        "031-390-8506"
       ],
       "phoneCandidates": [
         {
           "number": "031-391-3035",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1052 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2850,14 +4351,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1052 관리사무소, 경기 군포시 산본동 1052 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8503",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1052 관리사무소, 경기 군포시 산본동 1052 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-397-0430",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1052 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8506",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1052 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1400",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:41",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2886,16 +4441,21 @@
       "jibunAddress": "경기 군포시 산본동 1066",
       "phone": "031-397-2483",
       "phones": [
-        "031-397-2483"
+        "031-397-2483",
+        "017-1487-2017",
+        "014-8647-2016",
+        "031-399-2483",
+        "031-390-8500"
       ],
       "phoneCandidates": [
         {
           "number": "031-397-2483",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1066 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2904,14 +4464,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "017-1487-2017",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1066 관리사무소, 경기 군포시 산본동 1066 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "014-8647-2016",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1066 관리사무소, 경기 군포시 산본동 1066 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-399-2483",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1066 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1066 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1778",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:45",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2940,16 +4554,20 @@
       "jibunAddress": "경기 군포시 산본동 1156-1",
       "phone": "031-391-1430",
       "phones": [
-        "031-391-1430"
+        "031-391-1430",
+        "031-390-8500",
+        "031-390-8506",
+        "031-390-8509",
+        "016-3561-2017"
       ],
       "phoneCandidates": [
         {
           "number": "031-391-1430",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2958,14 +4576,67 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-390-8500",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1156-1 관리사무소, 경기 군포시 산본동 1156-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-390-8506",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1156-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1156-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-3561-2017",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1156-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1248",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:49",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -2994,16 +4665,22 @@
       "jibunAddress": "경기 군포시 산본동 1146-11",
       "phone": "031-395-4638",
       "phones": [
-        "031-395-4638"
+        "031-395-4638",
+        "031-390-8508",
+        "031-390-8506",
+        "031-390-8507",
+        "016-1237-2016",
+        "031-390-8509",
+        "031-390-8501"
       ],
       "phoneCandidates": [
         {
           "number": "031-395-4638",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3012,14 +4689,93 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-390-8508",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146-11 관리사무소, 경기 군포시 산본동 1146-11 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-390-8506",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146-11 관리사무소, 경기 군포시 산본동 1146-11 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-390-8507",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146-11 관리사무소, 경기 군포시 산본동 1146-11 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "016-1237-2016",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146-11 관리사무소, 경기 군포시 산본동 1146-11 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-390-8509",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146-11 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1146-11 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "1312",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:53",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -3048,16 +4804,20 @@
       "jibunAddress": "경기 군포시 산본동 1155-7",
       "phone": "031-392-3989",
       "phones": [
-        "031-392-3989"
+        "031-392-3989",
+        "031-392-3978",
+        "031-397-1270",
+        "031-395-4628"
       ],
       "phoneCandidates": [
         {
           "number": "031-392-3989",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1155-7 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3066,14 +4826,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-392-3978",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1155-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-397-1270",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1155-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-395-4628",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1155-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "900",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:08:57",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -3102,16 +4903,20 @@
       "jibunAddress": "경기 군포시 산본동 1155-7",
       "phone": "031-392-3978",
       "phones": [
-        "031-392-3978"
+        "031-392-3978",
+        "031-397-1270",
+        "031-392-3989",
+        "031-395-4628"
       ],
       "phoneCandidates": [
         {
           "number": "031-392-3978",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1155-7 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3120,14 +4925,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-397-1270",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1155-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-392-3989",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1155-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-395-4628",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 군포시 산본동 1155-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "949",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:09:01",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -3156,16 +5002,21 @@
       "jibunAddress": "경기 군포시 산본동 1148-4",
       "phone": "031-393-8425",
       "phones": [
-        "031-393-8425"
+        "031-393-8425",
+        "031-390-8501",
+        "031-397-0050",
+        "015-1003-0420",
+        "031-390-8505"
       ],
       "phoneCandidates": [
         {
           "number": "031-393-8425",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 군포시 산본동 1148-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3174,14 +5025,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-390-8501",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1148-4 관리사무소, 경기 군포시 산본동 1148-4 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-397-0050",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1148-4 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "015-1003-0420",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1148-4 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-390-8505",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 군포시 산본동 1148-4 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "1318",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:09:04",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",
@@ -3217,9 +5122,9 @@
           "number": "031-397-2901",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3228,14 +5133,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "267",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 20:09:09",
       "detailUpdatedAt": 1781019491930,
       "listUpdatedAt": 1781019491930,
       "phoneStatus": "CONFIRMED",

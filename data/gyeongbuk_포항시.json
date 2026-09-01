@@ -1,6 +1,6 @@
 {
-  "version": 1788214444,
-  "updatedAt": "2026-08-31 22:14:04",
+  "version": 1788291993,
+  "updatedAt": "2026-09-01 19:46:33",
   "sido": "경상북도",
   "sigungu": "포항시",
   "count": 235,
@@ -685,16 +685,17 @@
       "jibunAddress": "경북 포항시 북구 흥해읍 학천리 4",
       "phone": "054-262-0048",
       "phones": [
-        "054-262-0048"
+        "054-262-0048",
+        "054-270-4787"
       ],
       "phoneCandidates": [
         {
           "number": "054-262-0048",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -703,14 +704,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "054-270-4787",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경북 포항시 북구 흥해읍 학천리 4 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "360",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:42:40",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -739,16 +754,19 @@
       "jibunAddress": "경북 포항시 북구 우현동 94-8",
       "phone": "054-249-0011",
       "phones": [
-        "054-249-0011"
+        "054-249-0011",
+        "054-243-4046"
       ],
       "phoneCandidates": [
         {
           "number": "054-249-0011",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 우현동 94-8 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -757,14 +775,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-243-4046",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 우현동 94-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "698",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:42:44",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -793,16 +827,18 @@
       "jibunAddress": "경북 포항시 북구 장성동 1578-1",
       "phone": "054-251-5665",
       "phones": [
-        "054-251-5665"
+        "054-251-5665",
+        "054-251-5666"
       ],
       "phoneCandidates": [
         {
           "number": "054-251-5665",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 장성동 1578-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -811,14 +847,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-251-5666",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경북 포항시 북구 장성동 1578-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "688",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:42:48",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -847,16 +898,21 @@
       "jibunAddress": "경북 포항시 남구 연일읍 유강리 581-1",
       "phone": "054-278-0036",
       "phones": [
-        "054-278-0036"
+        "054-278-0036",
+        "054-278-2353",
+        "070-7209-8500",
+        "054-274-7581"
       ],
       "phoneCandidates": [
         {
           "number": "054-278-0036",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 연일읍 유강리 581-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -865,14 +921,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-278-2353",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 유강리 581-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-7209-8500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 유강리 581-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-274-7581",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 유강리 581-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "960",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:42:52",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -901,16 +999,22 @@
       "jibunAddress": "경북 포항시 남구 연일읍 유강리 581",
       "phone": "054-278-2353",
       "phones": [
-        "054-278-2353"
+        "054-278-2353",
+        "054-278-0036",
+        "054-278-2411",
+        "070-7209-8500",
+        "054-274-7581",
+        "020-1181-7001"
       ],
       "phoneCandidates": [
         {
           "number": "054-278-2353",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 연일읍 유강리 581 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -919,14 +1023,83 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-278-0036",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경북 포항시 남구 연일읍 유강리 581 관리사무소",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-278-2411",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경북 포항시 남구 연일읍 유강리 581 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "070-7209-8500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 유강리 581 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-274-7581",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 유강리 581 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "020-1181-7001",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 유강리 581 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "265",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:42:56",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -955,16 +1128,18 @@
       "jibunAddress": "경북 포항시 남구 연일읍 유강리 594-3",
       "phone": "054-278-9745",
       "phones": [
-        "054-278-9745"
+        "054-278-9745",
+        "054-278-9746"
       ],
       "phoneCandidates": [
         {
           "number": "054-278-9745",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 연일읍 유강리 594-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -973,14 +1148,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-278-9746",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 유강리 594-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "239",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:00",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1016,9 +1206,9 @@
           "number": "054-248-9155",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1027,14 +1217,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "240",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:03",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1063,16 +1254,18 @@
       "jibunAddress": "경북 포항시 남구 연일읍 생지리 83",
       "phone": "054-276-9119",
       "phones": [
-        "054-276-9119"
+        "054-276-9119",
+        "054-276-9944"
       ],
       "phoneCandidates": [
         {
           "number": "054-276-9119",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 연일읍 생지리 83 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1081,14 +1274,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "054-276-9944",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 생지리 83 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "199",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:07",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1117,16 +1326,19 @@
       "jibunAddress": "경북 포항시 남구 오천읍 원리 1078",
       "phone": "054-293-9529",
       "phones": [
-        "054-293-9529"
+        "054-293-9529",
+        "054-293-9528"
       ],
       "phoneCandidates": [
         {
           "number": "054-293-9529",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 오천읍 원리 1078 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1135,14 +1347,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-293-9528",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 오천읍 원리 1078 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "201",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:11",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1178,9 +1406,9 @@
           "number": "054-286-0057",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1189,14 +1417,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "205",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:15",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1225,16 +1454,17 @@
       "jibunAddress": "경북 포항시 북구 두호동 1045",
       "phone": "054-253-5568",
       "phones": [
-        "054-253-5568"
+        "054-253-5568",
+        "054-246-0300"
       ],
       "phoneCandidates": [
         {
           "number": "054-253-5568",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1243,14 +1473,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "054-246-0300",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경북 포항시 북구 두호동 1045 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "150",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:19",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1285,10 +1529,11 @@
         {
           "number": "054-282-6569",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 학잠동 110 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1297,14 +1542,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "145",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:23",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1333,16 +1581,20 @@
       "jibunAddress": "경북 포항시 북구 흥해읍 이인리 424",
       "phone": "054-262-4033",
       "phones": [
-        "054-262-4033"
+        "054-262-4033",
+        "054-262-4034",
+        "054-262-8371"
       ],
       "phoneCandidates": [
         {
           "number": "054-262-4033",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 흥해읍 이인리 424 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1351,14 +1603,46 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1,
+            "네이버 블로그검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "054-262-4034",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경북 포항시 북구 흥해읍 이인리 424 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-262-8371",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 흥해읍 이인리 424 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "980",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:27",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1387,16 +1671,19 @@
       "jibunAddress": "경북 포항시 남구 대잠동 990",
       "phone": "054-276-5900",
       "phones": [
-        "054-276-5900"
+        "054-276-5900",
+        "054-278-2180",
+        "054-278-3180"
       ],
       "phoneCandidates": [
         {
           "number": "054-276-5900",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 대잠동 990 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1405,14 +1692,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-278-2180",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경북 포항시 남구 대잠동 990 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "054-278-3180",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 대잠동 990 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "548",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:31",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1441,16 +1756,18 @@
       "jibunAddress": "경북 포항시 남구 대잠동 1009",
       "phone": "054-281-3443",
       "phones": [
-        "054-281-3443"
+        "054-281-3443",
+        "054-281-0733"
       ],
       "phoneCandidates": [
         {
           "number": "054-281-3443",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 대잠동 1009 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1459,14 +1776,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-281-0733",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 대잠동 1009 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "550",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:35",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1495,16 +1827,18 @@
       "jibunAddress": "경북 포항시 남구 대잠동 970",
       "phone": "054-278-7044",
       "phones": [
-        "054-278-7044"
+        "054-278-7044",
+        "054-278-7045"
       ],
       "phoneCandidates": [
         {
           "number": "054-278-7044",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 대잠동 970 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1513,14 +1847,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-278-7045",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 대잠동 970 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "334",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:39",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1549,16 +1898,18 @@
       "jibunAddress": "경북 포항시 남구 대잠동 971",
       "phone": "054-277-4040",
       "phones": [
-        "054-277-4040"
+        "054-277-4040",
+        "054-277-4041"
       ],
       "phoneCandidates": [
         {
           "number": "054-277-4040",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 대잠동 971 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1567,14 +1918,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-277-4041",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 대잠동 971 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "237",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:43",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1603,16 +1969,18 @@
       "jibunAddress": "경북 포항시 남구 동해면 도구리 635",
       "phone": "054-284-5362",
       "phones": [
-        "054-284-5362"
+        "054-284-5362",
+        "054-284-5888"
       ],
       "phoneCandidates": [
         {
           "number": "054-284-5362",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 동해면 도구리 635 관리사무소, 경북 포항시 남구 동해면 도구리 635 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1621,14 +1989,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "054-284-5888",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 동해면 도구리 635 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "195",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:47",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1664,9 +2047,9 @@
           "number": "054-256-1585",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1675,14 +2058,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "284",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:51",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1717,10 +2101,11 @@
         {
           "number": "054-291-0721",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 청림동 1180 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1729,14 +2114,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "272",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:55",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1771,10 +2158,11 @@
         {
           "number": "054-247-9109",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 창포동 611 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1783,14 +2171,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "520",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:43:58",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1819,16 +2209,20 @@
       "jibunAddress": "경북 포항시 북구 두호동 1022",
       "phone": "054-253-4563",
       "phones": [
-        "054-253-4563"
+        "054-253-4563",
+        "054-253-2912",
+        "054-231-4816",
+        "054-253-4564"
       ],
       "phoneCandidates": [
         {
           "number": "054-253-4563",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 두호동 1022 관리사무소, 경북 포항시 북구 두호동 1022 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 3
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1837,14 +2231,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 3회"
+        },
+        {
+          "number": "054-253-2912",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경북 포항시 북구 두호동 1022 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "054-231-4816",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경북 포항시 북구 두호동 1022 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "054-253-4564",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 두호동 1022 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1321",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:02",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1873,16 +2309,21 @@
       "jibunAddress": "경북 포항시 북구 두호동 635",
       "phone": "054-254-2967",
       "phones": [
-        "054-254-2967"
+        "054-254-2967",
+        "054-253-4563",
+        "054-256-9798",
+        "054-256-9162"
       ],
       "phoneCandidates": [
         {
           "number": "054-254-2967",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 두호동 635 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1891,14 +2332,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-253-4563",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 두호동 635 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-256-9798",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 두호동 635 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-256-9162",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 두호동 635 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "300",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:06",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1927,16 +2410,18 @@
       "jibunAddress": "경북 포항시 북구 장성동 1369",
       "phone": "054-253-3833",
       "phones": [
-        "054-253-3833"
+        "054-253-3833",
+        "054-254-3833"
       ],
       "phoneCandidates": [
         {
           "number": "054-253-3833",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 장성동 1369 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1945,14 +2430,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-254-3833",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 장성동 1369 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "182",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:10",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -1981,16 +2481,19 @@
       "jibunAddress": "경북 포항시 북구 창포동 613",
       "phone": "054-256-5732",
       "phones": [
-        "054-256-5732"
+        "054-256-5732",
+        "054-610-5732"
       ],
       "phoneCandidates": [
         {
           "number": "054-256-5732",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 창포동 613 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1999,14 +2502,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-610-5732",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 창포동 613 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "470",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:14",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2042,9 +2561,9 @@
           "number": "054-274-5252",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2053,14 +2572,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "371",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:18",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2089,16 +2609,19 @@
       "jibunAddress": "경북 포항시 북구 장성동 1354",
       "phone": "054-248-2921",
       "phones": [
-        "054-248-2921"
+        "054-248-2921",
+        "054-248-2922"
       ],
       "phoneCandidates": [
         {
           "number": "054-248-2921",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 장성동 1354 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2107,14 +2630,32 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-248-2922",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경북 포항시 북구 장성동 1354 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "716",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:22",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2143,16 +2684,19 @@
       "jibunAddress": "경북 포항시 북구 장성동 1455-1",
       "phone": "054-251-2302",
       "phones": [
-        "054-251-2302"
+        "054-251-2302",
+        "054-251-2303"
       ],
       "phoneCandidates": [
         {
           "number": "054-251-2302",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 장성동 1455-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2161,14 +2705,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "054-251-2303",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 장성동 1455-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "820",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:26",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2203,10 +2764,11 @@
         {
           "number": "054-286-4964",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 연일읍 생지리 57-7 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2215,14 +2777,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "168",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:30",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2258,9 +2822,9 @@
           "number": "054-285-6366",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2269,14 +2833,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "150",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:34",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2311,10 +2876,11 @@
         {
           "number": "054-284-5849",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 동해면 약전리 366-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2323,14 +2889,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "192",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:38",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2365,10 +2934,11 @@
         {
           "number": "054-286-0078",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 연일읍 생지리 376-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2377,14 +2947,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "144",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:42",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2413,16 +2986,22 @@
       "jibunAddress": "경북 포항시 북구 두호동 1086",
       "phone": "054-248-5578",
       "phones": [
-        "054-248-5578"
+        "054-248-5578",
+        "054-248-5579",
+        "054-247-4582",
+        "054-254-8282",
+        "054-256-2900"
       ],
       "phoneCandidates": [
         {
           "number": "054-248-5578",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 두호동 1086 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2431,14 +3010,69 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "054-248-5579",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 두호동 1086 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-247-4582",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 두호동 1086 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-254-8282",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 두호동 1086 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-256-2900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 두호동 1086 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "180",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:45",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2467,16 +3101,18 @@
       "jibunAddress": "경북 포항시 북구 두호동 1082-3",
       "phone": "054-256-3418",
       "phones": [
-        "054-256-3418"
+        "054-256-3418",
+        "054-250-3220"
       ],
       "phoneCandidates": [
         {
           "number": "054-256-3418",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 두호동 1082-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2485,14 +3121,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-250-3220",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 두호동 1082-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "147",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:49",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2521,16 +3172,19 @@
       "jibunAddress": "경북 포항시 북구 장성동 1350",
       "phone": "054-256-0102",
       "phones": [
-        "054-256-0102"
+        "054-256-0102",
+        "054-256-8495",
+        "070-7209-8497"
       ],
       "phoneCandidates": [
         {
           "number": "054-256-0102",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 장성동 1350 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2539,14 +3193,44 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "054-256-8495",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경북 포항시 북구 장성동 1350 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "070-7209-8497",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 장성동 1350 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "210",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:53",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2575,16 +3259,19 @@
       "jibunAddress": "경북 포항시 북구 장성동 1350-1",
       "phone": "054-256-8495",
       "phones": [
-        "054-256-8495"
+        "054-256-8495",
+        "070-7209-8497"
       ],
       "phoneCandidates": [
         {
           "number": "054-256-8495",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 장성동 1350-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2593,14 +3280,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "070-7209-8497",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 장성동 1350-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "168",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:44:57",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2635,10 +3338,12 @@
         {
           "number": "054-247-5975",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 장성동 1364-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2647,14 +3352,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
         }
       ],
       "households": "159",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:01",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2683,16 +3391,18 @@
       "jibunAddress": "경북 포항시 북구 두호동 1074",
       "phone": "054-247-0688",
       "phones": [
-        "054-247-0688"
+        "054-247-0688",
+        "054-247-0689"
       ],
       "phoneCandidates": [
         {
           "number": "054-247-0688",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 두호동 1074 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2701,14 +3411,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-247-0689",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 두호동 1074 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "420",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:05",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2737,16 +3462,18 @@
       "jibunAddress": "경북 포항시 남구 연일읍 동문리 141-1",
       "phone": "054-285-6365",
       "phones": [
-        "054-285-6365"
+        "054-285-6365",
+        "09-482-1578",
+        "01-456-3139"
       ],
       "phoneCandidates": [
         {
           "number": "054-285-6365",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2755,14 +3482,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "09-482-1578",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 동문리 141-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "01-456-3139",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 동문리 141-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "359",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:09",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2791,16 +3545,20 @@
       "jibunAddress": "경북 포항시 북구 흥해읍 이인리 929",
       "phone": "054-261-5060",
       "phones": [
-        "054-261-5060"
+        "054-261-5060",
+        "054-261-5160",
+        "054-621-5060"
       ],
       "phoneCandidates": [
         {
           "number": "054-261-5060",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 흥해읍 이인리 929 관리사무소, 경북 포항시 북구 흥해읍 이인리 929 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2809,14 +3567,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "054-261-5160",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 흥해읍 이인리 929 관리사무소, 경북 포항시 북구 흥해읍 이인리 929 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "054-621-5060",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 흥해읍 이인리 929 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "791",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:13",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2845,16 +3632,18 @@
       "jibunAddress": "경북 포항시 북구 흥해읍 학천리 456",
       "phone": "054-261-7859",
       "phones": [
-        "054-261-7859"
+        "054-261-7859",
+        "054-262-7558"
       ],
       "phoneCandidates": [
         {
           "number": "054-261-7859",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 흥해읍 학천리 456 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2863,14 +3652,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "054-262-7558",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 흥해읍 학천리 456 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "779",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:17",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2899,16 +3704,18 @@
       "jibunAddress": "경북 포항시 북구 흥해읍 학천리 806-5",
       "phone": "054-261-4265",
       "phones": [
-        "054-261-4265"
+        "054-261-4265",
+        "054-262-4260"
       ],
       "phoneCandidates": [
         {
           "number": "054-261-4265",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 흥해읍 학천리 806-5 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 3
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2917,14 +3724,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 3회"
+        },
+        {
+          "number": "054-262-4260",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 흥해읍 학천리 806-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "245",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:21",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -2953,16 +3777,19 @@
       "jibunAddress": "경북 포항시 북구 흥해읍 학천리 454",
       "phone": "054-262-8202",
       "phones": [
-        "054-262-8202"
+        "054-262-8202",
+        "054-262-8206",
+        "054-250-3221"
       ],
       "phoneCandidates": [
         {
           "number": "054-262-8202",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 흥해읍 학천리 454 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2971,14 +3798,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-262-8206",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 흥해읍 학천리 454 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-250-3221",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 흥해읍 학천리 454 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "875",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:24",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3007,16 +3862,19 @@
       "jibunAddress": "경북 포항시 남구 연일읍 생지리 333-3",
       "phone": "054-285-0630",
       "phones": [
-        "054-285-0630"
+        "054-285-0630",
+        "054-611-7411"
       ],
       "phoneCandidates": [
         {
           "number": "054-285-0630",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 연일읍 생지리 333-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 3,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3025,14 +3883,32 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1,
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 3회"
+        },
+        {
+          "number": "054-611-7411",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 생지리 333-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "405",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:28",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3061,16 +3937,18 @@
       "jibunAddress": "경북 포항시 남구 연일읍 생지리 390-3",
       "phone": "054-285-3255",
       "phones": [
-        "054-285-3255"
+        "054-285-3255",
+        "054-285-3251"
       ],
       "phoneCandidates": [
         {
           "number": "054-285-3255",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 연일읍 생지리 390-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3079,14 +3957,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-285-3251",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 연일읍 생지리 390-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "150",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:32",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3121,10 +4014,11 @@
         {
           "number": "054-281-9923",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 득량동 155 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3133,14 +4027,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "420",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:35",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3175,10 +4071,11 @@
         {
           "number": "054-284-2273",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 동해면 석리 18-11 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3187,14 +4084,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "250",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:39",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3229,10 +4129,11 @@
         {
           "number": "054-291-1231",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 오천읍 용산리 313-5 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3241,14 +4142,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "281",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:43",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3277,16 +4181,18 @@
       "jibunAddress": "경북 포항시 남구 상도동 674",
       "phone": "054-272-9399",
       "phones": [
-        "054-272-9399"
+        "054-272-9399",
+        "054-272-9398"
       ],
       "phoneCandidates": [
         {
           "number": "054-272-9399",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 상도동 674 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3295,14 +4201,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-272-9398",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 상도동 674 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "448",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:47",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3337,10 +4258,11 @@
         {
           "number": "054-262-3545",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 흥해읍 약성리 233-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3349,14 +4271,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "119",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:51",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3385,16 +4309,18 @@
       "jibunAddress": "경북 포항시 북구 용흥동 419",
       "phone": "054-247-9729",
       "phones": [
-        "054-247-9729"
+        "054-247-9729",
+        "054-252-9729"
       ],
       "phoneCandidates": [
         {
           "number": "054-247-9729",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 용흥동 419 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3403,14 +4329,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-252-9729",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 용흥동 419 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "208",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:54",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3439,16 +4380,18 @@
       "jibunAddress": "경북 포항시 남구 오천읍 문덕리 267-1",
       "phone": "054-293-2992",
       "phones": [
-        "054-293-2992"
+        "054-293-2992",
+        "054-291-2872"
       ],
       "phoneCandidates": [
         {
           "number": "054-293-2992",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 오천읍 문덕리 267-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3457,14 +4400,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-291-2872",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 오천읍 문덕리 267-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "257",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:45:58",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3493,16 +4451,18 @@
       "jibunAddress": "경북 포항시 남구 송도동 411",
       "phone": "054-252-9356",
       "phones": [
-        "054-252-9356"
+        "054-252-9356",
+        "054-254-6161"
       ],
       "phoneCandidates": [
         {
           "number": "054-252-9356",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 송도동 411 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3511,14 +4471,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-254-6161",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 송도동 411 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "104",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:46:02",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3607,10 +4582,11 @@
         {
           "number": "054-261-8385",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 흥해읍 마산리 264 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3619,14 +4595,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "210",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:46:06",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3655,16 +4633,18 @@
       "jibunAddress": "경북 포항시 남구 인덕동 161-24",
       "phone": "054-222-7520",
       "phones": [
-        "054-222-7520"
+        "054-222-7520",
+        "054-221-4808"
       ],
       "phoneCandidates": [
         {
           "number": "054-222-7520",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 인덕동 161-24 관리사무소, 경북 포항시 남구 인덕동 161-24 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3673,14 +4653,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "054-221-4808",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 인덕동 161-24 관리사무소, 경북 포항시 남구 인덕동 161-24 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "299",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:46:10",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3716,9 +4711,9 @@
           "number": "054-283-3344",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3727,14 +4722,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "160",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:46:14",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3763,16 +4759,18 @@
       "jibunAddress": "경북 포항시 남구 효자동 253-6",
       "phone": "054-221-9264",
       "phones": [
-        "054-221-9264"
+        "054-221-9264",
+        "054-221-9246"
       ],
       "phoneCandidates": [
         {
           "number": "054-221-9264",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 효자동 253-6 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3781,14 +4779,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-221-9246",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 효자동 253-6 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "179",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:46:18",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3817,16 +4830,18 @@
       "jibunAddress": "경북 포항시 남구 효자동 253-6",
       "phone": "054-221-4983",
       "phones": [
-        "054-221-4983"
+        "054-221-4983",
+        "054-221-4843"
       ],
       "phoneCandidates": [
         {
           "number": "054-221-4983",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 남구 효자동 253-6 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3835,14 +4850,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-221-4843",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 남구 효자동 253-6 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "611",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:46:22",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3871,16 +4901,18 @@
       "jibunAddress": "경북 포항시 북구 장성동 1369-1",
       "phone": "054-254-8883",
       "phones": [
-        "054-254-8883"
+        "054-254-8883",
+        "054-251-8884"
       ],
       "phoneCandidates": [
         {
           "number": "054-254-8883",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 장성동 1369-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3889,14 +4921,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "054-251-8884",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경북 포항시 북구 장성동 1369-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "244",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:46:25",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
@@ -3925,16 +4972,18 @@
       "jibunAddress": "경북 포항시 북구 우현동 540",
       "phone": "054-232-2203",
       "phones": [
-        "054-232-2203"
+        "054-232-2203",
+        "054-232-2204"
       ],
       "phoneCandidates": [
         {
           "number": "054-232-2203",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경북 포항시 북구 우현동 540 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3943,14 +4992,32 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "054-232-2204",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경북 포항시 북구 우현동 540 관리사무소",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "504",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-01 19:46:29",
       "detailUpdatedAt": 1781320508137,
       "listUpdatedAt": 1781320508137,
       "phoneStatus": "CONFIRMED",
