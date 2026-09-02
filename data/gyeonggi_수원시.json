@@ -1,6 +1,6 @@
 {
-  "version": 1787071961,
-  "updatedAt": "2026-08-18 16:52:41",
+  "version": 1788379722,
+  "updatedAt": "2026-09-02 20:08:42",
   "sido": "경기도",
   "sigungu": "수원시",
   "count": 707,
@@ -24,16 +24,17 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1214",
       "phone": "031-214-4402",
       "phones": [
-        "031-214-4402"
+        "031-214-4402",
+        "031-214-4405"
       ],
       "phoneCandidates": [
         {
           "number": "031-214-4402",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +43,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-214-4405",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 이의동 1214 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "259",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:04",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -78,16 +93,18 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1197",
       "phone": "031-214-3309",
       "phones": [
-        "031-214-3309"
+        "031-214-3309",
+        "031-214-3359"
       ],
       "phoneCandidates": [
         {
           "number": "031-214-3309",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1197 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -96,14 +113,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-214-3359",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1197 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "317",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:08",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -132,16 +164,21 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1326",
       "phone": "031-216-6456",
       "phones": [
-        "031-216-6456"
+        "031-216-6456",
+        "031-695-4200",
+        "031-210-1261",
+        "031-210-1269",
+        "031-210-1263"
       ],
       "phoneCandidates": [
         {
           "number": "031-216-6456",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 경기 수원시 영통구 이의동 1326 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -152,14 +189,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 1회"
+        },
+        {
+          "number": "031-695-4200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1326 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1261",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1326 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1269",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1326 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1263",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1326 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1970",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-02 20:05:12",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -194,10 +285,11 @@
         {
           "number": "031-205-8005",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 경기 수원시 영통구 망포동 726 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -208,14 +300,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 1회"
         }
       ],
       "households": "392",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-02 20:05:15",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -244,16 +338,17 @@
       "jibunAddress": "경기 수원시 영통구 망포동 707",
       "phone": "031-203-8001",
       "phones": [
-        "031-203-8001"
+        "031-203-8001",
+        "031-206-2242"
       ],
       "phoneCandidates": [
         {
           "number": "031-203-8001",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -262,14 +357,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-206-2242",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 망포동 707 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "270",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:19",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -298,16 +407,18 @@
       "jibunAddress": "경기 수원시 팔달구 매산로3가 32-1",
       "phone": "031-241-1705",
       "phones": [
-        "031-241-1705"
+        "031-241-1705",
+        "031-241-1706"
       ],
       "phoneCandidates": [
         {
           "number": "031-241-1705",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 팔달구 매산로3가 32-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -316,14 +427,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-241-1706",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 매산로3가 32-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "143",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:23",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -352,16 +478,18 @@
       "jibunAddress": "경기 수원시 권선구 당수동 388-19",
       "phone": "031-502-2514",
       "phones": [
-        "031-502-2514"
+        "031-502-2514",
+        "031-502-2515"
       ],
       "phoneCandidates": [
         {
           "number": "031-502-2514",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 당수동 388-19 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -370,14 +498,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-502-2515",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 당수동 388-19 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1500",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:26",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -406,16 +549,18 @@
       "jibunAddress": "경기 수원시 권선구 금곡동 861",
       "phone": "031-291-1306",
       "phones": [
-        "031-291-1306"
+        "031-291-1306",
+        "031-291-1307"
       ],
       "phoneCandidates": [
         {
           "number": "031-291-1306",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 금곡동 861 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -424,14 +569,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-291-1307",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 금곡동 861 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1150",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:30",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -526,16 +686,18 @@
       "jibunAddress": "경기 수원시 팔달구 매교동 25-4",
       "phone": "031-234-9431",
       "phones": [
-        "031-234-9431"
+        "031-234-9431",
+        "031-225-9646",
+        "016-5022-0220"
       ],
       "phoneCandidates": [
         {
           "number": "031-234-9431",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -544,14 +706,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-225-9646",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 매교동 25-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-5022-0220",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 매교동 25-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "129",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:33",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -587,9 +776,9 @@
           "number": "031-273-9850",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -598,14 +787,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "152",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:37",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -640,10 +830,11 @@
         {
           "number": "031-297-8994",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 고색동 887-56 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -652,14 +843,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "450",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:40",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -688,16 +881,18 @@
       "jibunAddress": "경기 수원시 권선구 고색동 287-4",
       "phone": "031-297-7225",
       "phones": [
-        "031-297-7225"
+        "031-297-7225",
+        "031-295-7225"
       ],
       "phoneCandidates": [
         {
           "number": "031-297-7225",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 고색동 287-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -706,14 +901,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-295-7225",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 287-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "323",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:44",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -742,16 +952,24 @@
       "jibunAddress": "경기 수원시 권선구 고색동 368-1",
       "phone": "031-297-5687",
       "phones": [
-        "031-297-5687"
+        "031-297-5687",
+        "017-2461-7201",
+        "017-5075-7020",
+        "031-297-0198",
+        "031-210-1263",
+        "031-210-1269",
+        "031-228-6705",
+        "031-228-6610"
       ],
       "phoneCandidates": [
         {
           "number": "031-297-5687",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 고색동 368-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -760,14 +978,107 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "017-2461-7201",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 368-1 관리사무소, 경기 수원시 권선구 고색동 368-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "017-5075-7020",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 368-1 관리사무소, 경기 수원시 권선구 고색동 368-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-297-0198",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 368-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1263",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 368-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1269",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 368-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6705",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 368-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6610",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 368-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "713",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:48",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -796,16 +1107,18 @@
       "jibunAddress": "경기 수원시 권선구 고색동 5-4",
       "phone": "031-298-6116",
       "phones": [
-        "031-298-6116"
+        "031-298-6116",
+        "031-227-7488"
       ],
       "phoneCandidates": [
         {
           "number": "031-298-6116",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 고색동 5-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -814,14 +1127,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-227-7488",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 5-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "199",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:51",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -857,9 +1185,9 @@
           "number": "031-297-9611",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -868,14 +1196,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "474",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:55",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -911,9 +1240,9 @@
           "number": "031-298-9266",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -922,14 +1251,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "488",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:05:59",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -958,16 +1288,23 @@
       "jibunAddress": "경기 수원시 권선구 고색동 886-83",
       "phone": "031-297-9481",
       "phones": [
-        "031-297-9481"
+        "031-297-9481",
+        "031-228-6705",
+        "016-1030-7201",
+        "031-228-6654",
+        "017-1509-5201",
+        "031-210-1265"
       ],
       "phoneCandidates": [
         {
           "number": "031-297-9481",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 고색동 886-83 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -976,14 +1313,82 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-228-6705",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 886-83 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-1030-7201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 886-83 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6654",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 886-83 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "017-1509-5201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 886-83 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1265",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 고색동 886-83 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "623",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:03",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1019,9 +1424,9 @@
           "number": "031-234-4371",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1030,14 +1435,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "391",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:06",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1066,16 +1472,26 @@
       "jibunAddress": "경기 수원시 권선구 곡반정동 578",
       "phone": "031-231-8823",
       "phones": [
-        "031-231-8823"
+        "031-231-8823",
+        "016-1304-7201",
+        "031-228-6654",
+        "017-8332-2017",
+        "031-231-8824",
+        "016-3599-3201",
+        "031-228-6651",
+        "031-228-6705",
+        "031-228-6726",
+        "031-210-1272"
       ],
       "phoneCandidates": [
         {
           "number": "031-231-8823",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 곡반정동 578 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1084,14 +1500,133 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "016-1304-7201",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 곡반정동 578 관리사무소, 경기 수원시 권선구 곡반정동 578 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-228-6654",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 곡반정동 578 관리사무소, 경기 수원시 권선구 곡반정동 578 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "017-8332-2017",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 곡반정동 578 관리사무소, 경기 수원시 권선구 곡반정동 578 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-231-8824",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 곡반정동 578 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-3599-3201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 곡반정동 578 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6651",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 곡반정동 578 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6705",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 곡반정동 578 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6726",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 곡반정동 578 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1272",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 곡반정동 578 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "484",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:09",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1127,9 +1662,9 @@
           "number": "031-212-7806",
           "score": 100,
           "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -1140,14 +1675,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회"
         }
       ],
       "households": "442",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-02 20:06:13",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1176,16 +1712,19 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1182",
       "phone": "031-214-9901",
       "phones": [
-        "031-214-9901"
+        "031-214-9901",
+        "031-214-9902",
+        "031-210-1262"
       ],
       "phoneCandidates": [
         {
           "number": "031-214-9901",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1182 관리사무소, 경기 수원시 영통구 이의동 1182 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1194,14 +1733,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-214-9902",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1182 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1262",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1182 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "145",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:17",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1230,16 +1798,17 @@
       "jibunAddress": "경기 수원시 영통구 하동 1027",
       "phone": "031-211-1937",
       "phones": [
-        "031-211-1937"
+        "031-211-1937",
+        "031-210-1276"
       ],
       "phoneCandidates": [
         {
           "number": "031-211-1937",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1248,14 +1817,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-210-1276",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 하동 1027 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "453",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:20",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1284,16 +1867,18 @@
       "jibunAddress": "경기 수원시 영통구 하동 1013",
       "phone": "031-212-5508",
       "phones": [
-        "031-212-5508"
+        "031-212-5508",
+        "031-212-5509"
       ],
       "phoneCandidates": [
         {
           "number": "031-212-5508",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 하동 1013 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1302,14 +1887,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-212-5509",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 하동 1013 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "637",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:24",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1338,16 +1938,18 @@
       "jibunAddress": "경기 수원시 영통구 하동 1028",
       "phone": "031-213-2248",
       "phones": [
-        "031-213-2248"
+        "031-213-2248",
+        "031-213-2249"
       ],
       "phoneCandidates": [
         {
           "number": "031-213-2248",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 하동 1028 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1356,14 +1958,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-213-2249",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 하동 1028 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "258",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:28",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1392,16 +2009,18 @@
       "jibunAddress": "경기 수원시 영통구 하동 1032",
       "phone": "031-216-9744",
       "phones": [
-        "031-216-9744"
+        "031-216-9744",
+        "031-216-9745"
       ],
       "phoneCandidates": [
         {
           "number": "031-216-9744",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 하동 1032 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1410,14 +2029,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-216-9745",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 하동 1032 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "394",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:31",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1446,16 +2080,21 @@
       "jibunAddress": "경기 수원시 장안구 조원동 910",
       "phone": "031-253-0580",
       "phones": [
-        "031-253-0580"
+        "031-253-0580",
+        "031-228-5612",
+        "031-228-5725",
+        "031-253-9580",
+        "016-5032-2920"
       ],
       "phoneCandidates": [
         {
           "number": "031-253-0580",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 장안구 조원동 910 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1464,14 +2103,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-228-5612",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 910 관리사무소, 경기 수원시 장안구 조원동 910 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-228-5725",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 910 관리사무소, 경기 수원시 장안구 조원동 910 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-253-9580",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 910 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-5032-2920",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 910 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "218",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:35",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1500,16 +2193,25 @@
       "jibunAddress": "경기 수원시 장안구 조원동 912",
       "phone": "031-258-4820",
       "phones": [
-        "031-258-4820"
+        "031-258-4820",
+        "014-5039-4201",
+        "015-4045-5201",
+        "031-258-4822",
+        "031-228-5707",
+        "031-228-5626",
+        "031-228-5610",
+        "031-228-5612",
+        "031-228-5733"
       ],
       "phoneCandidates": [
         {
           "number": "031-258-4820",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 장안구 조원동 912 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1518,14 +2220,120 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "014-5039-4201",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 912 관리사무소, 경기 수원시 장안구 조원동 912 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "015-4045-5201",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 912 관리사무소, 경기 수원시 장안구 조원동 912 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-258-4822",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 912 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-5707",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 912 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-5626",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 912 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-5610",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 912 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-5612",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 912 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-5733",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 장안구 조원동 912 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "482",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:39",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1554,16 +2362,18 @@
       "jibunAddress": "경기 수원시 영통구 하동 992",
       "phone": "031-215-2970",
       "phones": [
-        "031-215-2970"
+        "031-215-2970",
+        "031-215-2971"
       ],
       "phoneCandidates": [
         {
           "number": "031-215-2970",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 하동 992 관리사무소, 경기 수원시 영통구 하동 992 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1572,14 +2382,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-215-2971",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 하동 992 관리사무소, 경기 수원시 영통구 하동 992 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "533",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:42",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1608,16 +2433,18 @@
       "jibunAddress": "경기 수원시 영통구 원천동 604",
       "phone": "031-214-5982",
       "phones": [
-        "031-214-5982"
+        "031-214-5982",
+        "031-217-1664"
       ],
       "phoneCandidates": [
         {
           "number": "031-214-5982",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 원천동 604 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1626,14 +2453,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-217-1664",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 원천동 604 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "686",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:46",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1662,16 +2504,18 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1334",
       "phone": "031-217-6055",
       "phones": [
-        "031-217-6055"
+        "031-217-6055",
+        "031-217-6054"
       ],
       "phoneCandidates": [
         {
           "number": "031-217-6055",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1334 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1680,14 +2524,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-217-6054",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1334 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "701",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:50",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1716,16 +2575,19 @@
       "jibunAddress": "경기 수원시 영통구 원천동 593",
       "phone": "031-216-9431",
       "phones": [
-        "031-216-9431"
+        "031-216-9431",
+        "031-216-9166",
+        "031-216-9433"
       ],
       "phoneCandidates": [
         {
           "number": "031-216-9431",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 경기 수원시 영통구 원천동 593 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -1736,14 +2598,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 1회"
+        },
+        {
+          "number": "031-216-9166",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 원천동 593 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-216-9433",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 원천동 593 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "958",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-02 20:06:54",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1772,16 +2662,18 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1367",
       "phone": "031-213-5525",
       "phones": [
-        "031-213-5525"
+        "031-213-5525",
+        "031-213-5526"
       ],
       "phoneCandidates": [
         {
           "number": "031-213-5525",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1367 관리사무소, 경기 수원시 영통구 이의동 1367 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1790,14 +2682,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-213-5526",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1367 관리사무소, 경기 수원시 영통구 이의동 1367 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "273",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:06:57",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1826,16 +2733,19 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1353",
       "phone": "031-213-3505",
       "phones": [
-        "031-213-3505"
+        "031-213-3505",
+        "031-213-3506",
+        "031-210-1268"
       ],
       "phoneCandidates": [
         {
           "number": "031-213-3505",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1353 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1844,14 +2754,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-213-3506",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1353 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1268",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1353 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "522",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:01",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1887,9 +2825,9 @@
           "number": "031-212-5104",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1898,14 +2836,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "224",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:05",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1934,16 +2873,18 @@
       "jibunAddress": "경기 수원시 영통구 원천동 590",
       "phone": "031-214-7972",
       "phones": [
-        "031-214-7972"
+        "031-214-7972",
+        "031-214-7973"
       ],
       "phoneCandidates": [
         {
           "number": "031-214-7972",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 원천동 590 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1952,14 +2893,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-214-7973",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 원천동 590 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "240",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:08",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -1988,16 +2944,18 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1252",
       "phone": "031-216-7510",
       "phones": [
-        "031-216-7510"
+        "031-216-7510",
+        "031-216-7511"
       ],
       "phoneCandidates": [
         {
           "number": "031-216-7510",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1252 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2006,14 +2964,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-216-7511",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1252 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "356",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:12",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2042,16 +3016,19 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1303",
       "phone": "031-216-8481",
       "phones": [
-        "031-216-8481"
+        "031-216-8481",
+        "031-216-8483",
+        "031-210-1269"
       ],
       "phoneCandidates": [
         {
           "number": "031-216-8481",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1303 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2060,14 +3037,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-216-8483",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1303 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1269",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1303 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "668",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:15",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2103,9 +3108,9 @@
           "number": "031-216-2021",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2114,14 +3119,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "300",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:19",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2150,16 +3156,18 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1339",
       "phone": "031-213-2775",
       "phones": [
-        "031-213-2775"
+        "031-213-2775",
+        "031-213-2776"
       ],
       "phoneCandidates": [
         {
           "number": "031-213-2775",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1339 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2168,14 +3176,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-213-2776",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1339 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "378",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:23",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2211,9 +3234,9 @@
           "number": "031-213-1755",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2222,14 +3245,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1764",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:26",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2265,9 +3289,9 @@
           "number": "031-211-1137",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2276,14 +3300,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "2231",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:30",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2318,10 +3343,11 @@
         {
           "number": "031-216-8501",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1177 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2330,14 +3356,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "268",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:34",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2366,16 +3394,20 @@
       "jibunAddress": "경기 수원시 영통구 하동 1001",
       "phone": "031-215-7033",
       "phones": [
-        "031-215-7033"
+        "031-215-7033",
+        "031-215-7035",
+        "031-210-1269"
       ],
       "phoneCandidates": [
         {
           "number": "031-215-7033",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 하동 1001 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2384,14 +3416,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-215-7035",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 하동 1001 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1269",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 하동 1001 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1702",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:38",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2420,16 +3481,20 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1331",
       "phone": "031-217-1733",
       "phones": [
-        "031-217-1733"
+        "031-217-1733",
+        "031-212-6611",
+        "031-217-1734",
+        "031-8050-2500"
       ],
       "phoneCandidates": [
         {
           "number": "031-217-1733",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1331 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2438,14 +3503,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-212-6611",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 이의동 1331 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-217-1734",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1331 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8050-2500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1331 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "350",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:41",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2474,16 +3580,18 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1211",
       "phone": "031-212-1422",
       "phones": [
-        "031-212-1422"
+        "031-212-1422",
+        "031-212-1423"
       ],
       "phoneCandidates": [
         {
           "number": "031-212-1422",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1211 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2492,14 +3600,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-212-1423",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1211 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "214",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:45",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2528,16 +3651,18 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1226",
       "phone": "031-216-8754",
       "phones": [
-        "031-216-8754"
+        "031-216-8754",
+        "031-216-8755"
       ],
       "phoneCandidates": [
         {
           "number": "031-216-8754",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 이의동 1226 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2546,14 +3671,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-216-8755",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1226 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "466",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:07:49",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2582,16 +3723,19 @@
       "jibunAddress": "경기 수원시 영통구 원천동 606",
       "phone": "031-214-6112",
       "phones": [
-        "031-214-6112"
+        "031-214-6112",
+        "031-214-6113"
       ],
       "phoneCandidates": [
         {
           "number": "031-214-6112",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 2026-09-02 20:07:52",
+          "keyword": "kaptTel, existing, verify_existing, 경기 수원시 영통구 원천동 606 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 2,
+            "2026-09-02 20:07:52": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -2602,14 +3746,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 웹검색": 2,
+            "2026-09-02 20:07:52": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 2회 · 2026-09-02 20:07:52 1회"
+        },
+        {
+          "number": "031-214-6113",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 원천동 606 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1330",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-02 20:07:52",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2694,16 +3854,18 @@
       "jibunAddress": "경기 수원시 영통구 이의동 1229",
       "phone": "031-217-3008",
       "phones": [
-        "031-217-3008"
+        "031-217-3008",
+        "031-217-3009"
       ],
       "phoneCandidates": [
         {
           "number": "031-217-3008",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 경기 수원시 영통구 이의동 1229 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -2714,14 +3876,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 1회"
+        },
+        {
+          "number": "031-217-3009",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 이의동 1229 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "446",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-02 20:07:58",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2756,10 +3933,11 @@
         {
           "number": "031-216-7338",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 하동 994 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2768,14 +3946,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "1188",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:01",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2804,16 +3984,18 @@
       "jibunAddress": "경기 수원시 영통구 하동 956",
       "phone": "031-217-8325",
       "phones": [
-        "031-217-8325"
+        "031-217-8325",
+        "031-217-8327"
       ],
       "phoneCandidates": [
         {
           "number": "031-217-8325",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 하동 956 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2822,14 +4004,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-217-8327",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 영통구 하동 956 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2289",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:05",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2858,16 +4055,18 @@
       "jibunAddress": "경기 수원시 영통구 하동 1034",
       "phone": "031-211-4984",
       "phones": [
-        "031-211-4984"
+        "031-211-4984",
+        "031-211-8993"
       ],
       "phoneCandidates": [
         {
           "number": "031-211-4984",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 영통구 하동 1034 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2876,14 +4075,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-211-8993",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 수원시 영통구 하동 1034 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "375",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:09",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2912,16 +4126,17 @@
       "jibunAddress": "경기 수원시 팔달구 교동 185-7",
       "phone": "031-224-6033",
       "phones": [
-        "031-224-6033"
+        "031-224-6033",
+        "031-228-7604"
       ],
       "phoneCandidates": [
         {
           "number": "031-224-6033",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2930,14 +4145,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-228-7604",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 팔달구 교동 185-7 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "156",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:13",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -2966,16 +4195,21 @@
       "jibunAddress": "경기 수원시 권선구 구운동 463",
       "phone": "031-294-0744",
       "phones": [
-        "031-294-0744"
+        "031-294-0744",
+        "017-1304-4201",
+        "031-228-6877",
+        "031-228-6705",
+        "031-228-6654"
       ],
       "phoneCandidates": [
         {
           "number": "031-294-0744",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 구운동 463 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2984,14 +4218,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "017-1304-4201",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 463 관리사무소, 경기 수원시 권선구 구운동 463 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-228-6877",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 463 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6705",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 463 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6654",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 463 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "552",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:16",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -3020,16 +4308,17 @@
       "jibunAddress": "경기 수원시 권선구 구운동 462",
       "phone": "031-296-0863",
       "phones": [
-        "031-296-0863"
+        "031-296-0863",
+        "031-228-6877"
       ],
       "phoneCandidates": [
         {
           "number": "031-296-0863",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3038,14 +4327,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-228-6877",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 462 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1680",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:20",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -3074,16 +4377,25 @@
       "jibunAddress": "경기 수원시 권선구 구운동 466",
       "phone": "031-293-5886",
       "phones": [
-        "031-293-5886"
+        "031-293-5886",
+        "031-228-6652",
+        "031-228-6705",
+        "031-8002-5886",
+        "031-210-1273",
+        "016-1709-4201",
+        "031-210-1272",
+        "031-228-6877"
       ],
       "phoneCandidates": [
         {
           "number": "031-293-5886",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 구운동 466 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3092,14 +4404,108 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-228-6652",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 466 관리사무소, 경기 수원시 권선구 구운동 466 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-228-6705",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 466 관리사무소, 경기 수원시 권선구 구운동 466 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-8002-5886",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 466 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1273",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 466 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-1709-4201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 466 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-210-1272",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 466 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6877",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 466 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "260",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:23",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -3128,16 +4534,21 @@
       "jibunAddress": "경기 수원시 권선구 구운동 893",
       "phone": "031-298-7007",
       "phones": [
-        "031-298-7007"
+        "031-298-7007",
+        "013-5523-1201",
+        "031-298-7030",
+        "031-228-6654",
+        "031-228-6705"
       ],
       "phoneCandidates": [
         {
           "number": "031-298-7007",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 구운동 893 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3146,14 +4557,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "013-5523-1201",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 893 관리사무소, 경기 수원시 권선구 구운동 893 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-298-7030",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 893 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6654",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 893 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-228-6705",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 893 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "458",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:27",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -3182,16 +4647,18 @@
       "jibunAddress": "경기 수원시 권선구 구운동 971",
       "phone": "031-293-2645",
       "phones": [
-        "031-293-2645"
+        "031-293-2645",
+        "031-293-2647"
       ],
       "phoneCandidates": [
         {
           "number": "031-293-2645",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 구운동 971 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3200,14 +4667,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-293-2647",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 수원시 권선구 구운동 971 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "129",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:31",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -3243,9 +4725,9 @@
           "number": "031-271-1888",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3254,14 +4736,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "130",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:34",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",
@@ -3296,10 +4779,11 @@
         {
           "number": "031-238-5384",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 수원시 권선구 권선동 1303 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3308,14 +4792,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "468",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-02 20:08:38",
       "detailUpdatedAt": 1781010949577,
       "listUpdatedAt": 1781010949577,
       "phoneStatus": "CONFIRMED",

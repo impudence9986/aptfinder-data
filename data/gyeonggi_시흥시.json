@@ -1,6 +1,6 @@
 {
-  "version": 1787072126,
-  "updatedAt": "2026-08-18 16:55:26",
+  "version": 1788379725,
+  "updatedAt": "2026-09-02 20:08:45",
   "sido": "경기도",
   "sigungu": "시흥시",
   "count": 414,
@@ -24,16 +24,18 @@
       "jibunAddress": "경기 시흥시 군자동 821",
       "phone": "031-435-9793",
       "phones": [
-        "031-435-9793"
+        "031-435-9793",
+        "031-435-9794"
       ],
       "phoneCandidates": [
         {
           "number": "031-435-9793",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 경기 시흥시 군자동 821 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -44,14 +46,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 1회"
+        },
+        {
+          "number": "031-435-9794",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 군자동 821 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "431",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-02 20:08:42",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
