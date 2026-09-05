@@ -1,6 +1,6 @@
 {
-  "version": 1788550869,
-  "updatedAt": "2026-09-04 19:41:09",
+  "version": 1788634204,
+  "updatedAt": "2026-09-05 18:50:04",
   "sido": "경기도",
   "sigungu": "연천군",
   "count": 30,
@@ -803,16 +803,18 @@
       "jibunAddress": "경기 연천군 전곡읍 전곡리 263-11",
       "phone": "031-832-7424",
       "phones": [
-        "031-832-7424"
+        "031-832-7424",
+        "031-833-7424"
       ],
       "phoneCandidates": [
         {
           "number": "031-832-7424",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 연천군 전곡읍 전곡리 263-11 관리사무소, 경기 연천군 전곡읍 전곡리 263-11 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -821,14 +823,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-833-7424",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 연천군 전곡읍 전곡리 263-11 관리사무소, 경기 연천군 전곡읍 전곡리 263-11 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "287",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:49:58",
       "detailUpdatedAt": 1781028978848,
       "listUpdatedAt": 1781028978848,
       "phoneStatus": "CONFIRMED",
@@ -857,16 +874,18 @@
       "jibunAddress": "경기 연천군 전곡읍 은대리 2502",
       "phone": "031-835-9490",
       "phones": [
-        "031-835-9490"
+        "031-835-9490",
+        "022-1007-3000",
+        "022-1007-1120"
       ],
       "phoneCandidates": [
         {
           "number": "031-835-9490",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -875,14 +894,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "022-1007-3000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 연천군 전곡읍 은대리 2502 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "022-1007-1120",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 연천군 전곡읍 은대리 2502 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "307",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:50:01",
       "detailUpdatedAt": 1781028978848,
       "listUpdatedAt": 1781028978848,
       "phoneStatus": "CONFIRMED",

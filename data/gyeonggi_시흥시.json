@@ -1,6 +1,6 @@
 {
-  "version": 1788549939,
-  "updatedAt": "2026-09-04 19:25:39",
+  "version": 1788633752,
+  "updatedAt": "2026-09-05 18:42:32",
   "sido": "경기도",
   "sigungu": "시흥시",
   "count": 414,
@@ -10502,16 +10502,20 @@
       "jibunAddress": "경기 시흥시 매화동 361",
       "phone": "031-315-6221",
       "phones": [
-        "031-315-6221"
+        "031-315-6221",
+        "031-317-6221",
+        "031-318-1311",
+        "031-318-0097"
       ],
       "phoneCandidates": [
         {
           "number": "031-315-6221",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 매화동 361 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10520,14 +10524,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-317-6221",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 매화동 361 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-318-1311",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 매화동 361 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-318-0097",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 매화동 361 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "159",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:06",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -10563,9 +10608,9 @@
           "number": "031-431-1971",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10574,14 +10619,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "930",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:09",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -10617,9 +10663,9 @@
           "number": "031-318-0528",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10628,14 +10674,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "556",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:13",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -10664,16 +10711,18 @@
       "jibunAddress": "경기 시흥시 능곡동 502",
       "phone": "031-404-8397",
       "phones": [
-        "031-404-8397"
+        "031-404-8397",
+        "031-404-8398"
       ],
       "phoneCandidates": [
         {
           "number": "031-404-8397",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 능곡동 502 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10682,14 +10731,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-404-8398",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 능곡동 502 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "323",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:16",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -10724,10 +10788,11 @@
         {
           "number": "031-317-0913",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 능곡동 557 관리사무소, 경기 시흥시 능곡동 557 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10736,14 +10801,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "506",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:20",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -10772,16 +10839,19 @@
       "jibunAddress": "경기 시흥시 능곡동 768",
       "phone": "031-317-1558",
       "phones": [
-        "031-317-1558"
+        "031-317-1558",
+        "031-404-6032",
+        "031-317-1559"
       ],
       "phoneCandidates": [
         {
           "number": "031-317-1558",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 능곡동 768 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10790,14 +10860,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-404-6032",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 시흥시 능곡동 768 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-317-1559",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 능곡동 768 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "438",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:23",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -10826,16 +10924,18 @@
       "jibunAddress": "경기 시흥시 능곡동 772",
       "phone": "031-317-0810",
       "phones": [
-        "031-317-0810"
+        "031-317-0810",
+        "031-317-0834"
       ],
       "phoneCandidates": [
         {
           "number": "031-317-0810",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 능곡동 772 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10844,14 +10944,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-317-0834",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 시흥시 능곡동 772 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "539",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:27",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -10880,16 +10997,18 @@
       "jibunAddress": "경기 시흥시 능곡동 787",
       "phone": "031-317-2185",
       "phones": [
-        "031-317-2185"
+        "031-317-2185",
+        "031-317-2186"
       ],
       "phoneCandidates": [
         {
           "number": "031-317-2185",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 능곡동 787 관리사무소, 경기 시흥시 능곡동 787 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10898,14 +11017,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-317-2186",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 시흥시 능곡동 787 관리사무소, 경기 시흥시 능곡동 787 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "591",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:30",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -10941,9 +11075,9 @@
           "number": "031-404-8586",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10952,14 +11086,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "928",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:33",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -10988,16 +11123,18 @@
       "jibunAddress": "경기 시흥시 능곡동 493",
       "phone": "031-311-0459",
       "phones": [
-        "031-311-0459"
+        "031-311-0459",
+        "031-317-1175",
+        "031-317-1176"
       ],
       "phoneCandidates": [
         {
           "number": "031-311-0459",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11006,14 +11143,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-317-1175",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 능곡동 493 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-317-1176",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 능곡동 493 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "236",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:37",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11049,9 +11213,9 @@
           "number": "031-313-2224",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11060,14 +11224,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "891",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:40",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11096,16 +11261,18 @@
       "jibunAddress": "경기 시흥시 능곡동 548",
       "phone": "031-435-4100",
       "phones": [
-        "031-435-4100"
+        "031-435-4100",
+        "031-435-4104"
       ],
       "phoneCandidates": [
         {
           "number": "031-435-4100",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 능곡동 548 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11114,14 +11281,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-435-4104",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 능곡동 548 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "203",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:44",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11157,9 +11339,9 @@
           "number": "031-313-8681",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11168,14 +11350,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1382",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:47",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11204,16 +11387,18 @@
       "jibunAddress": "경기 시흥시 하중동 878-4",
       "phone": "031-317-0105",
       "phones": [
-        "031-317-0105"
+        "031-317-0105",
+        "031-318-7693"
       ],
       "phoneCandidates": [
         {
           "number": "031-317-0105",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 하중동 878-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11222,14 +11407,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-318-7693",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 하중동 878-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "154",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:50",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11264,10 +11464,11 @@
         {
           "number": "031-487-6781",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 조남동 700 관리사무소, 경기 시흥시 조남동 700 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11276,14 +11477,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "1204",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:54",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11312,16 +11515,18 @@
       "jibunAddress": "경기 시흥시 조남동 662",
       "phone": "031-487-9093",
       "phones": [
-        "031-487-9093"
+        "031-487-9093",
+        "031-487-9095"
       ],
       "phoneCandidates": [
         {
           "number": "031-487-9093",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 조남동 662 관리사무소, 경기 시흥시 조남동 662 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 3
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11330,14 +11535,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 3회"
+        },
+        {
+          "number": "031-487-9095",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 시흥시 조남동 662 관리사무소, 경기 시흥시 조남동 662 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "756",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:39:57",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11373,9 +11594,9 @@
           "number": "031-413-5541",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11384,14 +11605,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "413",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:00",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11420,16 +11642,18 @@
       "jibunAddress": "경기 시흥시 조남동 676",
       "phone": "031-413-9177",
       "phones": [
-        "031-413-9177"
+        "031-413-9177",
+        "031-413-9179"
       ],
       "phoneCandidates": [
         {
           "number": "031-413-9177",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 조남동 676 관리사무소, 경기 시흥시 조남동 676 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 3
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11438,14 +11662,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 3회"
+        },
+        {
+          "number": "031-413-9179",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 시흥시 조남동 676 관리사무소, 경기 시흥시 조남동 676 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "576",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:04",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11474,16 +11714,18 @@
       "jibunAddress": "경기 시흥시 조남동 706",
       "phone": "031-481-9767",
       "phones": [
-        "031-481-9767"
+        "031-481-9767",
+        "031-481-9769"
       ],
       "phoneCandidates": [
         {
           "number": "031-481-9767",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 조남동 706 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11492,14 +11734,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-481-9769",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 조남동 706 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "625",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:07",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11528,16 +11785,18 @@
       "jibunAddress": "경기 시흥시 배곧동 135",
       "phone": "031-319-8309",
       "phones": [
-        "031-319-8309"
+        "031-319-8309",
+        "031-319-8304"
       ],
       "phoneCandidates": [
         {
           "number": "031-319-8309",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 배곧동 135 관리사무소, 경기 시흥시 배곧동 135 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11546,14 +11805,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-319-8304",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 시흥시 배곧동 135 관리사무소, 경기 시흥시 배곧동 135 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1443",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:11",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11589,9 +11863,9 @@
           "number": "031-433-0866",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11600,14 +11874,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "689",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:14",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11636,16 +11911,18 @@
       "jibunAddress": "경기 시흥시 배곧동 55",
       "phone": "031-365-5442",
       "phones": [
-        "031-365-5442"
+        "031-365-5442",
+        "031-365-5443"
       ],
       "phoneCandidates": [
         {
           "number": "031-365-5442",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 경기 시흥시 배곧동 55 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -11656,14 +11933,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 1회"
+        },
+        {
+          "number": "031-365-5443",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 배곧동 55 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1089",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-05 18:40:18",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11692,16 +11984,17 @@
       "jibunAddress": "경기 시흥시 배곧동 279",
       "phone": "031-431-9501",
       "phones": [
-        "031-431-9501"
+        "031-431-9501",
+        "031-499-5153"
       ],
       "phoneCandidates": [
         {
           "number": "031-431-9501",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11710,14 +12003,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-499-5153",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 시흥시 배곧동 279 관리사무소, 경기 시흥시 배곧동 279 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "900",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:22",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11753,9 +12060,9 @@
           "number": "031-433-8811",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11764,14 +12071,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1358",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:25",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11800,16 +12108,18 @@
       "jibunAddress": "경기 시흥시 매화동 260-1",
       "phone": "031-315-9337",
       "phones": [
-        "031-315-9337"
+        "031-315-9337",
+        "031-315-9335"
       ],
       "phoneCandidates": [
         {
           "number": "031-315-9337",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 매화동 260-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11818,14 +12128,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-315-9335",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경기 시흥시 매화동 260-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "141",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:29",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11861,9 +12188,9 @@
           "number": "031-404-4510",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11872,14 +12199,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "419",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:32",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11908,16 +12236,18 @@
       "jibunAddress": "경기 시흥시 대야동 693",
       "phone": "031-404-9948",
       "phones": [
-        "031-404-9948"
+        "031-404-9948",
+        "031-404-9950"
       ],
       "phoneCandidates": [
         {
           "number": "031-404-9948",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 대야동 693 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11926,14 +12256,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-404-9950",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 대야동 693 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2003",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:36",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -11962,16 +12307,20 @@
       "jibunAddress": "경기 시흥시 조남동 171-20",
       "phone": "031-405-2136",
       "phones": [
-        "031-405-2136"
+        "031-405-2136",
+        "031-481-9767",
+        "031-481-9769",
+        "031-405-2134"
       ],
       "phoneCandidates": [
         {
           "number": "031-405-2136",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 조남동 171-20 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11980,14 +12329,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-481-9767",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 조남동 171-20 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-481-9769",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 조남동 171-20 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-405-2134",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 조남동 171-20 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "152",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:39",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12022,10 +12412,11 @@
         {
           "number": "031-314-8536",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 경기 시흥시 광석동 542 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -12036,14 +12427,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 1회"
         }
       ],
       "households": "447",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-05 18:40:43",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12079,9 +12472,9 @@
           "number": "031-311-2300",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12090,14 +12483,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "614",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:46",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12133,9 +12527,9 @@
           "number": "031-311-7277",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12144,14 +12538,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "169",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:50",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12279,16 +12674,18 @@
       "jibunAddress": "경기 시흥시 대야동 658",
       "phone": "031-311-3593",
       "phones": [
-        "031-311-3593"
+        "031-311-3593",
+        "031-314-3593"
       ],
       "phoneCandidates": [
         {
           "number": "031-311-3593",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 대야동 658 관리사무소, 경기 시흥시 대야동 658 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12297,14 +12694,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-314-3593",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 시흥시 대야동 658 관리사무소, 경기 시흥시 대야동 658 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "820",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:40:53",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12340,9 +12752,9 @@
           "number": "031-312-8114",
           "score": 100,
           "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -12353,14 +12765,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회"
         }
       ],
       "households": "1445",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-05 18:40:56",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12389,16 +12802,18 @@
       "jibunAddress": "경기 시흥시 대야동 679",
       "phone": "031-318-9331",
       "phones": [
-        "031-318-9331"
+        "031-318-9331",
+        "031-318-9332"
       ],
       "phoneCandidates": [
         {
           "number": "031-318-9331",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 대야동 679 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12407,14 +12822,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-318-9332",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 대야동 679 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "448",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:00",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12443,16 +12873,18 @@
       "jibunAddress": "경기 시흥시 은행동 621",
       "phone": "031-312-8440",
       "phones": [
-        "031-312-8440"
+        "031-312-8440",
+        "031-312-8443"
       ],
       "phoneCandidates": [
         {
           "number": "031-312-8440",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 경기 시흥시 은행동 621 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -12463,14 +12895,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 1회"
+        },
+        {
+          "number": "031-312-8443",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 은행동 621 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "731",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-05 18:41:04",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12506,9 +12953,9 @@
           "number": "031-314-9223",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12517,14 +12964,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1090",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:07",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12553,16 +13001,18 @@
       "jibunAddress": "경기 시흥시 은행동 644",
       "phone": "031-364-8331",
       "phones": [
-        "031-364-8331"
+        "031-364-8331",
+        "031-364-8332"
       ],
       "phoneCandidates": [
         {
           "number": "031-364-8331",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 은행동 644 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12571,14 +13021,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-364-8332",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 은행동 644 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "816",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:11",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12607,16 +13072,20 @@
       "jibunAddress": "경기 시흥시 대야동 639",
       "phone": "031-318-8338",
       "phones": [
-        "031-318-8338"
+        "031-318-8338",
+        "031-318-8336",
+        "031-318-2624",
+        "031-504-2624"
       ],
       "phoneCandidates": [
         {
           "number": "031-318-8338",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 대야동 639 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12625,14 +13094,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-318-8336",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 대야동 639 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-318-2624",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 대야동 639 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-504-2624",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 대야동 639 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "229",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:15",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12667,10 +13177,11 @@
         {
           "number": "031-404-9681",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 장곡동 355-12 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12679,14 +13190,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "1292",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:18",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12722,9 +13235,9 @@
           "number": "031-311-1833",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12733,14 +13246,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "528",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:21",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12769,16 +13283,18 @@
       "jibunAddress": "경기 시흥시 장현동 568",
       "phone": "031-315-6623",
       "phones": [
-        "031-315-6623"
+        "031-315-6623",
+        "031-315-6625"
       ],
       "phoneCandidates": [
         {
           "number": "031-315-6623",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 경기 시흥시 장현동 568 관리사무소, 경기 시흥시 장현동 568 관리실",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -12789,14 +13305,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 2회"
+        },
+        {
+          "number": "031-315-6625",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 시흥시 장현동 568 관리사무소, 경기 시흥시 장현동 568 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1058",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-05 18:41:25",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12832,9 +13363,9 @@
           "number": "031-404-9207",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12843,14 +13374,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "996",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:28",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12886,9 +13418,9 @@
           "number": "031-404-9391",
           "score": 100,
           "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -12899,14 +13431,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회"
         }
       ],
       "households": "590",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-05 18:41:32",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12942,9 +13475,9 @@
           "number": "031-404-8523",
           "score": 100,
           "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -12955,14 +13488,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회"
         }
       ],
       "households": "526",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-05 18:41:35",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -12998,9 +13532,9 @@
           "number": "031-312-6669",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13009,14 +13543,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "651",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:38",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13045,16 +13580,18 @@
       "jibunAddress": "경기 시흥시 장곡동 946",
       "phone": "031-317-0380",
       "phones": [
-        "031-317-0380"
+        "031-317-0380",
+        "031-317-0390"
       ],
       "phoneCandidates": [
         {
           "number": "031-317-0380",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 장곡동 946 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13063,14 +13600,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-317-0390",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 장곡동 946 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "887",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:42",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13106,9 +13658,9 @@
           "number": "031-315-0923",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13117,14 +13669,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "546",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:45",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13153,16 +13706,18 @@
       "jibunAddress": "경기 시흥시 장곡동 924",
       "phone": "031-315-8111",
       "phones": [
-        "031-315-8111"
+        "031-315-8111",
+        "031-315-9111"
       ],
       "phoneCandidates": [
         {
           "number": "031-315-8111",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 장곡동 924 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13171,14 +13726,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-315-9111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 장곡동 924 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "747",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:48",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13214,9 +13784,9 @@
           "number": "031-435-9227",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13225,14 +13795,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "676",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:52",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13268,9 +13839,9 @@
           "number": "031-317-5557",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13279,14 +13850,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "489",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:55",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13315,16 +13887,18 @@
       "jibunAddress": "경기 시흥시 장현동 588",
       "phone": "031-311-7685",
       "phones": [
-        "031-311-7685"
+        "031-311-7685",
+        "031-311-7686"
       ],
       "phoneCandidates": [
         {
           "number": "031-311-7685",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 장현동 588 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13333,14 +13907,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-311-7686",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 장현동 588 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "413",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:41:59",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13369,16 +13958,20 @@
       "jibunAddress": "경기 시흥시 신천동 943-1",
       "phone": "031-435-0963",
       "phones": [
-        "031-435-0963"
+        "031-435-0963",
+        "031-435-0964",
+        "031-311-9145",
+        "031-311-9146"
       ],
       "phoneCandidates": [
         {
           "number": "031-435-0963",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 신천동 943-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13387,14 +13980,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-435-0964",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 신천동 943-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-311-9145",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 신천동 943-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-311-9146",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 신천동 943-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "369",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:42:02",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13423,16 +14057,18 @@
       "jibunAddress": "경기 시흥시 신천동 869-2",
       "phone": "031-312-9693",
       "phones": [
-        "031-312-9693"
+        "031-312-9693",
+        "031-312-9694"
       ],
       "phoneCandidates": [
         {
           "number": "031-312-9693",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 신천동 869-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13441,14 +14077,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-312-9694",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 신천동 869-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "216",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:42:06",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13477,16 +14128,18 @@
       "jibunAddress": "경기 시흥시 신천동 827-2",
       "phone": "031-314-5672",
       "phones": [
-        "031-314-5672"
+        "031-314-5672",
+        "031-315-5672"
       ],
       "phoneCandidates": [
         {
           "number": "031-314-5672",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 신천동 827-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13495,14 +14148,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-315-5672",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 신천동 827-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:42:09",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13531,16 +14199,18 @@
       "jibunAddress": "경기 시흥시 은행동 694",
       "phone": "031-314-8306",
       "phones": [
-        "031-314-8306"
+        "031-314-8306",
+        "031-317-8306"
       ],
       "phoneCandidates": [
         {
           "number": "031-314-8306",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 은행동 694 관리사무소, 경기 시흥시 은행동 694 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13549,14 +14219,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-317-8306",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 시흥시 은행동 694 관리사무소, 경기 시흥시 은행동 694 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1297",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:42:13",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13592,9 +14277,9 @@
           "number": "031-312-8307",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13603,14 +14288,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "186",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:42:16",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13646,9 +14332,9 @@
           "number": "031-493-2588",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13657,14 +14343,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "119",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:42:20",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13700,9 +14387,9 @@
           "number": "031-314-9557",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13711,14 +14398,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "671",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:42:23",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13747,16 +14435,23 @@
       "jibunAddress": "경기 시흥시 하상동 369",
       "phone": "031-317-4225",
       "phones": [
-        "031-317-4225"
+        "031-317-4225",
+        "031-317-1006",
+        "031-216-9712",
+        "031-310-4692",
+        "031-310-4632",
+        "031-310-4573",
+        "031-310-4722"
       ],
       "phoneCandidates": [
         {
           "number": "031-317-4225",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 하상동 369 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13765,14 +14460,96 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-317-1006",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "경기 시흥시 하상동 369 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-216-9712",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 하상동 369 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-310-4692",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 하상동 369 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-310-4632",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 하상동 369 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-310-4573",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 하상동 369 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-310-4722",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 하상동 369 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "822",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:42:26",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
@@ -13801,16 +14578,19 @@
       "jibunAddress": "경기 시흥시 장곡동 828",
       "phone": "031-317-3153",
       "phones": [
-        "031-317-3153"
+        "031-317-3153",
+        "031-317-7720",
+        "031-504-7720"
       ],
       "phoneCandidates": [
         {
           "number": "031-317-3153",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 시흥시 장곡동 828 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13819,14 +14599,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-317-7720",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 장곡동 828 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-504-7720",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 시흥시 장곡동 828 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "640",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-05 18:42:29",
       "detailUpdatedAt": 1781024570265,
       "listUpdatedAt": 1781024570265,
       "phoneStatus": "CONFIRMED",
