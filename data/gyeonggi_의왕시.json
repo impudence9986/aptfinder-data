@@ -1,6 +1,6 @@
 {
-  "version": 1788634823,
-  "updatedAt": "2026-09-05 19:00:23",
+  "version": 1788720921,
+  "updatedAt": "2026-09-06 18:55:21",
   "sido": "경기도",
   "sigungu": "의왕시",
   "count": 148,
@@ -4822,16 +4822,17 @@
       "jibunAddress": "경기 의왕시 내손동 846",
       "phone": "031-421-7172",
       "phones": [
-        "031-421-7172"
+        "031-421-7172",
+        "031-467-0470"
       ],
       "phoneCandidates": [
         {
           "number": "031-421-7172",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4840,14 +4841,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-467-0470",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 내손동 846 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2422",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:01",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -4883,9 +4898,9 @@
           "number": "031-452-5603",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4894,14 +4909,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "520",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:05",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -4930,16 +4946,20 @@
       "jibunAddress": "경기 의왕시 포일동 518",
       "phone": "031-423-0190",
       "phones": [
-        "031-423-0190"
+        "031-423-0190",
+        "02-808-7361",
+        "02-808-7360",
+        "031-345-3121"
       ],
       "phoneCandidates": [
         {
           "number": "031-423-0190",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 포일동 518 관리사무소, 경기 의왕시 포일동 518 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4948,14 +4968,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1,
+            "네이버 블로그검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "02-808-7361",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 518 관리사무소, 경기 의왕시 포일동 518 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-808-7360",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 518 관리사무소, 경기 의왕시 포일동 518 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-345-3121",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 518 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "541",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:09",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -4984,16 +5046,20 @@
       "jibunAddress": "경기 의왕시 포일동 441-2",
       "phone": "031-425-7132",
       "phones": [
-        "031-425-7132"
+        "031-425-7132",
+        "031-425-7133",
+        "031-421-4115",
+        "031-421-4116"
       ],
       "phoneCandidates": [
         {
           "number": "031-425-7132",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 포일동 441-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5002,14 +5068,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-425-7133",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 441-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-421-4115",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 441-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-421-4116",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 441-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "684",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:13",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5038,16 +5145,18 @@
       "jibunAddress": "경기 의왕시 내손동 844",
       "phone": "031-421-1894",
       "phones": [
-        "031-421-1894"
+        "031-421-1894",
+        "031-421-1898"
       ],
       "phoneCandidates": [
         {
           "number": "031-421-1894",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 내손동 844 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5056,14 +5165,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-421-1898",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 내손동 844 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2540",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:17",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5161,16 +5286,21 @@
       "jibunAddress": "경기 의왕시 포일동 645",
       "phone": "031-426-0770",
       "phones": [
-        "031-426-0770"
+        "031-426-0770",
+        "031-345-3121",
+        "031-345-3171",
+        "031-345-3271",
+        "031-426-1771"
       ],
       "phoneCandidates": [
         {
           "number": "031-426-0770",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 포일동 645 관리사무소, 경기 의왕시 포일동 645 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 3
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5179,14 +5309,70 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 3회"
+        },
+        {
+          "number": "031-345-3121",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 645 관리사무소, 경기 의왕시 포일동 645 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-345-3171",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 645 관리사무소, 경기 의왕시 포일동 645 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-345-3271",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 645 관리사무소, 경기 의왕시 포일동 645 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-426-1771",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 645 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "366",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:21",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5215,16 +5401,21 @@
       "jibunAddress": "경기 의왕시 포일동 646",
       "phone": "031-423-0041",
       "phones": [
-        "031-423-0041"
+        "031-423-0041",
+        "016-1053-2016",
+        "031-423-0043",
+        "031-345-3211",
+        "031-345-3271"
       ],
       "phoneCandidates": [
         {
           "number": "031-423-0041",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 포일동 646 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5233,14 +5424,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "016-1053-2016",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 646 관리사무소, 경기 의왕시 포일동 646 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-423-0043",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 646 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-345-3211",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 646 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-345-3271",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 646 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "510",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:24",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5269,16 +5514,18 @@
       "jibunAddress": "경기 의왕시 포일동 649",
       "phone": "031-426-8816",
       "phones": [
-        "031-426-8816"
+        "031-426-8816",
+        "031-426-8817"
       ],
       "phoneCandidates": [
         {
           "number": "031-426-8816",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 포일동 649 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5287,14 +5534,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-426-8817",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 649 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "330",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:28",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5323,16 +5585,18 @@
       "jibunAddress": "경기 의왕시 내손동 683",
       "phone": "031-8068-5051",
       "phones": [
-        "031-8068-5051"
+        "031-8068-5051",
+        "031-8068-5052"
       ],
       "phoneCandidates": [
         {
           "number": "031-8068-5051",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 내손동 683 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5341,14 +5605,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-8068-5052",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 내손동 683 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2633",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:32",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5434,16 +5713,19 @@
       "jibunAddress": "경기 의왕시 왕곡동 592",
       "phone": "031-455-0341",
       "phones": [
-        "031-455-0341"
+        "031-455-0341",
+        "031-455-2994",
+        "031-429-7507"
       ],
       "phoneCandidates": [
         {
           "number": "031-455-0341",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 왕곡동 592 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5452,14 +5734,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-455-2994",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 왕곡동 592 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-429-7507",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 왕곡동 592 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "504",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:36",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5488,16 +5798,18 @@
       "jibunAddress": "경기 의왕시 청계동 966",
       "phone": "031-422-7206",
       "phones": [
-        "031-422-7206"
+        "031-422-7206",
+        "031-422-7207"
       ],
       "phoneCandidates": [
         {
           "number": "031-422-7206",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 청계동 966 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5506,14 +5818,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-422-7207",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 청계동 966 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "339",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:39",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5549,9 +5876,9 @@
           "number": "031-424-7011",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5560,14 +5887,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "487",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:43",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5596,16 +5924,19 @@
       "jibunAddress": "경기 의왕시 왕곡동 602",
       "phone": "031-459-3610",
       "phones": [
-        "031-459-3610"
+        "031-459-3610",
+        "015-5027-2016",
+        "031-345-3243"
       ],
       "phoneCandidates": [
         {
           "number": "031-459-3610",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 왕곡동 602 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5614,14 +5945,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "015-5027-2016",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 의왕시 왕곡동 602 관리사무소, 경기 의왕시 왕곡동 602 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-345-3243",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 왕곡동 602 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "342",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:47",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5650,16 +6009,18 @@
       "jibunAddress": "경기 의왕시 포일동 658",
       "phone": "031-421-4115",
       "phones": [
-        "031-421-4115"
+        "031-421-4115",
+        "031-421-4116"
       ],
       "phoneCandidates": [
         {
           "number": "031-421-4115",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 포일동 658 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5668,14 +6029,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-421-4116",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 658 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "659",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:51",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5704,16 +6080,19 @@
       "jibunAddress": "경기 의왕시 포일동 533-1",
       "phone": "031-423-9245",
       "phones": [
-        "031-423-9245"
+        "031-423-9245",
+        "031-422-1806",
+        "031-422-1807"
       ],
       "phoneCandidates": [
         {
           "number": "031-423-9245",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 포일동 533-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5722,14 +6101,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-422-1806",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 533-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-422-1807",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 포일동 533-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "214",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:54",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5758,16 +6165,18 @@
       "jibunAddress": "경기 의왕시 오전동 27-1",
       "phone": "031-477-8035",
       "phones": [
-        "031-477-8035"
+        "031-477-8035",
+        "031-477-8034"
       ],
       "phoneCandidates": [
         {
           "number": "031-477-8035",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 오전동 27-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5776,14 +6185,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-477-8034",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 오전동 27-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "998",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:54:58",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5812,16 +6236,19 @@
       "jibunAddress": "경기 의왕시 삼동 130-1",
       "phone": "031-461-8489",
       "phones": [
-        "031-461-8489"
+        "031-461-8489",
+        "031-341-8488"
       ],
       "phoneCandidates": [
         {
           "number": "031-461-8489",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 삼동 130-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5830,14 +6257,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-341-8488",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 삼동 130-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "472",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:55:03",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5866,16 +6309,18 @@
       "jibunAddress": "경기 의왕시 청계동 982",
       "phone": "031-421-0939",
       "phones": [
-        "031-421-0939"
+        "031-421-0939",
+        "031-421-0940"
       ],
       "phoneCandidates": [
         {
           "number": "031-421-0939",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 청계동 982 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5884,14 +6329,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-421-0940",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 의왕시 청계동 982 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "266",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:55:06",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5920,16 +6382,18 @@
       "jibunAddress": "경기 의왕시 청계동 976",
       "phone": "031-422-7454",
       "phones": [
-        "031-422-7454"
+        "031-422-7454",
+        "031-422-7455"
       ],
       "phoneCandidates": [
         {
           "number": "031-422-7454",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 청계동 976 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5938,14 +6402,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-422-7455",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 청계동 976 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "273",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:55:10",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -5974,16 +6453,18 @@
       "jibunAddress": "경기 의왕시 청계동 972",
       "phone": "031-424-6094",
       "phones": [
-        "031-424-6094"
+        "031-424-6094",
+        "031-424-6095"
       ],
       "phoneCandidates": [
         {
           "number": "031-424-6094",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의왕시 청계동 972 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5992,14 +6473,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-424-6095",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의왕시 청계동 972 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "506",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:55:14",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",
@@ -6035,9 +6531,9 @@
           "number": "031-426-2340",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6046,14 +6542,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "349",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:55:18",
       "detailUpdatedAt": 1781046407300,
       "listUpdatedAt": 1781046407300,
       "phoneStatus": "CONFIRMED",

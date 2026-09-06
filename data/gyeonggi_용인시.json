@@ -1,6 +1,6 @@
 {
-  "version": 1788634617,
-  "updatedAt": "2026-09-05 18:56:57",
+  "version": 1788720841,
+  "updatedAt": "2026-09-06 18:54:01",
   "sido": "경기도",
   "sigungu": "용인시",
   "count": 807,
@@ -5173,16 +5173,18 @@
       "jibunAddress": "경기 용인시 기흥구 상갈동 480",
       "phone": "031-304-9090",
       "phones": [
-        "031-304-9090"
+        "031-304-9090",
+        "031-304-9091"
       ],
       "phoneCandidates": [
         {
           "number": "031-304-9090",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 상갈동 480 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5191,14 +5193,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-304-9091",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 상갈동 480 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "228",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:04",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5227,16 +5244,21 @@
       "jibunAddress": "경기 용인시 기흥구 구갈동 384-1",
       "phone": "031-283-1646",
       "phones": [
-        "031-283-1646"
+        "031-283-1646",
+        "031-283-1647",
+        "031-324-6602",
+        "031-324-6781",
+        "031-324-6671"
       ],
       "phoneCandidates": [
         {
           "number": "031-283-1646",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 구갈동 384-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5245,14 +5267,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-283-1647",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 구갈동 384-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6602",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 구갈동 384-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6781",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 구갈동 384-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6671",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 구갈동 384-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "200",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:07",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5281,16 +5357,18 @@
       "jibunAddress": "경기 용인시 기흥구 고매동 359",
       "phone": "031-286-5082",
       "phones": [
-        "031-286-5082"
+        "031-286-5082",
+        "031-283-5083"
       ],
       "phoneCandidates": [
         {
           "number": "031-286-5082",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 고매동 359 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5299,14 +5377,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-283-5083",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 고매동 359 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "216",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:11",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5342,9 +5435,9 @@
           "number": "031-285-5888",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5353,14 +5446,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "299",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:15",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5396,9 +5490,9 @@
           "number": "031-274-8912",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5407,14 +5501,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "612",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:19",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5443,16 +5538,25 @@
       "jibunAddress": "경기 용인시 기흥구 고매동 883",
       "phone": "031-285-5534",
       "phones": [
-        "031-285-5534"
+        "031-285-5534",
+        "017-5149-7420",
+        "031-285-5512",
+        "031-324-6671",
+        "031-324-6741",
+        "031-324-6781",
+        "031-324-6803",
+        "031-324-6681"
       ],
       "phoneCandidates": [
         {
           "number": "031-285-5534",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 고매동 883 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5461,14 +5565,108 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "017-5149-7420",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 고매동 883 관리사무소, 경기 용인시 기흥구 고매동 883 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-285-5512",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 고매동 883 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6671",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 고매동 883 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6741",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 고매동 883 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6781",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 고매동 883 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6803",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 고매동 883 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6681",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 고매동 883 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "171",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:23",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5497,16 +5695,17 @@
       "jibunAddress": "경기 용인시 기흥구 구갈동 657",
       "phone": "031-281-1136",
       "phones": [
-        "031-281-1136"
+        "031-281-1136",
+        "031-281-1138"
       ],
       "phoneCandidates": [
         {
           "number": "031-281-1136",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5515,14 +5714,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-281-1138",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 용인시 기흥구 구갈동 657 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "260",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:28",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5558,9 +5771,9 @@
           "number": "031-287-3805",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5569,14 +5782,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "625",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:31",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5605,16 +5819,18 @@
       "jibunAddress": "경기 용인시 기흥구 구갈동 661",
       "phone": "031-693-9155",
       "phones": [
-        "031-693-9155"
+        "031-693-9155",
+        "031-693-9156"
       ],
       "phoneCandidates": [
         {
           "number": "031-693-9155",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 구갈동 661 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5623,14 +5839,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-693-9156",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 구갈동 661 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1219",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:36",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5666,9 +5897,9 @@
           "number": "031-282-0987",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5677,14 +5908,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1316",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:39",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5720,9 +5952,9 @@
           "number": "031-281-3311",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5731,14 +5963,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "768",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:43",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5767,16 +6000,17 @@
       "jibunAddress": "경기 용인시 기흥구 구갈동 658",
       "phone": "031-281-7151",
       "phones": [
-        "031-281-7151"
+        "031-281-7151",
+        "031-283-5111"
       ],
       "phoneCandidates": [
         {
           "number": "031-281-7151",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5785,14 +6019,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-283-5111",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 구갈동 658 관리사무소, 경기 용인시 기흥구 구갈동 658 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "561",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:47",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5821,16 +6069,23 @@
       "jibunAddress": "경기 용인시 기흥구 신갈동 697",
       "phone": "031-305-5562",
       "phones": [
-        "031-305-5562"
+        "031-305-5562",
+        "031-324-6701",
+        "026-956-6338",
+        "026-956-6339",
+        "031-305-5563",
+        "031-324-6602",
+        "016-5053-6220"
       ],
       "phoneCandidates": [
         {
           "number": "031-305-5562",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 신갈동 697 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5839,14 +6094,94 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-324-6701",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 신갈동 697 관리사무소, 경기 용인시 기흥구 신갈동 697 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "026-956-6338",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 신갈동 697 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-956-6339",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 신갈동 697 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-305-5563",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 신갈동 697 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6602",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 신갈동 697 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-5053-6220",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 신갈동 697 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "915",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:51",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5875,16 +6210,18 @@
       "jibunAddress": "경기 용인시 기흥구 영덕동 1331",
       "phone": "031-286-5281",
       "phones": [
-        "031-286-5281"
+        "031-286-5281",
+        "031-286-5282"
       ],
       "phoneCandidates": [
         {
           "number": "031-286-5281",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 영덕동 1331 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5893,14 +6230,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-286-5282",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 영덕동 1331 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "677",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:55",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5936,9 +6288,9 @@
           "number": "031-338-6366",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -5947,14 +6299,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "755",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:50:59",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -5989,10 +6342,11 @@
         {
           "number": "031-897-0117",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 죽전동 1311 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6001,14 +6355,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "196",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:03",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6037,16 +6393,18 @@
       "jibunAddress": "경기 용인시 수지구 죽전동 1300",
       "phone": "031-897-6667",
       "phones": [
-        "031-897-6667"
+        "031-897-6667",
+        "031-897-6680"
       ],
       "phoneCandidates": [
         {
           "number": "031-897-6667",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 죽전동 1300 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6055,14 +6413,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-897-6680",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1300 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:07",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6098,9 +6471,9 @@
           "number": "031-897-0327",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6109,14 +6482,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "374",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:11",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6145,16 +6519,18 @@
       "jibunAddress": "경기 용인시 수지구 죽전동 1302",
       "phone": "031-890-0151",
       "phones": [
-        "031-890-0151"
+        "031-890-0151",
+        "031-890-0152"
       ],
       "phoneCandidates": [
         {
           "number": "031-890-0151",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 죽전동 1302 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6163,14 +6539,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-890-0152",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1302 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "388",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:16",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6199,16 +6590,18 @@
       "jibunAddress": "경기 용인시 수지구 죽전동 1306",
       "phone": "031-891-0106",
       "phones": [
-        "031-891-0106"
+        "031-891-0106",
+        "031-897-0206"
       ],
       "phoneCandidates": [
         {
           "number": "031-891-0106",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 죽전동 1306 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6217,14 +6610,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-897-0206",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1306 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "195",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:19",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6260,9 +6668,9 @@
           "number": "031-897-1621",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6271,14 +6679,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "342",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:23",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6314,9 +6723,9 @@
           "number": "031-896-1552",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6325,14 +6734,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "770",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:27",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6361,16 +6771,22 @@
       "jibunAddress": "경기 용인시 수지구 죽전동 1269",
       "phone": "031-896-1295",
       "phones": [
-        "031-896-1295"
+        "031-896-1295",
+        "016-2344-2017",
+        "031-324-8621",
+        "031-324-8641",
+        "031-324-8681",
+        "031-324-8761",
+        "016-2589-7201"
       ],
       "phoneCandidates": [
         {
           "number": "031-896-1295",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6379,14 +6795,93 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "016-2344-2017",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1269 관리사무소, 경기 용인시 수지구 죽전동 1269 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-324-8621",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1269 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-8641",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1269 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-8681",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1269 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-8761",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1269 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-2589-7201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1269 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "254",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:31",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6422,9 +6917,9 @@
           "number": "031-889-5405",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6433,14 +6928,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "225",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:35",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6469,16 +6965,18 @@
       "jibunAddress": "경기 용인시 수지구 죽전동 1221",
       "phone": "031-897-3640",
       "phones": [
-        "031-897-3640"
+        "031-897-3640",
+        "031-897-3642"
       ],
       "phoneCandidates": [
         {
           "number": "031-897-3640",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 죽전동 1221 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6487,14 +6985,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-897-3642",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1221 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "142",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:39",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6523,16 +7036,18 @@
       "jibunAddress": "경기 용인시 기흥구 영덕동 946",
       "phone": "031-286-0689",
       "phones": [
-        "031-286-0689"
+        "031-286-0689",
+        "031-890-0689"
       ],
       "phoneCandidates": [
         {
           "number": "031-286-0689",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 영덕동 946 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6541,14 +7056,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-890-0689",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 영덕동 946 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "401",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:43",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6577,16 +7107,21 @@
       "jibunAddress": "경기 용인시 기흥구 중동 958",
       "phone": "031-693-0114",
       "phones": [
-        "031-693-0114"
+        "031-693-0114",
+        "031-693-0115",
+        "031-324-6781",
+        "016-1056-7201",
+        "031-324-6721"
       ],
       "phoneCandidates": [
         {
           "number": "031-693-0114",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 중동 958 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6595,14 +7130,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-693-0115",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 용인시 기흥구 중동 958 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-324-6781",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 958 관리사무소, 경기 용인시 기흥구 중동 958 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "016-1056-7201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 958 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6721",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 958 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "432",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:47",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6638,9 +7227,9 @@
           "number": "031-272-8273",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6649,14 +7238,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "346",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:51",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6685,16 +7275,18 @@
       "jibunAddress": "경기 용인시 수지구 죽전동 1118",
       "phone": "031-276-2888",
       "phones": [
-        "031-276-2888"
+        "031-276-2888",
+        "031-324-8761",
+        "031-324-8721"
       ],
       "phoneCandidates": [
         {
           "number": "031-276-2888",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6703,14 +7295,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-324-8761",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1118 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-8721",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1118 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "537",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:55",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6746,9 +7365,9 @@
           "number": "031-263-6292",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6757,14 +7376,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "561",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:51:59",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6800,9 +7420,9 @@
           "number": "031-264-5858",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6811,14 +7431,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "430",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:03",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -6847,16 +7468,18 @@
       "jibunAddress": "경기 용인시 수지구 죽전동 1115",
       "phone": "031-306-0077",
       "phones": [
-        "031-306-0077"
+        "031-306-0077",
+        "031-306-0078"
       ],
       "phoneCandidates": [
         {
           "number": "031-306-0077",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 죽전동 1115 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -6865,14 +7488,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-306-0078",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1115 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "231",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:07",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7007,9 +7645,9 @@
           "number": "031-897-0964",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7018,14 +7656,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "111",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:12",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7054,16 +7693,19 @@
       "jibunAddress": "경기 용인시 수지구 죽전동 1262",
       "phone": "031-897-0857",
       "phones": [
-        "031-897-0857"
+        "031-897-0857",
+        "031-897-0957",
+        "031-324-8761"
       ],
       "phoneCandidates": [
         {
           "number": "031-897-0857",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 죽전동 1262 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7072,14 +7714,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-897-0957",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1262 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-8761",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1262 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "332",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:15",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7108,16 +7778,18 @@
       "jibunAddress": "경기 용인시 수지구 죽전동 1483",
       "phone": "031-262-0250",
       "phones": [
-        "031-262-0250"
+        "031-262-0250",
+        "031-262-3002"
       ],
       "phoneCandidates": [
         {
           "number": "031-262-0250",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 죽전동 1483 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7126,14 +7798,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-262-3002",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 죽전동 1483 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "260",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:19",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7162,16 +7849,18 @@
       "jibunAddress": "경기 용인시 기흥구 신갈동 165",
       "phone": "031-286-6540",
       "phones": [
-        "031-286-6540"
+        "031-286-6540",
+        "031-286-6541"
       ],
       "phoneCandidates": [
         {
           "number": "031-286-6540",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 신갈동 165 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7180,14 +7869,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-286-6541",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 신갈동 165 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "568",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:23",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7216,16 +7920,18 @@
       "jibunAddress": "경기 용인시 수지구 동천동 400-1",
       "phone": "031-264-7803",
       "phones": [
-        "031-264-7803"
+        "031-264-7803",
+        "031-307-7803"
       ],
       "phoneCandidates": [
         {
           "number": "031-264-7803",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 동천동 400-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7234,14 +7940,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-307-7803",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 동천동 400-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "227",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:27",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7270,16 +7991,20 @@
       "jibunAddress": "경기 용인시 기흥구 동백동 683",
       "phone": "031-289-9119",
       "phones": [
-        "031-289-9119"
+        "031-289-9119",
+        "031-324-6602",
+        "031-324-6701",
+        "031-324-6642",
+        "031-324-6721"
       ],
       "phoneCandidates": [
         {
           "number": "031-289-9119",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7288,14 +8013,67 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-324-6602",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 동백동 683 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6701",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 동백동 683 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6642",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 동백동 683 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6721",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 동백동 683 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "477",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:31",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7324,16 +8102,19 @@
       "jibunAddress": "경기 용인시 기흥구 동백동 588",
       "phone": "031-693-6041",
       "phones": [
-        "031-693-6041"
+        "031-693-6041",
+        "031-693-6042"
       ],
       "phoneCandidates": [
         {
           "number": "031-693-6041",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 동백동 588 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7342,14 +8123,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-693-6042",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 동백동 588 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "133",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:35",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7576,16 +8373,18 @@
       "jibunAddress": "경기 용인시 기흥구 중동 819",
       "phone": "031-693-3344",
       "phones": [
-        "031-693-3344"
+        "031-693-3344",
+        "031-324-6681",
+        "016-3086-8201"
       ],
       "phoneCandidates": [
         {
           "number": "031-693-3344",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7594,14 +8393,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-324-6681",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 819 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-3086-8201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 819 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "966",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:40",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7630,16 +8456,21 @@
       "jibunAddress": "경기 용인시 기흥구 중동 956",
       "phone": "031-693-1332",
       "phones": [
-        "031-693-1332"
+        "031-693-1332",
+        "018-5392-2018",
+        "031-324-6803",
+        "031-324-6681",
+        "031-324-6781",
+        "031-324-6741"
       ],
       "phoneCandidates": [
         {
           "number": "031-693-1332",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7648,14 +8479,80 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "018-5392-2018",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 956 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6803",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 956 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6681",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 956 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6781",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 956 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6741",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 956 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "248",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:44",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7684,16 +8581,18 @@
       "jibunAddress": "경기 용인시 기흥구 중동 1100",
       "phone": "031-274-4617",
       "phones": [
-        "031-274-4617"
+        "031-274-4617",
+        "031-274-4619"
       ],
       "phoneCandidates": [
         {
           "number": "031-274-4617",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 중동 1100 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7702,14 +8601,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-274-4619",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 1100 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "284",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:48",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7738,16 +8652,18 @@
       "jibunAddress": "경기 용인시 기흥구 중동 869",
       "phone": "031-8005-5438",
       "phones": [
-        "031-8005-5438"
+        "031-8005-5438",
+        "031-8005-5439"
       ],
       "phoneCandidates": [
         {
           "number": "031-8005-5438",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 중동 869 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7756,14 +8672,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-8005-5439",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 중동 869 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "134",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:52",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -7948,16 +8879,18 @@
       "jibunAddress": "경기 용인시 수지구 풍덕천동 703",
       "phone": "031-263-0828",
       "phones": [
-        "031-263-0828"
+        "031-263-0828",
+        "031-324-8601"
       ],
       "phoneCandidates": [
         {
           "number": "031-263-0828",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 풍덕천동 703 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7966,14 +8899,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-324-8601",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 풍덕천동 703 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "470",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:52:56",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8002,16 +8950,17 @@
       "jibunAddress": "경기 용인시 수지구 풍덕천동 691",
       "phone": "031-261-9394",
       "phones": [
-        "031-261-9394"
+        "031-261-9394",
+        "031-324-8601"
       ],
       "phoneCandidates": [
         {
           "number": "031-261-9394",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8020,14 +8969,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-324-8601",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 풍덕천동 691 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "612",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:00",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8056,16 +9019,18 @@
       "jibunAddress": "경기 용인시 수지구 신봉동 949",
       "phone": "031-263-3538",
       "phones": [
-        "031-263-3538"
+        "031-263-3538",
+        "031-264-3538"
       ],
       "phoneCandidates": [
         {
           "number": "031-263-3538",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 신봉동 949 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8074,14 +9039,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-264-3538",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 신봉동 949 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "490",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:04",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8117,9 +9097,9 @@
           "number": "031-334-3760",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8128,14 +9108,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "202",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:08",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8164,16 +9145,20 @@
       "jibunAddress": "경기 용인시 기흥구 보정동 1162",
       "phone": "031-272-2058",
       "phones": [
-        "031-272-2058"
+        "031-272-2058",
+        "031-324-6671",
+        "031-324-6721",
+        "016-3306-5201"
       ],
       "phoneCandidates": [
         {
           "number": "031-272-2058",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 보정동 1162 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8182,14 +9167,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-324-6671",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 보정동 1162 관리사무소, 경기 용인시 기흥구 보정동 1162 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-324-6721",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 보정동 1162 관리사무소, 경기 용인시 기흥구 보정동 1162 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "016-3306-5201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 보정동 1162 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1701",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:11",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8224,10 +9250,12 @@
         {
           "number": "031-211-6220",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 2026-09-06 18:53:16",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 영덕동 958 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2,
+            "2026-09-06 18:53:16": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8236,14 +9264,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 2,
+            "2026-09-06 18:53:16": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회 · 2026-09-06 18:53:16 1회"
         }
       ],
       "households": "720",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:16",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8326,16 +9357,18 @@
       "jibunAddress": "경기 용인시 수지구 상현동 838",
       "phone": "031-308-0405",
       "phones": [
-        "031-308-0405"
+        "031-308-0405",
+        "015-4432-7201"
       ],
       "phoneCandidates": [
         {
           "number": "031-308-0405",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 상현동 838 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8344,14 +9377,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "015-4432-7201",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 상현동 838 관리사무소, 경기 용인시 수지구 상현동 838 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "312",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:21",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8380,16 +9428,19 @@
       "jibunAddress": "경기 용인시 기흥구 언남동 486",
       "phone": "031-308-5577",
       "phones": [
-        "031-308-5577"
+        "031-308-5577",
+        "031-308-5578",
+        "031-324-6701"
       ],
       "phoneCandidates": [
         {
           "number": "031-308-5577",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 언남동 486 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8398,14 +9449,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-308-5578",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 언남동 486 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6701",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 언남동 486 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "999",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:25",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8441,9 +9520,9 @@
           "number": "031-263-5113",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8452,14 +9531,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "232",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:29",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8488,16 +9568,23 @@
       "jibunAddress": "경기 용인시 기흥구 언남동 496",
       "phone": "031-308-3146",
       "phones": [
-        "031-308-3146"
+        "031-308-3146",
+        "031-324-6642",
+        "031-324-6781",
+        "031-308-3148",
+        "031-324-6741",
+        "031-324-6621",
+        "031-324-6701"
       ],
       "phoneCandidates": [
         {
           "number": "031-308-3146",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 기흥구 언남동 496 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8506,14 +9593,94 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-324-6642",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 언남동 496 관리사무소, 경기 용인시 기흥구 언남동 496 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-324-6781",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 언남동 496 관리사무소, 경기 용인시 기흥구 언남동 496 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-308-3148",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 언남동 496 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6741",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 언남동 496 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6621",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 언남동 496 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-6701",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 기흥구 언남동 496 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "837",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:33",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8542,16 +9709,22 @@
       "jibunAddress": "경기 용인시 수지구 신봉동 985",
       "phone": "031-276-0035",
       "phones": [
-        "031-276-0035"
+        "031-276-0035",
+        "016-5095-4820",
+        "017-5079-0720",
+        "031-276-0037",
+        "031-324-8761",
+        "031-324-8702"
       ],
       "phoneCandidates": [
         {
           "number": "031-276-0035",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 신봉동 985 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8560,14 +9733,81 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "016-5095-4820",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 신봉동 985 관리사무소, 경기 용인시 수지구 신봉동 985 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "017-5079-0720",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 신봉동 985 관리사무소, 경기 용인시 수지구 신봉동 985 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-276-0037",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 신봉동 985 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-8761",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 신봉동 985 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-8702",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 신봉동 985 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "594",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:37",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8603,9 +9843,9 @@
           "number": "031-263-5745",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8614,14 +9854,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "636",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:41",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8650,16 +9891,19 @@
       "jibunAddress": "경기 용인시 수지구 동천동 914",
       "phone": "031-889-2710",
       "phones": [
-        "031-889-2710"
+        "031-889-2710",
+        "031-324-8702",
+        "031-324-8761",
+        "031-324-8641"
       ],
       "phoneCandidates": [
         {
           "number": "031-889-2710",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8668,14 +9912,54 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-324-8702",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 동천동 914 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-8761",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 동천동 914 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-324-8641",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 동천동 914 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1334",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:45",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8704,16 +9988,18 @@
       "jibunAddress": "경기 용인시 수지구 동천동 858",
       "phone": "031-272-6158",
       "phones": [
-        "031-272-6158"
+        "031-272-6158",
+        "031-272-6159"
       ],
       "phoneCandidates": [
         {
           "number": "031-272-6158",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 용인시 수지구 동천동 858 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8722,14 +10008,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-272-6159",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 용인시 수지구 동천동 858 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "181",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:49",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8765,9 +10066,9 @@
           "number": "031-266-9222",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8776,14 +10077,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "466",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:53",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",
@@ -8819,9 +10121,9 @@
           "number": "031-265-9515",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8830,14 +10132,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1128",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:53:57",
       "detailUpdatedAt": 1781043163365,
       "listUpdatedAt": 1781043163365,
       "phoneStatus": "CONFIRMED",

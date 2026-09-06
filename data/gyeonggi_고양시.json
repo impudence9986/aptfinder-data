@@ -1,6 +1,6 @@
 {
-  "version": 1788632704,
-  "updatedAt": "2026-09-05 18:25:04",
+  "version": 1788719168,
+  "updatedAt": "2026-09-06 18:26:08",
   "sido": "경기도",
   "sigungu": "고양시",
   "count": 709,
@@ -23049,16 +23049,21 @@
       "jibunAddress": "경기 고양시 덕양구 행신동 958",
       "phone": "031-938-4201",
       "phones": [
-        "031-938-4201"
+        "031-938-4201",
+        "031-819-2450",
+        "031-972-1300",
+        "031-920-6312"
       ],
       "phoneCandidates": [
         {
           "number": "031-938-4201",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 고양시 덕양구 행신동 958 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23067,14 +23072,58 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-819-2450",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 고양시 덕양구 행신동 958 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-972-1300",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-920-6312",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 행신동 958 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "916",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:15",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23103,16 +23152,18 @@
       "jibunAddress": "경기 고양시 덕양구 향동동 406",
       "phone": "023-159-9530",
       "phones": [
-        "023-159-9530"
+        "023-159-9530",
+        "023-159-9532"
       ],
       "phoneCandidates": [
         {
           "number": "023-159-9530",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 향동동 406 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23121,14 +23172,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-159-9532",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 향동동 406 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "498",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:25",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23164,9 +23230,9 @@
           "number": "02-355-7510",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23175,14 +23241,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "405",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:28",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23211,16 +23278,18 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 858",
       "phone": "031-966-6180",
       "phones": [
-        "031-966-6180"
+        "031-966-6180",
+        "031-966-0175"
       ],
       "phoneCandidates": [
         {
           "number": "031-966-6180",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 858 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23229,14 +23298,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-966-0175",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 858 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1784",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:32",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23265,16 +23349,19 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 851",
       "phone": "031-967-8868",
       "phones": [
-        "031-967-8868"
+        "031-967-8868",
+        "031-967-4457",
+        "031-966-6206"
       ],
       "phoneCandidates": [
         {
           "number": "031-967-8868",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 851 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23283,14 +23370,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-967-4457",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 고양시 덕양구 화정동 851 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-966-6206",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 851 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1391",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:36",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23325,10 +23440,11 @@
         {
           "number": "031-967-4457",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 851 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23337,14 +23453,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "1391",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:40",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23373,16 +23491,18 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 951",
       "phone": "031-978-6497",
       "phones": [
-        "031-978-6497"
+        "031-978-6497",
+        "031-978-6498"
       ],
       "phoneCandidates": [
         {
           "number": "031-978-6497",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 951 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23391,14 +23511,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-978-6498",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 951 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1080",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:43",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23433,10 +23568,11 @@
         {
           "number": "031-971-8525",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 953 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23445,14 +23581,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 블로그검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "1136",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:47",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23481,16 +23619,18 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 952",
       "phone": "031-971-8366",
       "phones": [
-        "031-971-8366"
+        "031-971-8366",
+        "031-971-8367"
       ],
       "phoneCandidates": [
         {
           "number": "031-971-8366",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 952 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23499,14 +23639,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-971-8367",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 952 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1232",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:51",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23535,16 +23690,18 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 948",
       "phone": "031-971-8578",
       "phones": [
-        "031-971-8578"
+        "031-971-8578",
+        "031-971-8580"
       ],
       "phoneCandidates": [
         {
           "number": "031-971-8578",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 948 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23553,14 +23710,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-971-8580",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 고양시 덕양구 화정동 948 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "2008",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:55",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23589,16 +23761,18 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 987",
       "phone": "031-971-5922",
       "phones": [
-        "031-971-5922"
+        "031-971-5922",
+        "031-971-7256"
       ],
       "phoneCandidates": [
         {
           "number": "031-971-5922",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 987 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23607,14 +23781,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-971-7256",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 987 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "582",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:22:59",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23643,16 +23832,22 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 1127",
       "phone": "031-978-6414",
       "phones": [
-        "031-978-6414"
+        "031-978-6414",
+        "016-2078-3201",
+        "031-938-1900",
+        "031-972-0070",
+        "031-8075-5788",
+        "031-8075-5705"
       ],
       "phoneCandidates": [
         {
           "number": "031-978-6414",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 1127 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23661,14 +23856,81 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "016-2078-3201",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 1127 관리사무소, 경기 고양시 덕양구 화정동 1127 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-938-1900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 1127 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-972-0070",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 1127 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8075-5788",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 1127 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8075-5705",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 1127 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1391",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:03",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23697,16 +23959,19 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 1141",
       "phone": "031-973-6546",
       "phones": [
-        "031-973-6546"
+        "031-973-6546",
+        "031-978-6415",
+        "031-811-6546"
       ],
       "phoneCandidates": [
         {
           "number": "031-973-6546",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 1141 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23715,14 +23980,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-978-6415",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 고양시 덕양구 화정동 1141 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-811-6546",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 고양시 덕양구 화정동 1141 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "514",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:07",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23751,16 +24044,21 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 1135",
       "phone": "031-979-8851",
       "phones": [
-        "031-979-8851"
+        "031-979-8851",
+        "031-963-5551",
+        "031-979-8852",
+        "031-920-6322"
       ],
       "phoneCandidates": [
         {
           "number": "031-979-8851",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 1135 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23769,14 +24067,57 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-963-5551",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 고양시 덕양구 화정동 1135 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-979-8852",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 1135 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-920-6322",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 1135 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:10",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23805,16 +24146,17 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 1004",
       "phone": "031-971-6746",
       "phones": [
-        "031-971-6746"
+        "031-971-6746",
+        "031-972-0070"
       ],
       "phoneCandidates": [
         {
           "number": "031-971-6746",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23823,14 +24165,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-972-0070",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 1004 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "720",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:14",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23859,16 +24215,18 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 961",
       "phone": "031-962-4965",
       "phones": [
-        "031-962-4965"
+        "031-962-4965",
+        "031-962-4966"
       ],
       "phoneCandidates": [
         {
           "number": "031-962-4965",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 961 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23877,14 +24235,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-962-4966",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 961 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1350",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:18",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23913,16 +24286,19 @@
       "jibunAddress": "경기 고양시 덕양구 화정동 870",
       "phone": "031-969-6141",
       "phones": [
-        "031-969-6141"
+        "031-969-6141",
+        "031-969-6145",
+        "031-964-8697"
       ],
       "phoneCandidates": [
         {
           "number": "031-969-6141",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 화정동 870 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23931,14 +24307,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-969-6145",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 고양시 덕양구 화정동 870 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-964-8697",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 화정동 870 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2032",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:22",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -23967,16 +24371,20 @@
       "jibunAddress": "경기 고양시 일산서구 일산동 1069",
       "phone": "031-911-3117",
       "phones": [
-        "031-911-3117"
+        "031-911-3117",
+        "031-914-1841",
+        "031-920-6318"
       ],
       "phoneCandidates": [
         {
           "number": "031-911-3117",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산서구 일산동 1069 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23985,14 +24393,44 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-914-1841",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산서구 일산동 1069 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-920-6318",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산서구 일산동 1069 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "530",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:26",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -24021,16 +24459,18 @@
       "jibunAddress": "경기 고양시 일산서구 일산동 1058",
       "phone": "031-911-4463",
       "phones": [
-        "031-911-4463"
+        "031-911-4463",
+        "031-917-2666"
       ],
       "phoneCandidates": [
         {
           "number": "031-911-4463",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산서구 일산동 1058 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24039,14 +24479,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "031-917-2666",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 고양시 일산서구 일산동 1058 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "936",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:30",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -24075,16 +24530,18 @@
       "jibunAddress": "경기 고양시 일산서구 일산동 1074",
       "phone": "031-915-4250",
       "phones": [
-        "031-915-4250"
+        "031-915-4250",
+        "031-917-4289"
       ],
       "phoneCandidates": [
         {
           "number": "031-915-4250",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산서구 일산동 1074 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24093,14 +24550,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-917-4289",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산서구 일산동 1074 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "516",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:34",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -24129,16 +24601,18 @@
       "jibunAddress": "경기 고양시 덕양구 오금동 648",
       "phone": "02-381-6601",
       "phones": [
-        "02-381-6601"
+        "02-381-6601",
+        "02-381-6602"
       ],
       "phoneCandidates": [
         {
           "number": "02-381-6601",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 덕양구 오금동 648 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24147,14 +24621,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-381-6602",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 오금동 648 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "452",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:38",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -31786,10 +32275,11 @@
         {
           "number": "031-901-5758",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 787 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -31798,14 +32288,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "590",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:42",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -31834,16 +32326,19 @@
       "jibunAddress": "경기 고양시 일산동구 마두동 867",
       "phone": "031-905-2237",
       "phones": [
-        "031-905-2237"
+        "031-905-2237",
+        "031-903-7181"
       ],
       "phoneCandidates": [
         {
           "number": "031-905-2237",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 867 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -31852,14 +32347,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-903-7181",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 867 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "280",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:45",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -31888,16 +32399,18 @@
       "jibunAddress": "경기 고양시 일산동구 장항동 0",
       "phone": "031-902-1021",
       "phones": [
-        "031-902-1021"
+        "031-902-1021",
+        "031-902-1022"
       ],
       "phoneCandidates": [
         {
           "number": "031-902-1021",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 장항동 0 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -31906,14 +32419,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-902-1022",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장항동 0 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1242",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:49",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32220,16 +32748,18 @@
       "jibunAddress": "경기 고양시 일산동구 장항동 0",
       "phone": "031-994-6200",
       "phones": [
-        "031-994-6200"
+        "031-994-6200",
+        "031-902-1021",
+        "031-902-1022"
       ],
       "phoneCandidates": [
         {
           "number": "031-994-6200",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32238,14 +32768,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-902-1021",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장항동 0 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-902-1022",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장항동 0 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "759",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:53",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32329,16 +32886,18 @@
       "jibunAddress": "경기 고양시 일산동구 마두동 757",
       "phone": "031-901-0250",
       "phones": [
-        "031-901-0250"
+        "031-901-0250",
+        "031-901-3146"
       ],
       "phoneCandidates": [
         {
           "number": "031-901-0250",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 757 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32347,14 +32906,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-901-3146",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 757 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "720",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:23:56",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32383,16 +32957,18 @@
       "jibunAddress": "경기 고양시 일산동구 마두동 783",
       "phone": "031-903-0461",
       "phones": [
-        "031-903-0461"
+        "031-903-0461",
+        "031-904-4155"
       ],
       "phoneCandidates": [
         {
           "number": "031-903-0461",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 783 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32401,14 +32977,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-904-4155",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 783 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "608",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:00",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32437,16 +33028,20 @@
       "jibunAddress": "경기 고양시 일산동구 마두동 789",
       "phone": "031-901-7011",
       "phones": [
-        "031-901-7011"
+        "031-901-7011",
+        "017-3402-2017",
+        "031-904-0472",
+        "031-904-2763",
+        "031-8075-6733"
       ],
       "phoneCandidates": [
         {
           "number": "031-901-7011",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32455,14 +33050,67 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "017-3402-2017",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 789 관리사무소, 경기 고양시 일산동구 마두동 789 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-904-0472",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 789 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-904-2763",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 789 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8075-6733",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 789 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "760",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:04",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32491,16 +33139,20 @@
       "jibunAddress": "경기 고양시 일산동구 마두동 789",
       "phone": "031-904-0472",
       "phones": [
-        "031-904-0472"
+        "031-904-0472",
+        "017-3402-2017",
+        "031-904-2763",
+        "031-8075-6733"
       ],
       "phoneCandidates": [
         {
           "number": "031-904-0472",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 789 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32509,14 +33161,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "017-3402-2017",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 789 관리사무소, 경기 고양시 일산동구 마두동 789 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-904-2763",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 789 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8075-6733",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 789 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "798",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:07",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32552,9 +33245,9 @@
           "number": "031-902-3196",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32563,14 +33256,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "494",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:10",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32606,9 +33300,9 @@
           "number": "031-903-3716",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32617,14 +33311,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "702",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:14",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32659,10 +33354,12 @@
         {
           "number": "031-902-2553",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 794 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32671,14 +33368,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
         }
       ],
       "households": "766",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:18",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32707,16 +33407,18 @@
       "jibunAddress": "경기 고양시 일산동구 마두동 755",
       "phone": "031-902-1865",
       "phones": [
-        "031-902-1865"
+        "031-902-1865",
+        "031-904-5805"
       ],
       "phoneCandidates": [
         {
           "number": "031-902-1865",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 755 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32725,14 +33427,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-904-5805",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 755 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "772",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:22",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32767,10 +33484,11 @@
         {
           "number": "031-901-6030",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 739 관리사무소, 경기 고양시 일산동구 마두동 739 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32779,14 +33497,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 2회"
         }
       ],
       "households": "806",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:25",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32821,10 +33541,11 @@
         {
           "number": "031-813-9178",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 732 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32833,14 +33554,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "1116",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:29",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32869,16 +33592,18 @@
       "jibunAddress": "경기 고양시 일산동구 마두동 734",
       "phone": "031-904-1981",
       "phones": [
-        "031-904-1981"
+        "031-904-1981",
+        "031-904-1980"
       ],
       "phoneCandidates": [
         {
           "number": "031-904-1981",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 734 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32887,14 +33612,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-904-1980",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 734 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "668",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:33",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32923,16 +33663,19 @@
       "jibunAddress": "경기 고양시 일산동구 마두동 717",
       "phone": "031-902-4748",
       "phones": [
-        "031-902-4748"
+        "031-902-4748",
+        "031-902-4749"
       ],
       "phoneCandidates": [
         {
           "number": "031-902-4748",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 717 관리사무소, 경기 고양시 일산동구 마두동 717 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 2,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32941,14 +33684,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 2,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "031-902-4749",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 717 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1152",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:37",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -32977,16 +33736,18 @@
       "jibunAddress": "경기 고양시 일산동구 마두동 719",
       "phone": "031-902-5279",
       "phones": [
-        "031-902-5279"
+        "031-902-5279",
+        "031-811-5279"
       ],
       "phoneCandidates": [
         {
           "number": "031-902-5279",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 마두동 719 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32995,14 +33756,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-811-5279",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 마두동 719 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "438",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:40",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33031,16 +33807,18 @@
       "jibunAddress": "경기 고양시 일산동구 정발산동 1170",
       "phone": "031-915-6912",
       "phones": [
-        "031-915-6912"
+        "031-915-6912",
+        "031-915-6911"
       ],
       "phoneCandidates": [
         {
           "number": "031-915-6912",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 정발산동 1170 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33049,14 +33827,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-915-6911",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 정발산동 1170 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:44",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33085,16 +33878,19 @@
       "jibunAddress": "경기 고양시 일산동구 정발산동 1116",
       "phone": "031-915-4675",
       "phones": [
-        "031-915-4675"
+        "031-915-4675",
+        "031-814-4675"
       ],
       "phoneCandidates": [
         {
           "number": "031-915-4675",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 정발산동 1116 관리사무소, 경기 고양시 일산동구 정발산동 1116 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33103,14 +33899,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-814-4675",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 정발산동 1116 관리사무소, 경기 고양시 일산동구 정발산동 1116 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:48",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33146,9 +33958,9 @@
           "number": "031-915-4677",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33157,14 +33969,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "216",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:52",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33193,16 +34006,18 @@
       "jibunAddress": "경기 고양시 일산동구 정발산동 1260",
       "phone": "031-915-4676",
       "phones": [
-        "031-915-4676"
+        "031-915-4676",
+        "031-915-4671"
       ],
       "phoneCandidates": [
         {
           "number": "031-915-4676",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 정발산동 1260 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33211,14 +34026,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-915-4671",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 정발산동 1260 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "138",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:56",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33253,10 +34083,11 @@
         {
           "number": "031-902-7422",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 정발산동 1269 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33265,14 +34096,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "128",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:24:59",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33359,16 +34192,18 @@
       "jibunAddress": "경기 고양시 일산동구 풍동 417-2",
       "phone": "031-906-0250",
       "phones": [
-        "031-906-0250"
+        "031-906-0250",
+        "031-819-0250"
       ],
       "phoneCandidates": [
         {
           "number": "031-906-0250",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 풍동 417-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33377,14 +34212,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-819-0250",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 풍동 417-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "270",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:03",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33413,16 +34263,18 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1187",
       "phone": "031-902-1921",
       "phones": [
-        "031-902-1921"
+        "031-902-1921",
+        "031-814-1212"
       ],
       "phoneCandidates": [
         {
           "number": "031-902-1921",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1187 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33431,14 +34283,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-814-1212",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1187 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "222",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:07",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33467,16 +34334,19 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1186",
       "phone": "031-903-0512",
       "phones": [
-        "031-903-0512"
+        "031-903-0512",
+        "031-903-2572"
       ],
       "phoneCandidates": [
         {
           "number": "031-903-0512",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1186 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33485,14 +34355,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-903-2572",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1186 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "862",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:11",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33521,16 +34407,18 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1190",
       "phone": "031-901-0576",
       "phones": [
-        "031-901-0576"
+        "031-901-0576",
+        "031-904-6721"
       ],
       "phoneCandidates": [
         {
           "number": "031-901-0576",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1190 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33539,14 +34427,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-904-6721",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1190 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "786",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:15",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33581,10 +34484,11 @@
         {
           "number": "031-904-1618",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1135 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33593,14 +34497,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "456",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:19",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33629,16 +34535,18 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1136",
       "phone": "031-901-6848",
       "phones": [
-        "031-901-6848"
+        "031-901-6848",
+        "031-811-7942"
       ],
       "phoneCandidates": [
         {
           "number": "031-901-6848",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1136 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33647,14 +34555,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-811-7942",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1136 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "617",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:23",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33683,16 +34606,21 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1139",
       "phone": "031-902-7517",
       "phones": [
-        "031-902-7517"
+        "031-902-7517",
+        "017-6310-7201",
+        "031-907-2869",
+        "031-8075-6733",
+        "031-8075-6809"
       ],
       "phoneCandidates": [
         {
           "number": "031-902-7517",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1139 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33701,14 +34629,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "017-6310-7201",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1139 관리사무소, 경기 고양시 일산동구 백석동 1139 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-907-2869",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1139 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8075-6733",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1139 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8075-6809",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1139 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "604",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:27",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -33737,16 +34719,18 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1140",
       "phone": "031-902-3593",
       "phones": [
-        "031-902-3593"
+        "031-902-3593",
+        "031-903-3593"
       ],
       "phoneCandidates": [
         {
           "number": "031-902-3593",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1140 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -33755,14 +34739,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-903-3593",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1140 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "462",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:31",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -34013,9 +35012,9 @@
           "number": "031-904-3990",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -34024,14 +35023,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "299",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:35",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -34060,16 +35060,19 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1351",
       "phone": "031-905-2203",
       "phones": [
-        "031-905-2203"
+        "031-905-2203",
+        "031-902-1800",
+        "031-814-2203"
       ],
       "phoneCandidates": [
         {
           "number": "031-905-2203",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1351 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -34078,14 +35081,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-902-1800",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 고양시 일산동구 백석동 1351 관리사무소, 경기 고양시 일산동구 백석동 1351 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-814-2203",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1351 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "276",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:39",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -34114,16 +35145,19 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1349",
       "phone": "031-902-4478",
       "phones": [
-        "031-902-4478"
+        "031-902-4478",
+        "031-812-4477"
       ],
       "phoneCandidates": [
         {
           "number": "031-902-4478",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1349 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -34132,14 +35166,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-812-4477",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1349 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "816",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:42",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -34168,16 +35218,19 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1183",
       "phone": "031-901-1073",
       "phones": [
-        "031-901-1073"
+        "031-901-1073",
+        "031-811-1073",
+        "031-906-5233"
       ],
       "phoneCandidates": [
         {
           "number": "031-901-1073",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1183 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -34186,14 +35239,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-811-1073",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1183 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-906-5233",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1183 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "426",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:46",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -34222,16 +35303,19 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1183",
       "phone": "031-901-6022",
       "phones": [
-        "031-901-6022"
+        "031-901-6022",
+        "031-906-5233",
+        "031-814-6022"
       ],
       "phoneCandidates": [
         {
           "number": "031-901-6022",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1183 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -34240,14 +35324,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-906-5233",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1183 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-814-6022",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1183 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "436",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:50",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -34276,16 +35388,19 @@
       "jibunAddress": "경기 고양시 일산동구 백석동 1145",
       "phone": "031-902-7312",
       "phones": [
-        "031-902-7312"
+        "031-902-7312",
+        "031-903-9094"
       ],
       "phoneCandidates": [
         {
           "number": "031-902-7312",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 백석동 1145 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -34294,14 +35409,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-903-9094",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1145 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "152",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:53",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -34606,16 +35737,19 @@
       "jibunAddress": "경기 고양시 일산동구 사리현동 189",
       "phone": "031-962-6331",
       "phones": [
-        "031-962-6331"
+        "031-962-6331",
+        "031-962-6321",
+        "017-908-2017"
       ],
       "phoneCandidates": [
         {
           "number": "031-962-6331",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 사리현동 189 관리사무소, 경기 고양시 일산동구 사리현동 189 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -34624,14 +35758,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-962-6321",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 사리현동 189 관리사무소, 경기 고양시 일산동구 사리현동 189 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "017-908-2017",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 사리현동 189 관리사무소, 경기 고양시 일산동구 사리현동 189 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "266",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:25:57",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -34660,16 +35822,18 @@
       "jibunAddress": "경기 고양시 일산동구 사리현동 186",
       "phone": "031-962-5530",
       "phones": [
-        "031-962-5530"
+        "031-962-5530",
+        "031-962-5538"
       ],
       "phoneCandidates": [
         {
           "number": "031-962-5530",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 사리현동 186 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -34678,14 +35842,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-962-5538",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 사리현동 186 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "557",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:26:01",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
@@ -34720,10 +35899,11 @@
         {
           "number": "031-963-2252",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 고양시 일산동구 사리현동 466-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -34732,14 +35912,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "380",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-06 18:26:04",
       "detailUpdatedAt": 1781016497375,
       "listUpdatedAt": 1781016497375,
       "phoneStatus": "CONFIRMED",
