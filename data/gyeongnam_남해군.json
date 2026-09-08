@@ -1,6 +1,6 @@
 {
-  "version": 1781321457,
-  "updatedAt": "2026-06-13 03:30:57",
+  "version": 1788897704,
+  "updatedAt": "2026-09-08 20:01:44",
   "sido": "경상남도",
   "sigungu": "남해군",
   "count": 4,
@@ -24,16 +24,17 @@
       "jibunAddress": "경남 남해군 남해읍 아산리 970-1",
       "phone": "055-762-1909",
       "phones": [
-        "055-762-1909"
+        "055-762-1909",
+        "055-863-2414"
       ],
       "phoneCandidates": [
         {
           "number": "055-762-1909",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +43,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "055-863-2414",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경남 남해군 남해읍 아산리 970-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "126",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-08 20:01:31",
       "detailUpdatedAt": 1781321378566,
       "listUpdatedAt": 1781321378566,
       "phoneStatus": "CONFIRMED",
@@ -78,16 +93,19 @@
       "jibunAddress": "경남 남해군 남해읍 평리 1700",
       "phone": "055-863-5661",
       "phones": [
-        "055-863-5661"
+        "055-863-5661",
+        "055-863-5662"
       ],
       "phoneCandidates": [
         {
           "number": "055-863-5661",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경남 남해군 남해읍 평리 1700 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -96,14 +114,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "055-863-5662",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 남해군 남해읍 평리 1700 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "353",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-08 20:01:34",
       "detailUpdatedAt": 1781321378566,
       "listUpdatedAt": 1781321378566,
       "phoneStatus": "CONFIRMED",
@@ -138,10 +172,12 @@
         {
           "number": "055-864-5480",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 남해군 남해읍 차산리 774-4 관리사무소, 경남 남해군 남해읍 차산리 774-4 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -150,14 +186,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
         }
       ],
       "households": "186",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-08 20:01:38",
       "detailUpdatedAt": 1781321378566,
       "listUpdatedAt": 1781321378566,
       "phoneStatus": "CONFIRMED",
@@ -186,16 +225,18 @@
       "jibunAddress": "경남 남해군 남해읍 아산리 189-1",
       "phone": "055-864-2112",
       "phones": [
-        "055-864-2112"
+        "055-864-2112",
+        "055-758-9696"
       ],
       "phoneCandidates": [
         {
           "number": "055-864-2112",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 남해군 남해읍 오동로 12 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -204,14 +245,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-758-9696",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 남해군 남해읍 오동로 12 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "127",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-08 20:01:41",
       "detailUpdatedAt": 1781321378566,
       "listUpdatedAt": 1781321378566,
       "phoneStatus": "CONFIRMED",
