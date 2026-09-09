@@ -1,6 +1,6 @@
 {
-  "version": 1788896637,
-  "updatedAt": "2026-09-08 19:43:57",
+  "version": 1788982238,
+  "updatedAt": "2026-09-09 19:30:38",
   "sido": "경기도",
   "sigungu": "의정부시",
   "count": 336,
@@ -14283,16 +14283,17 @@
       "jibunAddress": "경기 의정부시 호원동 430",
       "phone": "031-875-9096",
       "phones": [
-        "031-875-9096"
+        "031-875-9096",
+        "031-876-9096"
       ],
       "phoneCandidates": [
         {
           "number": "031-875-9096",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14301,14 +14302,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-876-9096",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 의정부시 호원동 430 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "615",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:28:51",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14344,9 +14359,9 @@
           "number": "031-878-9087",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14355,14 +14370,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "178",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:28:55",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14391,16 +14407,19 @@
       "jibunAddress": "경기 의정부시 호원동 444-1",
       "phone": "031-829-2720",
       "phones": [
-        "031-829-2720"
+        "031-829-2720",
+        "02-829-2720",
+        "031-836-2720"
       ],
       "phoneCandidates": [
         {
           "number": "031-829-2720",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 호원동 444-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14409,14 +14428,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-829-2720",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 444-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-836-2720",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 444-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "126",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:28:59",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14452,9 +14499,9 @@
           "number": "031-829-6163",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14463,14 +14510,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "116",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:03",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14506,9 +14554,9 @@
           "number": "031-878-6544",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14517,14 +14565,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "147",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:08",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14553,16 +14602,18 @@
       "jibunAddress": "경기 의정부시 호원동 289-7",
       "phone": "031-877-9833",
       "phones": [
-        "031-877-9833"
+        "031-877-9833",
+        "031-836-1167"
       ],
       "phoneCandidates": [
         {
           "number": "031-877-9833",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 호원동 289-7 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14571,14 +14622,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-836-1167",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 289-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "448",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:12",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14614,9 +14680,9 @@
           "number": "031-873-2425",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14625,14 +14691,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "204",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:20",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14668,9 +14735,9 @@
           "number": "031-871-0824",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14679,14 +14746,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "278",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:24",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14715,16 +14783,18 @@
       "jibunAddress": "경기 의정부시 호원동 436-1",
       "phone": "031-876-3480",
       "phones": [
-        "031-876-3480"
+        "031-876-3480",
+        "031-874-4321"
       ],
       "phoneCandidates": [
         {
           "number": "031-876-3480",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 호원동 436-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14733,14 +14803,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-874-4321",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 436-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "609",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:29",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14769,16 +14854,20 @@
       "jibunAddress": "경기 의정부시 호원동 436",
       "phone": "031-878-2777",
       "phones": [
-        "031-878-2777"
+        "031-878-2777",
+        "031-876-3480",
+        "031-874-4321",
+        "031-878-2717"
       ],
       "phoneCandidates": [
         {
           "number": "031-878-2777",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 호원동 436 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14787,14 +14876,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-876-3480",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 436 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-874-4321",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 436 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-878-2717",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 436 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "235",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:33",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14829,10 +14959,11 @@
         {
           "number": "031-878-1066",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 호원동 432-9 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14841,14 +14972,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "288",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:37",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14877,16 +15010,20 @@
       "jibunAddress": "경기 의정부시 호원동 424",
       "phone": "031-872-8039",
       "phones": [
-        "031-872-8039"
+        "031-872-8039",
+        "031-874-5444",
+        "031-878-8036"
       ],
       "phoneCandidates": [
         {
           "number": "031-872-8039",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 호원동 424 관리사무소, 경기 의정부시 호원동 424 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 2,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14895,14 +15032,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 2,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "031-874-5444",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 의정부시 호원동 424 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-878-8036",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 424 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "240",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:41",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14931,16 +15097,18 @@
       "jibunAddress": "경기 의정부시 호원동 419",
       "phone": "031-878-0489",
       "phones": [
-        "031-878-0489"
+        "031-878-0489",
+        "031-871-9631"
       ],
       "phoneCandidates": [
         {
           "number": "031-878-0489",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 호원동 419 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14949,14 +15117,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-871-9631",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 419 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "193",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:46",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -14985,16 +15168,18 @@
       "jibunAddress": "경기 의정부시 호원동 467",
       "phone": "031-855-9492",
       "phones": [
-        "031-855-9492"
+        "031-855-9492",
+        "031-826-4032",
+        "031-828-0328"
       ],
       "phoneCandidates": [
         {
           "number": "031-855-9492",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15003,14 +15188,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-826-4032",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 의정부시 호원동 467 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-828-0328",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 467 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "700",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:50",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -15039,16 +15251,18 @@
       "jibunAddress": "경기 의정부시 호원동 308-139",
       "phone": "031-826-0858",
       "phones": [
-        "031-826-0858"
+        "031-826-0858",
+        "031-826-0859"
       ],
       "phoneCandidates": [
         {
           "number": "031-826-0858",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 호원동 308-139 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15057,14 +15271,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-826-0859",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 308-139 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "397",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:54",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -15093,16 +15322,18 @@
       "jibunAddress": "경기 의정부시 호원동 428",
       "phone": "031-871-7436",
       "phones": [
-        "031-871-7436"
+        "031-871-7436",
+        "031-873-7437"
       ],
       "phoneCandidates": [
         {
           "number": "031-871-7436",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 호원동 428 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15111,14 +15342,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-873-7437",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호원동 428 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "224",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:29:58",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -15147,16 +15393,18 @@
       "jibunAddress": "경기 의정부시 낙양동 710",
       "phone": "031-851-7686",
       "phones": [
-        "031-851-7686"
+        "031-851-7686",
+        "031-851-7683"
       ],
       "phoneCandidates": [
         {
           "number": "031-851-7686",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 낙양동 710 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15165,14 +15413,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-851-7683",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 낙양동 710 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "812",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:30:02",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -15279,9 +15542,9 @@
           "number": "031-928-5073",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15290,14 +15553,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "758",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:30:06",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -15403,10 +15667,11 @@
         {
           "number": "031-821-9938",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 2026-08-03 18:48:46",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 9
+            "K-apt": 9,
+            "2026-08-03 18:48:46": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15416,9 +15681,10 @@
             "K-apt 3회": 1,
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2,
-            "K-apt 8회": 1
+            "K-apt 8회": 1,
+            "2026-08-03 18:48:46": 1
           },
-          "sourceSummary": "K-apt 9회"
+          "sourceSummary": "K-apt 9회 · 2026-08-03 18:48:46 1회"
         }
       ],
       "households": "636",
@@ -21195,16 +21461,17 @@
       "jibunAddress": "경기 의정부시 신곡동 669",
       "phone": "031-848-0237",
       "phones": [
-        "031-848-0237"
+        "031-848-0237",
+        "031-848-0238"
       ],
       "phoneCandidates": [
         {
           "number": "031-848-0237",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -21213,14 +21480,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "031-848-0238",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 의정부시 추동로 45 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "1188",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:30:15",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -21249,16 +21530,19 @@
       "jibunAddress": "경기 의정부시 신곡동 685-1",
       "phone": "031-845-6084",
       "phones": [
-        "031-845-6084"
+        "031-845-6084",
+        "031-843-6084",
+        "025-0822-1714"
       ],
       "phoneCandidates": [
         {
           "number": "031-845-6084",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 추동로 32 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -21267,14 +21551,44 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-843-6084",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 의정부시 추동로 32 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "025-0822-1714",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 추동로 32 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "300",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:30:19",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -21303,16 +21617,18 @@
       "jibunAddress": "경기 의정부시 신곡동 684",
       "phone": "031-845-7622",
       "phones": [
-        "031-845-7622"
+        "031-845-7622",
+        "031-828-0359"
       ],
       "phoneCandidates": [
         {
           "number": "031-845-7622",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 추동로 12 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -21321,14 +21637,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-828-0359",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 추동로 12 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "816",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:30:23",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -21364,9 +21695,9 @@
           "number": "031-844-8880",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -21375,14 +21706,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "129",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:30:27",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -21411,16 +21743,20 @@
       "jibunAddress": "경기 의정부시 호원동 360",
       "phone": "031-871-8397",
       "phones": [
-        "031-871-8397"
+        "031-871-8397",
+        "031-828-0336",
+        "031-828-0364"
       ],
       "phoneCandidates": [
         {
           "number": "031-871-8397",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 의정부시 호동로 56 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -21429,14 +21765,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-828-0336",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호동로 56 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-828-0364",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 의정부시 호동로 56 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "806",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:30:31",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",
@@ -21472,9 +21837,9 @@
           "number": "031-878-3474",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -21483,14 +21848,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "624",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:30:35",
       "detailUpdatedAt": 1781046764844,
       "listUpdatedAt": 1781046764844,
       "phoneStatus": "CONFIRMED",

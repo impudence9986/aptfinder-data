@@ -1,6 +1,6 @@
 {
-  "version": 1781385159,
-  "updatedAt": "2026-06-13 21:12:39",
+  "version": 1788984000,
+  "updatedAt": "2026-09-09 20:00:00",
   "sido": "경상남도",
   "sigungu": "하동군",
   "count": 20,
@@ -24,16 +24,18 @@
       "jibunAddress": "경남 김해시 율하동 1316",
       "phone": "055-327-1515",
       "phones": [
-        "055-327-1515"
+        "055-327-1515",
+        "055-327-1616"
       ],
       "phoneCandidates": [
         {
           "number": "055-327-1515",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 김해시 율하동 1316 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +44,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-327-1616",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 김해시 율하동 1316 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "786",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:58:42",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -78,16 +95,20 @@
       "jibunAddress": "경남 김해시 전하동 439",
       "phone": "055-324-3130",
       "phones": [
-        "055-324-3130"
+        "055-324-3130",
+        "055-329-3130",
+        "055-324-3335"
       ],
       "phoneCandidates": [
         {
           "number": "055-324-3130",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 김해시 전하동 439 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -96,14 +117,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "055-329-3130",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경남 김해시 전하동 439 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "055-324-3335",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경남 김해시 전하동 439 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "446",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:58:46",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -138,10 +190,11 @@
         {
           "number": "055-337-1593",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경남 김해시 율하동 1291 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -150,14 +203,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "944",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:58:50",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -193,9 +248,9 @@
           "number": "055-325-2920",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -204,14 +259,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "630",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:58:54",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -246,10 +302,11 @@
         {
           "number": "055-337-0745",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 김해시 율하동 1297 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -258,14 +315,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "632",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:58:58",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -294,16 +353,17 @@
       "jibunAddress": "경남 김해시 율하동 1296",
       "phone": "055-312-6445",
       "phones": [
-        "055-312-6445"
+        "055-312-6445",
+        "055-312-6446"
       ],
       "phoneCandidates": [
         {
           "number": "055-312-6445",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -312,14 +372,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "055-312-6446",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경남 김해시 율하동 1296 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "348",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:02",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -354,10 +428,11 @@
         {
           "number": "055-322-7255",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경남 김해시 율하동 1370 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -366,14 +441,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "999",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:06",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -402,16 +479,18 @@
       "jibunAddress": "경남 김해시 율하동 1371",
       "phone": "055-326-1045",
       "phones": [
-        "055-326-1045"
+        "055-326-1045",
+        "055-326-1035"
       ],
       "phoneCandidates": [
         {
           "number": "055-326-1045",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 김해시 율하동 1371 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -420,14 +499,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-326-1035",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 김해시 율하동 1371 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1290",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:10",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -463,9 +557,9 @@
           "number": "055-328-1166",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -474,14 +568,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "750",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:13",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -510,16 +605,18 @@
       "jibunAddress": "경남 김해시 율하동 1405",
       "phone": "055-313-1144",
       "phones": [
-        "055-313-1144"
+        "055-313-1144",
+        "055-313-1184"
       ],
       "phoneCandidates": [
         {
           "number": "055-313-1144",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경남 김해시 율하동 1405 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -528,14 +625,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "055-313-1184",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경남 김해시 율하동 1405 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "585",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:17",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -570,10 +682,11 @@
         {
           "number": "055-312-3922",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경남 김해시 율하동 1404 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -582,14 +695,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "757",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:21",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -618,16 +733,19 @@
       "jibunAddress": "경남 김해시 율하동 1403",
       "phone": "055-311-5375",
       "phones": [
-        "055-311-5375"
+        "055-311-5375",
+        "055-311-5374"
       ],
       "phoneCandidates": [
         {
           "number": "055-311-5375",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경남 김해시 율하동 1403 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -636,14 +754,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "055-311-5374",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 김해시 율하동 1403 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1267",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:25",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -672,16 +806,18 @@
       "jibunAddress": "경남 하동군 하동읍 광평리 459",
       "phone": "055-884-6241",
       "phones": [
-        "055-884-6241"
+        "055-884-6241",
+        "055-884-6244"
       ],
       "phoneCandidates": [
         {
           "number": "055-884-6241",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 하동군 하동읍 광평리 459 관리사무소, 경남 하동군 하동읍 광평리 459 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -690,14 +826,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "055-884-6244",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경남 하동군 하동읍 광평리 459 관리사무소, 경남 하동군 하동읍 광평리 459 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "100",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:29",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -726,16 +877,18 @@
       "jibunAddress": "경남 하동군 하동읍 읍내리 970",
       "phone": "055-882-1151",
       "phones": [
-        "055-882-1151"
+        "055-882-1151",
+        "055-882-1171"
       ],
       "phoneCandidates": [
         {
           "number": "055-882-1151",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 하동군 하동읍 읍내리 970 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -744,14 +897,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-882-1171",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 하동군 하동읍 읍내리 970 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "173",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:33",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -786,10 +954,11 @@
         {
           "number": "055-883-5940",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 하동군 하동읍 광평리 428 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -798,14 +967,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "199",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:37",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -841,9 +1012,9 @@
           "number": "055-884-3707",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -852,14 +1023,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "420",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:41",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -888,16 +1060,18 @@
       "jibunAddress": "경남 하동군 하동읍 읍내리 1565",
       "phone": "055-884-6245",
       "phones": [
-        "055-884-6245"
+        "055-884-6245",
+        "055-884-6244"
       ],
       "phoneCandidates": [
         {
           "number": "055-884-6245",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 하동군 하동읍 읍내리 1565 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -906,14 +1080,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-884-6244",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 하동군 하동읍 읍내리 1565 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "406",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:45",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -942,16 +1131,18 @@
       "jibunAddress": "경남 하동군 금성면 궁항리 309",
       "phone": "055-762-1909",
       "phones": [
-        "055-762-1909"
+        "055-762-1909",
+        "055-758-9696"
       ],
       "phoneCandidates": [
         {
           "number": "055-762-1909",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 하동군 금성면 궁항리 309 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -960,14 +1151,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-758-9696",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 하동군 금성면 궁항리 309 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "219",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:49",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -996,16 +1202,18 @@
       "jibunAddress": "경남 하동군 금성면 갈사리 628",
       "phone": "055-884-6847",
       "phones": [
-        "055-884-6847"
+        "055-884-6847",
+        "055-852-6857"
       ],
       "phoneCandidates": [
         {
           "number": "055-884-6847",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 하동군 금성면 갈사리 628 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1014,14 +1222,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-852-6857",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 하동군 금성면 갈사리 628 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "200",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:53",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
@@ -1056,10 +1279,12 @@
         {
           "number": "055-884-0053",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경남 하동군 하동읍 비파리 611-53 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1068,14 +1293,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
         }
       ],
       "households": "144",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-09 19:59:56",
       "detailUpdatedAt": 1781385051612,
       "listUpdatedAt": 1781385051612,
       "phoneStatus": "CONFIRMED",
