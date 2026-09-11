@@ -1,6 +1,6 @@
 {
-  "version": 1781224751,
-  "updatedAt": "2026-06-12 00:39:11",
+  "version": 1789158841,
+  "updatedAt": "2026-09-11 20:34:01",
   "sido": "인천광역시",
   "sigungu": "옹진군",
   "count": 1,
@@ -24,16 +24,18 @@
       "jibunAddress": "인천 옹진군 영흥면 외리 680",
       "phone": "070-8898-3199",
       "phones": [
-        "070-8898-3199"
+        "070-8898-3199",
+        "032-881-3198"
       ],
       "phoneCandidates": [
         {
           "number": "070-8898-3199",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 옹진군 영흥면 외리 680 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +44,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-881-3198",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 옹진군 영흥면 외리 680 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "281",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:33:58",
       "detailUpdatedAt": 1781224668275,
       "listUpdatedAt": 1781224668275,
       "phoneStatus": "CONFIRMED",

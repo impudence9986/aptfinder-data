@@ -1,6 +1,6 @@
 {
-  "version": 1787073791,
-  "updatedAt": "2026-08-18 17:23:11",
+  "version": 1789159006,
+  "updatedAt": "2026-09-11 20:36:46",
   "sido": "인천광역시",
   "sigungu": "중구",
   "count": 120,
@@ -24,16 +24,18 @@
       "jibunAddress": "인천 중구 중산동 1871-1",
       "phone": "032-751-3874",
       "phones": [
-        "032-751-3874"
+        "032-751-3874",
+        "032-752-3874"
       ],
       "phoneCandidates": [
         {
           "number": "032-751-3874",
           "score": 100,
-          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, existing, verify_existing, 인천 중구 중산동 1871-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -44,14 +46,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회 · 네이버 1회"
+        },
+        {
+          "number": "032-752-3874",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 중산동 1871-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1409",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-11 20:34:01",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -80,16 +97,17 @@
       "jibunAddress": "인천 중구 중산동 1887-4",
       "phone": "032-746-3727",
       "phones": [
-        "032-746-3727"
+        "032-746-3727",
+        "032-710-1999"
       ],
       "phoneCandidates": [
         {
           "number": "032-746-3727",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -98,14 +116,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "032-710-1999",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "인천 중구 중산동 1887-4 관리사무소, 인천 중구 중산동 1887-4 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1520",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:05",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -140,10 +172,11 @@
         {
           "number": "032-752-0575",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 운남동 1680-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -152,14 +185,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "577",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:08",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -188,16 +223,18 @@
       "jibunAddress": "인천 중구 도원동 41-25",
       "phone": "032-881-7761",
       "phones": [
-        "032-881-7761"
+        "032-881-7761",
+        "032-203-7761"
       ],
       "phoneCandidates": [
         {
           "number": "032-881-7761",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 도원동 41-25 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -206,14 +243,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-203-7761",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 도원동 41-25 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "165",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:12",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -249,9 +301,9 @@
           "number": "032-765-9753",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -260,14 +312,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "166",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:15",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -303,9 +356,9 @@
           "number": "032-751-3013",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -314,14 +367,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "412",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:19",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -357,9 +411,9 @@
           "number": "032-751-0588",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -368,14 +422,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "148",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:22",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -411,9 +466,9 @@
           "number": "032-764-5273",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -422,14 +477,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "102",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:26",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -465,9 +521,9 @@
           "number": "032-887-4204",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -476,14 +532,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "546",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:30",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -512,16 +569,19 @@
       "jibunAddress": "인천 중구 항동7가 27-107",
       "phone": "032-884-0812",
       "phones": [
-        "032-884-0812"
+        "032-884-0812",
+        "032-885-9845"
       ],
       "phoneCandidates": [
         {
           "number": "032-884-0812",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 항동7가 27-107 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -530,14 +590,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "032-885-9845",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 항동7가 27-107 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "854",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:33",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -566,16 +642,18 @@
       "jibunAddress": "인천 중구 항동7가 27-107",
       "phone": "032-882-3466",
       "phones": [
-        "032-882-3466"
+        "032-882-3466",
+        "032-883-7634"
       ],
       "phoneCandidates": [
         {
           "number": "032-882-3466",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 항동7가 27-107 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -584,14 +662,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-883-7634",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 항동7가 27-107 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "608",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:36",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -627,9 +720,9 @@
           "number": "032-762-2465",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -638,14 +731,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "340",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:39",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -680,10 +774,11 @@
         {
           "number": "032-761-5866",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 송월동2가 2-5 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -692,14 +787,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "142",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:43",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -735,9 +832,9 @@
           "number": "032-752-9608",
           "score": 100,
           "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -748,14 +845,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회"
         }
       ],
       "households": "1044",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-11 20:34:46",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -791,9 +889,9 @@
           "number": "032-891-3881",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -802,14 +900,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "270",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:50",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -845,9 +944,9 @@
           "number": "032-762-1929",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -856,14 +955,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "408",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:53",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -899,9 +999,9 @@
           "number": "032-777-8044",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -910,14 +1010,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "240",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:34:57",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -946,16 +1047,18 @@
       "jibunAddress": "인천 중구 신흥동2가 54-5",
       "phone": "032-882-0749",
       "phones": [
-        "032-882-0749"
+        "032-882-0749",
+        "032-884-0749"
       ],
       "phoneCandidates": [
         {
           "number": "032-882-0749",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 신흥동2가 54-5 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -964,14 +1067,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-884-0749",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 신흥동2가 54-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "434",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:01",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1000,16 +1118,19 @@
       "jibunAddress": "인천 중구 신흥동3가 7-235",
       "phone": "032-882-0091",
       "phones": [
-        "032-882-0091"
+        "032-882-0091",
+        "032-882-0092"
       ],
       "phoneCandidates": [
         {
           "number": "032-882-0091",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 인천 중구 신흥동3가 7-235 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1018,14 +1139,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "032-882-0092",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 신흥동3가 7-235 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1330",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:05",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1061,9 +1198,9 @@
           "number": "032-884-9316",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1072,14 +1209,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "299",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:09",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1108,16 +1246,18 @@
       "jibunAddress": "인천 중구 신흥동3가 53-4",
       "phone": "032-884-1367",
       "phones": [
-        "032-884-1367"
+        "032-884-1367",
+        "032-213-1367"
       ],
       "phoneCandidates": [
         {
           "number": "032-884-1367",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 신흥동3가 53-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1126,14 +1266,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-213-1367",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 신흥동3가 53-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "497",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:13",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1169,9 +1324,9 @@
           "number": "032-746-9029",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1180,14 +1335,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "770",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:17",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1223,9 +1379,9 @@
           "number": "032-746-5201",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1234,14 +1390,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "450",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:20",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1270,16 +1427,17 @@
       "jibunAddress": "인천 중구 중산동 1871-5",
       "phone": "032-746-9972",
       "phones": [
-        "032-746-9972"
+        "032-746-9972",
+        "032-746-9973"
       ],
       "phoneCandidates": [
         {
           "number": "032-746-9972",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1288,14 +1446,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "032-746-9973",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 중구 중산동 1871-5 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "784",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:23",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1331,9 +1503,9 @@
           "number": "032-752-1067",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1342,14 +1514,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "457",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:27",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1385,9 +1558,9 @@
           "number": "032-752-1112",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1396,14 +1569,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "514",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:30",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1439,9 +1613,9 @@
           "number": "032-751-9914",
           "score": 100,
           "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -1452,14 +1626,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회"
         }
       ],
       "households": "447",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-11 20:35:34",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1488,16 +1663,18 @@
       "jibunAddress": "인천 중구 운남동 1710-2",
       "phone": "032-746-7895",
       "phones": [
-        "032-746-7895"
+        "032-746-7895",
+        "032-746-7896"
       ],
       "phoneCandidates": [
         {
           "number": "032-746-7895",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 운남동 1710-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1506,14 +1683,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-746-7896",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 운남동 1710-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "671",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:37",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1549,9 +1741,9 @@
           "number": "032-752-8970",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1560,14 +1752,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "657",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:41",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1596,16 +1789,18 @@
       "jibunAddress": "인천 중구 중산동 1911-3",
       "phone": "032-752-8774",
       "phones": [
-        "032-752-8774"
+        "032-752-8774",
+        "032-752-8775"
       ],
       "phoneCandidates": [
         {
           "number": "032-752-8774",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 중산동 1911-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1614,14 +1809,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-752-8775",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 중산동 1911-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "675",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:44",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1657,9 +1867,9 @@
           "number": "032-752-5533",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1668,14 +1878,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "360",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:48",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1711,9 +1922,9 @@
           "number": "032-751-5533",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1722,14 +1933,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "454",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:51",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1764,10 +1976,11 @@
         {
           "number": "032-751-0213",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 운서동 2923 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1776,14 +1989,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "328",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:55",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1812,16 +2027,18 @@
       "jibunAddress": "인천 중구 운서동 2924",
       "phone": "032-752-7999",
       "phones": [
-        "032-752-7999"
+        "032-752-7999",
+        "032-752-6999"
       ],
       "phoneCandidates": [
         {
           "number": "032-752-7999",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 운서동 2924 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1830,14 +2047,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-752-6999",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 운서동 2924 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "160",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:35:58",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1866,16 +2098,18 @@
       "jibunAddress": "인천 중구 중산동 1872-2",
       "phone": "032-751-8812",
       "phones": [
-        "032-751-8812"
+        "032-751-8812",
+        "032-751-8813"
       ],
       "phoneCandidates": [
         {
           "number": "032-751-8812",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 중산동 1872-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1884,14 +2118,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "032-751-8813",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 중산동 1872-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "585",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:01",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1920,16 +2170,18 @@
       "jibunAddress": "인천 중구 운남동 1709-1",
       "phone": "032-751-5567",
       "phones": [
-        "032-751-5567"
+        "032-751-5567",
+        "032-751-5569"
       ],
       "phoneCandidates": [
         {
           "number": "032-751-5567",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 운남동 1709-1 관리사무소, 인천 중구 운남동 1709-1 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1938,14 +2190,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "032-751-5569",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 운남동 1709-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1224",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:05",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -1974,16 +2241,18 @@
       "jibunAddress": "인천 중구 운서동 2785-11",
       "phone": "032-746-2484",
       "phones": [
-        "032-746-2484"
+        "032-746-2484",
+        "032-746-2485"
       ],
       "phoneCandidates": [
         {
           "number": "032-746-2484",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 운서동 2785-11 관리사무소, 인천 중구 운서동 2785-11 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1992,14 +2261,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "032-746-2485",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "인천 중구 운서동 2785-11 관리사무소, 인천 중구 운서동 2785-11 관리실",
+          "sourceCounts": {
+            "네이버": 2,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 2회"
         }
       ],
       "households": "231",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:08",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -2035,9 +2321,9 @@
           "number": "032-752-8476",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2046,14 +2332,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1604",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:12",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -2082,16 +2369,18 @@
       "jibunAddress": "인천 중구 중산동 1872-1",
       "phone": "032-747-1614",
       "phones": [
-        "032-747-1614"
+        "032-747-1614",
+        "022-1214-2500",
+        "022-1214-2480"
       ],
       "phoneCandidates": [
         {
           "number": "032-747-1614",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2100,14 +2389,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "022-1214-2500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 중산동 1872-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "022-1214-2480",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 중산동 1872-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1002",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:15",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -2136,16 +2452,18 @@
       "jibunAddress": "인천 중구 운남동 1710-1",
       "phone": "032-746-8861",
       "phones": [
-        "032-746-8861"
+        "032-746-8861",
+        "032-746-8871"
       ],
       "phoneCandidates": [
         {
           "number": "032-746-8861",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 운남동 1710-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2154,14 +2472,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-746-8871",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 운남동 1710-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "560",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:19",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -2196,10 +2529,11 @@
         {
           "number": "032-746-2204",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 중산동 1881-1 관리사무소, 인천 중구 중산동 1881-1 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2208,14 +2542,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "1680",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:22",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -2244,16 +2580,18 @@
       "jibunAddress": "인천 중구 운서동 3085-1",
       "phone": "032-746-2030",
       "phones": [
-        "032-746-2030"
+        "032-746-2030",
+        "032-746-2031"
       ],
       "phoneCandidates": [
         {
           "number": "032-746-2030",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 운서동 3085-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2262,14 +2600,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "032-746-2031",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 운서동 3085-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "243",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:26",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -2298,16 +2651,20 @@
       "jibunAddress": "인천 중구 운남동 1550",
       "phone": "032-751-0041",
       "phones": [
-        "032-751-0041"
+        "032-751-0041",
+        "032-751-0047",
+        "05-5498-4089",
+        "070-7793-0300"
       ],
       "phoneCandidates": [
         {
           "number": "032-751-0041",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 운남동 1550 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2316,14 +2673,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "032-751-0047",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 운남동 1550 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "05-5498-4089",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 운남동 1550 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-7793-0300",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 운남동 1550 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1022",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:29",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -2359,9 +2758,9 @@
           "number": "032-752-1201",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2370,14 +2769,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "740",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:33",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -2406,16 +2806,17 @@
       "jibunAddress": "인천 중구 운서동 2786-1",
       "phone": "032-752-0053",
       "phones": [
-        "032-752-0053"
+        "032-752-0053",
+        "023-1000-0590"
       ],
       "phoneCandidates": [
         {
           "number": "032-752-0053",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2424,14 +2825,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "023-1000-0590",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 중구 운서동 2786-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "323",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:36",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -2460,16 +2875,17 @@
       "jibunAddress": "인천 중구 운서동 2709-3",
       "phone": "032-746-5135",
       "phones": [
-        "032-746-5135"
+        "032-746-5135",
+        "032-746-5136"
       ],
       "phoneCandidates": [
         {
           "number": "032-746-5135",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2478,14 +2894,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "032-746-5136",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 중구 운서동 2709-3 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "295",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:39",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
@@ -2514,16 +2944,19 @@
       "jibunAddress": "인천 중구 운서동 2747-5",
       "phone": "032-751-2747",
       "phones": [
-        "032-751-2747"
+        "032-751-2747",
+        "032-751-4599",
+        "032-751-2748"
       ],
       "phoneCandidates": [
         {
           "number": "032-751-2747",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 인천 중구 운서동 2747-5 관리사무소, 인천 중구 운서동 2747-5 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2532,14 +2965,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "032-751-4599",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 중구 운서동 2747-5 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-751-2748",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "인천 중구 운서동 2747-5 관리사무소, 인천 중구 운서동 2747-5 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "366",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-11 20:36:43",
       "detailUpdatedAt": 1781224751025,
       "listUpdatedAt": 1781224751025,
       "phoneStatus": "CONFIRMED",
