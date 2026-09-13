@@ -1,6 +1,6 @@
 {
-  "version": 1787074356,
-  "updatedAt": "2026-08-18 17:32:36",
+  "version": 1789328475,
+  "updatedAt": "2026-09-13 19:41:15",
   "sido": "전북특별자치도",
   "sigungu": "임실군",
   "count": 13,
@@ -24,16 +24,17 @@
       "jibunAddress": "전북특별자치도 임실군 임실읍 이도리 272",
       "phone": "063-644-0226",
       "phones": [
-        "063-644-0226"
+        "063-644-0226",
+        "063-640-2393"
       ],
       "phoneCandidates": [
         {
           "number": "063-644-0226",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +43,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "063-640-2393",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "전북특별자치도 임실군 임실읍 이도리 272 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "192",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:41:08",
       "detailUpdatedAt": 1781314237312,
       "listUpdatedAt": 1781314237312,
       "phoneStatus": "CONFIRMED",
@@ -78,16 +93,18 @@
       "jibunAddress": "전북특별자치도 임실군 임실읍 이도리 958",
       "phone": "063-644-3133",
       "phones": [
-        "063-644-3133"
+        "063-644-3133",
+        "063-644-3314"
       ],
       "phoneCandidates": [
         {
           "number": "063-644-3133",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 전북특별자치도 임실군 임실읍 이도리 958 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -96,14 +113,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "063-644-3314",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "전북특별자치도 임실군 임실읍 이도리 958 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "374",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:41:11",
       "detailUpdatedAt": 1781314237312,
       "listUpdatedAt": 1781314237312,
       "phoneStatus": "CONFIRMED",

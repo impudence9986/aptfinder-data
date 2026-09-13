@@ -1,6 +1,6 @@
 {
-  "version": 1789238048,
-  "updatedAt": "2026-09-12 18:34:08",
+  "version": 1789326639,
+  "updatedAt": "2026-09-13 19:10:39",
   "sido": "경기도",
   "sigungu": "화성시",
   "count": 601,
@@ -26022,16 +26022,19 @@
       "jibunAddress": "경기 화성시 병점구 안녕동 246",
       "phone": "031-221-1902",
       "phones": [
-        "031-221-1902"
+        "031-221-1902",
+        "031-221-1903",
+        "031-221-1196"
       ],
       "phoneCandidates": [
         {
           "number": "031-221-1902",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26040,14 +26043,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "031-221-1903",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-221-1196",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "650",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 18:59:30",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26076,16 +26107,20 @@
       "jibunAddress": "경기 화성시 효행구 기안동 935",
       "phone": "031-8043-5137",
       "phones": [
-        "031-8043-5137"
+        "031-8043-5137",
+        "031-8043-5138",
+        "031-898-8575",
+        "031-898-8576"
       ],
       "phoneCandidates": [
         {
           "number": "031-8043-5137",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 효행구 기안동 935 관리사무소, 경기 화성시 효행구 기안동 935 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26094,14 +26129,57 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-8043-5138",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 효행구 기안동 935 관리사무소, 경기 화성시 효행구 기안동 935 관리실",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-898-8575",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-898-8576",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "420",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:00:04",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26130,16 +26208,20 @@
       "jibunAddress": "경기 화성시 효행구 기안동 928",
       "phone": "031-898-8575",
       "phones": [
-        "031-898-8575"
+        "031-898-8575",
+        "031-898-8576",
+        "031-221-7058"
       ],
       "phoneCandidates": [
         {
           "number": "031-898-8575",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 효행구 기안동 928 관리사무소, 경기 화성시 효행구 기안동 928 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26148,14 +26230,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-898-8576",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 효행구 기안동 928 관리사무소, 경기 화성시 효행구 기안동 928 관리실",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-221-7058",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "737",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:00:27",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26184,16 +26297,19 @@
       "jibunAddress": "경기 화성시 만세구 우정읍 조암리 840",
       "phone": "031-8055-8121",
       "phones": [
-        "031-8055-8121"
+        "031-8055-8121",
+        "031-8055-8122"
       ],
       "phoneCandidates": [
         {
           "number": "031-8055-8121",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 만세구 우정읍 조암리 840 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26202,14 +26318,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-8055-8122",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "224",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:00:59",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26238,16 +26370,20 @@
       "jibunAddress": "경기 화성시 만세구 팔탄면 가재리 692-1",
       "phone": "031-353-3382",
       "phones": [
-        "031-353-3382"
+        "031-353-3382",
+        "031-353-8926",
+        "031-377-2464"
       ],
       "phoneCandidates": [
         {
           "number": "031-353-3382",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 만세구 팔탄면 가재리 692-1 관리사무소, 경기 화성시 만세구 팔탄면 가재리 692-1 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26256,14 +26392,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-353-8926",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 만세구 팔탄면 가재리 692-1 관리사무소, 경기 화성시 만세구 팔탄면 가재리 692-1 관리실",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-377-2464",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "656",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:01:22",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26292,16 +26459,20 @@
       "jibunAddress": "경기 화성시 병점구 안녕동 210",
       "phone": "031-225-5727",
       "phones": [
-        "031-225-5727"
+        "031-225-5727",
+        "031-267-3538",
+        "031-876-8959"
       ],
       "phoneCandidates": [
         {
           "number": "031-225-5727",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 병점구 안녕동 210 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26310,14 +26481,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-267-3538",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 병점구 안녕동 210 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-876-8959",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "278",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:01:51",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26346,16 +26548,20 @@
       "jibunAddress": "경기 화성시 병점구 진안동 910",
       "phone": "031-233-1762",
       "phones": [
-        "031-233-1762"
+        "031-233-1762",
+        "031-233-1926",
+        "031-233-1761"
       ],
       "phoneCandidates": [
         {
           "number": "031-233-1762",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 병점구 진안동 910 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26364,14 +26570,46 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-233-1926",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 병점구 진안동 910 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-233-1761",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "1178",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:02:37",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26400,16 +26638,20 @@
       "jibunAddress": "경기 화성시 병점구 병점동 850",
       "phone": "031-233-1761",
       "phones": [
-        "031-233-1761"
+        "031-233-1761",
+        "031-233-1543",
+        "031-308-3743"
       ],
       "phoneCandidates": [
         {
           "number": "031-233-1761",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 병점구 병점동 850 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26418,14 +26660,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-233-1543",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 병점구 병점동 850 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-308-3743",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "990",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:03:05",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26454,16 +26727,20 @@
       "jibunAddress": "경기 화성시 병점구 병점동 848",
       "phone": "031-236-5597",
       "phones": [
-        "031-236-5597"
+        "031-236-5597",
+        "031-236-5598",
+        "031-378-5076",
+        "031-378-5074"
       ],
       "phoneCandidates": [
         {
           "number": "031-236-5597",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 병점구 병점동 848 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26472,14 +26749,58 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-236-5598",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 병점구 병점동 848 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-378-5076",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-378-5074",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "836",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:03:36",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26508,16 +26829,20 @@
       "jibunAddress": "경기 화성시 만세구 향남읍 상신리 1331",
       "phone": "031-8059-5320",
       "phones": [
-        "031-8059-5320"
+        "031-8059-5320",
+        "031-8059-7915",
+        "031-366-2017"
       ],
       "phoneCandidates": [
         {
           "number": "031-8059-5320",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 만세구 향남읍 상신리 1331 관리사무소, 경기 화성시 만세구 향남읍 상신리 1331 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26526,14 +26851,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-8059-7915",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 만세구 향남읍 상신리 1331 관리사무소, 경기 화성시 만세구 향남읍 상신리 1331 관리실",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-366-2017",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "1742",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:04:21",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26562,16 +26918,20 @@
       "jibunAddress": "경기 화성시 만세구 향남읍 하길리 1444",
       "phone": "031-8059-5673",
       "phones": [
-        "031-8059-5673"
+        "031-8059-5673",
+        "031-8059-5674",
+        "031-340-6555"
       ],
       "phoneCandidates": [
         {
           "number": "031-8059-5673",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 만세구 향남읍 하길리 1444 관리사무소, 경기 화성시 만세구 향남읍 하길리 1444 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26580,14 +26940,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-8059-5674",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 만세구 향남읍 하길리 1444 관리사무소, 경기 화성시 만세구 향남읍 하길리 1444 관리실",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-340-6555",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "544",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:05:06",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26616,16 +27007,21 @@
       "jibunAddress": "경기 화성시 만세구 향남읍 하길리 1447",
       "phone": "031-354-7892",
       "phones": [
-        "031-354-7892"
+        "031-354-7892",
+        "031-8059-2531",
+        "031-8059-5674",
+        "031-354-4355"
       ],
       "phoneCandidates": [
         {
           "number": "031-354-7892",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 만세구 향남읍 하길리 1447 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26634,14 +27030,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-8059-2531",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-8059-5674",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-354-4355",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 향남읍 하길리 1447 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "704",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:05:30",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26670,16 +27108,21 @@
       "jibunAddress": "경기 화성시 만세구 향남읍 하길리 1464",
       "phone": "031-8059-2531",
       "phones": [
-        "031-8059-2531"
+        "031-8059-2531",
+        "031-8059-2532",
+        "031-8059-7651",
+        "031-8059-1009"
       ],
       "phoneCandidates": [
         {
           "number": "031-8059-2531",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 만세구 향남읍 하길리 1464 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26688,14 +27131,58 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-8059-2532",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 만세구 향남읍 하길리 1464 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-8059-7651",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-8059-1009",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 향남읍 하길리 1464 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1122",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:05:58",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26724,16 +27211,20 @@
       "jibunAddress": "경기 화성시 만세구 향남읍 상신리 1258",
       "phone": "031-366-2017",
       "phones": [
-        "031-366-2017"
+        "031-366-2017",
+        "031-366-2018",
+        "031-8059-2531"
       ],
       "phoneCandidates": [
         {
           "number": "031-366-2017",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 만세구 향남읍 상신리 1258 관리사무소, 경기 화성시 만세구 향남읍 상신리 1258 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26742,14 +27233,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-366-2018",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 만세구 향남읍 상신리 1258 관리사무소, 경기 화성시 만세구 향남읍 상신리 1258 관리실",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-8059-2531",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "922",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:06:44",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26849,16 +27371,21 @@
       "jibunAddress": "경기 화성시 만세구 향남읍 하길리 1502",
       "phone": "031-8047-6246",
       "phones": [
-        "031-8047-6246"
+        "031-8047-6246",
+        "031-8059-0222",
+        "031-8047-6254",
+        "031-8047-6247"
       ],
       "phoneCandidates": [
         {
           "number": "031-8047-6246",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 만세구 향남읍 하길리 1502 관리사무소, 경기 화성시 만세구 향남읍 하길리 1502 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26867,14 +27394,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-8059-0222",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-8047-6254",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-8047-6247",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 향남읍 하길리 1502 관리사무소, 경기 화성시 만세구 향남읍 하길리 1502 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "980",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:07:07",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26903,16 +27472,20 @@
       "jibunAddress": "경기 화성시 만세구 향남읍 하길리 1505",
       "phone": "031-8047-6237",
       "phones": [
-        "031-8047-6237"
+        "031-8047-6237",
+        "031-8047-6238",
+        "031-8047-6246"
       ],
       "phoneCandidates": [
         {
           "number": "031-8047-6237",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 만세구 향남읍 하길리 1505 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26921,14 +27494,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-8047-6238",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경기 화성시 만세구 향남읍 하길리 1505 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-8047-6246",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "1124",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:07:52",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -26957,16 +27561,19 @@
       "jibunAddress": "경기 화성시 만세구 향남읍 하길리 1507",
       "phone": "031-8047-6254",
       "phones": [
-        "031-8047-6254"
+        "031-8047-6254",
+        "031-8047-6255"
       ],
       "phoneCandidates": [
         {
           "number": "031-8047-6254",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경기 화성시 만세구 향남읍 하길리 1507 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26975,14 +27582,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-8047-6255",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 향남읍 하길리 1507 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "684",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:08:39",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27011,16 +27634,18 @@
       "jibunAddress": "경기 화성시 효행구 봉담읍 동화리 594",
       "phone": "031-298-7172",
       "phones": [
-        "031-298-7172"
+        "031-298-7172",
+        "031-298-7173"
       ],
       "phoneCandidates": [
         {
           "number": "031-298-7172",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 효행구 봉담읍 동화리 594 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27029,14 +27654,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-298-7173",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 효행구 봉담읍 동화리 594 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "622",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:08:54",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27065,16 +27705,18 @@
       "jibunAddress": "경기 화성시 효행구 봉담읍 동화리 611",
       "phone": "031-298-4461",
       "phones": [
-        "031-298-4461"
+        "031-298-4461",
+        "031-298-4462"
       ],
       "phoneCandidates": [
         {
           "number": "031-298-4461",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 효행구 봉담읍 동화리 611 관리사무소, 경기 화성시 효행구 봉담읍 동화리 611 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27083,14 +27725,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-298-4462",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 화성시 효행구 봉담읍 동화리 611 관리사무소, 경기 화성시 효행구 봉담읍 동화리 611 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "915",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:08:58",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27119,16 +27776,18 @@
       "jibunAddress": "경기 화성시 효행구 봉담읍 동화리 603",
       "phone": "031-298-2821",
       "phones": [
-        "031-298-2821"
+        "031-298-2821",
+        "031-298-2822"
       ],
       "phoneCandidates": [
         {
           "number": "031-298-2821",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 효행구 봉담읍 동화리 603 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27137,14 +27796,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-298-2822",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 효행구 봉담읍 동화리 603 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "480",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:01",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27173,16 +27847,18 @@
       "jibunAddress": "경기 화성시 효행구 봉담읍 동화리 628",
       "phone": "031-278-7013",
       "phones": [
-        "031-278-7013"
+        "031-278-7013",
+        "031-278-7014"
       ],
       "phoneCandidates": [
         {
           "number": "031-278-7013",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 효행구 봉담읍 동화리 628 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27191,14 +27867,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-278-7014",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 효행구 봉담읍 동화리 628 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "880",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:05",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27227,16 +27918,18 @@
       "jibunAddress": "경기 화성시 효행구 봉담읍 동화리 580",
       "phone": "031-298-7311",
       "phones": [
-        "031-298-7311"
+        "031-298-7311",
+        "031-298-7312"
       ],
       "phoneCandidates": [
         {
           "number": "031-298-7311",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 효행구 봉담읍 동화리 580 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27245,14 +27938,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-298-7312",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 효행구 봉담읍 동화리 580 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "736",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:09",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27288,9 +27996,9 @@
           "number": "031-372-5787",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27299,14 +28007,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1479",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:12",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27335,16 +28044,18 @@
       "jibunAddress": "경기 화성시 동탄구 영천동 833",
       "phone": "031-378-4340",
       "phones": [
-        "031-378-4340"
+        "031-378-4340",
+        "031-378-4342"
       ],
       "phoneCandidates": [
         {
           "number": "031-378-4340",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 동탄구 영천동 833 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27353,14 +28064,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-378-4342",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 동탄구 영천동 833 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "443",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:16",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27389,16 +28115,18 @@
       "jibunAddress": "경기 화성시 동탄구 여울동 1013",
       "phone": "031-376-9335",
       "phones": [
-        "031-376-9335"
+        "031-376-9335",
+        "031-376-9336"
       ],
       "phoneCandidates": [
         {
           "number": "031-376-9335",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 동탄구 여울동 1013 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27407,14 +28135,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-376-9336",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 동탄구 여울동 1013 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "125",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:21",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27450,9 +28193,9 @@
           "number": "031-376-1227",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27461,14 +28204,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "585",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:24",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27574,10 +28318,11 @@
         {
           "number": "031-278-9070",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 효행구 봉담읍 내리 882 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27586,14 +28331,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "2333",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:29",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -27820,16 +28567,18 @@
       "jibunAddress": "경기 화성시 만세구 우정읍 화산리 617-7",
       "phone": "031-358-2629",
       "phones": [
-        "031-358-2629"
+        "031-358-2629",
+        "031-351-2629"
       ],
       "phoneCandidates": [
         {
           "number": "031-358-2629",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 만세구 우정읍 기아자동차로 561-6 관리사무소, 경기 화성시 만세구 우정읍 기아자동차로 561-6 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -27838,14 +28587,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-351-2629",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 우정읍 기아자동차로 561-6 관리사무소, 경기 화성시 만세구 우정읍 기아자동차로 561-6 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "296",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:32",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -28288,9 +29052,9 @@
         "031-355-6453",
         "031-356-4222",
         "031-355-3477",
-        "010-9765-2223",
-        "031-267-3923",
         "031-210-1269",
+        "031-267-3923",
+        "010-9765-2223",
         "031-355-8033",
         "031-355-3656",
         "031-222-8134",
@@ -28300,18 +29064,20 @@
         {
           "number": "031-355-6452",
           "score": 100,
-          "source": "네이버, 114On",
+          "source": "네이버, 114On, 카카오",
           "keyword": "경기 화성시 만세구 남양읍 남양리 2048 관리사무소, 경기 화성시 만세구 남양읍 남양리 2048 관리실, 경기 화성시 만세구 남양읍 남양리 2048 전화번호, 남양읍 남양아이파크 관리사무소, 화성시 남양아이파크 관리사무소, 화성시 만세구 남양아이파크 관리사무소, 화성시 남양아이파크 관리실, 남양아이파크아파트 관리사무소,",
           "sourceCounts": {
-            "네이버": 19,
-            "114On": 2
+            "네이버": 20,
+            "114On": 2,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 12,
+            "네이버 웹검색": 13,
             "네이버 블로그검색": 7,
-            "114On/네이버 스니펫": 2
+            "114On/네이버 스니펫": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "114On 2회 · 네이버 19회"
+          "sourceSummary": "114On 2회 · 카카오 1회 · 네이버 20회"
         },
         {
           "number": "031-356-1585",
@@ -28345,12 +29111,12 @@
           "source": "네이버",
           "keyword": "경기 화성시 만세구 남양읍 남양리 2048 관리사무소, 경기 화성시 만세구 남양읍 남양리 2048 관리실, 경기 화성시 만세구 남양읍 남양리 2048 전화번호, 남양읍 남양아이파크 관리사무소, 화성시 남양아이파크 관리사무소, 화성시 만세구 남양아이파크 관리사무소, 화성시 남양아이파크 관리실, 남양아이파크아파트 관리사무소,",
           "sourceCounts": {
-            "네이버": 12
+            "네이버": 13
           },
           "sourceDetails": {
-            "네이버 웹검색": 12
+            "네이버 웹검색": 13
           },
-          "sourceSummary": "네이버 12회"
+          "sourceSummary": "네이버 13회"
         },
         {
           "number": "031-356-4222",
@@ -28380,6 +29146,32 @@
           "sourceSummary": "네이버 3회"
         },
         {
+          "number": "031-210-1269",
+          "score": 99,
+          "source": "네이버",
+          "keyword": "남양읍 남양아이파크 관리사무소, 남양아이파크아파트 전화번호, 남양아이파크 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-267-3923",
+          "score": 95,
+          "source": "네이버",
+          "keyword": "화성시 남양아이파크 관리실, 남양아이파크아파트 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
           "number": "010-9765-2223",
           "score": 91,
           "source": "114On",
@@ -28393,34 +29185,8 @@
           "sourceSummary": "114On 1회"
         },
         {
-          "number": "031-267-3923",
-          "score": 87,
-          "source": "네이버",
-          "keyword": "화성시 남양아이파크 관리실, 남양아이파크아파트 관리실",
-          "sourceCounts": {
-            "네이버": 2
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 2
-          },
-          "sourceSummary": "네이버 2회"
-        },
-        {
-          "number": "031-210-1269",
-          "score": 83,
-          "source": "네이버",
-          "keyword": "남양읍 남양아이파크 관리사무소, 남양아이파크아파트 전화번호, 남양아이파크 전화번호",
-          "sourceCounts": {
-            "네이버": 3
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 3
-          },
-          "sourceSummary": "네이버 3회"
-        },
-        {
           "number": "031-355-8033",
-          "score": 83,
+          "score": 91,
           "source": "네이버",
           "keyword": "화성시 남양아이파크 관리실, 남양아이파크아파트 관리실",
           "sourceCounts": {
@@ -28433,7 +29199,7 @@
         },
         {
           "number": "031-355-3656",
-          "score": 61,
+          "score": 69,
           "source": "네이버",
           "keyword": "남양아이파크아파트 관리실, 남양아이파크 관리실",
           "sourceCounts": {
@@ -28502,35 +29268,79 @@
       "jibunAddress": "경기 화성시 만세구 남양읍 남양리 2047",
       "phone": "031-356-9779",
       "phones": [
-        "031-356-9779"
+        "031-356-9779",
+        "031-355-8033",
+        "031-355-8044",
+        "031-369-2741"
       ],
       "phoneCandidates": [
         {
           "number": "031-356-9779",
-          "score": 95,
+          "score": 100,
           "source": "카카오 5회, 카카오 4회, 카카오 3회, 카카오 1회",
-          "keyword": "남양우림필유아파트 전화번호, 남양우림필유 전화번호",
+          "keyword": "남양우림필유아파트 전화번호, 남양우림필유 전화번호, verify_existing",
           "sourceCounts": {
-            "카카오": 6
+            "카카오": 7
           },
           "sourceDetails": {
             "카카오 5회": 1,
             "카카오 4회": 1,
             "카카오 3회": 1,
             "카카오 1회": 1,
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 6회": 1
           },
-          "sourceSummary": "카카오 6회"
+          "sourceSummary": "카카오 7회"
+        },
+        {
+          "number": "031-355-8033",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 남양읍 남양리 2047 관리사무소, 경기 화성시 만세구 남양읍 남양리 2047 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-355-8044",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 남양읍 남양리 2047 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-369-2741",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 남양읍 남양리 2047 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 6회",
+      "verifiedAt": "2026-09-13 19:10:00",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 95,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_화성시_남양우림필유"
@@ -29690,16 +30500,18 @@
         {
           "number": "031-357-7831",
           "score": 100,
-          "source": "네이버",
-          "keyword": "경기 화성시 만세구 남양읍 남양리 2221 관리사무소, 경기 화성시 만세구 남양읍 남양리 2221 관리실, 경기 화성시 만세구 남양읍 남양리 2221 전화번호, 화성시 화성남양뉴타운루나포레 관리사무소, 화성남양뉴타운루나포레아파트 전화번호, 화성남양뉴타운루나포레 전화번호",
+          "source": "네이버, 카카오",
+          "keyword": "경기 화성시 만세구 남양읍 남양리 2221 관리사무소, 경기 화성시 만세구 남양읍 남양리 2221 관리실, 경기 화성시 만세구 남양읍 남양리 2221 전화번호, 화성시 화성남양뉴타운루나포레 관리사무소, 화성남양뉴타운루나포레아파트 전화번호, 화성남양뉴타운루나포레 전화번호, verify_existing",
           "sourceCounts": {
-            "네이버": 6
+            "네이버": 8,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 3,
-            "네이버 카페검색": 3
+            "네이버 웹검색": 5,
+            "네이버 카페검색": 3,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 6회"
+          "sourceSummary": "카카오 1회 · 네이버 8회"
         },
         {
           "number": "031-357-0278",
@@ -29707,13 +30519,13 @@
           "source": "네이버",
           "keyword": "경기 화성시 만세구 남양읍 남양리 2221 관리사무소, 경기 화성시 만세구 남양읍 남양리 2221 관리실, 경기 화성시 만세구 남양읍 남양리 2221 전화번호, 화성남양뉴타운루나포레아파트 전화번호, 화성남양뉴타운루나포레 전화번호",
           "sourceCounts": {
-            "네이버": 5
+            "네이버": 7
           },
           "sourceDetails": {
-            "네이버 웹검색": 3,
+            "네이버 웹검색": 5,
             "네이버 카페검색": 2
           },
-          "sourceSummary": "네이버 5회"
+          "sourceSummary": "네이버 7회"
         },
         {
           "number": "031-357-0258",
@@ -31277,16 +32089,18 @@
       "jibunAddress": "경기 화성시 병점구 병점동 860",
       "phone": "031-221-8380",
       "phones": [
-        "031-221-8380"
+        "031-221-8380",
+        "031-308-5545"
       ],
       "phoneCandidates": [
         {
           "number": "031-221-8380",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 병점구 병점동 860 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -31295,14 +32109,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-308-5545",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 병점구 병점동 860 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "477",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:36",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -35263,16 +36092,18 @@
       "jibunAddress": "경기 화성시 효행구 비봉면 구포리 1556",
       "phone": "031-356-6327",
       "phones": [
-        "031-356-6327"
+        "031-356-6327",
+        "031-356-6328"
       ],
       "phoneCandidates": [
         {
           "number": "031-356-6327",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 효행구 비봉면 새비봉동로 37 관리사무소, 경기 화성시 효행구 비봉면 새비봉동로 37 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -35281,14 +36112,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-356-6328",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 화성시 효행구 비봉면 새비봉동로 37 관리사무소, 경기 화성시 효행구 비봉면 새비봉동로 37 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "652",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:40",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -35324,9 +36170,9 @@
           "number": "031-356-3953",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -35335,14 +36181,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "440",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:44",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -37045,16 +37892,18 @@
       "jibunAddress": "경기 화성시 병점구 안녕동 248",
       "phone": "031-222-5101",
       "phones": [
-        "031-222-5101"
+        "031-222-5101",
+        "031-222-5102"
       ],
       "phoneCandidates": [
         {
           "number": "031-222-5101",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 병점구 안녕동 248 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -37063,14 +37912,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-222-5102",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 병점구 안녕동 248 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "790",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:48",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -37099,16 +37963,18 @@
       "jibunAddress": "경기 화성시 병점구 안녕동 247",
       "phone": "031-223-4100",
       "phones": [
-        "031-223-4100"
+        "031-223-4100",
+        "031-223-4101"
       ],
       "phoneCandidates": [
         {
           "number": "031-223-4100",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 병점구 안녕동 247 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -37117,14 +37983,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "031-223-4101",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 병점구 안녕동 247 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "640",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:09:52",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -37317,16 +38198,18 @@
       "phones": [
         "080-999-5425",
         "031-358-0677",
-        "070-4419-0911"
+        "070-4419-0911",
+        "031-351-4275",
+        "031-358-4276"
       ],
       "phoneCandidates": [
         {
           "number": "080-999-5425",
           "score": 100,
           "source": "카카오 9회, 카카오 8회, 카카오 7회, 카카오 6회, 카카오 5회, 카카오 3회, 카카오 2회, 카카오 1회",
-          "keyword": "화성조암한라비발디아파트 전화번호, 화성조암한라비발디 전화번호",
+          "keyword": "화성조암한라비발디아파트 전화번호, 화성조암한라비발디 전화번호, verify_existing",
           "sourceCounts": {
-            "카카오": 10
+            "카카오": 11
           },
           "sourceDetails": {
             "카카오 9회": 1,
@@ -37337,13 +38220,14 @@
             "카카오 3회": 1,
             "카카오 2회": 1,
             "카카오 1회": 1,
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 10회": 1
           },
-          "sourceSummary": "카카오 10회"
+          "sourceSummary": "카카오 11회"
         },
         {
           "number": "031-358-0677",
-          "score": 79,
+          "score": 87,
           "source": "카카오",
           "keyword": "화성조암한라비발디아파트 전화번호, 화성조암한라비발디 전화번호",
           "sourceCounts": {
@@ -37356,7 +38240,7 @@
         },
         {
           "number": "070-4419-0911",
-          "score": 77,
+          "score": 85,
           "source": "카카오",
           "keyword": "화성조암한라비발디아파트 전화번호, 화성조암한라비발디 전화번호",
           "sourceCounts": {
@@ -37366,11 +38250,37 @@
             "카카오 주소일치 전화번호 보강": 2
           },
           "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "031-351-4275",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 우정읍 조암리 791 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-358-4276",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 우정읍 조암리 791 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
       "source": "카카오 장소검색",
-      "verifiedAt": "카카오 10회",
+      "verifiedAt": "2026-09-13 19:10:07",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
@@ -37771,9 +38681,9 @@
           "number": "031-8059-0351",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -37782,14 +38692,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "544",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:10:11",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -37825,9 +38736,9 @@
           "number": "031-353-4516",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -37836,14 +38747,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "638",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:10:15",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -37879,9 +38791,9 @@
           "number": "031-8059-1141",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -37890,14 +38802,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "788",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:10:19",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -37933,9 +38846,9 @@
           "number": "031-8059-3314",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -37944,14 +38857,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "622",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:10:23",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -37980,16 +38894,18 @@
       "jibunAddress": "경기 화성시 만세구 향남읍 행정리 470",
       "phone": "031-354-0219",
       "phones": [
-        "031-354-0219"
+        "031-354-0219",
+        "031-354-0239"
       ],
       "phoneCandidates": [
         {
           "number": "031-354-0219",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 만세구 향남읍 행정동로 101 관리사무소, 경기 화성시 만세구 향남읍 행정동로 101 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -37998,14 +38914,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-354-0239",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 화성시 만세구 향남읍 행정동로 101 관리사무소, 경기 화성시 만세구 향남읍 행정동로 101 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "941",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:10:27",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -39424,16 +40355,18 @@
       "jibunAddress": "경기 화성시 동탄구 송동 692",
       "phone": "031-372-2767",
       "phones": [
-        "031-372-2767"
+        "031-372-2767",
+        "031-372-2762"
       ],
       "phoneCandidates": [
         {
           "number": "031-372-2767",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경기 화성시 동탄구 송동 692 관리사무소, 경기 화성시 동탄구 송동 692 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -39442,14 +40375,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "031-372-2762",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 화성시 동탄구 송동 692 관리사무소, 경기 화성시 동탄구 송동 692 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "917",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:10:31",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
@@ -39485,9 +40433,9 @@
           "number": "031-8077-4705",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -39496,14 +40444,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "104",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-13 19:10:35",
       "detailUpdatedAt": 1781014499398,
       "listUpdatedAt": 1781014499398,
       "phoneStatus": "CONFIRMED",
