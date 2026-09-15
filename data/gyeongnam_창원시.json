@@ -1,6 +1,6 @@
 {
-  "version": 1789417389,
-  "updatedAt": "2026-09-14 20:23:09",
+  "version": 1789501767,
+  "updatedAt": "2026-09-15 19:49:27",
   "sido": "경상남도",
   "sigungu": "창원시",
   "count": 428,
@@ -23510,16 +23510,19 @@
       "jibunAddress": "경상남도 창원시 마산회원구 석전동15길 40",
       "phone": "055-293-2525",
       "phones": [
-        "055-293-2525"
+        "055-293-2525",
+        "055-273-2080",
+        "055-256-0096"
       ],
       "phoneCandidates": [
         {
           "number": "055-293-2525",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23528,14 +23531,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "055-273-2080",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "055-256-0096",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "68",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:43:07",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -23564,16 +23595,24 @@
       "jibunAddress": "경남 창원시 진해구 용원동 1336-4",
       "phone": "055-551-6200",
       "phones": [
-        "055-551-6200"
+        "055-551-6200",
+        "055-551-6644",
+        "055-552-8245",
+        "025-0901-1044",
+        "025-0707-1649",
+        "055-547-5672",
+        "051-941-5559"
       ],
       "phoneCandidates": [
         {
           "number": "055-551-6200",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경남 창원시 진해구 신항동로 226 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23582,14 +23621,97 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "055-551-6644",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경남 창원시 진해구 신항동로 226 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "055-552-8245",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "025-0901-1044",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 신항동로 226 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0707-1649",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 신항동로 226 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-547-5672",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 신항동로 226 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-941-5559",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 신항동로 226 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "647",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:43:39",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -23618,16 +23740,20 @@
       "jibunAddress": "경남 창원시 진해구 용원동 1337",
       "phone": "055-547-5403",
       "phones": [
-        "055-547-5403"
+        "055-547-5403",
+        "055-547-5404",
+        "055-551-6644"
       ],
       "phoneCandidates": [
         {
           "number": "055-547-5403",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 경남 창원시 진해구 신항동로 225 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23636,14 +23762,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "055-547-5404",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경남 창원시 진해구 신항동로 225 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "055-551-6644",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "606",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:44:03",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -23672,16 +23829,21 @@
       "jibunAddress": "경남 창원시 진해구 용원동 1337-5",
       "phone": "055-542-4911",
       "phones": [
-        "055-542-4911"
+        "055-542-4911",
+        "055-551-6644",
+        "055-551-6200",
+        "055-552-8245",
+        "055-542-4912"
       ],
       "phoneCandidates": [
         {
           "number": "055-542-4911",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 진해구 신항동로 265 관리사무소, 경남 창원시 진해구 신항동로 265 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23690,14 +23852,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "055-551-6644",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "055-551-6200",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "055-552-8245",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "055-542-4912",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 신항동로 265 관리사무소, 경남 창원시 진해구 신항동로 265 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "762",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:44:29",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -23726,16 +23942,19 @@
       "jibunAddress": "경남 창원시 진해구 용원동 1341-2",
       "phone": "055-552-1340",
       "phones": [
-        "055-552-1340"
+        "055-552-1340",
+        "055-551-6644",
+        "055-551-6200"
       ],
       "phoneCandidates": [
         {
           "number": "055-552-1340",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23744,14 +23963,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "055-551-6644",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "055-551-6200",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "1250",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:44:52",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -23780,16 +24027,20 @@
       "jibunAddress": "경남 창원시 진해구 용원동 1338-2",
       "phone": "055-543-8600",
       "phones": [
-        "055-543-8600"
+        "055-543-8600",
+        "055-543-8601",
+        "055-551-6644",
+        "055-551-6200"
       ],
       "phoneCandidates": [
         {
           "number": "055-543-8600",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 진해구 신항동로 143 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23798,14 +24049,57 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-543-8601",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 경남 창원시 진해구 신항동로 143 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "055-551-6644",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "055-551-6200",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "792",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:45:20",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -23834,16 +24128,18 @@
       "jibunAddress": "경상남도 창원시 마산회원구 양덕동2길 76",
       "phone": "055-294-6245",
       "phones": [
-        "055-294-6245"
+        "055-294-6245",
+        "055-294-6246"
       ],
       "phoneCandidates": [
         {
           "number": "055-294-6245",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23852,14 +24148,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "055-294-6246",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "572",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:45:47",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -23895,9 +24206,9 @@
           "number": "055-293-7283",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23906,14 +24217,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "257",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:11",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -23949,9 +24261,9 @@
           "number": "055-255-9235",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -23960,14 +24272,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "180",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:15",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -23996,16 +24309,18 @@
       "jibunAddress": "경상남도 창원시 마산회원구 양덕동2길 20",
       "phone": "055-293-4888",
       "phones": [
-        "055-293-4888"
+        "055-293-4888",
+        "055-293-5888"
       ],
       "phoneCandidates": [
         {
           "number": "055-293-4888",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경상남도 창원시 마산회원구 양덕동2길 20 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24014,14 +24329,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-293-5888",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경상남도 창원시 마산회원구 양덕동2길 20 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "981",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:19",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24057,9 +24387,9 @@
           "number": "055-293-9682",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24068,14 +24398,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "119",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:22",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24111,9 +24442,9 @@
           "number": "055-247-2231",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24122,14 +24453,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:26",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24165,9 +24497,9 @@
           "number": "055-243-2454",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24176,14 +24508,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "158",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:30",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24212,16 +24545,18 @@
       "jibunAddress": "경상남도 창원시 마산합포구 오동동14길 67",
       "phone": "055-241-5552",
       "phones": [
-        "055-241-5552"
+        "055-241-5552",
+        "055-241-5554"
       ],
       "phoneCandidates": [
         {
           "number": "055-241-5552",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경상남도 창원시 마산합포구 오동동14길 67 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24230,14 +24565,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-241-5554",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경상남도 창원시 마산합포구 오동동14길 67 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "536",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:34",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24266,16 +24616,17 @@
       "jibunAddress": "경상남도 창원시 마산합포구 오동동10길 73",
       "phone": "055-243-6123",
       "phones": [
-        "055-243-6123"
+        "055-243-6123",
+        "055-248-8253"
       ],
       "phoneCandidates": [
         {
           "number": "055-243-6123",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24284,14 +24635,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "055-248-8253",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경상남도 창원시 마산합포구 오동동10길 73 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "214",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:37",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24320,16 +24685,17 @@
       "jibunAddress": "경남 창원시 성산구 용호동 69",
       "phone": "055-286-0881",
       "phones": [
-        "055-286-0881"
+        "055-286-0881",
+        "055-715-7326"
       ],
       "phoneCandidates": [
         {
           "number": "055-286-0881",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24338,14 +24704,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "055-715-7326",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 성산구 외동반림로 156 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "883",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:41",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24374,16 +24754,19 @@
       "jibunAddress": "경남 창원시 성산구 용호동 67-2",
       "phone": "055-285-7256",
       "phones": [
-        "055-285-7256"
+        "055-285-7256",
+        "055-285-7258"
       ],
       "phoneCandidates": [
         {
           "number": "055-285-7256",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 성산구 외동반림로 200 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24392,14 +24775,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "055-285-7258",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 성산구 외동반림로 200 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1040",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:44",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24428,16 +24827,19 @@
       "jibunAddress": "경남 창원시 성산구 용호동 66",
       "phone": "055-283-5611",
       "phones": [
-        "055-283-5611"
+        "055-283-5611",
+        "055-284-2282"
       ],
       "phoneCandidates": [
         {
           "number": "055-283-5611",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 성산구 외동반림로 216 관리사무소, 경남 창원시 성산구 외동반림로 216 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24446,14 +24848,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "055-284-2282",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 성산구 외동반림로 216 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "810",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:48",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24488,10 +24906,11 @@
         {
           "number": "055-281-6400",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 성산구 외동반림로 219 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24500,14 +24919,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "1200",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:51",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24543,9 +24964,9 @@
           "number": "055-552-9107",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24554,14 +24975,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "498",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:55",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24590,16 +25012,18 @@
       "jibunAddress": "경남 창원시 진해구 두동 1296-2",
       "phone": "055-543-5590",
       "phones": [
-        "055-543-5590"
+        "055-543-5590",
+        "055-543-5591"
       ],
       "phoneCandidates": [
         {
           "number": "055-543-5590",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 진해구 웅동로 182 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24608,14 +25032,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-543-5591",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 웅동로 182 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "141",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:46:59",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24650,10 +25089,11 @@
         {
           "number": "055-552-8385",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 진해구 웅동로51번길 24-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24662,14 +25102,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "150",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:02",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24698,16 +25141,19 @@
       "jibunAddress": "경남 창원시 진해구 두동 1296-1",
       "phone": "055-547-3394",
       "phones": [
-        "055-547-3394"
+        "055-547-3394",
+        "055-547-3171",
+        "055-552-8385"
       ],
       "phoneCandidates": [
         {
           "number": "055-547-3394",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 진해구 웅동로 150 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 3
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24716,14 +25162,44 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 3회"
+        },
+        {
+          "number": "055-547-3171",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 웅동로 150 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-552-8385",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 웅동로 150 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "274",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:06",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24759,9 +25235,9 @@
           "number": "055-546-3005",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24770,14 +25246,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "876",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:10",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24806,16 +25283,20 @@
       "jibunAddress": "경남 창원시 진해구 남문동 1256-2",
       "phone": "055-551-0573",
       "phones": [
-        "055-551-0573"
+        "055-551-0573",
+        "055-551-0574",
+        "025-0819-1647",
+        "026-0120-1547"
       ],
       "phoneCandidates": [
         {
           "number": "055-551-0573",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 진해구 웅천동로106번길 20 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24824,14 +25305,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-551-0574",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 웅천동로106번길 20 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0819-1647",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 웅천동로106번길 20 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0120-1547",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 웅천동로106번길 20 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "299",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:13",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24867,9 +25389,9 @@
           "number": "055-547-8777",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24878,14 +25400,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1103",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:17",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24921,9 +25444,9 @@
           "number": "055-542-9686",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24932,14 +25455,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "487",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:21",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -24968,16 +25492,18 @@
       "jibunAddress": "경남 창원시 진해구 남문동 1275-1",
       "phone": "055-551-0570",
       "phones": [
-        "055-551-0570"
+        "055-551-0570",
+        "055-551-0572"
       ],
       "phoneCandidates": [
         {
           "number": "055-551-0570",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 진해구 웅천동로 13 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -24986,14 +25512,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-551-0572",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 웅천동로 13 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "458",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:24",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25022,16 +25563,20 @@
       "jibunAddress": "경남 창원시 진해구 남문동 1293-1",
       "phone": "055-545-8600",
       "phones": [
-        "055-545-8600"
+        "055-545-8600",
+        "055-545-8601",
+        "025-0702-1055",
+        "055-542-3939"
       ],
       "phoneCandidates": [
         {
           "number": "055-545-8600",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 진해구 웅천동로43번길 19 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25040,14 +25585,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-545-8601",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 웅천동로43번길 19 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0702-1055",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 웅천동로43번길 19 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-542-3939",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 웅천동로43번길 19 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "944",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:28",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25076,16 +25662,19 @@
       "jibunAddress": "경남 창원시 마산합포구 해운동 37-4",
       "phone": "055-223-4955",
       "phones": [
-        "055-223-4955"
+        "055-223-4955",
+        "055-602-0042",
+        "055-224-4955"
       ],
       "phoneCandidates": [
         {
           "number": "055-223-4955",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 마산합포구 월영동로 8 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25094,14 +25683,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "055-602-0042",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경남 창원시 마산합포구 월영동로 8 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "055-224-4955",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 마산합포구 월영동로 8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "199",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:32",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25137,9 +25755,9 @@
           "number": "055-222-7028",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25148,14 +25766,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "390",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:36",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25191,9 +25810,9 @@
           "number": "055-248-5646",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25202,14 +25821,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "612",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:39",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25245,9 +25865,9 @@
           "number": "055-241-6935",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25256,14 +25876,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "594",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:43",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25298,10 +25919,11 @@
         {
           "number": "055-223-5545",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경상남도 창원시 마산합포구 월영동11길 57 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25310,14 +25932,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "160",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:46",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25352,10 +25976,11 @@
         {
           "number": "055-247-8682",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 마산합포구 월영동남로 16 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25364,14 +25989,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "190",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:50",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25407,9 +26034,9 @@
           "number": "055-243-7310",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25418,14 +26045,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "224",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:54",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25461,9 +26089,9 @@
           "number": "055-241-7021",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25472,14 +26100,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "198",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:47:57",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25515,9 +26144,9 @@
           "number": "055-223-1466",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25526,14 +26155,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "210",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:01",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25569,9 +26199,9 @@
           "number": "055-246-7959",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25580,14 +26210,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "140",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:05",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25623,9 +26254,9 @@
           "number": "055-241-2353",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25634,14 +26265,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "140",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:08",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25670,16 +26302,26 @@
       "jibunAddress": "경남 창원시 진해구 자은동",
       "phone": "055-546-7305",
       "phones": [
-        "055-546-7305"
+        "055-546-7305",
+        "055-547-8297",
+        "055-547-8298",
+        "055-545-5285",
+        "055-552-5285",
+        "055-541-1331",
+        "055-541-1332",
+        "055-552-9224",
+        "055-552-9225",
+        "055-546-6630",
+        "055-551-6630"
       ],
       "phoneCandidates": [
         {
           "number": "055-546-7305",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25688,14 +26330,145 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "055-547-8297",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 자은동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-547-8298",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 자은동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-545-5285",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 자은동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-552-5285",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 자은동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-541-1331",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 자은동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-541-1332",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 자은동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-552-9224",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 자은동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-552-9225",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 자은동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-546-6630",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 자은동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-551-6630",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 자은동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "456",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:12",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25731,9 +26504,9 @@
           "number": "055-285-4826",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25742,14 +26515,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "288",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:16",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25778,16 +26552,18 @@
       "jibunAddress": "경남 창원시 성산구 남산동 601-4",
       "phone": "055-282-4141",
       "phones": [
-        "055-282-4141"
+        "055-282-4141",
+        "055-282-4142"
       ],
       "phoneCandidates": [
         {
           "number": "055-282-4141",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 성산구 정동로162번길 49 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25796,14 +26572,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-282-4142",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 성산구 정동로162번길 49 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "190",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:20",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25832,16 +26623,18 @@
       "jibunAddress": "경남 창원시 성산구 남산동 601-26",
       "phone": "055-281-1301",
       "phones": [
-        "055-281-1301"
+        "055-281-1301",
+        "055-281-1303"
       ],
       "phoneCandidates": [
         {
           "number": "055-281-1301",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 성산구 정동로162번길 78 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25850,14 +26643,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-281-1303",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 성산구 정동로162번길 78 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "460",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:24",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25893,9 +26701,9 @@
           "number": "055-263-7524",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25904,14 +26712,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "588",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:28",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25947,9 +26756,9 @@
           "number": "055-282-5077",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -25958,14 +26767,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "166",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:31",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -25994,16 +26804,18 @@
       "jibunAddress": "경남 창원시 의창구 중동 788",
       "phone": "055-292-1768",
       "phones": [
-        "055-292-1768"
+        "055-292-1768",
+        "055-292-1769"
       ],
       "phoneCandidates": [
         {
           "number": "055-292-1768",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 의창구 중동 788 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26012,14 +26824,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-292-1769",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 의창구 중동 788 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1768",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:35",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26048,16 +26875,19 @@
       "jibunAddress": "경남 창원시 의창구 중동 790",
       "phone": "055-293-1803",
       "phones": [
-        "055-293-1803"
+        "055-293-1803",
+        "055-293-1805",
+        "055-296-2200"
       ],
       "phoneCandidates": [
         {
           "number": "055-293-1803",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 의창구 중동 790 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26066,14 +26896,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-293-1805",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 의창구 중동 790 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "055-296-2200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 의창구 중동 790 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1803",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:39",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26109,9 +26967,9 @@
           "number": "055-253-1064",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26120,14 +26978,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1064",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:43",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26156,16 +27015,19 @@
       "jibunAddress": "경남 창원시 의창구 중동 786",
       "phone": "055-255-1465",
       "phones": [
-        "055-255-1465"
+        "055-255-1465",
+        "055-252-1465",
+        "033-660-3262"
       ],
       "phoneCandidates": [
         {
           "number": "055-255-1465",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 의창구 중동 786 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26174,14 +27036,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-252-1465",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 의창구 중동 786 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "033-660-3262",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 의창구 중동 786 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1465",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:46",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26217,9 +27107,9 @@
           "number": "055-223-1934",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26228,14 +27118,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "622",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:50",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26271,9 +27162,9 @@
           "number": "055-245-0508",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26282,14 +27173,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "239",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:54",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26325,9 +27217,9 @@
           "number": "055-223-6895",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26336,14 +27228,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "459",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:48:58",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26372,16 +27265,19 @@
       "jibunAddress": "경남 창원시 진해구 광화동 26",
       "phone": "055-541-9085",
       "phones": [
-        "055-541-9085"
+        "055-541-9085",
+        "055-541-9087",
+        "026-0528-2050"
       ],
       "phoneCandidates": [
         {
           "number": "055-541-9085",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 진해구 중원동로 33 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26390,14 +27286,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-541-9087",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 중원동로 33 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0528-2050",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 중원동로 33 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "164",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:49:02",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26426,16 +27350,18 @@
       "jibunAddress": "경남 창원시 진해구 부흥동 1-1",
       "phone": "055-543-8831",
       "phones": [
-        "055-543-8831"
+        "055-543-8831",
+        "055-543-8832"
       ],
       "phoneCandidates": [
         {
           "number": "055-543-8831",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경남 창원시 진해구 중원동로 38 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26444,14 +27370,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-543-8832",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경남 창원시 진해구 중원동로 38 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "204",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:49:05",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26480,16 +27421,18 @@
       "jibunAddress": "경상남도 창원진해구 풍호동 305-14 바다마을아파트",
       "phone": "055-542-2626",
       "phones": [
-        "055-542-2626"
+        "055-542-2626",
+        "055-542-2727"
       ],
       "phoneCandidates": [
         {
           "number": "055-542-2626",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 경상남도 창원진해구 풍호동 305-14 바다마을아파트 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26498,14 +27441,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "055-542-2727",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경상남도 창원진해구 풍호동 305-14 바다마을아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "500",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:49:09",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26541,9 +27499,9 @@
           "number": "055-277-7798",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26552,14 +27510,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "123",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:49:13",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26595,9 +27554,9 @@
           "number": "055-245-7757",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26606,14 +27565,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "445",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:49:16",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26649,9 +27609,9 @@
           "number": "055-241-2001",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26660,14 +27620,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "339",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:49:20",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
@@ -26703,9 +27664,9 @@
           "number": "055-221-0734",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -26714,14 +27675,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1124",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-15 19:49:24",
       "detailUpdatedAt": 1781384234862,
       "listUpdatedAt": 1781384234862,
       "phoneStatus": "CONFIRMED",
