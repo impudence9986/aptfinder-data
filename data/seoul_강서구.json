@@ -1,6 +1,6 @@
 {
-  "version": 1786556091,
-  "updatedAt": "2026-08-12 17:34:51",
+  "version": 1789588933,
+  "updatedAt": "2026-09-16 20:02:13",
   "sido": "서울특별시",
   "sigungu": "강서구",
   "count": 305,
@@ -31,9 +31,9 @@
           "number": "022-668-9916",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -42,14 +42,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "499",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:11",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -78,16 +79,18 @@
       "jibunAddress": "서울 강서구 가양동 1461",
       "phone": "026-735-4805",
       "phones": [
-        "026-735-4805"
+        "026-735-4805",
+        "022-668-6470"
       ],
       "phoneCandidates": [
         {
           "number": "026-735-4805",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1461 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -96,14 +99,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-668-6470",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1461 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1624",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:14",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -132,16 +150,19 @@
       "jibunAddress": "서울 강서구 가양동 1475",
       "phone": "022-668-7755",
       "phones": [
-        "022-668-7755"
+        "022-668-7755",
+        "026-735-7755",
+        "02-2668-7755"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-7755",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1475 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -150,14 +171,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-735-7755",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1475 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2668-7755",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1475 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1556",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:19",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -186,16 +235,20 @@
       "jibunAddress": "서울 강서구 가양동 1478",
       "phone": "022-668-5241",
       "phones": [
-        "022-668-5241"
+        "022-668-5241",
+        "02-2668-5241",
+        "02-2658-5243",
+        "022-658-5243"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-5241",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1478 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -204,14 +257,57 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-2668-5241",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 강서구 가양동 1478 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-2658-5243",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 가양동 1478 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-658-5243",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 가양동 1478 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "1998",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:23",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -240,16 +336,21 @@
       "jibunAddress": "서울 강서구 가양동 1481",
       "phone": "022-668-7000",
       "phones": [
-        "022-668-7000"
+        "022-668-7000",
+        "02-2668-7000",
+        "02-2659-0360",
+        "022-659-0360",
+        "022-668-9744"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-7000",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1481 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -258,14 +359,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2668-7000",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 가양동 1481 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2659-0360",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 가양동 1481 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-659-0360",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 가양동 1481 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-668-9744",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1481 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2412",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:27",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -294,16 +449,19 @@
       "jibunAddress": "서울 강서구 가양동 1485",
       "phone": "022-668-4807",
       "phones": [
-        "022-668-4807"
+        "022-668-4807",
+        "02-2668-4807",
+        "022-668-5256"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-4807",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1485 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -312,14 +470,44 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2668-4807",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 강서구 가양동 1485 관리사무소, 서울 강서구 가양동 1485 관리실",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "022-668-5256",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1485 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1476",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:31",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -348,16 +536,19 @@
       "jibunAddress": "서울 강서구 가양동 1486",
       "phone": "022-668-3088",
       "phones": [
-        "022-668-3088"
+        "022-668-3088",
+        "022-668-3089",
+        "02-2668-8600"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-3088",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1486 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -366,14 +557,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-668-3089",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1486 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2668-8600",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1486 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1998",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:35",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -402,16 +621,18 @@
       "jibunAddress": "서울 강서구 가양동 1489",
       "phone": "022-668-7753",
       "phones": [
-        "022-668-7753"
+        "022-668-7753",
+        "022-668-9682"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-7753",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1489 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -420,14 +641,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-668-9682",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1489 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "914",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:39",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -456,16 +692,19 @@
       "jibunAddress": "서울 강서구 가양동 1490",
       "phone": "022-668-6147",
       "phones": [
-        "022-668-6147"
+        "022-668-6147",
+        "023-661-0732",
+        "02-2600-7745"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-6147",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1490 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -474,14 +713,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-661-0732",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1490 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2600-7745",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1490 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1005",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:43",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -510,16 +777,20 @@
       "jibunAddress": "서울 강서구 가양동 448-1",
       "phone": "023-664-0775",
       "phones": [
-        "023-664-0775"
+        "023-664-0775",
+        "02-3664-0775",
+        "023-664-0776"
       ],
       "phoneCandidates": [
         {
           "number": "023-664-0775",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 448-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -528,14 +799,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-3664-0775",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 가양동 448-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-664-0776",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 448-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "642",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:47",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -564,16 +864,18 @@
       "jibunAddress": "서울 강서구 가양동 1474",
       "phone": "022-659-7257",
       "phones": [
-        "022-659-7257"
+        "022-659-7257",
+        "026-738-5582"
       ],
       "phoneCandidates": [
         {
           "number": "022-659-7257",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1474 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -582,14 +884,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-738-5582",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1474 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "540",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:51",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -618,16 +935,18 @@
       "jibunAddress": "서울 강서구 가양동 1482",
       "phone": "022-668-9000",
       "phones": [
-        "022-668-9000"
+        "022-668-9000",
+        "022-668-6386"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-9000",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1482 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -636,14 +955,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-668-6386",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1482 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1110",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:55",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -672,16 +1006,17 @@
       "jibunAddress": "서울 강서구 가양동 448",
       "phone": "022-659-1414",
       "phones": [
-        "022-659-1414"
+        "022-659-1414",
+        "02-3664-0775"
       ],
       "phoneCandidates": [
         {
           "number": "022-659-1414",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -690,14 +1025,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-3664-0775",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 448 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "114",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:58:59",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -726,16 +1075,18 @@
       "jibunAddress": "서울 강서구 가양동 1459",
       "phone": "022-659-6771",
       "phones": [
-        "022-659-6771"
+        "022-659-6771",
+        "026-735-6770"
       ],
       "phoneCandidates": [
         {
           "number": "022-659-6771",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1459 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -744,14 +1095,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-735-6770",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1459 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "660",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:03",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -780,16 +1146,17 @@
       "jibunAddress": "서울 강서구 가양동 1497",
       "phone": "022-668-6775",
       "phones": [
-        "022-668-6775"
+        "022-668-6775",
+        "02-2668-6775"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-6775",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -798,14 +1165,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2668-6775",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 가양동 1497 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:07",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -841,9 +1222,9 @@
           "number": "023-662-6167",
           "score": 100,
           "source": "K-apt 10회, K-apt 8회, K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 11
+            "K-apt": 12
           },
           "sourceDetails": {
             "K-apt 10회": 1,
@@ -854,14 +1235,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 11회": 1
           },
-          "sourceSummary": "K-apt 11회"
+          "sourceSummary": "K-apt 12회"
         }
       ],
       "households": "220",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 11회",
+      "verifiedAt": "2026-09-16 19:59:11",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -890,16 +1272,20 @@
       "jibunAddress": "서울 강서구 가양동 448-9",
       "phone": "023-662-7738",
       "phones": [
-        "023-662-7738"
+        "023-662-7738",
+        "02-3662-7738",
+        "026-084-8353"
       ],
       "phoneCandidates": [
         {
           "number": "023-662-7738",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 448-9 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -908,14 +1294,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-3662-7738",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 가양동 448-9 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-084-8353",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 448-9 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "137",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:15",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -944,16 +1359,18 @@
       "jibunAddress": "서울 강서구 가양동 14-3",
       "phone": "023-662-4142",
       "phones": [
-        "023-662-4142"
+        "023-662-4142",
+        "023-662-3833"
       ],
       "phoneCandidates": [
         {
           "number": "023-662-4142",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 14-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -962,14 +1379,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-662-3833",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 14-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "414",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:20",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -998,16 +1430,20 @@
       "jibunAddress": "서울 강서구 가양동 1496",
       "phone": "022-658-0862",
       "phones": [
-        "022-658-0862"
+        "022-658-0862",
+        "022-658-0863",
+        "00-2020-0010",
+        "02-3664-7878"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-0862",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1496 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1016,14 +1452,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-658-0863",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1496 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-2020-0010",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1496 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3664-7878",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1496 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "177",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:24",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1052,16 +1529,17 @@
       "jibunAddress": "서울 강서구 가양동 1467",
       "phone": "023-664-8542",
       "phones": [
-        "023-664-8542"
+        "023-664-8542",
+        "02-3664-8542"
       ],
       "phoneCandidates": [
         {
           "number": "023-664-8542",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1070,14 +1548,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-3664-8542",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1467 관리사무소, 서울 강서구 가양동 1467 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "164",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:28",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1106,16 +1598,19 @@
       "jibunAddress": "서울 강서구 가양동 1495",
       "phone": "023-664-0511",
       "phones": [
-        "023-664-0511"
+        "023-664-0511",
+        "02-3665-8570",
+        "023-665-2067"
       ],
       "phoneCandidates": [
         {
           "number": "023-664-0511",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1495 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1124,14 +1619,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-3665-8570",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 가양동 1495 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-665-2067",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 가양동 1495 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "359",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:32",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1160,16 +1683,19 @@
       "jibunAddress": "서울 강서구 염창동 299",
       "phone": "023-664-0047",
       "phones": [
-        "023-664-0047"
+        "023-664-0047",
+        "023-664-0164",
+        "02-6091-2715"
       ],
       "phoneCandidates": [
         {
           "number": "023-664-0047",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 염창동 299 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1178,14 +1704,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-664-0164",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 염창동 299 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6091-2715",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 염창동 299 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "417",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:36",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1221,9 +1775,9 @@
           "number": "022-065-2224",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1232,14 +1786,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "523",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:40",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1274,10 +1829,11 @@
         {
           "number": "02-2603-3325",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 화곡동 1071-19 관리사무소, 서울 강서구 화곡동 1071-19 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1286,14 +1842,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
         }
       ],
       "households": "",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:44",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1464,16 +2022,18 @@
       "jibunAddress": "서울 강서구 염창동 308",
       "phone": "022-658-2524",
       "phones": [
-        "022-658-2524"
+        "022-658-2524",
+        "022-658-2522"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-2524",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 염창동 308 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1482,14 +2042,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-658-2522",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 염창동 308 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "152",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:48",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1525,9 +2100,9 @@
           "number": "023-665-5020",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1536,14 +2111,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "160",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:52",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1578,10 +2154,11 @@
         {
           "number": "023-664-7080",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 가양동 1462 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1590,14 +2167,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "144",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 19:59:56",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1697,16 +2276,21 @@
       "jibunAddress": "서울 강서구 화곡동 1165",
       "phone": "022-604-5234",
       "phones": [
-        "022-604-5234"
+        "022-604-5234",
+        "02-2600-7745",
+        "022-604-0234",
+        "002-0240-0140",
+        "02-6959-5040"
       ],
       "phoneCandidates": [
         {
           "number": "022-604-5234",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 화곡동 1165 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1715,14 +2299,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2600-7745",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 강서구 화곡동 1165 관리사무소, 서울 강서구 화곡동 1165 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "022-604-0234",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 화곡동 1165 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "002-0240-0140",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 화곡동 1165 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6959-5040",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 화곡동 1165 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2603",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:00",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1912,9 +2550,9 @@
           "number": "023-665-2625",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1923,14 +2561,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "194",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:04",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -1959,16 +2598,22 @@
       "jibunAddress": "서울 강서구 등촌동 640",
       "phone": "022-668-1081",
       "phones": [
-        "022-668-1081"
+        "022-668-1081",
+        "02-2668-1081",
+        "02-3663-7954",
+        "02-3662-5671",
+        "02-676-9005",
+        "02-3663-1825"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-1081",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 640 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1977,14 +2622,81 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-2668-1081",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 640 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3663-7954",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 640 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3662-5671",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 640 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-676-9005",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 640 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3663-1825",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 640 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "101",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:08",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2013,16 +2725,19 @@
       "jibunAddress": "서울 강서구 등촌동 688",
       "phone": "023-663-2497",
       "phones": [
-        "023-663-2497"
+        "023-663-2497",
+        "02-3663-2498",
+        "023-663-2498",
+        "02-3663-2497"
       ],
       "phoneCandidates": [
         {
           "number": "023-663-2497",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2031,14 +2746,54 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-3663-2498",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 688 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-663-2498",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 688 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3663-2497",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 688 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1016",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:12",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2067,16 +2822,18 @@
       "jibunAddress": "서울 강서구 등촌동 707",
       "phone": "022-658-0221",
       "phones": [
-        "022-658-0221"
+        "022-658-0221",
+        "022-658-5985"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-0221",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 707 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2085,14 +2842,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-658-5985",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 707 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "445",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:16",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2121,16 +2893,17 @@
       "jibunAddress": "서울 강서구 등촌동 715",
       "phone": "022-646-5504",
       "phones": [
-        "022-646-5504"
+        "022-646-5504",
+        "02-2646-5507"
       ],
       "phoneCandidates": [
         {
           "number": "022-646-5504",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2139,14 +2912,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2646-5507",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 715 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1653",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:20",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2175,16 +2962,20 @@
       "jibunAddress": "서울 강서구 등촌동 631-9",
       "phone": "023-664-7373",
       "phones": [
-        "023-664-7373"
+        "023-664-7373",
+        "02-3664-7373",
+        "022-646-5504",
+        "026-347-5504"
       ],
       "phoneCandidates": [
         {
           "number": "023-664-7373",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 631-9 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2193,14 +2984,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-3664-7373",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 631-9 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-646-5504",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 631-9 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-347-5504",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 631-9 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "241",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:24",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2229,16 +3061,20 @@
       "jibunAddress": "서울 강서구 등촌동 713",
       "phone": "023-664-4566",
       "phones": [
-        "023-664-4566"
+        "023-664-4566",
+        "026-012-2543",
+        "02-3664-7373",
+        "02-3664-7372"
       ],
       "phoneCandidates": [
         {
           "number": "023-664-4566",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 713 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2247,14 +3083,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-012-2543",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 713 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3664-7373",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 713 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3664-7372",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 713 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "196",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:28",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2283,16 +3160,19 @@
       "jibunAddress": "서울 강서구 등촌동 694",
       "phone": "022-658-2140",
       "phones": [
-        "022-658-2140"
+        "022-658-2140",
+        "02-2658-2140",
+        "022-658-2141"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-2140",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 694 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2301,14 +3181,44 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2658-2140",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 강서구 등촌동 694 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "022-658-2141",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 694 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "680",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:32",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2337,16 +3247,20 @@
       "jibunAddress": "서울 강서구 등촌동 561-1",
       "phone": "022-649-8736",
       "phones": [
-        "022-649-8736"
+        "022-649-8736",
+        "02-2649-8736",
+        "026-097-8736"
       ],
       "phoneCandidates": [
         {
           "number": "022-649-8736",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 561-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2355,14 +3269,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-2649-8736",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 561-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-097-8736",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 561-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "222",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:36",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2391,16 +3334,20 @@
       "jibunAddress": "서울 강서구 등촌동 691-1",
       "phone": "023-663-2087",
       "phones": [
-        "023-663-2087"
+        "023-663-2087",
+        "02-3663-2087",
+        "02-3663-2088",
+        "023-663-2088"
       ],
       "phoneCandidates": [
         {
           "number": "023-663-2087",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 691-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2409,14 +3356,59 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-3663-2087",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 강서구 등촌동 691-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-3663-2088",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 강서구 등촌동 691-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "023-663-2088",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 691-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "457",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:40",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2452,9 +3444,9 @@
           "number": "023-663-1828",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2463,14 +3455,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "105",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:44",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2499,16 +3492,20 @@
       "jibunAddress": "서울 강서구 등촌동 628-15",
       "phone": "026-735-4600",
       "phones": [
-        "026-735-4600"
+        "026-735-4600",
+        "022-659-0406",
+        "02-3663-2087",
+        "02-3663-2088"
       ],
       "phoneCandidates": [
         {
           "number": "026-735-4600",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 628-15 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2517,14 +3514,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-659-0406",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 628-15 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3663-2087",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 628-15 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3663-2088",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 628-15 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "317",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:48",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2553,16 +3591,18 @@
       "jibunAddress": "서울 강서구 등촌동 701",
       "phone": "022-658-0085",
       "phones": [
-        "022-658-0085"
+        "022-658-0085",
+        "023-663-3735"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-0085",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 701 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2571,14 +3611,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-663-3735",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 701 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "488",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:52",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2607,16 +3662,18 @@
       "jibunAddress": "서울 강서구 등촌동 691-3",
       "phone": "022-658-0251",
       "phones": [
-        "022-658-0251"
+        "022-658-0251",
+        "02-2658-0251"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-0251",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 691-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2625,14 +3682,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-2658-0251",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 691-3 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "712",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:00:56",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2661,16 +3733,19 @@
       "jibunAddress": "서울 강서구 등촌동 632-4",
       "phone": "023-665-4891",
       "phones": [
-        "023-665-4891"
+        "023-665-4891",
+        "023-665-4892",
+        "022-695-0406"
       ],
       "phoneCandidates": [
         {
           "number": "023-665-4891",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 632-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2679,14 +3754,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-665-4892",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 632-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "022-695-0406",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 632-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "244",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:01",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2715,16 +3818,19 @@
       "jibunAddress": "서울 강서구 등촌동 638",
       "phone": "022-668-7449",
       "phones": [
-        "022-668-7449"
+        "022-668-7449",
+        "02-2668-7449",
+        "02-3665-4891",
+        "02-3665-4892"
       ],
       "phoneCandidates": [
         {
           "number": "022-668-7449",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2733,14 +3839,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2668-7449",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 강서구 등촌동 638 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-3665-4891",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 638 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3665-4892",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 638 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "430",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:05",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2769,16 +3917,17 @@
       "jibunAddress": "서울 강서구 등촌동 630-11",
       "phone": "023-662-5709",
       "phones": [
-        "023-662-5709"
+        "023-662-5709",
+        "02-3662-6246"
       ],
       "phoneCandidates": [
         {
           "number": "023-662-5709",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2787,14 +3936,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-3662-6246",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 630-11 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "134",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:09",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2823,16 +3986,18 @@
       "jibunAddress": "서울 강서구 등촌동 630-3",
       "phone": "023-662-5709",
       "phones": [
-        "023-662-5709"
+        "023-662-5709",
+        "026-092-5709"
       ],
       "phoneCandidates": [
         {
           "number": "023-662-5709",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 630-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2841,14 +4006,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-092-5709",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 630-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "110",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:13",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2877,16 +4057,20 @@
       "jibunAddress": "서울 강서구 등촌동 711",
       "phone": "022-659-0519",
       "phones": [
-        "022-659-0519"
+        "022-659-0519",
+        "02-2659-0519",
+        "023-664-1432"
       ],
       "phoneCandidates": [
         {
           "number": "022-659-0519",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 711 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2895,14 +4079,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-2659-0519",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 711 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-664-1432",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 711 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "145",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:17",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2931,16 +4144,25 @@
       "jibunAddress": "서울 강서구 등촌동 562-5",
       "phone": "026-094-1524",
       "phones": [
-        "026-094-1524"
+        "026-094-1524",
+        "026-094-1525",
+        "024-1128-1149",
+        "025-0609-1158",
+        "025-0925-1232",
+        "025-0205-0907",
+        "026-0528-1105",
+        "025-0115-1438"
       ],
       "phoneCandidates": [
         {
           "number": "026-094-1524",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 562-5 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2949,14 +4171,110 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "026-094-1525",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "서울 강서구 등촌동 562-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "024-1128-1149",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 562-5 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "025-0609-1158",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 562-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0925-1232",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 562-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0205-0907",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 562-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0528-1105",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 562-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0115-1438",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 562-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "168",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:22",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -2985,16 +4303,19 @@
       "jibunAddress": "서울 강서구 등촌동 687",
       "phone": "022-658-5000",
       "phones": [
-        "022-658-5000"
+        "022-658-5000",
+        "02-2658-9688",
+        "022-658-5001"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-5000",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 687 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3003,14 +4324,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2658-9688",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 687 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-658-5001",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 687 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1670",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:26",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3039,16 +4388,18 @@
       "jibunAddress": "서울 강서구 등촌동 702",
       "phone": "023-663-1041",
       "phones": [
-        "023-663-1041"
+        "023-663-1041",
+        "023-665-0209"
       ],
       "phoneCandidates": [
         {
           "number": "023-663-1041",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 702 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3057,14 +4408,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-665-0209",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 702 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "566",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:30",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3093,16 +4459,18 @@
       "jibunAddress": "서울 강서구 등촌동 705-6",
       "phone": "023-661-0966",
       "phones": [
-        "023-661-0966"
+        "023-661-0966",
+        "023-661-0967"
       ],
       "phoneCandidates": [
         {
           "number": "023-661-0966",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 705-6 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3111,14 +4479,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-661-0967",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 705-6 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "350",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:34",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3147,16 +4530,19 @@
       "jibunAddress": "서울 강서구 등촌동 687",
       "phone": "022-658-9688",
       "phones": [
-        "022-658-9688"
+        "022-658-9688",
+        "02-2658-9688",
+        "023-661-4793"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-9688",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 687 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3165,14 +4551,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2658-9688",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 687 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-661-4793",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 687 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "505",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:38",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3201,16 +4615,20 @@
       "jibunAddress": "서울 강서구 등촌동 690",
       "phone": "022-658-2077",
       "phones": [
-        "022-658-2077"
+        "022-658-2077",
+        "022-658-2078",
+        "02-2658-2077",
+        "02-2658-2727"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-2077",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 690 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3219,14 +4637,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-658-2078",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 690 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2658-2077",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 690 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2658-2727",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 690 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1575",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:41",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3255,16 +4714,19 @@
       "jibunAddress": "서울 강서구 등촌동 695",
       "phone": "022-658-6236",
       "phones": [
-        "022-658-6236"
+        "022-658-6236",
+        "02-2658-6237",
+        "026-095-6237"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-6236",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 695 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3273,14 +4735,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2658-6237",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 695 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-095-6237",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 695 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1045",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:45",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3309,16 +4799,17 @@
       "jibunAddress": "서울 강서구 등촌동 705",
       "phone": "022-658-3746",
       "phones": [
-        "022-658-3746"
+        "022-658-3746",
+        "02-2658-3746"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-3746",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3327,14 +4818,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2658-3746",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 705 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "559",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:49",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3363,16 +4868,18 @@
       "jibunAddress": "서울 강서구 등촌동 707",
       "phone": "022-658-0111",
       "phones": [
-        "022-658-0111"
+        "022-658-0111",
+        "02-2658-0112",
+        "022-658-0112"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-0111",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3381,14 +4888,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2658-0112",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 707 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-658-0112",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 707 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "1146",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:53",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3417,16 +4951,18 @@
       "jibunAddress": "서울 강서구 등촌동 704",
       "phone": "022-658-8000",
       "phones": [
-        "022-658-8000"
+        "022-658-8000",
+        "022-658-8001"
       ],
       "phoneCandidates": [
         {
           "number": "022-658-8000",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 704 관리사무소, 서울 강서구 등촌동 704 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3435,14 +4971,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "022-658-8001",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 704 관리사무소, 서울 강서구 등촌동 704 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1445",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:01:57",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3471,16 +5022,20 @@
       "jibunAddress": "서울 강서구 등촌동 642",
       "phone": "026-735-1172",
       "phones": [
-        "026-735-1172"
+        "026-735-1172",
+        "023-662-3021",
+        "02-6094-1524",
+        "02-6094-1525"
       ],
       "phoneCandidates": [
         {
           "number": "026-735-1172",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 642 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3489,14 +5044,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-662-3021",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 642 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6094-1524",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 642 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6094-1525",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 642 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "191",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:02:01",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3525,16 +5121,19 @@
       "jibunAddress": "서울 강서구 등촌동 632-2",
       "phone": "022-659-6584",
       "phones": [
-        "022-659-6584"
+        "022-659-6584",
+        "02-2659-6584",
+        "02-6735-1172"
       ],
       "phoneCandidates": [
         {
           "number": "022-659-6584",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 강서구 등촌동 632-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3543,14 +5142,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-2659-6584",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강서구 등촌동 632-2 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-6735-1172",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 632-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "186",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:02:05",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
@@ -3579,16 +5206,17 @@
       "jibunAddress": "서울 강서구 등촌동 676",
       "phone": "022-646-6152",
       "phones": [
-        "022-646-6152"
+        "022-646-6152",
+        "02-2600-7745"
       ],
       "phoneCandidates": [
         {
           "number": "022-646-6152",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3597,14 +5225,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2600-7745",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강서구 등촌동 676 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "221",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-16 20:02:09",
       "detailUpdatedAt": 1781052884986,
       "listUpdatedAt": 1781052884986,
       "phoneStatus": "CONFIRMED",
