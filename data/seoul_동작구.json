@@ -1,6 +1,6 @@
 {
-  "version": 1789590160,
-  "updatedAt": "2026-09-16 20:22:40",
+  "version": 1789677340,
+  "updatedAt": "2026-09-17 20:35:40",
   "sido": "서울특별시",
   "sigungu": "동작구",
   "count": 212,
@@ -580,16 +580,19 @@
       "jibunAddress": "서울 동작구 사당동 1143",
       "phone": "023-472-2741",
       "phones": [
-        "023-472-2741"
+        "023-472-2741",
+        "02-581-1910",
+        "02-3472-2741"
       ],
       "phoneCandidates": [
         {
           "number": "023-472-2741",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 1143 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -598,14 +601,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-581-1910",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 1143 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3472-2741",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 1143 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "131",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:05",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -634,16 +665,19 @@
       "jibunAddress": "서울 동작구 노량진동 330",
       "phone": "02-815-6850",
       "phones": [
-        "02-815-6850"
+        "02-815-6850",
+        "02-825-3804",
+        "02-815-6851"
       ],
       "phoneCandidates": [
         {
           "number": "02-815-6850",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 노량진동 330 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -652,14 +686,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-825-3804",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 노량진동 330 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-815-6851",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 노량진동 330 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "175",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:10",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -695,9 +757,9 @@
           "number": "02-813-7510",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -706,14 +768,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "299",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:15",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -742,16 +805,19 @@
       "jibunAddress": "서울 동작구 노량진동 323",
       "phone": "02-823-4532",
       "phones": [
-        "02-823-4532"
+        "02-823-4532",
+        "02-823-4531"
       ],
       "phoneCandidates": [
         {
           "number": "02-823-4532",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 노량진동 323 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -760,14 +826,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "02-823-4531",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 노량진동 323 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "901",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:19",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -802,10 +885,11 @@
         {
           "number": "02-813-4262",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 대방동 508 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -814,14 +898,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "609",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:24",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -856,10 +942,11 @@
         {
           "number": "02-813-4265",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 대방동 507 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -868,14 +955,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "100",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:29",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -911,9 +1000,9 @@
           "number": "02-813-6424",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -922,14 +1011,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "278",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:33",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -965,9 +1055,9 @@
           "number": "02-824-2225",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -976,14 +1066,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "163",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:38",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1012,16 +1103,19 @@
       "jibunAddress": "서울 동작구 대방동 501",
       "phone": "02-826-2970",
       "phones": [
-        "02-826-2970"
+        "02-826-2970",
+        "02-822-7387",
+        "02-826-9999"
       ],
       "phoneCandidates": [
         {
           "number": "02-826-2970",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 대방동 501 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1030,14 +1124,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-822-7387",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 대방동 501 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-826-9999",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 501 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1628",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:43",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1073,9 +1195,9 @@
           "number": "02-826-1117",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1084,14 +1206,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "130",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:47",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1120,16 +1243,17 @@
       "jibunAddress": "서울 동작구 대방동 500",
       "phone": "02-823-1319",
       "phones": [
-        "02-823-1319"
+        "02-823-1319",
+        "02-817-4641"
       ],
       "phoneCandidates": [
         {
           "number": "02-823-1319",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1138,14 +1262,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-817-4641",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 대방동 500 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "487",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:52",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1174,16 +1312,20 @@
       "jibunAddress": "서울 동작구 대방동 505",
       "phone": "02-815-0051",
       "phones": [
-        "02-815-0051"
+        "02-815-0051",
+        "02-816-0052",
+        "02-824-2225",
+        "02-824-2247"
       ],
       "phoneCandidates": [
         {
           "number": "02-815-0051",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 대방동 505 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1192,14 +1334,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-816-0052",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 505 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-824-2225",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 505 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-824-2247",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 505 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "206",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:31:57",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1228,16 +1411,20 @@
       "jibunAddress": "서울 동작구 대방동 503",
       "phone": "02-824-9974",
       "phones": [
-        "02-824-9974"
+        "02-824-9974",
+        "02-824-5436",
+        "02-826-2900",
+        "02-814-1691"
       ],
       "phoneCandidates": [
         {
           "number": "02-824-9974",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 대방동 503 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1246,14 +1433,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-824-5436",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 대방동 503 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-826-2900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 503 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-814-1691",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 503 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "925",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:02",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1282,16 +1510,20 @@
       "jibunAddress": "서울 동작구 대방동 503",
       "phone": "02-824-5436",
       "phones": [
-        "02-824-5436"
+        "02-824-5436",
+        "02-824-9974",
+        "02-826-2900",
+        "02-814-1691"
       ],
       "phoneCandidates": [
         {
           "number": "02-824-5436",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 대방동 503 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1300,14 +1532,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-824-9974",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 대방동 503 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-826-2900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 503 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-814-1691",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 503 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "798",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:06",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1336,16 +1609,18 @@
       "jibunAddress": "서울 동작구 대방동 502",
       "phone": "02-825-2190",
       "phones": [
-        "02-825-2190"
+        "02-825-2190",
+        "02-825-2191"
       ],
       "phoneCandidates": [
         {
           "number": "02-825-2190",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 대방동 502 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1354,14 +1629,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-825-2191",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 502 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "514",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:10",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1390,16 +1680,18 @@
       "jibunAddress": "서울 동작구 동작동 331",
       "phone": "02-591-5610",
       "phones": [
-        "02-591-5610"
+        "02-591-5610",
+        "02-591-5609"
       ],
       "phoneCandidates": [
         {
           "number": "02-591-5610",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 동작동 331 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1408,14 +1700,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-591-5609",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 동작동 331 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "276",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:15",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1444,16 +1751,22 @@
       "jibunAddress": "서울 동작구 신대방동 719",
       "phone": "023-289-1113",
       "phones": [
-        "023-289-1113"
+        "023-289-1113",
+        "02-3289-1113",
+        "02-3289-1115",
+        "023-289-1115",
+        "02-3289-1114",
+        "02-834-5666"
       ],
       "phoneCandidates": [
         {
           "number": "023-289-1113",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 신대방동 719 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1462,14 +1775,83 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-3289-1113",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 동작구 신대방동 719 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-3289-1115",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 신대방동 719 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-289-1115",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 신대방동 719 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3289-1114",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 신대방동 719 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-834-5666",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 신대방동 719 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "545",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:20",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1498,16 +1880,18 @@
       "jibunAddress": "서울 동작구 신대방동 686-48",
       "phone": "02-849-8834",
       "phones": [
-        "02-849-8834"
+        "02-849-8834",
+        "02-849-8835"
       ],
       "phoneCandidates": [
         {
           "number": "02-849-8834",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 신대방동 686-48 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1516,14 +1900,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-849-8835",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 686-48 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "274",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:24",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1552,16 +1951,18 @@
       "jibunAddress": "서울 동작구 사당동 1159",
       "phone": "02-595-9481",
       "phones": [
-        "02-595-9481"
+        "02-595-9481",
+        "02-595-9483"
       ],
       "phoneCandidates": [
         {
           "number": "02-595-9481",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 1159 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1570,14 +1971,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-595-9483",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1159 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "668",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:29",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1606,16 +2022,19 @@
       "jibunAddress": "서울 동작구 상도동 421",
       "phone": "02-813-9922",
       "phones": [
-        "02-813-9922"
+        "02-813-9922",
+        "02-813-5426",
+        "02-815-3084"
       ],
       "phoneCandidates": [
         {
           "number": "02-813-9922",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 상도동 421 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1624,14 +2043,44 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-813-5426",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 동작구 상도동 421 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-815-3084",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 421 관리사무소, 서울 동작구 상도동 421 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "431",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:33",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1660,16 +2109,18 @@
       "jibunAddress": "서울 동작구 상도동 431",
       "phone": "02-812-2936",
       "phones": [
-        "02-812-2936"
+        "02-812-2936",
+        "02-813-9922",
+        "02-813-5426"
       ],
       "phoneCandidates": [
         {
           "number": "02-812-2936",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1678,14 +2129,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-813-9922",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 431 관리사무소, 서울 동작구 상도동 431 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-813-5426",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 431 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "1656",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:38",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1714,16 +2194,21 @@
       "jibunAddress": "서울 동작구 본동 494",
       "phone": "02-815-0900",
       "phones": [
-        "02-815-0900"
+        "02-815-0900",
+        "02-534-0040",
+        "02-815-0910",
+        "025-0925-1038",
+        "016-1228-2201"
       ],
       "phoneCandidates": [
         {
           "number": "02-815-0900",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 본동 494 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1732,14 +2217,69 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "02-534-0040",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 동작구 본동 494 관리사무소, 서울 동작구 본동 494 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-815-0910",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 본동 494 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0925-1038",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 본동 494 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-1228-2201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 본동 494 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "523",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:42",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1768,16 +2308,22 @@
       "jibunAddress": "서울 동작구 신대방동 395-67",
       "phone": "02-846-9701",
       "phones": [
-        "02-846-9701"
+        "02-846-9701",
+        "02-848-8427",
+        "02-849-8417",
+        "02-2217-8611",
+        "02-836-4381",
+        "02-836-2468"
       ],
       "phoneCandidates": [
         {
           "number": "02-846-9701",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 신대방동 395-67 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1786,14 +2332,81 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-848-8427",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 신대방동 395-67 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-849-8417",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 395-67 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2217-8611",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 395-67 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-836-4381",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 395-67 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-836-2468",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 395-67 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "90",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:47",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1822,16 +2435,18 @@
       "jibunAddress": "서울 동작구 사당동 1141",
       "phone": "02-583-1065",
       "phones": [
-        "02-583-1065"
+        "02-583-1065",
+        "02-583-1066"
       ],
       "phoneCandidates": [
         {
           "number": "02-583-1065",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 1141 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1840,14 +2455,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-583-1066",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 1141 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "140",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:51",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1883,9 +2513,9 @@
           "number": "02-816-0300",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1894,14 +2524,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "660",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:32:57",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1930,16 +2561,21 @@
       "jibunAddress": "서울 동작구 신대방동 720",
       "phone": "02-814-3691",
       "phones": [
-        "02-814-3691"
+        "02-814-3691",
+        "02-814-3692",
+        "026-0106-0946",
+        "025-0827-1532",
+        "025-1223-1421"
       ],
       "phoneCandidates": [
         {
           "number": "02-814-3691",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 신대방동 720 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -1948,14 +2584,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-814-3692",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 720 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0106-0946",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 720 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0827-1532",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 720 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-1223-1421",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 720 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "386",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:02",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -1984,16 +2674,19 @@
       "jibunAddress": "서울 동작구 신대방동 713",
       "phone": "026-295-9655",
       "phones": [
-        "026-295-9655"
+        "026-295-9655",
+        "026-295-9657",
+        "02-534-0040"
       ],
       "phoneCandidates": [
         {
           "number": "026-295-9655",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 신대방동 713 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2002,14 +2695,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-295-9657",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 713 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-534-0040",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 713 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "734",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:06",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2038,16 +2759,18 @@
       "jibunAddress": "서울 동작구 신대방동 395-66",
       "phone": "02-848-5203",
       "phones": [
-        "02-848-5203"
+        "02-848-5203",
+        "02-821-1008"
       ],
       "phoneCandidates": [
         {
           "number": "02-848-5203",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 신대방동 395-66 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2056,14 +2779,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-821-1008",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 395-66 관리사무소, 서울 동작구 신대방동 395-66 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "246",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:11",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2092,16 +2830,20 @@
       "jibunAddress": "서울 동작구 신대방동 395-69",
       "phone": "02-831-6649",
       "phones": [
-        "02-831-6649"
+        "02-831-6649",
+        "02-821-1008",
+        "02-843-4947",
+        "02-842-5213",
+        "02-832-7500"
       ],
       "phoneCandidates": [
         {
           "number": "02-831-6649",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2110,14 +2852,67 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-821-1008",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 395-69 관리사무소, 서울 동작구 신대방동 395-69 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-843-4947",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 395-69 관리사무소, 서울 동작구 신대방동 395-69 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-842-5213",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 395-69 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-832-7500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 395-69 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "225",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:15",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2146,16 +2941,18 @@
       "jibunAddress": "서울 동작구 신대방동 706",
       "phone": "02-831-3382",
       "phones": [
-        "02-831-3382"
+        "02-831-3382",
+        "02-835-3382"
       ],
       "phoneCandidates": [
         {
           "number": "02-831-3382",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 신대방동 706 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2164,14 +2961,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-835-3382",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 706 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "199",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:20",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2207,9 +3019,9 @@
           "number": "026-951-5071",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2218,14 +3030,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "959",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:24",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2254,16 +3067,18 @@
       "jibunAddress": "서울 동작구 대방동 509",
       "phone": "026-409-1372",
       "phones": [
-        "026-409-1372"
+        "026-409-1372",
+        "02-6409-1372",
+        "02-6409-1373"
       ],
       "phoneCandidates": [
         {
           "number": "026-409-1372",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2272,14 +3087,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-6409-1372",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 509 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6409-1373",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 대방동 509 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "200",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:29",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2308,16 +3150,18 @@
       "jibunAddress": "서울 동작구 신대방동 711",
       "phone": "02-841-6417",
       "phones": [
-        "02-841-6417"
+        "02-841-6417",
+        "02-841-6418"
       ],
       "phoneCandidates": [
         {
           "number": "02-841-6417",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 신대방동 711 관리사무소, 서울 동작구 신대방동 711 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 3
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2326,14 +3170,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 3회"
+        },
+        {
+          "number": "02-841-6418",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 신대방동 711 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "423",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:34",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2362,16 +3222,18 @@
       "jibunAddress": "서울 동작구 본동 490",
       "phone": "02-822-7923",
       "phones": [
-        "02-822-7923"
+        "02-822-7923",
+        "02-824-4274"
       ],
       "phoneCandidates": [
         {
           "number": "02-822-7923",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 본동 490 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2380,14 +3242,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-824-4274",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 본동 490 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "176",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:38",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2423,9 +3300,9 @@
           "number": "02-822-1162",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2434,14 +3311,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "477",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:43",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2470,16 +3348,18 @@
       "jibunAddress": "서울 동작구 본동 481",
       "phone": "02-825-2318",
       "phones": [
-        "02-825-2318"
+        "02-825-2318",
+        "02-826-1291"
       ],
       "phoneCandidates": [
         {
           "number": "02-825-2318",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 본동 481 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2488,14 +3368,32 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "02-826-1291",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 동작구 본동 481 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "765",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:47",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2531,9 +3429,9 @@
           "number": "02-813-7209",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2542,14 +3440,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "247",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:52",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2585,9 +3484,9 @@
           "number": "02-814-6975",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2596,14 +3495,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "134",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:33:56",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2632,16 +3532,19 @@
       "jibunAddress": "서울 동작구 상도동 527",
       "phone": "02-821-2755",
       "phones": [
-        "02-821-2755"
+        "02-821-2755",
+        "02-821-2753",
+        "02-814-3755"
       ],
       "phoneCandidates": [
         {
           "number": "02-821-2755",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 상도동 527 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2650,14 +3553,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-821-2753",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 527 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-814-3755",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 상도동 527 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "415",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:00",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2686,16 +3617,18 @@
       "jibunAddress": "서울 동작구 사당동 1153",
       "phone": "02-584-0584",
       "phones": [
-        "02-584-0584"
+        "02-584-0584",
+        "02-584-0585"
       ],
       "phoneCandidates": [
         {
           "number": "02-584-0584",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 1153 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2704,14 +3637,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-584-0585",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1153 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "111",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:04",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2747,9 +3695,9 @@
           "number": "02-584-5012",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2758,14 +3706,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "63",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:09",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2794,16 +3743,19 @@
       "jibunAddress": "서울 동작구 사당동 1134",
       "phone": "02-592-5644",
       "phones": [
-        "02-592-5644"
+        "02-592-5644",
+        "02-592-5889"
       ],
       "phoneCandidates": [
         {
           "number": "02-592-5644",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 1134 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2812,14 +3764,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-592-5889",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1134 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "340",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:14",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2848,16 +3816,18 @@
       "jibunAddress": "서울 동작구 사당동 105",
       "phone": "02-595-7010",
       "phones": [
-        "02-595-7010"
+        "02-595-7010",
+        "02-535-3278"
       ],
       "phoneCandidates": [
         {
           "number": "02-595-7010",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 105 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2866,14 +3836,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-535-3278",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 105 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "1550",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:18",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2902,16 +3887,19 @@
       "jibunAddress": "서울 동작구 사당동 169-8",
       "phone": "02-593-9580",
       "phones": [
-        "02-593-9580"
+        "02-593-9580",
+        "02-594-6447"
       ],
       "phoneCandidates": [
         {
           "number": "02-593-9580",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 169-8 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2920,14 +3908,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "02-594-6447",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 169-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1152",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:23",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -2963,9 +3968,9 @@
           "number": "02-535-8849",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -2974,14 +3979,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:28",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3010,16 +4016,18 @@
       "jibunAddress": "서울 동작구 사당동 1133",
       "phone": "02-593-3465",
       "phones": [
-        "02-593-3465"
+        "02-593-3465",
+        "02-592-3465"
       ],
       "phoneCandidates": [
         {
           "number": "02-593-3465",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 1133 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3028,14 +4036,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-592-3465",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1133 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "896",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:32",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3071,9 +4094,9 @@
           "number": "023-476-7786",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3082,14 +4105,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "223",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:37",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3118,16 +4142,17 @@
       "jibunAddress": "서울 동작구 사당동 1160",
       "phone": "023-487-4101",
       "phones": [
-        "023-487-4101"
+        "023-487-4101",
+        "02-3487-4101"
       ],
       "phoneCandidates": [
         {
           "number": "023-487-4101",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3136,14 +4161,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-3487-4101",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1160 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "959",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:42",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3172,16 +4211,20 @@
       "jibunAddress": "서울 동작구 사당동 1132",
       "phone": "023-481-3737",
       "phones": [
-        "023-481-3737"
+        "023-481-3737",
+        "023-482-3738",
+        "02-3481-3737",
+        "02-820-1527"
       ],
       "phoneCandidates": [
         {
           "number": "023-481-3737",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 1132 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3190,14 +4233,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-482-3738",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1132 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3481-3737",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1132 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-820-1527",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1132 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "444",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:46",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3226,16 +4310,20 @@
       "jibunAddress": "서울 동작구 사당동 1140",
       "phone": "02-595-4406",
       "phones": [
-        "02-595-4406"
+        "02-595-4406",
+        "02-595-4407",
+        "02-820-2700",
+        "02-534-0010"
       ],
       "phoneCandidates": [
         {
           "number": "02-595-4406",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 1140 관리사무소, 서울 동작구 사당동 1140 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3244,14 +4332,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 2회"
+        },
+        {
+          "number": "02-595-4407",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 1140 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-820-2700",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 1140 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-534-0010",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 1140 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "113",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:51",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3280,16 +4409,17 @@
       "jibunAddress": "서울 동작구 사당동 1150",
       "phone": "02-525-0810",
       "phones": [
-        "02-525-0810"
+        "02-525-0810",
+        "02-533-0511"
       ],
       "phoneCandidates": [
         {
           "number": "02-525-0810",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3298,14 +4428,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-533-0511",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1150 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "183",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:34:56",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3334,16 +4478,17 @@
       "jibunAddress": "서울 동작구 사당동 1138",
       "phone": "02-583-4642",
       "phones": [
-        "02-583-4642"
+        "02-583-4642",
+        "02-533-0511"
       ],
       "phoneCandidates": [
         {
           "number": "02-583-4642",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3352,14 +4497,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-533-0511",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1138 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "211",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:35:00",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3388,16 +4547,18 @@
       "jibunAddress": "서울 동작구 사당동 105",
       "phone": "02-595-1977",
       "phones": [
-        "02-595-1977"
+        "02-595-1977",
+        "02-535-3278",
+        "02-595-7010"
       ],
       "phoneCandidates": [
         {
           "number": "02-595-1977",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3406,14 +4567,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-535-3278",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 105 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-595-7010",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 105 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "912",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:35:05",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3442,16 +4630,18 @@
       "jibunAddress": "서울 동작구 사당동 105",
       "phone": "02-537-1786",
       "phones": [
-        "02-537-1786"
+        "02-537-1786",
+        "02-535-3278",
+        "02-595-7010"
       ],
       "phoneCandidates": [
         {
           "number": "02-537-1786",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3460,14 +4650,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-535-3278",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 105 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-595-7010",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 105 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1080",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:35:09",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3496,16 +4713,18 @@
       "jibunAddress": "서울 동작구 사당동 105",
       "phone": "02-532-7430",
       "phones": [
-        "02-532-7430"
+        "02-532-7430",
+        "02-535-3278",
+        "02-595-7010"
       ],
       "phoneCandidates": [
         {
           "number": "02-532-7430",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3514,14 +4733,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-535-3278",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 105 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-595-7010",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 105 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "855",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:35:13",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3550,16 +4796,18 @@
       "jibunAddress": "서울 동작구 사당동 1155",
       "phone": "02-533-0511",
       "phones": [
-        "02-533-0511"
+        "02-533-0511",
+        "02-533-0588"
       ],
       "phoneCandidates": [
         {
           "number": "02-533-0511",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 1155 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3568,14 +4816,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "02-533-0588",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1155 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "151",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:35:16",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3604,16 +4869,20 @@
       "jibunAddress": "서울 동작구 사당동 1139",
       "phone": "023-486-1182",
       "phones": [
-        "023-486-1182"
+        "023-486-1182",
+        "02-3486-0022",
+        "02-583-8949",
+        "02-533-0511",
+        "02-533-0588"
       ],
       "phoneCandidates": [
         {
           "number": "023-486-1182",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3622,14 +4891,67 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-3486-0022",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1139 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-583-8949",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1139 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-533-0511",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1139 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-533-0588",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 1139 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "719",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:35:21",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3658,16 +4980,18 @@
       "jibunAddress": "서울 동작구 사당동 240-15",
       "phone": "02-583-4526",
       "phones": [
-        "02-583-4526"
+        "02-583-4526",
+        "02-583-4546"
       ],
       "phoneCandidates": [
         {
           "number": "02-583-4526",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 240-15 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3676,14 +5000,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-583-4546",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 240-15 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "296",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:35:26",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3712,16 +5051,18 @@
       "jibunAddress": "서울 동작구 사당동 1142",
       "phone": "02-598-2778",
       "phones": [
-        "02-598-2778"
+        "02-598-2778",
+        "02-598-2798"
       ],
       "phoneCandidates": [
         {
           "number": "02-598-2778",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 1142 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3730,14 +5071,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-598-2798",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동작구 사당동 1142 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "140",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:35:31",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
@@ -3766,16 +5122,18 @@
       "jibunAddress": "서울 동작구 사당동 169-32",
       "phone": "02-594-6928",
       "phones": [
-        "02-594-6928"
+        "02-594-6928",
+        "02-594-6925"
       ],
       "phoneCandidates": [
         {
           "number": "02-594-6928",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 동작구 사당동 169-32 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -3784,14 +5142,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-594-6925",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동작구 사당동 169-32 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "265",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-17 20:35:35",
       "detailUpdatedAt": 1781057513233,
       "listUpdatedAt": 1781057513233,
       "phoneStatus": "CONFIRMED",
