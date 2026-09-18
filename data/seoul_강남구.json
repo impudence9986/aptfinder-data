@@ -1,6 +1,6 @@
 {
-  "version": 1789675930,
-  "updatedAt": "2026-09-17 20:12:10",
+  "version": 1789758513,
+  "updatedAt": "2026-09-18 19:08:33",
   "sido": "서울특별시",
   "sigungu": "강남구",
   "count": 468,
@@ -29228,16 +29228,20 @@
       "jibunAddress": "서울 강남구 대치동 66",
       "phone": "02-562-7908",
       "phones": [
-        "02-562-7908"
+        "02-562-7908",
+        "02-561-5216",
+        "02-562-0420",
+        "02-552-9036"
       ],
       "phoneCandidates": [
         {
           "number": "02-562-7908",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 영동대로 210 관리사무소, 서울 강남구 영동대로 210 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -29246,14 +29250,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "02-561-5216",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 영동대로 210 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-562-0420",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 강남구 영동대로 210 관리사무소, 서울 강남구 영동대로 210 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-552-9036",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 영동대로 210 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "630",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:19",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -29358,16 +29403,24 @@
       "jibunAddress": "서울 강남구 삼성동 87",
       "phone": "023-443-9351",
       "phones": [
-        "023-443-9351"
+        "023-443-9351",
+        "023-443-9353",
+        "025-0102-1141",
+        "02-3443-9351",
+        "024-0828-1732",
+        "025-0723-1517",
+        "02-3423-7820"
       ],
       "phoneCandidates": [
         {
           "number": "023-443-9351",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 영동대로 640 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -29376,14 +29429,97 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "023-443-9353",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "서울 강남구 영동대로 640 관리사무소",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "025-0102-1141",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 영동대로 640 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3443-9351",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 강남구 영동대로 640 관리사무소, 서울 강남구 영동대로 640 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "024-0828-1732",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 영동대로 640 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0723-1517",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 영동대로 640 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3423-7820",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 영동대로 640 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "449",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:22",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -29412,16 +29548,19 @@
       "jibunAddress": "서울 강남구 삼성동 79",
       "phone": "02-541-9711",
       "phones": [
-        "02-541-9711"
+        "02-541-9711",
+        "02-541-9712",
+        "025-0708-1854"
       ],
       "phoneCandidates": [
         {
           "number": "02-541-9711",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 영동대로128길 15 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -29430,14 +29569,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "02-541-9712",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 영동대로128길 15 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0708-1854",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 영동대로128길 15 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "419",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:26",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -29853,16 +30021,19 @@
       "jibunAddress": "서울 강남구 청담동 134-38",
       "phone": "02-514-7022",
       "phones": [
-        "02-514-7022"
+        "02-514-7022",
+        "02-514-7024",
+        "02-553-8967"
       ],
       "phoneCandidates": [
         {
           "number": "02-514-7022",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 영동대로138길 12 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -29871,14 +30042,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-514-7024",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 영동대로138길 12 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-553-8967",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 영동대로138길 12 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "708",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:30",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -30030,16 +30229,18 @@
       "jibunAddress": "서울 강남구 율현동 513",
       "phone": "02-445-9831",
       "phones": [
-        "02-445-9831"
+        "02-445-9831",
+        "02-445-9833"
       ],
       "phoneCandidates": [
         {
           "number": "02-445-9831",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 율현동 513 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -30048,14 +30249,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-445-9833",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 율현동 513 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "169",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:33",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -30415,9 +30631,9 @@
           "number": "023-414-0243",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -30426,14 +30642,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "830",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:36",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -31626,16 +31843,23 @@
       "jibunAddress": "서울 강남구 논현동 241-1",
       "phone": "023-443-3013",
       "phones": [
-        "023-443-3013"
+        "023-443-3013",
+        "02-546-5686",
+        "04-1389-7925",
+        "020-160-0551",
+        "04-1389-4328",
+        "02-545-9900",
+        "02-3447-2775"
       ],
       "phoneCandidates": [
         {
           "number": "023-443-3013",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로 338 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -31644,14 +31868,94 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-546-5686",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 338 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "04-1389-7925",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 338 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "020-160-0551",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 338 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "04-1389-4328",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 338 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-545-9900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 338 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3447-2775",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 338 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "200",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:40",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -31769,16 +32073,19 @@
       "jibunAddress": "서울 강남구 논현동 122-8",
       "phone": "02-545-9612",
       "phones": [
-        "02-545-9612"
+        "02-545-9612",
+        "02-545-9613",
+        "02-553-8967"
       ],
       "phoneCandidates": [
         {
           "number": "02-545-9612",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로4길 15 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -31787,14 +32094,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-545-9613",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로4길 15 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-553-8967",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로4길 15 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "239",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:43",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -31823,16 +32158,20 @@
       "jibunAddress": "서울 강남구 논현동 58-2",
       "phone": "02-545-6564",
       "phones": [
-        "02-545-6564"
+        "02-545-6564",
+        "02-545-6531",
+        "04-1389-0963",
+        "02-538-8946"
       ],
       "phoneCandidates": [
         {
           "number": "02-545-6564",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로 165 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -31841,14 +32180,57 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "02-545-6531",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 165 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "04-1389-0963",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 165 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-538-8946",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 165 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "260",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:47",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -31877,16 +32259,18 @@
       "jibunAddress": "서울 강남구 삼성동 14-1",
       "phone": "02-511-1845",
       "phones": [
-        "02-511-1845"
+        "02-511-1845",
+        "02-511-1846"
       ],
       "phoneCandidates": [
         {
           "number": "02-511-1845",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로68길 30 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -31895,14 +32279,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-511-1846",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로68길 30 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "298",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:50",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -31931,16 +32330,19 @@
       "jibunAddress": "서울 강남구 삼성동 17",
       "phone": "023-443-0091",
       "phones": [
-        "023-443-0091"
+        "023-443-0091",
+        "023-443-4411",
+        "02-3423-8220"
       ],
       "phoneCandidates": [
         {
           "number": "023-443-0091",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로 432 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -31949,14 +32351,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-443-4411",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 432 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3423-8220",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 432 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "339",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:53",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -31985,16 +32415,18 @@
       "jibunAddress": "서울 강남구 삼성동 3-3",
       "phone": "023-442-6104",
       "phones": [
-        "023-442-6104"
+        "023-442-6104",
+        "023-442-6181"
       ],
       "phoneCandidates": [
         {
           "number": "023-442-6104",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로 412 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32003,14 +32435,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "023-442-6181",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 412 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "139",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:07:56",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -32039,16 +32486,19 @@
       "jibunAddress": "서울 강남구 삼성동 4-6",
       "phone": "02-516-6752",
       "phones": [
-        "02-516-6752"
+        "02-516-6752",
+        "02-516-6786",
+        "025-0730-1640"
       ],
       "phoneCandidates": [
         {
           "number": "02-516-6752",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로64길 7 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32057,14 +32507,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-516-6786",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로64길 7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0730-1640",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로64길 7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "263",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:08:00",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -32100,9 +32578,9 @@
           "number": "023-443-4167",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32111,14 +32589,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "198",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:08:03",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -32147,16 +32626,21 @@
       "jibunAddress": "서울 강남구 삼성동 16-2",
       "phone": "02-541-0128",
       "phones": [
-        "02-541-0128"
+        "02-541-0128",
+        "02-541-0130",
+        "026-0519-1144",
+        "026-0421-1129",
+        "026-0324-1151"
       ],
       "phoneCandidates": [
         {
           "number": "02-541-0128",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로68길 29 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32165,14 +32649,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-541-0130",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 학동로68길 29 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-0519-1144",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 학동로68길 29 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-0421-1129",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 학동로68길 29 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-0324-1151",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 강남구 학동로68길 29 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "1144",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:08:06",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -32461,16 +32999,19 @@
       "jibunAddress": "서울 강남구 청담동 30-33",
       "phone": "023-442-6975",
       "phones": [
-        "023-442-6975"
+        "023-442-6975",
+        "026-203-9618",
+        "025-0821-1109"
       ],
       "phoneCandidates": [
         {
           "number": "023-442-6975",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로77길 27 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32479,14 +33020,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-203-9618",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로77길 27 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0821-1109",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로77길 27 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "271",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:08:10",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -32515,16 +33084,20 @@
       "jibunAddress": "서울 강남구 청담동 42",
       "phone": "02-516-3891",
       "phones": [
-        "02-516-3891"
+        "02-516-3891",
+        "02-516-3892",
+        "025-0327-1325",
+        "02-511-1866"
       ],
       "phoneCandidates": [
         {
           "number": "02-516-3891",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로 405 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32533,14 +33106,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-516-3892",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 405 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0327-1325",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 405 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-511-1866",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 405 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "217",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:08:13",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -32679,9 +33293,9 @@
           "number": "02-541-8920",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32690,14 +33304,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "114",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:08:16",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -32733,9 +33348,9 @@
           "number": "02-517-7887",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32744,14 +33359,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "630",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:08:20",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -32780,16 +33396,20 @@
       "jibunAddress": "서울 강남구 청담동 10",
       "phone": "02-517-3047",
       "phones": [
-        "02-517-3047"
+        "02-517-3047",
+        "02-542-8996",
+        "026-0519-1945",
+        "026-0519-1950"
       ],
       "phoneCandidates": [
         {
           "number": "02-517-3047",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로77길 49 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32798,14 +33418,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-542-8996",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로77길 49 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0519-1945",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로77길 49 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0519-1950",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로77길 49 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "184",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:08:23",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -32834,16 +33495,18 @@
       "jibunAddress": "서울 강남구 청담동 134-16",
       "phone": "02-543-5601",
       "phones": [
-        "02-543-5601"
+        "02-543-5601",
+        "02-512-6129"
       ],
       "phoneCandidates": [
         {
           "number": "02-543-5601",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 강남구 학동로105길 30 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32852,14 +33515,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-512-6129",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로105길 30 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "106",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:08:26",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
@@ -32895,9 +33573,9 @@
           "number": "02-512-5435",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -32906,14 +33584,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "100",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-18 19:08:30",
       "detailUpdatedAt": 1781050284779,
       "listUpdatedAt": 1781050284779,
       "phoneStatus": "CONFIRMED",
