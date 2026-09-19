@@ -1,6 +1,6 @@
 {
-  "version": 1789759416,
-  "updatedAt": "2026-09-18 19:23:36",
+  "version": 1789843223,
+  "updatedAt": "2026-09-19 18:40:23",
   "sido": "서울특별시",
   "sigungu": "성북구",
   "count": 226,
@@ -9021,16 +9021,17 @@
       "jibunAddress": "서울 성북구 종암동 131",
       "phone": "02-923-0550",
       "phones": [
-        "02-923-0550"
+        "02-923-0550",
+        "02-921-2460"
       ],
       "phoneCandidates": [
         {
           "number": "02-923-0550",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9039,14 +9040,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-921-2460",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 성북구 종암동 131 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "782",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:39:31",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9081,10 +9096,11 @@
         {
           "number": "02-921-2460",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 성북구 종암동 131 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9093,14 +9109,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "104",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:39:35",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9129,16 +9147,18 @@
       "jibunAddress": "서울 성북구 종암동 104-1",
       "phone": "02-942-4271",
       "phones": [
-        "02-942-4271"
+        "02-942-4271",
+        "02-911-8710",
+        "026-223-8710"
       ],
       "phoneCandidates": [
         {
           "number": "02-942-4271",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9147,14 +9167,41 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-911-8710",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성북구 종암동 104-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-223-8710",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성북구 종암동 104-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1318",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:39:37",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9183,16 +9230,18 @@
       "jibunAddress": "서울 성북구 종암동 104-1",
       "phone": "02-911-8710",
       "phones": [
-        "02-911-8710"
+        "02-911-8710",
+        "026-223-8710"
       ],
       "phoneCandidates": [
         {
           "number": "02-911-8710",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 성북구 종암동 104-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9201,14 +9250,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-223-8710",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성북구 종암동 104-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "465",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:39:40",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9237,16 +9301,18 @@
       "jibunAddress": "서울 성북구 종암동 128",
       "phone": "02-926-1995",
       "phones": [
-        "02-926-1995"
+        "02-926-1995",
+        "02-926-1996"
       ],
       "phoneCandidates": [
         {
           "number": "02-926-1995",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 성북구 종암동 128 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9255,14 +9321,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-926-1996",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성북구 종암동 128 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "297",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:39:43",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9291,16 +9372,18 @@
       "jibunAddress": "서울 성북구 종암동 34-3",
       "phone": "02-923-0472",
       "phones": [
-        "02-923-0472"
+        "02-923-0472",
+        "02-923-0364"
       ],
       "phoneCandidates": [
         {
           "number": "02-923-0472",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 성북구 종암동 34-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9309,14 +9392,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-923-0364",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성북구 종암동 34-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "238",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:39:46",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9351,10 +9449,11 @@
         {
           "number": "02-927-7733",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 2026-08-15 16:55:03",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 9
+            "K-apt": 9,
+            "2026-08-15 16:55:03": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9364,9 +9463,10 @@
             "K-apt 3회": 1,
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2,
-            "K-apt 8회": 1
+            "K-apt 8회": 1,
+            "2026-08-15 16:55:03": 1
           },
-          "sourceSummary": "K-apt 9회"
+          "sourceSummary": "K-apt 9회 · 2026-08-15 16:55:03 1회"
         }
       ],
       "households": "513",
@@ -9400,16 +9500,20 @@
       "jibunAddress": "서울 성북구 종암동 132",
       "phone": "02-942-9371",
       "phones": [
-        "02-942-9371"
+        "02-942-9371",
+        "02-926-3084",
+        "02-942-5757",
+        "01-2923-2972"
       ],
       "phoneCandidates": [
         {
           "number": "02-942-9371",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 성북구 종암동 132 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9418,14 +9522,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-926-3084",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 성북구 종암동 132 관리사무소, 서울 성북구 종암동 132 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-942-5757",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성북구 종암동 132 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "01-2923-2972",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성북구 종암동 132 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "161",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:39:53",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9460,10 +9605,11 @@
         {
           "number": "02-909-0892",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 성북구 정릉동 1054 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9472,14 +9618,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "166",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:39:57",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9508,16 +9656,19 @@
       "jibunAddress": "서울 성북구 하월곡동 46-73",
       "phone": "02-910-1000",
       "phones": [
-        "02-910-1000"
+        "02-910-1000",
+        "02-910-1002"
       ],
       "phoneCandidates": [
         {
           "number": "02-910-1000",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 성북구 하월곡동 46-73 관리사무소, 서울 성북구 하월곡동 46-73 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9526,14 +9677,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-910-1002",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성북구 하월곡동 46-73 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:00",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9568,10 +9735,11 @@
         {
           "number": "02-943-9705",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 성북구 하월곡동 219 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9580,14 +9748,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "746",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:03",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9623,9 +9793,9 @@
           "number": "02-919-1049",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9634,14 +9804,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "352",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:06",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9676,10 +9847,12 @@
         {
           "number": "02-911-0515",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 성북구 하월곡동 218 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9688,14 +9861,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
         }
       ],
       "households": "198",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:10",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -9784,10 +9960,11 @@
         {
           "number": "02-928-0801",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 2026-08-14 17:41:57",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 9
+            "K-apt": 9,
+            "2026-08-14 17:41:57": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9797,9 +9974,10 @@
             "K-apt 3회": 1,
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2,
-            "K-apt 8회": 1
+            "K-apt 8회": 1,
+            "2026-08-14 17:41:57": 1
           },
-          "sourceSummary": "K-apt 9회"
+          "sourceSummary": "K-apt 9회 · 2026-08-14 17:41:57 1회"
         }
       ],
       "households": "199",
@@ -10223,9 +10401,9 @@
           "number": "02-942-4964",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10234,14 +10412,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "132",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:16",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",
@@ -14678,16 +14857,18 @@
       "jibunAddress": "서울 성북구 하월곡동 88-510",
       "phone": "02-911-9527",
       "phones": [
-        "02-911-9527"
+        "02-911-9527",
+        "02-914-9527"
       ],
       "phoneCandidates": [
         {
           "number": "02-911-9527",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 성북구 하월곡동 88-510 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14696,14 +14877,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-914-9527",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 성북구 하월곡동 88-510 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "190",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:20",
       "detailUpdatedAt": 1781061090011,
       "listUpdatedAt": 1781061090011,
       "phoneStatus": "CONFIRMED",

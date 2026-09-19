@@ -1,6 +1,6 @@
 {
-  "version": 1789759616,
-  "updatedAt": "2026-09-18 19:26:56",
+  "version": 1789843409,
+  "updatedAt": "2026-09-19 18:43:29",
   "sido": "서울특별시",
   "sigungu": "양천구",
   "count": 220,
@@ -7632,16 +7632,21 @@
       "jibunAddress": "서울 양천구 목동 925",
       "phone": "022-646-2367",
       "phones": [
-        "022-646-2367"
+        "022-646-2367",
+        "02-2642-1041",
+        "022-642-1041",
+        "02-653-3342",
+        "02-2607-5320",
+        "02-695-9300"
       ],
       "phoneCandidates": [
         {
           "number": "022-646-2367",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7650,14 +7655,80 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2642-1041",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 925 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-642-1041",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 925 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-653-3342",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 925 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2607-5320",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 925 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-695-9300",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 925 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2550",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:23",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -7686,16 +7757,19 @@
       "jibunAddress": "서울 양천구 신정동 314",
       "phone": "022-648-7225",
       "phones": [
-        "022-648-7225"
+        "022-648-7225",
+        "022-647-9799",
+        "026-0410-1137"
       ],
       "phoneCandidates": [
         {
           "number": "022-648-7225",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동서로 280 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7704,14 +7778,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-647-9799",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동서로 280 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0410-1137",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동서로 280 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1352",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:26",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -7740,16 +7842,23 @@
       "jibunAddress": "서울 양천구 신정동 312",
       "phone": "022-648-2250",
       "phones": [
-        "022-648-2250"
+        "022-648-2250",
+        "070-8134-0755",
+        "02-2647-5100",
+        "02-2684-3152",
+        "02-2699-9876",
+        "02-2652-1277",
+        "02-6678-0321"
       ],
       "phoneCandidates": [
         {
           "number": "022-648-2250",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동서로 340 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7758,14 +7867,94 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "070-8134-0755",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동서로 340 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2647-5100",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동서로 340 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2684-3152",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동서로 340 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2699-9876",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동서로 340 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2652-1277",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동서로 340 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6678-0321",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동서로 340 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2030",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:30",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -7794,16 +7983,20 @@
       "jibunAddress": "서울 양천구 목동 950",
       "phone": "022-653-4359",
       "phones": [
-        "022-653-4359"
+        "022-653-4359",
+        "02-2653-4359",
+        "022-653-4360",
+        "02-2653-4360"
       ],
       "phoneCandidates": [
         {
           "number": "022-653-4359",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 950 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7812,14 +8005,57 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2653-4359",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 양천구 목동 950 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "022-653-4360",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 950 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2653-4360",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 950 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "276",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:33",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -7848,16 +8084,18 @@
       "jibunAddress": "서울 양천구 목동 907-5",
       "phone": "022-654-4090",
       "phones": [
-        "022-654-4090"
+        "022-654-4090",
+        "02-2654-4090"
       ],
       "phoneCandidates": [
         {
           "number": "022-654-4090",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 907-5 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7866,14 +8104,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-2654-4090",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 양천구 목동 907-5 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "84",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:37",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -7902,16 +8157,18 @@
       "jibunAddress": "서울 양천구 목동 928",
       "phone": "022-644-7411",
       "phones": [
-        "022-644-7411"
+        "022-644-7411",
+        "026-741-7411"
       ],
       "phoneCandidates": [
         {
           "number": "022-644-7411",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 928 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -7920,14 +8177,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-741-7411",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 928 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "299",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:40",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8029,9 +8301,9 @@
           "number": "022-652-1460",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8040,14 +8312,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "206",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:43",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8076,16 +8349,20 @@
       "jibunAddress": "서울 양천구 목동 753-1",
       "phone": "022-644-3194",
       "phones": [
-        "022-644-3194"
+        "022-644-3194",
+        "022-652-1460",
+        "026-091-1460",
+        "02-2644-3194"
       ],
       "phoneCandidates": [
         {
           "number": "022-644-3194",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 753-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8094,14 +8371,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-652-1460",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 753-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-091-1460",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 753-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2644-3194",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 753-1 관리사무소, 서울 양천구 목동 753-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "153",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:47",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8130,16 +8449,19 @@
       "jibunAddress": "서울 양천구 목동 549",
       "phone": "026-094-7233",
       "phones": [
-        "026-094-7233"
+        "026-094-7233",
+        "022-652-9073",
+        "02-2642-2244"
       ],
       "phoneCandidates": [
         {
           "number": "026-094-7233",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 549 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8148,14 +8470,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-652-9073",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 549 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2642-2244",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 549 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "495",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:50",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8184,16 +8534,20 @@
       "jibunAddress": "서울 양천구 목동 951",
       "phone": "022-654-8074",
       "phones": [
-        "022-654-8074"
+        "022-654-8074",
+        "022-654-8077",
+        "02-2654-8074",
+        "02-2654-8077"
       ],
       "phoneCandidates": [
         {
           "number": "022-654-8074",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 951 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8202,14 +8556,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-654-8077",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 951 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2654-8074",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 951 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2654-8077",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 951 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "371",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:53",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8245,9 +8640,9 @@
           "number": "022-652-7126",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8256,14 +8651,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "103",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:40:57",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8292,16 +8688,17 @@
       "jibunAddress": "서울 양천구 목동 808-5",
       "phone": "022-655-0932",
       "phones": [
-        "022-655-0932"
+        "022-655-0932",
+        "02-2655-0932"
       ],
       "phoneCandidates": [
         {
           "number": "022-655-0932",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8310,14 +8707,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2655-0932",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동 808-5 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "154",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:00",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8346,16 +8757,19 @@
       "jibunAddress": "서울 양천구 목동 941",
       "phone": "022-651-0211",
       "phones": [
-        "022-651-0211"
+        "022-651-0211",
+        "022-651-4591",
+        "02-2647-6500"
       ],
       "phoneCandidates": [
         {
           "number": "022-651-0211",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 941 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8364,14 +8778,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-651-4591",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 941 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2647-6500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 941 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "511",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:03",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8407,9 +8849,9 @@
           "number": "022-643-7095",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8418,14 +8860,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "76",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:07",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8639,16 +9082,19 @@
       "jibunAddress": "서울 양천구 목동 956",
       "phone": "022-651-4994",
       "phones": [
-        "022-651-4994"
+        "022-651-4994",
+        "02-2642-2244",
+        "02-2651-4994",
+        "02-6741-6996"
       ],
       "phoneCandidates": [
         {
           "number": "022-651-4994",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8657,14 +9103,54 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2642-2244",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 956 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2651-4994",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 956 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6741-6996",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 956 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1067",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:10",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8797,16 +9283,23 @@
       "jibunAddress": "서울 양천구 목동 926-8",
       "phone": "022-644-4736",
       "phones": [
-        "022-644-4736"
+        "022-644-4736",
+        "02-2644-4736",
+        "026-737-4736",
+        "02-6737-4736",
+        "02-2646-6460",
+        "02-653-2515"
       ],
       "phoneCandidates": [
         {
           "number": "022-644-4736",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 2026-09-19 18:41:13",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 926-8 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2,
+            "2026-09-19 18:41:13": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8815,14 +9308,83 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2,
+            "2026-09-19 18:41:13": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회 · 2026-09-19 18:41:13 1회"
+        },
+        {
+          "number": "02-2644-4736",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 926-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "026-737-4736",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 926-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6737-4736",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 926-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2646-6460",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 926-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-653-2515",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 926-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "200",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:13",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -8912,9 +9474,9 @@
           "number": "022-651-4249",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8923,14 +9485,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "106",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:18",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -9169,10 +9732,11 @@
         {
           "number": "026-093-1230",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 960 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9181,14 +9745,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "104",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:21",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -9397,16 +9963,18 @@
       "jibunAddress": "서울 양천구 목동 200",
       "phone": "022-653-1051",
       "phones": [
-        "022-653-1051"
+        "022-653-1051",
+        "022-653-1052"
       ],
       "phoneCandidates": [
         {
           "number": "022-653-1051",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 200 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9415,14 +9983,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-653-1052",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 200 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "332",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:25",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -9796,16 +10379,17 @@
       "jibunAddress": "서울 양천구 목동 935",
       "phone": "022-648-1134",
       "phones": [
-        "022-648-1134"
+        "022-648-1134",
+        "02-2648-1134"
       ],
       "phoneCandidates": [
         {
           "number": "022-648-1134",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9814,14 +10398,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2648-1134",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 935 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "183",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:28",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -9902,16 +10500,19 @@
       "jibunAddress": "서울 양천구 신정동 1325",
       "phone": "026-949-5278",
       "phones": [
-        "026-949-5278"
+        "026-949-5278",
+        "026-949-5279",
+        "00-2264-6465"
       ],
       "phoneCandidates": [
         {
           "number": "026-949-5278",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동남로4길 80 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9920,14 +10521,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-949-5279",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로4길 80 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-2264-6465",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로4길 80 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "356",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:31",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -10008,16 +10637,20 @@
       "jibunAddress": "서울 양천구 목동 929",
       "phone": "022-654-6885",
       "phones": [
-        "022-654-6885"
+        "022-654-6885",
+        "02-2654-6885",
+        "022-643-3596",
+        "02-2643-3596"
       ],
       "phoneCandidates": [
         {
           "number": "022-654-6885",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 929 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10026,14 +10659,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2654-6885",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 929 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "022-643-3596",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 929 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2643-3596",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 929 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1512",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:35",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -10117,16 +10792,17 @@
       "jibunAddress": "서울 양천구 목동 940",
       "phone": "022-643-4965",
       "phones": [
-        "022-643-4965"
+        "022-643-4965",
+        "02-2620-3942"
       ],
       "phoneCandidates": [
         {
           "number": "022-643-4965",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10135,14 +10811,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2620-3942",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 940 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "171",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:38",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -10171,16 +10861,17 @@
       "jibunAddress": "서울 양천구 목동 539-4",
       "phone": "022-649-6310",
       "phones": [
-        "022-649-6310"
+        "022-649-6310",
+        "02-2652-6310"
       ],
       "phoneCandidates": [
         {
           "number": "022-649-6310",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10189,14 +10880,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2652-6310",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 539-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "121",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:41",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -10631,16 +11336,22 @@
       "jibunAddress": "서울 양천구 신정동 1306",
       "phone": "022-647-9648",
       "phones": [
-        "022-647-9648"
+        "022-647-9648",
+        "022-647-9649",
+        "025-0905-1343",
+        "026-0810-1528",
+        "026-0309-1609",
+        "00-2264-6465"
       ],
       "phoneCandidates": [
         {
           "number": "022-647-9648",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동남로2길 60-30 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10649,14 +11360,81 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-647-9649",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로2길 60-30 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0905-1343",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로2길 60-30 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0810-1528",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로2길 60-30 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0309-1609",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로2길 60-30 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-2264-6465",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로2길 60-30 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "326",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:45",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -10685,16 +11463,18 @@
       "jibunAddress": "서울 양천구 신정동 276",
       "phone": "022-643-8093",
       "phones": [
-        "022-643-8093"
+        "022-643-8093",
+        "022-643-8096"
       ],
       "phoneCandidates": [
         {
           "number": "022-643-8093",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동로3길 41 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10703,14 +11483,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-643-8096",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동로3길 41 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2998",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:48",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -10805,16 +11600,21 @@
       "jibunAddress": "서울 양천구 신정동 1314",
       "phone": "022-647-5937",
       "phones": [
-        "022-647-5937"
+        "022-647-5937",
+        "022-647-5938",
+        "025-0910-1628",
+        "00-2264-6465",
+        "02-407-7281"
       ],
       "phoneCandidates": [
         {
           "number": "022-647-5937",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동남로2길 60-7 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10823,14 +11623,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-647-5938",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로2길 60-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0910-1628",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로2길 60-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-2264-6465",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로2길 60-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-407-7281",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동남로2길 60-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "241",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:51",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -10859,16 +11713,19 @@
       "jibunAddress": "서울 양천구 목동 514-18",
       "phone": "026-952-6996",
       "phones": [
-        "026-952-6996"
+        "026-952-6996",
+        "02-6952-6996",
+        "026-952-6997"
       ],
       "phoneCandidates": [
         {
           "number": "026-952-6996",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동 514-18 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10877,14 +11734,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-6952-6996",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 514-18 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-952-6997",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동 514-18 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "184",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:55",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -11646,9 +12531,9 @@
           "number": "022-643-5135",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11657,14 +12542,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "292",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:41:58",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -11693,16 +12579,22 @@
       "jibunAddress": "서울 양천구 신정동 325",
       "phone": "026-734-9993",
       "phones": [
-        "026-734-9993"
+        "026-734-9993",
+        "02-2654-3224",
+        "022-649-8135",
+        "02-2655-1357",
+        "02-2654-6511",
+        "02-0000-0000"
       ],
       "phoneCandidates": [
         {
           "number": "026-734-9993",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 10 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11711,14 +12603,81 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2654-3224",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 10 관리사무소, 서울 양천구 목동동로 10 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "022-649-8135",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 10 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2655-1357",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 10 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2654-6511",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 10 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-0000-0000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 10 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1595",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:01",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -11747,16 +12706,18 @@
       "jibunAddress": "서울 양천구 신정동 326",
       "phone": "022-649-6061",
       "phones": [
-        "022-649-6061"
+        "022-649-6061",
+        "022-649-6062"
       ],
       "phoneCandidates": [
         {
           "number": "022-649-6061",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 50 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11765,14 +12726,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-649-6062",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 50 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1860",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:05",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -11801,16 +12777,17 @@
       "jibunAddress": "서울 양천구 신정동 327",
       "phone": "022-648-2392",
       "phones": [
-        "022-648-2392"
+        "022-648-2392",
+        "02-2648-2392"
       ],
       "phoneCandidates": [
         {
           "number": "022-648-2392",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11819,14 +12796,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2648-2392",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 양천구 목동동로 100 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "2280",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:08",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -11913,16 +12906,20 @@
       "jibunAddress": "서울 양천구 신정동 329",
       "phone": "022-648-4428",
       "phones": [
-        "022-648-4428"
+        "022-648-4428",
+        "02-2648-4428",
+        "022-061-2251",
+        "026-0320-0836"
       ],
       "phoneCandidates": [
         {
           "number": "022-648-4428",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 130 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11931,14 +12928,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2648-4428",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 130 관리사무소, 서울 양천구 목동동로 130 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "022-061-2251",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 130 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0320-0836",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 130 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "3100",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:12",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -11974,9 +13012,9 @@
           "number": "022-643-9598",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11985,14 +13023,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "108",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:15",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12021,16 +13060,23 @@
       "jibunAddress": "서울 양천구 목동 912",
       "phone": "022-647-0049",
       "phones": [
-        "022-647-0049"
+        "022-647-0049",
+        "02-2647-0049",
+        "02-2645-2440",
+        "022-645-2440",
+        "022-647-1449",
+        "025-0904-1349"
       ],
       "phoneCandidates": [
         {
           "number": "022-647-0049",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 350 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12039,14 +13085,82 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-2647-0049",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로 350 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2645-2440",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로 350 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-645-2440",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로 350 관리실",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-647-1449",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 350 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0904-1349",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 350 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1848",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:19",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12075,16 +13189,20 @@
       "jibunAddress": "서울 양천구 목동 934",
       "phone": "022-644-3740",
       "phones": [
-        "022-644-3740"
+        "022-644-3740",
+        "026-736-3740",
+        "02-2644-3740",
+        "02-6736-3740"
       ],
       "phoneCandidates": [
         {
           "number": "022-644-3740",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 258 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12093,14 +13211,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-736-3740",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 258 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2644-3740",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 258 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6736-3740",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 258 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "224",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:22",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12187,16 +13346,21 @@
       "jibunAddress": "서울 양천구 목동 405",
       "phone": "022-649-0682",
       "phones": [
-        "022-649-0682"
+        "022-649-0682",
+        "022-652-7978",
+        "02-869-8686",
+        "02-2642-8965",
+        "02-2699-9192"
       ],
       "phoneCandidates": [
         {
           "number": "022-649-0682",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로12길 23 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12205,14 +13369,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-652-7978",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로12길 23 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-869-8686",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로12길 23 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2642-8965",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로12길 23 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2699-9192",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로12길 23 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "262",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:25",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12241,16 +13459,23 @@
       "jibunAddress": "서울 양천구 목동 907-14",
       "phone": "022-644-4516",
       "phones": [
-        "022-644-4516"
+        "022-644-4516",
+        "02-2653-3966",
+        "022-653-3966",
+        "02-2642-8965",
+        "02-2699-9192",
+        "02-2237-0582",
+        "02-2665-4088"
       ],
       "phoneCandidates": [
         {
           "number": "022-644-4516",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 385 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12259,14 +13484,94 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2653-3966",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로 385 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-653-3966",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로 385 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2642-8965",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 385 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2699-9192",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 385 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2237-0582",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 385 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2665-4088",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 385 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "86",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:29",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12295,16 +13600,21 @@
       "jibunAddress": "서울 양천구 목동 908-28",
       "phone": "022-062-2086",
       "phones": [
-        "022-062-2086"
+        "022-062-2086",
+        "022-062-2087",
+        "01-2206-2208",
+        "02-2654-8244",
+        "02-0000-0000"
       ],
       "phoneCandidates": [
         {
           "number": "022-062-2086",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 401 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12313,14 +13623,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-062-2087",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 401 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "01-2206-2208",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 401 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2654-8244",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 401 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-0000-0000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 401 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "240",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:32",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12349,16 +13713,21 @@
       "jibunAddress": "서울 양천구 목동 908-34",
       "phone": "022-649-0414",
       "phones": [
-        "022-649-0414"
+        "022-649-0414",
+        "022-649-0415",
+        "026-0127-1627",
+        "026-0127-1642",
+        "02-2665-4088"
       ],
       "phoneCandidates": [
         {
           "number": "022-649-0414",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 411 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12367,14 +13736,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-649-0415",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 411 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0127-1627",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 411 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0127-1642",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 411 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2665-4088",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 411 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "276",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:35",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12403,16 +13826,18 @@
       "jibunAddress": "서울 양천구 신정동 318-12",
       "phone": "022-653-4407",
       "phones": [
-        "022-653-4407"
+        "022-653-4407",
+        "022-653-4408"
       ],
       "phoneCandidates": [
         {
           "number": "022-653-4407",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 177 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12421,14 +13846,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-653-4408",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 177 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "170",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:39",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12457,16 +13897,20 @@
       "jibunAddress": "서울 양천구 목동 933",
       "phone": "022-644-3247",
       "phones": [
-        "022-644-3247"
+        "022-644-3247",
+        "02-2648-4093",
+        "022-648-4093",
+        "026-347-3247"
       ],
       "phoneCandidates": [
         {
           "number": "022-644-3247",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로12길 45 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12475,14 +13919,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2648-4093",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로12길 45 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-648-4093",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로12길 45 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-347-3247",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로12길 45 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "277",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:42",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12579,16 +14064,21 @@
       "jibunAddress": "서울 양천구 목동 911",
       "phone": "022-647-0916",
       "phones": [
-        "022-647-0916"
+        "022-647-0916",
+        "02-2647-0001",
+        "022-647-0001",
+        "022-647-0913",
+        "02-2647-1515"
       ],
       "phoneCandidates": [
         {
           "number": "022-647-0916",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 430 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12597,14 +14087,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2647-0001",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로 430 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-647-0001",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로 430 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-647-0913",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 430 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2647-1515",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 430 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1362",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:46",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12633,16 +14177,18 @@
       "jibunAddress": "서울 양천구 목동 936",
       "phone": "022-649-8728",
       "phones": [
-        "022-649-8728"
+        "022-649-8728",
+        "022-649-8729"
       ],
       "phoneCandidates": [
         {
           "number": "022-649-8728",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 250 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12651,14 +14197,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-649-8729",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 250 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "179",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:49",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12687,16 +14248,24 @@
       "jibunAddress": "서울 양천구 목동 905-22",
       "phone": "022-062-2811",
       "phones": [
-        "022-062-2811"
+        "022-062-2811",
+        "02-2653-1582",
+        "022-653-1582",
+        "02-2062-2811",
+        "02-812-6201",
+        "02-2654-6511",
+        "02-0000-0000",
+        "02-2653-0771",
+        "02-2651-5875"
       ],
       "phoneCandidates": [
         {
           "number": "022-062-2811",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12705,14 +14274,119 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2653-1582",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로 339 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-653-1582",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로 339 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2062-2811",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 339 관리사무소, 서울 양천구 목동동로 339 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-812-6201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 339 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2654-6511",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 339 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-0000-0000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 339 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2653-0771",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 339 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2651-5875",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 339 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "321",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:52",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12741,16 +14415,20 @@
       "jibunAddress": "서울 양천구 신정동 1279",
       "phone": "022-644-7692",
       "phones": [
-        "022-644-7692"
+        "022-644-7692",
+        "02-2653-5274",
+        "022-653-5274",
+        "022-651-9782"
       ],
       "phoneCandidates": [
         {
           "number": "022-644-7692",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로12길 60 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12759,14 +14437,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2653-5274",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로12길 60 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-653-5274",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로12길 60 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-651-9782",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로12길 60 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "972",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:56",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12795,16 +14514,20 @@
       "jibunAddress": "서울 양천구 목동 932",
       "phone": "022-649-1551",
       "phones": [
-        "022-649-1551"
+        "022-649-1551",
+        "026-406-6551",
+        "02-2649-1551",
+        "02-6406-6551"
       ],
       "phoneCandidates": [
         {
           "number": "022-649-1551",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 240 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12813,14 +14536,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-406-6551",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 240 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2649-1551",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 240 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6406-6551",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 240 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "242",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:42:59",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12849,16 +14613,20 @@
       "jibunAddress": "서울 양천구 목동 930",
       "phone": "022-653-0838",
       "phones": [
-        "022-653-0838"
+        "022-653-0838",
+        "02-2653-0838",
+        "026-738-0838",
+        "02-6738-0838"
       ],
       "phoneCandidates": [
         {
           "number": "022-653-0838",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 202 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12867,14 +14635,57 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2653-0838",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 양천구 목동동로 202 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "026-738-0838",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 202 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6738-0838",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 202 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "209",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:43:02",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12903,16 +14714,20 @@
       "jibunAddress": "서울 양천구 목동 931",
       "phone": "022-645-3837",
       "phones": [
-        "022-645-3837"
+        "022-645-3837",
+        "022-647-8611",
+        "025-0731-1440"
       ],
       "phoneCandidates": [
         {
           "number": "022-645-3837",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로12길 59 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12921,14 +14736,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "022-647-8611",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "서울 양천구 목동동로12길 59 관리사무소",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "025-0731-1440",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로12길 59 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "542",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:43:06",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -12957,16 +14803,19 @@
       "jibunAddress": "서울 양천구 목동 907-23",
       "phone": "022-643-6728",
       "phones": [
-        "022-643-6728"
+        "022-643-6728",
+        "02-6369-8100",
+        "022-642-8845"
       ],
       "phoneCandidates": [
         {
           "number": "022-643-6728",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 391 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12975,14 +14824,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-6369-8100",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 391 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "022-642-8845",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 391 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "69",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:43:09",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -13011,16 +14888,25 @@
       "jibunAddress": "서울 양천구 목동 916",
       "phone": "022-652-1213",
       "phones": [
-        "022-652-1213"
+        "022-652-1213",
+        "02-2652-1213",
+        "02-2620-3942",
+        "022-652-1214",
+        "026-0507-1135",
+        "025-0416-1541",
+        "02-2652-1214",
+        "02-1588-7833",
+        "07-1419-7585"
       ],
       "phoneCandidates": [
         {
           "number": "022-652-1213",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 257 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13029,14 +14915,120 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2652-1213",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 257 관리사무소, 서울 양천구 목동동로 257 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2620-3942",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 257 관리사무소, 서울 양천구 목동동로 257 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "022-652-1214",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 257 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0507-1135",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 257 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0416-1541",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 257 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2652-1214",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 257 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-1588-7833",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 257 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1419-7585",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 257 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "466",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:43:13",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -13065,16 +15057,19 @@
       "jibunAddress": "서울 양천구 신정동 318-10",
       "phone": "022-651-3331",
       "phones": [
-        "022-651-3331"
+        "022-651-3331",
+        "022-651-3414",
+        "02-2647-0967"
       ],
       "phoneCandidates": [
         {
           "number": "022-651-3331",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 189 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13083,14 +15078,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-651-3414",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 189 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2647-0967",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 189 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "312",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:43:16",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -13119,16 +15142,21 @@
       "jibunAddress": "서울 양천구 신정동 1296",
       "phone": "022-651-3890",
       "phones": [
-        "022-651-3890"
+        "022-651-3890",
+        "02-2651-3890",
+        "022-651-3891",
+        "02-2649-8889"
       ],
       "phoneCandidates": [
         {
           "number": "022-651-3890",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 목동동로 180 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13137,14 +15165,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-2651-3890",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 양천구 목동동로 180 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-651-3891",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 180 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2649-8889",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 목동동로 180 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "590",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:43:19",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -13731,9 +15801,9 @@
           "number": "022-604-7095",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13742,14 +15812,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "82",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:43:23",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
@@ -15324,16 +17395,18 @@
       "jibunAddress": "서울 양천구 신정동 1324",
       "phone": "022-060-8101",
       "phones": [
-        "022-060-8101"
+        "022-060-8101",
+        "022-060-8103"
       ],
       "phoneCandidates": [
         {
           "number": "022-060-8101",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 양천구 신정동 1324 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15342,14 +17415,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-060-8103",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 양천구 신정동 1324 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "560",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-19 18:43:26",
       "detailUpdatedAt": 1781062260498,
       "listUpdatedAt": 1781062260498,
       "phoneStatus": "CONFIRMED",
