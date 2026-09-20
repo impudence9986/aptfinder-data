@@ -1,6 +1,6 @@
 {
-  "version": 1789843617,
-  "updatedAt": "2026-09-19 18:46:57",
+  "version": 1789930509,
+  "updatedAt": "2026-09-20 18:55:09",
   "sido": "서울특별시",
   "sigungu": "영등포구",
   "count": 273,
@@ -8583,16 +8583,21 @@
       "jibunAddress": "서울 영등포구 양평동3가 24",
       "phone": "022-068-2996",
       "phones": [
-        "022-068-2996"
+        "022-068-2996",
+        "02-6240-0516",
+        "02-2629-4860",
+        "02-2068-2996",
+        "022-068-2063"
       ],
       "phoneCandidates": [
         {
           "number": "022-068-2996",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동3가 24 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8601,14 +8606,68 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-6240-0516",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2629-4860",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2068-2996",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "022-068-2063",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 양평동3가 24 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "179",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:51:11",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -8637,16 +8696,18 @@
       "jibunAddress": "서울 영등포구 양평동6가 100",
       "phone": "026-265-4398",
       "phones": [
-        "026-265-4398"
+        "026-265-4398",
+        "022-676-4398"
       ],
       "phoneCandidates": [
         {
           "number": "026-265-4398",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동6가 100 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8655,14 +8716,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-676-4398",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 양평동6가 100 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "263",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:51:23",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -8691,16 +8767,17 @@
       "jibunAddress": "서울 영등포구 양평동2가 23",
       "phone": "022-677-2037",
       "phones": [
-        "022-677-2037"
+        "022-677-2037",
+        "02-2677-2037"
       ],
       "phoneCandidates": [
         {
           "number": "022-677-2037",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8709,14 +8786,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "02-2677-2037",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 영등포구 양평동2가 23 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "417",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:51:27",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -8745,16 +8836,18 @@
       "jibunAddress": "서울 영등포구 양평동2가 38-1",
       "phone": "022-631-4852",
       "phones": [
-        "022-631-4852"
+        "022-631-4852",
+        "026-265-4852"
       ],
       "phoneCandidates": [
         {
           "number": "022-631-4852",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동2가 38-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8763,14 +8856,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-265-4852",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 양평동2가 38-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "388",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:51:31",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -8799,16 +8907,18 @@
       "jibunAddress": "서울 영등포구 양평동3가 66",
       "phone": "022-637-7919",
       "phones": [
-        "022-637-7919"
+        "022-637-7919",
+        "02-2637-7919"
       ],
       "phoneCandidates": [
         {
           "number": "022-637-7919",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동3가 66 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8817,14 +8927,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-2637-7919",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 영등포구 양평동3가 66 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "213",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:51:35",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -8860,9 +8985,9 @@
           "number": "022-676-6839",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8871,14 +8996,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "176",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:51:39",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -8907,16 +9033,18 @@
       "jibunAddress": "서울 영등포구 양평동1가 14-1",
       "phone": "022-632-5674",
       "phones": [
-        "022-632-5674"
+        "022-632-5674",
+        "022-671-1828"
       ],
       "phoneCandidates": [
         {
           "number": "022-632-5674",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동1가 14-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8925,14 +9053,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-671-1828",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 양평동1가 14-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "165",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:51:43",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -8961,16 +9104,20 @@
       "jibunAddress": "서울 영등포구 양평동4가 12",
       "phone": "022-675-2467",
       "phones": [
-        "022-675-2467"
+        "022-675-2467",
+        "02-2675-2467",
+        "022-636-4262"
       ],
       "phoneCandidates": [
         {
           "number": "022-675-2467",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동4가 12 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8979,14 +9126,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-2675-2467",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 영등포구 양평동4가 12 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-636-4262",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 양평동4가 12 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "372",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:51:47",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9022,9 +9198,9 @@
           "number": "022-634-3852",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9033,14 +9209,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "495",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:51:51",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9076,9 +9253,9 @@
           "number": "022-636-8481",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9087,14 +9264,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "128",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:51:56",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9130,9 +9308,9 @@
           "number": "022-635-6200",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9141,14 +9319,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "116",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:00",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9177,16 +9356,18 @@
       "jibunAddress": "서울 영등포구 양평동3가 102",
       "phone": "022-633-2456",
       "phones": [
-        "022-633-2456"
+        "022-633-2456",
+        "022-068-2210"
       ],
       "phoneCandidates": [
         {
           "number": "022-633-2456",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동3가 102 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9195,14 +9376,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-068-2210",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 양평동3가 102 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "170",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:04",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9231,16 +9427,18 @@
       "jibunAddress": "서울 영등포구 양평동6가 99",
       "phone": "022-632-0207",
       "phones": [
-        "022-632-0207"
+        "022-632-0207",
+        "026-298-0207"
       ],
       "phoneCandidates": [
         {
           "number": "022-632-0207",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동6가 99 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9249,14 +9447,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-298-0207",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 양평동6가 99 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "219",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:08",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9285,16 +9498,19 @@
       "jibunAddress": "서울 영등포구 양평동5가 76",
       "phone": "022-675-1341",
       "phones": [
-        "022-675-1341"
+        "022-675-1341",
+        "02-2675-1341",
+        "022-675-1342"
       ],
       "phoneCandidates": [
         {
           "number": "022-675-1341",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동5가 76 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9303,14 +9519,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2675-1341",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 영등포구 양평동5가 76 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "022-675-1342",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 양평동5가 76 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1215",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:12",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9339,16 +9583,18 @@
       "jibunAddress": "서울 영등포구 여의도동 21-2",
       "phone": "02-782-2664",
       "phones": [
-        "02-782-2664"
+        "02-782-2664",
+        "02-784-2665"
       ],
       "phoneCandidates": [
         {
           "number": "02-782-2664",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 21-2 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9357,14 +9603,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-784-2665",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 21-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "373",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:16",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9393,16 +9654,18 @@
       "jibunAddress": "서울 영등포구 여의도동 28",
       "phone": "02-782-0091",
       "phones": [
-        "02-782-0091"
+        "02-782-0091",
+        "02-783-4810"
       ],
       "phoneCandidates": [
         {
           "number": "02-782-0091",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 28 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9411,14 +9674,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-783-4810",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 28 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "744",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:20",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9453,10 +9731,11 @@
         {
           "number": "02-782-0092",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 41 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9465,14 +9744,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
         }
       ],
       "households": "576",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:24",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9508,9 +9789,9 @@
           "number": "022-678-8451",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9519,14 +9800,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "185",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:29",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9555,16 +9837,19 @@
       "jibunAddress": "서울 영등포구 여의도동 30",
       "phone": "02-780-5388",
       "phones": [
-        "02-780-5388"
+        "02-780-5388",
+        "02-785-0662",
+        "02-780-1550"
       ],
       "phoneCandidates": [
         {
           "number": "02-780-5388",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 30 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9573,14 +9858,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-785-0662",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 영등포구 여의도동 30 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-780-1550",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 30 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "312",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:33",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9615,10 +9928,12 @@
         {
           "number": "02-783-9634",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 37 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9627,14 +9942,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
         }
       ],
       "households": "577",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:37",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9670,9 +9988,9 @@
           "number": "02-785-0662",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9681,14 +9999,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "866",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:41",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9717,16 +10036,19 @@
       "jibunAddress": "서울 영등포구 여의도동 51",
       "phone": "02-786-1787",
       "phones": [
-        "02-786-1787"
+        "02-786-1787",
+        "02-786-1786"
       ],
       "phoneCandidates": [
         {
           "number": "02-786-1787",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 51 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9735,14 +10057,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1,
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "02-786-1786",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 51 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "360",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:45",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9771,16 +10110,18 @@
       "jibunAddress": "서울 영등포구 여의도동 32",
       "phone": "02-783-3994",
       "phones": [
-        "02-783-3994"
+        "02-783-3994",
+        "02-784-0831"
       ],
       "phoneCandidates": [
         {
           "number": "02-783-3994",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 32 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9789,14 +10130,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-784-0831",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 32 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "329",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:49",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9825,16 +10181,19 @@
       "jibunAddress": "서울 영등포구 여의도동 50",
       "phone": "02-782-1812",
       "phones": [
-        "02-782-1812"
+        "02-782-1812",
+        "02-782-1813",
+        "02-782-4773"
       ],
       "phoneCandidates": [
         {
           "number": "02-782-1812",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 50 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9843,14 +10202,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-782-1813",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 영등포구 여의도동 50 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-782-4773",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 50 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1584",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:54",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9879,16 +10266,18 @@
       "jibunAddress": "서울 영등포구 여의도동 52",
       "phone": "02-783-3198",
       "phones": [
-        "02-783-3198"
+        "02-783-3198",
+        "026-671-3198"
       ],
       "phoneCandidates": [
         {
           "number": "02-783-3198",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 52 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9897,14 +10286,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-671-3198",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 52 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "360",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:52:58",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9933,16 +10337,18 @@
       "jibunAddress": "서울 영등포구 여의도동 40",
       "phone": "02-780-8761",
       "phones": [
-        "02-780-8761"
+        "02-780-8761",
+        "02-780-8763"
       ],
       "phoneCandidates": [
         {
           "number": "02-780-8761",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 40 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9951,14 +10357,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-780-8763",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 40 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "196",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:02",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -9987,16 +10408,19 @@
       "jibunAddress": "서울 영등포구 여의도동 54",
       "phone": "02-782-4538",
       "phones": [
-        "02-782-4538"
+        "02-782-4538",
+        "02-6672-4538",
+        "026-672-4538"
       ],
       "phoneCandidates": [
         {
           "number": "02-782-4538",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 54 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10005,14 +10429,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-6672-4538",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 영등포구 여의도동 54 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-672-4538",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 영등포구 여의도동 54 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "376",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:06",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10041,16 +10493,18 @@
       "jibunAddress": "서울 영등포구 여의도동 11-1",
       "phone": "02-780-5768",
       "phones": [
-        "02-780-5768"
+        "02-780-5768",
+        "02-761-9653"
       ],
       "phoneCandidates": [
         {
           "number": "02-780-5768",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 11-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10059,14 +10513,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-761-9653",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 11-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "153",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:10",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10095,16 +10564,19 @@
       "jibunAddress": "서울 영등포구 여의도동 42",
       "phone": "026-672-4630",
       "phones": [
-        "026-672-4630"
+        "026-672-4630",
+        "02-782-4788",
+        "02-6672-4630"
       ],
       "phoneCandidates": [
         {
           "number": "026-672-4630",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 42 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10113,14 +10585,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-782-4788",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 42 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6672-4630",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 42 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "588",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:15",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10156,9 +10656,9 @@
           "number": "02-780-5488",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10167,14 +10667,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "160",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:19",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10203,16 +10704,18 @@
       "jibunAddress": "서울 영등포구 영등포동7가 46-1",
       "phone": "022-633-4779",
       "phones": [
-        "022-633-4779"
+        "022-633-4779",
+        "022-677-9149"
       ],
       "phoneCandidates": [
         {
           "number": "022-633-4779",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 영등포동7가 46-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10221,14 +10724,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-677-9149",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 영등포동7가 46-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "600",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:23",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10257,16 +10775,18 @@
       "jibunAddress": "서울 영등포구 영등포동 649",
       "phone": "02-841-8244",
       "phones": [
-        "02-841-8244"
+        "02-841-8244",
+        "02-844-8244"
       ],
       "phoneCandidates": [
         {
           "number": "02-841-8244",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 영등포동 649 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10275,14 +10795,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-844-8244",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 영등포동 649 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "271",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:27",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10311,16 +10846,19 @@
       "jibunAddress": "서울 영등포구 영등포동8가 76-1",
       "phone": "02-2677-1635",
       "phones": [
-        "02-2677-1635"
+        "02-2677-1635",
+        "026-673-1635"
       ],
       "phoneCandidates": [
         {
           "number": "02-2677-1635",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 영등포동8가 76-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10329,14 +10867,30 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "026-673-1635",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 영등포동8가 76-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "520",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:31",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10365,16 +10919,18 @@
       "jibunAddress": "서울 영등포구 도림동 821",
       "phone": "02-843-8690",
       "phones": [
-        "02-843-8690"
+        "02-843-8690",
+        "02-843-8698"
       ],
       "phoneCandidates": [
         {
           "number": "02-843-8690",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 도림동 821 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10383,14 +10939,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-843-8698",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 도림동 821 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "836",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:35",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10419,16 +10990,19 @@
       "jibunAddress": "서울 영등포구 양평동1가 238-7",
       "phone": "026-954-7617",
       "phones": [
-        "026-954-7617"
+        "026-954-7617",
+        "026-954-7618",
+        "02-6954-7617"
       ],
       "phoneCandidates": [
         {
           "number": "026-954-7617",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동1가 238-7 관리사무소, 서울 영등포구 양평동1가 238-7 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10437,14 +11011,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "026-954-7618",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 영등포구 양평동1가 238-7 관리사무소, 서울 영등포구 양평동1가 238-7 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6954-7617",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 양평동1가 238-7 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "707",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:39",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10473,16 +11075,18 @@
       "jibunAddress": "서울 영등포구 대림동 1132",
       "phone": "026-956-3872",
       "phones": [
-        "026-956-3872"
+        "026-956-3872",
+        "026-956-3873"
       ],
       "phoneCandidates": [
         {
           "number": "026-956-3872",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 대림동 1132 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10491,14 +11095,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-956-3873",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 대림동 1132 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "212",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:43",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10533,10 +11152,11 @@
         {
           "number": "022-637-5550",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel, existing",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 2026-08-14 18:08:48",
+          "keyword": "kaptTel, existing, verify_existing",
           "sourceCounts": {
-            "K-apt": 9
+            "K-apt": 9,
+            "2026-08-14 18:08:48": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10546,9 +11166,10 @@
             "K-apt 3회": 1,
             "K-apt 2회": 1,
             "공공데이터 K-apt": 2,
-            "K-apt 8회": 1
+            "K-apt 8회": 1,
+            "2026-08-14 18:08:48": 1
           },
-          "sourceSummary": "K-apt 9회"
+          "sourceSummary": "K-apt 9회 · 2026-08-14 18:08:48 1회"
         }
       ],
       "households": "308",
@@ -10582,16 +11203,20 @@
       "jibunAddress": "서울 영등포구 영등포동 647",
       "phone": "026-745-2247",
       "phones": [
-        "026-745-2247"
+        "026-745-2247",
+        "02-6745-2247",
+        "02-847-6767",
+        "02-2611-6487"
       ],
       "phoneCandidates": [
         {
           "number": "026-745-2247",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 영등포동 647 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10600,14 +11225,56 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-6745-2247",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 영등포구 영등포동 647 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-847-6767",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 영등포동 647 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2611-6487",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 영등포동 647 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "2462",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:51",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10642,10 +11309,11 @@
         {
           "number": "022-675-2968",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 양평동2가 39-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10654,14 +11322,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "114",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:55",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10690,16 +11360,18 @@
       "jibunAddress": "서울 영등포구 신길동 173-6",
       "phone": "02-848-0888",
       "phones": [
-        "02-848-0888"
+        "02-848-0888",
+        "02-847-0888"
       ],
       "phoneCandidates": [
         {
           "number": "02-848-0888",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 신길동 173-6 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10708,14 +11380,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-847-0888",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 신길동 173-6 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "162",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:53:59",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10744,16 +11431,18 @@
       "jibunAddress": "서울 영등포구 대림동 1101-7",
       "phone": "026-949-5082",
       "phones": [
-        "026-949-5082"
+        "026-949-5082",
+        "02-6949-5082"
       ],
       "phoneCandidates": [
         {
           "number": "026-949-5082",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 대림동 1101-7 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10762,14 +11451,31 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회"
+        },
+        {
+          "number": "02-6949-5082",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 영등포구 대림동 1101-7 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
         }
       ],
       "households": "299",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:03",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10798,16 +11504,19 @@
       "jibunAddress": "서울 영등포구 여의도동 61-4",
       "phone": "02-761-9273",
       "phones": [
-        "02-761-9273"
+        "02-761-9273",
+        "02-784-2798",
+        "02-786-6516"
       ],
       "phoneCandidates": [
         {
           "number": "02-761-9273",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의도동 61-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10816,14 +11525,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-784-2798",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 영등포구 여의도동 61-4 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-786-6516",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의도동 61-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "98",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:07",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10852,16 +11589,18 @@
       "jibunAddress": "서울 영등포구 당산동2가 165",
       "phone": "026-747-3400",
       "phones": [
-        "026-747-3400"
+        "026-747-3400",
+        "026-747-3401"
       ],
       "phoneCandidates": [
         {
           "number": "026-747-3400",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 당산동2가 165 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10870,14 +11609,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-747-3401",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 당산동2가 165 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "496",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:11",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10906,16 +11660,18 @@
       "jibunAddress": "서울 영등포구 신길동 4937",
       "phone": "02-834-7097",
       "phones": [
-        "02-834-7097"
+        "02-834-7097",
+        "02-834-0420"
       ],
       "phoneCandidates": [
         {
           "number": "02-834-7097",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 신길동 4937 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10924,14 +11680,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-834-0420",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 신길동 4937 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "284",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:15",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -10960,16 +11731,18 @@
       "jibunAddress": "서울 영등포구 영등포동7가 208",
       "phone": "022-069-1625",
       "phones": [
-        "022-069-1625"
+        "022-069-1625",
+        "022-069-1626"
       ],
       "phoneCandidates": [
         {
           "number": "022-069-1625",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 영등포동7가 208 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10978,14 +11751,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-069-1626",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 영등포동7가 208 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "185",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:19",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -11021,9 +11809,9 @@
           "number": "022-637-3637",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11032,14 +11820,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "265",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:23",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -11075,9 +11864,9 @@
           "number": "022-633-1760",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11086,14 +11875,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "115",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:27",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -11129,9 +11919,9 @@
           "number": "02-833-9266",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -11140,14 +11930,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "1482",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:31",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -13715,9 +14506,9 @@
           "number": "022-632-9229",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -13726,14 +14517,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "134",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:35",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -14125,9 +14917,9 @@
           "number": "022-634-7623",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14136,14 +14928,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "410",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:39",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -14172,16 +14965,18 @@
       "jibunAddress": "서울특별시 영등포구 선유동2로 29",
       "phone": "022-631-1915",
       "phones": [
-        "022-631-1915"
+        "022-631-1915",
+        "026-671-1915"
       ],
       "phoneCandidates": [
         {
           "number": "022-631-1915",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울특별시 영등포구 선유동2로 29 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14190,14 +14985,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "026-671-1915",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울특별시 영등포구 선유동2로 29 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "312",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:43",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -14226,16 +15036,18 @@
       "jibunAddress": "서울특별시 영등포구 선유동2로 23",
       "phone": "022-632-3975",
       "phones": [
-        "022-632-3975"
+        "022-632-3975",
+        "022-632-3974"
       ],
       "phoneCandidates": [
         {
           "number": "022-632-3975",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울특별시 영등포구 선유동2로 23 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -14244,14 +15056,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "022-632-3974",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울특별시 영등포구 선유동2로 23 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "145",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:47",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -15291,16 +16118,19 @@
       "jibunAddress": "서울 영등포구 신길동 4501",
       "phone": "026-268-7500",
       "phones": [
-        "026-268-7500"
+        "026-268-7500",
+        "02-842-1929",
+        "02-6268-7500"
       ],
       "phoneCandidates": [
         {
           "number": "026-268-7500",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 신길동 4501 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15309,14 +16139,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-842-1929",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 신길동 4501 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6268-7500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 신길동 4501 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "214",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:51",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -17469,16 +18327,18 @@
       "jibunAddress": "서울 영등포구 여의도동 48",
       "phone": "02-784-1488",
       "phones": [
-        "02-784-1488"
+        "02-784-1488",
+        "02-784-1487"
       ],
       "phoneCandidates": [
         {
           "number": "02-784-1488",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의동로 97 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -17487,14 +18347,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-784-1487",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 97 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "218",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:54",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -17523,16 +18398,26 @@
       "jibunAddress": "서울 영등포구 여의도동 61",
       "phone": "02-780-8684",
       "phones": [
-        "02-780-8684"
+        "02-780-8684",
+        "02-2670-1079",
+        "016-7163-2017",
+        "02-780-8665",
+        "026-0612-1454",
+        "026-0612-1459",
+        "026-0511-1733",
+        "026-0827-1741",
+        "02-6336-0863",
+        "02-2088-4917"
       ],
       "phoneCandidates": [
         {
           "number": "02-780-8684",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의동로 213 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -17541,14 +18426,133 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-2670-1079",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 213 관리사무소, 서울 영등포구 여의동로 213 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "016-7163-2017",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 213 관리사무소, 서울 영등포구 여의동로 213 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-780-8665",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 213 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0612-1454",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 213 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0612-1459",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 213 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0511-1733",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 213 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0827-1741",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 213 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6336-0863",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 213 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2088-4917",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 213 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "248",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:54:58",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -17577,16 +18581,18 @@
       "jibunAddress": "서울 영등포구 여의도동 55-1",
       "phone": "02-784-8760",
       "phones": [
-        "02-784-8760"
+        "02-784-8760",
+        "02-784-8762"
       ],
       "phoneCandidates": [
         {
           "number": "02-784-8760",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의동로 143 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -17595,14 +18601,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-784-8762",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로 143 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "282",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:55:02",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",
@@ -17631,16 +18652,20 @@
       "jibunAddress": "서울 영등포구 여의도동 47",
       "phone": "02-761-0508",
       "phones": [
-        "02-761-0508"
+        "02-761-0508",
+        "02-761-0509",
+        "026-0526-1533",
+        "02-780-7803"
       ],
       "phoneCandidates": [
         {
           "number": "02-761-0508",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 서울 영등포구 여의동로3길 10 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -17649,14 +18674,55 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "02-761-0509",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로3길 10 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0526-1533",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로3길 10 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-780-7803",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 영등포구 여의동로3길 10 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "580",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 18:55:05",
       "detailUpdatedAt": 1781132194806,
       "listUpdatedAt": 1781132194806,
       "phoneStatus": "CONFIRMED",

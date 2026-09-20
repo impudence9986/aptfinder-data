@@ -1,6 +1,6 @@
 {
-  "version": 1789844470,
-  "updatedAt": "2026-09-19 19:01:10",
+  "version": 1789930917,
+  "updatedAt": "2026-09-20 19:01:57",
   "sido": "울산광역시",
   "sigungu": "동구",
   "count": 99,
@@ -4353,16 +4353,18 @@
       "jibunAddress": "울산 동구 화정동 949",
       "phone": "052-235-2224",
       "phones": [
-        "052-235-2224"
+        "052-235-2224",
+        "052-251-2228"
       ],
       "phoneCandidates": [
         {
           "number": "052-235-2224",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 동구 화정동 949 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -4371,14 +4373,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-251-2228",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 동구 화정동 949 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "1897",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-20 19:01:53",
       "detailUpdatedAt": 1781304258876,
       "listUpdatedAt": 1781304258876,
       "phoneStatus": "CONFIRMED",
