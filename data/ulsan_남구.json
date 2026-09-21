@@ -1,6 +1,6 @@
 {
-  "version": 1789930913,
-  "updatedAt": "2026-09-20 19:01:53",
+  "version": 1790022904,
+  "updatedAt": "2026-09-21 20:35:04",
   "sido": "울산광역시",
   "sigungu": "남구",
   "count": 246,
@@ -8285,16 +8285,19 @@
       "jibunAddress": "울산 남구 옥동 191-1",
       "phone": "052-272-7991",
       "phones": [
-        "052-272-7991"
+        "052-272-7991",
+        "052-272-7992",
+        "052-267-5224"
       ],
       "phoneCandidates": [
         {
           "number": "052-272-7991",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8303,14 +8306,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "052-272-7992",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "052-267-5224",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "150",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:26:49",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8339,16 +8370,20 @@
       "jibunAddress": "울산 남구 무거동 488-13",
       "phone": "052-247-3450",
       "phones": [
-        "052-247-3450"
+        "052-247-3450",
+        "052-247-3411",
+        "052-227-0900"
       ],
       "phoneCandidates": [
         {
           "number": "052-247-3450",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 울산 남구 무거동 488-13 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8357,14 +8392,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-247-3411",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 울산 남구 무거동 488-13 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-227-0900",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "1412",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:27:25",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8393,16 +8459,20 @@
       "jibunAddress": "울산 남구 무거동 477-1",
       "phone": "052-222-2926",
       "phones": [
-        "052-222-2926"
+        "052-222-2926",
+        "052-222-4775",
+        "052-266-7045"
       ],
       "phoneCandidates": [
         {
           "number": "052-222-2926",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 울산 남구 무거동 477-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8411,14 +8481,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-222-4775",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 울산 남구 무거동 477-1 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-266-7045",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "733",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:27:58",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8447,16 +8548,20 @@
       "jibunAddress": "울산 남구 무거동 478-1",
       "phone": "052-222-2927",
       "phones": [
-        "052-222-2927"
+        "052-222-2927",
+        "052-222-2928",
+        "052-258-0337"
       ],
       "phoneCandidates": [
         {
           "number": "052-222-2927",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 울산 남구 무거동 478-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8465,14 +8570,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-222-2928",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 울산 남구 무거동 478-1 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-258-0337",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "834",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:28:41",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8501,16 +8637,19 @@
       "jibunAddress": "울산 남구 신정동 872-4",
       "phone": "052-272-3788",
       "phones": [
-        "052-272-3788"
+        "052-272-3788",
+        "052-281-0555",
+        "052-258-7988"
       ],
       "phoneCandidates": [
         {
           "number": "052-272-3788",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8519,14 +8658,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "052-281-0555",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "052-258-7988",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "172",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:29:07",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8555,16 +8722,21 @@
       "jibunAddress": "울산 남구 야음동 564-4",
       "phone": "052-268-1859",
       "phones": [
-        "052-268-1859"
+        "052-268-1859",
+        "052-261-0970",
+        "052-256-0052",
+        "052-988-8950"
       ],
       "phoneCandidates": [
         {
           "number": "052-268-1859",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 울산 남구 야음동 564-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8573,14 +8745,58 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-261-0970",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 울산 남구 야음동 564-4 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-256-0052",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "052-988-8950",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 야음동 564-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "407",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:29:49",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8609,16 +8825,18 @@
       "jibunAddress": "울산 남구 야음동 925",
       "phone": "052-260-7711",
       "phones": [
-        "052-260-7711"
+        "052-260-7711",
+        "052-266-7744"
       ],
       "phoneCandidates": [
         {
           "number": "052-260-7711",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8627,14 +8845,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "052-266-7744",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "100",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:30:13",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8663,16 +8896,20 @@
       "jibunAddress": "울산 남구 신정동 1921",
       "phone": "052-258-9994",
       "phones": [
-        "052-258-9994"
+        "052-258-9994",
+        "052-258-9995",
+        "052-903-4970"
       ],
       "phoneCandidates": [
         {
           "number": "052-258-9994",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 울산 남구 신정동 1921 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8681,14 +8918,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-258-9995",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 울산 남구 신정동 1921 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-903-4970",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "302",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:30:32",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8717,16 +8985,20 @@
       "jibunAddress": "울산 남구 야음동 912",
       "phone": "052-258-7749",
       "phones": [
-        "052-258-7749"
+        "052-258-7749",
+        "052-265-7759",
+        "052-256-7729"
       ],
       "phoneCandidates": [
         {
           "number": "052-258-7749",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 울산 남구 야음동 912 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8735,14 +9007,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-265-7759",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 울산 남구 야음동 912 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-256-7729",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "905",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:30:53",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8771,16 +9074,19 @@
       "jibunAddress": "울산 남구 야음동 942",
       "phone": "052-260-8577",
       "phones": [
-        "052-260-8577"
+        "052-260-8577",
+        "052-266-0533",
+        "052-272-0402"
       ],
       "phoneCandidates": [
         {
           "number": "052-260-8577",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8789,14 +9095,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회"
+        },
+        {
+          "number": "052-266-0533",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "052-272-0402",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "216",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:31:14",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8825,16 +9159,20 @@
       "jibunAddress": "울산 남구 달동 1364-1",
       "phone": "052-271-5002",
       "phones": [
-        "052-271-5002"
+        "052-271-5002",
+        "052-271-5004",
+        "052-266-1000"
       ],
       "phoneCandidates": [
         {
           "number": "052-271-5002",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 울산 남구 달동 1364-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8843,14 +9181,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-271-5004",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 울산 남구 달동 1364-1 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-266-1000",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "288",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:31:45",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8879,16 +9248,20 @@
       "jibunAddress": "울산 남구 신정동 1903",
       "phone": "052-267-8691",
       "phones": [
-        "052-267-8691"
+        "052-267-8691",
+        "052-267-8693",
+        "052-288-0405"
       ],
       "phoneCandidates": [
         {
           "number": "052-267-8691",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 울산 남구 신정동 1903 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8897,14 +9270,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-267-8693",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 울산 남구 신정동 1903 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-288-0405",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "217",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:32:29",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8933,16 +9337,20 @@
       "jibunAddress": "울산 남구 신정동 318",
       "phone": "052-256-7739",
       "phones": [
-        "052-256-7739"
+        "052-256-7739",
+        "052-256-0093",
+        "052-272-2104"
       ],
       "phoneCandidates": [
         {
           "number": "052-256-7739",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버부동산",
+          "keyword": "kaptTel, verify_existing, verify_naver_land, 울산 남구 신정동 318 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버부동산": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -8951,14 +9359,45 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-256-0093",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land, 울산 남구 신정동 318 관리사무소",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-272-2104",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "verify_naver_land",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소 검증": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "1280",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:32:49",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -8987,16 +9426,18 @@
       "jibunAddress": "울산 남구 신정동 599-1",
       "phone": "052-258-7739",
       "phones": [
-        "052-258-7739"
+        "052-258-7739",
+        "052-267-7739"
       ],
       "phoneCandidates": [
         {
           "number": "052-258-7739",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 신정동 599-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9005,14 +9446,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-267-7739",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 신정동 599-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "100",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:01",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9041,16 +9497,18 @@
       "jibunAddress": "울산 남구 무거동 461",
       "phone": "052-223-4777",
       "phones": [
-        "052-223-4777"
+        "052-223-4777",
+        "052-223-2777"
       ],
       "phoneCandidates": [
         {
           "number": "052-223-4777",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 무거동 461 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9059,14 +9517,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-223-2777",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 무거동 461 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "253",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:05",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9102,9 +9575,9 @@
           "number": "052-256-8164",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9113,14 +9586,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "183",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:08",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9156,9 +9630,9 @@
           "number": "052-275-3718",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9167,14 +9641,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "151",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:11",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9209,10 +9684,11 @@
         {
           "number": "052-267-1917",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 선암동 665-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9221,14 +9697,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "128",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:14",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9264,9 +9742,9 @@
           "number": "052-267-0901",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9275,14 +9753,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "526",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:18",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9311,16 +9790,18 @@
       "jibunAddress": "울산 남구 야음동 455-4",
       "phone": "052-261-1717",
       "phones": [
-        "052-261-1717"
+        "052-261-1717",
+        "052-910-7890"
       ],
       "phoneCandidates": [
         {
           "number": "052-261-1717",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 야음동 455-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9329,14 +9810,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-910-7890",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 야음동 455-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "132",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:21",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9371,10 +9867,11 @@
         {
           "number": "052-277-5176",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 무거동 828-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9383,14 +9880,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "119",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:24",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9419,16 +9918,18 @@
       "jibunAddress": "울산 남구 신정동 1401-15",
       "phone": "052-260-2536",
       "phones": [
-        "052-260-2536"
+        "052-260-2536",
+        "052-261-2536"
       ],
       "phoneCandidates": [
         {
           "number": "052-260-2536",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 신정동 1401-15 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9437,14 +9938,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-261-2536",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 신정동 1401-15 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "233",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:27",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9479,10 +9995,12 @@
         {
           "number": "052-267-3455",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 야음동 564-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9491,14 +10009,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
         }
       ],
       "households": "236",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:31",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9527,16 +10048,18 @@
       "jibunAddress": "울산 남구 삼산동 1403-3",
       "phone": "052-268-7750",
       "phones": [
-        "052-268-7750"
+        "052-268-7750",
+        "052-267-7751"
       ],
       "phoneCandidates": [
         {
           "number": "052-268-7750",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 삼산동 1403-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9545,14 +10068,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-267-7751",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 삼산동 1403-3 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "195",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:34",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9581,16 +10119,18 @@
       "jibunAddress": "울산 남구 신정동 1880",
       "phone": "052-271-5110",
       "phones": [
-        "052-271-5110"
+        "052-271-5110",
+        "052-271-5111"
       ],
       "phoneCandidates": [
         {
           "number": "052-271-5110",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 신정동 1880 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9599,14 +10139,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-271-5111",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 신정동 1880 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "355",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:37",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9635,16 +10190,18 @@
       "jibunAddress": "울산 남구 삼산동 1498-4",
       "phone": "052-256-8920",
       "phones": [
-        "052-256-8920"
+        "052-256-8920",
+        "052-227-1468"
       ],
       "phoneCandidates": [
         {
           "number": "052-256-8920",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 삼산동 1498-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9653,14 +10210,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-227-1468",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 삼산동 1498-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "188",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:40",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9696,9 +10268,9 @@
           "number": "052-268-2474",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9707,14 +10279,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "601",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:43",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9750,9 +10323,9 @@
           "number": "052-274-5955",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9761,14 +10334,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "782",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:47",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9797,16 +10371,18 @@
       "jibunAddress": "울산 남구 신정동 899-1",
       "phone": "052-261-4793",
       "phones": [
-        "052-261-4793"
+        "052-261-4793",
+        "052-900-4793"
       ],
       "phoneCandidates": [
         {
           "number": "052-261-4793",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 신정동 899-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9815,14 +10391,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-900-4793",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 신정동 899-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "229",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:50",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9851,16 +10442,19 @@
       "jibunAddress": "울산 남구 신정동 872-55",
       "phone": "052-274-2135",
       "phones": [
-        "052-274-2135"
+        "052-274-2135",
+        "052-260-2135",
+        "052-924-2135"
       ],
       "phoneCandidates": [
         {
           "number": "052-274-2135",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 신정동 872-55 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9869,14 +10463,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-260-2135",
+          "score": 91,
+          "source": "114On",
+          "keyword": "울산 남구 신정동 872-55 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "052-924-2135",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 신정동 872-55 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "285",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:53",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9905,16 +10527,18 @@
       "jibunAddress": "울산 남구 야음동 701-1",
       "phone": "052-266-1275",
       "phones": [
-        "052-266-1275"
+        "052-266-1275",
+        "052-266-1273"
       ],
       "phoneCandidates": [
         {
           "number": "052-266-1275",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 야음동 701-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9923,14 +10547,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-266-1273",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 야음동 701-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "190",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:33:56",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -9959,16 +10598,17 @@
       "jibunAddress": "울산 남구 야음동 538-1",
       "phone": "052-265-2471",
       "phones": [
-        "052-265-2471"
+        "052-265-2471",
+        "052-265-2475"
       ],
       "phoneCandidates": [
         {
           "number": "052-265-2471",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -9977,14 +10617,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "052-265-2475",
+          "score": 91,
+          "source": "114On",
+          "keyword": "울산 남구 야음동 538-1 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "359",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:00",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10019,10 +10673,12 @@
         {
           "number": "052-275-6872",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 울산 남구 옥동 268 관리사무소, 울산 남구 옥동 268 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10031,14 +10687,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
         }
       ],
       "households": "186",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:03",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10074,9 +10733,9 @@
           "number": "052-266-4683",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10085,14 +10744,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "314",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:06",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10121,16 +10781,18 @@
       "jibunAddress": "울산 남구 선암동 677-6",
       "phone": "052-249-7739",
       "phones": [
-        "052-249-7739"
+        "052-249-7739",
+        "052-947-7739"
       ],
       "phoneCandidates": [
         {
           "number": "052-249-7739",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 선암동 677-6 관리사무소, 울산 남구 선암동 677-6 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10139,14 +10801,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "052-947-7739",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "울산 남구 선암동 677-6 관리사무소, 울산 남구 선암동 677-6 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:09",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10175,16 +10852,17 @@
       "jibunAddress": "울산 남구 매암동 1421",
       "phone": "052-912-0224",
       "phones": [
-        "052-912-0224"
+        "052-912-0224",
+        "052-298-4499"
       ],
       "phoneCandidates": [
         {
           "number": "052-912-0224",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10193,14 +10871,28 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
+        },
+        {
+          "number": "052-298-4499",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 매암동 1421 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "112",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:13",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10229,16 +10921,19 @@
       "jibunAddress": "울산 남구 옥동 196",
       "phone": "052-267-5223",
       "phones": [
-        "052-267-5223"
+        "052-267-5223",
+        "052-267-5234",
+        "052-267-5224"
       ],
       "phoneCandidates": [
         {
           "number": "052-267-5223",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 옥동 196 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10247,14 +10942,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-267-5234",
+          "score": 91,
+          "source": "114On",
+          "keyword": "울산 남구 옥동 196 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On 검증": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "052-267-5224",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 옥동 196 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "225",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:16",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10290,9 +11013,9 @@
           "number": "052-227-2933",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10301,14 +11024,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "380",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:19",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10337,16 +11061,18 @@
       "jibunAddress": "울산 남구 삼산동 324-17",
       "phone": "052-227-2664",
       "phones": [
-        "052-227-2664"
+        "052-227-2664",
+        "052-227-2665"
       ],
       "phoneCandidates": [
         {
           "number": "052-227-2664",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 삼산동 324-17 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10355,14 +11081,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-227-2665",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 삼산동 324-17 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "336",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:22",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10397,10 +11138,11 @@
         {
           "number": "052-267-5311",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 옥동 157-5 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10409,14 +11151,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "225",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:26",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10451,10 +11195,12 @@
         {
           "number": "052-267-9369",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버, 114On",
+          "keyword": "kaptTel, verify_existing, 울산 남구 삼산동 1605-3 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1,
+            "114On": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10463,14 +11209,17 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1,
+            "114On 검증": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
         }
       ],
       "households": "387",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:29",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10499,16 +11248,20 @@
       "jibunAddress": "울산 남구 달동 1403-1",
       "phone": "052-273-2235",
       "phones": [
-        "052-273-2235"
+        "052-273-2235",
+        "052-261-2236",
+        "052-227-7678"
       ],
       "phoneCandidates": [
         {
           "number": "052-273-2235",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 114On, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 달동 1403-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "114On": 1,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10517,14 +11270,43 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "114On 검증": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "052-261-2236",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 달동 1403-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "052-227-7678",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 달동 1403-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "120",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:32",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10553,16 +11335,19 @@
       "jibunAddress": "울산 남구 무거동 569-4",
       "phone": "052-277-5234",
       "phones": [
-        "052-277-5234"
+        "052-277-5234",
+        "052-277-5233",
+        "025-0205-1756"
       ],
       "phoneCandidates": [
         {
           "number": "052-277-5234",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 무거동 569-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10571,14 +11356,42 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-277-5233",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 무거동 569-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0205-1756",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 무거동 569-4 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "163",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:35",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10607,16 +11420,18 @@
       "jibunAddress": "울산 남구 무거동 931-1",
       "phone": "052-277-2815",
       "phones": [
-        "052-277-2815"
+        "052-277-2815",
+        "052-277-2825"
       ],
       "phoneCandidates": [
         {
           "number": "052-277-2815",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 무거동 931-1 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10625,14 +11440,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-277-2825",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 무거동 931-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "180",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:39",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10661,16 +11491,18 @@
       "jibunAddress": "울산 남구 야음동 401-77",
       "phone": "052-258-7719",
       "phones": [
-        "052-258-7719"
+        "052-258-7719",
+        "052-258-7748"
       ],
       "phoneCandidates": [
         {
           "number": "052-258-7719",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 야음동 401-77 관리사무소, 울산 남구 야음동 401-77 관리실",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 2
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10679,14 +11511,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 2회"
+        },
+        {
+          "number": "052-258-7748",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "울산 남구 야음동 401-77 관리사무소, 울산 남구 야음동 401-77 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "817",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:42",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10722,9 +11569,9 @@
           "number": "052-257-7730",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10733,14 +11580,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "725",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:45",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -10776,9 +11624,9 @@
           "number": "052-265-7750",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -10787,14 +11635,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "154",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:48",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -12470,10 +13319,11 @@
         {
           "number": "052-239-7334",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 무거동 1527-4 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -12482,14 +13332,16 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
         }
       ],
       "households": "111",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:52",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -15207,9 +16059,9 @@
           "number": "052-266-9545",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -15218,14 +16070,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "158",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:55",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -16384,16 +17237,18 @@
       "jibunAddress": "울산 남구 삼산동 183-1",
       "phone": "052-227-6191",
       "phones": [
-        "052-227-6191"
+        "052-227-6191",
+        "052-227-6192"
       ],
       "phoneCandidates": [
         {
           "number": "052-227-6191",
           "score": 100,
-          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt, 네이버",
+          "keyword": "kaptTel, verify_existing, 울산 남구 정동로 142 관리사무소",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9,
+            "네이버": 1
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -16402,14 +17257,29 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회 · 네이버 1회"
+        },
+        {
+          "number": "052-227-6192",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "울산 남구 정동로 142 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "207",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:34:58",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
@@ -16445,9 +17315,9 @@
           "number": "052-258-9630",
           "score": 100,
           "source": "K-apt 7회, K-apt 6회, K-apt 5회, K-apt 4회, K-apt 3회, K-apt 2회, 공공데이터 K-apt",
-          "keyword": "kaptTel",
+          "keyword": "kaptTel, verify_existing",
           "sourceCounts": {
-            "K-apt": 8
+            "K-apt": 9
           },
           "sourceDetails": {
             "K-apt 7회": 1,
@@ -16456,14 +17326,15 @@
             "K-apt 4회": 1,
             "K-apt 3회": 1,
             "K-apt 2회": 1,
-            "공공데이터 K-apt": 2
+            "공공데이터 K-apt": 2,
+            "K-apt 8회": 1
           },
-          "sourceSummary": "K-apt 8회"
+          "sourceSummary": "K-apt 9회"
         }
       ],
       "households": "350",
       "source": "공공데이터 K-apt",
-      "verifiedAt": "K-apt 8회",
+      "verifiedAt": "2026-09-21 20:35:01",
       "detailUpdatedAt": 1781302355334,
       "listUpdatedAt": 1781302355334,
       "phoneStatus": "CONFIRMED",
