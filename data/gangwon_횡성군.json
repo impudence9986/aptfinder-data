@@ -1,6 +1,6 @@
 {
-  "version": 1790801463,
-  "updatedAt": "2026-09-30 20:51:03",
+  "version": 1791143834,
+  "updatedAt": "2026-10-04 19:57:14",
   "sido": "강원특별자치도",
   "sigungu": "횡성군",
   "count": 12,
@@ -348,16 +348,17 @@
       "phoneCandidates": [
         {
           "number": "033-343-7773",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "횡성골드클래스아파트 전화번호, 횡성골드클래스 전화번호",
+          "keyword": "횡성골드클래스아파트 전화번호, 횡성골드클래스 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -365,9 +366,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_횡성군_횡성골드클래스"
@@ -389,17 +390,90 @@
       "address": "강원특별자치도 횡성군 횡성읍 횡성로 371\n강원특별자치도 횡성군 횡성읍 읍하리 601",
       "roadAddress": "강원특별자치도 횡성군 횡성읍 횡성로 371",
       "jibunAddress": "강원특별자치도 횡성군 횡성읍 읍하리 601",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-343-6600",
+      "phones": [
+        "033-343-6600",
+        "033-345-9110",
+        "033-961-9810",
+        "033-345-8809",
+        "033-343-6601"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-343-6600",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 읍하리 601 관리사무소, 강원특별자치도 횡성군 횡성읍 읍하리 601 관리실, 강원특별자치도 횡성군 횡성읍 읍하리 601 전화번호, 강원특별자치도 횡성군 횡성읍 횡성로 371 전화번호, 횡성읍 횡성벨라시티 관리사무소, 횡성군 횡성벨라시티 관리사무소, 횡성벨라시티아파트 관리사무소, 횡성벨라시티아",
+          "sourceCounts": {
+            "네이버": 11
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 11회"
+        },
+        {
+          "number": "033-345-9110",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 횡성로 371 관리실, 강원특별자치도 횡성군 횡성읍 횡성로 371 전화번호, 횡성벨라시티아파트 전화번호, 횡성벨라시티 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "033-961-9810",
+          "score": 91,
+          "source": "114On",
+          "keyword": "강원특별자치도 횡성군 횡성읍 읍하리 601 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "033-345-8809",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 횡성로 371 전화번호, 횡성벨라시티아파트 전화번호, 횡성벨라시티 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "033-343-6601",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 횡성로 371 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_횡성군_횡성벨라시티"
@@ -421,17 +495,47 @@
       "address": "강원특별자치도 횡성군 횡성읍 교항북로 17\n강원특별자치도 횡성군 횡성읍 교항리 109",
       "roadAddress": "강원특별자치도 횡성군 횡성읍 교항북로 17",
       "jibunAddress": "강원특별자치도 횡성군 횡성읍 교항리 109",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "022-1226-9905",
+      "phones": [
+        "022-1226-9905",
+        "033-344-2824"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "022-1226-9905",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 교항리 109 관리사무소, 강원특별자치도 횡성군 횡성읍 교항리 109 관리실, 강원특별자치도 횡성군 횡성읍 교항리 109 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "033-344-2824",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 교항북로 17 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 69,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_횡성군_횡성보람하임"
@@ -453,17 +557,76 @@
       "address": "강원특별자치도 횡성군 횡성읍 문화체육로 10\n강원특별자치도 횡성군 횡성읍 읍하리 395-2",
       "roadAddress": "강원특별자치도 횡성군 횡성읍 문화체육로 10",
       "jibunAddress": "강원특별자치도 횡성군 횡성읍 읍하리 395-2",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-343-8680",
+      "phones": [
+        "033-343-8680",
+        "026-0128-1536",
+        "07-1329-6048",
+        "033-345-3521"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-343-8680",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "횡성읍 횡성원흥2차 관리사무소, 횡성군 횡성원흥2차 관리사무소, 횡성원흥2차아파트 관리사무소, 횡성원흥2차아파트 전화번호, 횡성원흥2차 관리실, 횡성원흥2차 전화번호",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "026-0128-1536",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "횡성원흥2차아파트 관리사무소, 횡성원흥2차 관리사무소, 횡성원흥2차 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "07-1329-6048",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 읍하리 395-2 전화번호, 강원특별자치도 횡성군 횡성읍 문화체육로 10 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "033-345-3521",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 문화체육로 10 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_횡성군_횡성원흥2차"
@@ -485,17 +648,162 @@
       "address": "강원특별자치도 횡성군 횡성읍 앞들서3로 77\n강원특별자치도 횡성군 횡성읍 읍하리 599",
       "roadAddress": "강원특별자치도 횡성군 횡성읍 앞들서3로 77",
       "jibunAddress": "강원특별자치도 횡성군 횡성읍 읍하리 599",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-808-8881",
+      "phones": [
+        "033-808-8881",
+        "033-808-8882",
+        "033-344-0100",
+        "025-0926-1931",
+        "033-345-3344",
+        "022-1031-3710",
+        "022-1031-3500",
+        "033-344-9844",
+        "033-334-5522",
+        "033-345-8808"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-808-8881",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 읍하리 599 관리사무소, 강원특별자치도 횡성군 횡성읍 읍하리 599 전화번호, 강원특별자치도 횡성군 횡성읍 앞들서3로 77 전화번호, 횡성읍 횡성코아루하우스토리 관리사무소, 횡성군 횡성코아루하우스토리 관리사무소, 횡성코아루하우스토리아파트 관리사무소, 횡성코아루하우스토리아파트 전화번호, 횡성코",
+          "sourceCounts": {
+            "네이버": 13
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 9,
+            "네이버 카페검색": 3,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 13회"
+        },
+        {
+          "number": "033-808-8882",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "횡성읍 횡성코아루하우스토리 관리사무소, 횡성군 횡성코아루하우스토리 관리사무소, 횡성코아루하우스토리아파트 관리사무소, 횡성코아루하우스토리아파트 전화번호, 횡성코아루하우스토리 전화번호",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "033-344-0100",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "횡성읍 횡성코아루하우스토리 관리사무소, 횡성군 횡성코아루하우스토리 관리사무소, 횡성코아루하우스토리아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "025-0926-1931",
+          "score": 73,
+          "source": "네이버",
+          "keyword": "횡성코아루하우스토리아파트 관리사무소, 횡성코아루하우스토리아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "033-345-3344",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "횡성코아루하우스토리아파트 전화번호, 횡성코아루하우스토리 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "022-1031-3710",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 읍하리 599 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "022-1031-3500",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 읍하리 599 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "033-344-9844",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "횡성코아루하우스토리 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "033-334-5522",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "횡성코아루하우스토리 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "033-345-8808",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "횡성코아루하우스토리 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_횡성군_횡성코아루하우스토리"
@@ -517,17 +825,91 @@
       "address": "강원특별자치도 횡성군 횡성읍 북천서로11번길 33\n강원특별자치도 횡성군 횡성읍 북천리 115-87",
       "roadAddress": "강원특별자치도 횡성군 횡성읍 북천서로11번길 33",
       "jibunAddress": "강원특별자치도 횡성군 횡성읍 북천리 115-87",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-343-9711",
+      "phones": [
+        "033-343-9711",
+        "033-343-9712",
+        "025-0425-1028",
+        "033-345-0080",
+        "033-345-0688"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-343-9711",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "횡성읍 횡성태우 관리사무소, 횡성군 횡성태우 관리사무소, 횡성태우아파트 관리사무소, 횡성태우아파트 전화번호, 횡성태우 전화번호",
+          "sourceCounts": {
+            "114On": 4,
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 4,
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "114On 4회 · 네이버 6회"
+        },
+        {
+          "number": "033-343-9712",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "횡성읍 횡성태우 관리사무소, 횡성군 횡성태우 관리사무소, 횡성태우아파트 전화번호, 횡성태우 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "025-0425-1028",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "횡성읍 횡성태우 관리사무소, 횡성군 횡성태우 관리사무소, 횡성태우아파트 전화번호, 횡성태우 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "033-345-0080",
+          "score": 93,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 북천리 115-87 전화번호, 강원특별자치도 횡성군 횡성읍 북천서로11번길 33 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "033-345-0688",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 횡성군 횡성읍 북천서로11번길 33 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "강원특별자치도_횡성군_횡성태우"
