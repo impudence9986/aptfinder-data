@@ -1,6 +1,6 @@
 {
-  "version": 1790367232,
-  "updatedAt": "2026-09-25 20:13:52",
+  "version": 1791410238,
+  "updatedAt": "2026-10-07 21:57:18",
   "sido": "경기도",
   "sigungu": "오산시",
   "count": 123,
@@ -415,16 +415,17 @@
       "phoneCandidates": [
         {
           "number": "010-3092-3311",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "궐동오피스텔 전화번호, 궐동 전화번호",
+          "keyword": "궐동오피스텔 전화번호, 궐동 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -432,9 +433,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_오산시_궐동"
@@ -1875,17 +1876,145 @@
       "address": "경기 오산시 초평중앙로 65\n경기 오산시 벌음동 397",
       "roadAddress": "경기 오산시 초평중앙로 65",
       "jibunAddress": "경기 오산시 벌음동 397",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-374-5585",
+      "phones": [
+        "031-374-5585",
+        "031-374-5586",
+        "031-374-8504",
+        "031-372-0171",
+        "031-372-0172",
+        "070-5222-4080",
+        "031-378-2134",
+        "031-378-2135",
+        "031-376-8001"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-374-5585",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 오산시 벌음동 397 관리사무소, 경기 오산시 벌음동 397 관리실, 경기 오산시 벌음동 397 전화번호, 경기 오산시 초평중앙로 65 관리사무소, 경기 오산시 초평중앙로 65 관리실, 경기 오산시 초평중앙로 65 전화번호, 벌음동 호반써밋라프리미어 관리사무소, 오산시 호반써밋라프리미어 관리사무소, 호반써밋라프리미어",
+          "sourceCounts": {
+            "네이버": 10
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10
+          },
+          "sourceSummary": "네이버 10회"
+        },
+        {
+          "number": "031-374-5586",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 오산시 벌음동 397 관리사무소, 경기 오산시 벌음동 397 관리실, 경기 오산시 벌음동 397 전화번호, 경기 오산시 초평중앙로 65 관리사무소, 경기 오산시 초평중앙로 65 관리실, 벌음동 호반써밋라프리미어 관리사무소, 오산시 호반써밋라프리미어 관리사무소, 호반써밋라프리미어아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 9
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "031-374-8504",
+          "score": 97,
+          "source": "네이버",
+          "keyword": "오산시 호반써밋라프리미어 관리사무소, 호반써밋라프리미어아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-372-0171",
+          "score": 93,
+          "source": "네이버",
+          "keyword": "오산시 호반써밋라프리미어 관리사무소, 호반써밋라프리미어아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-372-0172",
+          "score": 89,
+          "source": "네이버",
+          "keyword": "오산시 호반써밋라프리미어 관리사무소, 호반써밋라프리미어아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "070-5222-4080",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "오산시 호반써밋라프리미어 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-378-2134",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 오산시 초평중앙로 65 전화번호, 호반써밋라프리미어아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-378-2135",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 오산시 초평중앙로 65 전화번호, 호반써밋라프리미어아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-376-8001",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 오산시 초평중앙로 65 전화번호, 호반써밋라프리미어 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_오산시_호반써밋라프리미어"
@@ -2332,17 +2461,17 @@
       "phoneCandidates": [
         {
           "number": "031-373-3075",
-          "score": 73,
+          "score": 90,
           "source": "카카오",
           "keyword": "세교테라스뷰 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
             "카카오 주소일치 전화번호 보강": 1,
-            "카카오 장소검색": 1
+            "카카오 장소검색": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "070-8888-1108",
@@ -2389,9 +2518,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 73,
+      "confidenceScore": 90,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_오산시_세교테라스뷰"
@@ -2911,17 +3040,17 @@
       "phoneCandidates": [
         {
           "number": "031-378-8780",
-          "score": 73,
+          "score": 90,
           "source": "카카오",
           "keyword": "물향기시티 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
             "카카오 주소일치 전화번호 보강": 1,
-            "카카오 장소검색": 1
+            "카카오 장소검색": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "031-378-7736",
@@ -2955,9 +3084,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 73,
+      "confidenceScore": 90,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_오산시_물향기시티"
@@ -3220,21 +3349,52 @@
       "jibunAddress": "경기 오산시 수청동 611-3",
       "phone": "031-8055-8178",
       "phones": [
-        "031-8055-8178"
+        "031-8055-8178",
+        "02-6244-7178",
+        "052-109-6613"
       ],
       "phoneCandidates": [
         {
           "number": "031-8055-8178",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "이안두드림오산대역 전화번호",
+          "score": 100,
+          "source": "카카오, 네이버",
+          "keyword": "이안두드림오산대역 전화번호, existing, 경기 오산시 수청동 611-3 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3,
+            "네이버": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회 · 네이버 1회"
+        },
+        {
+          "number": "02-6244-7178",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이안두드림오산대역 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "052-109-6613",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이안두드림오산대역 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -3242,9 +3402,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_오산시_이안두드림오산대역"
@@ -3982,48 +4142,77 @@
       "phone": "02-3453-0806",
       "phones": [
         "02-3453-0806",
+        "02-448-2996",
         "031-203-9989",
-        "010-2118-1332"
+        "010-2118-1332",
+        "031-237-3600"
       ],
       "phoneCandidates": [
         {
           "number": "02-3453-0806",
-          "score": 63,
+          "score": 100,
           "source": "카카오",
-          "keyword": "드림하우스 전화번호",
+          "keyword": "드림하우스 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-448-2996",
+          "score": 91,
+          "source": "114On",
+          "keyword": "드림하우스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         },
         {
           "number": "031-203-9989",
-          "score": 63,
+          "score": 79,
           "source": "카카오",
           "keyword": "드림하우스 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
           "number": "010-2118-1332",
-          "score": 63,
+          "score": 77,
           "source": "카카오",
           "keyword": "드림하우스 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "031-237-3600",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "드림하우스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -4031,9 +4220,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_오산시_드림하우스"
@@ -4277,17 +4466,173 @@
       "address": "경기 오산시 오산로212번길 33\n경기 오산시 원동 764-5",
       "roadAddress": "경기 오산시 오산로212번길 33",
       "jibunAddress": "경기 오산시 원동 764-5",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "063-462-9221",
+      "phones": [
+        "063-462-9221",
+        "061-282-8844",
+        "041-567-7006",
+        "043-653-3657",
+        "02-3159-7901",
+        "023-159-7901",
+        "063-462-1221",
+        "02-581-3413",
+        "054-334-6886",
+        "061-284-1700",
+        "061-285-5353"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "063-462-9221",
+          "score": 100,
+          "source": "114On",
+          "keyword": "스타팰리스오피스텔 관리사무소, 스타팰리스 관리사무소, 스타팰리스오피스텔 전화번호, 스타팰리스 전화번호",
+          "sourceCounts": {
+            "114On": 4
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 4
+          },
+          "sourceSummary": "114On 4회"
+        },
+        {
+          "number": "061-282-8844",
+          "score": 100,
+          "source": "114On",
+          "keyword": "스타팰리스오피스텔 전화번호, 스타팰리스 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "041-567-7006",
+          "score": 91,
+          "source": "114On",
+          "keyword": "스타팰리스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "043-653-3657",
+          "score": 91,
+          "source": "114On",
+          "keyword": "스타팰리스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3159-7901",
+          "score": 91,
+          "source": "114On",
+          "keyword": "스타팰리스 관리단",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-159-7901",
+          "score": 91,
+          "source": "114On",
+          "keyword": "스타팰리스 관리단",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "063-462-1221",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "스타팰리스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-581-3413",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "스타팰리스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "054-334-6886",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "스타팰리스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "061-284-1700",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "스타팰리스오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "061-285-5353",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "스타팰리스오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_오산시_스타팰리스"
