@@ -1,6 +1,6 @@
 {
-  "version": 1790451359,
-  "updatedAt": "2026-09-26 19:35:59",
+  "version": 1791496430,
+  "updatedAt": "2026-10-08 21:53:50",
   "sido": "경기도",
   "sigungu": "평택시",
   "count": 204,
@@ -1268,21 +1268,135 @@
       "jibunAddress": "경기 평택시 고덕동 2618-1",
       "phone": "010-5817-8602",
       "phones": [
-        "010-5817-8602"
+        "010-5817-8602",
+        "031-668-6821",
+        "031-668-6822",
+        "031-611-0309",
+        "031-615-4233",
+        "031-647-0985",
+        "031-666-9033",
+        "07-1398-3859",
+        "031-668-3900"
       ],
       "phoneCandidates": [
         {
           "number": "010-5817-8602",
-          "score": 63,
+          "score": 100,
           "source": "카카오",
-          "keyword": "경기 평택시 고덕국제대로 99 전화번호",
+          "keyword": "경기 평택시 고덕국제대로 99 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-668-6821",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 평택시 고덕동 2618-1 관리사무소, 경기 평택시 고덕국제대로 99 관리사무소, 고덕동 힐스테이트고덕스카이시티 관리사무소, 평택시 힐스테이트고덕스카이시티 관리사무소, 힐스테이트고덕스카이시티아파트 관리사무소, 힐스테이트고덕스카이시티아파트 관리실, 힐스테이트고덕스카이시티아파트 전화번호, 힐스테이트고덕스카이시티 관리실,",
+          "sourceCounts": {
+            "네이버": 11
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 10,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 11회"
+        },
+        {
+          "number": "031-668-6822",
+          "score": 83,
+          "source": "네이버",
+          "keyword": "평택시 힐스테이트고덕스카이시티 관리사무소, 힐스테이트고덕스카이시티아파트 관리사무소, 힐스테이트고덕스카이시티아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-611-0309",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 고덕동 2618-1 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-615-4233",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 고덕국제대로 99 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-647-0985",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 고덕국제대로 99 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-666-9033",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 고덕국제대로 99 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1398-3859",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 고덕국제대로 99 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-668-3900",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "힐스테이트고덕스카이시티 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1290,9 +1404,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_힐스테이트고덕스카이시티"
@@ -2302,17 +2416,175 @@
       "address": "경기 평택시 동삭로 371\n경기 평택시 동삭동 650",
       "roadAddress": "경기 평택시 동삭로 371",
       "jibunAddress": "경기 평택시 동삭동 650",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-652-9070",
+      "phones": [
+        "031-652-9070",
+        "031-8024-5770",
+        "031-650-3167",
+        "031-656-5115",
+        "031-654-4271",
+        "031-650-3154",
+        "031-8024-8001",
+        "031-652-9080",
+        "031-650-3164",
+        "031-8024-5840",
+        "031-647-3597"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-652-9070",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 평택시 동삭로 371 관리사무소, 경기 평택시 동삭로 371 전화번호, 동삭동 평택이안 관리사무소, 평택시 평택이안 관리사무소, 평택이안아파트 관리사무소, 평택이안아파트 전화번호, 평택이안 전화번호",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 7,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "031-8024-5770",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 평택시 동삭동 650 관리사무소, 경기 평택시 동삭동 650 관리실, 경기 평택시 동삭로 371 관리사무소, 경기 평택시 동삭로 371 관리실, 동삭동 평택이안 관리사무소",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-650-3167",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 평택시 동삭동 650 관리실, 경기 평택시 동삭동 650 전화번호, 경기 평택시 동삭로 371 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-656-5115",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 평택시 동삭로 371 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-654-4271",
+          "score": 91,
+          "source": "114On",
+          "keyword": "평택이안 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-650-3154",
+          "score": 79,
+          "source": "네이버",
+          "keyword": "경기 평택시 동삭동 650 관리실, 경기 평택시 동삭로 371 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-8024-8001",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "경기 평택시 동삭동 650 관리사무소, 동삭동 평택이안 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-652-9080",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "경기 평택시 동삭로 371 전화번호, 평택이안아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-650-3164",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 동삭동 650 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8024-5840",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "동삭동 평택이안 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-647-3597",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "평택이안 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_평택이안"
@@ -2917,17 +3189,247 @@
       "address": "경기 평택시 평택5로 134\n경기 평택시 비전동 828-1",
       "roadAddress": "경기 평택시 평택5로 134",
       "jibunAddress": "경기 평택시 비전동 828-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-657-6579",
+      "phones": [
+        "031-657-6579",
+        "031-656-1644",
+        "031-658-7075",
+        "031-655-3472",
+        "031-653-0984",
+        "031-652-2800",
+        "031-651-1939",
+        "031-656-6857",
+        "031-658-2006",
+        "031-656-6579",
+        "031-657-4812",
+        "070-4537-8720",
+        "070-4599-4824",
+        "031-692-4152",
+        "031-654-7223",
+        "02-6956-3000"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-657-6579",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "경기 평택시 비전동 828-1 관리사무소, 비전동 태산신그린 관리사무소, 평택시 태산신그린 관리사무소, 평택시 태산신그린 관리실, 태산신그린아파트 관리사무소, 태산신그린아파트 관리실, 태산신그린아파트 전화번호, 태산신그린 전화번호",
+          "sourceCounts": {
+            "114On": 4,
+            "네이버": 16
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 4,
+            "네이버 웹검색": 6,
+            "네이버 카페검색": 9,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "114On 4회 · 네이버 16회"
+        },
+        {
+          "number": "031-656-1644",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 평택시 비전동 828-1 전화번호, 경기 평택시 평택5로 134 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-658-7075",
+          "score": 100,
+          "source": "114On",
+          "keyword": "태산신그린아파트 전화번호, 태산신그린 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-655-3472",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "비전동 태산신그린 관리사무소, 평택시 태산신그린 관리사무소, 평택시 태산신그린 관리실, 태산신그린아파트 관리사무소, 태산신그린아파트 관리실, 태산신그린아파트 전화번호, 태산신그린 전화번호",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 9
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "031-653-0984",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 태산신그린 관리사무소, 평택시 태산신그린 관리실, 태산신그린아파트 관리사무소, 태산신그린아파트 관리실, 태산신그린아파트 전화번호, 태산신그린 전화번호",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 8
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "031-652-2800",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 태산신그린 관리실, 태산신그린아파트 관리실, 태산신그린아파트 전화번호, 태산신그린 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-651-1939",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "비전동 태산신그린 관리사무소, 평택시 태산신그린 관리사무소, 태산신그린아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-656-6857",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "비전동 태산신그린 관리사무소, 평택시 태산신그린 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-658-2006",
+          "score": 91,
+          "source": "114On",
+          "keyword": "태산신그린 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-656-6579",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "태산신그린아파트 전화번호, 태산신그린 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-657-4812",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "태산신그린아파트 전화번호, 태산신그린 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "070-4537-8720",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 비전동 828-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-4599-4824",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 비전동 828-1 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-692-4152",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "비전동 태산신그린 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-654-7223",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "비전동 태산신그린 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6956-3000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "태산신그린 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_태산신그린"
@@ -3470,21 +3972,255 @@
       "jibunAddress": "경기 평택시 서정동 304-5",
       "phone": "031-666-4496",
       "phones": [
-        "031-666-4496"
+        "031-666-4496",
+        "031-664-0452",
+        "031-662-0454",
+        "031-662-8752",
+        "031-664-3107",
+        "031-665-6651",
+        "031-692-9046",
+        "031-663-6776",
+        "031-668-2011",
+        "020-211-0114",
+        "031-666-1005",
+        "031-692-3627",
+        "031-692-4202",
+        "031-662-5629",
+        "031-611-0803",
+        "031-664-0453",
+        "031-355-1666"
       ],
       "phoneCandidates": [
         {
           "number": "031-666-4496",
-          "score": 63,
+          "score": 100,
           "source": "카카오",
-          "keyword": "서정트인자리애1차 전화번호",
+          "keyword": "서정트인자리애1차 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-664-0452",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 평택시 서정동 304-5 관리사무소, 서정동 서정트인자리애1차 관리사무소, 평택시 서정트인자리애1차 관리사무소, 평택시 서정트인자리애1차 관리실, 서정트인자리애1차 전화번호",
+          "sourceCounts": {
+            "네이버": 15
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4,
+            "네이버 블로그검색": 6,
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 15회"
+        },
+        {
+          "number": "031-662-0454",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서정동 서정트인자리애1차 관리사무소, 평택시 서정트인자리애1차 관리사무소, 평택시 서정트인자리애1차 관리실, 서정트인자리애1차 전화번호",
+          "sourceCounts": {
+            "네이버": 15
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4,
+            "네이버 블로그검색": 6,
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 15회"
+        },
+        {
+          "number": "031-662-8752",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 서정트인자리애1차 관리사무소, 평택시 서정트인자리애1차 관리실, 서정트인자리애1차 전화번호",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5,
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "031-664-3107",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 서정트인자리애1차 관리사무소, 평택시 서정트인자리애1차 관리실",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-665-6651",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서정트인자리애1차 관리사무소, 서정트인자리애1차 관리실, 서정트인자리애1차 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-692-9046",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서정동 서정트인자리애1차 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-663-6776",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서정동 서정트인자리애1차 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-668-2011",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서정동 서정트인자리애1차 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "020-211-0114",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서정트인자리애1차 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-666-1005",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서정트인자리애1차 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-692-3627",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "평택시 서정트인자리애1차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-692-4202",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "평택시 서정트인자리애1차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-662-5629",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "평택시 서정트인자리애1차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-611-0803",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서정트인자리애1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-664-0453",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서정트인자리애1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-355-1666",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서정트인자리애1차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -3492,9 +4228,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_서정트인자리애1차"
@@ -4261,34 +4997,133 @@
       "phone": "02-333-1412",
       "phones": [
         "02-333-1412",
-        "010-4279-0027"
+        "031-664-0355",
+        "02-512-3001",
+        "02-899-0708",
+        "02-2655-9922",
+        "02-749-4888",
+        "031-977-1713",
+        "010-4279-0027",
+        "032-456-4028"
       ],
       "phoneCandidates": [
         {
           "number": "02-333-1412",
-          "score": 63,
+          "score": 100,
           "source": "카카오",
-          "keyword": "라메종 전화번호",
+          "keyword": "라메종 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-664-0355",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 평택시 신장동 234-3 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-512-3001",
+          "score": 91,
+          "source": "114On",
+          "keyword": "라메종 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-899-0708",
+          "score": 91,
+          "source": "114On",
+          "keyword": "라메종 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-2655-9922",
+          "score": 91,
+          "source": "114On",
+          "keyword": "라메종 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-749-4888",
+          "score": 91,
+          "source": "114On",
+          "keyword": "라메종 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-977-1713",
+          "score": 91,
+          "source": "114On",
+          "keyword": "라메종 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         },
         {
           "number": "010-4279-0027",
-          "score": 63,
+          "score": 89,
           "source": "카카오",
           "keyword": "라메종 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "032-456-4028",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "라메종 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -4296,9 +5131,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_라메종"
@@ -4359,16 +5194,17 @@
       "phoneCandidates": [
         {
           "number": "031-662-6692",
-          "score": 63,
+          "score": 88,
           "source": "카카오",
-          "keyword": "트리플큐브C동 전화번호",
+          "keyword": "트리플큐브C동 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -4376,9 +5212,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 88,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_트리플큐브c동"
@@ -4432,23 +5268,94 @@
       "address": "경기 평택시 밀월로43번길 6\n경기 평택시 신장동 274-187",
       "roadAddress": "경기 평택시 밀월로43번길 6",
       "jibunAddress": "경기 평택시 신장동 274-187",
-      "phone": "070-4473-9829",
+      "phone": "031-611-3377",
       "phones": [
-        "070-4473-9829"
+        "031-611-3377",
+        "031-611-3376",
+        "070-4473-9829",
+        "031-650-3167",
+        "023-0219-0049",
+        "023-0219-0020"
       ],
       "phoneCandidates": [
         {
-          "number": "070-4473-9829",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "힐탑더테라스 전화번호",
+          "number": "031-611-3377",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 평택시 신장동 274-187 관리사무소, 경기 평택시 신장동 274-187 전화번호, 경기 평택시 밀월로43번길 6 관리사무소, 경기 평택시 밀월로43번길 6 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "114On": 4
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "114On/네이버 스니펫": 4
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "114On 4회"
+        },
+        {
+          "number": "031-611-3376",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 평택시 신장동 274-187 관리사무소, 경기 평택시 신장동 274-187 전화번호, 경기 평택시 밀월로43번길 6 관리사무소",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "070-4473-9829",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "힐탑더테라스 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-650-3167",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 평택시 신장동 274-187 전화번호, 힐탑더테라스 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "023-0219-0049",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "신장동 힐탑더테라스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "023-0219-0020",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "신장동 힐탑더테라스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -4456,9 +5363,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_힐탑테라스"
@@ -5093,34 +6000,287 @@
       "phone": "064-784-4242",
       "phones": [
         "064-784-4242",
-        "052-287-5930"
+        "052-287-5930",
+        "031-662-9972",
+        "031-647-6571",
+        "031-651-7505",
+        "031-692-3627",
+        "031-611-2023",
+        "031-611-2024",
+        "063-451-8276",
+        "031-666-1800",
+        "031-651-3385",
+        "031-792-5372",
+        "031-792-5375",
+        "044-863-8034",
+        "044-863-7510",
+        "044-865-9071",
+        "04-2020-0012",
+        "02-300-0668",
+        "01-084-9936",
+        "053-217-0771"
       ],
       "phoneCandidates": [
         {
           "number": "064-784-4242",
-          "score": 63,
+          "score": 100,
           "source": "카카오",
-          "keyword": "풍경채 전화번호",
+          "keyword": "풍경채 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 5
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 3
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 5회"
         },
         {
           "number": "052-287-5930",
-          "score": 63,
+          "score": 100,
           "source": "카카오",
           "keyword": "풍경채 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "031-662-9972",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 풍경채 관리사무소, 평택시 풍경채 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-647-6571",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 풍경채 관리사무소, 평택시 풍경채 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-651-7505",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 풍경채 관리사무소, 평택시 풍경채 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-692-3627",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 풍경채 관리사무소, 평택시 풍경채 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-611-2023",
+          "score": 99,
+          "source": "네이버",
+          "keyword": "평택시 풍경채 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-611-2024",
+          "score": 97,
+          "source": "네이버",
+          "keyword": "평택시 풍경채 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "063-451-8276",
+          "score": 91,
+          "source": "114On",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-666-1800",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "오성면 풍경채 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-651-3385",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "평택시 풍경채 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-792-5372",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "풍경채 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-792-5375",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "풍경채 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "044-863-8034",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "풍경채 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "044-863-7510",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "풍경채 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "044-865-9071",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "풍경채 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "04-2020-0012",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "풍경채 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-300-0668",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "풍경채 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "01-084-9936",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "풍경채 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-217-0771",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -5128,9 +6288,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_풍경채"
@@ -5976,22 +7136,24 @@
         "010-2472-2010",
         "031-611-7895",
         "010-2738-9472",
-        "031-616-5110"
+        "031-616-5110",
+        "031-8094-4732",
+        "031-8094-4733"
       ],
       "phoneCandidates": [
         {
           "number": "080-999-5425",
-          "score": 73,
+          "score": 98,
           "source": "카카오",
           "keyword": "서정스마트빌듀오1차 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
             "카카오 주소일치 전화번호 보강": 1,
-            "카카오 장소검색": 1
+            "카카오 장소검색": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "031-663-5585",
@@ -6057,6 +7219,32 @@
             "카카오 주소일치 전화번호 보강": 1
           },
           "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "031-8094-4732",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 이충동 456-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8094-4733",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 이충동 456-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -6064,9 +7252,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 73,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_서정스마트빌듀오1차"
@@ -6090,21 +7278,221 @@
       "jibunAddress": "경기 평택시 이충동 452-2",
       "phone": "031-616-8002",
       "phones": [
-        "031-616-8002"
+        "031-616-8002",
+        "031-8029-6801",
+        "031-666-1800",
+        "023-1130-9600",
+        "031-668-5060",
+        "031-8094-4732",
+        "031-8029-6804",
+        "023-1130-3500",
+        "031-651-7505",
+        "031-692-3627",
+        "031-616-1710",
+        "031-611-3107",
+        "031-662-6553",
+        "031-611-3377",
+        "010-9241-2321"
       ],
       "phoneCandidates": [
         {
           "number": "031-616-8002",
-          "score": 63,
+          "score": 100,
           "source": "카카오",
-          "keyword": "서정스마트빌듀오2차 전화번호",
+          "keyword": "서정스마트빌듀오2차 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-8029-6801",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 평택시 정암로 45 관리사무소, 이충동 서정스마트빌듀오2차 관리사무소, 평택시 서정스마트빌듀오2차 관리사무소, 평택시 서정스마트빌듀오2차 관리실, 서정스마트빌듀오2차 전화번호",
+          "sourceCounts": {
+            "네이버": 10
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5,
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 10회"
+        },
+        {
+          "number": "031-666-1800",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "이충동 서정스마트빌듀오2차 관리사무소, 평택시 서정스마트빌듀오2차 관리사무소, 평택시 서정스마트빌듀오2차 관리실",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5,
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "023-1130-9600",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 서정스마트빌듀오2차 관리사무소, 평택시 서정스마트빌듀오2차 관리실, 서정스마트빌듀오2차 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-668-5060",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 서정스마트빌듀오2차 관리사무소, 평택시 서정스마트빌듀오2차 관리실, 서정스마트빌듀오2차 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-8094-4732",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "이충동 서정스마트빌듀오2차 관리사무소, 서정스마트빌듀오2차 관리실, 서정스마트빌듀오2차 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "031-8029-6804",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 평택시 정암로 45 관리사무소, 평택시 서정스마트빌듀오2차 관리사무소, 서정스마트빌듀오2차 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "023-1130-3500",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 서정스마트빌듀오2차 관리사무소, 평택시 서정스마트빌듀오2차 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-651-7505",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 서정스마트빌듀오2차 관리사무소, 평택시 서정스마트빌듀오2차 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-692-3627",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 서정스마트빌듀오2차 관리사무소, 평택시 서정스마트빌듀오2차 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-616-1710",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "서정스마트빌듀오2차 관리사무소, 서정스마트빌듀오2차 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-611-3107",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이충동 서정스마트빌듀오2차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-662-6553",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이충동 서정스마트빌듀오2차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-611-3377",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "평택시 서정스마트빌듀오2차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "010-9241-2321",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서정스마트빌듀오2차 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -6112,9 +7500,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_서정스마트빌듀오2차"
@@ -6356,17 +7744,33 @@
       "address": "경기 평택시 경기대로 999\n경기 평택시 장당동 76",
       "roadAddress": "경기 평택시 경기대로 999",
       "jibunAddress": "경기 평택시 장당동 76",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-611-2256",
+      "phones": [
+        "031-611-2256"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-611-2256",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "평택시 e편한세상시티평택고덕 관리실, e편한세상시티평택고덕오피스텔 관리실, e편한세상시티평택고덕오피스텔 전화번호, e편한세상시티평택고덕 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_e편한세상시티평택고덕"
@@ -7234,34 +8638,134 @@
       "phone": "010-8431-3777",
       "phones": [
         "010-8431-3777",
-        "031-666-0980"
+        "031-666-0980",
+        "031-8094-4531",
+        "031-031-0000",
+        "053-768-0536",
+        "031-8029-9005",
+        "02-499-0001",
+        "031-8094-4530",
+        "053-768-0537"
       ],
       "phoneCandidates": [
         {
           "number": "010-8431-3777",
-          "score": 63,
+          "score": 100,
           "source": "카카오",
-          "keyword": "가이아프레지던스 전화번호",
+          "keyword": "가이아프레지던스 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "031-666-0980",
-          "score": 63,
+          "score": 95,
           "source": "카카오",
           "keyword": "가이아프레지던스 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "031-8094-4531",
+          "score": 79,
+          "source": "네이버",
+          "keyword": "평택시 가이아프레지던스 관리실, 가이아프레지던스 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-031-0000",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "경기 평택시 지산로 10 전화번호, 가이아프레지던스 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "053-768-0536",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "가이아프레지던스 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-8029-9005",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 지산동 808-4 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-499-0001",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "평택시 가이아프레지던스 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8094-4530",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "가이아프레지던스 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "053-768-0537",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "가이아프레지던스 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -7269,9 +8773,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_가이아프레지던스"
@@ -7447,42 +8951,43 @@
       "phoneCandidates": [
         {
           "number": "031-668-8095",
-          "score": 63,
+          "score": 96,
           "source": "카카오",
-          "keyword": "트리플큐브A동 전화번호",
+          "keyword": "트리플큐브A동 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "031-663-8224",
-          "score": 63,
+          "score": 75,
           "source": "카카오",
           "keyword": "트리플큐브A동 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
           "number": "031-666-2095",
-          "score": 63,
+          "score": 73,
           "source": "카카오",
           "keyword": "트리플큐브A동 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -7490,9 +8995,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_트리플큐브a동"
@@ -7955,17 +9460,159 @@
       "address": "경기 평택시 지제동삭3로 11\n경기 평택시 세교동",
       "roadAddress": "경기 평택시 지제동삭3로 11",
       "jibunAddress": "경기 평택시 세교동",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8054-7870",
+      "phones": [
+        "031-8054-7870",
+        "021-0215-0402",
+        "031-8054-8755",
+        "070-4350-0348",
+        "031-651-7889",
+        "031-657-1784",
+        "031-692-4452",
+        "031-692-4453",
+        "031-655-0105",
+        "041-578-7541"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8054-7870",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "지제동 평택지제역자이 관리사무소, 평택시 평택지제역자이 관리사무소, 평택지제역자이아파트 관리사무소, 평택지제역자이아파트 전화번호, 평택지제역자이 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "021-0215-0402",
+          "score": 93,
+          "source": "네이버",
+          "keyword": "평택시 평택지제역자이 관리실, 평택지제역자이아파트 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-8054-8755",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "평택지제역자이아파트 전화번호, 평택지제역자이 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "070-4350-0348",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "평택지제역자이아파트 전화번호, 평택지제역자이 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-651-7889",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 세교동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-657-1784",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 세교동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-692-4452",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 세교동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-692-4453",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 평택시 세교동 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-655-0105",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "평택지제역자이 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "041-578-7541",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "평택지제역자이 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_평택시_평택지제역자이"
@@ -9250,16 +10897,17 @@
       "phoneCandidates": [
         {
           "number": "031-616-0569",
-          "score": 63,
+          "score": 88,
           "source": "카카오",
-          "keyword": "평택항 오션파크 서희스타힐스 전화번호",
+          "keyword": "평택항 오션파크 서희스타힐스 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -9267,9 +10915,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 88,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "경기도_평택시_평택항오션파크서희스타힐스"

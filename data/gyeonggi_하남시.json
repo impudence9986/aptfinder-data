@@ -1,6 +1,6 @@
 {
-  "version": 1790451411,
-  "updatedAt": "2026-09-26 19:36:51",
+  "version": 1791496529,
+  "updatedAt": "2026-10-08 21:55:29",
   "sido": "경기도",
   "sigungu": "하남시",
   "count": 91,
@@ -24,21 +24,36 @@
       "jibunAddress": "경기 하남시 감북동 157-1",
       "phone": "052-250-6938",
       "phones": [
-        "052-250-6938"
+        "052-250-6938",
+        "052-201-7755"
       ],
       "phoneCandidates": [
         {
           "number": "052-250-6938",
-          "score": 63,
+          "score": 92,
           "source": "카카오",
-          "keyword": "자이산업 전화번호",
+          "keyword": "자이산업 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "052-201-7755",
+          "score": 91,
+          "source": "114On",
+          "keyword": "자이산업 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "",
@@ -46,9 +61,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 92,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_하남시_자이산업"
@@ -806,17 +821,61 @@
       "address": "경기 하남시 덕풍서로 80\n경기 하남시 덕풍동 735",
       "roadAddress": "경기 하남시 덕풍서로 80",
       "jibunAddress": "경기 하남시 덕풍동 735",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "04-827-1725",
+      "phones": [
+        "04-827-1725",
+        "031-8028-4551",
+        "031-796-4513"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "04-827-1725",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "하남시 빌리브하남 관리사무소, 빌리브하남 관리단",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-8028-4551",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 덕풍서로 80 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-796-4513",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "빌리브하남 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 69,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_하남시_빌리브하남"
@@ -1305,17 +1364,286 @@
       "address": "경기 하남시 덕산로 39\n경기 하남시 덕풍동 681",
       "roadAddress": "경기 하남시 덕산로 39",
       "jibunAddress": "경기 하남시 덕풍동 681",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-791-6811",
+      "phones": [
+        "031-791-6811",
+        "031-794-1190",
+        "016-5306-2201",
+        "031-791-6810",
+        "031-790-6604",
+        "02-402-5501",
+        "031-794-1644",
+        "017-5301-4201",
+        "031-792-6655",
+        "031-796-6694",
+        "031-792-9711",
+        "031-794-0797",
+        "010-4346-1171",
+        "031-790-6603",
+        "016-1134-1201",
+        "031-796-6230",
+        "00-000-0000",
+        "02-449-8891",
+        "031-793-8234"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-791-6811",
+          "score": 100,
+          "source": "114On",
+          "keyword": "하남시 한솔리치빌1단지 관리사무소, 한솔리치빌1단지아파트 관리사무소, 한솔리치빌1단지아파트 전화번호, 한솔리치빌1단지 전화번호",
+          "sourceCounts": {
+            "114On": 5
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 5
+          },
+          "sourceSummary": "114On 5회"
+        },
+        {
+          "number": "031-794-1190",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 하남시 덕풍동 681 전화번호, 경기 하남시 덕산로 39 전화번호, 한솔리치빌1단지 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "016-5306-2201",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 하남시 덕풍동 681 관리사무소, 경기 하남시 덕풍동 681 관리실",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-791-6810",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 하남시 덕풍동 681 관리사무소, 덕풍동 한솔리치빌1단지 관리사무소, 하남시 한솔리치빌1단지 관리사무소, 한솔리치빌1단지아파트 관리사무소, 한솔리치빌1단지아파트 관리실, 한솔리치빌1단지아파트 전화번호, 한솔리치빌1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 9
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 6,
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 9회"
+        },
+        {
+          "number": "031-790-6604",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 하남시 덕풍동 681 관리실, 경기 하남시 덕산로 39 관리실, 덕풍동 한솔리치빌1단지 관리사무소, 하남시 한솔리치빌1단지 관리실",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "02-402-5501",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "덕풍동 한솔리치빌1단지 관리사무소, 하남시 한솔리치빌1단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "031-794-1644",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "하남시 한솔리치빌1단지 관리사무소, 한솔리치빌1단지아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "017-5301-4201",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 하남시 덕풍동 681 관리사무소, 경기 하남시 덕풍동 681 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-792-6655",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 하남시 덕풍동 681 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-796-6694",
+          "score": 87,
+          "source": "네이버",
+          "keyword": "하남시 한솔리치빌1단지 관리사무소, 한솔리치빌1단지아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-792-9711",
+          "score": 85,
+          "source": "네이버",
+          "keyword": "하남시 한솔리치빌1단지 관리사무소, 한솔리치빌1단지아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-794-0797",
+          "score": 77,
+          "source": "네이버",
+          "keyword": "경기 하남시 덕풍동 681 전화번호, 한솔리치빌1단지아파트 전화번호, 한솔리치빌1단지 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "010-4346-1171",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 덕풍동 681 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-790-6603",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 덕풍동 681 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-1134-1201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 덕풍동 681 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-796-6230",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "덕풍동 한솔리치빌1단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-000-0000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "한솔리치빌1단지아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-449-8891",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "한솔리치빌1단지 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-793-8234",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "한솔리치빌1단지아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_하남시_한솔리치빌1"
@@ -2403,17 +2731,260 @@
       "address": "경기 하남시 미사강변동로 100\n경기 하남시 망월동 1125",
       "roadAddress": "경기 하남시 미사강변동로 100",
       "jibunAddress": "경기 하남시 망월동 1125",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-796-7676",
+      "phones": [
+        "031-796-7676",
+        "031-796-6146",
+        "031-796-6147",
+        "031-796-1222",
+        "031-8027-0975",
+        "031-8027-8057",
+        "031-795-5973",
+        "070-8801-4771",
+        "031-795-7175",
+        "031-793-7795",
+        "031-8027-0885",
+        "031-8027-8065",
+        "031-8027-0109",
+        "031-794-8277",
+        "070-7622-0719",
+        "070-7461-4753",
+        "031-793-9108"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-796-7676",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "경기 하남시 미사강변동로 100 전화번호, 경기 하남시 망월동 1125 전화번호, 미사역파라곤 전화번호",
+          "sourceCounts": {
+            "네이버": 2,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 2회"
+        },
+        {
+          "number": "031-796-6146",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 하남시 미사강변동로 100 관리사무소, 경기 하남시 망월동 1125 관리사무소, 하남시 미사역파라곤 관리사무소, 미사역파라곤아파트 관리사무소, 미사역파라곤아파트 전화번호, 미사역파라곤 전화번호",
+          "sourceCounts": {
+            "네이버": 7
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 7
+          },
+          "sourceSummary": "네이버 7회"
+        },
+        {
+          "number": "031-796-6147",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 하남시 미사강변동로 100 관리사무소, 경기 하남시 망월동 1125 관리사무소, 하남시 미사역파라곤 관리사무소, 미사역파라곤아파트 관리사무소, 미사역파라곤아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "031-796-1222",
+          "score": 91,
+          "source": "114On",
+          "keyword": "미사역파라곤 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "031-8027-0975",
+          "score": 87,
+          "source": "네이버",
+          "keyword": "경기 하남시 미사강변동로 100 전화번호, 경기 하남시 망월동 1125 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1,
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-8027-8057",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "경기 하남시 미사강변동로 100 전화번호, 미사역파라곤 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-795-5973",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "경기 하남시 망월동 1125 전화번호, 미사역파라곤 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "070-8801-4771",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 하남시 미사강변동로 100 전화번호, 미사역파라곤 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-795-7175",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 미사강변동로 100 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-793-7795",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 미사강변동로 100 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8027-0885",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 미사강변동로 100 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8027-8065",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 미사강변동로 100 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8027-0109",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 미사강변동로 100 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-794-8277",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 망월동 1125 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-7622-0719",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 하남시 망월동 1125 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-7461-4753",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "미사역파라곤 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-793-9108",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "미사역파라곤 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_하남시_미사역파라곤"
