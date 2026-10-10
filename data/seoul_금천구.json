@@ -1,6 +1,6 @@
 {
-  "version": 1790538865,
-  "updatedAt": "2026-09-27 19:54:25",
+  "version": 1791666407,
+  "updatedAt": "2026-10-10 21:06:47",
   "sido": "서울특별시",
   "sigungu": "금천구",
   "count": 51,
@@ -166,17 +166,33 @@
       "address": "서울 금천구 가산디지털1로 52\n서울 금천구 가산동 326-4",
       "roadAddress": "서울 금천구 가산디지털1로 52",
       "jibunAddress": "서울 금천구 가산동 326-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3668-5011",
+      "phones": [
+        "02-3668-5011"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3668-5011",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "가산시빅오피스텔 전화번호, 가산시빅 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 51,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_가산시빅"
@@ -203,22 +219,23 @@
         "02-837-2875",
         "02-6230-5500",
         "02-6230-5755",
-        "02-6230-5525"
+        "02-6230-5525",
+        "02-584-0830"
       ],
       "phoneCandidates": [
         {
           "number": "02-837-2875",
-          "score": 73,
+          "score": 94,
           "source": "카카오",
           "keyword": "가산테라타워 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
             "카카오 주소일치 전화번호 보강": 1,
-            "카카오 장소검색": 1
+            "카카오 장소검색": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "02-6230-5500",
@@ -258,6 +275,19 @@
             "카카오 주소일치 전화번호 보강": 1
           },
           "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-584-0830",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 가산동 219-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -265,9 +295,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 73,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_가산테라타워"
@@ -461,23 +491,150 @@
       "address": "서울 금천구 가산디지털2로 98\n서울 금천구 가산동 371-18",
       "roadAddress": "서울 금천구 가산디지털2로 98",
       "jibunAddress": "서울 금천구 가산동 371-18",
-      "phone": "070-4246-3569",
+      "phone": "02-2026-8813",
       "phones": [
-        "070-4246-3569"
+        "02-2026-8813",
+        "022-026-8813",
+        "070-4246-3569",
+        "02-851-6228",
+        "02-585-5238",
+        "03-7152-3071",
+        "04-0904-3825",
+        "02-2088-1196",
+        "02-2088-1197",
+        "02-861-2121"
       ],
       "phoneCandidates": [
         {
-          "number": "070-4246-3569",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "롯데IT캐슬 1동 전화번호",
+          "number": "02-2026-8813",
+          "score": 100,
+          "source": "114On",
+          "keyword": "금천구 롯데IT캐슬 1동 관리실, 롯데IT캐슬 1동 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "114On": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "114On/네이버 스니펫": 3
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "022-026-8813",
+          "score": 100,
+          "source": "114On",
+          "keyword": "금천구 롯데IT캐슬 1동 관리실, 롯데IT캐슬 1동 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "070-4246-3569",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "롯데IT캐슬 1동 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-851-6228",
+          "score": 91,
+          "source": "114On",
+          "keyword": "롯데IT캐슬 1동 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-585-5238",
+          "score": 91,
+          "source": "114On",
+          "keyword": "롯데IT캐슬 1동 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "03-7152-3071",
+          "score": 77,
+          "source": "네이버",
+          "keyword": "서울 금천구 가산디지털2로 98 관리실, 서울 금천구 가산디지털2로 98 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "04-0904-3825",
+          "score": 73,
+          "source": "네이버",
+          "keyword": "가산동 롯데IT캐슬 1동 관리사무소, 금천구 금천구 롯데IT캐슬 1동 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2088-1196",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "롯데IT캐슬 1동 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2088-1197",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "롯데IT캐슬 1동 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-861-2121",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "롯데IT캐슬 1동 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -485,9 +642,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_롯데it캐슬1동"
@@ -556,17 +713,17 @@
       "phoneCandidates": [
         {
           "number": "02-2085-0555",
-          "score": 73,
+          "score": 90,
           "source": "카카오",
           "keyword": "삼성IT해링턴타워 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
             "카카오 주소일치 전화번호 보강": 1,
-            "카카오 장소검색": 1
+            "카카오 장소검색": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "010-8495-1854",
@@ -678,9 +835,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 73,
+      "confidenceScore": 90,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_삼성it해링턴타워"
@@ -831,17 +988,203 @@
       "address": "서울 금천구 범안로 1212\n서울 금천구 독산동 1007-13",
       "roadAddress": "서울 금천구 범안로 1212",
       "jibunAddress": "서울 금천구 독산동 1007-13",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-807-0306",
+      "phones": [
+        "02-807-0306",
+        "02-888-4222",
+        "02-802-4041",
+        "02-807-0307",
+        "02-6738-1114",
+        "02-539-5228",
+        "02-6008-2178",
+        "02-5551-0158",
+        "00-2803-8576",
+        "031-838-6377",
+        "07-1340-3838",
+        "02-807-0302",
+        "02-806-0008"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-807-0306",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "서울 금천구 독산동 1007-13 전화번호, 서울 금천구 범안로 1212 전화번호",
+          "sourceCounts": {
+            "114On": 2,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "114On 2회 · 네이버 1회"
+        },
+        {
+          "number": "02-888-4222",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 금천구 독산동 1007-13 전화번호, 서울 금천구 범안로 1212 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-802-4041",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 금천구 독산동 1007-13 관리사무소, 서울 금천구 범안로 1212 관리사무소, 서울 금천구 범안로 1212 전화번호, 독산동 e편한세상독산더타워 관리사무소, 금천구 e편한세상독산더타워 관리사무소, 금천구 금천구 e편한세상독산더타워 관리사무소, e편한세상독산더타워아파트 관리사무소 관리실, e편한세상독산더타워아파트 ",
+          "sourceCounts": {
+            "네이버": 11
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 11
+          },
+          "sourceSummary": "네이버 11회"
+        },
+        {
+          "number": "02-807-0307",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 금천구 범안로 1212 관리사무소, 독산동 e편한세상독산더타워 관리사무소, 금천구 e편한세상독산더타워 관리사무소, 금천구 금천구 e편한세상독산더타워 관리사무소, e편한세상독산더타워아파트 관리사무소 전화번호, e편한세상독산더타워아파트 관리사무소 관리사무소, e편한세상독산더타워 전화번호",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 8
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "02-6738-1114",
+          "score": 91,
+          "source": "114On",
+          "keyword": "e편한세상독산더타워아파트 관리사무소 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-539-5228",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "금천구 e편한세상독산더타워 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6008-2178",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "금천구 e편한세상독산더타워 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-5551-0158",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 독산동 1007-13 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-2803-8576",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 범안로 1212 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-838-6377",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 범안로 1212 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1340-3838",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 범안로 1212 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-807-0302",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 범안로 1212 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-806-0008",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "e편한세상독산더타워아파트 관리사무소 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_e편한세상독산타워"
@@ -1100,22 +1443,50 @@
       "jibunAddress": "서울 금천구 독산동 1155",
       "phone": "010-5083-1155",
       "phones": [
-        "010-5083-1155"
+        "010-5083-1155",
+        "02-853-7787",
+        "02-805-6876"
       ],
       "phoneCandidates": [
         {
           "number": "010-5083-1155",
-          "score": 73,
+          "score": 98,
           "source": "카카오",
           "keyword": "서울 금천구 독산동 1155 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
             "카카오 주소일치 전화번호 보강": 1,
-            "카카오 장소검색": 1
+            "카카오 장소검색": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-853-7787",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 금천구 독산동 1155 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-805-6876",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 독산동 1155 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1123,9 +1494,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 73,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_금천롯데캐슬골드파크3차"
@@ -1569,21 +1940,36 @@
       "jibunAddress": "서울 금천구 독산동 985-18",
       "phone": "02-845-3088",
       "phones": [
-        "02-845-3088"
+        "02-845-3088",
+        "02-6675-2316"
       ],
       "phoneCandidates": [
         {
           "number": "02-845-3088",
-          "score": 63,
+          "score": 92,
           "source": "카카오",
-          "keyword": "자이하우스 전화번호",
+          "keyword": "자이하우스 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-6675-2316",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 독산로93길 21 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1591,9 +1977,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 92,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_자이하우스"
@@ -1818,17 +2204,291 @@
       "address": "서울 금천구 금하로24나길 48\n서울 금천구 시흥동 1017",
       "roadAddress": "서울 금천구 금하로24나길 48",
       "jibunAddress": "서울 금천구 시흥동 1017",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-805-0241",
+      "phones": [
+        "02-805-0241",
+        "02-805-0242",
+        "026-0430-1704",
+        "02-6335-1501",
+        "02-891-4797",
+        "02-891-7497",
+        "02-807-1808",
+        "02-6335-1500",
+        "02-2664-8799",
+        "00-2803-8576",
+        "026-0123-1400",
+        "02-803-2020",
+        "02-805-3589",
+        "02-805-8893",
+        "02-802-8393",
+        "02-806-0090",
+        "02-2063-3741",
+        "02-2063-3481",
+        "02-889-4040"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-805-0241",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "서울 금천구 시흥동 1017 관리사무소, 서울 금천구 시흥동 1017 전화번호, 서울 금천구 금하로24나길 48 관리사무소, 서울 금천구 금하로24나길 48 전화번호, 시흥동 관악산 신도브래뉴 관리사무소, 금천구 관악산 신도브래뉴 관리사무소, 금천구 금천구 관악산 신도브래뉴 관리사무소, 관악산 신도브래뉴 아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 16,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 13,
+            "114On/네이버 스니펫": 1,
+            "네이버 카페검색": 2,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 16회"
+        },
+        {
+          "number": "02-805-0242",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 금천구 시흥동 1017 관리사무소, 서울 금천구 시흥동 1017 전화번호, 서울 금천구 금하로24나길 48 관리사무소, 서울 금천구 금하로24나길 48 전화번호, 시흥동 관악산 신도브래뉴 관리사무소, 금천구 관악산 신도브래뉴 관리사무소, 금천구 금천구 관악산 신도브래뉴 관리사무소, 관악산 신도브래뉴 아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 15
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 13,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 15회"
+        },
+        {
+          "number": "026-0430-1704",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "금천구 관악산 신도브래뉴 관리사무소, 관악산 신도브래뉴 아파트 관리사무소 관리실, 금천구 관악산 신도브래뉴 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-6335-1501",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 아파트 관리사무소 관리사무소, 관악산 신도브래뉴 관리사무소, 관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-891-4797",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 금천구 시흥동 1017 관리사무소, 시흥동 관악산 신도브래뉴 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-891-7497",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 금천구 시흥동 1017 관리사무소, 시흥동 관악산 신도브래뉴 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-807-1808",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 금천구 시흥동 1017 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-6335-1500",
+          "score": 79,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 아파트 관리사무소 관리사무소, 관악산 신도브래뉴 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-2664-8799",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 금천구 금하로24나길 48 전화번호, 관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "00-2803-8576",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "금천구 관악산 신도브래뉴 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0123-1400",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-803-2020",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-805-3589",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-805-8893",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-802-8393",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-806-0090",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2063-3741",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2063-3481",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-889-4040",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "관악산 신도브래뉴 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_관악산신도브래뉴"
@@ -1976,17 +2636,247 @@
       "address": "서울 금천구 시흥대로47길 43\n서울 금천구 시흥동 1002-1",
       "roadAddress": "서울 금천구 시흥대로47길 43",
       "jibunAddress": "서울 금천구 시흥동 1002-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-806-0090",
+      "phones": [
+        "02-806-0090",
+        "02-809-9640",
+        "02-851-9162",
+        "02-896-6950",
+        "02-894-8166",
+        "02-894-8167",
+        "02-894-8169",
+        "02-6275-8901",
+        "02-6275-8902",
+        "02-6275-8903",
+        "02-6275-8904",
+        "02-6275-8905",
+        "02-896-0855",
+        "02-896-4611",
+        "026-0123-1353",
+        "02-6332-3120"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-806-0090",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "서울 금천구 시흥동 1002-1 관리사무소, 서울 금천구 시흥동 1002-1 전화번호, 서울 금천구 시흥대로47길 43 관리사무소, 시흥동 남서울럭키 관리사무소, 금천구 남서울럭키 관리사무소, 금천구 금천구 남서울럭키 관리사무소, 남서울럭키아파트 관리사무소, 남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 17,
+            "114On": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 9,
+            "네이버 블로그검색": 6,
+            "114On/네이버 스니펫": 3,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "114On 3회 · 네이버 17회"
+        },
+        {
+          "number": "02-809-9640",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 금천구 시흥대로47길 43 관리사무소, 시흥동 남서울럭키 관리사무소, 금천구 남서울럭키 관리사무소, 금천구 금천구 남서울럭키 관리사무소, 남서울럭키아파트 관리사무소, 남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 8
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 8
+          },
+          "sourceSummary": "네이버 8회"
+        },
+        {
+          "number": "02-851-9162",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 금천구 시흥동 1002-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-896-6950",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 금천구 시흥동 1002-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-894-8166",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-894-8167",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-894-8169",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6275-8901",
+          "score": 65,
+          "source": "네이버",
+          "keyword": "남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6275-8902",
+          "score": 63,
+          "source": "네이버",
+          "keyword": "남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6275-8903",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6275-8904",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-6275-8905",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-896-0855",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "남서울럭키아파트 전화번호, 남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-896-4611",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 시흥대로47길 43 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0123-1353",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "남서울럭키아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6332-3120",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "남서울럭키 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_남서울럭키"
@@ -2255,17 +3145,215 @@
       "address": "서울 금천구 금하로 816\n서울 금천구 시흥동 1013",
       "roadAddress": "서울 금천구 금하로 816",
       "jibunAddress": "서울 금천구 시흥동 1013",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-894-1189",
+      "phones": [
+        "02-894-1189",
+        "02-896-5618",
+        "02-896-8943",
+        "02-892-2856",
+        "02-6335-1501",
+        "02-5853-0600",
+        "02-802-7018",
+        "02-808-2355",
+        "02-895-9004",
+        "02-3286-7004",
+        "00-000-0000",
+        "02-802-5520",
+        "02-808-8624",
+        "02-3286-7942"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-894-1189",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 금천구 시흥동 1013 전화번호, 서울 금천구 금하로 816 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "02-896-5618",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 금천구 시흥동 1013 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-896-8943",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 금천구 시흥동 1013 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-892-2856",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 금천구 금하로 816 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-6335-1501",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 금하로 816 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-5853-0600",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 금하로 816 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-802-7018",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 금하로 816 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-808-2355",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 금하로 816 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-895-9004",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 금하로 816 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3286-7004",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 금하로 816 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "00-000-0000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 금하로 816 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-802-5520",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 금하로 816 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-808-8624",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 금천구 금하로 816 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3286-7942",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "벽산5단지 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_금천구_벽산5"
