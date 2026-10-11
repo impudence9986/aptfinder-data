@@ -1,6 +1,6 @@
 {
-  "version": 1790539915,
-  "updatedAt": "2026-09-27 20:11:55",
+  "version": 1791753679,
+  "updatedAt": "2026-10-11 21:21:19",
   "sido": "서울특별시",
   "sigungu": "중구",
   "count": 58,
@@ -61,16 +61,17 @@
       "phoneCandidates": [
         {
           "number": "010-8738-0926",
-          "score": 63,
+          "score": 88,
           "source": "카카오",
-          "keyword": "구도레지던스 전화번호",
+          "keyword": "구도레지던스 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -78,9 +79,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 88,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중구_구도레지던스"
@@ -463,37 +464,54 @@
       "address": "서울 중구 남대문로 27\n서울 중구 남대문로3가 94",
       "roadAddress": "서울 중구 남대문로 27",
       "jibunAddress": "서울 중구 남대문로3가 94",
-      "phone": "02-3789-7002",
+      "phone": "02-778-1998",
       "phones": [
+        "02-778-1998",
         "02-3789-7002",
-        "02-778-1998"
+        "02-2633-2578"
       ],
       "phoneCandidates": [
         {
-          "number": "02-3789-7002",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "더스테이클래식명동 전화번호",
+          "number": "02-778-1998",
+          "score": 100,
+          "source": "카카오, 네이버",
+          "keyword": "더스테이클래식명동 전화번호, 서울 중구 남대문로 27 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2,
+            "네이버": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회 · 네이버 1회"
         },
         {
-          "number": "02-778-1998",
-          "score": 63,
+          "number": "02-3789-7002",
+          "score": 100,
           "source": "카카오",
-          "keyword": "더스테이클래식명동 전화번호",
+          "keyword": "더스테이클래식명동 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-2633-2578",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "중구 더스테이클래식명동 관리사무소, 중구 중구 더스테이클래식명동 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "",
@@ -501,9 +519,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중구_스테이클래식명동"
@@ -623,34 +641,49 @@
       "phone": "02-912-6410",
       "phones": [
         "02-912-6410",
-        "02-2273-1029"
+        "02-2273-1029",
+        "02-381-3300"
       ],
       "phoneCandidates": [
         {
           "number": "02-912-6410",
-          "score": 63,
+          "score": 96,
           "source": "카카오",
-          "keyword": "충무로하늘N 전화번호",
+          "keyword": "충무로하늘N 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "02-2273-1029",
-          "score": 63,
+          "score": 75,
           "source": "카카오",
           "keyword": "충무로하늘N 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-381-3300",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "충무로하늘N 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -658,9 +691,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중구_충무로하늘n"
@@ -689,16 +722,17 @@
       "phoneCandidates": [
         {
           "number": "02-3406-8000",
-          "score": 63,
+          "score": 88,
           "source": "카카오",
-          "keyword": "충무로현대프레스타워 전화번호",
+          "keyword": "충무로현대프레스타워 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -706,9 +740,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 88,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중구_충무로현대프레스타워"

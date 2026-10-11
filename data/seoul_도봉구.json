@@ -1,6 +1,6 @@
 {
-  "version": 1790538913,
-  "updatedAt": "2026-09-27 19:55:13",
+  "version": 1791750790,
+  "updatedAt": "2026-10-11 20:33:10",
   "sido": "서울특별시",
   "sigungu": "도봉구",
   "count": 51,
@@ -1608,17 +1608,47 @@
       "address": "서울 도봉구 마들로 573\n서울 도봉구 창동 815",
       "roadAddress": "서울 도봉구 마들로 573",
       "jibunAddress": "서울 도봉구 창동 815",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-994-2678",
+      "phones": [
+        "02-994-2678",
+        "02-3491-3471"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-994-2678",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 도봉구 창동 815 전화번호, 서울 도봉구 마들로 573 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-3491-3471",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 도봉구 마들로 573 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 53,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_도봉구_사르르아이파크점"

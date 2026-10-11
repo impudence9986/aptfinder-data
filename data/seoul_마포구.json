@@ -1,6 +1,6 @@
 {
-  "version": 1790539087,
-  "updatedAt": "2026-09-27 19:58:07",
+  "version": 1791751362,
+  "updatedAt": "2026-10-11 20:42:42",
   "sido": "서울특별시",
   "sigungu": "마포구",
   "count": 80,
@@ -454,23 +454,66 @@
       "address": "서울 마포구 백범로 170\n서울 마포구 공덕동 445-1",
       "roadAddress": "서울 마포구 백범로 170",
       "jibunAddress": "서울 마포구 공덕동 445-1",
-      "phone": "02-713-3339",
+      "phone": "02-702-5252",
       "phones": [
-        "02-713-3339"
+        "02-702-5252",
+        "02-719-8980",
+        "02-713-3339",
+        "07-1313-3032"
       ],
       "phoneCandidates": [
         {
-          "number": "02-713-3339",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "서울 마포구 백범로 170 전화번호",
+          "number": "02-702-5252",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 마포구 공덕동 445-1 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "114On": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "114On/네이버 스니펫": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-719-8980",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 마포구 공덕동 445-1 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-713-3339",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "서울 마포구 백범로 170 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "07-1313-3032",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 백범로 170 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -478,9 +521,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_나이스파크공덕샵주차장"
@@ -1008,17 +1051,187 @@
       "address": "서울 마포구 대흥로 175\n서울 마포구 대흥동 806",
       "roadAddress": "서울 마포구 대흥로 175",
       "jibunAddress": "서울 마포구 대흥동 806",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-717-3077",
+      "phones": [
+        "02-717-3077",
+        "02-3275-1905",
+        "023-275-1905",
+        "023-275-1906",
+        "025-1103-1634",
+        "02-2088-5055",
+        "026-0814-1754",
+        "02-6949-0277",
+        "025-1103-1642",
+        "026-0312-1359",
+        "02-496-4466",
+        "050-6588-0399"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-717-3077",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 마포구 대흥동 806 관리사무소, 대흥동 마포그랑자이 관리사무소, 마포구 마포그랑자이 관리사무소, 마포구 마포구 마포그랑자이 관리사무소",
+          "sourceCounts": {
+            "114On": 5
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 5
+          },
+          "sourceSummary": "114On 5회"
+        },
+        {
+          "number": "02-3275-1905",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "마포구 마포그랑자이 관리사무소, 마포그랑자이아파트 관리사무소, 마포그랑자이아파트 전화번호, 마포그랑자이 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "023-275-1905",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 대흥로 175 관리사무소, 마포그랑자이아파트 관리사무소, 마포그랑자이 관리사무소, 마포그랑자이아파트 전화번호, 마포그랑자이 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "023-275-1906",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 대흥로 175 관리사무소, 마포그랑자이아파트 관리사무소, 마포그랑자이 관리사무소, 마포그랑자이아파트 전화번호, 마포그랑자이 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "025-1103-1634",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 대흥로 175 관리사무소, 마포그랑자이아파트 관리사무소, 마포그랑자이 관리사무소, 마포그랑자이아파트 전화번호, 마포그랑자이 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "02-2088-5055",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "서울 마포구 대흥동 806 전화번호, 마포그랑자이 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "026-0814-1754",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 대흥로 175 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6949-0277",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 대흥로 175 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-1103-1642",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포그랑자이아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0312-1359",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포그랑자이아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-496-4466",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포그랑자이아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "050-6588-0399",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포그랑자이아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포그랑자이"
@@ -1135,47 +1348,160 @@
       "phones": [
         "010-4024-8712",
         "010-2068-9652",
-        "010-5605-1739"
+        "02-3273-3989",
+        "010-5605-1739",
+        "02-6396-1124",
+        "026-396-1124",
+        "04-0906-3226",
+        "07-1316-7788",
+        "02-312-8070",
+        "02-703-7727",
+        "02-719-4000"
       ],
       "phoneCandidates": [
         {
           "number": "010-4024-8712",
-          "score": 63,
+          "score": 100,
           "source": "카카오",
-          "keyword": "이대역서희스타힐스 전화번호",
+          "keyword": "이대역서희스타힐스 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "010-2068-9652",
-          "score": 63,
+          "score": 100,
           "source": "카카오",
           "keyword": "이대역서희스타힐스 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-3273-3989",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "대흥동 이대역서희스타힐스 관리사무소, 마포구 이대역서희스타힐스 관리사무소, 마포구 마포구 이대역서희스타힐스 관리사무소, 마포구 이대역서희스타힐스 관리실",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 5
+          },
+          "sourceSummary": "네이버 5회"
         },
         {
           "number": "010-5605-1739",
-          "score": 63,
+          "score": 99,
           "source": "카카오",
           "keyword": "이대역서희스타힐스 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-6396-1124",
+          "score": 91,
+          "source": "114On",
+          "keyword": "이대역서희스타힐스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "026-396-1124",
+          "score": 91,
+          "source": "114On",
+          "keyword": "이대역서희스타힐스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "04-0906-3226",
+          "score": 67,
+          "source": "네이버",
+          "keyword": "마포구 이대역서희스타힐스 관리사무소, 마포구 마포구 이대역서희스타힐스 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1316-7788",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 신촌로 160 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-312-8070",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이대역서희스타힐스 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-703-7727",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이대역서희스타힐스 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-719-4000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "이대역서희스타힐스 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1183,9 +1509,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_이대역서희스타힐스"
@@ -1660,17 +1986,17 @@
       "phoneCandidates": [
         {
           "number": "03-7153-6182",
-          "score": 73,
+          "score": 90,
           "source": "카카오",
           "keyword": "효성해링턴스퀘어 B동 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
             "카카오 주소일치 전화번호 보강": 1,
-            "카카오 장소검색": 1
+            "카카오 장소검색": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "02-2197-1860",
@@ -1743,9 +2069,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 73,
+      "confidenceScore": 90,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_효성해링턴스퀘어b동"
@@ -1769,21 +2095,36 @@
       "jibunAddress": "서울 마포구 마포동 451",
       "phone": "02-732-9500",
       "phones": [
-        "02-732-9500"
+        "02-732-9500",
+        "02-539-3435"
       ],
       "phoneCandidates": [
         {
           "number": "02-732-9500",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "마포뉴매드오피스텔 전화번호, 마포뉴매드 전화번호",
+          "keyword": "마포뉴매드오피스텔 전화번호, 마포뉴매드 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-539-3435",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 마포동 451 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1791,9 +2132,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포뉴매드"
@@ -2198,17 +2539,300 @@
       "address": "서울 마포구 양화로 45\n서울 마포구 서교동 490",
       "roadAddress": "서울 마포구 양화로 45",
       "jibunAddress": "서울 마포구 서교동 490",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-334-8181",
+      "phones": [
+        "02-334-8181",
+        "02-334-8182",
+        "026-0417-1710",
+        "02-335-2203",
+        "02-6010-4500",
+        "02-6022-2865",
+        "02-302-6897",
+        "02-3141-6050",
+        "023-141-6050",
+        "02-338-0126",
+        "02-100-2000",
+        "02-337-3355",
+        "02-3486-1807",
+        "023-486-1807",
+        "02-333-4944",
+        "02-539-9998",
+        "07-1435-5059",
+        "02-332-3233",
+        "02-6015-2839",
+        "070-8834-8888"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-334-8181",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 서교동 490 관리사무소, 서울 마포구 양화로 45 관리사무소, 서교동 메세나폴리스 관리사무소, 마포구 메세나폴리스 관리사무소, 마포구 마포구 메세나폴리스 관리사무소, 메세나폴리스아파트 관리사무소, 메세나폴리스아파트 전화번호, 메세나폴리스 관리실",
+          "sourceCounts": {
+            "네이버": 12
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 9,
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 12회"
+        },
+        {
+          "number": "02-334-8182",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 양화로 45 관리사무소, 마포구 메세나폴리스 관리사무소, 마포구 마포구 메세나폴리스 관리사무소, 메세나폴리스아파트 관리사무소, 메세나폴리스아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "026-0417-1710",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 양화로 45 관리사무소, 마포구 메세나폴리스 관리사무소, 마포구 마포구 메세나폴리스 관리사무소, 메세나폴리스아파트 관리사무소, 메세나폴리스아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "02-335-2203",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서교동 메세나폴리스 관리사무소, 마포구 메세나폴리스 관리사무소, 마포구 마포구 메세나폴리스 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-6010-4500",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 서교동 490 전화번호, 서울 마포구 양화로 45 전화번호, 메세나폴리스 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-6022-2865",
+          "score": 95,
+          "source": "네이버",
+          "keyword": "서울 마포구 서교동 490 전화번호, 메세나폴리스아파트 전화번호, 메세나폴리스 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-302-6897",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 마포구 서교동 490 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3141-6050",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 마포구 서교동 490 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-141-6050",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 마포구 서교동 490 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-338-0126",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 마포구 서교동 490 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-100-2000",
+          "score": 91,
+          "source": "114On",
+          "keyword": "메세나폴리스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-337-3355",
+          "score": 91,
+          "source": "114On",
+          "keyword": "메세나폴리스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3486-1807",
+          "score": 91,
+          "source": "114On",
+          "keyword": "메세나폴리스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "023-486-1807",
+          "score": 91,
+          "source": "114On",
+          "keyword": "메세나폴리스 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-333-4944",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 서교동 490 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-539-9998",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 서교동 490 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1435-5059",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 서교동 490 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-332-3233",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 양화로 45 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6015-2839",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 양화로 45 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-8834-8888",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 양화로 45 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_메세나폴리스"
@@ -3007,21 +3631,36 @@
       "jibunAddress": "서울 마포구 신공덕동 178",
       "phone": "02-706-2080",
       "phones": [
-        "02-706-2080"
+        "02-706-2080",
+        "02-365-5150"
       ],
       "phoneCandidates": [
         {
           "number": "02-706-2080",
-          "score": 63,
+          "score": 92,
           "source": "카카오",
-          "keyword": "신공덕아이파크 전화번호",
+          "keyword": "신공덕아이파크 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-365-5150",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "신공덕아이파크 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -3029,9 +3668,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 92,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_신공덕아이파크"
@@ -3053,17 +3692,159 @@
       "address": "서울 마포구 광성로 17\n서울 마포구 신수동 462",
       "roadAddress": "서울 마포구 광성로 17",
       "jibunAddress": "서울 마포구 신수동 462",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "023-275-2337",
+      "phones": [
+        "023-275-2337",
+        "023-275-2339",
+        "026-0211-1500",
+        "026-0306-0937",
+        "02-711-8387",
+        "07-1396-0282",
+        "02-717-1357",
+        "02-706-7420",
+        "02-6348-8484",
+        "070-7545-5249"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "023-275-2337",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 신수동 462 관리사무소, 서울 마포구 신수동 462 전화번호, 서울 마포구 광성로 17 관리사무소, 서울 마포구 광성로 17 전화번호, 신수동 마포아이파크포레 관리사무소, 마포구 마포아이파크포레 관리사무소, 마포구 마포구 마포아이파크포레 관리사무소, 마포아이파크포레아파트 관리사무소, 마포아이파크포레아파트 전",
+          "sourceCounts": {
+            "네이버": 11
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 11
+          },
+          "sourceSummary": "네이버 11회"
+        },
+        {
+          "number": "023-275-2339",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 신수동 462 관리사무소, 서울 마포구 신수동 462 전화번호, 서울 마포구 광성로 17 관리사무소, 서울 마포구 광성로 17 전화번호, 신수동 마포아이파크포레 관리사무소, 마포구 마포아이파크포레 관리사무소, 마포구 마포구 마포아이파크포레 관리사무소, 마포아이파크포레아파트 관리사무소, 마포아이파크포레아파트 전",
+          "sourceCounts": {
+            "네이버": 11
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 11
+          },
+          "sourceSummary": "네이버 11회"
+        },
+        {
+          "number": "026-0211-1500",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 신수동 462 관리사무소, 신수동 마포아이파크포레 관리사무소, 마포아이파크포레아파트 관리사무소, 마포아이파크포레아파트 전화번호, 마포아이파크포레 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "026-0306-0937",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "마포아이파크포레아파트 관리사무소, 마포아이파크포레 관리사무소, 마포아이파크포레아파트 전화번호, 마포아이파크포레 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-711-8387",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 마포구 신수동 462 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "07-1396-0282",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 마포구 광성로 17 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-717-1357",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 광성로 17 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-706-7420",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 광성로 17 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6348-8484",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 광성로 17 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "070-7545-5249",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 광성로 17 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포아이파크포레"
@@ -3117,17 +3898,89 @@
       "address": "서울 마포구 신수로6길 12\n서울 마포구 신수동 91-90",
       "roadAddress": "서울 마포구 신수로6길 12",
       "jibunAddress": "서울 마포구 신수동 91-90",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-701-3457",
+      "phones": [
+        "02-701-3457",
+        "02-701-3458",
+        "02-353-0070",
+        "02-719-8000",
+        "02-325-9781"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-701-3457",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 신수동 91-90 관리사무소, 서울 마포구 신수동 91-90 전화번호, 서울 마포구 신수로6길 12 관리사무소, 서울 마포구 신수로6길 12 전화번호, 신수동 힐스테이트마포더퍼스트 관리사무소, 마포구 힐스테이트마포더퍼스트 관리사무소, 마포구 마포구 힐스테이트마포더퍼스트 관리사무소, 힐스테이트마포더퍼스트아파트 ",
+          "sourceCounts": {
+            "네이버": 11
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 11
+          },
+          "sourceSummary": "네이버 11회"
+        },
+        {
+          "number": "02-701-3458",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 신수동 91-90 관리사무소, 서울 마포구 신수동 91-90 전화번호, 서울 마포구 신수로6길 12 관리사무소, 서울 마포구 신수로6길 12 전화번호, 신수동 힐스테이트마포더퍼스트 관리사무소, 마포구 힐스테이트마포더퍼스트 관리사무소, 마포구 마포구 힐스테이트마포더퍼스트 관리사무소, 힐스테이트마포더퍼스트아파트 ",
+          "sourceCounts": {
+            "네이버": 11
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 11
+          },
+          "sourceSummary": "네이버 11회"
+        },
+        {
+          "number": "02-353-0070",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "힐스테이트마포더퍼스트아파트 전화번호, 힐스테이트마포더퍼스트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-719-8000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "힐스테이트마포더퍼스트아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-325-9781",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "힐스테이트마포더퍼스트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_힐스테이트마포퍼스트"
@@ -3291,17 +4144,306 @@
       "address": "서울 마포구 신촌로28길 50\n서울 마포구 아현동 804",
       "roadAddress": "서울 마포구 신촌로28길 50",
       "jibunAddress": "서울 마포구 아현동 804",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-313-6661",
+      "phones": [
+        "02-313-6661",
+        "02-313-6662",
+        "02-313-7942",
+        "026-0611-1151",
+        "02-312-4441",
+        "024-0705-1509",
+        "024-0702-1355",
+        "02-313-6261",
+        "02-362-9664",
+        "02-200-0887",
+        "080-999-5425",
+        "02-715-8850",
+        "02-712-3834",
+        "024-0521-1601",
+        "026-0106-1138",
+        "025-0725-1617",
+        "026-0812-1021",
+        "050-6588-0399",
+        "01-059-5000",
+        "02-0000-0000"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-313-6661",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "서울 마포구 아현동 804 관리사무소, 아현동 마포더클래시 관리사무소, 마포구 마포더클래시 관리사무소, 마포구 마포구 마포더클래시 관리사무소, 마포구 마포더클래시 관리실, 마포더클래시아파트 관리사무소, 마포더클래시아파트 관리실, 마포더클래시아파트 전화번호, 마포더클래시 전화번호",
+          "sourceCounts": {
+            "네이버": 14,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 11,
+            "네이버 카페검색": 3,
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 14회"
+        },
+        {
+          "number": "02-313-6662",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "아현동 마포더클래시 관리사무소, 마포구 마포더클래시 관리사무소, 마포구 마포구 마포더클래시 관리사무소, 마포더클래시아파트 관리사무소, 마포더클래시아파트 전화번호, 마포더클래시 전화번호",
+          "sourceCounts": {
+            "네이버": 7,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6,
+            "네이버 카페검색": 1,
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 7회"
+        },
+        {
+          "number": "02-313-7942",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 마포구 신촌로28길 50 전화번호, 마포더클래시아파트 전화번호, 마포더클래시 전화번호",
+          "sourceCounts": {
+            "114On": 3
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3
+          },
+          "sourceSummary": "114On 3회"
+        },
+        {
+          "number": "026-0611-1151",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "마포구 마포더클래시 관리사무소, 마포구 마포구 마포더클래시 관리사무소, 마포더클래시아파트 관리사무소, 마포더클래시아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "02-312-4441",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 아현동 804 관리사무소, 마포더클래시아파트 관리사무소, 마포더클래시 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "024-0705-1509",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "마포더클래시아파트 관리사무소, 마포더클래시 관리사무소, 마포더클래시아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "024-0702-1355",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "마포구 마포더클래시 관리사무소, 마포구 마포구 마포더클래시 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-313-6261",
+          "score": 91,
+          "source": "114On",
+          "keyword": "마포더클래시 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-362-9664",
+          "score": 75,
+          "source": "네이버",
+          "keyword": "마포구 마포구 마포더클래시 관리사무소, 마포더클래시아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-200-0887",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "마포더클래시아파트 전화번호, 마포더클래시 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "080-999-5425",
+          "score": 59,
+          "source": "네이버",
+          "keyword": "서울 마포구 신촌로28길 50 전화번호, 마포더클래시 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-715-8850",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 신촌로28길 50 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-712-3834",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포구 마포구 마포더클래시 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "024-0521-1601",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포더클래시아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0106-1138",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포더클래시아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "025-0725-1617",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포더클래시아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0812-1021",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포더클래시아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "050-6588-0399",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포더클래시아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "01-059-5000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포더클래시 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-0000-0000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "마포더클래시 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포클래시"
@@ -3326,28 +4468,45 @@
       "phone": "070-7534-8135",
       "phones": [
         "070-7534-8135",
+        "02-362-9664",
         "02-363-2275",
         "02-363-7101",
         "02-313-1000",
         "02-393-0620",
         "02-363-3136",
         "02-2138-1638",
-        "02-393-0103"
+        "02-393-0103",
+        "02-712-3834",
+        "02-362-9665"
       ],
       "phoneCandidates": [
         {
           "number": "070-7534-8135",
-          "score": 73,
+          "score": 100,
           "source": "카카오",
           "keyword": "마포푸르지오더센트럴 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
             "카카오 주소일치 전화번호 보강": 1,
-            "카카오 장소검색": 1
+            "카카오 장소검색": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-362-9664",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "서울 마포구 아현동 275-2 관리사무소, 서울 마포구 아현동 275-2 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 3회"
         },
         {
           "number": "02-363-2275",
@@ -3439,6 +4598,32 @@
             "카카오 주소일치 전화번호 보강": 1
           },
           "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-712-3834",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 마포구 아현동 275-2 관리사무소, 서울 마포구 아현동 275-2 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-362-9665",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 아현동 275-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -3446,9 +4631,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 73,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포푸르지오센트럴"
@@ -3533,17 +4718,17 @@
       "phoneCandidates": [
         {
           "number": "02-365-1600",
-          "score": 73,
+          "score": 90,
           "source": "카카오",
           "keyword": "애오개아이파크 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
             "카카오 주소일치 전화번호 보강": 1,
-            "카카오 장소검색": 1
+            "카카오 장소검색": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "02-364-0010",
@@ -3642,9 +4827,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 73,
+      "confidenceScore": 90,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_애오개아이파크"
@@ -3854,23 +5039,108 @@
       "address": "서울 마포구 대흥로24길 24\n서울 마포구 염리동 14-149",
       "roadAddress": "서울 마포구 대흥로24길 24",
       "jibunAddress": "서울 마포구 염리동 14-149",
-      "phone": "02-716-7337",
+      "phone": "02-711-9010",
       "phones": [
-        "02-716-7337"
+        "02-711-9010",
+        "02-716-7337",
+        "02-716-6002",
+        "02-717-7553",
+        "02-711-3119",
+        "02-704-5921",
+        "07-1355-5318"
       ],
       "phoneCandidates": [
         {
-          "number": "02-716-7337",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "서울 마포구 대흥로24길 24 전화번호",
+          "number": "02-711-9010",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 마포구 염리동 14-149 전화번호",
           "sourceCounts": {
-            "카카오": 1
+            "114On": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "114On/네이버 스니펫": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-716-7337",
+          "score": 87,
+          "source": "카카오",
+          "keyword": "서울 마포구 대흥로24길 24 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-716-6002",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "염리동 마포프레스티지자이 정문 관리사무소, 마포구 마포구 마포프레스티지자이 정문 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-717-7553",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 대흥로24길 24 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-711-3119",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 대흥로24길 24 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-704-5921",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 대흥로24길 24 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1355-5318",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 대흥로24길 24 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -3878,9 +5148,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포프레스티지자이정문"
@@ -4542,17 +5812,162 @@
       "address": "서울 마포구 신수로 15\n서울 마포구 현석동 222",
       "roadAddress": "서울 마포구 신수로 15",
       "jibunAddress": "서울 마포구 현석동 222",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3273-4775",
+      "phones": [
+        "02-3273-4775",
+        "02-3273-4776",
+        "023-664-0047",
+        "023-664-0164",
+        "02-3664-0047",
+        "023-273-4775",
+        "02-3153-6680",
+        "02-3271-1323",
+        "02-1833-4903",
+        "026-0520-1512"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3273-4775",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "서울 마포구 현석동 222 관리사무소, 서울 마포구 현석동 222 전화번호, 서울 마포구 신수로 15 관리사무소, 현석동 강변힐스테이트 관리사무소, 마포구 강변힐스테이트 관리사무소, 마포구 마포구 강변힐스테이트 관리사무소, 강변힐스테이트아파트 관리사무소, 강변힐스테이트 관리실, 강변힐스테이트 전화번호",
+          "sourceCounts": {
+            "네이버": 14,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6,
+            "네이버 카페검색": 8,
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 14회"
+        },
+        {
+          "number": "02-3273-4776",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "서울 마포구 현석동 222 관리사무소, 서울 마포구 신수로 15 관리사무소, 현석동 강변힐스테이트 관리사무소, 마포구 강변힐스테이트 관리사무소, 마포구 마포구 강변힐스테이트 관리사무소",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "023-664-0047",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강변힐스테이트아파트 관리사무소, 강변힐스테이트 관리사무소, 강변힐스테이트아파트 전화번호, 강변힐스테이트 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "023-664-0164",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강변힐스테이트아파트 관리사무소, 강변힐스테이트 관리사무소, 강변힐스테이트아파트 전화번호, 강변힐스테이트 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "02-3664-0047",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강변힐스테이트아파트 관리사무소, 강변힐스테이트 관리사무소, 강변힐스테이트아파트 전화번호, 강변힐스테이트 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "023-273-4775",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 마포구 현석동 222 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-3153-6680",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 현석동 222 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-3271-1323",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 현석동 222 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-1833-4903",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 마포구 신수로 15 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "026-0520-1512",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강변힐스테이트 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_강변힐스테이트"
