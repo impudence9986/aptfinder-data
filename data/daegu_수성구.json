@@ -1,6 +1,6 @@
 {
-  "version": 1790977245,
-  "updatedAt": "2026-10-02 21:40:45",
+  "version": 1791848030,
+  "updatedAt": "2026-10-12 23:33:50",
   "sido": "대구광역시",
   "sigungu": "수성구",
   "count": 131,
@@ -6384,27 +6384,71 @@
       "phone": "053-763-9947",
       "phones": [
         "053-763-9947",
-        "010-3322-7501"
+        "053-762-5601",
+        "010-3322-7501",
+        "053-743-2039",
+        "053-745-1390"
       ],
       "phoneCandidates": [
         {
           "number": "053-763-9947",
-          "score": 42,
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "대구 수성구 청수로 261 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 2,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 2회"
+        },
+        {
+          "number": "053-762-5601",
+          "score": 91,
+          "source": "114On",
+          "keyword": "대구 수성구 청수로 261 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "010-3322-7501",
+          "score": 51,
           "source": "네이버",
           "keyword": "대구 수성구 청수로 261 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "053-743-2039",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "대구 수성구 청수로 261 관리실",
           "sourceCounts": {
             "네이버": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버 카페검색": 1
           },
           "sourceSummary": "네이버 1회"
         },
         {
-          "number": "010-3322-7501",
+          "number": "053-745-1390",
           "score": 42,
           "source": "네이버",
-          "keyword": "대구 수성구 청수로 261 전화번호",
+          "keyword": "대구 수성구 청수로 261 관리실",
           "sourceCounts": {
             "네이버": 1
           },
@@ -6419,9 +6463,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_캐슬골드파크4"

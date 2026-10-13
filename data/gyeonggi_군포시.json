@@ -1,6 +1,6 @@
 {
-  "version": 1791243304,
-  "updatedAt": "2026-10-05 23:35:04",
+  "version": 1791849549,
+  "updatedAt": "2026-10-12 23:59:09",
   "sido": "경기도",
   "sigungu": "군포시",
   "count": 49,
@@ -612,9 +612,11 @@
       "address": "경기 군포시 용호2로 63-15\n경기 군포시 당동 872-2",
       "roadAddress": "경기 군포시 용호2로 63-15",
       "jibunAddress": "경기 군포시 당동 872-2",
-      "phone": "031-455-8999",
+      "phone": "031-398-0202",
       "phones": [
+        "031-398-0202",
         "031-455-8999",
+        "031-395-5611",
         "07-1422-6622",
         "031-399-5006",
         "031-456-9777",
@@ -622,17 +624,45 @@
       ],
       "phoneCandidates": [
         {
-          "number": "031-455-8999",
-          "score": 77,
-          "source": "네이버",
-          "keyword": "당동 신산본리빙스텔 관리사무소, 군포시 신산본리빙스텔 관리사무소",
+          "number": "031-398-0202",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 3
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 블로그검색": 3
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 3회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-455-8999",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "당동 신산본리빙스텔 관리사무소, 군포시 신산본리빙스텔 관리사무소, existing",
+          "sourceCounts": {
+            "네이버": 3,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 3회"
+        },
+        {
+          "number": "031-395-5611",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         },
         {
           "number": "07-1422-6622",
@@ -692,9 +722,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_군포시_신산본리빙스텔"
