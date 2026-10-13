@@ -1,6 +1,6 @@
 {
-  "version": 1791497221,
-  "updatedAt": "2026-10-08 22:07:01",
+  "version": 1791927415,
+  "updatedAt": "2026-10-13 21:36:55",
   "sido": "인천광역시",
   "sigungu": "강화군",
   "count": 18,
@@ -160,6 +160,8 @@
       "phone": "032-290-0001",
       "phones": [
         "032-290-0001",
+        "032-290-0119",
+        "032-216-4444",
         "032-290-0323",
         "032-237-2875",
         "032-290-0201"
@@ -167,21 +169,51 @@
       "phoneCandidates": [
         {
           "number": "032-290-0001",
-          "score": 59,
-          "source": "네이버",
-          "keyword": "인천 강화군 강화읍 충렬사로 31 전화번호",
+          "score": 100,
+          "source": "네이버, 카카오, 네이버부동산",
+          "keyword": "인천 강화군 강화읍 충렬사로 31 전화번호, existing, naver_land_management",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 2,
+            "카카오": 1,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "네이버 웹검색": 1,
-            "네이버 카페검색": 1
+            "네이버 카페검색": 1,
+            "카카오 장소검색": 1,
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 1회 · 네이버 2회"
+        },
+        {
+          "number": "032-290-0119",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "032-216-4444",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         },
         {
           "number": "032-290-0323",
-          "score": 53,
+          "score": 63,
           "source": "네이버",
           "keyword": "강화군 강화비에스 관리실",
           "sourceCounts": {
@@ -224,9 +256,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 59,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_강화군_강화비에스"
@@ -737,24 +769,54 @@
       "address": "인천 강화군 선원면 중앙로 162-57\n인천 강화군 선원면 창리 709",
       "roadAddress": "인천 강화군 선원면 중앙로 162-57",
       "jibunAddress": "인천 강화군 선원면 창리 709",
-      "phone": "053-856-5188",
+      "phone": "032-715-6248",
       "phones": [
+        "032-715-6248",
+        "032-715-6249",
         "053-856-5188",
         "032-932-8999"
       ],
       "phoneCandidates": [
         {
-          "number": "053-856-5188",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "인천 강화군 선원면 중앙로 162-57 전화번호",
+          "number": "032-715-6248",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 1
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "032-715-6249",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-856-5188",
+          "score": 80,
+          "source": "네이버, 카카오",
+          "keyword": "인천 강화군 선원면 중앙로 162-57 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         },
         {
           "number": "032-932-8999",
@@ -775,9 +837,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_강화군_강화서희스타힐스2"

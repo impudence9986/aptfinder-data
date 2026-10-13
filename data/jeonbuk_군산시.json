@@ -1,6 +1,6 @@
 {
-  "version": 1791663270,
-  "updatedAt": "2026-10-10 20:14:30",
+  "version": 1791927877,
+  "updatedAt": "2026-10-13 21:44:37",
   "sido": "전북특별자치도",
   "sigungu": "군산시",
   "count": 64,
@@ -2935,16 +2935,18 @@
       "phoneCandidates": [
         {
           "number": "063-466-4688",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "해강솔비앙1단지 전화번호",
+          "score": 94,
+          "source": "네이버, 카카오",
+          "keyword": "해강솔비앙1단지 전화번호, existing",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 2회"
         }
       ],
       "households": "",
@@ -2952,9 +2954,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "전북특별자치도_군산시_해강솔비앙1"
@@ -4381,23 +4383,39 @@
       "address": "전북특별자치도 군산시 궁포2로 77\n전북특별자치도 군산시 조촌동 2-28",
       "roadAddress": "전북특별자치도 군산시 궁포2로 77",
       "jibunAddress": "전북특별자치도 군산시 조촌동 2-28",
-      "phone": "063-443-1358",
+      "phone": "063-443-9800",
       "phones": [
+        "063-443-9800",
         "063-443-1358"
       ],
       "phoneCandidates": [
         {
-          "number": "063-443-1358",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "전북특별자치도 군산시 궁포2로 77 전화번호",
+          "number": "063-443-9800",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 1
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "063-443-1358",
+          "score": 75,
+          "source": "네이버, 카카오",
+          "keyword": "전북특별자치도 군산시 궁포2로 77 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         }
       ],
       "households": "",
@@ -4405,9 +4423,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "전북특별자치도_군산시_샵디오션시티그랑시엘정문"

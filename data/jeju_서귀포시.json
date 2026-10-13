@@ -1,6 +1,6 @@
 {
-  "version": 1791580674,
-  "updatedAt": "2026-10-09 21:17:54",
+  "version": 1791927739,
+  "updatedAt": "2026-10-13 21:42:19",
   "sido": "제주특별자치도",
   "sigungu": "서귀포시",
   "count": 35,
@@ -418,48 +418,50 @@
       "phone": "064-805-9226",
       "phones": [
         "064-805-9226",
-        "064-729-2152",
-        "064-747-0819"
+        "064-747-0819",
+        "064-729-2152"
       ],
       "phoneCandidates": [
         {
           "number": "064-805-9226",
-          "score": 53,
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "대포동 풍림빌리지 관리사무소, 서귀포시 풍림빌리지 관리사무소, existing",
+          "sourceCounts": {
+            "네이버": 2,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 2회"
+        },
+        {
+          "number": "064-747-0819",
+          "score": 65,
           "source": "네이버",
-          "keyword": "대포동 풍림빌리지 관리사무소, 서귀포시 풍림빌리지 관리사무소",
+          "keyword": "서귀포시 풍림빌리지 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "064-729-2152",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "제주특별자치도 서귀포시 대포복개로 95 전화번호",
           "sourceCounts": {
             "네이버": 2
           },
           "sourceDetails": {
-            "네이버 웹검색": 2
+            "네이버 카페검색": 2
           },
           "sourceSummary": "네이버 2회"
-        },
-        {
-          "number": "064-729-2152",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "제주특별자치도 서귀포시 대포복개로 95 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "064-747-0819",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "서귀포시 풍림빌리지 관리실",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
-          },
-          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -467,9 +469,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 53,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "제주특별자치도_서귀포시_풍림빌리지"
@@ -1066,24 +1068,54 @@
       "address": "제주특별자치도 서귀포시 김정문화로 49\n제주특별자치도 서귀포시 법환동 745-6",
       "roadAddress": "제주특별자치도 서귀포시 김정문화로 49",
       "jibunAddress": "제주특별자치도 서귀포시 법환동 745-6",
-      "phone": "064-710-4472",
+      "phone": "064-738-2828",
       "phones": [
+        "064-738-2828",
+        "064-746-5578",
         "064-710-4472",
         "064-710-4479"
       ],
       "phoneCandidates": [
         {
-          "number": "064-710-4472",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "제주블루오션시티 전화번호",
+          "number": "064-738-2828",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 1
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "064-746-5578",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "064-710-4472",
+          "score": 80,
+          "source": "네이버, 카카오",
+          "keyword": "제주블루오션시티 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         },
         {
           "number": "064-710-4479",
@@ -1104,9 +1136,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "제주특별자치도_서귀포시_제주블루오션시티"
@@ -2015,8 +2047,9 @@
       "address": "제주특별자치도 서귀포시 천제연로178번길 26\n제주특별자치도 서귀포시 중문동 2330-9",
       "roadAddress": "제주특별자치도 서귀포시 천제연로178번길 26",
       "jibunAddress": "제주특별자치도 서귀포시 중문동 2330-9",
-      "phone": "064-739-7392",
+      "phone": "064-738-5100",
       "phones": [
+        "064-738-5100",
         "064-739-7392",
         "010-2139-6451",
         "07-1333-0499",
@@ -2024,17 +2057,32 @@
       ],
       "phoneCandidates": [
         {
-          "number": "064-739-7392",
-          "score": 69,
-          "source": "네이버",
-          "keyword": "중문동 중문오션클라우드 관리사무소, 서귀포시 중문오션클라우드 관리사무소",
+          "number": "064-738-5100",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 3
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 3
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 3회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "064-739-7392",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "중문동 중문오션클라우드 관리사무소, 서귀포시 중문오션클라우드 관리사무소, existing",
+          "sourceCounts": {
+            "네이버": 3,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 3,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 3회"
         },
         {
           "number": "010-2139-6451",
@@ -2081,9 +2129,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 69,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "제주특별자치도_서귀포시_중문오션클라우드"

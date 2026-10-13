@@ -1,6 +1,6 @@
 {
-  "version": 1791846262,
-  "updatedAt": "2026-10-12 23:04:22",
+  "version": 1791929031,
+  "updatedAt": "2026-10-13 22:03:51",
   "sido": "세종특별자치시",
   "sigungu": "세종시",
   "count": 167,
@@ -1602,17 +1602,18 @@
       "address": "세종특별자치시 국세청로 46\n세종특별자치시 나성동 835",
       "roadAddress": "세종특별자치시 국세청로 46",
       "jibunAddress": "세종특별자치시 나성동 835",
-      "phone": "02-693-0041",
+      "phone": "044-862-9906",
       "phones": [
+        "044-862-9906",
+        "044-862-0122",
         "02-693-0041",
+        "044-868-5858",
         "044-862-6656",
         "044-417-1525",
         "044-865-8022",
-        "044-862-0122",
         "044-415-1910",
         "044-868-4785",
         "07-1391-6825",
-        "044-862-9906",
         "044-862-9907",
         "053-288-3260",
         "053-288-3263",
@@ -1621,21 +1622,66 @@
       ],
       "phoneCandidates": [
         {
-          "number": "02-693-0041",
-          "score": 81,
-          "source": "네이버",
-          "keyword": "세종특별자치시 나성동 835 관리실, 세종특별자치시 나성동 835 전화번호",
+          "number": "044-862-9906",
+          "score": 100,
+          "source": "네이버, 네이버부동산",
+          "keyword": "세종특별자치시 국세청로 46 전화번호, naver_land_management",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 1,
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 2
+            "네이버 카페검색": 1,
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "044-862-0122",
+          "score": 100,
+          "source": "네이버, 네이버부동산",
+          "keyword": "세종특별자치시 국세청로 46 관리사무소, naver_land_management",
+          "sourceCounts": {
+            "네이버": 1,
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1,
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-693-0041",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "세종특별자치시 나성동 835 관리실, 세종특별자치시 나성동 835 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 2,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 2회"
+        },
+        {
+          "number": "044-868-5858",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         },
         {
           "number": "044-862-6656",
-          "score": 71,
+          "score": 81,
           "source": "네이버",
           "keyword": "세종특별자치시 국세청로 46 관리사무소, 세종특별자치시 국세청로 46 관리실",
           "sourceCounts": {
@@ -1648,7 +1694,7 @@
         },
         {
           "number": "044-417-1525",
-          "score": 69,
+          "score": 79,
           "source": "네이버",
           "keyword": "세종특별자치시 국세청로 46 관리사무소, 세종특별자치시 국세청로 46 관리실",
           "sourceCounts": {
@@ -1664,19 +1710,6 @@
           "score": 42,
           "source": "네이버",
           "keyword": "세종특별자치시 나성동 835 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "044-862-0122",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 국세청로 46 관리사무소",
           "sourceCounts": {
             "네이버": 1
           },
@@ -1713,19 +1746,6 @@
         },
         {
           "number": "07-1391-6825",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 국세청로 46 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "044-862-9906",
           "score": 42,
           "source": "네이버",
           "keyword": "세종특별자치시 국세청로 46 전화번호",
@@ -1808,9 +1828,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_나릿재마을1세종리스포레"
@@ -1956,8 +1976,9 @@
       "address": "세종특별자치시 나성북로 47\n세종특별자치시 나성동 831",
       "roadAddress": "세종특별자치시 나성북로 47",
       "jibunAddress": "세종특별자치시 나성동 831",
-      "phone": "07-1368-4678",
+      "phone": "044-868-7277",
       "phones": [
+        "044-868-7277",
         "07-1368-4678",
         "07-1481-6663",
         "07-1469-6577",
@@ -1966,21 +1987,36 @@
       ],
       "phoneCandidates": [
         {
-          "number": "07-1368-4678",
-          "score": 55,
-          "source": "네이버",
-          "keyword": "세종특별자치시 나성북로 47 관리실, 세종특별자치시 나성북로 47 전화번호",
+          "number": "044-868-7277",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 2
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 2
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "07-1368-4678",
+          "score": 91,
+          "source": "네이버, 카카오",
+          "keyword": "세종특별자치시 나성북로 47 관리실, 세종특별자치시 나성북로 47 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 2,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 2회"
         },
         {
           "number": "07-1481-6663",
-          "score": 51,
+          "score": 57,
           "source": "네이버",
           "keyword": "나릿재마을4단지부원트리쉐이드리젠시아파트 전화번호, 나릿재마을4단지부원트리쉐이드리젠시 전화번호",
           "sourceCounts": {
@@ -2036,9 +2072,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 55,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_나릿재마을4부원트리쉐이드리젠시"
@@ -2935,33 +2971,78 @@
       "address": "세종특별자치시 가온로 9\n세종특별자치시 다정동 969",
       "roadAddress": "세종특별자치시 가온로 9",
       "jibunAddress": "세종특별자치시 다정동 969",
-      "phone": "00-106-4481",
+      "phone": "044-867-3548",
       "phones": [
+        "044-867-3548",
         "00-106-4481",
+        "044-864-1547",
+        "044-864-1545",
         "044-863-9887",
         "050-4358-5697",
         "044-414-9963",
         "050-4358-9193",
-        "044-867-3548",
         "044-867-3549"
       ],
       "phoneCandidates": [
         {
-          "number": "00-106-4481",
-          "score": 53,
-          "source": "네이버",
-          "keyword": "가온마을10단지더하이스트아파트 전화번호, 가온마을10단지더하이스트 전화번호",
+          "number": "044-867-3548",
+          "score": 100,
+          "source": "네이버, 네이버부동산",
+          "keyword": "세종특별자치시 가온로 9 전화번호, naver_land_management",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 1,
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 2
+            "네이버 카페검색": 1,
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "00-106-4481",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "가온마을10단지더하이스트아파트 전화번호, 가온마을10단지더하이스트 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 2,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 2회"
+        },
+        {
+          "number": "044-864-1547",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-864-1545",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         },
         {
           "number": "044-863-9887",
-          "score": 51,
+          "score": 61,
           "source": "네이버",
           "keyword": "가온마을10단지더하이스트아파트 전화번호, 가온마을10단지더하이스트 전화번호",
           "sourceCounts": {
@@ -3012,19 +3093,6 @@
           "sourceSummary": "네이버 1회"
         },
         {
-          "number": "044-867-3548",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 가온로 9 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
           "number": "044-867-3549",
           "score": 42,
           "source": "네이버",
@@ -3043,9 +3111,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 53,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_가온마을10하이스트"
@@ -5234,45 +5302,63 @@
       "address": "세종특별자치시 반곡로 14\n세종특별자치시 반곡동 851",
       "roadAddress": "세종특별자치시 반곡로 14",
       "jibunAddress": "세종특별자치시 반곡동 851",
-      "phone": "044-863-9008",
+      "phone": "044-868-6396",
       "phones": [
+        "044-868-6396",
+        "044-865-2220",
         "044-863-9008",
         "07-1332-0418",
-        "044-868-6396",
         "044-868-6397"
       ],
       "phoneCandidates": [
         {
-          "number": "044-863-9008",
-          "score": 55,
-          "source": "네이버",
-          "keyword": "세종특별자치시 반곡로 14 관리사무소, 세종특별자치시 반곡로 14 전화번호",
+          "number": "044-868-6396",
+          "score": 100,
+          "source": "네이버, 네이버부동산",
+          "keyword": "세종특별자치시 반곡로 14 전화번호, naver_land_management",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 1,
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 블로그검색": 2
+            "네이버 카페검색": 1,
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
+        },
+        {
+          "number": "044-865-2220",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-863-9008",
+          "score": 98,
+          "source": "네이버, 카카오",
+          "keyword": "세종특별자치시 반곡로 14 관리사무소, 세종특별자치시 반곡로 14 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 2,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 2회"
         },
         {
           "number": "07-1332-0418",
           "score": 42,
           "source": "네이버",
           "keyword": "세종특별자치시 반곡동 851 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "044-868-6396",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 반곡로 14 전화번호",
           "sourceCounts": {
             "네이버": 1
           },
@@ -5300,9 +5386,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 55,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_수루배마을1캐슬파밀리에디아트"
@@ -5680,53 +5766,73 @@
       "address": "세종특별자치시 반곡로 72\n세종특별자치시 반곡동 861",
       "roadAddress": "세종특별자치시 반곡로 72",
       "jibunAddress": "세종특별자치시 반곡동 861",
-      "phone": "044-868-0774",
+      "phone": "044-866-8995",
       "phones": [
-        "044-868-0774",
-        "044-868-0775",
         "044-866-8995",
+        "044-868-0775",
+        "044-862-4835",
+        "044-868-0774",
         "044-866-8996",
         "044-863-2583"
       ],
       "phoneCandidates": [
         {
-          "number": "044-868-0774",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 반곡로 72 전화번호",
+          "number": "044-866-8995",
+          "score": 100,
+          "source": "네이버, 네이버부동산",
+          "keyword": "세종특별자치시 반곡로 72 전화번호, naver_land_management",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 1,
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 1,
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
         },
         {
           "number": "044-868-0775",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 반곡로 72 전화번호",
+          "score": 100,
+          "source": "네이버, 네이버부동산",
+          "keyword": "세종특별자치시 반곡로 72 전화번호, naver_land_management",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 1,
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 1,
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버부동산 1회 · 네이버 1회"
         },
         {
-          "number": "044-866-8995",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 반곡로 72 전화번호",
+          "number": "044-862-4835",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 1
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-868-0774",
+          "score": 85,
+          "source": "네이버, 카카오",
+          "keyword": "세종특별자치시 반곡로 72 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         },
         {
           "number": "044-866-8996",
@@ -5760,9 +5866,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_수루배마을7리슈빌디어반"
@@ -5888,30 +5994,74 @@
       "address": "세종특별자치시 시청대로 547\n세종특별자치시 반곡동 873",
       "roadAddress": "세종특별자치시 시청대로 547",
       "jibunAddress": "세종특별자치시 반곡동 873",
-      "phone": "044-862-8628",
+      "phone": "044-868-3085",
       "phones": [
+        "044-868-3085",
         "044-862-8628",
+        "044-866-5112",
+        "044-862-6728",
         "044-864-9282",
         "044-863-3276",
         "070-7780-5705"
       ],
       "phoneCandidates": [
         {
-          "number": "044-862-8628",
-          "score": 83,
-          "source": "네이버",
-          "keyword": "세종특별자치시 반곡동 873 관리실, 세종특별자치시 반곡동 873 전화번호, 세종특별자치시 시청대로 547 전화번호",
+          "number": "044-868-3085",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 3
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 3
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 3회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-862-8628",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "세종특별자치시 반곡동 873 관리실, 세종특별자치시 반곡동 873 전화번호, 세종특별자치시 시청대로 547 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 3,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 3회"
+        },
+        {
+          "number": "044-866-5112",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-862-6728",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         },
         {
           "number": "044-864-9282",
-          "score": 55,
+          "score": 65,
           "source": "네이버",
           "keyword": "세종특별자치시 반곡동 873 전화번호, 세종특별자치시 시청대로 547 전화번호",
           "sourceCounts": {
@@ -5924,7 +6074,7 @@
         },
         {
           "number": "044-863-3276",
-          "score": 51,
+          "score": 61,
           "source": "네이버",
           "keyword": "수루배마을9단지세종리슈빌디어반아파트 전화번호, 수루배마을9단지세종리슈빌디어반 전화번호",
           "sourceCounts": {
@@ -5954,9 +6104,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 83,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_수루배마을9세종리슈빌디어반"
@@ -6311,28 +6461,44 @@
       "address": "세종특별자치시 시청대로 78\n세종특별자치시 보람동 730",
       "roadAddress": "세종특별자치시 시청대로 78",
       "jibunAddress": "세종특별자치시 보람동 730",
-      "phone": "044-867-4862",
+      "phone": "044-866-0713",
       "phones": [
+        "044-866-0713",
         "044-867-4862",
         "044-863-2583"
       ],
       "phoneCandidates": [
         {
-          "number": "044-867-4862",
-          "score": 71,
-          "source": "네이버",
-          "keyword": "세종시 호려울마을3단지신동아파밀리에골든리버 관리실, 호려울마을3단지신동아파밀리에골든리버아파트 전화번호, 호려울마을3단지신동아파밀리에골든리버 전화번호",
+          "number": "044-866-0713",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 3
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 3
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 3회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "044-867-4862",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "세종시 호려울마을3단지신동아파밀리에골든리버 관리실, 호려울마을3단지신동아파밀리에골든리버아파트 전화번호, 호려울마을3단지신동아파밀리에골든리버 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 3,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 3회"
         },
         {
           "number": "044-863-2583",
-          "score": 51,
+          "score": 57,
           "source": "네이버",
           "keyword": "호려울마을3단지신동아파밀리에골든리버아파트 전화번호, 호려울마을3단지신동아파밀리에골든리버 전화번호",
           "sourceCounts": {
@@ -6349,9 +6515,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 71,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_호려울마을3신동아파밀리에골든리버"
@@ -6607,9 +6773,24 @@
       "phoneCandidates": [
         {
           "number": "044-863-7999",
-          "score": 55,
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "세종특별자치시 보람동로 14 관리실, 세종특별자치시 보람동로 14 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 3,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 3회"
+        },
+        {
+          "number": "044-866-5438",
+          "score": 59,
           "source": "네이버",
-          "keyword": "세종특별자치시 보람동로 14 관리실, 세종특별자치시 보람동로 14 전화번호",
+          "keyword": "세종특별자치시 보람동로 14 관리사무소",
           "sourceCounts": {
             "네이버": 2
           },
@@ -6619,56 +6800,43 @@
           "sourceSummary": "네이버 2회"
         },
         {
-          "number": "044-866-5438",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 보람동로 14 관리사무소",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
           "number": "044-866-5439",
-          "score": 42,
+          "score": 57,
           "source": "네이버",
           "keyword": "세종특별자치시 보람동로 14 관리사무소",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "044-998-6688",
-          "score": 42,
+          "score": 53,
           "source": "네이버",
           "keyword": "세종특별자치시 보람동로 14 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 블로그검색": 1
+            "네이버 블로그검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "044-866-9120",
-          "score": 42,
+          "score": 51,
           "source": "네이버",
           "keyword": "세종특별자치시 보람동로 14 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "",
@@ -6676,9 +6844,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 55,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_호려울마을8중흥s클래스에코시티"
@@ -8791,68 +8959,70 @@
       "phoneCandidates": [
         {
           "number": "044-414-9397",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 소담동 539 전화번호",
+          "score": 90,
+          "source": "네이버, 카카오",
+          "keyword": "세종특별자치시 소담동 539 전화번호, existing",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 1,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버 웹검색": 1,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         },
         {
           "number": "044-865-0011",
-          "score": 42,
+          "score": 57,
           "source": "네이버",
           "keyword": "세종특별자치시 소담동 539 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "044-867-3352",
-          "score": 42,
+          "score": 55,
           "source": "네이버",
           "keyword": "세종특별자치시 소담동 539 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "044-862-6799",
-          "score": 42,
+          "score": 53,
           "source": "네이버",
           "keyword": "세종특별자치시 소담동 539 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "03-7153-1604",
-          "score": 42,
+          "score": 51,
           "source": "네이버",
           "keyword": "세종특별자치시 소담8로 6 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버 웹검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "",
@@ -8860,9 +9030,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 90,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_새샘마을7힐스테이트세종리버파크h4"
@@ -9895,35 +10065,63 @@
       "phones": [
         "044-866-1804",
         "044-999-2079",
-        "044-868-8185",
-        "044-868-8187",
         "044-866-3396",
-        "044-868-8778"
+        "044-868-8778",
+        "044-868-8185",
+        "044-868-8187"
       ],
       "phoneCandidates": [
         {
           "number": "044-866-1804",
-          "score": 55,
-          "source": "네이버",
-          "keyword": "세종특별자치시 달빛로 135 관리실, 세종특별자치시 달빛로 135 전화번호",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "세종특별자치시 달빛로 135 관리실, 세종특별자치시 달빛로 135 전화번호, existing",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 4,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 2
+            "네이버 웹검색": 4,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "카카오 1회 · 네이버 4회"
         },
         {
           "number": "044-999-2079",
-          "score": 51,
+          "score": 96,
           "source": "네이버",
           "keyword": "범지기마을6단지상록어울림아파트 전화번호, 범지기마을6단지상록어울림 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "044-866-3396",
+          "score": 61,
+          "source": "네이버",
+          "keyword": "세종특별자치시 아름동 1357 전화번호",
           "sourceCounts": {
             "네이버": 2
           },
           "sourceDetails": {
             "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "044-868-8778",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "세종특별자치시 달빛로 135 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
           },
           "sourceSummary": "네이버 2회"
         },
@@ -9952,32 +10150,6 @@
             "네이버 웹검색": 1
           },
           "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "044-866-3396",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 아름동 1357 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "044-868-8778",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 달빛로 135 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
-          },
-          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -9985,9 +10157,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 55,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_범지기마을6상록어울림"
@@ -10750,61 +10922,65 @@
         "044-868-1968",
         "044-868-1969",
         "026-0407-1032",
-        "026-0723-0938"
+        "026-0723-0938",
+        "044-867-6711",
+        "044-863-9887"
       ],
       "phoneCandidates": [
         {
           "number": "02-866-5001",
-          "score": 57,
-          "source": "네이버",
-          "keyword": "한뜰마을6단지중흥S클래스센텀뷰아파트 전화번호, 한뜰마을6단지중흥S클래스센텀뷰 전화번호",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "한뜰마을6단지중흥S클래스센텀뷰아파트 전화번호, 한뜰마을6단지중흥S클래스센텀뷰 전화번호, existing",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 4,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 2
+            "네이버 웹검색": 4,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "카카오 1회 · 네이버 4회"
         },
         {
           "number": "02-866-9990",
-          "score": 55,
+          "score": 100,
           "source": "네이버",
           "keyword": "한뜰마을6단지중흥S클래스센텀뷰아파트 전화번호, 한뜰마을6단지중흥S클래스센텀뷰 전화번호",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 4
           },
           "sourceDetails": {
-            "네이버 웹검색": 2
+            "네이버 웹검색": 4
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "네이버 4회"
         },
         {
           "number": "02-866-5008",
-          "score": 53,
+          "score": 100,
           "source": "네이버",
           "keyword": "한뜰마을6단지중흥S클래스센텀뷰아파트 전화번호, 한뜰마을6단지중흥S클래스센텀뷰 전화번호",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 4
           },
           "sourceDetails": {
-            "네이버 웹검색": 2
+            "네이버 웹검색": 4
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "네이버 4회"
         },
         {
           "number": "044-868-5206",
-          "score": 51,
+          "score": 100,
           "source": "네이버",
           "keyword": "세종특별자치시 다솜로 50 전화번호, 한뜰마을6단지중흥S클래스센텀뷰 전화번호",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 4
           },
           "sourceDetails": {
-            "네이버 웹검색": 1,
-            "네이버 블로그검색": 1
+            "네이버 웹검색": 2,
+            "네이버 블로그검색": 2
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "네이버 4회"
         },
         {
           "number": "044-868-1968",
@@ -10857,6 +11033,32 @@
             "네이버 웹검색": 1
           },
           "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "044-867-6711",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "세종특별자치시 다솜로 50 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "044-863-9887",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "한뜰마을6단지중흥S클래스센텀뷰아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -10864,9 +11066,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 57,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_한뜰마을6중흥s클래스센텀뷰"
@@ -13149,68 +13351,70 @@
       "phoneCandidates": [
         {
           "number": "044-863-7988",
-          "score": 57,
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "세종특별자치시 집현서2로 84 관리실, 세종특별자치시 집현서2로 84 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 4,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 4회"
+        },
+        {
+          "number": "044-862-1567",
+          "score": 61,
           "source": "네이버",
-          "keyword": "세종특별자치시 집현서2로 84 관리실, 세종특별자치시 집현서2로 84 전화번호",
+          "keyword": "세종특별자치시 집현서2로 84 관리사무소",
           "sourceCounts": {
             "네이버": 2
           },
           "sourceDetails": {
-            "네이버 웹검색": 2
+            "네이버 블로그검색": 2
           },
           "sourceSummary": "네이버 2회"
         },
         {
-          "number": "044-862-1567",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 집현서2로 84 관리사무소",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
           "number": "044-868-3913",
-          "score": 42,
+          "score": 55,
           "source": "네이버",
           "keyword": "세종특별자치시 집현서2로 84 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 블로그검색": 1
+            "네이버 블로그검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "044-864-6608",
-          "score": 42,
+          "score": 53,
           "source": "네이버",
           "keyword": "세종특별자치시 집현서2로 84 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "044-864-6609",
-          "score": 42,
+          "score": 51,
           "source": "네이버",
           "keyword": "세종특별자치시 집현서2로 84 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "",
@@ -13218,9 +13422,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 57,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_새나루마을11세종어울림파밀리에센트럴"
@@ -13301,9 +13505,24 @@
       "phoneCandidates": [
         {
           "number": "044-863-9887",
-          "score": 51,
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "새나루마을2단지세종하늘채센트레빌아파트 전화번호, 새나루마을2단지세종하늘채센트레빌 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 4,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 4회"
+        },
+        {
+          "number": "044-868-9849",
+          "score": 61,
           "source": "네이버",
-          "keyword": "새나루마을2단지세종하늘채센트레빌아파트 전화번호, 새나루마을2단지세종하늘채센트레빌 전화번호",
+          "keyword": "세종특별자치시 집현서로 15 전화번호",
           "sourceCounts": {
             "네이버": 2
           },
@@ -13313,56 +13532,43 @@
           "sourceSummary": "네이버 2회"
         },
         {
-          "number": "044-868-9849",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 집현서로 15 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
           "number": "044-867-2929",
-          "score": 42,
+          "score": 59,
           "source": "네이버",
           "keyword": "집현동 새나루마을2단지세종하늘채센트레빌 관리사무소",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 블로그검색": 1
+            "네이버 블로그검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "02-291-0074",
-          "score": 42,
+          "score": 57,
           "source": "네이버",
           "keyword": "새나루마을2단지세종하늘채센트레빌아파트 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 블로그검색": 1
+            "네이버 블로그검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "02-291-0073",
-          "score": 42,
+          "score": 53,
           "source": "네이버",
           "keyword": "새나루마을2단지세종하늘채센트레빌 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 블로그검색": 1
+            "네이버 블로그검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "",
@@ -13370,9 +13576,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 51,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_새나루마을2세종하늘채센트레빌"
@@ -13404,9 +13610,37 @@
       "phoneCandidates": [
         {
           "number": "044-863-2583",
-          "score": 51,
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "새나루마을8단지세종하늘채센트레빌아파트 전화번호, 새나루마을8단지세종하늘채센트레빌 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 4,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 4회"
+        },
+        {
+          "number": "044-905-0082",
+          "score": 59,
           "source": "네이버",
-          "keyword": "새나루마을8단지세종하늘채센트레빌아파트 전화번호, 새나루마을8단지세종하늘채센트레빌 전화번호",
+          "keyword": "세종특별자치시 집현서로 16 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "044-868-7401",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "세종특별자치시 집현서로 16 전화번호",
           "sourceCounts": {
             "네이버": 2
           },
@@ -13416,43 +13650,17 @@
           "sourceSummary": "네이버 2회"
         },
         {
-          "number": "044-905-0082",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 집현서로 16 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "044-868-7401",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 집현서로 16 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
           "number": "044-868-7402",
-          "score": 42,
+          "score": 55,
           "source": "네이버",
           "keyword": "세종특별자치시 집현서로 16 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "",
@@ -13460,9 +13668,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 51,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_새나루마을8세종하늘채센트레빌"
@@ -13518,21 +13726,37 @@
       "jibunAddress": "세종특별자치시 집현동 1192",
       "phone": "044-867-7966",
       "phones": [
-        "044-867-7966"
+        "044-867-7966",
+        "02-291-0075"
       ],
       "phoneCandidates": [
         {
           "number": "044-867-7966",
-          "score": 51,
-          "source": "네이버",
-          "keyword": "세종특별자치시 시청대로 642 관리실, 세종특별자치시 시청대로 642 전화번호",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "세종특별자치시 시청대로 642 관리실, 세종특별자치시 시청대로 642 전화번호, existing",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 4,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 2
+            "네이버 웹검색": 4,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "카카오 1회 · 네이버 4회"
+        },
+        {
+          "number": "02-291-0075",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "새나루마을9단지세종어울림파밀리에센트럴 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -13540,9 +13764,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 51,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_새나루마을9세종어울림파밀리에센트럴"
@@ -13912,29 +14136,31 @@
       "phoneCandidates": [
         {
           "number": "020-260-0001",
-          "score": 51,
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "첫마을4단지푸르지오아파트 전화번호, 첫마을4단지푸르지오 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 4,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 4회"
+        },
+        {
+          "number": "044-863-3435",
+          "score": 55,
           "source": "네이버",
-          "keyword": "첫마을4단지푸르지오아파트 전화번호, 첫마을4단지푸르지오 전화번호",
+          "keyword": "세종특별자치시 누리로 119 전화번호",
           "sourceCounts": {
             "네이버": 2
           },
           "sourceDetails": {
-            "네이버 카페검색": 2
+            "네이버 블로그검색": 2
           },
           "sourceSummary": "네이버 2회"
-        },
-        {
-          "number": "044-863-3435",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "세종특별자치시 누리로 119 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -13942,9 +14168,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 51,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "세종특별자치시_세종시_첫마을4푸르지오"
