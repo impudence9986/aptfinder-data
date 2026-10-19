@@ -1,6 +1,6 @@
 {
-  "version": 1792191063,
-  "updatedAt": "2026-10-16 22:51:03",
+  "version": 1792444543,
+  "updatedAt": "2026-10-19 21:15:43",
   "sido": "부산광역시",
   "sigungu": "사하구",
   "count": 51,
@@ -105,21 +105,64 @@
       "jibunAddress": "부산 사하구 괴정동 950-2",
       "phone": "051-715-4967",
       "phones": [
-        "051-715-4967"
+        "051-715-4967",
+        "051-294-9596",
+        "051-294-9597",
+        "051-203-8886"
       ],
       "phoneCandidates": [
         {
           "number": "051-715-4967",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "괴정어반푸르지오아파트 전화번호, 괴정어반푸르지오 전화번호",
+          "keyword": "괴정어반푸르지오아파트 전화번호, 괴정어반푸르지오 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "051-294-9596",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사하구 괴정동 950-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-294-9597",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사하구 괴정동 950-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-203-8886",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사하구 괴정동 950-2 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -127,9 +170,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사하구_괴정어반푸르지오"
@@ -151,17 +194,91 @@
       "address": "부산 사하구 사리로 106\n부산 사하구 괴정동 1286",
       "roadAddress": "부산 사하구 사리로 106",
       "jibunAddress": "부산 사하구 괴정동 1286",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-294-9606",
+      "phones": [
+        "051-294-9606",
+        "051-294-9607",
+        "025-0909-0909",
+        "051-2924-9607",
+        "051-201-5400"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-294-9606",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "부산 사하구 사리로 106 전화번호, 사하한신더휴아파트 관리사무소, 사하한신더휴 관리사무소, 사하한신더휴아파트 전화번호, 사하한신더휴 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1,
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "051-294-9607",
+          "score": 85,
+          "source": "네이버",
+          "keyword": "부산 사하구 사리로 106 전화번호, 사하한신더휴아파트 관리사무소, 사하한신더휴 관리사무소",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1,
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "025-0909-0909",
+          "score": 57,
+          "source": "네이버",
+          "keyword": "사하한신더휴아파트 관리사무소, 사하한신더휴 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-2924-9607",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 사하구 사리로 106 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-201-5400",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "사하한신더휴 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사하구_사하한신휴"
@@ -193,20 +310,21 @@
       "phoneCandidates": [
         {
           "number": "051-203-2023",
-          "score": 83,
+          "score": 100,
           "source": "카카오",
-          "keyword": "힐스테이트사하역아파트 전화번호, 힐스테이트사하역 전화번호",
+          "keyword": "힐스테이트사하역아파트 전화번호, 힐스테이트사하역 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "051-977-5562",
-          "score": 81,
+          "score": 85,
           "source": "카카오",
           "keyword": "힐스테이트사하역아파트 전화번호, 힐스테이트사하역 전화번호",
           "sourceCounts": {
@@ -219,7 +337,7 @@
         },
         {
           "number": "07-1365-1931",
-          "score": 79,
+          "score": 83,
           "source": "카카오",
           "keyword": "힐스테이트사하역아파트 전화번호, 힐스테이트사하역 전화번호",
           "sourceCounts": {
@@ -232,7 +350,7 @@
         },
         {
           "number": "010-2582-5813",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "힐스테이트사하역아파트 전화번호, 힐스테이트사하역 전화번호",
           "sourceCounts": {
@@ -249,9 +367,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 83,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사하구_힐스테이트사하역"
@@ -1299,25 +1417,40 @@
       "phone": "051-266-0842",
       "phones": [
         "051-266-0842",
+        "051-265-2600",
         "051-264-7750"
       ],
       "phoneCandidates": [
         {
           "number": "051-266-0842",
-          "score": 79,
+          "score": 100,
           "source": "카카오",
-          "keyword": "부산다대푸르지오아파트 전화번호, 부산다대푸르지오 전화번호",
+          "keyword": "부산다대푸르지오아파트 전화번호, 부산다대푸르지오 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "051-265-2600",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 사하구 다대동 1667 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         },
         {
           "number": "051-264-7750",
-          "score": 77,
+          "score": 83,
           "source": "카카오",
           "keyword": "부산다대푸르지오아파트 전화번호, 부산다대푸르지오 전화번호",
           "sourceCounts": {
@@ -1334,9 +1467,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사하구_부산다대푸르지오"
@@ -1633,20 +1766,21 @@
       "phoneCandidates": [
         {
           "number": "051-202-2245",
-          "score": 81,
+          "score": 98,
           "source": "카카오",
-          "keyword": "부산당리푸르지오아파트 전화번호, 부산당리푸르지오 전화번호",
+          "keyword": "부산당리푸르지오아파트 전화번호, 부산당리푸르지오 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "051-208-8033",
-          "score": 79,
+          "score": 83,
           "source": "카카오",
           "keyword": "부산당리푸르지오아파트 전화번호, 부산당리푸르지오 전화번호",
           "sourceCounts": {
@@ -1659,7 +1793,7 @@
         },
         {
           "number": "051-203-7373",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "부산당리푸르지오아파트 전화번호, 부산당리푸르지오 전화번호",
           "sourceCounts": {
@@ -1676,9 +1810,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사하구_부산당리푸르지오"
@@ -1772,20 +1906,21 @@
       "phoneCandidates": [
         {
           "number": "010-3793-8426",
-          "score": 79,
+          "score": 96,
           "source": "카카오",
-          "keyword": "더블루오피스텔 전화번호, 더블루 전화번호",
+          "keyword": "더블루오피스텔 전화번호, 더블루 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "010-6420-6774",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "더블루오피스텔 전화번호, 더블루 전화번호",
           "sourceCounts": {
@@ -1802,9 +1937,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사하구_블루"
@@ -2195,26 +2330,41 @@
       "phone": "051-201-1077",
       "phones": [
         "051-201-1077",
+        "051-204-9162",
         "010-3700-3132",
         "051-939-9935"
       ],
       "phoneCandidates": [
         {
           "number": "051-201-1077",
-          "score": 81,
+          "score": 100,
           "source": "카카오",
-          "keyword": "가락타운1단지아파트 전화번호, 가락타운1단지 전화번호",
+          "keyword": "가락타운1단지아파트 전화번호, 가락타운1단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "051-204-9162",
+          "score": 91,
+          "source": "114On",
+          "keyword": "부산 사하구 하단동 1161-2 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         },
         {
           "number": "010-3700-3132",
-          "score": 79,
+          "score": 85,
           "source": "카카오",
           "keyword": "가락타운1단지아파트 전화번호, 가락타운1단지 전화번호",
           "sourceCounts": {
@@ -2227,7 +2377,7 @@
         },
         {
           "number": "051-939-9935",
-          "score": 77,
+          "score": 83,
           "source": "카카오",
           "keyword": "가락타운1단지아파트 전화번호, 가락타운1단지 전화번호",
           "sourceCounts": {
@@ -2244,9 +2394,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사하구_가락타운1"

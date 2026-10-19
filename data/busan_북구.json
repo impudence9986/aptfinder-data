@@ -1,6 +1,6 @@
 {
-  "version": 1792190020,
-  "updatedAt": "2026-10-16 22:33:40",
+  "version": 1792444456,
+  "updatedAt": "2026-10-19 21:14:16",
   "sido": "부산광역시",
   "sigungu": "북구",
   "count": 42,
@@ -22,17 +22,47 @@
       "address": "부산 북구 시랑로114번길 12\n부산 북구 구포동 1259-26",
       "roadAddress": "부산 북구 시랑로114번길 12",
       "jibunAddress": "부산 북구 구포동 1259-26",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-810-1319",
+      "phones": [
+        "051-810-1319",
+        "01-200-0015"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-810-1319",
+          "score": 100,
+          "source": "114On",
+          "keyword": "부산 북구 시랑로114번길 12 관리사무소, 북구 구포도시 관리사무소, 북구 북구 구포도시 관리사무소",
+          "sourceCounts": {
+            "114On": 4
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 4
+          },
+          "sourceSummary": "114On 4회"
+        },
+        {
+          "number": "01-200-0015",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "구포도시 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_북구_구포도시"
@@ -199,25 +229,27 @@
         "051-711-0614",
         "03-7151-3317",
         "070-8777-6112",
-        "010-2980-3405"
+        "010-2980-3405",
+        "051-337-6994"
       ],
       "phoneCandidates": [
         {
           "number": "051-711-0614",
-          "score": 83,
+          "score": 100,
           "source": "카카오",
-          "keyword": "리버파크반도유보라아파트 전화번호, 리버파크반도유보라 전화번호",
+          "keyword": "리버파크반도유보라아파트 전화번호, 리버파크반도유보라 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "03-7151-3317",
-          "score": 81,
+          "score": 87,
           "source": "카카오",
           "keyword": "리버파크반도유보라아파트 전화번호, 리버파크반도유보라 전화번호",
           "sourceCounts": {
@@ -230,7 +262,7 @@
         },
         {
           "number": "070-8777-6112",
-          "score": 79,
+          "score": 85,
           "source": "카카오",
           "keyword": "리버파크반도유보라아파트 전화번호, 리버파크반도유보라 전화번호",
           "sourceCounts": {
@@ -243,7 +275,7 @@
         },
         {
           "number": "010-2980-3405",
-          "score": 77,
+          "score": 83,
           "source": "카카오",
           "keyword": "리버파크반도유보라아파트 전화번호, 리버파크반도유보라 전화번호",
           "sourceCounts": {
@@ -253,6 +285,19 @@
             "카카오 주소일치 전화번호 보강": 2
           },
           "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "051-337-6994",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 북구 구포동 1300 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -260,9 +305,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 83,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_북구_리버파크반도유보라"
@@ -384,21 +429,51 @@
       "jibunAddress": "부산 북구 금곡동 1918",
       "phone": "051-363-1365",
       "phones": [
-        "051-363-1365"
+        "051-363-1365",
+        "051-363-9331",
+        "051-363-9334"
       ],
       "phoneCandidates": [
         {
           "number": "051-363-1365",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "신화명리버뷰자이아파트 전화번호, 신화명리버뷰자이 전화번호",
+          "keyword": "신화명리버뷰자이아파트 전화번호, 신화명리버뷰자이 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "051-363-9331",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "부산 북구 금곡동 1918 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-363-9334",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 북구 금곡동 1918 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -406,9 +481,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_북구_신화명리버뷰자이"
@@ -1384,21 +1459,50 @@
       "jibunAddress": "부산 북구 화명동 1293-1",
       "phone": "051-361-7009",
       "phones": [
-        "051-361-7009"
+        "051-361-7009",
+        "051-331-1004",
+        "051-362-1782"
       ],
       "phoneCandidates": [
         {
           "number": "051-361-7009",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "e편한세상화명힐스아파트 전화번호, e편한세상화명힐스 전화번호",
+          "keyword": "e편한세상화명힐스아파트 전화번호, e편한세상화명힐스 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "051-331-1004",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 북구 화명동 1293-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-362-1782",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 북구 화명동 1293-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1406,9 +1510,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_북구_e편한세상화명힐스"
@@ -1867,21 +1971,38 @@
       "jibunAddress": "부산 북구 화명동 2277-4",
       "phone": "051-362-5151",
       "phones": [
-        "051-362-5151"
+        "051-362-5151",
+        "051-363-7797"
       ],
       "phoneCandidates": [
         {
           "number": "051-362-5151",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "삼한골든뷰오피스텔 전화번호, 삼한골든뷰 전화번호",
+          "score": 100,
+          "source": "카카오, 네이버",
+          "keyword": "삼한골든뷰오피스텔 전화번호, 삼한골든뷰 전화번호, existing, 부산 북구 화명동 2277-4 관리사무소",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3,
+            "네이버": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회 · 네이버 1회"
+        },
+        {
+          "number": "051-363-7797",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 북구 화명동 2277-4 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1889,9 +2010,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_북구_삼한골든뷰"
@@ -2228,21 +2349,50 @@
       "jibunAddress": "부산 북구 화명동 2341",
       "phone": "051-361-9282",
       "phones": [
-        "051-361-9282"
+        "051-361-9282",
+        "051-343-2300",
+        "051-362-0088"
       ],
       "phoneCandidates": [
         {
           "number": "051-361-9282",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "화명푸르지오헤리센트아파트 전화번호, 화명푸르지오헤리센트 전화번호",
+          "keyword": "화명푸르지오헤리센트아파트 전화번호, 화명푸르지오헤리센트 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "051-343-2300",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 북구 화명동 2341 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "051-362-0088",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "부산 북구 화명동 2341 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -2250,9 +2400,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_북구_화명푸르지오헤리센트"
