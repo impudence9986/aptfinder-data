@@ -1,6 +1,6 @@
 {
-  "version": 1792348956,
-  "updatedAt": "2026-10-18 18:42:36",
+  "version": 1792527041,
+  "updatedAt": "2026-10-20 20:10:41",
   "sido": "경기도",
   "sigungu": "광주시",
   "count": 100,
@@ -351,16 +351,17 @@
       "phoneCandidates": [
         {
           "number": "031-768-6708",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "오포자이디오브4단지아파트 전화번호, 오포자이디오브4단지 전화번호",
+          "keyword": "오포자이디오브4단지아파트 전화번호, 오포자이디오브4단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -368,9 +369,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_오포자이디오브4"
@@ -394,21 +395,36 @@
       "jibunAddress": "경기 광주시 고산동 707",
       "phone": "031-8013-7547",
       "phones": [
-        "031-8013-7547"
+        "031-8013-7547",
+        "031-8027-8145"
       ],
       "phoneCandidates": [
         {
           "number": "031-8013-7547",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "오포자이오브제아파트 전화번호, 오포자이오브제 전화번호",
+          "keyword": "오포자이오브제아파트 전화번호, 오포자이오브제 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-8027-8145",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광주시 고산동 707 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -416,9 +432,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_오포자이오브제"
@@ -843,21 +859,36 @@
       "jibunAddress": "경기 광주시 삼동 505",
       "phone": "031-766-2137",
       "phones": [
-        "031-766-2137"
+        "031-766-2137",
+        "031-762-4155"
       ],
       "phoneCandidates": [
         {
           "number": "031-766-2137",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "힐스테이트삼동역아파트 전화번호, 힐스테이트삼동역 전화번호",
+          "keyword": "힐스테이트삼동역아파트 전화번호, 힐스테이트삼동역 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-762-4155",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광주시 삼동 505 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -865,9 +896,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_힐스테이트삼동역"
@@ -1455,17 +1486,33 @@
       "address": "경기 광주시 태재로 20-20\n경기 광주시 신현동 1230",
       "roadAddress": "경기 광주시 태재로 20-20",
       "jibunAddress": "경기 광주시 신현동 1230",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-760-2622",
+      "phones": [
+        "031-760-2622"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-760-2622",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "광주시 오포e편한세상2차 관리사무소, 오포e편한세상2차아파트 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 51,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_오포e편한세상2차"
@@ -1597,21 +1644,66 @@
       "jibunAddress": "경기 광주시 쌍령동 503",
       "phone": "031-765-8133",
       "phones": [
-        "031-765-8133"
+        "031-765-8133",
+        "031-765-8135",
+        "031-760-4504",
+        "031-216-9712"
       ],
       "phoneCandidates": [
         {
           "number": "031-765-8133",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "광주센트럴푸르지오아파트 전화번호, 광주센트럴푸르지오 전화번호",
+          "score": 100,
+          "source": "카카오, 네이버",
+          "keyword": "광주센트럴푸르지오아파트 전화번호, 광주센트럴푸르지오 전화번호, existing, 경기 광주시 쌍령동 503 관리사무소",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3,
+            "네이버": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1,
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회 · 네이버 1회"
+        },
+        {
+          "number": "031-765-8135",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광주시 쌍령동 503 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-760-4504",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광주시 쌍령동 503 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-216-9712",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광주시 쌍령동 503 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1619,9 +1711,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_광주센트럴푸르지오"
@@ -1763,16 +1855,17 @@
       "phoneCandidates": [
         {
           "number": "031-766-0160",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "e편한세상광주양벌아파트 전화번호, e편한세상광주양벌 전화번호",
+          "keyword": "e편한세상광주양벌아파트 전화번호, e편한세상광주양벌 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -1780,9 +1873,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_e편한세상광주양벌"
@@ -1887,21 +1980,36 @@
       "jibunAddress": "경기 광주시 역동 243",
       "phone": "010-5646-9105",
       "phones": [
-        "010-5646-9105"
+        "010-5646-9105",
+        "031-763-7931"
       ],
       "phoneCandidates": [
         {
           "number": "010-5646-9105",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "e편한세상광주역1단지아파트 전화번호, e편한세상광주역1단지 전화번호",
+          "keyword": "e편한세상광주역1단지아파트 전화번호, e편한세상광주역1단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-763-7931",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광주시 역동 243 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1909,9 +2017,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_e편한세상광주역1"
@@ -2134,20 +2242,21 @@
       "phoneCandidates": [
         {
           "number": "031-768-2838",
-          "score": 81,
+          "score": 98,
           "source": "카카오",
-          "keyword": "상원오피스텔 전화번호, 상원 전화번호",
+          "keyword": "상원오피스텔 전화번호, 상원 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "031-798-0365",
-          "score": 79,
+          "score": 83,
           "source": "카카오",
           "keyword": "상원오피스텔 전화번호, 상원 전화번호",
           "sourceCounts": {
@@ -2160,7 +2269,7 @@
         },
         {
           "number": "031-763-6433",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "상원오피스텔 전화번호, 상원 전화번호",
           "sourceCounts": {
@@ -2177,9 +2286,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_상원"
@@ -3123,16 +3232,17 @@
       "phoneCandidates": [
         {
           "number": "031-762-1232",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "태전아이파크아파트 전화번호, 태전아이파크 전화번호",
+          "keyword": "태전아이파크아파트 전화번호, 태전아이파크 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -3140,9 +3250,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_태전아이파크"
@@ -3166,21 +3276,50 @@
       "jibunAddress": "경기 광주시 태전동 726",
       "phone": "031-768-3800",
       "phones": [
-        "031-768-3800"
+        "031-768-3800",
+        "031-8027-2347",
+        "031-8027-2348"
       ],
       "phoneCandidates": [
         {
           "number": "031-768-3800",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "태전파크자이13단지아파트 전화번호, 태전파크자이13단지 전화번호",
+          "keyword": "태전파크자이13단지아파트 전화번호, 태전파크자이13단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-8027-2347",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광주시 태전동 726 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8027-2348",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 광주시 태전동 726 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -3188,9 +3327,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_태전파크자이13"
@@ -3331,16 +3470,17 @@
       "phoneCandidates": [
         {
           "number": "031-761-0807",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "힐스테이트태전5단지아파트 전화번호, 힐스테이트태전5단지 전화번호",
+          "keyword": "힐스테이트태전5단지아파트 전화번호, 힐스테이트태전5단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -3348,9 +3488,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_힐스테이트태전5"
@@ -3492,16 +3632,17 @@
       "phoneCandidates": [
         {
           "number": "031-8013-7547",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "힐스테이트태전에듀포레11단지아파트 전화번호, 힐스테이트태전에듀포레11단지 전화번호",
+          "keyword": "힐스테이트태전에듀포레11단지아파트 전화번호, 힐스테이트태전에듀포레11단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -3509,9 +3650,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광주시_힐스테이트태전에듀포레11"

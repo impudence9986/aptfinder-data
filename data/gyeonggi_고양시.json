@@ -1,6 +1,6 @@
 {
-  "version": 1792348954,
-  "updatedAt": "2026-10-18 18:42:34",
+  "version": 1792526926,
+  "updatedAt": "2026-10-20 20:08:46",
   "sido": "경기도",
   "sigungu": "고양시",
   "count": 244,
@@ -29,16 +29,17 @@
       "phoneCandidates": [
         {
           "number": "031-923-5388",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "가좌마을2단지대우푸르지오아파트 전화번호, 가좌마을2단지대우푸르지오 전화번호",
+          "keyword": "가좌마을2단지대우푸르지오아파트 전화번호, 가좌마을2단지대우푸르지오 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -46,9 +47,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_가좌마을2대우푸르지오"
@@ -158,16 +159,17 @@
       "phoneCandidates": [
         {
           "number": "010-9290-9034",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "일산디엠시티스카이뷰오피스텔 전화번호, 일산디엠시티스카이뷰 전화번호",
+          "keyword": "일산디엠시티스카이뷰오피스텔 전화번호, 일산디엠시티스카이뷰 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -175,9 +177,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_일산디엠시티스카이뷰"
@@ -201,21 +203,50 @@
       "jibunAddress": "경기 고양시 일산서구 대화동 2702",
       "phone": "031-922-2542",
       "phones": [
-        "031-922-2542"
+        "031-922-2542",
+        "025-0700-0501",
+        "031-915-1151"
       ],
       "phoneCandidates": [
         {
           "number": "031-922-2542",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "일산더샵그라비스타오피스텔 전화번호, 일산더샵그라비스타 전화번호",
+          "keyword": "일산더샵그라비스타오피스텔 전화번호, 일산더샵그라비스타 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "025-0700-0501",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산서구 대화동 2702 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-915-1151",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산서구 대화동 2702 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -223,9 +254,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_일산샵그라비스타"
@@ -378,21 +409,36 @@
       "jibunAddress": "경기 고양시 일산서구 대화동 2701",
       "phone": "070-7576-3473",
       "phones": [
-        "070-7576-3473"
+        "070-7576-3473",
+        "070-4233-5577"
       ],
       "phoneCandidates": [
         {
           "number": "070-7576-3473",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "힐스테이트일산오피스텔 전화번호, 힐스테이트일산 전화번호",
+          "keyword": "힐스테이트일산오피스텔 전화번호, 힐스테이트일산 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "070-4233-5577",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 고양시 일산서구 대화동 2701 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         }
       ],
       "households": "",
@@ -400,9 +446,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_힐스테이트일산"
@@ -433,20 +479,21 @@
       "phoneCandidates": [
         {
           "number": "07-1353-5183",
-          "score": 81,
+          "score": 98,
           "source": "카카오",
-          "keyword": "DMC디에트르한강아파트 전화번호, DMC디에트르한강 전화번호",
+          "keyword": "DMC디에트르한강아파트 전화번호, DMC디에트르한강 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "010-7543-4323",
-          "score": 79,
+          "score": 83,
           "source": "카카오",
           "keyword": "DMC디에트르한강아파트 전화번호, DMC디에트르한강 전화번호",
           "sourceCounts": {
@@ -459,7 +506,7 @@
         },
         {
           "number": "031-6774-8490",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "DMC디에트르한강아파트 전화번호, DMC디에트르한강 전화번호",
           "sourceCounts": {
@@ -476,9 +523,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_dmc디에트르한강"
@@ -695,21 +742,36 @@
       "jibunAddress": "경기 고양시 덕양구 덕은동 698",
       "phone": "02-2606-8949",
       "phones": [
-        "02-2606-8949"
+        "02-2606-8949",
+        "02-2666-6233"
       ],
       "phoneCandidates": [
         {
           "number": "02-2606-8949",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "DMC한강에일린의뜰아파트 전화번호, DMC한강에일린의뜰 전화번호",
+          "keyword": "DMC한강에일린의뜰아파트 전화번호, DMC한강에일린의뜰 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-2666-6233",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 덕은동 698 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -717,9 +779,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_dmc한강에일린의뜰"
@@ -749,20 +811,21 @@
       "phoneCandidates": [
         {
           "number": "02-6951-3975",
-          "score": 79,
+          "score": 96,
           "source": "카카오",
-          "keyword": "DMC한강자이더헤리티지아파트 전화번호, DMC한강자이더헤리티지 전화번호",
+          "keyword": "DMC한강자이더헤리티지아파트 전화번호, DMC한강자이더헤리티지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "080-999-5425",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "DMC한강자이더헤리티지아파트 전화번호, DMC한강자이더헤리티지 전화번호",
           "sourceCounts": {
@@ -779,9 +842,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_dmc한강자이헤리티지"
@@ -1391,17 +1454,33 @@
       "address": "경기 고양시 일산서구 하이파크2로 42\n경기 고양시 일산서구 덕이동 362-16",
       "roadAddress": "경기 고양시 일산서구 하이파크2로 42",
       "jibunAddress": "경기 고양시 일산서구 덕이동 362-16",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-911-7585",
+      "phones": [
+        "031-911-7585"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-911-7585",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산서구 하이파크2로 42 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_일산덕이동신동아파밀리에분양사무실"
@@ -1683,21 +1762,50 @@
       "jibunAddress": "경기 고양시 덕양구 도내동 951-1",
       "phone": "031-966-8497",
       "phones": [
-        "031-966-8497"
+        "031-966-8497",
+        "02-2105-6500",
+        "031-814-8660"
       ],
       "phoneCandidates": [
         {
           "number": "031-966-8497",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "가림타워오피스텔 전화번호, 가림타워 전화번호",
+          "keyword": "가림타워오피스텔 전화번호, 가림타워 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-2105-6500",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 도내동 951-1 관리사무소, 경기 고양시 덕양구 도내동 951-1 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-814-8660",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 도내동 951-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1705,9 +1813,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_가림타워"
@@ -1926,20 +2034,21 @@
       "phoneCandidates": [
         {
           "number": "031-944-3711",
-          "score": 79,
+          "score": 96,
           "source": "카카오",
-          "keyword": "원흥퍼스트푸르지오시티오피스텔 전화번호, 원흥퍼스트푸르지오시티 전화번호",
+          "keyword": "원흥퍼스트푸르지오시티오피스텔 전화번호, 원흥퍼스트푸르지오시티 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "031-964-7276",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "원흥퍼스트푸르지오시티오피스텔 전화번호, 원흥퍼스트푸르지오시티 전화번호",
           "sourceCounts": {
@@ -1956,9 +2065,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_원흥퍼스트푸르지오시티"
@@ -1982,21 +2091,36 @@
       "jibunAddress": "경기 고양시 덕양구 도내동 1006",
       "phone": "031-967-2709",
       "phones": [
-        "031-967-2709"
+        "031-967-2709",
+        "031-962-2223"
       ],
       "phoneCandidates": [
         {
           "number": "031-967-2709",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "원흥호반베르디움더퍼스트아파트 전화번호, 원흥호반베르디움더퍼스트 전화번호",
+          "keyword": "원흥호반베르디움더퍼스트아파트 전화번호, 원흥호반베르디움더퍼스트 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-962-2223",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 도내동 1006 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -2004,9 +2128,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_원흥호반베르디움퍼스트"
@@ -2062,21 +2186,50 @@
       "jibunAddress": "경기 고양시 덕양구 동산동 368-2",
       "phone": "010-7680-1020",
       "phones": [
-        "010-7680-1020"
+        "010-7680-1020",
+        "02-381-7999",
+        "02-6398-0118"
       ],
       "phoneCandidates": [
         {
           "number": "010-7680-1020",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "e편한세상시티삼송2차오피스텔 전화번호, e편한세상시티삼송2차 전화번호",
+          "keyword": "e편한세상시티삼송2차오피스텔 전화번호, e편한세상시티삼송2차 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-381-7999",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 동산동 368-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-6398-0118",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 동산동 368-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -2084,9 +2237,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_e편한세상시티삼송2차"
@@ -2243,20 +2396,21 @@
       "phoneCandidates": [
         {
           "number": "02-384-1114",
-          "score": 79,
+          "score": 96,
           "source": "카카오",
-          "keyword": "동산마을호반베르디움21단지아파트 전화번호, 동산마을호반베르디움21단지 전화번호",
+          "keyword": "동산마을호반베르디움21단지아파트 전화번호, 동산마을호반베르디움21단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "010-4964-9923",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "동산마을호반베르디움21단지아파트 전화번호, 동산마을호반베르디움21단지 전화번호",
           "sourceCounts": {
@@ -2273,9 +2427,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_동산마을호반베르디움21"
@@ -2368,16 +2522,17 @@
       "phoneCandidates": [
         {
           "number": "02-381-1366",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "이편한세상시티삼송오피스텔 전화번호, 이편한세상시티삼송 전화번호",
+          "keyword": "이편한세상시티삼송오피스텔 전화번호, 이편한세상시티삼송 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -2385,9 +2540,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_이편한세상시티삼송"
@@ -2542,16 +2697,17 @@
       "phoneCandidates": [
         {
           "number": "02-381-0606",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "삼송마을19단지스타클래스아파트 전화번호, 삼송마을19단지스타클래스 전화번호",
+          "keyword": "삼송마을19단지스타클래스아파트 전화번호, 삼송마을19단지스타클래스 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -2559,9 +2715,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_삼송마을19스타클래스"
@@ -2585,21 +2741,36 @@
       "jibunAddress": "경기 고양시 덕양구 삼송동 293",
       "phone": "010-9929-2506",
       "phones": [
-        "010-9929-2506"
+        "010-9929-2506",
+        "02-371-2822"
       ],
       "phoneCandidates": [
         {
           "number": "010-9929-2506",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "삼송역현대헤리엇아파트 전화번호, 삼송역현대헤리엇 전화번호",
+          "keyword": "삼송역현대헤리엇아파트 전화번호, 삼송역현대헤리엇 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-371-2822",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 삼송동 293 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -2607,9 +2778,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_삼송역현대헤리엇"
@@ -2702,16 +2873,17 @@
       "phoneCandidates": [
         {
           "number": "010-2829-7987",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "힐스테이트삼송역스칸센오피스텔(2블록) 전화번호, 힐스테이트삼송역스칸센(2블록) 전화번호",
+          "keyword": "힐스테이트삼송역스칸센오피스텔(2블록) 전화번호, 힐스테이트삼송역스칸센(2블록) 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -2719,9 +2891,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_힐스테이트삼송역스칸센2블록"
@@ -2815,20 +2987,21 @@
       "phoneCandidates": [
         {
           "number": "070-8859-7393",
-          "score": 79,
+          "score": 96,
           "source": "카카오",
-          "keyword": "래미안휴레스트아파트 전화번호, 래미안휴레스트 전화번호",
+          "keyword": "래미안휴레스트아파트 전화번호, 래미안휴레스트 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "031-963-0001",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "래미안휴레스트아파트 전화번호, 래미안휴레스트 전화번호",
           "sourceCounts": {
@@ -2845,9 +3018,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_래미안휴레스트"
@@ -3000,21 +3173,64 @@
       "jibunAddress": "경기 고양시 덕양구 성사동 405-8",
       "phone": "03-7151-0440",
       "phones": [
-        "03-7151-0440"
+        "03-7151-0440",
+        "02-495-0049",
+        "02-200-0416",
+        "01-047-9986"
       ],
       "phoneCandidates": [
         {
           "number": "03-7151-0440",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "원당역롯데캐슬스카이엘아파트 전화번호, 원당역롯데캐슬스카이엘 전화번호",
+          "keyword": "원당역롯데캐슬스카이엘아파트 전화번호, 원당역롯데캐슬스카이엘 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-495-0049",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 성사동 405-8 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-200-0416",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 성사동 405-8 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "01-047-9986",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 덕양구 성사동 405-8 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -3022,9 +3238,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_원당역롯데캐슬스카이엘"
@@ -3054,20 +3270,21 @@
       "phoneCandidates": [
         {
           "number": "02-381-9638",
-          "score": 79,
+          "score": 96,
           "source": "카카오",
-          "keyword": "신원마을2단지LH아파트 전화번호, 신원마을2단지LH 전화번호",
+          "keyword": "신원마을2단지LH아파트 전화번호, 신원마을2단지LH 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "02-371-1626",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "신원마을2단지LH아파트 전화번호, 신원마을2단지LH 전화번호",
           "sourceCounts": {
@@ -3084,9 +3301,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_신원마을2lh"
@@ -3649,20 +3866,21 @@
       "phoneCandidates": [
         {
           "number": "031-964-6880",
-          "score": 79,
+          "score": 96,
           "source": "카카오",
-          "keyword": "고양삼송엘에이치10단지아파트 전화번호, 고양삼송엘에이치10단지 전화번호",
+          "keyword": "고양삼송엘에이치10단지아파트 전화번호, 고양삼송엘에이치10단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "02-1833-4903",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "고양삼송엘에이치10단지아파트 전화번호, 고양삼송엘에이치10단지 전화번호",
           "sourceCounts": {
@@ -3679,9 +3897,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_고양삼송엘에이치10"
@@ -3742,16 +3960,17 @@
       "phoneCandidates": [
         {
           "number": "031-966-0619",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "삼송3차아이파크아파트 전화번호, 삼송3차아이파크 전화번호",
+          "keyword": "삼송3차아이파크아파트 전화번호, 삼송3차아이파크 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -3759,9 +3978,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_삼송3차아이파크"
@@ -3884,16 +4103,17 @@
       "phoneCandidates": [
         {
           "number": "010-3940-0856",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "삼송마을LH16단지아파트 전화번호, 삼송마을LH16단지 전화번호",
+          "keyword": "삼송마을LH16단지아파트 전화번호, 삼송마을LH16단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -3901,9 +4121,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_삼송마을lh16"
@@ -4040,16 +4260,17 @@
       "phoneCandidates": [
         {
           "number": "010-2306-0920",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "원흥역푸르지오오피스텔 전화번호, 원흥역푸르지오 전화번호",
+          "keyword": "원흥역푸르지오오피스텔 전화번호, 원흥역푸르지오 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -4057,9 +4278,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_원흥역푸르지오"
@@ -4089,20 +4310,21 @@
       "phoneCandidates": [
         {
           "number": "031-962-0729",
-          "score": 79,
+          "score": 96,
           "source": "카카오",
-          "keyword": "티오피클래식오피스텔 전화번호, 티오피클래식 전화번호",
+          "keyword": "티오피클래식오피스텔 전화번호, 티오피클래식 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "070-8885-2001",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "티오피클래식오피스텔 전화번호, 티오피클래식 전화번호",
           "sourceCounts": {
@@ -4119,9 +4341,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_티오피클래식"
@@ -4212,25 +4434,29 @@
         "031-904-4792",
         "031-939-2200",
         "031-811-9040",
-        "070-4438-9550"
+        "070-4438-9550",
+        "031-931-9001",
+        "016-9014-2017",
+        "015-6356-1201"
       ],
       "phoneCandidates": [
         {
           "number": "031-904-4792",
-          "score": 83,
+          "score": 100,
           "source": "카카오",
-          "keyword": "SK엠시티오피스텔 전화번호, SK엠시티 전화번호",
+          "keyword": "SK엠시티오피스텔 전화번호, SK엠시티 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "031-939-2200",
-          "score": 81,
+          "score": 91,
           "source": "카카오",
           "keyword": "SK엠시티오피스텔 전화번호, SK엠시티 전화번호",
           "sourceCounts": {
@@ -4243,7 +4469,7 @@
         },
         {
           "number": "031-811-9040",
-          "score": 79,
+          "score": 89,
           "source": "카카오",
           "keyword": "SK엠시티오피스텔 전화번호, SK엠시티 전화번호",
           "sourceCounts": {
@@ -4256,7 +4482,7 @@
         },
         {
           "number": "070-4438-9550",
-          "score": 77,
+          "score": 87,
           "source": "카카오",
           "keyword": "SK엠시티오피스텔 전화번호, SK엠시티 전화번호",
           "sourceCounts": {
@@ -4266,6 +4492,45 @@
             "카카오 주소일치 전화번호 보강": 2
           },
           "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "031-931-9001",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장항동 869 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "016-9014-2017",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장항동 869 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "015-6356-1201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장항동 869 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -4273,9 +4538,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 83,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_sk엠시티"
@@ -5006,12 +5271,28 @@
       "phone": "031-818-4637",
       "phones": [
         "031-818-4637",
-        "031-901-1288"
+        "031-901-1288",
+        "031-903-3960",
+        "031-8075-6809"
       ],
       "phoneCandidates": [
         {
           "number": "031-818-4637",
-          "score": 79,
+          "score": 100,
+          "source": "카카오",
+          "keyword": "숲속마을5단지아이파크아파트 전화번호, 숲속마을5단지아이파크 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-901-1288",
+          "score": 85,
           "source": "카카오",
           "keyword": "숲속마을5단지아이파크아파트 전화번호, 숲속마을5단지아이파크 전화번호",
           "sourceCounts": {
@@ -5023,17 +5304,30 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "031-901-1288",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "숲속마을5단지아이파크아파트 전화번호, 숲속마을5단지아이파크 전화번호",
+          "number": "031-903-3960",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 풍동 1267 관리사무소",
           "sourceCounts": {
-            "카카오": 2
+            "네이버": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-8075-6809",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 풍동 1267 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -5041,9 +5335,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_숲속마을5아이파크"
@@ -5326,25 +5620,28 @@
       "phones": [
         "031-967-0327",
         "031-994-7939",
-        "07-1427-0893"
+        "07-1427-0893",
+        "017-1053-0201",
+        "017-236-2017"
       ],
       "phoneCandidates": [
         {
           "number": "031-967-0327",
-          "score": 81,
+          "score": 100,
           "source": "카카오",
-          "keyword": "위시티블루밍3단지아파트 전화번호, 위시티블루밍3단지 전화번호",
+          "keyword": "위시티블루밍3단지아파트 전화번호, 위시티블루밍3단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "031-994-7939",
-          "score": 79,
+          "score": 87,
           "source": "카카오",
           "keyword": "위시티블루밍3단지아파트 전화번호, 위시티블루밍3단지 전화번호",
           "sourceCounts": {
@@ -5357,7 +5654,7 @@
         },
         {
           "number": "07-1427-0893",
-          "score": 77,
+          "score": 85,
           "source": "카카오",
           "keyword": "위시티블루밍3단지아파트 전화번호, 위시티블루밍3단지 전화번호",
           "sourceCounts": {
@@ -5367,6 +5664,32 @@
             "카카오 주소일치 전화번호 보강": 2
           },
           "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "017-1053-0201",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 식사동 1510 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "017-236-2017",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 식사동 1510 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -5374,9 +5697,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_위시티블루밍3"
@@ -5477,27 +5800,44 @@
       "phone": "031-964-3338",
       "phones": [
         "031-964-3338",
+        "031-967-1140",
         "031-966-7799",
         "031-969-5678",
-        "031-994-6346"
+        "031-994-6346",
+        "031-969-0142",
+        "017-236-2017"
       ],
       "phoneCandidates": [
         {
           "number": "031-964-3338",
-          "score": 83,
+          "score": 100,
           "source": "카카오",
-          "keyword": "위시티일산자이2단지아파트 전화번호, 위시티일산자이2단지 전화번호",
+          "keyword": "위시티일산자이2단지아파트 전화번호, 위시티일산자이2단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-967-1140",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 고양시 일산동구 식사동 1498 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
         },
         {
           "number": "031-966-7799",
-          "score": 81,
+          "score": 91,
           "source": "카카오",
           "keyword": "위시티일산자이2단지아파트 전화번호, 위시티일산자이2단지 전화번호",
           "sourceCounts": {
@@ -5510,7 +5850,7 @@
         },
         {
           "number": "031-969-5678",
-          "score": 79,
+          "score": 89,
           "source": "카카오",
           "keyword": "위시티일산자이2단지아파트 전화번호, 위시티일산자이2단지 전화번호",
           "sourceCounts": {
@@ -5523,7 +5863,7 @@
         },
         {
           "number": "031-994-6346",
-          "score": 77,
+          "score": 87,
           "source": "카카오",
           "keyword": "위시티일산자이2단지아파트 전화번호, 위시티일산자이2단지 전화번호",
           "sourceCounts": {
@@ -5533,6 +5873,32 @@
             "카카오 주소일치 전화번호 보강": 2
           },
           "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "031-969-0142",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 식사동 1498 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "017-236-2017",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 식사동 1498 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -5540,9 +5906,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 83,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_위시티일산자이2"
@@ -5732,17 +6098,173 @@
       "address": "경기 고양시 일산동구 장백로 19\n경기 고양시 일산동구 백석동 1313",
       "roadAddress": "경기 고양시 일산동구 장백로 19",
       "jibunAddress": "경기 고양시 일산동구 백석동 1313",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-912-5077",
+      "phones": [
+        "031-912-5077",
+        "031-906-9911",
+        "031-908-5587",
+        "04-0904-6092",
+        "031-904-6060",
+        "031-909-1315",
+        "031-909-1124",
+        "031-908-2983",
+        "031-994-3348",
+        "031-907-1122",
+        "07-1353-3445"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-912-5077",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 고양시 일산동구 백석동 1313 전화번호, 경기 고양시 일산동구 장백로 19 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-906-9911",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 고양시 일산동구 백석동 1313 전화번호, 경기 고양시 일산동구 장백로 19 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "031-908-5587",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 고양시 일산동구 백석동 1313 전화번호, 일산백석더루벤스카운티 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "04-0904-6092",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장백로 19 관리사무소, 고양시 일산동구 일산백석더루벤스카운티 관리사무소, 고양시 일산백석더루벤스카운티 관리사무소",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-904-6060",
+          "score": 98,
+          "source": "네이버",
+          "keyword": "고양시 일산동구 일산백석더루벤스카운티 관리사무소, 일산동 일산백석더루벤스카운티 관리사무소, 일산백석더루벤스카운티오피스텔 전화번호, 일산백석더루벤스카운티 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        },
+        {
+          "number": "031-909-1315",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "일산백석더루벤스카운티오피스텔 전화번호, 일산백석더루벤스카운티 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-909-1124",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 백석동 1313 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-908-2983",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장백로 19 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-994-3348",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장백로 19 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "031-907-1122",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장백로 19 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "07-1353-3445",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "경기 고양시 일산동구 장백로 19 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_일산백석루벤스카운티"
