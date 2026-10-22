@@ -1,6 +1,6 @@
 {
-  "version": 1792349508,
-  "updatedAt": "2026-10-18 18:51:48",
+  "version": 1792701328,
+  "updatedAt": "2026-10-22 20:35:28",
   "sido": "인천광역시",
   "sigungu": "연수구",
   "count": 111,
@@ -318,25 +318,28 @@
         "032-813-1024",
         "080-999-5425",
         "032-819-2200",
-        "032-811-3344"
+        "032-811-3344",
+        "032-816-1263",
+        "032-816-4498"
       ],
       "phoneCandidates": [
         {
           "number": "032-813-1024",
-          "score": 83,
+          "score": 100,
           "source": "카카오",
-          "keyword": "동춘마을아파트 전화번호, 동춘마을 전화번호",
+          "keyword": "동춘마을아파트 전화번호, 동춘마을 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "080-999-5425",
-          "score": 81,
+          "score": 93,
           "source": "카카오",
           "keyword": "동춘마을아파트 전화번호, 동춘마을 전화번호",
           "sourceCounts": {
@@ -349,7 +352,7 @@
         },
         {
           "number": "032-819-2200",
-          "score": 79,
+          "score": 91,
           "source": "카카오",
           "keyword": "동춘마을아파트 전화번호, 동춘마을 전화번호",
           "sourceCounts": {
@@ -362,7 +365,7 @@
         },
         {
           "number": "032-811-3344",
-          "score": 77,
+          "score": 89,
           "source": "카카오",
           "keyword": "동춘마을아파트 전화번호, 동춘마을 전화번호",
           "sourceCounts": {
@@ -372,6 +375,33 @@
             "카카오 주소일치 전화번호 보강": 2
           },
           "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "032-816-1263",
+          "score": 69,
+          "source": "네이버",
+          "keyword": "인천 연수구 동춘동 921 관리사무소, 인천 연수구 동춘동 921 관리실",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "032-816-4498",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 동춘동 921 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -379,9 +409,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 83,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_동춘마을"
@@ -444,20 +474,21 @@
       "phoneCandidates": [
         {
           "number": "032-215-2007",
-          "score": 81,
+          "score": 98,
           "source": "카카오",
-          "keyword": "송도파크자이아파트 전화번호, 송도파크자이 전화번호",
+          "keyword": "송도파크자이아파트 전화번호, 송도파크자이 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "032-816-6644",
-          "score": 79,
+          "score": 83,
           "source": "카카오",
           "keyword": "송도파크자이아파트 전화번호, 송도파크자이 전화번호",
           "sourceCounts": {
@@ -470,7 +501,7 @@
         },
         {
           "number": "010-5011-6316",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "송도파크자이아파트 전화번호, 송도파크자이 전화번호",
           "sourceCounts": {
@@ -487,9 +518,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도파크자이"
@@ -511,17 +542,190 @@
       "address": "인천 연수구 앵고개로205번길 41\n인천 연수구 동춘동 919",
       "roadAddress": "인천 연수구 앵고개로205번길 41",
       "jibunAddress": "인천 연수구 동춘동 919",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-245-9285",
+      "phones": [
+        "032-245-9285",
+        "032-821-6700",
+        "032-816-9285",
+        "025-0702-1700",
+        "025-0829-1445",
+        "032-813-4743",
+        "032-815-2238",
+        "032-858-9951",
+        "025-0425-1629",
+        "032-816-8605",
+        "032-815-6687",
+        "032-813-0097"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-245-9285",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "인천 연수구 동춘동 919 관리사무소, 인천 연수구 동춘동 919 전화번호, 인천 연수구 앵고개로205번길 41 관리사무소, 인천 연수구 앵고개로205번길 41 전화번호, 동춘동 연수하나2차 관리사무소, 연수구 연수하나2차 관리사무소, 연수구 연수구 연수하나2차 관리사무소, 연수하나2차아파트 관리사무소 관리실, 연수하나2",
+          "sourceCounts": {
+            "114On": 3,
+            "네이버": 11
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 3,
+            "네이버 웹검색": 11
+          },
+          "sourceSummary": "114On 3회 · 네이버 11회"
+        },
+        {
+          "number": "032-821-6700",
+          "score": 100,
+          "source": "114On",
+          "keyword": "인천 연수구 동춘동 919 전화번호, 인천 연수구 앵고개로205번길 41 전화번호",
+          "sourceCounts": {
+            "114On": 2
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 2
+          },
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-816-9285",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "인천 연수구 동춘동 919 관리사무소, 인천 연수구 동춘동 919 전화번호, 인천 연수구 앵고개로205번길 41 관리사무소, 인천 연수구 앵고개로205번길 41 전화번호, 동춘동 연수하나2차 관리사무소, 연수구 연수하나2차 관리사무소, 연수구 연수구 연수하나2차 관리사무소, 연수하나2차아파트 관리사무소 관리실, 연수구 연",
+          "sourceCounts": {
+            "네이버": 15
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 14,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 15회"
+        },
+        {
+          "number": "025-0702-1700",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "연수구 연수하나2차 관리사무소, 연수구 연수구 연수하나2차 관리사무소, 연수하나2차아파트 관리사무소 전화번호, 연수하나2차아파트 관리사무소 관리사무소, 연수하나2차 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "025-0829-1445",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "연수구 연수하나2차 관리사무소, 연수구 연수구 연수하나2차 관리사무소, 연수하나2차아파트 관리사무소 전화번호, 연수하나2차아파트 관리사무소 관리사무소, 연수하나2차 전화번호",
+          "sourceCounts": {
+            "네이버": 6
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 6
+          },
+          "sourceSummary": "네이버 6회"
+        },
+        {
+          "number": "032-813-4743",
+          "score": 89,
+          "source": "네이버",
+          "keyword": "동춘동 연수하나2차 관리사무소, 연수하나2차아파트 관리사무소 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-815-2238",
+          "score": 87,
+          "source": "네이버",
+          "keyword": "동춘동 연수하나2차 관리사무소, 연수하나2차아파트 관리사무소 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "032-858-9951",
+          "score": 83,
+          "source": "네이버",
+          "keyword": "동춘동 연수하나2차 관리사무소, 연수하나2차아파트 관리사무소 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "025-0425-1629",
+          "score": 77,
+          "source": "네이버",
+          "keyword": "연수하나2차아파트 관리사무소 전화번호, 연수하나2차 관리사무소, 연수하나2차 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "032-816-8605",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 앵고개로205번길 41 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-815-6687",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "동춘동 연수하나2차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-813-0097",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "동춘동 연수하나2차 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_연수하나2차"
@@ -660,25 +864,27 @@
       "phones": [
         "032-831-2311",
         "032-832-9233",
-        "032-426-7340"
+        "032-426-7340",
+        "032-858-9793"
       ],
       "phoneCandidates": [
         {
           "number": "032-831-2311",
-          "score": 81,
+          "score": 100,
           "source": "카카오",
-          "keyword": "e편한세상송도아파트 전화번호, e편한세상송도 전화번호",
+          "keyword": "e편한세상송도아파트 전화번호, e편한세상송도 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "032-832-9233",
-          "score": 79,
+          "score": 85,
           "source": "카카오",
           "keyword": "e편한세상송도아파트 전화번호, e편한세상송도 전화번호",
           "sourceCounts": {
@@ -691,7 +897,7 @@
         },
         {
           "number": "032-426-7340",
-          "score": 77,
+          "score": 83,
           "source": "카카오",
           "keyword": "e편한세상송도아파트 전화번호, e편한세상송도 전화번호",
           "sourceCounts": {
@@ -701,6 +907,19 @@
             "카카오 주소일치 전화번호 보강": 2
           },
           "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "032-858-9793",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 319-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -708,9 +927,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_e편한세상송도"
@@ -903,16 +1122,17 @@
       "phoneCandidates": [
         {
           "number": "070-4212-1491",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "롯데캐슬캠퍼스타운오피스텔 전화번호, 롯데캐슬캠퍼스타운 전화번호",
+          "keyword": "롯데캐슬캠퍼스타운오피스텔 전화번호, 롯데캐슬캠퍼스타운 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -920,9 +1140,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_롯데캐슬캠퍼스타운"
@@ -1059,16 +1279,17 @@
       "phoneCandidates": [
         {
           "number": "070-4044-3898",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "더샵송도아크베이아파트 전화번호, 더샵송도아크베이 전화번호",
+          "keyword": "더샵송도아크베이아파트 전화번호, 더샵송도아크베이 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -1076,9 +1297,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_샵송도아크베이"
@@ -1139,16 +1360,17 @@
       "phoneCandidates": [
         {
           "number": "032-223-2910",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "더샵송도트리플타워East오피스텔 전화번호, 더샵송도트리플타워East 전화번호",
+          "keyword": "더샵송도트리플타워East오피스텔 전화번호, 더샵송도트리플타워East 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -1156,9 +1378,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_샵송도트리플타워east"
@@ -1297,20 +1519,21 @@
       "phoneCandidates": [
         {
           "number": "032-833-9933",
-          "score": 81,
+          "score": 98,
           "source": "카카오",
-          "keyword": "송도SK뷰아파트 전화번호, 송도SK뷰 전화번호",
+          "keyword": "송도SK뷰아파트 전화번호, 송도SK뷰 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "010-8237-1747",
-          "score": 79,
+          "score": 83,
           "source": "카카오",
           "keyword": "송도SK뷰아파트 전화번호, 송도SK뷰 전화번호",
           "sourceCounts": {
@@ -1323,7 +1546,7 @@
         },
         {
           "number": "032-227-7800",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "송도SK뷰아파트 전화번호, 송도SK뷰 전화번호",
           "sourceCounts": {
@@ -1340,9 +1563,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도sk뷰"
@@ -1560,21 +1783,36 @@
       "jibunAddress": "인천 연수구 송도동 150",
       "phone": "032-859-6812",
       "phones": [
-        "032-859-6812"
+        "032-859-6812",
+        "032-812-2122"
       ],
       "phoneCandidates": [
         {
           "number": "032-859-6812",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "송도롯데캐슬아파트 전화번호, 송도롯데캐슬 전화번호",
+          "keyword": "송도롯데캐슬아파트 전화번호, 송도롯데캐슬 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "032-812-2122",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 150 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1582,9 +1820,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도롯데캐슬"
@@ -1739,16 +1977,17 @@
       "phoneCandidates": [
         {
           "number": "032-816-0431",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "송도더샵센트럴시티아파트 전화번호, 송도더샵센트럴시티 전화번호",
+          "keyword": "송도더샵센트럴시티아파트 전화번호, 송도더샵센트럴시티 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -1756,9 +1995,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도샵센트럴시티"
@@ -1789,20 +2028,21 @@
       "phoneCandidates": [
         {
           "number": "032-831-2488",
-          "score": 81,
+          "score": 98,
           "source": "카카오",
-          "keyword": "송도더샵파크애비뉴아파트 전화번호, 송도더샵파크애비뉴 전화번호",
+          "keyword": "송도더샵파크애비뉴아파트 전화번호, 송도더샵파크애비뉴 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "032-831-8945",
-          "score": 79,
+          "score": 83,
           "source": "카카오",
           "keyword": "송도더샵파크애비뉴아파트 전화번호, 송도더샵파크애비뉴 전화번호",
           "sourceCounts": {
@@ -1815,7 +2055,7 @@
         },
         {
           "number": "010-4767-4808",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "송도더샵파크애비뉴아파트 전화번호, 송도더샵파크애비뉴 전화번호",
           "sourceCounts": {
@@ -1832,9 +2072,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도샵파크애비뉴"
@@ -1864,20 +2104,21 @@
       "phoneCandidates": [
         {
           "number": "032-835-5021",
-          "score": 79,
+          "score": 96,
           "source": "카카오",
-          "keyword": "송도더샵퍼스트월드아파트 전화번호, 송도더샵퍼스트월드 전화번호",
+          "keyword": "송도더샵퍼스트월드아파트 전화번호, 송도더샵퍼스트월드 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "032-859-4242",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "송도더샵퍼스트월드아파트 전화번호, 송도더샵퍼스트월드 전화번호",
           "sourceCounts": {
@@ -1894,9 +2135,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도샵퍼스트월드"
@@ -2098,21 +2339,50 @@
       "jibunAddress": "인천 연수구 송도동 23-5",
       "phone": "03-7153-2842",
       "phones": [
-        "03-7153-2842"
+        "03-7153-2842",
+        "032-858-6777",
+        "032-858-6778"
       ],
       "phoneCandidates": [
         {
           "number": "03-7153-2842",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "송도센트럴파크푸르지오아파트 전화번호, 송도센트럴파크푸르지오 전화번호",
+          "keyword": "송도센트럴파크푸르지오아파트 전화번호, 송도센트럴파크푸르지오 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "032-858-6777",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 23-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-858-6778",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 23-5 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -2120,9 +2390,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도센트럴파크푸르지오"
@@ -2179,12 +2449,28 @@
       "phone": "032-710-7955",
       "phones": [
         "032-710-7955",
-        "032-710-4013"
+        "032-710-4013",
+        "032-814-5933",
+        "032-715-8200"
       ],
       "phoneCandidates": [
         {
           "number": "032-710-7955",
-          "score": 79,
+          "score": 100,
+          "source": "카카오",
+          "keyword": "송도아메리칸타운더샵아파트 전화번호, 송도아메리칸타운더샵 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "032-710-4013",
+          "score": 85,
           "source": "카카오",
           "keyword": "송도아메리칸타운더샵아파트 전화번호, 송도아메리칸타운더샵 전화번호",
           "sourceCounts": {
@@ -2196,17 +2482,30 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "032-710-4013",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "송도아메리칸타운더샵아파트 전화번호, 송도아메리칸타운더샵 전화번호",
+          "number": "032-814-5933",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 155-1 관리사무소",
           "sourceCounts": {
-            "카카오": 2
+            "네이버": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "네이버 웹검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-715-8200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 155-1 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -2214,9 +2513,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도아메리칸타운샵"
@@ -2240,21 +2539,36 @@
       "jibunAddress": "인천 연수구 송도동 155",
       "phone": "032-814-7002",
       "phones": [
-        "032-814-7002"
+        "032-814-7002",
+        "032-814-9992"
       ],
       "phoneCandidates": [
         {
           "number": "032-814-7002",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "송도아메리칸타운아이파크아파트 전화번호, 송도아메리칸타운아이파크 전화번호",
+          "keyword": "송도아메리칸타운아이파크아파트 전화번호, 송도아메리칸타운아이파크 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "032-814-9992",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 155 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -2262,9 +2576,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도아메리칸타운아이파크"
@@ -2293,16 +2607,17 @@
       "phoneCandidates": [
         {
           "number": "070-7768-9229",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "송도아트윈푸르지오아파트 전화번호, 송도아트윈푸르지오 전화번호",
+          "keyword": "송도아트윈푸르지오아파트 전화번호, 송도아트윈푸르지오 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -2310,9 +2625,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도아트윈푸르지오"
@@ -2915,20 +3230,21 @@
       "phoneCandidates": [
         {
           "number": "032-831-4954",
-          "score": 83,
+          "score": 100,
           "source": "카카오",
-          "keyword": "송도자이하버뷰2단지아파트 전화번호, 송도자이하버뷰2단지 전화번호",
+          "keyword": "송도자이하버뷰2단지아파트 전화번호, 송도자이하버뷰2단지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "032-832-4455",
-          "score": 81,
+          "score": 85,
           "source": "카카오",
           "keyword": "송도자이하버뷰2단지아파트 전화번호, 송도자이하버뷰2단지 전화번호",
           "sourceCounts": {
@@ -2941,7 +3257,7 @@
         },
         {
           "number": "070-8910-7661",
-          "score": 79,
+          "score": 83,
           "source": "카카오",
           "keyword": "송도자이하버뷰2단지아파트 전화번호, 송도자이하버뷰2단지 전화번호",
           "sourceCounts": {
@@ -2954,7 +3270,7 @@
         },
         {
           "number": "032-834-6550",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "송도자이하버뷰2단지아파트 전화번호, 송도자이하버뷰2단지 전화번호",
           "sourceCounts": {
@@ -2971,9 +3287,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 83,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도자이하버뷰2"
@@ -3034,16 +3350,17 @@
       "phoneCandidates": [
         {
           "number": "032-859-1341",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "송도푸르지오하버뷰아파트 전화번호, 송도푸르지오하버뷰 전화번호",
+          "keyword": "송도푸르지오하버뷰아파트 전화번호, 송도푸르지오하버뷰 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -3051,9 +3368,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_송도푸르지오하버뷰"
@@ -3109,21 +3426,37 @@
       "jibunAddress": "인천 연수구 송도동 3-46",
       "phone": "032-224-1246",
       "phones": [
-        "032-224-1246"
+        "032-224-1246",
+        "032-851-0644"
       ],
       "phoneCandidates": [
         {
           "number": "032-224-1246",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "아이파크송도아파트 전화번호, 아이파크송도 전화번호",
+          "keyword": "아이파크송도아파트 전화번호, 아이파크송도 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "032-851-0644",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 3-46 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "",
@@ -3131,9 +3464,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_아이파크송도"
@@ -3238,16 +3571,17 @@
       "phoneCandidates": [
         {
           "number": "032-516-2331",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "이안송도아파트 전화번호, 이안송도 전화번호",
+          "keyword": "이안송도아파트 전화번호, 이안송도 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -3255,9 +3589,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_이안송도"
@@ -3515,20 +3849,21 @@
       "phoneCandidates": [
         {
           "number": "032-721-7737",
-          "score": 83,
+          "score": 100,
           "source": "카카오",
-          "keyword": "호반써밋송도아파트 전화번호, 호반써밋송도 전화번호",
+          "keyword": "호반써밋송도아파트 전화번호, 호반써밋송도 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "032-710-0524",
-          "score": 81,
+          "score": 85,
           "source": "카카오",
           "keyword": "호반써밋송도아파트 전화번호, 호반써밋송도 전화번호",
           "sourceCounts": {
@@ -3541,7 +3876,7 @@
         },
         {
           "number": "010-5890-0555",
-          "score": 79,
+          "score": 83,
           "source": "카카오",
           "keyword": "호반써밋송도아파트 전화번호, 호반써밋송도 전화번호",
           "sourceCounts": {
@@ -3554,7 +3889,7 @@
         },
         {
           "number": "032-831-3233",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "호반써밋송도아파트 전화번호, 호반써밋송도 전화번호",
           "sourceCounts": {
@@ -3571,9 +3906,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 83,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_호반써밋송도"
@@ -3661,21 +3996,92 @@
       "jibunAddress": "인천 연수구 송도동 397-8",
       "phone": "032-832-3636",
       "phones": [
-        "032-832-3636"
+        "032-832-3636",
+        "032-833-3849",
+        "032-858-8407",
+        "032-715-7145",
+        "032-858-9951",
+        "032-831-3335"
       ],
       "phoneCandidates": [
         {
           "number": "032-832-3636",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "힐스테이트레이크송도2차아파트 전화번호, 힐스테이트레이크송도2차 전화번호",
+          "keyword": "힐스테이트레이크송도2차아파트 전화번호, 힐스테이트레이크송도2차 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "032-833-3849",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 397-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-858-8407",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 397-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-715-7145",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 397-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-858-9951",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 397-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-831-3335",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 397-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -3683,9 +4089,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_힐스테이트레이크송도2차"
@@ -3741,21 +4147,78 @@
       "jibunAddress": "인천 연수구 송도동 397-2",
       "phone": "032-833-2227",
       "phones": [
-        "032-833-2227"
+        "032-833-2227",
+        "032-858-8407",
+        "032-858-9951",
+        "032-831-3335",
+        "032-715-8200"
       ],
       "phoneCandidates": [
         {
           "number": "032-833-2227",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "힐스테이트레이크송도4차아파트 전화번호, 힐스테이트레이크송도4차 전화번호",
+          "keyword": "힐스테이트레이크송도4차아파트 전화번호, 힐스테이트레이크송도4차 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "032-858-8407",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 397-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-858-9951",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 397-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-831-3335",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 397-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-715-8200",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 송도동 397-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -3763,9 +4226,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_힐스테이트레이크송도4차"
@@ -3827,20 +4290,21 @@
       "phoneCandidates": [
         {
           "number": "032-833-4196",
-          "score": 79,
+          "score": 96,
           "source": "카카오",
-          "keyword": "힐스테이트송도더스카이아파트 전화번호, 힐스테이트송도더스카이 전화번호",
+          "keyword": "힐스테이트송도더스카이아파트 전화번호, 힐스테이트송도더스카이 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "032-246-0700",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "힐스테이트송도더스카이아파트 전화번호, 힐스테이트송도더스카이 전화번호",
           "sourceCounts": {
@@ -3857,9 +4321,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 96,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_힐스테이트송도스카이"
@@ -4096,12 +4560,27 @@
       "phone": "010-7542-1424",
       "phones": [
         "010-7542-1424",
-        "010-5717-1424"
+        "010-5717-1424",
+        "032-822-3651"
       ],
       "phoneCandidates": [
         {
           "number": "010-7542-1424",
-          "score": 79,
+          "score": 100,
+          "source": "카카오",
+          "keyword": "만인타워오피스텔 전화번호, 만인타워 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "010-5717-1424",
+          "score": 83,
           "source": "카카오",
           "keyword": "만인타워오피스텔 전화번호, 만인타워 전화번호",
           "sourceCounts": {
@@ -4113,17 +4592,17 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "010-5717-1424",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "만인타워오피스텔 전화번호, 만인타워 전화번호",
+          "number": "032-822-3651",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 연수동 592-6 관리사무소",
           "sourceCounts": {
-            "카카오": 2
+            "네이버": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "네이버 카페검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -4131,9 +4610,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_만인타워"
@@ -4480,17 +4959,103 @@
       "address": "인천 연수구 먼우금로 218\n인천 연수구 연수동 596",
       "roadAddress": "인천 연수구 먼우금로 218",
       "jibunAddress": "인천 연수구 연수동 596",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-612-3368",
+      "phones": [
+        "032-612-3368",
+        "032-724-8605",
+        "032-821-9479",
+        "032-822-2399",
+        "06-667-2848",
+        "032-221-3171"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-612-3368",
+          "score": 91,
+          "source": "114On",
+          "keyword": "인천 연수구 먼우금로 218 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "032-724-8605",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 연수동 596 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-821-9479",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로 218 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-822-2399",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로 218 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "06-667-2848",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로 218 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-221-3171",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 먼우금로 218 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_연수푸르지오3"
@@ -4551,16 +5116,17 @@
       "phoneCandidates": [
         {
           "number": "010-6463-2845",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "태원빌딩오피스텔 전화번호, 태원빌딩 전화번호",
+          "keyword": "태원빌딩오피스텔 전화번호, 태원빌딩 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -4568,9 +5134,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_태원빌딩"
@@ -4596,25 +5162,28 @@
       "phones": [
         "032-812-9030",
         "032-822-9992",
-        "07-1455-3376"
+        "07-1455-3376",
+        "032-258-4700",
+        "032-822-3651"
       ],
       "phoneCandidates": [
         {
           "number": "032-812-9030",
-          "score": 81,
+          "score": 100,
           "source": "카카오",
-          "keyword": "파티마오피스텔 전화번호, 파티마 전화번호",
+          "keyword": "파티마오피스텔 전화번호, 파티마 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "032-822-9992",
-          "score": 79,
+          "score": 87,
           "source": "카카오",
           "keyword": "파티마오피스텔 전화번호, 파티마 전화번호",
           "sourceCounts": {
@@ -4627,7 +5196,7 @@
         },
         {
           "number": "07-1455-3376",
-          "score": 77,
+          "score": 85,
           "source": "카카오",
           "keyword": "파티마오피스텔 전화번호, 파티마 전화번호",
           "sourceCounts": {
@@ -4637,6 +5206,32 @@
             "카카오 주소일치 전화번호 보강": 2
           },
           "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "032-258-4700",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 연수동 593-9 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "032-822-3651",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "인천 연수구 연수동 593-9 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -4644,9 +5239,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_연수구_파티마"
