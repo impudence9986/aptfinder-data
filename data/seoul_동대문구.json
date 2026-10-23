@@ -1,6 +1,6 @@
 {
-  "version": 1792113412,
-  "updatedAt": "2026-10-16 01:16:52",
+  "version": 1792786968,
+  "updatedAt": "2026-10-23 20:22:48",
   "sido": "서울특별시",
   "sigungu": "동대문구",
   "count": 71,
@@ -197,21 +197,36 @@
       "jibunAddress": "서울 동대문구 답십리동 1013",
       "phone": "02-6713-1410",
       "phones": [
-        "02-6713-1410"
+        "02-6713-1410",
+        "02-3394-6830"
       ],
       "phoneCandidates": [
         {
           "number": "02-6713-1410",
-          "score": 77,
+          "score": 98,
           "source": "카카오",
-          "keyword": "래미안미드카운티아파트 전화번호, 래미안미드카운티 전화번호",
+          "keyword": "래미안미드카운티아파트 전화번호, 래미안미드카운티 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-3394-6830",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 답십리동 1013 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -219,9 +234,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_래미안미드카운티"
@@ -246,12 +261,29 @@
       "phone": "02-2217-8851",
       "phones": [
         "02-2217-8851",
-        "02-2213-1566"
+        "02-2213-1566",
+        "015-1983-4201"
       ],
       "phoneCandidates": [
         {
           "number": "02-2217-8851",
-          "score": 79,
+          "score": 100,
+          "source": "카카오, 네이버",
+          "keyword": "래미안엘파인아파트 전화번호, 래미안엘파인 전화번호, existing, 서울 동대문구 답십리동 1000 관리사무소, 서울 동대문구 답십리동 1000 관리실",
+          "sourceCounts": {
+            "카카오": 3,
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1,
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "카카오 3회 · 네이버 2회"
+        },
+        {
+          "number": "02-2213-1566",
+          "score": 89,
           "source": "카카오",
           "keyword": "래미안엘파인아파트 전화번호, 래미안엘파인 전화번호",
           "sourceCounts": {
@@ -263,17 +295,17 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-2213-1566",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "래미안엘파인아파트 전화번호, 래미안엘파인 전화번호",
+          "number": "015-1983-4201",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 동대문구 답십리동 1000 관리사무소, 서울 동대문구 답십리동 1000 관리실",
           "sourceCounts": {
-            "카카오": 2
+            "네이버": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "네이버 2회"
         }
       ],
       "households": "",
@@ -281,9 +313,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_래미안엘파인"
@@ -596,16 +628,17 @@
       "phoneCandidates": [
         {
           "number": "02-953-5001",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "동광동대문베르빌오피스텔 전화번호, 동광동대문베르빌 전화번호",
+          "keyword": "동광동대문베르빌오피스텔 전화번호, 동광동대문베르빌 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -613,9 +646,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_동광동대문베르빌"
@@ -1143,28 +1176,43 @@
       "address": "서울 동대문구 천호대로 124\n서울 동대문구 용두동 791-1",
       "roadAddress": "서울 동대문구 천호대로 124",
       "jibunAddress": "서울 동대문구 용두동 791-1",
-      "phone": "010-6839-0589",
+      "phone": "02-962-5817",
       "phones": [
+        "02-962-5817",
         "010-6839-0589",
         "010-2584-8063"
       ],
       "phoneCandidates": [
         {
-          "number": "010-6839-0589",
-          "score": 79,
-          "source": "카카오",
-          "keyword": "용두두산위브아파트 상가 전화번호, 용두두산위브 상가 전화번호",
+          "number": "02-962-5817",
+          "score": 100,
+          "source": "114On",
+          "keyword": "서울 동대문구 용두동 791-1 관리사무소",
           "sourceCounts": {
-            "카카오": 2
+            "114On": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "114On/네이버 스니펫": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "010-6839-0589",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "용두두산위브아파트 상가 전화번호, 용두두산위브 상가 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 4
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 2
+          },
+          "sourceSummary": "카카오 4회"
         },
         {
           "number": "010-2584-8063",
-          "score": 77,
+          "score": 89,
           "source": "카카오",
           "keyword": "용두두산위브아파트 상가 전화번호, 용두두산위브 상가 전화번호",
           "sourceCounts": {
@@ -1181,9 +1229,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_용두두산위브"
@@ -1634,21 +1682,92 @@
       "jibunAddress": "서울 동대문구 이문동 149-8",
       "phone": "010-3707-2001",
       "phones": [
-        "010-3707-2001"
+        "010-3707-2001",
+        "02-957-6300",
+        "02-472-9600",
+        "02-930-0207",
+        "02-930-0208",
+        "02-966-9660"
       ],
       "phoneCandidates": [
         {
           "number": "010-3707-2001",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "이문아이파크자이아파트 전화번호, 이문아이파크자이 전화번호",
+          "keyword": "이문아이파크자이아파트 전화번호, 이문아이파크자이 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-957-6300",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동대문구 이문동 149-8 관리사무소",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-472-9600",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 동대문구 이문동 149-8 관리사무소, 서울 동대문구 이문동 149-8 관리실",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "02-930-0207",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 이문동 149-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-930-0208",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 이문동 149-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-966-9660",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 이문동 149-8 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -1656,9 +1775,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_이문아이파크자이"
@@ -1719,16 +1838,17 @@
       "phoneCandidates": [
         {
           "number": "02-2216-2600",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "동대문더퍼스트데시앙아파트 전화번호, 동대문더퍼스트데시앙 전화번호",
+          "keyword": "동대문더퍼스트데시앙아파트 전화번호, 동대문더퍼스트데시앙 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -1736,9 +1856,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_동대문퍼스트데시앙"
@@ -2137,21 +2257,50 @@
       "jibunAddress": "서울 동대문구 장안동 329-2",
       "phone": "02-2242-9617",
       "phones": [
-        "02-2242-9617"
+        "02-2242-9617",
+        "02-2214-5336",
+        "02-2214-5350"
       ],
       "phoneCandidates": [
         {
           "number": "02-2242-9617",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "장안힐스테이트아파트 전화번호, 장안힐스테이트 전화번호",
+          "keyword": "장안힐스테이트아파트 전화번호, 장안힐스테이트 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-2214-5336",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 장안동 329-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2214-5350",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 장안동 329-2 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -2159,9 +2308,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_장안힐스테이트"
@@ -2222,16 +2371,17 @@
       "phoneCandidates": [
         {
           "number": "03-7152-4112",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "힐스테이트장안센트럴오피스텔 전화번호, 힐스테이트장안센트럴 전화번호",
+          "keyword": "힐스테이트장안센트럴오피스텔 전화번호, 힐스테이트장안센트럴 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -2239,9 +2389,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_힐스테이트장안센트럴"
@@ -2512,21 +2662,50 @@
       "jibunAddress": "서울 동대문구 전농동 10",
       "phone": "02-2245-9400",
       "phones": [
-        "02-2245-9400"
+        "02-2245-9400",
+        "02-2216-5318",
+        "02-2216-5317"
       ],
       "phoneCandidates": [
         {
           "number": "02-2245-9400",
-          "score": 77,
+          "score": 100,
           "source": "카카오",
-          "keyword": "전농SK1차아파트 전화번호, 전농SK1차 전화번호",
+          "keyword": "전농SK1차아파트 전화번호, 전농SK1차 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "02-2216-5318",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 전농동 10 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-2216-5317",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 전농동 10 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -2534,9 +2713,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_전농sk1차"
@@ -2683,12 +2862,29 @@
       "phone": "02-957-0123",
       "phones": [
         "02-957-0123",
-        "010-6561-6904"
+        "010-6561-6904",
+        "02-3293-1118",
+        "023-293-1118",
+        "023-293-1119"
       ],
       "phoneCandidates": [
         {
           "number": "02-957-0123",
-          "score": 79,
+          "score": 100,
+          "source": "카카오",
+          "keyword": "청량리역롯데캐슬SKY-L65아파트 전화번호, 청량리역롯데캐슬SKY-L65 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "010-6561-6904",
+          "score": 89,
           "source": "카카오",
           "keyword": "청량리역롯데캐슬SKY-L65아파트 전화번호, 청량리역롯데캐슬SKY-L65 전화번호",
           "sourceCounts": {
@@ -2700,17 +2896,44 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "010-6561-6904",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "청량리역롯데캐슬SKY-L65아파트 전화번호, 청량리역롯데캐슬SKY-L65 전화번호",
+          "number": "02-3293-1118",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "서울 동대문구 전농동 620-47 관리사무소",
           "sourceCounts": {
-            "카카오": 2
+            "네이버": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "네이버 웹검색": 1,
+            "네이버 블로그검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "023-293-1118",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 전농동 620-47 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "023-293-1119",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 동대문구 전농동 620-47 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -2718,9 +2941,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_청량리역롯데캐슬skyl65"
@@ -3087,17 +3310,91 @@
       "address": "서울 동대문구 정릉천동로 90\n서울 동대문구 제기동 892-66",
       "roadAddress": "서울 동대문구 정릉천동로 90",
       "jibunAddress": "서울 동대문구 제기동 892-66",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-6238-8256",
+      "phones": [
+        "02-6238-8256",
+        "02-957-6364",
+        "02-6916-1500",
+        "02-6953-3935",
+        "07-1308-5396"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-6238-8256",
+          "score": 100,
+          "source": "네이버, 114On",
+          "keyword": "서울 동대문구 정릉천동로 90 전화번호, 서울 동대문구 제기동 892-66 관리사무소",
+          "sourceCounts": {
+            "네이버": 1,
+            "114On": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1,
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "02-957-6364",
+          "score": 91,
+          "source": "114On",
+          "keyword": "서울 동대문구 제기동 892-66 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        },
+        {
+          "number": "02-6916-1500",
+          "score": 71,
+          "source": "네이버",
+          "keyword": "서울 동대문구 정릉천동로 90 전화번호, 서울 동대문구 제기동 892-66 전화번호, 제기동현대 전화번호",
+          "sourceCounts": {
+            "네이버": 3
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 3
+          },
+          "sourceSummary": "네이버 3회"
+        },
+        {
+          "number": "02-6953-3935",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "서울 동대문구 정릉천동로 90 전화번호, 서울 동대문구 제기동 892-66 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "07-1308-5396",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "서울 동대문구 정릉천동로 90 전화번호, 서울 동대문구 제기동 892-66 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_동대문구_제기동현대"
