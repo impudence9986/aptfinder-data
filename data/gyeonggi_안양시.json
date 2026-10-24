@@ -1,6 +1,6 @@
 {
-  "version": 1792700000,
-  "updatedAt": "2026-10-22 20:13:20",
+  "version": 1792868974,
+  "updatedAt": "2026-10-24 19:09:34",
   "sido": "경기도",
   "sigungu": "안양시",
   "count": 185,
@@ -5866,28 +5866,30 @@
         "016-1001-4120",
         "031-469-5959",
         "031-8045-3600",
-        "031-8045-3680",
         "031-441-2006",
         "031-441-2007",
-        "031-360-3555"
+        "031-360-3555",
+        "031-8045-3680"
       ],
       "phoneCandidates": [
         {
           "number": "016-1001-4120",
-          "score": 61,
-          "source": "네이버",
-          "keyword": "경기 안양시 만안구 안양동 97-3 관리사무소, 경기 안양시 만안구 안양동 97-3 관리실",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "경기 안양시 만안구 안양동 97-3 관리사무소, 경기 안양시 만안구 안양동 97-3 관리실, existing",
           "sourceCounts": {
-            "네이버": 2
+            "네이버": 3,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 2
+            "네이버 카페검색": 3,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "카카오 1회 · 네이버 3회"
         },
         {
           "number": "031-469-5959",
-          "score": 51,
+          "score": 65,
           "source": "네이버",
           "keyword": "경기 안양시 만안구 안양천서로 249 전화번호",
           "sourceCounts": {
@@ -5901,16 +5903,55 @@
         },
         {
           "number": "031-8045-3600",
-          "score": 42,
+          "score": 57,
           "source": "네이버",
           "keyword": "경기 안양시 만안구 안양동 97-3 관리실",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버 카페검색": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-441-2006",
+          "score": 55,
+          "source": "네이버",
+          "keyword": "경기 안양시 만안구 안양천서로 249 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-441-2007",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "경기 안양시 만안구 안양천서로 249 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "031-360-3555",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "경기 안양시 만안구 안양천서로 249 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
         },
         {
           "number": "031-8045-3680",
@@ -5924,45 +5965,6 @@
             "네이버 카페검색": 1
           },
           "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "031-441-2006",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "경기 안양시 만안구 안양천서로 249 관리사무소",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "031-441-2007",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "경기 안양시 만안구 안양천서로 249 관리사무소",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "031-360-3555",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "경기 안양시 만안구 안양천서로 249 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
         }
       ],
       "households": "",
@@ -5970,9 +5972,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 61,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안양시_안양역푸르지오샵게이트1"
