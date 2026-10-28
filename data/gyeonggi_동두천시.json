@@ -1,9 +1,9 @@
 {
-  "version": 1792527439,
-  "updatedAt": "2026-10-20 20:17:19",
+  "version": 1793145180,
+  "updatedAt": "2026-10-27 23:53:00",
   "sido": "경기도",
   "sigungu": "동두천시",
-  "count": 33,
+  "count": 35,
   "items": [
     {
       "kaptCode": "",
@@ -25,35 +25,50 @@
       "phone": "031-859-6785",
       "phones": [
         "031-859-6785",
-        "055-383-1248"
+        "031-859-6784",
+        "031-515-0775"
       ],
       "phoneCandidates": [
         {
           "number": "031-859-6785",
           "score": 100,
-          "source": "카카오",
-          "keyword": "동두천시 아파트 관리사무소, existing, 경기 동두천시 동두천동 524 관리사무소, 경기 동두천시 동두천동 524 관리실, 경기 동두천시 강변로664번길 45 관리사무소, 경기 동두천시 강변로664번길 45 관리실, 동두천동 신창비바패밀리 관리사무소, 동두천시 신창비바패밀리 관리사무소, 신창비바패밀리아파트 관리사무소",
+          "source": "카카오, 네이버부동산",
+          "keyword": "동두천시 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 15
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 13
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 15회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
         },
         {
-          "number": "055-383-1248",
-          "score": 100,
-          "source": "카카오",
-          "keyword": "신창비바패밀리아파트 관리사무소 관리실, 신창비바패밀리아파트 관리사무소 관리사무소, 신창비바패밀리아파트 관리사무소 관리단, 신창비바패밀리 관리사무소, 신창비바패밀리 관리실, 신창비바패밀리 관리단",
+          "number": "031-859-6784",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 6
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 6
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 6회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-515-0775",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -210,17 +225,61 @@
       "address": "경기 동두천시 어수로 29-16\n경기 동두천시 상패동 61",
       "roadAddress": "경기 동두천시 어수로 29-16",
       "jibunAddress": "경기 동두천시 상패동 61",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-861-2376",
+      "phones": [
+        "031-861-2376",
+        "031-861-2375",
+        "031-867-2475"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-861-2376",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-861-2375",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-867-2475",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_동두천시_상패주공"
@@ -323,14 +382,14 @@
     },
     {
       "kaptCode": "",
-      "name": "동두천중앙역엘크루더퍼스트아파트",
+      "name": "동두천중앙역엘크루더퍼스트오피스텔",
       "aliases": [
         {
-          "name": "동두천중앙역엘크루더퍼스트아파트",
+          "name": "동두천중앙역엘크루더퍼스트오피스텔",
           "source": "카카오"
         }
       ],
-      "type": "아파트",
+      "type": "오피스텔",
       "city": "동두천시",
       "sido": "경기도",
       "district": "",
@@ -387,68 +446,6 @@
     },
     {
       "kaptCode": "",
-      "name": "리버빌",
-      "aliases": [
-        {
-          "name": "리버빌",
-          "source": "카카오"
-        }
-      ],
-      "type": "오피스텔",
-      "city": "동두천시",
-      "sido": "경기도",
-      "district": "",
-      "dong": "생연동",
-      "address": "경기 동두천시 생연로 225-19\n경기 동두천시 생연동 570-55",
-      "roadAddress": "경기 동두천시 생연로 225-19",
-      "jibunAddress": "경기 동두천시 생연동 570-55",
-      "phone": "02-793-6786",
-      "phones": [
-        "02-793-6786",
-        "031-585-5622"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-793-6786",
-          "score": 98,
-          "source": "카카오",
-          "keyword": "리버빌 관리사무소, 리버빌 관리실, 리버빌 관리단",
-          "sourceCounts": {
-            "카카오": 3
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 3
-          },
-          "sourceSummary": "카카오 3회"
-        },
-        {
-          "number": "031-585-5622",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "리버빌 전화번호",
-          "sourceCounts": {
-            "카카오": 1
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
-          },
-          "sourceSummary": "카카오 1회"
-        }
-      ],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
-      "reportCount": 0,
-      "confidenceScore": 98,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "경기도_동두천시_리버빌"
-    },
-    {
-      "kaptCode": "",
       "name": "부영1단지아파트",
       "aliases": [
         {
@@ -464,23 +461,51 @@
       "address": "경기 동두천시 생연로 72\n경기 동두천시 생연동 714-2",
       "roadAddress": "경기 동두천시 생연로 72",
       "jibunAddress": "경기 동두천시 생연동 714-2",
-      "phone": "062-973-0256",
+      "phone": "031-857-7802",
       "phones": [
-        "062-973-0256"
+        "031-857-7802",
+        "031-857-7801",
+        "031-861-4988"
       ],
       "phoneCandidates": [
         {
-          "number": "062-973-0256",
+          "number": "031-857-7802",
           "score": 100,
-          "source": "카카오",
-          "keyword": "부영1단지아파트 관리사무소, 부영1단지아파트 관리실, 부영1단지 관리사무소, 부영1단지 관리실, 부영1단지아파트 관리단, 부영1단지 관리단",
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 6
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 6
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 6회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-857-7801",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-861-4988",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -544,20 +569,140 @@
       "address": "경기 동두천시 못골로 10\n경기 동두천시 생연동 834",
       "roadAddress": "경기 동두천시 못골로 10",
       "jibunAddress": "경기 동두천시 생연동 834",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-862-0967",
+      "phones": [
+        "031-862-0967",
+        "031-862-0968",
+        "031-861-5257"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-862-0967",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-862-0968",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-861-5257",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_동두천시_브라운스톤인터포레"
+    },
+    {
+      "kaptCode": "",
+      "name": "생연주공아파트",
+      "aliases": [
+        {
+          "name": "생연주공아파트",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "동두천시",
+      "sido": "경기도",
+      "district": "",
+      "dong": "생연동",
+      "address": "경기 동두천시 중앙로 424\n경기 동두천시 생연동 163",
+      "roadAddress": "경기 동두천시 중앙로 424",
+      "jibunAddress": "경기 동두천시 생연동 163",
+      "phone": "031-865-8963",
+      "phones": [
+        "031-865-8963",
+        "031-862-6783",
+        "031-861-6783"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-865-8963",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-862-6783",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-861-6783",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CONFIRMED",
+      "reportCount": 0,
+      "confidenceScore": 100,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "경기도_동두천시_생연주공"
     },
     {
       "kaptCode": "",
@@ -576,24 +721,65 @@
       "address": "경기 동두천시 행선로 123-49\n경기 동두천시 생연동 354",
       "roadAddress": "경기 동두천시 행선로 123-49",
       "jibunAddress": "경기 동두천시 생연동 354",
-      "phone": "031-865-0669",
+      "phone": "031-867-7171",
       "phones": [
+        "031-867-7171",
+        "031-861-6664",
+        "031-857-9892",
         "031-865-0669"
       ],
       "phoneCandidates": [
         {
-          "number": "031-865-0669",
+          "number": "031-867-7171",
           "score": 100,
-          "source": "카카오",
-          "keyword": "동두천시 아파트 관리사무소, existing, 경기 동두천시 생연동 354 관리사무소, 경기 동두천시 생연동 354 관리실, 경기 동두천시 행선로 123-49 관리사무소, 경기 동두천시 행선로 123-49 관리실, 생연동 에이스4차 관리사무소, 동두천시 에이스4차 관리사무소, 동두천시 에이스4차 관리실, 에이스4차아파트 ",
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 11
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 9
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 11회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-861-6664",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-857-9892",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-865-0669",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "동두천시 아파트 관리사무소, existing",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 장소검색": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -625,23 +811,51 @@
       "address": "경기 동두천시 삼육사로1002번길 47\n경기 동두천시 생연동 356",
       "roadAddress": "경기 동두천시 삼육사로1002번길 47",
       "jibunAddress": "경기 동두천시 생연동 356",
-      "phone": "031-865-0669",
+      "phone": "031-868-6434",
       "phones": [
-        "031-865-0669"
+        "031-868-6434",
+        "031-868-6435",
+        "031-867-2475"
       ],
       "phoneCandidates": [
         {
-          "number": "031-865-0669",
+          "number": "031-868-6434",
           "score": 100,
-          "source": "카카오",
-          "keyword": "경기 동두천시 생연동 356 관리사무소, 경기 동두천시 생연동 356 관리실, 경기 동두천시 삼육사로1002번길 47 관리사무소, 경기 동두천시 삼육사로1002번길 47 관리실",
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 4
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 4
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 4회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-868-6435",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-867-2475",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -655,6 +869,38 @@
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_동두천시_에이스5차"
+    },
+    {
+      "kaptCode": "",
+      "name": "참좋은오피스텔",
+      "aliases": [
+        {
+          "name": "참좋은오피스텔",
+          "source": "카카오"
+        }
+      ],
+      "type": "오피스텔",
+      "city": "동두천시",
+      "sido": "경기도",
+      "district": "",
+      "dong": "생연동",
+      "address": "경기 동두천시 중앙로273번길 32-8\n경기 동두천시 생연동 588-49",
+      "roadAddress": "경기 동두천시 중앙로273번길 32-8",
+      "jibunAddress": "경기 동두천시 생연동 588-49",
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "UNKNOWN",
+      "reportCount": 0,
+      "confidenceScore": 0,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "경기도_동두천시_참좋은"
     },
     {
       "kaptCode": "",
@@ -739,50 +985,21 @@
       "jibunAddress": "경기 동두천시 송내동 386",
       "phone": "031-775-7775",
       "phones": [
-        "031-775-7775",
-        "031-857-1128",
-        "031-857-1158"
+        "031-775-7775"
       ],
       "phoneCandidates": [
         {
           "number": "031-775-7775",
-          "score": 100,
+          "score": 77,
           "source": "카카오",
-          "keyword": "동두천헤라시티중흥S클래스아파트 전화번호, 동두천헤라시티중흥S클래스 전화번호, existing",
+          "keyword": "동두천헤라시티중흥S클래스아파트 전화번호, 동두천헤라시티중흥S클래스 전화번호",
           "sourceCounts": {
-            "카카오": 3
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2,
-            "카카오 장소검색": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 3회"
-        },
-        {
-          "number": "031-857-1128",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "경기 동두천시 송내동 386 관리사무소",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "031-857-1158",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "경기 동두천시 송내동 386 관리사무소",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
-          },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -790,9 +1007,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_동두천시_동두천헤라시티중흥s클래스"
@@ -831,10 +1048,10 @@
     },
     {
       "kaptCode": "",
-      "name": "송내주공3단지아파트",
+      "name": "송내주공3단지아파트 관리사무소",
       "aliases": [
         {
-          "name": "송내주공3단지아파트",
+          "name": "송내주공3단지아파트 관리사무소",
           "source": "카카오"
         }
       ],
@@ -854,15 +1071,17 @@
         {
           "number": "031-857-9817",
           "score": 100,
-          "source": "카카오",
-          "keyword": "경기 동두천시 송내동 664-6 관리사무소, 경기 동두천시 송내동 664-6 관리실, 경기 동두천시 중앙로 41 관리사무소, 경기 동두천시 중앙로 41 관리실, 송내동 송내주공3단지 관리사무소, 동두천시 송내주공3단지 관리사무소, 동두천시 송내주공3단지 관리실, 송내주공3단지아파트 관리사무소, 송내주공3단지아파트 관리실,",
+          "source": "카카오, 네이버부동산",
+          "keyword": "동두천시 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 15
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 15
+            "카카오 장소검색": 2,
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 15회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
         }
       ],
       "households": "",
@@ -894,17 +1113,61 @@
       "address": "경기 동두천시 동두천로 63\n경기 동두천시 송내동 665-3",
       "roadAddress": "경기 동두천시 동두천로 63",
       "jibunAddress": "경기 동두천시 송내동 665-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-857-4001",
+      "phones": [
+        "031-857-4001",
+        "031-857-9817",
+        "031-857-4002"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-857-4001",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-857-9817",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-857-4002",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_동두천시_송내주공4"
@@ -928,22 +1191,51 @@
       "jibunAddress": "경기 동두천시 송내동 696-3",
       "phone": "031-862-5536",
       "phones": [
-        "031-862-5536"
+        "031-862-5536",
+        "031-857-9817",
+        "031-857-4002"
       ],
       "phoneCandidates": [
         {
           "number": "031-862-5536",
           "score": 100,
-          "source": "카카오",
-          "keyword": "동두천시 아파트 관리사무소, existing, 경기 동두천시 송내동 696-3 관리사무소, 경기 동두천시 송내동 696-3 관리실, 경기 동두천시 동두천로 27 관리사무소, 경기 동두천시 동두천로 27 관리실, 송내동 송내주공5단지 관리사무소, 동두천시 송내주공5단지 관리사무소, 동두천시 송내주공5단지 관리실, 송내주공5",
+          "source": "카카오, 네이버부동산",
+          "keyword": "동두천시 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 11
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 9
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 11회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+        },
+        {
+          "number": "031-857-9817",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-857-4002",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -1009,22 +1301,37 @@
       "jibunAddress": "경기 동두천시 지행동 692-1",
       "phone": "031-857-9310",
       "phones": [
-        "031-857-9310"
+        "031-857-9310",
+        "031-357-1800"
       ],
       "phoneCandidates": [
         {
           "number": "031-857-9310",
           "score": 100,
-          "source": "카카오",
-          "keyword": "동두천시 아파트 관리사무소, existing, 경기 동두천시 지행동 692-1 관리사무소, 경기 동두천시 지행동 692-1 관리실, 경기 동두천시 거북마루로 64 관리사무소, 경기 동두천시 거북마루로 64 관리실, 지행동 대방노블랜드 7,8단지 관리사무소, 동두천시 대방노블랜드 7,8단지 관리사무소, 동두천시 대방노블랜드",
+          "source": "카카오, 네이버부동산",
+          "keyword": "동두천시 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 11
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 9
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 11회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+        },
+        {
+          "number": "031-357-1800",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -1088,39 +1395,51 @@
       "address": "경기 동두천시 지행로 16\n경기 동두천시 지행동 717-2",
       "roadAddress": "경기 동두천시 지행로 16",
       "jibunAddress": "경기 동두천시 지행동 717-2",
-      "phone": "031-864-4420",
+      "phone": "031-858-0742",
       "phones": [
-        "031-864-4420",
-        "031-858-0742"
+        "031-858-0742",
+        "031-859-0743",
+        "031-967-8945"
       ],
       "phoneCandidates": [
         {
-          "number": "031-864-4420",
+          "number": "031-858-0742",
           "score": 100,
-          "source": "카카오",
-          "keyword": "송내주공1단지아파트 전화번호, 송내주공1단지 전화번호, existing",
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 3
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2,
-            "카카오 장소검색": 1
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 3회"
+          "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-858-0742",
-          "score": 51,
-          "source": "네이버",
-          "keyword": "경기 동두천시 지행동 717-2 관리사무소",
+          "number": "031-859-0743",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 2
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1,
-            "네이버 카페검색": 1
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 2회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-967-8945",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -1154,22 +1473,51 @@
       "jibunAddress": "경기 동두천시 지행동 722-8",
       "phone": "031-864-9390",
       "phones": [
-        "031-864-9390"
+        "031-864-9390",
+        "031-864-9392",
+        "031-862-5536"
       ],
       "phoneCandidates": [
         {
           "number": "031-864-9390",
           "score": 100,
-          "source": "카카오",
-          "keyword": "동두천시 아파트 관리사무소, existing, 경기 동두천시 지행동 722-8 관리사무소, 경기 동두천시 지행동 722-8 관리실, 경기 동두천시 동두천로 89 관리사무소, 경기 동두천시 동두천로 89 관리실, 지행동 송내주공2단지 관리사무소, 동두천시 송내주공2단지 관리사무소, 동두천시 송내주공2단지 관리실, 송내주공2",
+          "source": "카카오, 네이버부동산",
+          "keyword": "동두천시 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 11
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 9
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 11회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+        },
+        {
+          "number": "031-864-9392",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-862-5536",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -1250,6 +1598,82 @@
     },
     {
       "kaptCode": "",
+      "name": "지행동양엔파트아파트",
+      "aliases": [
+        {
+          "name": "지행동양엔파트아파트",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "동두천시",
+      "sido": "경기도",
+      "district": "",
+      "dong": "지행동",
+      "address": "경기 동두천시 행선로20번길 43\n경기 동두천시 지행동 172",
+      "roadAddress": "경기 동두천시 행선로20번길 43",
+      "jibunAddress": "경기 동두천시 지행동 172",
+      "phone": "031-866-9573",
+      "phones": [
+        "031-866-9573",
+        "031-865-9572",
+        "031-861-8992"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-866-9573",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-865-9572",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-861-8992",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CONFIRMED",
+      "reportCount": 0,
+      "confidenceScore": 100,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "경기도_동두천시_지행동양엔파트"
+    },
+    {
+      "kaptCode": "",
       "name": "지행역동원베네스트아파트",
       "aliases": [
         {
@@ -1265,23 +1689,37 @@
       "address": "경기 동두천시 이담로 89\n경기 동두천시 지행동 354",
       "roadAddress": "경기 동두천시 이담로 89",
       "jibunAddress": "경기 동두천시 지행동 354",
-      "phone": "031-868-2208",
+      "phone": "031-868-2209",
       "phones": [
+        "031-868-2209",
         "031-868-2208"
       ],
       "phoneCandidates": [
         {
-          "number": "031-868-2208",
+          "number": "031-868-2209",
           "score": 100,
-          "source": "카카오",
-          "keyword": "경기 동두천시 지행동 354 관리사무소, 경기 동두천시 지행동 354 관리실, 경기 동두천시 이담로 89 관리사무소, 경기 동두천시 이담로 89 관리실, 지행동 지행역동원베네스트 관리사무소, 동두천시 지행역동원베네스트 관리사무소, 동두천시 지행역동원베네스트 관리실, 지행역동원베네스트아파트 관리사무소, 지행역동원베네스트아파",
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 13
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 13
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 13회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-868-2208",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -1345,17 +1783,61 @@
       "address": "경기 동두천시 삼육사로1002번길 93\n경기 동두천시 지행동 270-4",
       "roadAddress": "경기 동두천시 삼육사로1002번길 93",
       "jibunAddress": "경기 동두천시 지행동 270-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-862-3090",
+      "phones": [
+        "031-862-3090",
+        "031-858-0742",
+        "031-859-0743"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-862-3090",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-858-0742",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-859-0743",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_동두천시_지행주공1"
@@ -1377,23 +1859,51 @@
       "address": "경기 동두천시 생연로 10\n경기 동두천시 지행동 691-3",
       "roadAddress": "경기 동두천시 생연로 10",
       "jibunAddress": "경기 동두천시 지행동 691-3",
-      "phone": "043-651-1033",
+      "phone": "031-861-8802",
       "phones": [
-        "043-651-1033"
+        "031-861-8802",
+        "031-861-8803",
+        "031-861-4988"
       ],
       "phoneCandidates": [
         {
-          "number": "043-651-1033",
+          "number": "031-861-8802",
           "score": 100,
-          "source": "카카오",
-          "keyword": "현진에버빌아파트 관리사무소, 현진에버빌아파트 관리실, 현진에버빌 관리사무소, 현진에버빌 관리실, 현진에버빌아파트 관리단, 현진에버빌 관리단",
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 6
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 6
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 6회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-861-8803",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-861-4988",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
