@@ -1,6 +1,6 @@
 {
-  "version": 1792181201,
-  "updatedAt": "2026-10-16 20:06:41",
+  "version": 1793230418,
+  "updatedAt": "2026-10-28 23:33:38",
   "sido": "서울특별시",
   "sigungu": "마포구",
   "count": 80,
@@ -25,50 +25,35 @@
       "phone": "02-701-9116",
       "phones": [
         "02-701-9116",
-        "02-706-0035",
-        "02-717-5042"
+        "02-704-8270"
       ],
       "phoneCandidates": [
         {
           "number": "02-701-9116",
           "score": 100,
-          "source": "카카오, 네이버부동산",
-          "keyword": "마포구 아파트 관리사무소, existing, naver_land_management",
+          "source": "카카오",
+          "keyword": "마포구 아파트 관리사무소, existing, 서울 마포구 공덕동 469 관리사무소, 서울 마포구 공덕동 469 관리실, 서울 마포구 마포대로 173-15 관리사무소, 서울 마포구 마포대로 173-15 관리실, 공덕동 공덕5차래미안 관리사무소, 마포구 공덕5차래미안 관리사무소, 마포구 마포구 공덕5차래미안 관리사무소, 마포",
           "sourceCounts": {
-            "카카오": 2,
-            "네이버부동산": 1
+            "카카오": 12
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 10
           },
-          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+          "sourceSummary": "카카오 12회"
         },
         {
-          "number": "02-706-0035",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-704-8270",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "서울 마포구 공덕동 469 관리사무소, 서울 마포구 공덕동 469 관리실, 서울 마포구 마포대로 173-15 관리사무소, 서울 마포구 마포대로 173-15 관리실",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 4
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 4
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-717-5042",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 4회"
         }
       ],
       "households": "",
@@ -82,6 +67,68 @@
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_공덕5차래미안"
+    },
+    {
+      "kaptCode": "",
+      "name": "공덕삼성래미안2차아파트",
+      "aliases": [
+        {
+          "name": "공덕삼성래미안2차아파트",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "마포구",
+      "sido": "서울특별시",
+      "district": "마포구",
+      "dong": "공덕동",
+      "address": "서울 마포구 마포대로20길 26\n서울 마포구 공덕동 43",
+      "roadAddress": "서울 마포구 마포대로20길 26",
+      "jibunAddress": "서울 마포구 공덕동 43",
+      "phone": "010-5340-6213",
+      "phones": [
+        "010-5340-6213",
+        "02-703-1558"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-5340-6213",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "공덕삼성래미안2차아파트 전화번호, 공덕삼성래미안2차 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-703-1558",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "공덕삼성래미안2차아파트 전화번호, 공덕삼성래미안2차 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CANDIDATE",
+      "reportCount": 0,
+      "confidenceScore": 79,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "서울특별시_마포구_공덕삼성래미안2차"
     },
     {
       "kaptCode": "",
@@ -100,51 +147,135 @@
       "address": "서울 마포구 백범로 170\n서울 마포구 공덕동 478",
       "roadAddress": "서울 마포구 백범로 170",
       "jibunAddress": "서울 마포구 공덕동 478",
-      "phone": "02-719-8830",
+      "phone": "02-701-2288",
       "phones": [
-        "02-719-8830",
-        "02-718-3850",
-        "02-715-8949"
+        "02-701-2288",
+        "02-318-4441",
+        "02-711-7787",
+        "02-719-9797",
+        "010-2420-6941",
+        "010-5826-5585",
+        "010-9612-9918",
+        "02-704-9044",
+        "02-713-3339"
       ],
       "phoneCandidates": [
         {
-          "number": "02-719-8830",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-701-2288",
+          "score": 91,
+          "source": "카카오",
+          "keyword": "공덕더샵아파트 전화번호, 공덕더샵 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-718-3850",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-318-4441",
+          "score": 89,
+          "source": "카카오",
+          "keyword": "공덕더샵아파트 전화번호, 공덕더샵 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-715-8949",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-711-7787",
+          "score": 87,
+          "source": "카카오",
+          "keyword": "공덕더샵아파트 전화번호, 공덕더샵 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-719-9797",
+          "score": 85,
+          "source": "카카오",
+          "keyword": "공덕더샵아파트 전화번호, 공덕더샵 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-2420-6941",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "공덕더샵아파트 전화번호, 공덕더샵 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-5826-5585",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "공덕더샵아파트 전화번호, 공덕더샵 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-9612-9918",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "공덕더샵아파트 전화번호, 공덕더샵 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-704-9044",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "공덕더샵아파트 전화번호, 공덕더샵 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-713-3339",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "서울 마포구 백범로 170 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -154,7 +285,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_공덕샵"
@@ -176,51 +307,65 @@
       "address": "서울 마포구 백범로 152\n서울 마포구 공덕동 476",
       "roadAddress": "서울 마포구 백범로 152",
       "jibunAddress": "서울 마포구 공덕동 476",
-      "phone": "02-701-0855",
+      "phone": "02-707-1101",
       "phones": [
-        "02-701-0855",
-        "02-701-0857",
-        "02-719-8830"
+        "02-707-1101",
+        "07-1340-1880",
+        "02-703-1888",
+        "02-717-0152"
       ],
       "phoneCandidates": [
         {
-          "number": "02-701-0855",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-707-1101",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "공덕파크자이아파트 전화번호, 공덕파크자이 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-701-0857",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "07-1340-1880",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "공덕파크자이아파트 전화번호, 공덕파크자이 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-719-8830",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-703-1888",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "공덕파크자이아파트 전화번호, 공덕파크자이 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-717-0152",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "서울 마포구 백범로 152 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -228,9 +373,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 81,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_공덕파크자이"
@@ -252,37 +397,79 @@
       "address": "서울 마포구 마포대로 156\n서울 마포구 공덕동 475",
       "roadAddress": "서울 마포구 마포대로 156",
       "jibunAddress": "서울 마포구 공덕동 475",
-      "phone": "02-714-0066",
+      "phone": "02-703-7772",
       "phones": [
-        "02-714-0066",
-        "02-6953-5786"
+        "02-703-7772",
+        "02-717-0099",
+        "02-3273-7528",
+        "010-8803-0603",
+        "070-4117-4268"
       ],
       "phoneCandidates": [
         {
-          "number": "02-714-0066",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-703-7772",
+          "score": 85,
+          "source": "카카오",
+          "keyword": "공덕푸르지오시티오피스텔 전화번호, 공덕푸르지오시티 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-6953-5786",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-717-0099",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "공덕푸르지오시티오피스텔 전화번호, 공덕푸르지오시티 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-3273-7528",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "공덕푸르지오시티오피스텔 전화번호, 공덕푸르지오시티 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-8803-0603",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "공덕푸르지오시티오피스텔 전화번호, 공덕푸르지오시티 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "070-4117-4268",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "공덕푸르지오시티오피스텔 전화번호, 공덕푸르지오시티 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -292,7 +479,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 85,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_공덕푸르지오시티"
@@ -314,51 +501,23 @@
       "address": "서울 마포구 백범로 170\n서울 마포구 공덕동 445-1",
       "roadAddress": "서울 마포구 백범로 170",
       "jibunAddress": "서울 마포구 공덕동 445-1",
-      "phone": "02-721-0600",
+      "phone": "02-713-3339",
       "phones": [
-        "02-721-0600",
-        "02-715-2204",
-        "02-704-8882"
+        "02-713-3339"
       ],
       "phoneCandidates": [
         {
-          "number": "02-721-0600",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-713-3339",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "서울 마포구 백범로 170 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-715-2204",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-704-8882",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -366,9 +525,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_나이스파크공덕샵주차장"
@@ -390,51 +549,51 @@
       "address": "서울 마포구 마포대로7길 22\n서울 마포구 공덕동 457",
       "roadAddress": "서울 마포구 마포대로7길 22",
       "jibunAddress": "서울 마포구 공덕동 457",
-      "phone": "02-701-5478",
+      "phone": "02-704-8270",
       "phones": [
-        "02-701-5478",
         "02-704-8270",
-        "02-702-7641"
+        "02-3275-3273",
+        "010-5016-3887"
       ],
       "phoneCandidates": [
         {
-          "number": "02-701-5478",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
           "number": "02-704-8270",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "서울 마포구 공덕동 457 관리사무소, 서울 마포구 공덕동 457 관리실, 서울 마포구 마포대로7길 22 관리사무소, 서울 마포구 마포대로7길 22 관리실, 공덕동 래미안공덕3차 관리사무소, 마포구 래미안공덕3차 관리사무소, 마포구 마포구 래미안공덕3차 관리사무소, 마포구 래미안공덕3차 관리실, 래미안공덕3차아파트 관리사",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 16
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 16
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 16회"
         },
         {
-          "number": "02-702-7641",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-3275-3273",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "래미안공덕3차아파트 전화번호, 래미안공덕3차 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-5016-3887",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "래미안공덕3차아파트 전화번호, 래미안공덕3차 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -466,51 +625,23 @@
       "address": "서울 마포구 마포대로11길 50\n서울 마포구 공덕동 464",
       "roadAddress": "서울 마포구 마포대로11길 50",
       "jibunAddress": "서울 마포구 공덕동 464",
-      "phone": "02-717-5042",
+      "phone": "02-3272-3438",
       "phones": [
-        "02-717-5042",
-        "02-717-5041",
-        "02-701-9116"
+        "02-3272-3438"
       ],
       "phoneCandidates": [
         {
-          "number": "02-717-5042",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-3272-3438",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "래미안공덕4차아파트 전화번호, 래미안공덕4차 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-717-5041",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-701-9116",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -518,9 +649,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_래미안공덕4차"
@@ -542,51 +673,37 @@
       "address": "서울 마포구 마포대로 109\n서울 마포구 공덕동 467",
       "roadAddress": "서울 마포구 마포대로 109",
       "jibunAddress": "서울 마포구 공덕동 467",
-      "phone": "02-532-7786",
+      "phone": "02-706-5601",
       "phones": [
-        "02-532-7786",
-        "02-875-8886",
-        "02-6404-4286"
+        "02-706-5601",
+        "02-1833-4903"
       ],
       "phoneCandidates": [
         {
-          "number": "02-532-7786",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-706-5601",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "롯데캐슬프레지던트아파트 전화번호, 롯데캐슬프레지던트 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-875-8886",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-1833-4903",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "롯데캐슬프레지던트아파트 전화번호, 롯데캐슬프레지던트 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-6404-4286",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -594,88 +711,12 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 79,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_롯데캐슬프레지던트"
-    },
-    {
-      "kaptCode": "",
-      "name": "르네상스타워오피스텔",
-      "aliases": [
-        {
-          "name": "르네상스타워오피스텔",
-          "source": "카카오"
-        }
-      ],
-      "type": "오피스텔",
-      "city": "마포구",
-      "sido": "서울특별시",
-      "district": "마포구",
-      "dong": "공덕동",
-      "address": "서울 마포구 만리재로 14\n서울 마포구 공덕동 456",
-      "roadAddress": "서울 마포구 만리재로 14",
-      "jibunAddress": "서울 마포구 공덕동 456",
-      "phone": "02-711-7878",
-      "phones": [
-        "02-711-7878",
-        "02-707-3317",
-        "02-707-1682"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-711-7878",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-707-3317",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-707-1682",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
-      "reportCount": 0,
-      "confidenceScore": 100,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "서울특별시_마포구_르네상스타워"
     },
     {
       "kaptCode": "",
@@ -726,23 +767,107 @@
       "address": "서울 마포구 마포대로 173\n서울 마포구 공덕동 463",
       "roadAddress": "서울 마포구 마포대로 173",
       "jibunAddress": "서울 마포구 공덕동 463",
-      "phone": "02-719-0808",
+      "phone": "02-704-0011",
       "phones": [
-        "02-719-0808"
+        "02-704-0011",
+        "02-3272-2224",
+        "02-6353-1555",
+        "010-6598-1796",
+        "02-711-0108",
+        "010-3903-3831",
+        "02-3142-2304"
       ],
       "phoneCandidates": [
         {
-          "number": "02-719-0808",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-704-0011",
+          "score": 89,
+          "source": "카카오",
+          "keyword": "마포현대하이엘오피스텔 전화번호, 마포현대하이엘 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-3272-2224",
+          "score": 87,
+          "source": "카카오",
+          "keyword": "마포현대하이엘오피스텔 전화번호, 마포현대하이엘 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-6353-1555",
+          "score": 85,
+          "source": "카카오",
+          "keyword": "마포현대하이엘오피스텔 전화번호, 마포현대하이엘 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-6598-1796",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "마포현대하이엘오피스텔 전화번호, 마포현대하이엘 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-711-0108",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "마포현대하이엘오피스텔 전화번호, 마포현대하이엘 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-3903-3831",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "마포현대하이엘오피스텔 전화번호, 마포현대하이엘 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-3142-2304",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "마포현대하이엘오피스텔 전화번호, 마포현대하이엘 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -752,7 +877,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 89,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포현대하이엘"
@@ -774,61 +899,17 @@
       "address": "서울 마포구 독막로24길 9\n서울 마포구 구수동 16-5",
       "roadAddress": "서울 마포구 독막로24길 9",
       "jibunAddress": "서울 마포구 구수동 16-5",
-      "phone": "02-959-8322",
-      "phones": [
-        "02-959-8322",
-        "02-959-8320",
-        "02-396-2067"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-959-8322",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-959-8320",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-396-2067",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_수자인"
@@ -850,47 +931,17 @@
       "address": "서울 마포구 신촌로16길 29\n서울 마포구 노고산동 57-50",
       "roadAddress": "서울 마포구 신촌로16길 29",
       "jibunAddress": "서울 마포구 노고산동 57-50",
-      "phone": "02-470-0569",
-      "phones": [
-        "02-470-0569",
-        "02-312-7889"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-470-0569",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-312-7889",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_에피소드신촌369"
@@ -912,51 +963,79 @@
       "address": "서울 마포구 독막로 266\n서울 마포구 대흥동 660",
       "roadAddress": "서울 마포구 독막로 266",
       "jibunAddress": "서울 마포구 대흥동 660",
-      "phone": "02-718-6942",
+      "phone": "02-3275-3366",
       "phones": [
-        "02-718-6942",
-        "02-3275-7100",
-        "02-707-0304"
+        "02-3275-3366",
+        "02-707-3995",
+        "02-3275-7667",
+        "02-714-2708",
+        "02-719-3388"
       ],
       "phoneCandidates": [
         {
-          "number": "02-718-6942",
+          "number": "02-3275-3366",
           "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "source": "카카오",
+          "keyword": "서울 마포구 대흥동 660 관리사무소, 서울 마포구 대흥동 660 관리실, 서울 마포구 독막로 266 관리사무소, 서울 마포구 독막로 266 관리실, 마포구 대흥동태영 관리사무소, 마포구 마포구 대흥동태영 관리사무소, 마포구 대흥동태영 관리실, 대흥동태영아파트 관리사무소, 대흥동태영아파트 관리실, 대흥동 대흥동태영 관리사",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 16
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 16
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 16회"
         },
         {
-          "number": "02-3275-7100",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-707-3995",
+          "score": 87,
+          "source": "카카오",
+          "keyword": "대흥동태영아파트 전화번호, 대흥동태영 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-707-0304",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-3275-7667",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "대흥동태영아파트 전화번호, 대흥동태영 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-714-2708",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "대흥동태영아파트 전화번호, 대흥동태영 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-719-3388",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "대흥동태영아파트 전화번호, 대흥동태영 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -988,61 +1067,17 @@
       "address": "서울 마포구 대흥로 175\n서울 마포구 대흥동 806",
       "roadAddress": "서울 마포구 대흥로 175",
       "jibunAddress": "서울 마포구 대흥동 806",
-      "phone": "02-3275-1905",
-      "phones": [
-        "02-3275-1905",
-        "02-713-0045",
-        "02-6080-4119"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-3275-1905",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-713-0045",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-6080-4119",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포그랑자이"
@@ -1064,51 +1099,79 @@
       "address": "서울 마포구 서강대길 40\n서울 마포구 대흥동 804",
       "roadAddress": "서울 마포구 서강대길 40",
       "jibunAddress": "서울 마포구 대흥동 804",
-      "phone": "02-703-9991",
+      "phone": "02-3275-3925",
       "phones": [
-        "02-703-9991",
-        "02-703-9992",
-        "02-3275-3925"
+        "02-3275-3925",
+        "070-4792-7998",
+        "02-713-5656",
+        "02-376-7655",
+        "02-1833-4903"
       ],
       "phoneCandidates": [
         {
-          "number": "02-703-9991",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-703-9992",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
           "number": "02-3275-3925",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "서울 마포구 대흥동 804 관리사무소, 서울 마포구 대흥동 804 관리실, 서울 마포구 서강대길 40 관리사무소, 서울 마포구 서강대길 40 관리실, 마포자이2차아파트 관리사무소, 마포자이2차아파트 관리실, 마포자이2차 관리사무소, 마포자이2차 관리실, 마포자이2차아파트 관리단, 마포자이2차 관리단",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 10
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 10
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 10회"
+        },
+        {
+          "number": "070-4792-7998",
+          "score": 85,
+          "source": "카카오",
+          "keyword": "마포자이2차아파트 전화번호, 마포자이2차 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-713-5656",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "마포자이2차아파트 전화번호, 마포자이2차 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-376-7655",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "마포자이2차아파트 전화번호, 마포자이2차 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-1833-4903",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "마포자이2차아파트 전화번호, 마포자이2차 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -1140,51 +1203,51 @@
       "address": "서울 마포구 신촌로 160\n서울 마포구 대흥동 12-41",
       "roadAddress": "서울 마포구 신촌로 160",
       "jibunAddress": "서울 마포구 대흥동 12-41",
-      "phone": "02-717-9697",
+      "phone": "010-4024-8712",
       "phones": [
-        "02-717-9697",
-        "02-718-2500",
-        "02-364-4080"
+        "010-4024-8712",
+        "010-2068-9652",
+        "010-5605-1739"
       ],
       "phoneCandidates": [
         {
-          "number": "02-717-9697",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "010-4024-8712",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "이대역서희스타힐스 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         },
         {
-          "number": "02-718-2500",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "010-2068-9652",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "이대역서희스타힐스 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         },
         {
-          "number": "02-364-4080",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "010-5605-1739",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "이대역서희스타힐스 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -1192,9 +1255,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_이대역서희스타힐스"
@@ -1216,61 +1279,17 @@
       "address": "서울 마포구 신촌로 170\n서울 마포구 대흥동 12-27",
       "roadAddress": "서울 마포구 신촌로 170",
       "jibunAddress": "서울 마포구 대흥동 12-27",
-      "phone": "02-719-4000",
-      "phones": [
-        "02-719-4000",
-        "02-701-8949",
-        "02-706-0015"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-719-4000",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-701-8949",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-706-0015",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_이대역푸르지오시티"
@@ -1292,51 +1311,79 @@
       "address": "서울 마포구 삼개로 38\n서울 마포구 도화동 82",
       "roadAddress": "서울 마포구 삼개로 38",
       "jibunAddress": "서울 마포구 도화동 82",
-      "phone": "02-826-5047",
+      "phone": "02-717-0594",
       "phones": [
-        "02-826-5047",
-        "02-701-4623",
-        "02-702-7559"
+        "02-717-0594",
+        "02-715-0808",
+        "010-9725-4772",
+        "010-2738-7664",
+        "070-4246-5754"
       ],
       "phoneCandidates": [
         {
-          "number": "02-826-5047",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-717-0594",
+          "score": 85,
+          "source": "카카오",
+          "keyword": "도화3지구우성아파트 전화번호, 도화3지구우성 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-701-4623",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-715-0808",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "도화3지구우성아파트 전화번호, 도화3지구우성 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-702-7559",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "010-9725-4772",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "도화3지구우성아파트 전화번호, 도화3지구우성 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-2738-7664",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "도화3지구우성아파트 전화번호, 도화3지구우성 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "070-4246-5754",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "도화3지구우성아파트 전화번호, 도화3지구우성 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -1346,7 +1393,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 85,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_도화3지구우성"
@@ -1368,51 +1415,79 @@
       "address": "서울 마포구 삼개로 33\n서울 마포구 도화동 83",
       "roadAddress": "서울 마포구 삼개로 33",
       "jibunAddress": "서울 마포구 도화동 83",
-      "phone": "02-701-4623",
+      "phone": "02-717-0594",
       "phones": [
-        "02-701-4623",
-        "02-701-4725",
-        "02-826-5047"
+        "02-717-0594",
+        "02-715-0808",
+        "010-9725-4772",
+        "010-2738-7664",
+        "070-4246-5754"
       ],
       "phoneCandidates": [
         {
-          "number": "02-701-4623",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-717-0594",
+          "score": 85,
+          "source": "카카오",
+          "keyword": "도화3지구우성아파트 관리사무소 전화번호, 도화3지구우성 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-701-4725",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-715-0808",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "도화3지구우성아파트 관리사무소 전화번호, 도화3지구우성 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-826-5047",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "010-9725-4772",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "도화3지구우성아파트 관리사무소 전화번호, 도화3지구우성 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-2738-7664",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "도화3지구우성아파트 관리사무소 전화번호, 도화3지구우성 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "070-4246-5754",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "도화3지구우성아파트 관리사무소 전화번호, 도화3지구우성 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -1422,7 +1497,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 85,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_도화3지구우성"
@@ -1444,61 +1519,17 @@
       "address": "서울 마포구 독막로 320\n서울 마포구 도화동 560",
       "roadAddress": "서울 마포구 독막로 320",
       "jibunAddress": "서울 마포구 도화동 560",
-      "phone": "02-3275-7100",
-      "phones": [
-        "02-3275-7100",
-        "02-993-0661",
-        "02-719-0808"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-3275-7100",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-993-0661",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-719-0808",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포태영데시앙루브"
@@ -1523,50 +1554,63 @@
       "phone": "02-702-6640",
       "phones": [
         "02-702-6640",
-        "02-393-0132",
-        "02-703-7010"
+        "02-706-4336",
+        "02-719-8198",
+        "02-2235-2332"
       ],
       "phoneCandidates": [
         {
           "number": "02-702-6640",
           "score": 100,
-          "source": "카카오, 네이버부동산",
-          "keyword": "마포구 오피스텔, existing, naver_land_management",
+          "source": "카카오",
+          "keyword": "마포구 오피스텔, existing, 마포트라팰리스오피스텔 전화번호, 마포트라팰리스 전화번호",
           "sourceCounts": {
-            "카카오": 2,
-            "네이버부동산": 1
+            "카카오": 4
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+          "sourceSummary": "카카오 4회"
         },
         {
-          "number": "02-393-0132",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-706-4336",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "마포트라팰리스오피스텔 전화번호, 마포트라팰리스 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-703-7010",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-719-8198",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "마포트라팰리스오피스텔 전화번호, 마포트라팰리스 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-2235-2332",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "마포트라팰리스오피스텔 전화번호, 마포트라팰리스 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -1598,51 +1642,51 @@
       "address": "서울 마포구 마포대로 33\n서울 마포구 도화동 555",
       "roadAddress": "서울 마포구 마포대로 33",
       "jibunAddress": "서울 마포구 도화동 555",
-      "phone": "02-717-9375",
+      "phone": "02-717-9352",
       "phones": [
-        "02-717-9375",
-        "02-717-9353",
-        "02-717-9352"
+        "02-717-9352",
+        "010-2121-7749",
+        "010-8290-9022"
       ],
       "phoneCandidates": [
         {
-          "number": "02-717-9375",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-717-9353",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
           "number": "02-717-9352",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "서울 마포구 도화동 555 관리사무소, 서울 마포구 도화동 555 관리실, 서울 마포구 마포대로 33 관리사무소, 서울 마포구 마포대로 33 관리실, 도화동 마포한화오벨리스크 관리사무소, 마포구 마포한화오벨리스크 관리사무소, 마포구 마포구 마포한화오벨리스크 관리사무소, 마포구 마포한화오벨리스크 관리실",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 8
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 8
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 8회"
+        },
+        {
+          "number": "010-2121-7749",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "마포한화오벨리스크아파트 전화번호, 마포한화오벨리스크 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-8290-9022",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "서울 마포구 마포대로 33 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -1674,51 +1718,93 @@
       "address": "서울 마포구 마포대로 92\n서울 마포구 도화동 25-13",
       "roadAddress": "서울 마포구 마포대로 92",
       "jibunAddress": "서울 마포구 도화동 25-13",
-      "phone": "02-470-0569",
+      "phone": "03-7153-6182",
       "phones": [
-        "02-470-0569",
-        "02-719-8830",
-        "02-718-2777"
+        "03-7153-6182",
+        "02-2197-1860",
+        "02-2197-0230",
+        "02-334-1008",
+        "02-2197-1730",
+        "02-2197-1700"
       ],
       "phoneCandidates": [
         {
-          "number": "02-470-0569",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "03-7153-6182",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "효성해링턴스퀘어 B동 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         },
         {
-          "number": "02-719-8830",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-2197-1860",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "효성해링턴스퀘어 B동 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         },
         {
-          "number": "02-718-2777",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-2197-0230",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "효성해링턴스퀘어 B동 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-334-1008",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "효성해링턴스퀘어 B동 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-2197-1730",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "효성해링턴스퀘어 B동 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-2197-1700",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "효성해링턴스퀘어 B동 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -1726,9 +1812,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_효성해링턴스퀘어b동"
@@ -1750,37 +1836,23 @@
       "address": "서울 마포구 마포대로 26\n서울 마포구 마포동 451",
       "roadAddress": "서울 마포구 마포대로 26",
       "jibunAddress": "서울 마포구 마포동 451",
-      "phone": "02-539-3435",
+      "phone": "02-732-9500",
       "phones": [
-        "02-539-3435",
-        "02-797-2004"
+        "02-732-9500"
       ],
       "phoneCandidates": [
         {
-          "number": "02-539-3435",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-732-9500",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "마포뉴매드오피스텔 전화번호, 마포뉴매드 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-797-2004",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -1788,9 +1860,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포뉴매드"
@@ -1812,61 +1884,17 @@
       "address": "서울 마포구 희우정로 77\n서울 마포구 망원동 521",
       "roadAddress": "서울 마포구 희우정로 77",
       "jibunAddress": "서울 마포구 망원동 521",
-      "phone": "02-322-7514",
-      "phones": [
-        "02-322-7514",
-        "02-322-7510",
-        "02-704-4989"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-322-7514",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-322-7510",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-704-4989",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포한강아이파크"
@@ -1888,65 +1916,73 @@
       "address": "서울 마포구 희우정로 77\n서울 마포구 망원동 458-18",
       "roadAddress": "서울 마포구 희우정로 77",
       "jibunAddress": "서울 마포구 망원동 458-18",
-      "phone": "02-373-5402",
+      "phone": "02-322-7510",
       "phones": [
-        "02-373-5402",
-        "02-334-0000",
-        "02-807-5050",
         "02-322-7510"
       ],
       "phoneCandidates": [
         {
-          "number": "02-373-5402",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-334-0000",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-807-5050",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
           "number": "02-322-7510",
-          "score": 83,
+          "score": 96,
           "source": "카카오",
-          "keyword": "마포구 아이파크, existing",
+          "keyword": "마포구 아이파크, existing, 마포한강아이파크작은도서관 전화번호",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 장소검색": 2
+            "카카오 장소검색": 2,
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CONFIRMED",
+      "reportCount": 0,
+      "confidenceScore": 96,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "서울특별시_마포구_마포한강아이파크작은도서관"
+    },
+    {
+      "kaptCode": "",
+      "name": "망원휴먼빌아파트 관리사무소",
+      "aliases": [
+        {
+          "name": "망원휴먼빌아파트 관리사무소",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "마포구",
+      "sido": "서울특별시",
+      "district": "마포구",
+      "dong": "망원동",
+      "address": "서울 마포구 방울내로 31\n서울 마포구 망원동 509",
+      "roadAddress": "서울 마포구 방울내로 31",
+      "jibunAddress": "서울 마포구 망원동 509",
+      "phone": "02-3143-6815",
+      "phones": [
+        "02-3143-6815"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3143-6815",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "마포구 아파트 관리사무소, existing, 서울 마포구 망원동 509 관리사무소, 서울 마포구 망원동 509 관리실, 서울 마포구 방울내로 31 관리사무소, 서울 마포구 방울내로 31 관리실, 망원동 망원휴먼빌 관리사무소, 마포구 망원휴먼빌 관리사무소, 마포구 마포구 망원휴먼빌 관리사무소, 마포구 망원휴먼빌 관리실, 망",
+          "sourceCounts": {
+            "카카오": 12
+          },
+          "sourceDetails": {
+            "카카오 장소검색": 2,
+            "카카오 주소일치 전화번호 보강": 10
+          },
+          "sourceSummary": "카카오 12회"
         }
       ],
       "households": "",
@@ -1959,7 +1995,7 @@
       "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "서울특별시_마포구_마포한강아이파크작은도서관"
+      "sharedKey": "서울특별시_마포구_망원휴먼빌"
     },
     {
       "kaptCode": "",
@@ -1978,61 +2014,17 @@
       "address": "서울 마포구 독막로20나길 21\n서울 마포구 상수동 398",
       "roadAddress": "서울 마포구 독막로20나길 21",
       "jibunAddress": "서울 마포구 상수동 398",
-      "phone": "02-334-5668",
-      "phones": [
-        "02-334-5668",
-        "02-334-5601",
-        "02-3141-6000"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-334-5668",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-334-5601",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-3141-6000",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_래미안밤섬리베뉴ii"
@@ -2054,51 +2046,23 @@
       "address": "서울 마포구 독막로18길 5\n서울 마포구 상수동 396",
       "roadAddress": "서울 마포구 독막로18길 5",
       "jibunAddress": "서울 마포구 상수동 396",
-      "phone": "02-322-0675",
+      "phone": "02-1833-4903",
       "phones": [
-        "02-322-0675",
-        "02-322-0685",
-        "02-971-6636"
+        "02-1833-4903"
       ],
       "phoneCandidates": [
         {
-          "number": "02-322-0675",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-1833-4903",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "상수두산위브아파트 전화번호, 상수두산위브 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-322-0685",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-971-6636",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -2106,9 +2070,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_상수두산위브"
@@ -2130,23 +2094,37 @@
       "address": "서울 마포구 월드컵북로 375\n서울 마포구 상암동 1654",
       "roadAddress": "서울 마포구 월드컵북로 375",
       "jibunAddress": "서울 마포구 상암동 1654",
-      "phone": "02-305-0050",
+      "phone": "02-6393-6171",
       "phones": [
-        "02-305-0050"
+        "02-6393-6171",
+        "02-6959-1300"
       ],
       "phoneCandidates": [
         {
-          "number": "02-305-0050",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-6393-6171",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "DMC상암이안1단지오피스텔 전화번호, DMC상암이안1단지 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-6959-1300",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "DMC상암이안1단지오피스텔 전화번호, DMC상암이안1단지 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -2154,9 +2132,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 79,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_dmc상암이안1"
@@ -2178,51 +2156,37 @@
       "address": "서울 마포구 월드컵북로54길 17\n서울 마포구 상암동 1597",
       "roadAddress": "서울 마포구 월드컵북로54길 17",
       "jibunAddress": "서울 마포구 상암동 1597",
-      "phone": "02-3143-4959",
+      "phone": "02-304-9293",
       "phones": [
-        "02-3143-4959",
-        "02-303-8500",
-        "02-303-4008"
+        "02-304-9293",
+        "02-308-9503"
       ],
       "phoneCandidates": [
         {
-          "number": "02-3143-4959",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-304-9293",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "사보이시티DMC오피스텔 전화번호, 사보이시티DMC 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-303-8500",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-308-9503",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "사보이시티DMC오피스텔 전화번호, 사보이시티DMC 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-303-4008",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -2230,9 +2194,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 79,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_사보이시티dmc"
@@ -2254,51 +2218,23 @@
       "address": "서울 마포구 월드컵북로54길 25\n서울 마포구 상암동 1596",
       "roadAddress": "서울 마포구 월드컵북로54길 25",
       "jibunAddress": "서울 마포구 상암동 1596",
-      "phone": "02-470-0569",
+      "phone": "02-6398-0094",
       "phones": [
-        "02-470-0569",
-        "02-322-5112",
-        "02-303-8500"
+        "02-6398-0094"
       ],
       "phoneCandidates": [
         {
-          "number": "02-470-0569",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-6398-0094",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "상암DMC푸르지오시티S-City오피스텔 전화번호, 상암DMC푸르지오시티S-City 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-322-5112",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-303-8500",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -2306,9 +2242,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_상암dmc푸르지오시티scity"
@@ -2330,61 +2266,17 @@
       "address": "서울 마포구 구룡길 19\n서울 마포구 상암동 1734",
       "roadAddress": "서울 마포구 구룡길 19",
       "jibunAddress": "서울 마포구 상암동 1734",
-      "phone": "02-455-0984",
-      "phones": [
-        "02-455-0984",
-        "02-3271-1326",
-        "02-308-2800"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-455-0984",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-3271-1326",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-308-2800",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_상암한화오벨리스크"
@@ -2406,61 +2298,17 @@
       "address": "서울 마포구 양화로 45\n서울 마포구 서교동 490",
       "roadAddress": "서울 마포구 양화로 45",
       "jibunAddress": "서울 마포구 서교동 490",
-      "phone": "02-334-8181",
-      "phones": [
-        "02-334-8181",
-        "02-334-8182",
-        "02-2039-6564"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-334-8181",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-334-8182",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-2039-6564",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_메세나폴리스"
@@ -2484,51 +2332,22 @@
       "jibunAddress": "서울 마포구 서교동 394-45",
       "phone": "02-325-3022",
       "phones": [
-        "02-325-3022",
-        "02-812-8935",
-        "02-564-7766"
+        "02-325-3022"
       ],
       "phoneCandidates": [
         {
           "number": "02-325-3022",
           "score": 100,
-          "source": "카카오, 네이버부동산",
-          "keyword": "마포구 오피스텔 관리사무소, existing, naver_land_management",
+          "source": "카카오",
+          "keyword": "마포구 오피스텔 관리사무소, existing, 서교동 명지빌드웰 관리사무소, 마포구 명지빌드웰 관리사무소, 마포구 마포구 명지빌드웰 관리사무소, 마포구 명지빌드웰 관리실, 명지빌드웰오피스텔 관리사무소 전화번호, 명지빌드웰 전화번호",
           "sourceCounts": {
-            "카카오": 2,
-            "네이버부동산": 1
+            "카카오": 8
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 6
           },
-          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
-        },
-        {
-          "number": "02-812-8935",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-564-7766",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 8회"
         }
       ],
       "households": "",
@@ -2560,61 +2379,17 @@
       "address": "서울 마포구 양화로 72\n서울 마포구 서교동 494",
       "roadAddress": "서울 마포구 양화로 72",
       "jibunAddress": "서울 마포구 서교동 494",
-      "phone": "02-335-2203",
-      "phones": [
-        "02-335-2203",
-        "02-335-2204",
-        "02-470-0569"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-335-2203",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-335-2204",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-470-0569",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_서교동효성해링턴타워"
@@ -2636,51 +2411,79 @@
       "address": "서울 마포구 홍익로 10\n서울 마포구 서교동 486",
       "roadAddress": "서울 마포구 홍익로 10",
       "jibunAddress": "서울 마포구 서교동 486",
-      "phone": "02-3141-5588",
+      "phone": "02-333-0296",
       "phones": [
-        "02-3141-5588",
-        "02-334-5921",
-        "02-334-8181"
+        "02-333-0296",
+        "02-338-4987",
+        "02-332-7470",
+        "010-2815-4489",
+        "070-4151-1102"
       ],
       "phoneCandidates": [
         {
-          "number": "02-3141-5588",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-333-0296",
+          "score": 85,
+          "source": "카카오",
+          "keyword": "서교푸르지오아파트 전화번호, 서교푸르지오 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-334-5921",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-338-4987",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "서교푸르지오아파트 전화번호, 서교푸르지오 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-334-8181",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-332-7470",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "서교푸르지오아파트 전화번호, 서교푸르지오 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-2815-4489",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "서교푸르지오아파트 전화번호, 서교푸르지오 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "070-4151-1102",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "서교푸르지오아파트 전화번호, 서교푸르지오 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -2690,7 +2493,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 85,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_서교푸르지오"
@@ -2712,61 +2515,17 @@
       "address": "서울 마포구 어울마당로 130\n서울 마포구 서교동 347-21",
       "roadAddress": "서울 마포구 어울마당로 130",
       "jibunAddress": "서울 마포구 서교동 347-21",
-      "phone": "02-904-5130",
-      "phones": [
-        "02-904-5130",
-        "02-814-2945",
-        "02-470-0569"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-904-5130",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-814-2945",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-470-0569",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_수자인"
@@ -2788,61 +2547,17 @@
       "address": "서울 마포구 월드컵북로5길 54-18\n서울 마포구 서교동 451-14",
       "roadAddress": "서울 마포구 월드컵북로5길 54-18",
       "jibunAddress": "서울 마포구 서교동 451-14",
-      "phone": "02-6388-6079",
-      "phones": [
-        "02-6388-6079",
-        "02-6388-6072",
-        "02-855-7024"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-6388-6079",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-6388-6072",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-855-7024",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_진흥푸르지오"
@@ -2866,51 +2581,22 @@
       "jibunAddress": "서울 마포구 성산동 595",
       "phone": "02-375-0332",
       "phones": [
-        "02-375-0332",
-        "02-372-2695",
-        "02-698-0105"
+        "02-375-0332"
       ],
       "phoneCandidates": [
         {
           "number": "02-375-0332",
           "score": 100,
-          "source": "카카오, 네이버부동산",
-          "keyword": "마포구 아파트 관리사무소, existing, naver_land_management",
+          "source": "카카오",
+          "keyword": "마포구 아파트 관리사무소, existing, 서울 마포구 성산동 595 관리사무소, 서울 마포구 성산동 595 관리실, 서울 마포구 월드컵로 215 관리사무소, 서울 마포구 월드컵로 215 관리실, 성산동 SH성산 관리사무소, 마포구 SH성산 관리사무소, 마포구 마포구 SH성산 관리사무소, 마포구 SH성산 관리실, SH성",
           "sourceCounts": {
-            "카카오": 2,
-            "네이버부동산": 1
+            "카카오": 12
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 10
           },
-          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
-        },
-        {
-          "number": "02-372-2695",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-698-0105",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 12회"
         }
       ],
       "households": "",
@@ -2942,61 +2628,17 @@
       "address": "서울 마포구 월드컵로36길 14\n서울 마포구 성산동 590-1",
       "roadAddress": "서울 마포구 월드컵로36길 14",
       "jibunAddress": "서울 마포구 성산동 590-1",
-      "phone": "02-303-6603",
-      "phones": [
-        "02-303-6603",
-        "02-592-2560",
-        "02-3417-1010"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-303-6603",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-592-2560",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-3417-1010",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_상암두산위브센티움"
@@ -3018,61 +2660,17 @@
       "address": "서울 마포구 월드컵북로 216\n서울 마포구 성산동 604",
       "roadAddress": "서울 마포구 월드컵북로 216",
       "jibunAddress": "서울 마포구 성산동 604",
-      "phone": "02-372-1437",
-      "phones": [
-        "02-372-1437",
-        "02-302-8522",
-        "02-375-9030"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-372-1437",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-302-8522",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-375-9030",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_성산2차e편한세상"
@@ -3094,61 +2692,17 @@
       "address": "서울 마포구 월드컵북로 235\n서울 마포구 성산동 446",
       "roadAddress": "서울 마포구 월드컵북로 235",
       "jibunAddress": "서울 마포구 성산동 446",
-      "phone": "02-373-3498",
-      "phones": [
-        "02-373-3498",
-        "02-487-7603",
-        "02-374-3863"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-373-3498",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-487-7603",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-374-3863",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_성산시영"
@@ -3170,61 +2724,17 @@
       "address": "서울 마포구 모래내로9길 6\n서울 마포구 성산동 667",
       "roadAddress": "서울 마포구 모래내로9길 6",
       "jibunAddress": "서울 마포구 성산동 667",
-      "phone": "02-373-6101",
-      "phones": [
-        "02-373-6101",
-        "02-373-6100",
-        "02-3153-9206"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-373-6101",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-373-6100",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-3153-9206",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_월드컵아이파크1차"
@@ -3246,142 +2756,20 @@
       "address": "서울 마포구 모래내로9길 3\n서울 마포구 성산동 666",
       "roadAddress": "서울 마포구 모래내로9길 3",
       "jibunAddress": "서울 마포구 성산동 666",
-      "phone": "02-373-6100",
-      "phones": [
-        "02-373-6100",
-        "02-376-3999",
-        "02-3662-7053"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-373-6100",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-376-3999",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-3662-7053",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_월드컵아이파크2차"
-    },
-    {
-      "kaptCode": "",
-      "name": "이안상암1차아파트 관리사무소",
-      "aliases": [
-        {
-          "name": "이안상암1차아파트 관리사무소",
-          "source": "카카오"
-        }
-      ],
-      "type": "아파트",
-      "city": "마포구",
-      "sido": "서울특별시",
-      "district": "마포구",
-      "dong": "성산동",
-      "address": "서울 마포구 월드컵로 204\n서울 마포구 성산동 591-1",
-      "roadAddress": "서울 마포구 월드컵로 204",
-      "jibunAddress": "서울 마포구 성산동 591-1",
-      "phone": "02-308-0820",
-      "phones": [
-        "02-308-0820",
-        "02-482-2731",
-        "02-375-9030"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-308-0820",
-          "score": 100,
-          "source": "카카오, 네이버부동산",
-          "keyword": "마포구 아파트 관리사무소, existing, naver_land_management",
-          "sourceCounts": {
-            "카카오": 2,
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "카카오 장소검색": 2,
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
-        },
-        {
-          "number": "02-482-2731",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-375-9030",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
-      "reportCount": 0,
-      "confidenceScore": 100,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "서울특별시_마포구_이안상암1차"
     },
     {
       "kaptCode": "",
@@ -3400,61 +2788,17 @@
       "address": "서울 마포구 만리재로 36\n서울 마포구 신공덕동 174",
       "roadAddress": "서울 마포구 만리재로 36",
       "jibunAddress": "서울 마포구 신공덕동 174",
-      "phone": "02-701-7833",
-      "phones": [
-        "02-701-7833",
-        "02-701-7832",
-        "02-704-4989"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-701-7833",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-701-7832",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-704-4989",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_공덕아이파크"
@@ -3479,50 +2823,35 @@
       "phone": "02-711-8366",
       "phones": [
         "02-711-8366",
-        "02-711-8368",
-        "02-6336-0869"
+        "03-7150-4810"
       ],
       "phoneCandidates": [
         {
           "number": "02-711-8366",
           "score": 100,
-          "source": "카카오, 네이버부동산",
-          "keyword": "마포구 푸르지오, existing, naver_land_management",
+          "source": "카카오",
+          "keyword": "마포구 푸르지오, existing, 공덕푸르지오펜트라우스아파트 전화번호, 공덕푸르지오펜트라우스 전화번호",
           "sourceCounts": {
-            "카카오": 2,
-            "네이버부동산": 1
+            "카카오": 4
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+          "sourceSummary": "카카오 4회"
         },
         {
-          "number": "02-711-8368",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "03-7150-4810",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "공덕푸르지오펜트라우스아파트 전화번호, 공덕푸르지오펜트라우스 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-6336-0869",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -3536,6 +2865,54 @@
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_공덕푸르지오펜트라우스"
+    },
+    {
+      "kaptCode": "",
+      "name": "메트로디오빌오피스텔",
+      "aliases": [
+        {
+          "name": "메트로디오빌오피스텔",
+          "source": "카카오"
+        }
+      ],
+      "type": "오피스텔",
+      "city": "마포구",
+      "sido": "서울특별시",
+      "district": "마포구",
+      "dong": "신공덕동",
+      "address": "서울 마포구 백범로 199\n서울 마포구 신공덕동 167",
+      "roadAddress": "서울 마포구 백범로 199",
+      "jibunAddress": "서울 마포구 신공덕동 167",
+      "phone": "010-4775-0615",
+      "phones": [
+        "010-4775-0615"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-4775-0615",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "메트로디오빌오피스텔 전화번호, 메트로디오빌 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CANDIDATE",
+      "reportCount": 0,
+      "confidenceScore": 77,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "서울특별시_마포구_메트로디오빌"
     },
     {
       "kaptCode": "",
@@ -3554,61 +2931,17 @@
       "address": "서울 마포구 백범로 239\n서울 마포구 신공덕동 168",
       "roadAddress": "서울 마포구 백범로 239",
       "jibunAddress": "서울 마포구 신공덕동 168",
-      "phone": "02-701-2933",
-      "phones": [
-        "02-701-2933",
-        "02-701-2934",
-        "02-718-8664"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-701-2933",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-701-2934",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-718-8664",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_신공덕e편한세상"
@@ -3633,48 +2966,34 @@
       "phone": "02-3274-0513",
       "phones": [
         "02-3274-0513",
-        "02-714-7244",
-        "02-713-1449"
+        "02-701-5478"
       ],
       "phoneCandidates": [
         {
           "number": "02-3274-0513",
           "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "source": "카카오",
+          "keyword": "서울 마포구 신공덕동 155 관리사무소, 서울 마포구 신공덕동 155 관리실, 서울 마포구 백범로37길 12 관리사무소, 서울 마포구 백범로37길 12 관리실",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 4
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 4
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 4회"
         },
         {
-          "number": "02-714-7244",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-701-5478",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "서울 마포구 신공덕동 155 관리사무소, 서울 마포구 신공덕동 155 관리실, 서울 마포구 백범로37길 12 관리사무소, 서울 마포구 백범로37길 12 관리실",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 4
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 4
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-713-1449",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 4회"
         }
       ],
       "households": "",
@@ -3706,51 +3025,23 @@
       "address": "서울 마포구 만리재로 24\n서울 마포구 신공덕동 178",
       "roadAddress": "서울 마포구 만리재로 24",
       "jibunAddress": "서울 마포구 신공덕동 178",
-      "phone": "02-701-7833",
+      "phone": "02-706-2080",
       "phones": [
-        "02-701-7833",
-        "02-701-7832",
-        "02-079-6643"
+        "02-706-2080"
       ],
       "phoneCandidates": [
         {
-          "number": "02-701-7833",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-706-2080",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "신공덕아이파크 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-701-7832",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-079-6643",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -3758,9 +3049,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_신공덕아이파크"
@@ -3782,61 +3073,17 @@
       "address": "서울 마포구 광성로 17\n서울 마포구 신수동 462",
       "roadAddress": "서울 마포구 광성로 17",
       "jibunAddress": "서울 마포구 신수동 462",
-      "phone": "02-376-3999",
-      "phones": [
-        "02-376-3999",
-        "02-3275-2337",
-        "02-6953-5786"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-376-3999",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-3275-2337",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-6953-5786",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포아이파크포레"
@@ -3858,61 +3105,17 @@
       "address": "서울 마포구 신수로 107\n서울 마포구 신수동 450",
       "roadAddress": "서울 마포구 신수로 107",
       "jibunAddress": "서울 마포구 신수동 450",
-      "phone": "02-714-2976",
-      "phones": [
-        "02-714-2976",
-        "02-713-2977",
-        "02-714-2970"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-714-2976",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-713-2977",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-714-2970",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_신촌삼익"
@@ -3934,61 +3137,17 @@
       "address": "서울 마포구 신수로6길 12\n서울 마포구 신수동 91-90",
       "roadAddress": "서울 마포구 신수로6길 12",
       "jibunAddress": "서울 마포구 신수동 91-90",
-      "phone": "02-701-3458",
-      "phones": [
-        "02-701-3458",
-        "02-701-3457",
-        "02-713-9100"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-701-3458",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-701-3457",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-713-9100",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_힐스테이트마포퍼스트"
@@ -4010,61 +3169,17 @@
       "address": "서울 마포구 마포대로24길 16\n서울 마포구 아현동 800",
       "roadAddress": "서울 마포구 마포대로24길 16",
       "jibunAddress": "서울 마포구 아현동 800",
-      "phone": "02-313-7870",
-      "phones": [
-        "02-313-7870",
-        "02-362-8400",
-        "02-313-3870"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-313-7870",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-362-8400",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-313-3870",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_공덕자이"
@@ -4089,48 +3204,34 @@
       "phone": "02-362-9804",
       "phones": [
         "02-362-9804",
-        "02-365-0800",
-        "02-362-9852"
+        "010-6507-3138"
       ],
       "phoneCandidates": [
         {
           "number": "02-362-9804",
           "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "source": "카카오",
+          "keyword": "서울 마포구 아현동 777 관리사무소, 서울 마포구 아현동 777 관리실, 서울 마포구 마포대로 195 관리사무소, 서울 마포구 마포대로 195 관리실, 아현동 마포래미안푸르지오 관리사무소, 마포구 마포래미안푸르지오 관리사무소, 마포구 마포구 마포래미안푸르지오 관리사무소, 마포구 마포래미안푸르지오 관리실, 마포래미안푸르지",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 16
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 16
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 16회"
         },
         {
-          "number": "02-365-0800",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "010-6507-3138",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "서울 마포구 마포대로 195 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-362-9852",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -4164,49 +3265,21 @@
       "jibunAddress": "서울 마포구 아현동 802",
       "phone": "02-392-0226",
       "phones": [
-        "02-392-0226",
-        "02-525-2419",
-        "02-714-0320"
+        "02-392-0226"
       ],
       "phoneCandidates": [
         {
           "number": "02-392-0226",
           "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "source": "카카오",
+          "keyword": "서울 마포구 아현동 802 관리사무소, 서울 마포구 아현동 802 관리실, 서울 마포구 마포대로 246 관리사무소, 서울 마포구 마포대로 246 관리실, 아현동 마포센트럴아이파크 관리사무소, 마포구 마포센트럴아이파크 관리사무소, 마포구 마포구 마포센트럴아이파크 관리사무소, 마포구 마포센트럴아이파크 관리실, 마포센트럴아이파",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 16
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 16
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-525-2419",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-714-0320",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 16회"
         }
       ],
       "households": "",
@@ -4238,61 +3311,17 @@
       "address": "서울 마포구 신촌로28길 50\n서울 마포구 아현동 804",
       "roadAddress": "서울 마포구 신촌로28길 50",
       "jibunAddress": "서울 마포구 아현동 804",
-      "phone": "02-313-6662",
-      "phones": [
-        "02-313-6662",
-        "02-313-6661",
-        "02-574-2225"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-313-6662",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-313-6661",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-574-2225",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포클래시"
@@ -4314,51 +3343,121 @@
       "address": "서울 마포구 마포대로 231\n서울 마포구 아현동 275-2",
       "roadAddress": "서울 마포구 마포대로 231",
       "jibunAddress": "서울 마포구 아현동 275-2",
-      "phone": "02-362-9665",
+      "phone": "070-7534-8135",
       "phones": [
-        "02-362-9665",
-        "02-362-9664",
-        "02-6953-5786"
+        "070-7534-8135",
+        "02-363-2275",
+        "02-313-1000",
+        "02-393-0620",
+        "02-363-3136",
+        "02-393-0103",
+        "02-2138-1638",
+        "02-363-7101"
       ],
       "phoneCandidates": [
         {
-          "number": "02-362-9665",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "070-7534-8135",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "마포푸르지오더센트럴 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         },
         {
-          "number": "02-362-9664",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-363-2275",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "마포푸르지오더센트럴 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         },
         {
-          "number": "02-6953-5786",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-313-1000",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "마포푸르지오더센트럴 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-393-0620",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "마포푸르지오더센트럴 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-363-3136",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "마포푸르지오더센트럴 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-393-0103",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "마포푸르지오더센트럴 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-2138-1638",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "마포푸르지오더센트럴 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-363-7101",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "마포푸르지오더센트럴 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -4366,9 +3465,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포푸르지오센트럴"
@@ -4392,51 +3491,22 @@
       "jibunAddress": "서울 마포구 아현동 692",
       "phone": "02-363-1644",
       "phones": [
-        "02-363-1644",
-        "02-364-9829",
-        "02-312-3514"
+        "02-363-1644"
       ],
       "phoneCandidates": [
         {
           "number": "02-363-1644",
           "score": 100,
-          "source": "카카오, 네이버부동산",
-          "keyword": "마포구 아파트 관리사무소, existing, naver_land_management",
+          "source": "카카오",
+          "keyword": "마포구 아파트 관리사무소, existing, 서울 마포구 아현동 692 관리사무소, 서울 마포구 아현동 692 관리실, 서울 마포구 마포대로 262 관리사무소, 서울 마포구 마포대로 262 관리실, 아현동 서서울삼성 관리사무소, 마포구 서서울삼성 관리사무소, 마포구 마포구 서서울삼성 관리사무소, 마포구 서서울삼성 관리실,",
           "sourceCounts": {
-            "카카오": 2,
-            "네이버부동산": 1
+            "카카오": 12
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 10
           },
-          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
-        },
-        {
-          "number": "02-364-9829",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-312-3514",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 12회"
         }
       ],
       "households": "",
@@ -4468,51 +3538,121 @@
       "address": "서울 마포구 굴레방로1길 25\n서울 마포구 아현동 780",
       "roadAddress": "서울 마포구 굴레방로1길 25",
       "jibunAddress": "서울 마포구 아현동 780",
-      "phone": "02-392-0226",
+      "phone": "02-365-1600",
       "phones": [
-        "02-392-0226",
-        "02-719-8830",
-        "02-714-0320"
+        "02-365-1600",
+        "02-364-0010",
+        "02-393-9951",
+        "02-313-0705",
+        "02-312-7776",
+        "02-364-2399",
+        "02-393-8575",
+        "02-6081-5505"
       ],
       "phoneCandidates": [
         {
-          "number": "02-392-0226",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-365-1600",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "애오개아이파크 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         },
         {
-          "number": "02-719-8830",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-364-0010",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "애오개아이파크 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         },
         {
-          "number": "02-714-0320",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-393-9951",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "애오개아이파크 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-313-0705",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "애오개아이파크 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-312-7776",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "애오개아이파크 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-364-2399",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "애오개아이파크 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-393-8575",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "애오개아이파크 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "02-6081-5505",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "애오개아이파크 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -4520,9 +3660,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_애오개아이파크"
@@ -4546,49 +3686,21 @@
       "jibunAddress": "서울 마포구 염리동 521",
       "phone": "02-3275-3925",
       "phones": [
-        "02-3275-3925",
-        "02-703-9992",
-        "02-703-9991"
+        "02-3275-3925"
       ],
       "phoneCandidates": [
         {
           "number": "02-3275-3925",
           "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "source": "카카오",
+          "keyword": "서울 마포구 염리동 521 관리사무소, 서울 마포구 염리동 521 관리실, 서울 마포구 독막로42길 2 관리사무소, 서울 마포구 독막로42길 2 관리실, 염리동 마포자이1차 관리사무소, 마포구 마포자이1차 관리사무소, 마포구 마포구 마포자이1차 관리사무소, 마포구 마포자이1차 관리실, 마포자이1차아파트 관리사무소, 마포자",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 16
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 16
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-703-9992",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-703-9991",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 16회"
         }
       ],
       "households": "",
@@ -4620,51 +3732,23 @@
       "address": "서울 마포구 숭문길 98\n서울 마포구 염리동 533",
       "roadAddress": "서울 마포구 숭문길 98",
       "jibunAddress": "서울 마포구 염리동 533",
-      "phone": "02-6953-5786",
+      "phone": "02-701-5555",
       "phones": [
-        "02-6953-5786",
-        "02-3275-2126",
-        "02-964-1887"
+        "02-701-5555"
       ],
       "phoneCandidates": [
         {
-          "number": "02-6953-5786",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-701-5555",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "마포자이더센트리지아파트 전화번호, 마포자이더센트리지 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-3275-2126",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-964-1887",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -4672,9 +3756,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포자이센트리지"
@@ -4696,23 +3780,65 @@
       "address": "서울 마포구 대흥로24길 24\n서울 마포구 염리동 532",
       "roadAddress": "서울 마포구 대흥로24길 24",
       "jibunAddress": "서울 마포구 염리동 532",
-      "phone": "02-6953-5996",
+      "phone": "010-9450-3003",
       "phones": [
-        "02-6953-5996"
+        "010-9450-3003",
+        "02-703-0024",
+        "02-6941-1714",
+        "02-716-7337"
       ],
       "phoneCandidates": [
         {
-          "number": "02-6953-5996",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "010-9450-3003",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "마포프레스티지자이아파트 전화번호, 마포프레스티지자이 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-703-0024",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "마포프레스티지자이아파트 전화번호, 마포프레스티지자이 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-6941-1714",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "마포프레스티지자이아파트 전화번호, 마포프레스티지자이 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-716-7337",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "서울 마포구 대흥로24길 24 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -4720,9 +3846,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 81,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포프레스티지자이"
@@ -4744,51 +3870,23 @@
       "address": "서울 마포구 대흥로24길 24\n서울 마포구 염리동 14-149",
       "roadAddress": "서울 마포구 대흥로24길 24",
       "jibunAddress": "서울 마포구 염리동 14-149",
-      "phone": "02-6953-5996",
+      "phone": "02-716-7337",
       "phones": [
-        "02-6953-5996",
-        "02-713-0045",
-        "02-2068-1023"
+        "02-716-7337"
       ],
       "phoneCandidates": [
         {
-          "number": "02-6953-5996",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-716-7337",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "서울 마포구 대흥로24길 24 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-713-0045",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-2068-1023",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -4796,88 +3894,12 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포프레스티지자이정문"
-    },
-    {
-      "kaptCode": "",
-      "name": "염리삼성래미안아파트",
-      "aliases": [
-        {
-          "name": "염리삼성래미안아파트",
-          "source": "카카오"
-        }
-      ],
-      "type": "아파트",
-      "city": "마포구",
-      "sido": "서울특별시",
-      "district": "마포구",
-      "dong": "염리동",
-      "address": "서울 마포구 백범로25길 63\n서울 마포구 염리동 520",
-      "roadAddress": "서울 마포구 백범로25길 63",
-      "jibunAddress": "서울 마포구 염리동 520",
-      "phone": "02-6953-5786",
-      "phones": [
-        "02-6953-5786",
-        "02-711-9034",
-        "02-711-6317"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-6953-5786",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-711-9034",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-711-6317",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
-      "reportCount": 0,
-      "confidenceScore": 100,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "서울특별시_마포구_염리삼성래미안"
     },
     {
       "kaptCode": "",
@@ -4896,51 +3918,23 @@
       "address": "서울 마포구 토정로31길 24\n서울 마포구 용강동 508",
       "roadAddress": "서울 마포구 토정로31길 24",
       "jibunAddress": "서울 마포구 용강동 508",
-      "phone": "02-706-1120",
+      "phone": "02-713-5249",
       "phones": [
-        "02-706-1120",
-        "02-706-1121",
-        "02-635-1309"
+        "02-713-5249"
       ],
       "phoneCandidates": [
         {
-          "number": "02-706-1120",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-713-5249",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "e편한세상마포리버파크아파트 전화번호, e편한세상마포리버파크 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-706-1121",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-635-1309",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -4948,9 +3942,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_e편한세상마포리버파크"
@@ -4974,51 +3968,22 @@
       "jibunAddress": "서울 마포구 용강동 502",
       "phone": "02-704-6112",
       "phones": [
-        "02-704-6112",
-        "02-719-8000",
-        "02-704-6113"
+        "02-704-6112"
       ],
       "phoneCandidates": [
         {
           "number": "02-704-6112",
           "score": 100,
-          "source": "카카오, 네이버부동산",
-          "keyword": "마포구 아파트 관리사무소, existing, naver_land_management",
+          "source": "카카오",
+          "keyword": "마포구 아파트 관리사무소, existing, 서울 마포구 용강동 502 관리사무소, 서울 마포구 용강동 502 관리실, 서울 마포구 토정로31길 23 관리사무소, 서울 마포구 토정로31길 23 관리실, 용강동 래미안마포리버웰 관리사무소, 마포구 래미안마포리버웰 관리사무소, 마포구 마포구 래미안마포리버웰 관리사무소, 마포구",
           "sourceCounts": {
-            "카카오": 2,
-            "네이버부동산": 1
+            "카카오": 12
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 10
           },
-          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
-        },
-        {
-          "number": "02-719-8000",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-704-6113",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 12회"
         }
       ],
       "households": "",
@@ -5050,51 +4015,23 @@
       "address": "서울 마포구 큰우물로 28\n서울 마포구 용강동 380",
       "roadAddress": "서울 마포구 큰우물로 28",
       "jibunAddress": "서울 마포구 용강동 380",
-      "phone": "02-6394-3366",
+      "phone": "02-717-8303",
       "phones": [
-        "02-6394-3366",
-        "02-712-0330",
-        "02-556-8490"
+        "02-717-8303"
       ],
       "phoneCandidates": [
         {
-          "number": "02-6394-3366",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-717-8303",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "래미안용강아파트 전화번호, 래미안용강 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-712-0330",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-556-8490",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -5102,9 +4039,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_래미안용강"
@@ -5126,61 +4063,17 @@
       "address": "서울 마포구 토정로32길 6\n서울 마포구 용강동 501",
       "roadAddress": "서울 마포구 토정로32길 6",
       "jibunAddress": "서울 마포구 용강동 501",
-      "phone": "02-702-3153",
-      "phones": [
-        "02-702-3153",
-        "02-702-5691",
-        "02-638-0753"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-702-3153",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-702-5691",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-638-0753",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포대림2차e편한세상"
@@ -5202,37 +4095,23 @@
       "address": "서울 마포구 서강로3길 32\n서울 마포구 창전동 449",
       "roadAddress": "서울 마포구 서강로3길 32",
       "jibunAddress": "서울 마포구 창전동 449",
-      "phone": "02-326-3301",
+      "phone": "02-6956-3055",
       "phones": [
-        "02-326-3301",
-        "02-326-3300"
+        "02-6956-3055"
       ],
       "phoneCandidates": [
         {
-          "number": "02-326-3301",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-6956-3055",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "마포웨스트리버태영데시앙아파트 전화번호, 마포웨스트리버태영데시앙 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-326-3300",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -5240,9 +4119,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포웨스트리버태영데시앙"
@@ -5266,51 +4145,22 @@
       "jibunAddress": "서울 마포구 창전동 19-8",
       "phone": "02-325-7778",
       "phones": [
-        "02-325-7778",
-        "02-325-7779",
-        "02-334-5921"
+        "02-325-7778"
       ],
       "phoneCandidates": [
         {
           "number": "02-325-7778",
           "score": 100,
-          "source": "카카오, 네이버부동산",
-          "keyword": "마포구 아파트 관리사무소, existing, naver_land_management",
+          "source": "카카오",
+          "keyword": "마포구 아파트 관리사무소, existing, 서울 마포구 창전동 19-8 관리사무소, 서울 마포구 창전동 19-8 관리실, 서울 마포구 서강로 75-16 관리사무소, 서울 마포구 서강로 75-16 관리실, 창전동 이랜드PEER신촌 관리사무소, 마포구 이랜드PEER신촌 관리사무소, 마포구 마포구 이랜드PEER신촌 관리사무소",
           "sourceCounts": {
-            "카카오": 2,
-            "네이버부동산": 1
+            "카카오": 12
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 10
           },
-          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
-        },
-        {
-          "number": "02-325-7779",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-334-5921",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 12회"
         }
       ],
       "households": "",
@@ -5344,51 +4194,22 @@
       "jibunAddress": "서울 마포구 창전동 437",
       "phone": "02-3142-5570",
       "phones": [
-        "02-3142-5570",
-        "02-3142-8913",
-        "02-334-5921"
+        "02-3142-5570"
       ],
       "phoneCandidates": [
         {
           "number": "02-3142-5570",
           "score": 100,
-          "source": "카카오, 네이버부동산",
-          "keyword": "마포구 아파트 관리사무소, existing, naver_land_management",
+          "source": "카카오",
+          "keyword": "마포구 아파트 관리사무소, existing, 서울 마포구 창전동 437 관리사무소, 서울 마포구 창전동 437 관리실, 서울 마포구 서강로 95 관리사무소, 서울 마포구 서강로 95 관리실, 창전동 창전삼성 관리사무소, 마포구 창전삼성 관리사무소, 마포구 마포구 창전삼성 관리사무소, 마포구 창전삼성 관리실, 창전삼성아파트",
           "sourceCounts": {
-            "카카오": 2,
-            "네이버부동산": 1
+            "카카오": 12
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 10
           },
-          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
-        },
-        {
-          "number": "02-3142-8913",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-334-5921",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 12회"
         }
       ],
       "households": "",
@@ -5420,51 +4241,51 @@
       "address": "서울 마포구 서강로9길 45\n서울 마포구 창전동 439",
       "roadAddress": "서울 마포구 서강로9길 45",
       "jibunAddress": "서울 마포구 창전동 439",
-      "phone": "02-332-8977",
+      "phone": "02-3275-3366",
       "phones": [
-        "02-332-8977",
-        "02-701-2410",
-        "02-561-9989"
+        "02-3275-3366",
+        "051-921-7737",
+        "061-793-3171"
       ],
       "phoneCandidates": [
         {
-          "number": "02-332-8977",
+          "number": "02-3275-3366",
           "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "source": "카카오",
+          "keyword": "창전동 태영 관리사무소, 마포구 태영 관리사무소, 마포구 마포구 태영 관리사무소, 마포구 태영 관리실, 태영아파트 관리사무소, 태영아파트 관리실, 태영아파트 관리단, 태영 관리단",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 10
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 10
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 10회"
         },
         {
-          "number": "02-701-2410",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "051-921-7737",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "태영아파트 관리사무소, 태영아파트 관리실, 태영 관리사무소, 태영 관리실, 태영아파트 관리단, 태영 관리단",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 6
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 6
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 6회"
         },
         {
-          "number": "02-561-9989",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "061-793-3171",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "태영아파트 관리사무소, 태영아파트 관리실, 태영 관리사무소, 태영 관리실, 태영아파트 관리단, 태영 관리단",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 6
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 6
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 6회"
         }
       ],
       "households": "",
@@ -5496,23 +4317,23 @@
       "address": "서울 마포구 토정로 158\n서울 마포구 하중동 101",
       "roadAddress": "서울 마포구 토정로 158",
       "jibunAddress": "서울 마포구 하중동 101",
-      "phone": "02-6326-9660",
+      "phone": "070-8997-9671",
       "phones": [
-        "02-6326-9660"
+        "070-8997-9671"
       ],
       "phoneCandidates": [
         {
-          "number": "02-6326-9660",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "070-8997-9671",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "한강밤섬자이아파트 전화번호, 한강밤섬자이 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -5520,9 +4341,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_한강밤섬자이"
@@ -5544,51 +4365,23 @@
       "address": "서울 마포구 월드컵로3길 14\n서울 마포구 합정동 473",
       "roadAddress": "서울 마포구 월드컵로3길 14",
       "jibunAddress": "서울 마포구 합정동 473",
-      "phone": "02-323-2131",
+      "phone": "031-925-8325",
       "phones": [
-        "02-323-2131",
-        "02-323-2151",
-        "02-323-2132"
+        "031-925-8325"
       ],
       "phoneCandidates": [
         {
-          "number": "02-323-2131",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "031-925-8325",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "마포한강2차푸르지오아파트 전화번호, 마포한강2차푸르지오 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-323-2151",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-323-2132",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -5596,9 +4389,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포한강2차푸르지오"
@@ -5620,51 +4413,79 @@
       "address": "서울 마포구 월드컵로1길 14\n서울 마포구 합정동 472",
       "roadAddress": "서울 마포구 월드컵로1길 14",
       "jibunAddress": "서울 마포구 합정동 472",
-      "phone": "02-323-2132",
+      "phone": "02-303-3618",
       "phones": [
-        "02-323-2132",
-        "02-323-2131",
-        "02-336-3737"
+        "02-303-3618",
+        "070-4189-7574",
+        "010-4822-3745",
+        "02-6489-3033",
+        "070-4818-1936"
       ],
       "phoneCandidates": [
         {
-          "number": "02-323-2132",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-303-3618",
+          "score": 85,
+          "source": "카카오",
+          "keyword": "마포한강푸르지오아파트 전화번호, 마포한강푸르지오 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-323-2131",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "070-4189-7574",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "마포한강푸르지오아파트 전화번호, 마포한강푸르지오 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-336-3737",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "010-4822-3745",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "마포한강푸르지오아파트 전화번호, 마포한강푸르지오 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "02-6489-3033",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "마포한강푸르지오아파트 전화번호, 마포한강푸르지오 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "070-4818-1936",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "마포한강푸르지오아파트 전화번호, 마포한강푸르지오 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -5674,7 +4495,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 85,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_마포한강푸르지오"
@@ -5696,51 +4517,65 @@
       "address": "서울 마포구 신수로 15\n서울 마포구 현석동 222",
       "roadAddress": "서울 마포구 신수로 15",
       "jibunAddress": "서울 마포구 현석동 222",
-      "phone": "02-3273-4775",
+      "phone": "02-3663-4946",
       "phones": [
-        "02-3273-4775",
-        "02-3664-0047",
-        "02-714-6988"
+        "02-3663-4946",
+        "02-6738-1003",
+        "02-3663-2677",
+        "010-3008-8857"
       ],
       "phoneCandidates": [
         {
-          "number": "02-3273-4775",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-3663-4946",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "강변힐스테이트아파트 전화번호, 강변힐스테이트 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-3664-0047",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-6738-1003",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "강변힐스테이트아파트 전화번호, 강변힐스테이트 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-714-6988",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-3663-2677",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "강변힐스테이트아파트 전화번호, 강변힐스테이트 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-3008-8857",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "강변힐스테이트아파트 전화번호, 강변힐스테이트 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -5748,9 +4583,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 83,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_강변힐스테이트"
@@ -5772,51 +4607,23 @@
       "address": "서울 마포구 토정로18길 11\n서울 마포구 현석동 225",
       "roadAddress": "서울 마포구 토정로18길 11",
       "jibunAddress": "서울 마포구 현석동 225",
-      "phone": "02-702-5312",
+      "phone": "02-706-4774",
       "phones": [
-        "02-702-5312",
-        "02-702-5311",
-        "02-712-8490"
+        "02-706-4774"
       ],
       "phoneCandidates": [
         {
-          "number": "02-702-5312",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "02-706-4774",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "래미안마포웰스트림아파트 전화번호, 래미안마포웰스트림 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-702-5311",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-712-8490",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -5824,9 +4631,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_래미안마포웰스트림"
@@ -5848,61 +4655,17 @@
       "address": "서울 마포구 신수로2길 6\n서울 마포구 현석동 223",
       "roadAddress": "서울 마포구 신수로2길 6",
       "jibunAddress": "서울 마포구 현석동 223",
-      "phone": "02-712-7285",
-      "phones": [
-        "02-712-7285",
-        "02-702-5311",
-        "02-470-0569"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-712-7285",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-702-5311",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-470-0569",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_마포구_반도유보라아일랜드"
