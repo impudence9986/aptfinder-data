@@ -1,6 +1,6 @@
 {
-  "version": 1793308631,
-  "updatedAt": "2026-10-29 21:17:11",
+  "version": 1793395550,
+  "updatedAt": "2026-10-30 21:25:50",
   "sido": "인천광역시",
   "sigungu": "미추홀구",
   "count": 82,
@@ -2407,17 +2407,33 @@
       "address": "인천 미추홀구 인주대로329번길 19-1\n인천 미추홀구 주안동 1417-25",
       "roadAddress": "인천 미추홀구 인주대로329번길 19-1",
       "jibunAddress": "인천 미추홀구 주안동 1417-25",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-111-1111",
+      "phones": [
+        "032-111-1111"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-111-1111",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_미추홀구_아이스무빙주안힐스테이트점"

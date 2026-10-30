@@ -1,6 +1,6 @@
 {
-  "version": 1793147169,
-  "updatedAt": "2026-10-28 00:26:09",
+  "version": 1793394039,
+  "updatedAt": "2026-10-30 21:00:39",
   "sido": "경기도",
   "sigungu": "성남시",
   "count": 225,
@@ -6037,15 +6037,17 @@
         {
           "number": "031-742-3330",
           "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "source": "네이버부동산, 카카오",
+          "keyword": "naver_land_management, existing",
           "sourceCounts": {
-            "네이버부동산": 1
+            "네이버부동산": 1,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "네이버부동산 관리사무소": 1,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 1회"
         },
         {
           "number": "031-732-6550",
@@ -6135,17 +6137,47 @@
       "address": "경기 성남시 수정구 희망로 531\n경기 성남시 수정구 신흥동 6971",
       "roadAddress": "경기 성남시 수정구 희망로 531",
       "jibunAddress": "경기 성남시 수정구 신흥동 6971",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-747-0480",
+      "phones": [
+        "031-747-0480",
+        "031-743-2020"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-747-0480",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-743-2020",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_산성역자이푸르지오3게이트2"
@@ -7835,25 +7867,42 @@
       "address": "경기 성남시 중원구 은행로 13\n경기 성남시 중원구 은행동 1740",
       "roadAddress": "경기 성남시 중원구 은행로 13",
       "jibunAddress": "경기 성남시 중원구 은행동 1740",
-      "phone": "031-713-9929",
+      "phone": "031-745-2323",
       "phones": [
+        "031-745-2323",
         "031-713-9929",
         "02-2246-0192",
-        "02-2611-1162"
+        "02-2611-1162",
+        "031-756-6320",
+        "031-747-4326"
       ],
       "phoneCandidates": [
+        {
+          "number": "031-745-2323",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
         {
           "number": "031-713-9929",
           "score": 100,
           "source": "카카오",
-          "keyword": "성남시 두산위브 관리사무소, 성남시 두산위브 관리실, 두산위브아파트 관리사무소, 두산위브아파트 관리실, 두산위브아파트 관리단, 두산위브 관리단",
+          "keyword": "성남시 두산위브 관리사무소, 성남시 두산위브 관리실, 두산위브아파트 관리사무소, 두산위브아파트 관리실, 두산위브아파트 관리단, 두산위브 관리단, existing",
           "sourceCounts": {
-            "카카오": 8
+            "카카오": 9
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 8
+            "카카오 주소일치 전화번호 보강": 8,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 8회"
+          "sourceSummary": "카카오 9회"
         },
         {
           "number": "02-2246-0192",
@@ -7880,6 +7929,32 @@
             "카카오 주소일치 전화번호 보강": 6
           },
           "sourceSummary": "카카오 6회"
+        },
+        {
+          "number": "031-756-6320",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-747-4326",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -7911,17 +7986,61 @@
       "address": "경기 성남시 중원구 은행로 21\n경기 성남시 중원구 은행동 1740-8",
       "roadAddress": "경기 성남시 중원구 은행로 21",
       "jibunAddress": "경기 성남시 중원구 은행동 1740-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-747-0480",
+      "phones": [
+        "031-747-0480",
+        "031-898-0052",
+        "031-819-9903"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-747-0480",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-898-0052",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-819-9903",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_두산위브동"

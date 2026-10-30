@@ -1,6 +1,6 @@
 {
-  "version": 1793240295,
-  "updatedAt": "2026-10-29 02:18:15",
+  "version": 1793395419,
+  "updatedAt": "2026-10-30 21:23:39",
   "sido": "대구광역시",
   "sigungu": "수성구",
   "count": 128,
@@ -4960,17 +4960,47 @@
       "address": "대구 수성구 지범로31안길 11-1\n대구 수성구 지산동 424",
       "roadAddress": "대구 수성구 지범로31안길 11-1",
       "jibunAddress": "대구 수성구 지산동 424",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "053-783-8362",
+      "phones": [
+        "053-783-8362",
+        "053-765-0140"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "053-783-8362",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-765-0140",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_수성구_칸타빌지산"
