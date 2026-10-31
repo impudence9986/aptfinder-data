@@ -1,6 +1,6 @@
 {
-  "version": 1793146091,
-  "updatedAt": "2026-10-28 00:08:11",
+  "version": 1793477621,
+  "updatedAt": "2026-10-31 20:13:41",
   "sido": "경기도",
   "sigungu": "부천시",
   "count": 182,
@@ -502,17 +502,33 @@
       "address": "경기 부천시 원미구 수도로 90\n경기 부천시 원미구 도당동 222",
       "roadAddress": "경기 부천시 원미구 수도로 90",
       "jibunAddress": "경기 부천시 원미구 도당동 222",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "032-677-8061",
+      "phones": [
+        "032-677-8061"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-677-8061",
+          "score": 91,
+          "source": "114On",
+          "keyword": "경기 부천시 원미구 도당동 222 전화번호",
+          "sourceCounts": {
+            "114On": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1
+          },
+          "sourceSummary": "114On 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 91,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_계양신도시카이브유보라견본주택"
@@ -7278,23 +7294,38 @@
       "address": "경기 부천시 원미구 길주로 272\n경기 부천시 원미구 중동 1141",
       "roadAddress": "경기 부천시 원미구 길주로 272",
       "jibunAddress": "경기 부천시 원미구 중동 1141",
-      "phone": "032-322-1677",
+      "phone": "07-1348-5193",
       "phones": [
+        "07-1348-5193",
         "032-322-1677"
       ],
       "phoneCandidates": [
         {
-          "number": "032-322-1677",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "코스모폴리탄오피스텔 전화번호, 코스모폴리탄 전화번호",
+          "number": "07-1348-5193",
+          "score": 100,
+          "source": "114On",
+          "keyword": "경기 부천시 원미구 중동 1141 관리사무소, 경기 부천시 원미구 중동 1141 관리실",
           "sourceCounts": {
-            "카카오": 2
+            "114On": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "114On/네이버 스니펫": 2
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "114On 2회"
+        },
+        {
+          "number": "032-322-1677",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "코스모폴리탄오피스텔 전화번호, 코스모폴리탄 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -7302,9 +7333,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_코스모폴리탄"
