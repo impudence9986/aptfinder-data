@@ -1,6 +1,6 @@
 {
-  "version": 1793477794,
-  "updatedAt": "2026-10-31 20:16:34",
+  "version": 1793565249,
+  "updatedAt": "2026-11-01 20:34:09",
   "sido": "경기도",
   "sigungu": "오산시",
   "count": 125,
@@ -2331,16 +2331,18 @@
       "phoneCandidates": [
         {
           "number": "07-1377-5654",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "디아스트라 관리단",
+          "score": 94,
+          "source": "네이버, 카카오",
+          "keyword": "디아스트라 관리단, existing",
           "sourceCounts": {
-            "네이버": 1
+            "네이버": 2,
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버 웹검색": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회 · 네이버 2회"
         }
       ],
       "households": "",
@@ -2348,9 +2350,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_오산시_디아스트라"
