@@ -1,6 +1,6 @@
 {
-  "version": 1793477697,
-  "updatedAt": "2026-10-31 20:14:57",
+  "version": 1793757423,
+  "updatedAt": "2026-11-04 01:57:03",
   "sido": "경기도",
   "sigungu": "안산시",
   "count": 171,
@@ -652,35 +652,50 @@
       "phone": "031-507-7976",
       "phones": [
         "031-507-7976",
-        "031-475-0555"
+        "031-507-7973",
+        "031-502-0064"
       ],
       "phoneCandidates": [
         {
           "number": "031-507-7976",
           "score": 100,
-          "source": "카카오",
-          "keyword": "안산시 아파트 관리사무소, existing, 경기 안산시 단원구 고잔동 728 관리사무소, 경기 안산시 단원구 고잔동 728 관리실, 경기 안산시 단원구 광덕3로 201 관리사무소, 경기 안산시 단원구 광덕3로 201 관리실, 고잔동 안산고잔푸르지오3차 관리사무소, 안산시 안산고잔푸르지오3차 관리사무소, 안산시 단원구 안",
+          "source": "카카오, 네이버부동산",
+          "keyword": "안산시 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 12
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 10
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 12회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
         },
         {
-          "number": "031-475-0555",
-          "score": 100,
-          "source": "카카오",
-          "keyword": "경기 안산시 단원구 고잔동 728 관리사무소, 경기 안산시 단원구 고잔동 728 관리실, 경기 안산시 단원구 광덕3로 201 관리사무소, 경기 안산시 단원구 광덕3로 201 관리실",
+          "number": "031-507-7973",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 4
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 4
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 4회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-502-0064",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -761,10 +776,42 @@
     },
     {
       "kaptCode": "",
-      "name": "주공그린빌8단지아파트",
+      "name": "영풍맘모스프라자오피스텔",
       "aliases": [
         {
-          "name": "주공그린빌8단지아파트",
+          "name": "영풍맘모스프라자오피스텔",
+          "source": "카카오"
+        }
+      ],
+      "type": "오피스텔",
+      "city": "안산시",
+      "sido": "경기도",
+      "district": "단원구",
+      "dong": "고잔동",
+      "address": "경기 안산시 단원구 고잔로 76\n경기 안산시 단원구 고잔동 533-3",
+      "roadAddress": "경기 안산시 단원구 고잔로 76",
+      "jibunAddress": "경기 안산시 단원구 고잔동 533-3",
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "UNKNOWN",
+      "reportCount": 0,
+      "confidenceScore": 0,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "경기도_안산시_영풍맘모스프라자"
+    },
+    {
+      "kaptCode": "",
+      "name": "주공9단지아파트",
+      "aliases": [
+        {
+          "name": "주공9단지아파트",
           "source": "카카오"
         }
       ],
@@ -773,53 +820,23 @@
       "sido": "경기도",
       "district": "단원구",
       "dong": "고잔동",
-      "address": "경기 안산시 단원구 광덕2로 241\n경기 안산시 단원구 고잔동 766",
-      "roadAddress": "경기 안산시 단원구 광덕2로 241",
-      "jibunAddress": "경기 안산시 단원구 고잔동 766",
-      "phone": "031-439-3515",
-      "phones": [
-        "031-439-3515",
-        "031-439-4319"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "031-439-3515",
-          "score": 79,
-          "source": "카카오",
-          "keyword": "주공그린빌8단지아파트 전화번호, 주공그린빌8단지 전화번호",
-          "sourceCounts": {
-            "카카오": 2
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
-          },
-          "sourceSummary": "카카오 2회"
-        },
-        {
-          "number": "031-439-4319",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "주공그린빌8단지아파트 전화번호, 주공그린빌8단지 전화번호",
-          "sourceCounts": {
-            "카카오": 2
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
-          },
-          "sourceSummary": "카카오 2회"
-        }
-      ],
+      "address": "경기 안산시 단원구 당곡2로 30\n경기 안산시 단원구 고잔동 672",
+      "roadAddress": "경기 안산시 단원구 당곡2로 30",
+      "jibunAddress": "경기 안산시 단원구 고잔동 672",
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "경기도_안산시_주공그린빌8"
+      "sharedKey": "경기도_안산시_주공9"
     },
     {
       "kaptCode": "",
@@ -937,8 +954,8 @@
         "031-8044-2025",
         "031-410-9332",
         "010-8443-4919",
-        "031-411-3690",
-        "010-2178-1370"
+        "031-493-9866",
+        "031-411-3690"
       ],
       "phoneCandidates": [
         {
@@ -981,7 +998,7 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "031-411-3690",
+          "number": "031-493-9866",
           "score": 79,
           "source": "카카오",
           "keyword": "프라움시티오피스텔 전화번호, 프라움시티 전화번호",
@@ -994,7 +1011,7 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "010-2178-1370",
+          "number": "031-411-3690",
           "score": 77,
           "source": "카카오",
           "keyword": "프라움시티오피스텔 전화번호, 프라움시티 전화번호",
@@ -1184,54 +1201,13 @@
       "phone": "031-405-8830",
       "phones": [
         "031-405-8830",
-        "010-9906-3704",
         "031-502-0415",
-        "031-481-8299",
-        "031-401-4009"
+        "010-9906-3704",
+        "031-481-8299"
       ],
       "phoneCandidates": [
         {
           "number": "031-405-8830",
-          "score": 100,
-          "source": "카카오",
-          "keyword": "휴지오오피스텔 전화번호, 휴지오 전화번호, existing",
-          "sourceCounts": {
-            "카카오": 3
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2,
-            "카카오 장소검색": 1
-          },
-          "sourceSummary": "카카오 3회"
-        },
-        {
-          "number": "010-9906-3704",
-          "score": 87,
-          "source": "카카오",
-          "keyword": "휴지오오피스텔 전화번호, 휴지오 전화번호",
-          "sourceCounts": {
-            "카카오": 2
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
-          },
-          "sourceSummary": "카카오 2회"
-        },
-        {
-          "number": "031-502-0415",
-          "score": 85,
-          "source": "카카오",
-          "keyword": "휴지오오피스텔 전화번호, 휴지오 전화번호",
-          "sourceCounts": {
-            "카카오": 2
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
-          },
-          "sourceSummary": "카카오 2회"
-        },
-        {
-          "number": "031-481-8299",
           "score": 83,
           "source": "카카오",
           "keyword": "휴지오오피스텔 전화번호, 휴지오 전화번호",
@@ -1244,17 +1220,43 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "031-401-4009",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "경기 안산시 단원구 고잔동 539-4 관리사무소",
+          "number": "031-502-0415",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "휴지오오피스텔 전화번호, 휴지오 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-9906-3704",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "휴지오오피스텔 전화번호, 휴지오 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "031-481-8299",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "휴지오오피스텔 전화번호, 휴지오 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -1262,9 +1264,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 83,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_휴지오"
@@ -1444,15 +1446,15 @@
       "address": "경기 안산시 단원구 광덕동로 25\n경기 안산시 단원구 고잔동 782",
       "roadAddress": "경기 안산시 단원구 광덕동로 25",
       "jibunAddress": "경기 안산시 단원구 고잔동 782",
-      "phone": "031-414-1595",
+      "phone": "031-414-1594",
       "phones": [
-        "031-414-1595",
         "031-414-1594",
-        "031-418-8787"
+        "031-414-1595",
+        "031-502-3006"
       ],
       "phoneCandidates": [
         {
-          "number": "031-414-1595",
+          "number": "031-414-1594",
           "score": 100,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -1465,7 +1467,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-414-1594",
+          "number": "031-414-1595",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -1478,7 +1480,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-418-8787",
+          "number": "031-502-3006",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -1629,9 +1631,9 @@
       "sido": "경기도",
       "district": "상록구",
       "dong": "본오동",
-      "address": "경기 안산시 상록구 샘골로4길 3\n경기 안산시 상록구 본오동 674-11",
-      "roadAddress": "경기 안산시 상록구 샘골로4길 3",
-      "jibunAddress": "경기 안산시 상록구 본오동 674-11",
+      "address": "경기 안산시 상록구 용신로끝길 14-1\n경기 안산시 상록구 본오동 1132-5",
+      "roadAddress": "경기 안산시 상록구 용신로끝길 14-1",
+      "jibunAddress": "경기 안산시 상록구 본오동 1132-5",
       "phone": "",
       "phones": [],
       "phoneCandidates": [],
@@ -1661,9 +1663,9 @@
       "sido": "경기도",
       "district": "상록구",
       "dong": "본오동",
-      "address": "경기 안산시 상록구 용신로끝길 14-1\n경기 안산시 상록구 본오동 1132-5",
-      "roadAddress": "경기 안산시 상록구 용신로끝길 14-1",
-      "jibunAddress": "경기 안산시 상록구 본오동 1132-5",
+      "address": "경기 안산시 상록구 샘골로4길 3\n경기 안산시 상록구 본오동 674-11",
+      "roadAddress": "경기 안산시 상록구 샘골로4길 3",
+      "jibunAddress": "경기 안산시 상록구 본오동 674-11",
       "phone": "",
       "phones": [],
       "phoneCandidates": [],
@@ -1920,17 +1922,61 @@
       "address": "경기 안산시 상록구 반석로 44\n경기 안산시 상록구 본오동 871",
       "roadAddress": "경기 안산시 상록구 반석로 44",
       "jibunAddress": "경기 안산시 상록구 본오동 871",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8068-7773",
+      "phones": [
+        "031-8068-7773",
+        "031-595-8875",
+        "031-595-5022"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8068-7773",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-595-8875",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-595-5022",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_신안1"
@@ -2053,9 +2099,9 @@
         "042-582-8212",
         "041-553-3983",
         "063-252-4059",
+        "062-266-5154",
         "063-467-7379",
-        "063-625-4330",
-        "062-266-5154"
+        "063-625-4330"
       ],
       "phoneCandidates": [
         {
@@ -2098,6 +2144,19 @@
           "sourceSummary": "카카오 6회"
         },
         {
+          "number": "062-266-5154",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "우성아파트 관리사무소, 우성아파트 관리실, 우성 관리사무소, 우성 관리실, 우성아파트 관리단, 우성 관리단",
+          "sourceCounts": {
+            "카카오": 6
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 6
+          },
+          "sourceSummary": "카카오 6회"
+        },
+        {
           "number": "063-467-7379",
           "score": 100,
           "source": "카카오",
@@ -2112,19 +2171,6 @@
         },
         {
           "number": "063-625-4330",
-          "score": 100,
-          "source": "카카오",
-          "keyword": "우성아파트 관리사무소, 우성아파트 관리실, 우성 관리사무소, 우성 관리실, 우성아파트 관리단, 우성 관리단",
-          "sourceCounts": {
-            "카카오": 6
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 6
-          },
-          "sourceSummary": "카카오 6회"
-        },
-        {
-          "number": "062-266-5154",
           "score": 100,
           "source": "카카오",
           "keyword": "우성아파트 관리사무소, 우성아파트 관리실, 우성 관리사무소, 우성 관리실, 우성아파트 관리단, 우성 관리단",
@@ -2282,7 +2328,7 @@
       "phones": [
         "031-407-4794",
         "031-507-4794",
-        "031-915-8980"
+        "031-502-1243"
       ],
       "phoneCandidates": [
         {
@@ -2312,7 +2358,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-915-8980",
+          "number": "031-502-1243",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -2483,6 +2529,82 @@
     },
     {
       "kaptCode": "",
+      "name": "SK선경아파트 관리사무소",
+      "aliases": [
+        {
+          "name": "SK선경아파트 관리사무소",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "안산시",
+      "sido": "경기도",
+      "district": "상록구",
+      "dong": "사동",
+      "address": "경기 안산시 상록구 감골2로 58\n경기 안산시 상록구 사동 1345",
+      "roadAddress": "경기 안산시 상록구 감골2로 58",
+      "jibunAddress": "경기 안산시 상록구 사동 1345",
+      "phone": "031-408-3965",
+      "phones": [
+        "031-408-3965",
+        "031-406-9637",
+        "031-427-3900"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-408-3965",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-406-9637",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-427-3900",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CONFIRMED",
+      "reportCount": 0,
+      "confidenceScore": 100,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "경기도_안산시_sk선경"
+    },
+    {
+      "kaptCode": "",
       "name": "그랑시티자이1차아파트",
       "aliases": [
         {
@@ -2501,7 +2623,7 @@
       "phone": "031-502-1844",
       "phones": [
         "031-502-1844",
-        "031-502-1458",
+        "031-502-1845",
         "031-502-1457"
       ],
       "phoneCandidates": [
@@ -2519,7 +2641,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-502-1458",
+          "number": "031-502-1845",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -2574,15 +2696,15 @@
       "address": "경기 안산시 상록구 해양5로 17\n경기 안산시 상록구 사동 1639",
       "roadAddress": "경기 안산시 상록구 해양5로 17",
       "jibunAddress": "경기 안산시 상록구 사동 1639",
-      "phone": "031-502-1457",
+      "phone": "031-502-1458",
       "phones": [
-        "031-502-1457",
         "031-502-1458",
-        "031-502-1844"
+        "031-502-1457",
+        "031-502-1845"
       ],
       "phoneCandidates": [
         {
-          "number": "031-502-1457",
+          "number": "031-502-1458",
           "score": 100,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -2595,7 +2717,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-502-1458",
+          "number": "031-502-1457",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -2608,7 +2730,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-502-1844",
+          "number": "031-502-1845",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -2860,22 +2982,51 @@
       "jibunAddress": "경기 안산시 상록구 사동 1514",
       "phone": "031-501-1465",
       "phones": [
-        "031-501-1465"
+        "031-501-1465",
+        "031-502-5585",
+        "031-502-1243"
       ],
       "phoneCandidates": [
         {
           "number": "031-501-1465",
           "score": 100,
-          "source": "카카오",
-          "keyword": "안산시 아파트 관리사무소, existing, 경기 안산시 상록구 사동 1514 관리사무소, 경기 안산시 상록구 사동 1514 관리실, 경기 안산시 상록구 삼리로 23 관리사무소, 경기 안산시 상록구 삼리로 23 관리실, 사동 상록마을삼보 관리사무소, 안산시 상록마을삼보 관리사무소, 안산시 상록구 상록마을삼보 관리사무소, ",
+          "source": "카카오, 네이버부동산",
+          "keyword": "안산시 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 12
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 10
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 12회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+        },
+        {
+          "number": "031-502-5585",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-502-1243",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -3067,47 +3218,17 @@
       "address": "경기 안산시 상록구 해양로 16\n경기 안산시 상록구 사동 1511",
       "roadAddress": "경기 안산시 상록구 해양로 16",
       "jibunAddress": "경기 안산시 상록구 사동 1511",
-      "phone": "031-437-9898",
-      "phones": [
-        "031-437-9898",
-        "031-438-5688"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "031-437-9898",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "031-438-5688",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_안산고잔푸르지오9차"
@@ -3161,51 +3282,23 @@
       "address": "경기 안산시 상록구 감골2로 11\n경기 안산시 상록구 사동 1344",
       "roadAddress": "경기 안산시 상록구 감골2로 11",
       "jibunAddress": "경기 안산시 상록구 사동 1344",
-      "phone": "031-419-0323",
+      "phone": "031-408-3337",
       "phones": [
-        "031-419-0323",
-        "031-416-7540",
-        "031-409-0324"
+        "031-408-3337"
       ],
       "phoneCandidates": [
         {
-          "number": "031-419-0323",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "031-408-3337",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "예누림아파트 전화번호, 예누림 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "031-416-7540",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "031-409-0324",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -3213,9 +3306,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_예누림"
@@ -3237,17 +3330,61 @@
       "address": "경기 안산시 상록구 감골2로 47\n경기 안산시 상록구 사동 1345-1",
       "roadAddress": "경기 안산시 상록구 감골2로 47",
       "jibunAddress": "경기 안산시 상록구 사동 1345-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-418-0663",
+      "phones": [
+        "031-418-0663",
+        "031-502-3006",
+        "031-419-8778"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-418-0663",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-502-3006",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-419-8778",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_요진"
@@ -3271,49 +3408,21 @@
       "jibunAddress": "경기 안산시 상록구 사동 1197-4",
       "phone": "031-502-9090",
       "phones": [
-        "031-502-9090",
-        "031-481-5536",
-        "031-438-9876"
+        "031-502-9090"
       ],
       "phoneCandidates": [
         {
           "number": "031-502-9090",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "인우빌 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "031-481-5536",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "031-438-9876",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -3321,9 +3430,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_인우빌"
@@ -3538,38 +3647,6 @@
     },
     {
       "kaptCode": "",
-      "name": "사사동현대아파트 관리사무소",
-      "aliases": [
-        {
-          "name": "사사동현대아파트 관리사무소",
-          "source": "카카오"
-        }
-      ],
-      "type": "아파트",
-      "city": "안산시",
-      "sido": "경기도",
-      "district": "상록구",
-      "dong": "사사동",
-      "address": "경기 안산시 상록구 양지마을1길 81\n경기 안산시 상록구 사사동 413",
-      "roadAddress": "경기 안산시 상록구 양지마을1길 81",
-      "jibunAddress": "경기 안산시 상록구 사사동 413",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
-      "reportCount": 0,
-      "confidenceScore": 0,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "경기도_안산시_사사동현대"
-    },
-    {
-      "kaptCode": "",
       "name": "e편한세상선부역어반스퀘어아파트",
       "aliases": [
         {
@@ -3711,24 +3788,65 @@
       "address": "경기 안산시 단원구 석수로 6\n경기 안산시 단원구 선부동 1083",
       "roadAddress": "경기 안산시 단원구 석수로 6",
       "jibunAddress": "경기 안산시 단원구 선부동 1083",
-      "phone": "031-485-8402",
+      "phone": "031-486-0769",
       "phones": [
+        "031-486-0769",
+        "031-485-0500",
+        "031-486-4089",
         "031-485-8402"
       ],
       "phoneCandidates": [
         {
-          "number": "031-485-8402",
+          "number": "031-486-0769",
           "score": 100,
-          "source": "카카오",
-          "keyword": "안산시 아파트 관리사무소, existing, 경기 안산시 단원구 선부동 1083 관리사무소, 경기 안산시 단원구 선부동 1083 관리실, 경기 안산시 단원구 석수로 6 관리사무소, 경기 안산시 단원구 석수로 6 관리실, 선부동 군자주공 관리사무소, 안산시 군자주공 관리사무소, 안산시 단원구 군자주공 관리사무소, 안산시 군",
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 12
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 10
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 12회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-485-0500",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-486-4089",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-485-8402",
+          "score": 83,
+          "source": "카카오",
+          "keyword": "안산시 아파트 관리사무소, existing",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 장소검색": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -4140,22 +4258,51 @@
       "jibunAddress": "경기 안산시 단원구 선부동 1081",
       "phone": "031-411-4392",
       "phones": [
-        "031-411-4392"
+        "031-411-4392",
+        "031-411-6392",
+        "031-502-1243"
       ],
       "phoneCandidates": [
         {
           "number": "031-411-4392",
           "score": 100,
-          "source": "카카오",
-          "keyword": "안산시 아파트 관리사무소, existing, 경기 안산시 단원구 선부동 1081 관리사무소, 경기 안산시 단원구 선부동 1081 관리실, 경기 안산시 단원구 달미로 10 관리사무소, 경기 안산시 단원구 달미로 10 관리실, 선부동 산호3차한양 관리사무소, 안산시 산호3차한양 관리사무소, 안산시 단원구 산호3차한양 관리사무",
+          "source": "카카오, 네이버부동산",
+          "keyword": "안산시 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 12
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 10
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 12회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+        },
+        {
+          "number": "031-411-6392",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-502-1243",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -4317,8 +4464,8 @@
       "phone": "031-487-9021",
       "phones": [
         "031-487-9021",
-        "031-487-9022",
-        "031-492-7562"
+        "031-486-4089",
+        "031-475-1001"
       ],
       "phoneCandidates": [
         {
@@ -4335,7 +4482,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-487-9022",
+          "number": "031-486-4089",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -4348,7 +4495,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-492-7562",
+          "number": "031-475-1001",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -4503,6 +4650,54 @@
     },
     {
       "kaptCode": "",
+      "name": "안산한신더휴아파트",
+      "aliases": [
+        {
+          "name": "안산한신더휴아파트",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "안산시",
+      "sido": "경기도",
+      "district": "단원구",
+      "dong": "선부동",
+      "address": "경기 안산시 단원구 지곡로 52\n경기 안산시 단원구 선부동 998",
+      "roadAddress": "경기 안산시 단원구 지곡로 52",
+      "jibunAddress": "경기 안산시 단원구 선부동 998",
+      "phone": "031-480-0005",
+      "phones": [
+        "031-480-0005"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-480-0005",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "안산한신더휴아파트 전화번호, 안산한신더휴 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CANDIDATE",
+      "reportCount": 0,
+      "confidenceScore": 77,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "경기도_안산시_안산한신휴"
+    },
+    {
+      "kaptCode": "",
       "name": "원영크레온오피스텔",
       "aliases": [
         {
@@ -4576,54 +4771,6 @@
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_원영크레온"
-    },
-    {
-      "kaptCode": "",
-      "name": "주공10단지아파트",
-      "aliases": [
-        {
-          "name": "주공10단지아파트",
-          "source": "카카오"
-        }
-      ],
-      "type": "아파트",
-      "city": "안산시",
-      "sido": "경기도",
-      "district": "단원구",
-      "dong": "선부동",
-      "address": "경기 안산시 단원구 석수로 5\n경기 안산시 단원구 선부동 1069",
-      "roadAddress": "경기 안산시 단원구 석수로 5",
-      "jibunAddress": "경기 안산시 단원구 선부동 1069",
-      "phone": "031-482-1805",
-      "phones": [
-        "031-482-1805"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "031-482-1805",
-          "score": 100,
-          "source": "카카오",
-          "keyword": "안산시 주공10단지 관리사무소, 안산시 단원구 주공10단지 관리사무소, 안산시 주공10단지 관리실, 주공10단지아파트 관리사무소, 주공10단지아파트 관리실, 주공10단지아파트 관리단, 주공10단지 관리단",
-          "sourceCounts": {
-            "카카오": 9
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 9
-          },
-          "sourceSummary": "카카오 9회"
-        }
-      ],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
-      "reportCount": 0,
-      "confidenceScore": 100,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "경기도_안산시_주공10"
     },
     {
       "kaptCode": "",
@@ -4959,6 +5106,54 @@
     },
     {
       "kaptCode": "",
+      "name": "더하이어티오피스텔",
+      "aliases": [
+        {
+          "name": "더하이어티오피스텔",
+          "source": "카카오"
+        }
+      ],
+      "type": "오피스텔",
+      "city": "안산시",
+      "sido": "경기도",
+      "district": "단원구",
+      "dong": "성곡동",
+      "address": "경기 안산시 단원구 시화호수로841번길 28-8\n경기 안산시 단원구 성곡동 849",
+      "roadAddress": "경기 안산시 단원구 시화호수로841번길 28-8",
+      "jibunAddress": "경기 안산시 단원구 성곡동 849",
+      "phone": "031-495-0646",
+      "phones": [
+        "031-495-0646"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-495-0646",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "더하이어티오피스텔 전화번호, 더하이어티 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CANDIDATE",
+      "reportCount": 0,
+      "confidenceScore": 77,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "경기도_안산시_하이어티"
+    },
+    {
+      "kaptCode": "",
       "name": "힐스테이트라군인테라스2차",
       "aliases": [
         {
@@ -5074,7 +5269,7 @@
       "phones": [
         "031-403-0045",
         "031-485-4008",
-        "031-485-0123"
+        "031-721-1767"
       ],
       "phoneCandidates": [
         {
@@ -5104,7 +5299,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-485-0123",
+          "number": "031-721-1767",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -5146,47 +5341,17 @@
       "address": "경기 안산시 단원구 당곡로 10\n경기 안산시 단원구 고잔동 536-1",
       "roadAddress": "경기 안산시 단원구 당곡로 10",
       "jibunAddress": "경기 안산시 단원구 고잔동 536-1",
-      "phone": "031-413-1215",
-      "phones": [
-        "031-413-1215",
-        "031-480-3380"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "031-413-1215",
-          "score": 91,
-          "source": "114On",
-          "keyword": "경기 안산시 단원구 고잔동 536-1 전화번호",
-          "sourceCounts": {
-            "114On": 1
-          },
-          "sourceDetails": {
-            "114On/네이버 스니펫": 1
-          },
-          "sourceSummary": "114On 1회"
-        },
-        {
-          "number": "031-480-3380",
-          "score": 65,
-          "source": "네이버",
-          "keyword": "경기 안산시 단원구 고잔동 536-1 전화번호, 경기 안산시 단원구 당곡로 10 관리실, 경기 안산시 단원구 당곡로 10 전화번호",
-          "sourceCounts": {
-            "네이버": 3
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 3
-          },
-          "sourceSummary": "네이버 3회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 91,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_아르뮤제자이예정"
@@ -5222,54 +5387,6 @@
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_안산파크푸르지오"
-    },
-    {
-      "kaptCode": "",
-      "name": "주공11단지아파트",
-      "aliases": [
-        {
-          "name": "주공11단지아파트",
-          "source": "카카오"
-        }
-      ],
-      "type": "아파트",
-      "city": "안산시",
-      "sido": "경기도",
-      "district": "상록구",
-      "dong": "성포동",
-      "address": "경기 안산시 상록구 충장로 533\n경기 안산시 상록구 성포동 591",
-      "roadAddress": "경기 안산시 상록구 충장로 533",
-      "jibunAddress": "경기 안산시 상록구 성포동 591",
-      "phone": "031-506-3626",
-      "phones": [
-        "031-506-3626"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "031-506-3626",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
-      "reportCount": 0,
-      "confidenceScore": 100,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "경기도_안산시_주공11"
     },
     {
       "kaptCode": "",
@@ -5736,22 +5853,51 @@
       "jibunAddress": "경기 안산시 상록구 월피동 446",
       "phone": "031-410-3714",
       "phones": [
-        "031-410-3714"
+        "031-410-3714",
+        "031-485-2032",
+        "031-503-8703"
       ],
       "phoneCandidates": [
         {
           "number": "031-410-3714",
           "score": 100,
-          "source": "카카오",
-          "keyword": "안산시 아파트 관리사무소, existing, 경기 안산시 상록구 안산천동로 146 관리사무소, 경기 안산시 상록구 안산천동로 146 관리실, 경기 안산시 상록구 월피동 446 관리사무소, 경기 안산시 상록구 월피동 446 관리실, 안산시 월피 주공2단지 관리사무소, 안산시 상록구 월피 주공2단지 관리사무소, 안산시 월피 ",
+          "source": "카카오, 네이버부동산",
+          "keyword": "안산시 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 11
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 9
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 11회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+        },
+        {
+          "number": "031-485-2032",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-503-8703",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -5783,17 +5929,61 @@
       "address": "경기 안산시 상록구 안산천동로1길 29\n경기 안산시 상록구 월피동 448",
       "roadAddress": "경기 안산시 상록구 안산천동로1길 29",
       "jibunAddress": "경기 안산시 상록구 월피동 448",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-486-2308",
+      "phones": [
+        "031-486-2308",
+        "031-482-2890",
+        "031-865-5014"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-486-2308",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-482-2890",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-865-5014",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_월피현대2차"
@@ -5947,8 +6137,8 @@
       "phones": [
         "02-984-6600",
         "041-621-6335",
-        "031-244-1155",
-        "055-542-5071"
+        "055-542-5071",
+        "031-244-1155"
       ],
       "phoneCandidates": [
         {
@@ -5978,7 +6168,7 @@
           "sourceSummary": "카카오 6회"
         },
         {
-          "number": "031-244-1155",
+          "number": "055-542-5071",
           "score": 100,
           "source": "카카오",
           "keyword": "경남아너스빌아파트 관리사무소, 경남아너스빌아파트 관리실, 경남아너스빌 관리사무소, 경남아너스빌 관리실, 경남아너스빌아파트 관리단, 경남아너스빌 관리단",
@@ -5991,7 +6181,7 @@
           "sourceSummary": "카카오 6회"
         },
         {
-          "number": "055-542-5071",
+          "number": "031-244-1155",
           "score": 100,
           "source": "카카오",
           "keyword": "경남아너스빌아파트 관리사무소, 경남아너스빌아파트 관리실, 경남아너스빌 관리사무소, 경남아너스빌 관리실, 경남아너스빌아파트 관리단, 경남아너스빌 관리단",
@@ -6148,7 +6338,7 @@
       "phone": "031-405-4224",
       "phones": [
         "031-405-4224",
-        "031-481-8895",
+        "031-402-2255",
         "031-481-8896"
       ],
       "phoneCandidates": [
@@ -6166,7 +6356,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-481-8895",
+          "number": "031-402-2255",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -6221,23 +6411,51 @@
       "address": "경기 안산시 단원구 라성로 15\n경기 안산시 단원구 원곡동 1003",
       "roadAddress": "경기 안산시 단원구 라성로 15",
       "jibunAddress": "경기 안산시 단원구 원곡동 1003",
-      "phone": "010-4118-4759",
+      "phone": "031-492-8851",
       "phones": [
-        "010-4118-4759"
+        "031-492-8851",
+        "031-492-8850",
+        "031-356-9377"
       ],
       "phoneCandidates": [
         {
-          "number": "010-4118-4759",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "안산푸르지오브리파크아파트 전화번호, 안산푸르지오브리파크 전화번호",
+          "number": "031-492-8851",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 2
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-492-8850",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-356-9377",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -6245,9 +6463,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_안산푸르지오브리파크"
@@ -7296,22 +7514,51 @@
       "jibunAddress": "경기 안산시 단원구 초지동 736",
       "phone": "031-439-8063",
       "phones": [
-        "031-439-8063"
+        "031-439-8063",
+        "031-439-6060",
+        "031-506-3626"
       ],
       "phoneCandidates": [
         {
           "number": "031-439-8063",
           "score": 100,
-          "source": "카카오",
-          "keyword": "안산시 아파트 관리사무소, existing, 경기 안산시 단원구 초지동 736 관리사무소, 경기 안산시 단원구 초지동 736 관리실, 경기 안산시 단원구 초지2로 41 관리사무소, 경기 안산시 단원구 초지2로 41 관리실, 초지동 안산고잔그린빌15단지 관리사무소, 안산시 안산고잔그린빌15단지 관리사무소, 안산시 단원구 안",
+          "source": "카카오, 네이버부동산",
+          "keyword": "안산시 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 12
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 10
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 12회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+        },
+        {
+          "number": "031-439-6060",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-506-3626",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -7423,47 +7670,17 @@
       "address": "경기 안산시 단원구 원포공원2로 6\n경기 안산시 단원구 초지동 744",
       "roadAddress": "경기 안산시 단원구 원포공원2로 6",
       "jibunAddress": "경기 안산시 단원구 초지동 744",
-      "phone": "031-8042-5989",
-      "phones": [
-        "031-8042-5989",
-        "031-484-5500"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "031-8042-5989",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "031-484-5500",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_안산시_위너스오션파크"
@@ -7722,38 +7939,6 @@
     },
     {
       "kaptCode": "",
-      "name": "더하이오피스텔",
-      "aliases": [
-        {
-          "name": "더하이오피스텔",
-          "source": "카카오"
-        }
-      ],
-      "type": "오피스텔",
-      "city": "안산시",
-      "sido": "경기도",
-      "district": "단원구",
-      "dong": "초지동",
-      "address": "경기 안산시 단원구 원포공원1로 22\n경기 안산시 단원구 초지동 745-1",
-      "roadAddress": "경기 안산시 단원구 원포공원1로 22",
-      "jibunAddress": "경기 안산시 단원구 초지동 745-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
-      "reportCount": 0,
-      "confidenceScore": 0,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "경기도_안산시_하이"
-    },
-    {
-      "kaptCode": "",
       "name": "행복한마을아파트",
       "aliases": [
         {
@@ -7772,8 +7957,8 @@
       "phone": "031-482-0400",
       "phones": [
         "031-482-0400",
-        "031-973-4185",
-        "031-815-4185"
+        "031-962-5858",
+        "031-401-8933"
       ],
       "phoneCandidates": [
         {
@@ -7790,7 +7975,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-973-4185",
+          "number": "031-962-5858",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -7803,7 +7988,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-815-4185",
+          "number": "031-401-8933",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -7848,8 +8033,8 @@
       "phone": "031-410-0792",
       "phones": [
         "031-410-0792",
-        "031-904-7998",
-        "031-904-3207"
+        "031-439-7071",
+        "031-410-0793"
       ],
       "phoneCandidates": [
         {
@@ -7866,7 +8051,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-904-7998",
+          "number": "031-439-7071",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
@@ -7879,7 +8064,7 @@
           "sourceSummary": "네이버부동산 1회"
         },
         {
-          "number": "031-904-3207",
+          "number": "031-410-0793",
           "score": 97,
           "source": "네이버부동산",
           "keyword": "naver_land_management",
