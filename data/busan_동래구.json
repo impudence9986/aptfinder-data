@@ -1,6 +1,6 @@
 {
-  "version": 1793476978,
-  "updatedAt": "2026-10-31 20:02:58",
+  "version": 1793842435,
+  "updatedAt": "2026-11-05 01:33:55",
   "sido": "부산광역시",
   "sigungu": "동래구",
   "count": 66,
@@ -656,17 +656,33 @@
       "address": "부산 동래구 명륜동 558-4",
       "roadAddress": "",
       "jibunAddress": "부산 동래구 명륜동 558-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-714-7420",
+      "phones": [
+        "051-714-7420"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-714-7420",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "부산광역시_동래구_명륜자이정문"
@@ -1714,40 +1730,25 @@
       "phone": "051-791-2872",
       "phones": [
         "051-791-2872",
-        "051-559-6100",
         "051-553-6860"
       ],
       "phoneCandidates": [
         {
           "number": "051-791-2872",
-          "score": 100,
+          "score": 79,
           "source": "카카오",
-          "keyword": "SK허브스카이오피스텔 전화번호, SK허브스카이 전화번호, existing",
+          "keyword": "SK허브스카이오피스텔 전화번호, SK허브스카이 전화번호",
           "sourceCounts": {
-            "카카오": 3
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2,
-            "카카오 장소검색": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 3회"
-        },
-        {
-          "number": "051-559-6100",
-          "score": 91,
-          "source": "114On",
-          "keyword": "부산 동래구 온천동 153-8 관리사무소",
-          "sourceCounts": {
-            "114On": 1
-          },
-          "sourceDetails": {
-            "114On/네이버 스니펫": 1
-          },
-          "sourceSummary": "114On 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
           "number": "051-553-6860",
-          "score": 83,
+          "score": 77,
           "source": "카카오",
           "keyword": "SK허브스카이오피스텔 전화번호, SK허브스카이 전화번호",
           "sourceCounts": {
@@ -1764,9 +1765,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 79,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동래구_sk허브스카이"
@@ -1790,36 +1791,21 @@
       "jibunAddress": "부산 동래구 온천동 1850",
       "phone": "051-555-0760",
       "phones": [
-        "051-555-0760",
-        "07-1322-6749"
+        "051-555-0760"
       ],
       "phoneCandidates": [
         {
           "number": "051-555-0760",
-          "score": 98,
+          "score": 77,
           "source": "카카오",
-          "keyword": "동래3차SKVIEW아파트 전화번호, 동래3차SKVIEW 전화번호, existing",
+          "keyword": "동래3차SKVIEW아파트 전화번호, 동래3차SKVIEW 전화번호",
           "sourceCounts": {
-            "카카오": 3
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2,
-            "카카오 장소검색": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 3회"
-        },
-        {
-          "number": "07-1322-6749",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "부산 동래구 온천동 1850 관리실",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -1827,9 +1813,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 98,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동래구_동래3차skview"
@@ -1947,118 +1933,17 @@
       "address": "부산 동래구 아시아드대로255번길 14\n부산 동래구 온천동 1838",
       "roadAddress": "부산 동래구 아시아드대로255번길 14",
       "jibunAddress": "부산 동래구 온천동 1838",
-      "phone": "051-507-8623",
-      "phones": [
-        "051-507-8623",
-        "051-936-3004",
-        "051-502-7475",
-        "051-553-9990",
-        "051-331-8988",
-        "051-710-5535",
-        "051-866-9666"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "051-507-8623",
-          "score": 100,
-          "source": "네이버",
-          "keyword": "부산 동래구 온천동 1838 관리사무소, 온천동 동래효성해링턴플레이스 관리사무소, 동래구 동래효성해링턴플레이스 관리사무소, 동래구 동래구 동래효성해링턴플레이스 관리사무소, 동래효성해링턴플레이스아파트 관리사무소, 동래효성해링턴플레이스 전화번호",
-          "sourceCounts": {
-            "네이버": 7
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 7
-          },
-          "sourceSummary": "네이버 7회"
-        },
-        {
-          "number": "051-936-3004",
-          "score": 100,
-          "source": "네이버",
-          "keyword": "부산 동래구 아시아드대로255번길 14 전화번호, 동래효성해링턴플레이스아파트 전화번호, 동래효성해링턴플레이스 전화번호",
-          "sourceCounts": {
-            "네이버": 4
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 3,
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 4회"
-        },
-        {
-          "number": "051-502-7475",
-          "score": 91,
-          "source": "114On",
-          "keyword": "부산 동래구 아시아드대로255번길 14 전화번호",
-          "sourceCounts": {
-            "114On": 1
-          },
-          "sourceDetails": {
-            "114On/네이버 스니펫": 1
-          },
-          "sourceSummary": "114On 1회"
-        },
-        {
-          "number": "051-553-9990",
-          "score": 73,
-          "source": "네이버",
-          "keyword": "부산 동래구 온천동 1838 전화번호, 동래효성해링턴플레이스아파트 전화번호, 동래효성해링턴플레이스 전화번호",
-          "sourceCounts": {
-            "네이버": 3
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 3
-          },
-          "sourceSummary": "네이버 3회"
-        },
-        {
-          "number": "051-331-8988",
-          "score": 63,
-          "source": "네이버",
-          "keyword": "동래효성해링턴플레이스아파트 관리사무소, 동래효성해링턴플레이스 관리사무소",
-          "sourceCounts": {
-            "네이버": 2
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 2
-          },
-          "sourceSummary": "네이버 2회"
-        },
-        {
-          "number": "051-710-5535",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "동래효성해링턴플레이스아파트 관리사무소",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "051-866-9666",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "동래효성해링턴플레이스 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_동래구_동래효성해링턴플레이스"
