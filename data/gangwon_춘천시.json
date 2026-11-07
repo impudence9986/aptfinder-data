@@ -1,6 +1,6 @@
 {
-  "version": 1793921193,
-  "updatedAt": "2026-11-05 23:26:33",
+  "version": 1794083120,
+  "updatedAt": "2026-11-07 20:25:20",
   "sido": "강원특별자치도",
   "sigungu": "춘천시",
   "count": 63,
@@ -2092,17 +2092,47 @@
       "address": "강원특별자치도 춘천시 효자동 681-12",
       "roadAddress": "",
       "jibunAddress": "강원특별자치도 춘천시 효자동 681-12",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "033-253-3000",
+      "phones": [
+        "033-253-3000",
+        "02-600-0533"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "033-253-3000",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 춘천시 효자동 681-12 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-600-0533",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강원특별자치도 춘천시 효자동 681-12 관리실",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "강원특별자치도_춘천시_남춘천센트레빌2030년10월예정"

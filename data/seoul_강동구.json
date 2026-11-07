@@ -1,6 +1,6 @@
 {
-  "version": 1793833684,
-  "updatedAt": "2026-11-04 23:08:04",
+  "version": 1794084850,
+  "updatedAt": "2026-11-07 20:54:10",
   "sido": "서울특별시",
   "sigungu": "강동구",
   "count": 134,
@@ -3847,17 +3847,33 @@
       "address": "서울 강동구 고덕로 46\n서울 강동구 암사동 462-22",
       "roadAddress": "서울 강동구 고덕로 46",
       "jibunAddress": "서울 강동구 암사동 462-22",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "07-1404-1552",
+      "phones": [
+        "07-1404-1552"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "07-1404-1552",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "서울 강동구 고덕로 46 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 42,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강동구_신양그린"

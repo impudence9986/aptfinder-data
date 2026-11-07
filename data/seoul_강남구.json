@@ -1,6 +1,6 @@
 {
-  "version": 1793833151,
-  "updatedAt": "2026-11-04 22:59:11",
+  "version": 1794084824,
+  "updatedAt": "2026-11-07 20:53:44",
   "sido": "서울특별시",
   "sigungu": "강남구",
   "count": 226,
@@ -1844,20 +1844,21 @@
       "phoneCandidates": [
         {
           "number": "02-555-9905",
-          "score": 81,
+          "score": 98,
           "source": "카카오",
-          "keyword": "대치르엘아파트 전화번호, 대치르엘 전화번호",
+          "keyword": "대치르엘아파트 전화번호, 대치르엘 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         },
         {
           "number": "07-2093-5349",
-          "score": 79,
+          "score": 83,
           "source": "카카오",
           "keyword": "대치르엘아파트 전화번호, 대치르엘 전화번호",
           "sourceCounts": {
@@ -1870,7 +1871,7 @@
         },
         {
           "number": "02-568-2453",
-          "score": 77,
+          "score": 81,
           "source": "카카오",
           "keyword": "대치르엘아파트 전화번호, 대치르엘 전화번호",
           "sourceCounts": {
@@ -1887,9 +1888,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 81,
+      "confidenceScore": 98,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_대치르엘"
@@ -10573,17 +10574,75 @@
       "address": "서울 강남구 학동로 405\n서울 강남구 청담동 42",
       "roadAddress": "서울 강남구 학동로 405",
       "jibunAddress": "서울 강남구 청담동 42",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-517-4158",
+      "phones": [
+        "02-517-4158",
+        "02-517-4159",
+        "02-516-3891",
+        "024-0823-1854"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-517-4158",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강남구 삼성청담 관리사무소, 강남구 강남구 삼성청담 관리사무소, 삼성청담아파트 관리사무소, 삼성청담아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "02-517-4159",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "강남구 삼성청담 관리사무소, 강남구 강남구 삼성청담 관리사무소, 삼성청담아파트 관리사무소, 삼성청담아파트 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "02-516-3891",
+          "score": 73,
+          "source": "네이버",
+          "keyword": "서울 강남구 학동로 405 관리사무소, 서울 강남구 청담동 42 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "024-0823-1854",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "삼성청담 관리사무소",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강남구_삼성청담"

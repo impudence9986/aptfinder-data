@@ -1,6 +1,6 @@
 {
-  "version": 1793832197,
-  "updatedAt": "2026-11-04 22:43:17",
+  "version": 1794084325,
+  "updatedAt": "2026-11-07 20:45:25",
   "sido": "경기도",
   "sigungu": "하남시",
   "count": 92,
@@ -2631,17 +2631,63 @@
       "address": "경기 하남시 신장로 114\n경기 하남시 신장동 427-159",
       "roadAddress": "경기 하남시 신장로 114",
       "jibunAddress": "경기 하남시 신장동 427-159",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-8028-1164",
+      "phones": [
+        "031-8028-1164",
+        "031-796-0907",
+        "02-827-7342"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-8028-1164",
+          "score": 100,
+          "source": "114On, 네이버",
+          "keyword": "신장동 ICT하남 관리사무소, ICT하남오피스텔 관리사무소",
+          "sourceCounts": {
+            "114On": 1,
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "114On/네이버 스니펫": 1,
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "114On 1회 · 네이버 1회"
+        },
+        {
+          "number": "031-796-0907",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "ICT하남오피스텔 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        },
+        {
+          "number": "02-827-7342",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "ICT하남 관리단",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_하남시_ict하남"

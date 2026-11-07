@@ -1,6 +1,6 @@
 {
-  "version": 1793917079,
-  "updatedAt": "2026-11-05 22:17:59",
+  "version": 1794083203,
+  "updatedAt": "2026-11-07 20:26:43",
   "sido": "광주광역시",
   "sigungu": "북구",
   "count": 75,
@@ -545,16 +545,17 @@
       "phoneCandidates": [
         {
           "number": "041-355-5239",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "명지아파트 관리사무소 전화번호, 명지 전화번호",
+          "keyword": "명지아파트 관리사무소 전화번호, 명지 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -562,9 +563,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "광주광역시_북구_명지"
@@ -2595,17 +2596,47 @@
       "address": "전남광주통합특별시 북구 첨단연구로 270\n전남광주통합특별시 북구 월출동 695-6",
       "roadAddress": "전남광주통합특별시 북구 첨단연구로 270",
       "jibunAddress": "전남광주통합특별시 북구 월출동 695-6",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "00-2026-0005",
+      "phones": [
+        "00-2026-0005",
+        "062-972-4658"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "00-2026-0005",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "첨단제일풍경채A5블록아파트 전화번호, 첨단제일풍경채A5블록 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "062-972-4658",
+          "score": 51,
+          "source": "네이버",
+          "keyword": "첨단제일풍경채A5블록아파트 전화번호, 첨단제일풍경채A5블록 전화번호",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 53,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "광주광역시_북구_첨단제일풍경채a5블록"
@@ -2666,16 +2697,17 @@
       "phoneCandidates": [
         {
           "number": "062-716-6888",
-          "score": 77,
+          "score": 94,
           "source": "카카오",
-          "keyword": "금남로대광로제비앙아파트 전화번호, 금남로대광로제비앙 전화번호",
+          "keyword": "금남로대광로제비앙아파트 전화번호, 금남로대광로제비앙 전화번호, existing",
           "sourceCounts": {
-            "카카오": 2
+            "카카오": 3
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -2683,9 +2715,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 94,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "광주광역시_북구_금남로대광로제비앙"

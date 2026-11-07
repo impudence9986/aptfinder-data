@@ -1,6 +1,6 @@
 {
-  "version": 1794001178,
-  "updatedAt": "2026-11-06 21:39:38",
+  "version": 1794084602,
+  "updatedAt": "2026-11-07 20:50:02",
   "sido": "제주특별자치도",
   "sigungu": "서귀포시",
   "count": 36,
@@ -534,17 +534,47 @@
       "address": "제주특별자치도 서귀포시 태평로512번길 10\n제주특별자치도 서귀포시 동홍동 355-1",
       "roadAddress": "제주특별자치도 서귀포시 태평로512번길 10",
       "jibunAddress": "제주특별자치도 서귀포시 동홍동 355-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "064-762-9479",
+      "phones": [
+        "064-762-9479",
+        "064-732-0729"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "064-762-9479",
+          "score": 100,
+          "source": "네이버",
+          "keyword": "동홍동 동홍주공4단지 관리사무소, 서귀포시 동홍주공4단지 관리사무소, 동홍주공4단지아파트 관리사무소, 동홍주공4단지 전화번호",
+          "sourceCounts": {
+            "네이버": 5
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 5
+          },
+          "sourceSummary": "네이버 5회"
+        },
+        {
+          "number": "064-732-0729",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "제주특별자치도 서귀포시 동홍동 355-1 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "제주특별자치도_서귀포시_동홍주공4"
