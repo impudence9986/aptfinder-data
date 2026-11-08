@@ -1,6 +1,6 @@
 {
-  "version": 1794085277,
-  "updatedAt": "2026-11-07 21:01:17",
+  "version": 1794170274,
+  "updatedAt": "2026-11-08 20:37:54",
   "sido": "서울특별시",
   "sigungu": "영등포구",
   "count": 97,
@@ -3940,24 +3940,40 @@
       "address": "서울 영등포구 여의대로 60\n서울 영등포구 여의도동 23-4",
       "roadAddress": "서울 영등포구 여의대로 60",
       "jibunAddress": "서울 영등포구 여의도동 23-4",
-      "phone": "02-768-7728",
+      "phone": "02-728-1114",
       "phones": [
+        "02-728-1114",
         "02-768-7728",
         "02-2229-6433"
       ],
       "phoneCandidates": [
         {
-          "number": "02-768-7728",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "서울 영등포구 여의대로 60 전화번호",
+          "number": "02-728-1114",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 1
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 카페검색": 1
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-768-7728",
+          "score": 75,
+          "source": "네이버, 카카오",
+          "keyword": "서울 영등포구 여의대로 60 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         },
         {
           "number": "02-2229-6433",
@@ -3978,9 +3994,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_영등포구_앙사나여의도서울"

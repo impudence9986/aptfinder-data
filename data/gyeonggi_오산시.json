@@ -1,6 +1,6 @@
 {
-  "version": 1794083974,
-  "updatedAt": "2026-11-07 20:39:34",
+  "version": 1794170132,
+  "updatedAt": "2026-11-08 20:35:32",
   "sido": "경기도",
   "sigungu": "오산시",
   "count": 125,
@@ -103,9 +103,12 @@
       "address": "경기 오산시 가수행복로 19\n경기 오산시 가수동 449",
       "roadAddress": "경기 오산시 가수행복로 19",
       "jibunAddress": "경기 오산시 가수동 449",
-      "phone": "031-377-8254",
+      "phone": "031-378-3303",
       "phones": [
+        "031-378-3303",
         "031-377-8254",
+        "031-377-0525",
+        "031-373-0028",
         "031-372-7290",
         "07-516-2024",
         "01-084-4783",
@@ -114,21 +117,62 @@
       ],
       "phoneCandidates": [
         {
-          "number": "031-377-8254",
-          "score": 69,
-          "source": "네이버",
-          "keyword": "오산시 오산역금강펜테리움센트럴파크 관리사무소, 오산역금강펜테리움센트럴파크 전화번호",
+          "number": "031-378-3303",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 3
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 블로그검색": 3
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 3회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-377-8254",
+          "score": 100,
+          "source": "네이버, 카카오",
+          "keyword": "오산시 오산역금강펜테리움센트럴파크 관리사무소, 오산역금강펜테리움센트럴파크 전화번호, existing",
+          "sourceCounts": {
+            "네이버": 3,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 블로그검색": 3,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 3회"
+        },
+        {
+          "number": "031-377-0525",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-373-0028",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         },
         {
           "number": "031-372-7290",
-          "score": 61,
+          "score": 71,
           "source": "네이버",
           "keyword": "경기 오산시 가수동 449 관리사무소, 경기 오산시 가수행복로 19 관리사무소",
           "sourceCounts": {
@@ -197,9 +241,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 69,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_오산시_오산역금강펜테리움센트럴파크"

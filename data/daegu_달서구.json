@@ -1,6 +1,6 @@
 {
-  "version": 1794082885,
-  "updatedAt": "2026-11-07 20:21:25",
+  "version": 1794169925,
+  "updatedAt": "2026-11-08 20:32:05",
   "sido": "대구광역시",
   "sigungu": "달서구",
   "count": 70,
@@ -2011,8 +2011,10 @@
       "address": "대구 달서구 월서로 14\n대구 달서구 상인동 113",
       "roadAddress": "대구 달서구 월서로 14",
       "jibunAddress": "대구 달서구 상인동 113",
-      "phone": "053-652-9999",
+      "phone": "053-634-5577",
       "phones": [
+        "053-634-5577",
+        "053-639-5780",
         "053-652-9999",
         "053-637-7585",
         "053-584-3638",
@@ -2020,17 +2022,45 @@
       ],
       "phoneCandidates": [
         {
-          "number": "053-652-9999",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "대구 달서구 월서로 14 관리사무소",
+          "number": "053-634-5577",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "네이버": 1
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-639-5780",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "053-652-9999",
+          "score": 80,
+          "source": "네이버, 카카오",
+          "keyword": "대구 달서구 월서로 14 관리사무소, existing",
+          "sourceCounts": {
+            "네이버": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 1회 · 네이버 1회"
         },
         {
           "number": "053-637-7585",
@@ -2077,9 +2107,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 42,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대구광역시_달서구_상인역e편한세상1"
