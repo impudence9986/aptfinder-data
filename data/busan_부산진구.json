@@ -1,6 +1,6 @@
 {
-  "version": 1794082735,
-  "updatedAt": "2026-11-07 20:18:55",
+  "version": 1794445626,
+  "updatedAt": "2026-11-12 01:07:06",
   "sido": "부산광역시",
   "sigungu": "부산진구",
   "count": 77,
@@ -71,37 +71,51 @@
       "address": "부산 부산진구 가야대로 538\n부산 부산진구 가야동 700",
       "roadAddress": "부산 부산진구 가야대로 538",
       "jibunAddress": "부산 부산진구 가야동 700",
-      "phone": "051-898-4535",
+      "phone": "080-999-5425",
       "phones": [
-        "051-898-4535",
-        "051-898-0100"
+        "080-999-5425",
+        "051-893-2333",
+        "070-4418-3234"
       ],
       "phoneCandidates": [
         {
-          "number": "051-898-4535",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "080-999-5425",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "가야롯데캐슬골드아너아파트 전화번호, 가야롯데캐슬골드아너 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
-          "number": "051-898-0100",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
+          "number": "051-893-2333",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "가야롯데캐슬골드아너아파트 전화번호, 가야롯데캐슬골드아너 전화번호",
           "sourceCounts": {
-            "네이버부동산": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "네이버부동산 관리사무소": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "네이버부동산 1회"
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "070-4418-3234",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "가야롯데캐슬골드아너아파트 전화번호, 가야롯데캐슬골드아너 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -109,9 +123,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 81,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_부산진구_가야롯데캐슬골드아너"
@@ -675,6 +689,55 @@
     },
     {
       "kaptCode": "",
+      "name": "개금 성도아파트 관리사무소",
+      "aliases": [
+        {
+          "name": "개금 성도아파트 관리사무소",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "부산진구",
+      "sido": "부산광역시",
+      "district": "부산진구",
+      "dong": "개금본동",
+      "address": "부산 부산진구 개금본동로22번길 31\n부산 부산진구 개금동 10",
+      "roadAddress": "부산 부산진구 개금본동로22번길 31",
+      "jibunAddress": "부산 부산진구 개금동 10",
+      "phone": "051-894-0025",
+      "phones": [
+        "051-894-0025"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-894-0025",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "부산진구 아파트 관리사무소, existing, 부산 부산진구 개금본동로22번길 31 관리사무소, 부산 부산진구 개금본동로22번길 31 관리실, 부산 부산진구 개금동 10 관리사무소, 부산 부산진구 개금동 10 관리실, 부산진구 개금 성도 관리사무소, 부산진구 부산진구 개금 성도 관리사무소, 부산진구 개금 성도 관리실, 개",
+          "sourceCounts": {
+            "카카오": 11
+          },
+          "sourceDetails": {
+            "카카오 장소검색": 2,
+            "카카오 주소일치 전화번호 보강": 9
+          },
+          "sourceSummary": "카카오 11회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CONFIRMED",
+      "reportCount": 0,
+      "confidenceScore": 100,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "부산광역시_부산진구_개금성도"
+    },
+    {
+      "kaptCode": "",
       "name": "개금현대아파트 관리사무소",
       "aliases": [
         {
@@ -704,69 +767,6 @@
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_부산진구_개금현대"
-    },
-    {
-      "kaptCode": "",
-      "name": "백양뜨란채아파트 관리사무소",
-      "aliases": [
-        {
-          "name": "백양뜨란채아파트 관리사무소",
-          "source": "카카오"
-        }
-      ],
-      "type": "아파트",
-      "city": "부산진구",
-      "sido": "부산광역시",
-      "district": "부산진구",
-      "dong": "당감동",
-      "address": "부산 부산진구 백양산로53번길 125\n부산 부산진구 당감동 797",
-      "roadAddress": "부산 부산진구 백양산로53번길 125",
-      "jibunAddress": "부산 부산진구 당감동 797",
-      "phone": "051-896-8584",
-      "phones": [
-        "051-896-8584",
-        "051-891-7196"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "051-896-8584",
-          "score": 100,
-          "source": "카카오",
-          "keyword": "부산진구 아파트 관리사무소, existing, 부산 부산진구 당감동 797 관리사무소, 부산 부산진구 당감동 797 관리실, 부산 부산진구 백양산로53번길 125 관리사무소, 부산 부산진구 백양산로53번길 125 관리실, 당감동 백양뜨란채 관리사무소, 부산진구 백양뜨란채 관리사무소, 부산진구 부산진구 백양뜨란채 관리사무소",
-          "sourceCounts": {
-            "카카오": 12
-          },
-          "sourceDetails": {
-            "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 10
-          },
-          "sourceSummary": "카카오 12회"
-        },
-        {
-          "number": "051-891-7196",
-          "score": 100,
-          "source": "카카오",
-          "keyword": "부산 부산진구 당감동 797 관리사무소, 부산 부산진구 당감동 797 관리실, 부산 부산진구 백양산로53번길 125 관리사무소, 부산 부산진구 백양산로53번길 125 관리실",
-          "sourceCounts": {
-            "카카오": 4
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 4
-          },
-          "sourceSummary": "카카오 4회"
-        }
-      ],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
-      "reportCount": 0,
-      "confidenceScore": 100,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "부산광역시_부산진구_백양뜨란채"
     },
     {
       "kaptCode": "",
@@ -1866,6 +1866,68 @@
     },
     {
       "kaptCode": "",
+      "name": "서면베르빌오피스텔",
+      "aliases": [
+        {
+          "name": "서면베르빌오피스텔",
+          "source": "카카오"
+        }
+      ],
+      "type": "오피스텔",
+      "city": "부산진구",
+      "sido": "부산광역시",
+      "district": "부산진구",
+      "dong": "부전동",
+      "address": "부산 부산진구 부전로 43\n부산 부산진구 부전동 525-3",
+      "roadAddress": "부산 부산진구 부전로 43",
+      "jibunAddress": "부산 부산진구 부전동 525-3",
+      "phone": "051-808-9040",
+      "phones": [
+        "051-808-9040",
+        "02-5552-9011"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-808-9040",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "부산 부산진구 부전동 525-3 관리사무소, 부산 부산진구 부전동 525-3 관리실, 부산 부산진구 부전로 43 관리사무소, 부산 부산진구 부전로 43 관리실, 부전동 서면베르빌 관리사무소, 부산진구 서면베르빌 관리사무소, 부산진구 부산진구 서면베르빌 관리사무소, 부산진구 서면베르빌 관리실",
+          "sourceCounts": {
+            "카카오": 8
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 8
+          },
+          "sourceSummary": "카카오 8회"
+        },
+        {
+          "number": "02-5552-9011",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "서면베르빌오피스텔 전화번호, 서면베르빌 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CONFIRMED",
+      "reportCount": 0,
+      "confidenceScore": 100,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "부산광역시_부산진구_서면베르빌"
+    },
+    {
+      "kaptCode": "",
       "name": "서면더샵센트럴스타아파트",
       "aliases": [
         {
@@ -1977,138 +2039,23 @@
       "address": "부산 부산진구 중앙대로 654\n부산 부산진구 부전동 536-8",
       "roadAddress": "부산 부산진구 중앙대로 654",
       "jibunAddress": "부산 부산진구 부전동 536-8",
-      "phone": "051-809-8824",
+      "phone": "051-818-1003",
       "phones": [
-        "051-809-8824",
-        "051-818-1003",
-        "051-817-1997",
-        "051-817-7707",
-        "051-605-4405",
-        "07-1362-1012",
-        "051-868-1201",
-        "051-868-1301",
-        "070-4119-6494"
+        "051-818-1003"
       ],
       "phoneCandidates": [
         {
-          "number": "051-809-8824",
-          "score": 100,
-          "source": "114On",
-          "keyword": "부산 부산진구 중앙대로 654 관리사무소, 부전동 서면푸르지오시티시그니처 관리사무소, 부산진구 서면푸르지오시티시그니처 관리사무소, 부산진구 부산진구 서면푸르지오시티시그니처 관리사무소, 서면푸르지오시티시그니처 전화번호",
-          "sourceCounts": {
-            "114On": 6
-          },
-          "sourceDetails": {
-            "114On/네이버 스니펫": 6
-          },
-          "sourceSummary": "114On 6회"
-        },
-        {
           "number": "051-818-1003",
-          "score": 100,
-          "source": "카카오, 네이버",
-          "keyword": "서면푸르지오시티시그니처 전화번호, existing, 부산 부산진구 중앙대로 654 전화번호",
-          "sourceCounts": {
-            "카카오": 3,
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2,
-            "카카오 장소검색": 1,
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "카카오 3회 · 네이버 1회"
-        },
-        {
-          "number": "051-817-1997",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "부산 부산진구 중앙대로 654 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 웹검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "051-817-7707",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "부산 부산진구 중앙대로 654 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "051-605-4405",
-          "score": 42,
-          "source": "네이버",
+          "score": 63,
+          "source": "카카오",
           "keyword": "서면푸르지오시티시그니처 전화번호",
           "sourceCounts": {
-            "네이버": 1
+            "카카오": 1
           },
           "sourceDetails": {
-            "네이버 웹검색": 1
+            "카카오 주소일치 전화번호 보강": 1
           },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "07-1362-1012",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "서면푸르지오시티시그니처 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "051-868-1201",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "서면푸르지오시티시그니처 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "051-868-1301",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "서면푸르지오시티시그니처 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
-        },
-        {
-          "number": "070-4119-6494",
-          "score": 42,
-          "source": "네이버",
-          "keyword": "서면푸르지오시티시그니처 전화번호",
-          "sourceCounts": {
-            "네이버": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 1
-          },
-          "sourceSummary": "네이버 1회"
+          "sourceSummary": "카카오 1회"
         }
       ],
       "households": "",
@@ -2116,9 +2063,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_부산진구_서면푸르지오시티시그니처"
@@ -2175,8 +2122,8 @@
       "phone": "02-794-9571",
       "phones": [
         "02-794-9571",
-        "031-431-3377",
         "02-825-2318",
+        "031-431-3377",
         "062-971-1999",
         "02-428-9655"
       ],
@@ -2195,7 +2142,7 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "031-431-3377",
+          "number": "02-825-2318",
           "score": 83,
           "source": "카카오",
           "keyword": "신동아오피스텔 전화번호, 신동아 전화번호",
@@ -2208,7 +2155,7 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "02-825-2318",
+          "number": "031-431-3377",
           "score": 81,
           "source": "카카오",
           "keyword": "신동아오피스텔 전화번호, 신동아 전화번호",
@@ -2283,17 +2230,16 @@
       "phoneCandidates": [
         {
           "number": "010-6401-8797",
-          "score": 94,
+          "score": 77,
           "source": "카카오",
-          "keyword": "위클리스타오피스텔 전화번호, 위클리스타 전화번호, existing",
+          "keyword": "위클리스타오피스텔 전화번호, 위클리스타 전화번호",
           "sourceCounts": {
-            "카카오": 3
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2,
-            "카카오 장소검색": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 3회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -2301,9 +2247,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 94,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_부산진구_위클리스타"
@@ -3244,54 +3190,6 @@
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_부산진구_블루"
-    },
-    {
-      "kaptCode": "",
-      "name": "더블루2오피스텔",
-      "aliases": [
-        {
-          "name": "더블루2오피스텔",
-          "source": "카카오"
-        }
-      ],
-      "type": "오피스텔",
-      "city": "부산진구",
-      "sido": "부산광역시",
-      "district": "부산진구",
-      "dong": "전포동",
-      "address": "부산 부산진구 서전로38번길 65\n부산 부산진구 전포동 686-1",
-      "roadAddress": "부산 부산진구 서전로38번길 65",
-      "jibunAddress": "부산 부산진구 전포동 686-1",
-      "phone": "051-802-7770",
-      "phones": [
-        "051-802-7770"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "051-802-7770",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "더블루2오피스텔 전화번호, 더블루2 전화번호",
-          "sourceCounts": {
-            "카카오": 2
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
-          },
-          "sourceSummary": "카카오 2회"
-        }
-      ],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
-      "reportCount": 0,
-      "confidenceScore": 77,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "부산광역시_부산진구_블루2"
     },
     {
       "kaptCode": "",

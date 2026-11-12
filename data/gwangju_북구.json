@@ -1,6 +1,6 @@
 {
-  "version": 1794170019,
-  "updatedAt": "2026-11-08 20:33:39",
+  "version": 1794451608,
+  "updatedAt": "2026-11-12 02:46:48",
   "sido": "광주광역시",
   "sigungu": "북구",
   "count": 75,
@@ -259,6 +259,7 @@
       "phone": "062-513-0502",
       "phones": [
         "062-513-0502",
+        "051-242-8031",
         "062-251-0063"
       ],
       "phoneCandidates": [
@@ -274,6 +275,19 @@
             "카카오 주소일치 전화번호 보강": 8
           },
           "sourceSummary": "카카오 8회"
+        },
+        {
+          "number": "051-242-8031",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "삼익아파트 관리사무소, 삼익아파트 관리실, 삼익 관리사무소, 삼익 관리실, 삼익아파트 관리단, 삼익 관리단",
+          "sourceCounts": {
+            "카카오": 6
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 6
+          },
+          "sourceSummary": "카카오 6회"
         },
         {
           "number": "062-251-0063",
@@ -545,17 +559,16 @@
       "phoneCandidates": [
         {
           "number": "041-355-5239",
-          "score": 94,
+          "score": 77,
           "source": "카카오",
-          "keyword": "명지아파트 관리사무소 전화번호, 명지 전화번호, existing",
+          "keyword": "명지아파트 관리사무소 전화번호, 명지 전화번호",
           "sourceCounts": {
-            "카카오": 3
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2,
-            "카카오 장소검색": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 3회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -563,9 +576,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 94,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "광주광역시_북구_명지"
@@ -1508,17 +1521,47 @@
       "address": "전남광주통합특별시 북구 빛고을대로 615\n전남광주통합특별시 북구 신용동 869",
       "roadAddress": "전남광주통합특별시 북구 빛고을대로 615",
       "jibunAddress": "전남광주통합특별시 북구 신용동 869",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "062-575-5992",
+      "phones": [
+        "062-575-5992",
+        "062-575-5991"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "062-575-5992",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "062-575-5991",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "광주광역시_북구_힐스테이트신용리버"
@@ -2596,91 +2639,17 @@
       "address": "전남광주통합특별시 북구 첨단연구로 270\n전남광주통합특별시 북구 월출동 695-6",
       "roadAddress": "전남광주통합특별시 북구 첨단연구로 270",
       "jibunAddress": "전남광주통합특별시 북구 월출동 695-6",
-      "phone": "062-972-9723",
-      "phones": [
-        "062-972-9723",
-        "00-2026-0005",
-        "062-972-9724",
-        "062-971-9003",
-        "062-972-4658"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "062-972-9723",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "00-2026-0005",
-          "score": 100,
-          "source": "네이버, 카카오",
-          "keyword": "첨단제일풍경채A5블록아파트 전화번호, 첨단제일풍경채A5블록 전화번호, existing",
-          "sourceCounts": {
-            "네이버": 2,
-            "카카오": 1
-          },
-          "sourceDetails": {
-            "네이버 블로그검색": 2,
-            "카카오 장소검색": 1
-          },
-          "sourceSummary": "카카오 1회 · 네이버 2회"
-        },
-        {
-          "number": "062-972-9724",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "062-971-9003",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "062-972-4658",
-          "score": 61,
-          "source": "네이버",
-          "keyword": "첨단제일풍경채A5블록아파트 전화번호, 첨단제일풍경채A5블록 전화번호",
-          "sourceCounts": {
-            "네이버": 2
-          },
-          "sourceDetails": {
-            "네이버 카페검색": 2
-          },
-          "sourceSummary": "네이버 2회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "광주광역시_북구_첨단제일풍경채a5블록"
@@ -2741,17 +2710,16 @@
       "phoneCandidates": [
         {
           "number": "062-716-6888",
-          "score": 94,
+          "score": 77,
           "source": "카카오",
-          "keyword": "금남로대광로제비앙아파트 전화번호, 금남로대광로제비앙 전화번호, existing",
+          "keyword": "금남로대광로제비앙아파트 전화번호, 금남로대광로제비앙 전화번호",
           "sourceCounts": {
-            "카카오": 3
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2,
-            "카카오 장소검색": 1
+            "카카오 주소일치 전화번호 보강": 2
           },
-          "sourceSummary": "카카오 3회"
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -2759,9 +2727,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 94,
+      "confidenceScore": 77,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "광주광역시_북구_금남로대광로제비앙"
@@ -3263,61 +3231,17 @@
       "address": "전남광주통합특별시 북구 신흥로27번길 22\n전남광주통합특별시 북구 중흥동 321-15",
       "roadAddress": "전남광주통합특별시 북구 신흥로27번길 22",
       "jibunAddress": "전남광주통합특별시 북구 중흥동 321-15",
-      "phone": "064-784-4242",
-      "phones": [
-        "064-784-4242",
-        "052-287-5930",
-        "061-832-6777"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "064-784-4242",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "풍경채 전화번호",
-          "sourceCounts": {
-            "카카오": 1
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
-          },
-          "sourceSummary": "카카오 1회"
-        },
-        {
-          "number": "052-287-5930",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "풍경채 전화번호",
-          "sourceCounts": {
-            "카카오": 1
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
-          },
-          "sourceSummary": "카카오 1회"
-        },
-        {
-          "number": "061-832-6777",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "풍경채 전화번호",
-          "sourceCounts": {
-            "카카오": 1
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
-          },
-          "sourceSummary": "카카오 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "광주광역시_북구_풍경채"
