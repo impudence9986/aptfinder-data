@@ -1,6 +1,6 @@
 {
-  "version": 1794357178,
-  "updatedAt": "2026-11-11 00:32:58",
+  "version": 1794607397,
+  "updatedAt": "2026-11-13 22:03:17",
   "sido": "경기도",
   "sigungu": "성남시",
   "count": 224,
@@ -2892,17 +2892,47 @@
       "address": "경기 성남시 분당구 동판교로266번길 14\n경기 성남시 분당구 삼평동 713",
       "roadAddress": "경기 성남시 분당구 동판교로266번길 14",
       "jibunAddress": "경기 성남시 분당구 삼평동 713",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-701-6663",
+      "phones": [
+        "031-701-6663",
+        "031-8017-4300"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-701-6663",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-8017-4300",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_성남시_천석미래로"

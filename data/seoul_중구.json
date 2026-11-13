@@ -1,6 +1,6 @@
 {
-  "version": 1794444093,
-  "updatedAt": "2026-11-12 00:41:33",
+  "version": 1794607952,
+  "updatedAt": "2026-11-13 22:12:32",
   "sido": "서울특별시",
   "sigungu": "중구",
   "count": 58,
@@ -2620,17 +2620,61 @@
       "address": "서울 중구 난계로17길 58-13\n서울 중구 황학동 1857",
       "roadAddress": "서울 중구 난계로17길 58-13",
       "jibunAddress": "서울 중구 황학동 1857",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-592-2560",
+      "phones": [
+        "02-592-2560",
+        "02-2238-4545",
+        "02-2234-0253"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-592-2560",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2238-4545",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "02-2234-0253",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중구_윌시티33"
