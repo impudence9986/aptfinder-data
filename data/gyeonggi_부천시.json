@@ -1,6 +1,6 @@
 {
-  "version": 1794356243,
-  "updatedAt": "2026-11-11 00:17:23",
+  "version": 1794690299,
+  "updatedAt": "2026-11-14 21:04:59",
   "sido": "경기도",
   "sigungu": "부천시",
   "count": 182,
@@ -3619,17 +3619,63 @@
       "address": "경기 부천시 원미구 부흥로 408\n경기 부천시 원미구 심곡동 155-3",
       "roadAddress": "경기 부천시 원미구 부흥로 408",
       "jibunAddress": "경기 부천시 원미구 심곡동 155-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "031-585-4834",
+      "phones": [
+        "031-585-4834",
+        "031-585-3420",
+        "031-584-0661"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-585-4834",
+          "score": 100,
+          "source": "네이버부동산, 카카오",
+          "keyword": "naver_land_management, existing",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 카카오 1회"
+        },
+        {
+          "number": "031-585-3420",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-584-0661",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_부천시_동서센트레빌"

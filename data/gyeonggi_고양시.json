@@ -1,6 +1,6 @@
 {
-  "version": 1794607250,
-  "updatedAt": "2026-11-13 22:00:50",
+  "version": 1794690176,
+  "updatedAt": "2026-11-14 21:02:56",
   "sido": "경기도",
   "sigungu": "고양시",
   "count": 244,
@@ -7070,23 +7070,66 @@
       "address": "경기 고양시 일산서구 주엽로 161\n경기 고양시 일산서구 주엽동 12",
       "roadAddress": "경기 고양시 일산서구 주엽로 161",
       "jibunAddress": "경기 고양시 일산서구 주엽동 12",
-      "phone": "031-912-0061",
+      "phone": "031-913-1533",
       "phones": [
-        "031-912-0061"
+        "031-913-1533",
+        "031-912-0061",
+        "031-912-9861",
+        "031-917-4000"
       ],
       "phoneCandidates": [
         {
-          "number": "031-912-0061",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "문촌마을8단지동아아파트 전화번호, 문촌마을8단지동아 전화번호",
+          "number": "031-913-1533",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 2
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-912-0061",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "문촌마을8단지동아아파트 전화번호, 문촌마을8단지동아 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "031-912-9861",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "031-917-4000",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -7094,9 +7137,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_문촌마을8동아"
@@ -10094,17 +10137,33 @@
       "address": "경기 고양시 덕양구 향기로 77\n경기 고양시 덕양구 향동동 552",
       "roadAddress": "경기 고양시 덕양구 향기로 77",
       "jibunAddress": "경기 고양시 덕양구 향동동 552",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3159-9730",
+      "phones": [
+        "02-3159-9730"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3159-9730",
+          "score": 84,
+          "source": "네이버",
+          "keyword": "고양시 덕양구 DMC호반베르디움더포레4단지 정문 관리사무소, 고양시 DMC호반베르디움더포레4단지 정문 관리실, DMC호반베르디움더포레4단지아파트 정문 전화번호, DMC호반베르디움더포레4단지 정문 전화번호",
+          "sourceCounts": {
+            "네이버": 4
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 4
+          },
+          "sourceSummary": "네이버 4회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 84,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_고양시_dmc호반베르디움포레4정문"

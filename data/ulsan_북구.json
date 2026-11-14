@@ -1,6 +1,6 @@
 {
-  "version": 1794453482,
-  "updatedAt": "2026-11-12 03:18:02",
+  "version": 1794691059,
+  "updatedAt": "2026-11-14 21:17:39",
   "sido": "울산광역시",
   "sigungu": "북구",
   "count": 50,
@@ -1400,17 +1400,63 @@
       "address": "울산 북구 진장7길 3-1\n울산 북구 진장동",
       "roadAddress": "울산 북구 진장7길 3-1",
       "jibunAddress": "울산 북구 진장동",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "052-289-9848",
+      "phones": [
+        "052-289-9848",
+        "052-294-8612",
+        "052-288-9777"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "052-289-9848",
+          "score": 100,
+          "source": "네이버부동산, 카카오",
+          "keyword": "naver_land_management, existing",
+          "sourceCounts": {
+            "네이버부동산": 1,
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "네이버부동산 1회 · 카카오 1회"
+        },
+        {
+          "number": "052-294-8612",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "052-288-9777",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "울산광역시_북구_풍경채"
