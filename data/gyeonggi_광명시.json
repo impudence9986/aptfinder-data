@@ -1,6 +1,6 @@
 {
-  "version": 1794353027,
-  "updatedAt": "2026-11-10 23:23:47",
+  "version": 1794963887,
+  "updatedAt": "2026-11-18 01:04:47",
   "sido": "경기도",
   "sigungu": "광명시",
   "count": 52,
@@ -134,17 +134,33 @@
       "address": "경기 광명시 사성로75번길 1\n경기 광명시 광명동 9-8",
       "roadAddress": "경기 광명시 사성로75번길 1",
       "jibunAddress": "경기 광명시 광명동 9-8",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "010-6721-7655",
+      "phones": [
+        "010-6721-7655"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "010-6721-7655",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "경기 광명시 사성로75번길 1 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_광명자이샵포레나"
@@ -570,55 +586,6 @@
     },
     {
       "kaptCode": "",
-      "name": "광명삼익아파트 관리사무소",
-      "aliases": [
-        {
-          "name": "광명삼익아파트 관리사무소",
-          "source": "카카오"
-        }
-      ],
-      "type": "아파트",
-      "city": "광명시",
-      "sido": "경기도",
-      "district": "",
-      "dong": "소하동",
-      "address": "경기 광명시 하안로 172\n경기 광명시 소하동 48-13",
-      "roadAddress": "경기 광명시 하안로 172",
-      "jibunAddress": "경기 광명시 소하동 48-13",
-      "phone": "02-897-6934",
-      "phones": [
-        "02-897-6934"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-897-6934",
-          "score": 100,
-          "source": "카카오",
-          "keyword": "광명시 아파트 관리사무소, existing, 경기 광명시 소하동 48-13 관리사무소, 경기 광명시 소하동 48-13 관리실, 경기 광명시 하안로 172 관리사무소, 경기 광명시 하안로 172 관리실, 소하동 광명삼익 관리사무소, 광명시 광명삼익 관리사무소, 광명시 광명삼익 관리실, 광명삼익아파트 관리사무소 전화번호, 광",
-          "sourceCounts": {
-            "카카오": 11
-          },
-          "sourceDetails": {
-            "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 9
-          },
-          "sourceSummary": "카카오 11회"
-        }
-      ],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
-      "reportCount": 0,
-      "confidenceScore": 100,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "경기도_광명시_광명삼익"
-    },
-    {
-      "kaptCode": "",
       "name": "광명역세권메트로포레아파트 관리사무소",
       "aliases": [
         {
@@ -764,38 +731,6 @@
     },
     {
       "kaptCode": "",
-      "name": "주영팰리스오피스텔",
-      "aliases": [
-        {
-          "name": "주영팰리스오피스텔",
-          "source": "카카오"
-        }
-      ],
-      "type": "오피스텔",
-      "city": "광명시",
-      "sido": "경기도",
-      "district": "",
-      "dong": "소하동",
-      "address": "경기 광명시 소하로92번길 12\n경기 광명시 소하동 1342-3",
-      "roadAddress": "경기 광명시 소하로92번길 12",
-      "jibunAddress": "경기 광명시 소하동 1342-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
-      "reportCount": 0,
-      "confidenceScore": 0,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "경기도_광명시_주영팰리스"
-    },
-    {
-      "kaptCode": "",
       "name": "현대1차아파트 관리사무소",
       "aliases": [
         {
@@ -848,7 +783,7 @@
         },
         {
           "number": "062-572-2803",
-          "score": 79,
+          "score": 81,
           "source": "카카오",
           "keyword": "현대1차아파트 관리사무소 전화번호, 현대1차 전화번호",
           "sourceCounts": {
@@ -935,6 +870,38 @@
     },
     {
       "kaptCode": "",
+      "name": "광명역써밋플레이스오피스텔",
+      "aliases": [
+        {
+          "name": "광명역써밋플레이스오피스텔",
+          "source": "카카오"
+        }
+      ],
+      "type": "오피스텔",
+      "city": "광명시",
+      "sido": "경기도",
+      "district": "",
+      "dong": "일직동",
+      "address": "경기 광명시 양지로 16\n경기 광명시 일직동 513",
+      "roadAddress": "경기 광명시 양지로 16",
+      "jibunAddress": "경기 광명시 일직동 513",
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "UNKNOWN",
+      "reportCount": 0,
+      "confidenceScore": 0,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "경기도_광명시_광명역써밋플레이스"
+    },
+    {
+      "kaptCode": "",
       "name": "광명역유플래닛데시앙아파트",
       "aliases": [
         {
@@ -987,9 +954,9 @@
         "02-6299-7996",
         "02-898-4888",
         "02-2616-8810",
-        "02-6278-7300",
         "010-9734-3332",
         "07-1324-0372",
+        "010-9736-2336",
         "02-3273-0500",
         "02-1644-5111",
         "02-6265-6007"
@@ -1035,19 +1002,6 @@
           "sourceSummary": "카카오 1회"
         },
         {
-          "number": "02-6278-7300",
-          "score": 63,
-          "source": "카카오",
-          "keyword": "광명역자이타워 B동 전화번호",
-          "sourceCounts": {
-            "카카오": 1
-          },
-          "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
-          },
-          "sourceSummary": "카카오 1회"
-        },
-        {
           "number": "010-9734-3332",
           "score": 63,
           "source": "카카오",
@@ -1062,6 +1016,19 @@
         },
         {
           "number": "07-1324-0372",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "광명역자이타워 B동 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "010-9736-2336",
           "score": 63,
           "source": "카카오",
           "keyword": "광명역자이타워 B동 전화번호",
@@ -1939,38 +1906,6 @@
     },
     {
       "kaptCode": "",
-      "name": "철산역자이아파트 (2029년05월예정)",
-      "aliases": [
-        {
-          "name": "철산역자이아파트 (2029년05월예정)",
-          "source": "카카오"
-        }
-      ],
-      "type": "아파트",
-      "city": "광명시",
-      "sido": "경기도",
-      "district": "",
-      "dong": "철산동",
-      "address": "경기 광명시 철산동 472-267",
-      "roadAddress": "",
-      "jibunAddress": "경기 광명시 철산동 472-267",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
-      "reportCount": 0,
-      "confidenceScore": 0,
-      "lastReportedAt": 0,
-      "addressQuality": "JIBUN_ONLY",
-      "sharedKey": "경기도_광명시_철산역자이2029년05월예정"
-    },
-    {
-      "kaptCode": "",
       "name": "철산자이브리에르아파트",
       "aliases": [
         {
@@ -2430,6 +2365,103 @@
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "경기도_광명시_광명두산위브트레지움정문"
+    },
+    {
+      "kaptCode": "",
+      "name": "광명하안현대아파트 관리사무소",
+      "aliases": [
+        {
+          "name": "광명하안현대아파트 관리사무소",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "광명시",
+      "sido": "경기도",
+      "district": "",
+      "dong": "하안동",
+      "address": "경기 광명시 가림일로 61\n경기 광명시 하안동 707-7",
+      "roadAddress": "경기 광명시 가림일로 61",
+      "jibunAddress": "경기 광명시 하안동 707-7",
+      "phone": "02-898-3876",
+      "phones": [
+        "02-898-3876"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-898-3876",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "광명시 아파트 관리사무소, existing, 경기 광명시 하안동 707-7 관리사무소, 경기 광명시 하안동 707-7 관리실, 경기 광명시 가림일로 61 관리사무소, 경기 광명시 가림일로 61 관리실, 하안동 광명하안현대 관리사무소, 광명시 광명하안현대 관리사무소, 광명시 광명하안현대 관리실, 광명하안현대아파트 관리사무소",
+          "sourceCounts": {
+            "카카오": 11
+          },
+          "sourceDetails": {
+            "카카오 장소검색": 2,
+            "카카오 주소일치 전화번호 보강": 9
+          },
+          "sourceSummary": "카카오 11회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CONFIRMED",
+      "reportCount": 0,
+      "confidenceScore": 100,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "경기도_광명시_광명하안현대"
+    },
+    {
+      "kaptCode": "",
+      "name": "주공5단지아파트",
+      "aliases": [
+        {
+          "name": "주공5단지아파트",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "광명시",
+      "sido": "경기도",
+      "district": "",
+      "dong": "하안동",
+      "address": "경기 광명시 가림로 38\n경기 광명시 하안동 702",
+      "roadAddress": "경기 광명시 가림로 38",
+      "jibunAddress": "경기 광명시 하안동 702",
+      "phone": "031-482-3798",
+      "phones": [
+        "031-482-3798"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "031-482-3798",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "주공5단지아파트 관리사무소, 주공5단지아파트 관리실, 주공5단지 관리사무소, 주공5단지 관리실, 주공5단지아파트 관리단, 주공5단지 관리단",
+          "sourceCounts": {
+            "카카오": 6
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 6
+          },
+          "sourceSummary": "카카오 6회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CONFIRMED",
+      "reportCount": 0,
+      "confidenceScore": 100,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "경기도_광명시_주공5"
     },
     {
       "kaptCode": "",
