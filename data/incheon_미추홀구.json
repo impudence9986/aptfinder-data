@@ -1,9 +1,9 @@
 {
-  "version": 1794450050,
-  "updatedAt": "2026-11-12 02:20:50",
+  "version": 1795053441,
+  "updatedAt": "2026-11-19 01:57:21",
   "sido": "인천광역시",
   "sigungu": "미추홀구",
-  "count": 81,
+  "count": 83,
   "items": [
     {
       "kaptCode": "",
@@ -24,22 +24,37 @@
       "jibunAddress": "인천 미추홀구 관교동 13-3",
       "phone": "032-435-7557",
       "phones": [
-        "032-435-7557"
+        "032-435-7557",
+        "032-859-6400"
       ],
       "phoneCandidates": [
         {
           "number": "032-435-7557",
           "score": 100,
-          "source": "카카오",
-          "keyword": "미추홀구 아파트 관리사무소, existing, 인천 미추홀구 관교동 13-3 관리사무소, 인천 미추홀구 관교동 13-3 관리실, 인천 미추홀구 인하로430번길 15 관리사무소, 인천 미추홀구 인하로430번길 15 관리실, 미추홀구 관교동동아 관리사무소, 미추홀구 미추홀구 관교동동아 관리사무소, 미추홀구 관교동동아 관리실,",
+          "source": "카카오, 네이버부동산",
+          "keyword": "미추홀구 아파트 관리사무소, existing, naver_land_management",
           "sourceCounts": {
-            "카카오": 12
+            "카카오": 2,
+            "네이버부동산": 1
           },
           "sourceDetails": {
             "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 10
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 12회"
+          "sourceSummary": "네이버부동산 1회 · 카카오 2회"
+        },
+        {
+          "number": "032-859-6400",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         }
       ],
       "households": "",
@@ -631,17 +646,47 @@
       "address": "인천 미추홀구 소성로282번길 5\n인천 미추홀구 문학동 155-3",
       "roadAddress": "인천 미추홀구 소성로282번길 5",
       "jibunAddress": "인천 미추홀구 문학동 155-3",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "064-784-4242",
+      "phones": [
+        "064-784-4242",
+        "052-287-5930"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "064-784-4242",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "052-287-5930",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_미추홀구_풍경채"
@@ -1032,17 +1077,47 @@
       "address": "인천 미추홀구 인주대로11번길 34-57\n인천 미추홀구 숭의동 346-23",
       "roadAddress": "인천 미추홀구 인주대로11번길 34-57",
       "jibunAddress": "인천 미추홀구 숭의동 346-23",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "064-784-4242",
+      "phones": [
+        "064-784-4242",
+        "052-287-5930"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "064-784-4242",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "052-287-5930",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_미추홀구_풍경채"
@@ -1064,17 +1139,47 @@
       "address": "인천 미추홀구 인주대로11번길 34-28\n인천 미추홀구 숭의동 348-9",
       "roadAddress": "인천 미추홀구 인주대로11번길 34-28",
       "jibunAddress": "인천 미추홀구 숭의동 348-9",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "064-784-4242",
+      "phones": [
+        "064-784-4242",
+        "052-287-5930"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "064-784-4242",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "052-287-5930",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_미추홀구_풍경채"
@@ -1830,38 +1935,6 @@
     },
     {
       "kaptCode": "",
-      "name": "자이원룸",
-      "aliases": [
-        {
-          "name": "자이원룸",
-          "source": "카카오"
-        }
-      ],
-      "type": "연립/빌라형",
-      "city": "미추홀구",
-      "sido": "인천광역시",
-      "district": "미추홀구",
-      "dong": "용현동",
-      "address": "인천 미추홀구 한나루로477번길 112\n인천 미추홀구 용현동 94-34",
-      "roadAddress": "인천 미추홀구 한나루로477번길 112",
-      "jibunAddress": "인천 미추홀구 용현동 94-34",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
-      "reportCount": 0,
-      "confidenceScore": 0,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "인천광역시_미추홀구_자이원룸"
-    },
-    {
-      "kaptCode": "",
       "name": "풍경채",
       "aliases": [
         {
@@ -1877,17 +1950,47 @@
       "address": "인천 미추홀구 낙섬중로91번길 16-20\n인천 미추홀구 용현동 565-41",
       "roadAddress": "인천 미추홀구 낙섬중로91번길 16-20",
       "jibunAddress": "인천 미추홀구 용현동 565-41",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "064-784-4242",
+      "phones": [
+        "064-784-4242",
+        "052-287-5930"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "064-784-4242",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "052-287-5930",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_미추홀구_풍경채"
@@ -2070,33 +2173,17 @@
       "address": "인천 미추홀구 경인로325번길 22-10\n인천 미추홀구 주안동 199-1",
       "roadAddress": "인천 미추홀구 경인로325번길 22-10",
       "jibunAddress": "인천 미추홀구 주안동 199-1",
-      "phone": "032-873-0040",
-      "phones": [
-        "032-873-0040"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "032-873-0040",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_미추홀구_리치하임2"
@@ -2183,6 +2270,38 @@
     },
     {
       "kaptCode": "",
+      "name": "더샵아르테아파트 후문",
+      "aliases": [
+        {
+          "name": "더샵아르테아파트 후문",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "미추홀구",
+      "sido": "인천광역시",
+      "district": "미추홀구",
+      "dong": "주안동",
+      "address": "인천 미추홀구 주안동 1548",
+      "roadAddress": "",
+      "jibunAddress": "인천 미추홀구 주안동 1548",
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "UNKNOWN",
+      "reportCount": 0,
+      "confidenceScore": 0,
+      "lastReportedAt": 0,
+      "addressQuality": "JIBUN_ONLY",
+      "sharedKey": "인천광역시_미추홀구_샵아르테후문"
+    },
+    {
+      "kaptCode": "",
       "name": "쌍용주안아파트 관리사무소",
       "aliases": [
         {
@@ -2264,10 +2383,10 @@
     },
     {
       "kaptCode": "",
-      "name": "주안광명8차아파트 관리사무소",
+      "name": "인천관교한신휴플러스아파트",
       "aliases": [
         {
-          "name": "주안광명8차아파트 관리사무소",
+          "name": "인천관교한신휴플러스아파트",
           "source": "카카오"
         }
       ],
@@ -2276,27 +2395,68 @@
       "sido": "인천광역시",
       "district": "미추홀구",
       "dong": "주안동",
-      "address": "인천 미추홀구 인주대로418번길 19\n인천 미추홀구 주안동 1487-7",
-      "roadAddress": "인천 미추홀구 인주대로418번길 19",
-      "jibunAddress": "인천 미추홀구 주안동 1487-7",
-      "phone": "032-435-1576",
+      "address": "인천 미추홀구 경원대로 717\n인천 미추홀구 주안동 1621",
+      "roadAddress": "인천 미추홀구 경원대로 717",
+      "jibunAddress": "인천 미추홀구 주안동 1621",
+      "phone": "032-431-8980",
       "phones": [
-        "032-435-1576"
+        "032-431-8980",
+        "032-428-0525",
+        "032-425-0152",
+        "010-7479-3107"
       ],
       "phoneCandidates": [
         {
-          "number": "032-435-1576",
+          "number": "032-431-8980",
           "score": 100,
           "source": "카카오",
-          "keyword": "미추홀구 아파트 관리사무소, existing, 인천 미추홀구 주안동 1487-7 관리사무소, 인천 미추홀구 주안동 1487-7 관리실, 인천 미추홀구 인주대로418번길 19 관리사무소, 인천 미추홀구 인주대로418번길 19 관리실, 주안동 주안광명8차 관리사무소, 미추홀구 주안광명8차 관리사무소, 미추홀구 미추홀구 주안광",
+          "keyword": "인천 미추홀구 주안동 1621 관리사무소, 인천 미추홀구 주안동 1621 관리실, 인천 미추홀구 경원대로 717 관리사무소, 인천 미추홀구 경원대로 717 관리실, 주안동 인천관교한신휴플러스 관리사무소, 미추홀구 인천관교한신휴플러스 관리사무소, 미추홀구 미추홀구 인천관교한신휴플러스 관리사무소, 미추홀구 인천관교한신휴플러스",
           "sourceCounts": {
-            "카카오": 12
+            "카카오": 8
           },
           "sourceDetails": {
-            "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 10
+            "카카오 주소일치 전화번호 보강": 8
           },
-          "sourceSummary": "카카오 12회"
+          "sourceSummary": "카카오 8회"
+        },
+        {
+          "number": "032-428-0525",
+          "score": 81,
+          "source": "카카오",
+          "keyword": "인천관교한신휴플러스아파트 전화번호, 인천관교한신휴플러스 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "032-425-0152",
+          "score": 79,
+          "source": "카카오",
+          "keyword": "인천관교한신휴플러스아파트 전화번호, 인천관교한신휴플러스 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
+        },
+        {
+          "number": "010-7479-3107",
+          "score": 77,
+          "source": "카카오",
+          "keyword": "인천관교한신휴플러스아파트 전화번호, 인천관교한신휴플러스 전화번호",
+          "sourceCounts": {
+            "카카오": 2
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2
+          },
+          "sourceSummary": "카카오 2회"
         }
       ],
       "households": "",
@@ -2309,7 +2469,7 @@
       "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "인천광역시_미추홀구_주안광명8차"
+      "sharedKey": "인천광역시_미추홀구_인천관교한신휴플러스"
     },
     {
       "kaptCode": "",
@@ -2965,14 +3125,14 @@
       "address": "인천 미추홀구 학익로80번길 11\n인천 미추홀구 학익동",
       "roadAddress": "인천 미추홀구 학익로80번길 11",
       "jibunAddress": "인천 미추홀구 학익동",
-      "phone": "070-7633-6048",
+      "phone": "010-6655-3919",
       "phones": [
-        "070-7633-6048",
-        "010-6655-3919"
+        "010-6655-3919",
+        "070-7633-6048"
       ],
       "phoneCandidates": [
         {
-          "number": "070-7633-6048",
+          "number": "010-6655-3919",
           "score": 79,
           "source": "카카오",
           "keyword": "시티오씨엘3단지아파트 전화번호, 시티오씨엘3단지 전화번호",
@@ -2985,7 +3145,7 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "010-6655-3919",
+          "number": "070-7633-6048",
           "score": 77,
           "source": "카카오",
           "keyword": "시티오씨엘3단지아파트 전화번호, 시티오씨엘3단지 전화번호",
@@ -3027,14 +3187,14 @@
       "address": "인천 미추홀구 독배로 311\n인천 미추홀구 용현동 665-12",
       "roadAddress": "인천 미추홀구 독배로 311",
       "jibunAddress": "인천 미추홀구 용현동 665-12",
-      "phone": "070-7633-6048",
+      "phone": "010-6655-3919",
       "phones": [
-        "070-7633-6048",
-        "010-6655-3919"
+        "010-6655-3919",
+        "070-7633-6048"
       ],
       "phoneCandidates": [
         {
-          "number": "070-7633-6048",
+          "number": "010-6655-3919",
           "score": 79,
           "source": "카카오",
           "keyword": "시티오씨엘3단지오피스텔 전화번호, 시티오씨엘3단지 전화번호",
@@ -3047,7 +3207,7 @@
           "sourceSummary": "카카오 2회"
         },
         {
-          "number": "010-6655-3919",
+          "number": "070-7633-6048",
           "score": 77,
           "source": "카카오",
           "keyword": "시티오씨엘3단지오피스텔 전화번호, 시티오씨엘3단지 전화번호",
@@ -3199,6 +3359,87 @@
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_미추홀구_포레나인천학익"
+    },
+    {
+      "kaptCode": "",
+      "name": "학익1차현광아파트 관리사무소",
+      "aliases": [
+        {
+          "name": "학익1차현광아파트 관리사무소",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "미추홀구",
+      "sido": "인천광역시",
+      "district": "미추홀구",
+      "dong": "학익동",
+      "address": "인천 미추홀구 한나루로357번길 165\n인천 미추홀구 학익동 711-3",
+      "roadAddress": "인천 미추홀구 한나루로357번길 165",
+      "jibunAddress": "인천 미추홀구 학익동 711-3",
+      "phone": "032-865-0120",
+      "phones": [
+        "032-865-0120"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "032-865-0120",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "미추홀구 아파트 관리사무소, existing, 인천 미추홀구 학익동 711-3 관리사무소, 인천 미추홀구 학익동 711-3 관리실, 인천 미추홀구 한나루로357번길 165 관리사무소, 인천 미추홀구 한나루로357번길 165 관리실, 학익동 학익1차현광 관리사무소, 미추홀구 학익1차현광 관리사무소, 미추홀구 미추홀구 학익1",
+          "sourceCounts": {
+            "카카오": 12
+          },
+          "sourceDetails": {
+            "카카오 장소검색": 2,
+            "카카오 주소일치 전화번호 보강": 10
+          },
+          "sourceSummary": "카카오 12회"
+        }
+      ],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "CONFIRMED",
+      "reportCount": 0,
+      "confidenceScore": 100,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "인천광역시_미추홀구_학익1차현광"
+    },
+    {
+      "kaptCode": "",
+      "name": "학익SKVIEW아파트",
+      "aliases": [
+        {
+          "name": "학익SKVIEW아파트",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "미추홀구",
+      "sido": "인천광역시",
+      "district": "미추홀구",
+      "dong": "학익동",
+      "address": "인천 미추홀구 매소홀로 385\n인천 미추홀구 학익동 757",
+      "roadAddress": "인천 미추홀구 매소홀로 385",
+      "jibunAddress": "인천 미추홀구 학익동 757",
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "UNKNOWN",
+      "reportCount": 0,
+      "confidenceScore": 0,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "인천광역시_미추홀구_학익skview"
     },
     {
       "kaptCode": "",

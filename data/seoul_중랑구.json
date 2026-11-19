@@ -1,42 +1,10 @@
 {
-  "version": 1794444294,
-  "updatedAt": "2026-11-12 00:44:54",
+  "version": 1795046983,
+  "updatedAt": "2026-11-19 00:09:43",
   "sido": "서울특별시",
   "sigungu": "중랑구",
-  "count": 52,
+  "count": 51,
   "items": [
-    {
-      "kaptCode": "",
-      "name": "YMS시티오피스텔",
-      "aliases": [
-        {
-          "name": "YMS시티오피스텔",
-          "source": "카카오"
-        }
-      ],
-      "type": "오피스텔",
-      "city": "중랑구",
-      "sido": "서울특별시",
-      "district": "중랑구",
-      "dong": "망우동",
-      "address": "서울 중랑구 망우로58길 45\n서울 중랑구 망우동 508-33",
-      "roadAddress": "서울 중랑구 망우로58길 45",
-      "jibunAddress": "서울 중랑구 망우동 508-33",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
-      "reportCount": 0,
-      "confidenceScore": 0,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "서울특별시_중랑구_yms시티"
-    },
     {
       "kaptCode": "",
       "name": "상봉센트럴아이파크아파트 (2030년03월예정)",
@@ -647,17 +615,47 @@
       "address": "서울 중랑구 용마산로94길 30-3\n서울 중랑구 면목동 5-14",
       "roadAddress": "서울 중랑구 용마산로94길 30-3",
       "jibunAddress": "서울 중랑구 면목동 5-14",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "064-784-4242",
+      "phones": [
+        "064-784-4242",
+        "052-287-5930"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "064-784-4242",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        },
+        {
+          "number": "052-287-5930",
+          "score": 63,
+          "source": "카카오",
+          "keyword": "풍경채 전화번호",
+          "sourceCounts": {
+            "카카오": 1
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 1
+          },
+          "sourceSummary": "카카오 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 63,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_풍경채"
@@ -1064,6 +1062,38 @@
     },
     {
       "kaptCode": "",
+      "name": "묵동자이2단지 주차장입구",
+      "aliases": [
+        {
+          "name": "묵동자이2단지 주차장입구",
+          "source": "카카오"
+        }
+      ],
+      "type": "아파트",
+      "city": "중랑구",
+      "sido": "서울특별시",
+      "district": "중랑구",
+      "dong": "묵동",
+      "address": "서울 중랑구 동일로 932\n서울 중랑구 묵동 190-3",
+      "roadAddress": "서울 중랑구 동일로 932",
+      "jibunAddress": "서울 중랑구 묵동 190-3",
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
+      "households": "",
+      "source": "카카오 장소검색",
+      "verifiedAt": "카카오 장소검색",
+      "detailUpdatedAt": 0,
+      "listUpdatedAt": 0,
+      "phoneStatus": "UNKNOWN",
+      "reportCount": 0,
+      "confidenceScore": 0,
+      "lastReportedAt": 0,
+      "addressQuality": "ROAD_AND_JIBUN",
+      "sharedKey": "서울특별시_중랑구_묵동자이2주차장입구"
+    },
+    {
+      "kaptCode": "",
       "name": "브르넨상봉오피스텔",
       "aliases": [
         {
@@ -1337,10 +1367,10 @@
     },
     {
       "kaptCode": "",
-      "name": "시네마시티오피스텔 관리사무소",
+      "name": "시네마시티오피스텔",
       "aliases": [
         {
-          "name": "시네마시티오피스텔 관리사무소",
+          "name": "시네마시티오피스텔",
           "source": "카카오"
         }
       ],
@@ -1361,15 +1391,14 @@
           "number": "02-2209-7427",
           "score": 100,
           "source": "카카오",
-          "keyword": "중랑구 오피스텔 관리사무소, existing, 서울 중랑구 상봉동 92-2 관리사무소, 서울 중랑구 상봉동 92-2 관리실, 서울 중랑구 망우로 328 관리사무소, 서울 중랑구 망우로 328 관리실, 상봉동 시네마시티 관리사무소, 중랑구 시네마시티 관리사무소, 중랑구 중랑구 시네마시티 관리사무소, 중랑구 시네마시티 관리실",
+          "keyword": "서울 중랑구 상봉동 92-2 관리사무소, 서울 중랑구 상봉동 92-2 관리실, 서울 중랑구 망우로 328 관리사무소, 서울 중랑구 망우로 328 관리실, 상봉동 시네마시티 관리사무소, 중랑구 시네마시티 관리사무소, 중랑구 중랑구 시네마시티 관리사무소, 중랑구 시네마시티 관리실, 시네마시티오피스텔 관리사무소, 시네마시티오피",
           "sourceCounts": {
-            "카카오": 12
+            "카카오": 16
           },
           "sourceDetails": {
-            "카카오 장소검색": 2,
-            "카카오 주소일치 전화번호 보강": 10
+            "카카오 주소일치 전화번호 보강": 16
           },
-          "sourceSummary": "카카오 12회"
+          "sourceSummary": "카카오 16회"
         }
       ],
       "households": "",
@@ -1447,38 +1476,6 @@
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_중랑구_힐스테이트상봉센트럴"
-    },
-    {
-      "kaptCode": "",
-      "name": "동성5차아파트 관리사무소",
-      "aliases": [
-        {
-          "name": "동성5차아파트 관리사무소",
-          "source": "카카오"
-        }
-      ],
-      "type": "아파트",
-      "city": "중랑구",
-      "sido": "서울특별시",
-      "district": "중랑구",
-      "dong": "신내동",
-      "address": "서울 중랑구 봉화산로 233-12\n서울 중랑구 신내동 788",
-      "roadAddress": "서울 중랑구 봉화산로 233-12",
-      "jibunAddress": "서울 중랑구 신내동 788",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
-      "households": "",
-      "source": "카카오 장소검색",
-      "verifiedAt": "카카오 장소검색",
-      "detailUpdatedAt": 0,
-      "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
-      "reportCount": 0,
-      "confidenceScore": 0,
-      "lastReportedAt": 0,
-      "addressQuality": "ROAD_AND_JIBUN",
-      "sharedKey": "서울특별시_중랑구_동성5차"
     },
     {
       "kaptCode": "",
@@ -2038,47 +2035,17 @@
       "address": "서울 중랑구 중화동 310-6",
       "roadAddress": "",
       "jibunAddress": "서울 중랑구 중화동 310-6",
-      "phone": "02-433-2389",
-      "phones": [
-        "02-433-2389",
-        "02-432-0960"
-      ],
-      "phoneCandidates": [
-        {
-          "number": "02-433-2389",
-          "score": 100,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        },
-        {
-          "number": "02-432-0960",
-          "score": 97,
-          "source": "네이버부동산",
-          "keyword": "naver_land_management",
-          "sourceCounts": {
-            "네이버부동산": 1
-          },
-          "sourceDetails": {
-            "네이버부동산 관리사무소": 1
-          },
-          "sourceSummary": "네이버부동산 1회"
-        }
-      ],
+      "phone": "",
+      "phones": [],
+      "phoneCandidates": [],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CONFIRMED",
+      "phoneStatus": "UNKNOWN",
       "reportCount": 0,
-      "confidenceScore": 100,
+      "confidenceScore": 0,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "서울특별시_중랑구_리버센skview롯데캐슬정문"
