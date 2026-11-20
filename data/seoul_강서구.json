@@ -1,6 +1,6 @@
 {
-  "version": 1794975058,
-  "updatedAt": "2026-11-18 04:10:58",
+  "version": 1795215959,
+  "updatedAt": "2026-11-20 23:05:59",
   "sido": "서울특별시",
   "sigungu": "강서구",
   "count": 93,
@@ -2800,17 +2800,33 @@
       "address": "서울 강서구 방화대로47길 55\n서울 강서구 방화동 832",
       "roadAddress": "서울 강서구 방화대로47길 55",
       "jibunAddress": "서울 강서구 방화동 832",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-2665-7166",
+      "phones": [
+        "02-2665-7166"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-2665-7166",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_강서구_방화3청솔"
