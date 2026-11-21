@@ -1,6 +1,6 @@
 {
-  "version": 1795217249,
-  "updatedAt": "2026-11-20 23:27:29",
+  "version": 1795299053,
+  "updatedAt": "2026-11-21 22:10:53",
   "sido": "인천광역시",
   "sigungu": "계양구",
   "count": 58,
@@ -1385,28 +1385,57 @@
       "address": "인천 계양구 도두리로 74\n인천 계양구 작전동 912-5",
       "roadAddress": "인천 계양구 도두리로 74",
       "jibunAddress": "인천 계양구 작전동 912-5",
-      "phone": "032-554-5371",
+      "phone": "032-552-6650",
       "phones": [
+        "032-552-6650",
         "032-554-5371",
+        "032-285-6650",
         "010-5785-1154"
       ],
       "phoneCandidates": [
         {
-          "number": "032-554-5371",
-          "score": 79,
-          "source": "카카오",
-          "keyword": "도두리마을대동아파트 전화번호, 도두리마을대동 전화번호",
+          "number": "032-552-6650",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 2
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "032-554-5371",
+          "score": 100,
+          "source": "카카오",
+          "keyword": "도두리마을대동아파트 전화번호, 도두리마을대동 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 3회"
+        },
+        {
+          "number": "032-285-6650",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
         },
         {
           "number": "010-5785-1154",
-          "score": 77,
+          "score": 85,
           "source": "카카오",
           "keyword": "도두리마을대동아파트 전화번호, 도두리마을대동 전화번호",
           "sourceCounts": {
@@ -1423,9 +1452,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 79,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "인천광역시_계양구_도두리마을대동"

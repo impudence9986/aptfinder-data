@@ -1,6 +1,6 @@
 {
-  "version": 1795216776,
-  "updatedAt": "2026-11-20 23:19:36",
+  "version": 1795299588,
+  "updatedAt": "2026-11-21 22:19:48",
   "sido": "서울특별시",
   "sigungu": "영등포구",
   "count": 96,
@@ -1653,17 +1653,33 @@
       "address": "서울 영등포구 문래동3가 27-1",
       "roadAddress": "",
       "jibunAddress": "서울 영등포구 문래동3가 27-1",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-3463-7774",
+      "phones": [
+        "02-3463-7774"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-3463-7774",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "JIBUN_ONLY",
       "sharedKey": "서울특별시_영등포구_해링턴플레이스문래2030년03월예정"

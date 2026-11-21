@@ -1,6 +1,6 @@
 {
-  "version": 1795048831,
-  "updatedAt": "2026-11-19 00:40:31",
+  "version": 1795297390,
+  "updatedAt": "2026-11-21 21:43:10",
   "sido": "부산광역시",
   "sigungu": "사상구",
   "count": 45,
@@ -71,17 +71,47 @@
       "address": "부산 사상구 광장로86번길 38\n부산 사상구 괘법동 552-35",
       "roadAddress": "부산 사상구 광장로86번길 38",
       "jibunAddress": "부산 사상구 괘법동 552-35",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-322-9990",
+      "phones": [
+        "051-322-9990",
+        "051-315-4345"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-322-9990",
+          "score": 53,
+          "source": "네이버",
+          "keyword": "사상구 강일스퀘아 관리사무소, 사상구 사상구 강일스퀘아 관리사무소",
+          "sourceCounts": {
+            "네이버": 2
+          },
+          "sourceDetails": {
+            "네이버 카페검색": 2
+          },
+          "sourceSummary": "네이버 2회"
+        },
+        {
+          "number": "051-315-4345",
+          "score": 42,
+          "source": "네이버",
+          "keyword": "강일스퀘아 전화번호",
+          "sourceCounts": {
+            "네이버": 1
+          },
+          "sourceDetails": {
+            "네이버 웹검색": 1
+          },
+          "sourceSummary": "네이버 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 53,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_사상구_강일스퀘아"
