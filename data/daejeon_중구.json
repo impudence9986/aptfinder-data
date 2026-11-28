@@ -1,6 +1,6 @@
 {
-  "version": 1795744302,
-  "updatedAt": "2026-11-27 01:51:42",
+  "version": 1795825475,
+  "updatedAt": "2026-11-28 00:24:35",
   "sido": "대전광역시",
   "sigungu": "중구",
   "count": 47,
@@ -333,16 +333,17 @@
       "phoneCandidates": [
         {
           "number": "032-555-4455",
-          "score": 63,
+          "score": 73,
           "source": "카카오",
-          "keyword": "소풍호텔 전화번호",
+          "keyword": "소풍호텔 전화번호, existing",
           "sourceCounts": {
-            "카카오": 1
+            "카카오": 2
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 1
+            "카카오 주소일치 전화번호 보강": 1,
+            "카카오 장소검색": 1
           },
-          "sourceSummary": "카카오 1회"
+          "sourceSummary": "카카오 2회"
         },
         {
           "number": "062-524-6635",
@@ -365,7 +366,7 @@
       "listUpdatedAt": 0,
       "phoneStatus": "CANDIDATE",
       "reportCount": 0,
-      "confidenceScore": 63,
+      "confidenceScore": 73,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_소풍호텔"
@@ -1809,17 +1810,61 @@
       "address": "대전 중구 중촌로 15\n대전 중구 중촌동 474",
       "roadAddress": "대전 중구 중촌로 15",
       "jibunAddress": "대전 중구 중촌동 474",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "042-224-6123",
+      "phones": [
+        "042-224-6123",
+        "042-822-8827",
+        "042-525-2717"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "042-224-6123",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-822-8827",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "042-525-2717",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "대전광역시_중구_중촌skview"

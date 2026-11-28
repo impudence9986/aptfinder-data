@@ -1,6 +1,6 @@
 {
-  "version": 1795666830,
-  "updatedAt": "2026-11-26 04:20:30",
+  "version": 1795825309,
+  "updatedAt": "2026-11-28 00:21:49",
   "sido": "부산광역시",
   "sigungu": "부산진구",
   "count": 78,
@@ -655,23 +655,38 @@
       "address": "부산 부산진구 백양대로300번길 20\n부산 부산진구 개금동 455",
       "roadAddress": "부산 부산진구 백양대로300번길 20",
       "jibunAddress": "부산 부산진구 개금동 455",
-      "phone": "051-895-8988",
+      "phone": "051-895-8586",
       "phones": [
+        "051-895-8586",
         "051-895-8988"
       ],
       "phoneCandidates": [
         {
-          "number": "051-895-8988",
-          "score": 77,
-          "source": "카카오",
-          "keyword": "신개금LG1차아파트 전화번호, 신개금LG1차 전화번호",
+          "number": "051-895-8586",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
           "sourceCounts": {
-            "카카오": 2
+            "네이버부동산": 1
           },
           "sourceDetails": {
-            "카카오 주소일치 전화번호 보강": 2
+            "네이버부동산 관리사무소": 1
           },
-          "sourceSummary": "카카오 2회"
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-895-8988",
+          "score": 98,
+          "source": "카카오",
+          "keyword": "신개금LG1차아파트 전화번호, 신개금LG1차 전화번호, existing",
+          "sourceCounts": {
+            "카카오": 3
+          },
+          "sourceDetails": {
+            "카카오 주소일치 전화번호 보강": 2,
+            "카카오 장소검색": 1
+          },
+          "sourceSummary": "카카오 3회"
         }
       ],
       "households": "",
@@ -679,9 +694,9 @@
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "CANDIDATE",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 77,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_부산진구_신개금lg1차"
@@ -3607,17 +3622,47 @@
       "address": "부산 부산진구 성지로 117\n부산 부산진구 초읍동 681",
       "roadAddress": "부산 부산진구 성지로 117",
       "jibunAddress": "부산 부산진구 초읍동 681",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "051-717-0516",
+      "phones": [
+        "051-717-0516",
+        "051-803-5700"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "051-717-0516",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        },
+        {
+          "number": "051-803-5700",
+          "score": 97,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "부산광역시_부산진구_초읍하늘채포레스원"

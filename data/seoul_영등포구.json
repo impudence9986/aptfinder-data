@@ -1,6 +1,6 @@
 {
-  "version": 1795664061,
-  "updatedAt": "2026-11-26 03:34:21",
+  "version": 1795825098,
+  "updatedAt": "2026-11-28 00:18:18",
   "sido": "서울특별시",
   "sigungu": "영등포구",
   "count": 96,
@@ -3773,17 +3773,33 @@
       "address": "서울 영등포구 여의대로 60\n서울 영등포구 여의도동 23-4",
       "roadAddress": "서울 영등포구 여의대로 60",
       "jibunAddress": "서울 영등포구 여의도동 23-4",
-      "phone": "",
-      "phones": [],
-      "phoneCandidates": [],
+      "phone": "02-780-1300",
+      "phones": [
+        "02-780-1300"
+      ],
+      "phoneCandidates": [
+        {
+          "number": "02-780-1300",
+          "score": 100,
+          "source": "네이버부동산",
+          "keyword": "naver_land_management",
+          "sourceCounts": {
+            "네이버부동산": 1
+          },
+          "sourceDetails": {
+            "네이버부동산 관리사무소": 1
+          },
+          "sourceSummary": "네이버부동산 1회"
+        }
+      ],
       "households": "",
       "source": "카카오 장소검색",
       "verifiedAt": "카카오 장소검색",
       "detailUpdatedAt": 0,
       "listUpdatedAt": 0,
-      "phoneStatus": "UNKNOWN",
+      "phoneStatus": "CONFIRMED",
       "reportCount": 0,
-      "confidenceScore": 0,
+      "confidenceScore": 100,
       "lastReportedAt": 0,
       "addressQuality": "ROAD_AND_JIBUN",
       "sharedKey": "서울특별시_영등포구_앙사나레지던스여의도서울"
